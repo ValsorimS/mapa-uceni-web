@@ -7113,6 +7113,576 @@
    "skillIds": [
     "tv4-zdravotni-cviceni"
    ]
+  },
+  {
+   "id": "HV-3-1-01",
+   "fieldId": "hudebni-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Hudební činnosti 1. období",
+   "text": "zpívá v jednohlase",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv1-zpev"
+   ]
+  },
+  {
+   "id": "HV-3-1-02",
+   "fieldId": "hudebni-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Hudební činnosti 1. období",
+   "text": "rytmizuje a melodizuje jednoduché texty",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv2-rytmus-nastroje"
+   ]
+  },
+  {
+   "id": "HV-3-1-03",
+   "fieldId": "hudebni-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Hudební činnosti 1. období",
+   "text": "využívá jednoduché hudební nástroje k doprovodné hře",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv2-rytmus-nastroje"
+   ]
+  },
+  {
+   "id": "HV-3-1-04",
+   "fieldId": "hudebni-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Hudební činnosti 1. období",
+   "text": "reaguje pohybem na znějící hudbu, pohybem vyjadřuje metrum, tempo, dynamiku, směr melodie",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv3-pohyb-poslech"
+   ]
+  },
+  {
+   "id": "HV-3-1-05",
+   "fieldId": "hudebni-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Hudební činnosti 1. období",
+   "text": "rozlišuje jednotlivé kvality tónů, rozpozná výrazné tempové a dynamické změny v proudu znějící hudby",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv3-pohyb-poslech"
+   ]
+  },
+  {
+   "id": "HV-3-1-06",
+   "fieldId": "hudebni-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Hudební činnosti 1. období",
+   "text": "rozpozná v proudu znějící hudby některé hudební nástroje, odliší hudbu vokální, instrumentální a vokálně instrumentální",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv3-pohyb-poslech"
+   ]
+  },
+  {
+   "id": "HV-5-1-01",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Hudební činnosti 2. období",
+   "text": "zpívá v jednohlase či dvojhlase v durových i mollových tóninách a při zpěvu využívá získané pěvecké dovednosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv4-zpev-noty"
+   ]
+  },
+  {
+   "id": "HV-5-1-02",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Hudební činnosti 2. období",
+   "text": "realizuje podle svých individuálních schopností a dovedností (zpěvem, hrou, tancem, doprovodnou hrou) jednoduchou melodii či píseň zapsanou pomocí not",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv4-zpev-noty"
+   ]
+  },
+  {
+   "id": "HV-5-1-03",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Hudební činnosti 2. období",
+   "text": "využívá jednoduché hudební nástroje k doprovodné hře i k reprodukci jednoduchých motivů skladeb a písní",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv5-doprovod-improvizace"
+   ]
+  },
+  {
+   "id": "HV-5-1-04",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Hudební činnosti 2. období",
+   "text": "rozpozná hudební formu jednoduché písně či skladby",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv5-poslech-forma-pohyb"
+   ]
+  },
+  {
+   "id": "HV-5-1-05",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Hudební činnosti 2. období",
+   "text": "vytváří jednoduché předehry, mezihry a dohry a provádí elementární hudební improvizace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv5-doprovod-improvizace"
+   ]
+  },
+  {
+   "id": "HV-5-1-06",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Hudební činnosti 2. období",
+   "text": "rozpozná v proudu znějící hudby některé z užitých hudebních výrazových prostředků",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv5-poslech-forma-pohyb"
+   ]
+  },
+  {
+   "id": "HV-5-1-07",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Hudební činnosti 2. období",
+   "text": "ztvárňuje hudbu pohybem s využitím tanečních kroků, na základě individuálních schopností a dovedností vytváří pohybové improvizace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv5-poslech-forma-pohyb"
+   ]
+  },
+  {
+   "id": "HV-9-1-01",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-stupen",
+   "topic": "Hudební činnosti 2. stupeň",
+   "text": "využívá své individuální hudební schopnosti a dovednosti při hudebních aktivitách",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv6-hudebni-projev"
+   ]
+  },
+  {
+   "id": "HV-9-1-02",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-stupen",
+   "topic": "Hudební činnosti 2. stupeň",
+   "text": "uplatňuje získané pěvecké dovednosti a návyky při zpěvu i při mluvním projevu v běžném životě; zpívá dle svých dispozic intonačně čistě a rytmicky přesně v jednohlase i vícehlase",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv6-hudebni-projev"
+   ]
+  },
+  {
+   "id": "HV-9-1-03",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-stupen",
+   "topic": "Hudební činnosti 2. stupeň",
+   "text": "reprodukuje na základě svých individuálních hudebních schopností a dovedností různé motivy, témata i části skladeb, vytváří jednoduché doprovody, provádí jednoduché hudební improvizace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv6-hudebni-projev"
+   ]
+  },
+  {
+   "id": "HV-9-1-04",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-stupen",
+   "topic": "Hudební činnosti 2. stupeň",
+   "text": "rozpozná některé z tanců různých stylových období, zvolí vhodný typ hudebně pohybových prvků k poslouchané hudbě",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv7-poslech-zanry-dejiny"
+   ]
+  },
+  {
+   "id": "HV-9-1-05",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-stupen",
+   "topic": "Hudební činnosti 2. stupeň",
+   "text": "orientuje se v proudu znějící hudby, přistupuje k hudebnímu dílu jako k logicky utvářenému celku",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv7-poslech-zanry-dejiny"
+   ]
+  },
+  {
+   "id": "HV-9-1-06",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-stupen",
+   "topic": "Hudební činnosti 2. stupeň",
+   "text": "zařadí na základě individuálních schopností a získaných vědomostí slyšenou hudbu do stylového období",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv7-poslech-zanry-dejiny"
+   ]
+  },
+  {
+   "id": "HV-9-1-07",
+   "fieldId": "hudebni-vychova",
+   "periodId": "2-stupen",
+   "topic": "Hudební činnosti 2. stupeň",
+   "text": "vyhledává souvislosti mezi hudbou a jinými druhy umění",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "hv7-poslech-zanry-dejiny"
+   ]
+  },
+  {
+   "id": "VV-3-1-01",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 1. období",
+   "text": "rozpoznává linie, tvary, objemy, barvy, objekty; porovnává je a třídí na základě zkušeností, vjemů, zážitků a představ",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv1-prvky-experiment"
+   ]
+  },
+  {
+   "id": "VV-3-1-02",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 1. období",
+   "text": "v tvorbě projevuje své vlastní zkušenosti; uplatňuje při tom v plošném i prostorovém uspořádání linie, tvary, objemy, barvy, objekty a další prvky a jejich kombinace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv1-prvky-experiment"
+   ]
+  },
+  {
+   "id": "VV-3-1-03",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 1. období",
+   "text": "vnímá události různými smysly a vizuálně je vyjadřuje",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv2-smysly-vyjadreni"
+   ]
+  },
+  {
+   "id": "VV-3-1-04",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 1. období",
+   "text": "interpretuje podle svých schopností různá vizuálně obrazná vyjádření; odlišné interpretace porovnává se svou dosavadní zkušeností",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv3-interpretace-komunikace"
+   ]
+  },
+  {
+   "id": "VV-3-1-05",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 1. období",
+   "text": "na základě vlastní zkušenosti nalézá a do komunikace zapojuje obsah vizuálně obrazných vyjádření, která samostatně vytvořil, vybral či upravil",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv3-interpretace-komunikace"
+   ]
+  },
+  {
+   "id": "VV-5-1-01",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 2. období",
+   "text": "při vlastních tvůrčích činnostech užívá prvky vizuálně obrazného vyjádření; porovnává je na základě vztahů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv4-prvky-kompozice"
+   ]
+  },
+  {
+   "id": "VV-5-1-02",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 2. období",
+   "text": "při tvorbě vizuálně obrazných vyjádření se zaměřuje na projevení vlastních zkušeností",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv4-prvky-kompozice"
+   ]
+  },
+  {
+   "id": "VV-5-1-03",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 2. období",
+   "text": "nalézá vhodné prostředky pro vizuálně obrazná vyjádření vzniklá na základě vztahu zrakového vnímání k vnímání dalšími smysly; uplatňuje je v plošné, objemové i prostorové tvorbě",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv5-smysly-prostor-techniky"
+   ]
+  },
+  {
+   "id": "VV-5-1-04",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 2. období",
+   "text": "osobitost svého vnímání uplatňuje v přístupu k realitě, k tvorbě a interpretaci vizuálně obrazného vyjádření; pro vyjádření nových i neobvyklých pocitů a prožitků svobodně volí a kombinuje prostředky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv5-smysly-prostor-techniky"
+   ]
+  },
+  {
+   "id": "VV-5-1-05",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 2. období",
+   "text": "porovnává různé interpretace vizuálně obrazného vyjádření a přistupuje k nim jako ke zdroji inspirace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv5-interpretace-obsah"
+   ]
+  },
+  {
+   "id": "VV-5-1-06",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Výtvarná tvorba a vnímání 2. období",
+   "text": "nalézá a do komunikace zapojuje obsah vizuálně obrazných vyjádření, která samostatně vytvořil, vybral či upravil",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv5-interpretace-obsah"
+   ]
+  },
+  {
+   "id": "VV-9-1-01",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Výtvarná tvorba a vizuální kultura 2. stupeň",
+   "text": "vybírá, vytváří a pojmenovává prvky vizuálně obrazných vyjádření a jejich vztahů; uplatňuje je pro vyjádření vlastních zkušeností, vjemů, představ a poznatků; variuje různé prvky a jejich vztahy pro získání osobitých výsledků",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv7-vizualni-prostredky"
+   ]
+  },
+  {
+   "id": "VV-9-1-02",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Výtvarná tvorba a vizuální kultura 2. stupeň",
+   "text": "zaznamenává vizuální zkušenost, i zkušenosti získané ostatními smysly, zaznamenává podněty z představ a fantazie",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv7-vizualni-prostredky"
+   ]
+  },
+  {
+   "id": "VV-9-1-03",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Výtvarná tvorba a vizuální kultura 2. stupeň",
+   "text": "zachycuje jevy a procesy v proměnách a vztazích; k tvorbě užívá některé metody uplatňované v současném výtvarném umění a digitálních médiích – počítačová grafika, fotografie, video, animace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv8-digitalni-media-interpretace"
+   ]
+  },
+  {
+   "id": "VV-9-1-04",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Výtvarná tvorba a vizuální kultura 2. stupeň",
+   "text": "vybírá, kombinuje a vytváří prostředky pro vlastní osobité vyjádření",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv7-vizualni-prostredky"
+   ]
+  },
+  {
+   "id": "VV-9-1-05",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Výtvarná tvorba a vizuální kultura 2. stupeň",
+   "text": "rozliší působení vizuálně obrazného vyjádření v rovině smyslového účinku, v rovině subjektivního účinku",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv8-digitalni-media-interpretace"
+   ]
+  },
+  {
+   "id": "VV-9-1-06",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Výtvarná tvorba a vizuální kultura 2. stupeň",
+   "text": "interpretuje umělecká vizuálně obrazná vyjádření současnosti i minulosti; vychází při tom ze svých znalostí historických souvislostí i z osobních zkušeností a prožitků",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv8-digitalni-media-interpretace"
+   ]
+  },
+  {
+   "id": "VV-9-1-07",
+   "fieldId": "vytvarna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Výtvarná tvorba a vizuální kultura 2. stupeň",
+   "text": "ověřuje komunikační účinky vybraných, upravených či samostatně vytvořených vizuálně obrazných vyjádření",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.7"
+   },
+   "skillIds": [
+    "vv8-digitalni-media-interpretace"
+   ]
   }
  ]
 }

@@ -219,38 +219,372 @@
   "id": "hv1-zpev",
   "r": 1,
   "p": "hv",
-  "t": "Zpěv, rytmus a písničky",
-  "co": "Hudební výchova v první třídě je hlavně o radosti: společný zpěv jednoduchých písní, vytleskávání rytmu, hra na tělo a na Orffovy nástroje (dřívka, triangl, bubínek). Rozvíjí se hudební sluch a paměť — a nenápadně i řeč a soustředění.",
+  "t": "Hudebka: zpěv a hlas",
+  "co": "Na začátku hudební výchovy jde hlavně o jistotu v hlasu a společný prožitek. Dítě zpívá jednoduché lidové i umělé písně v jednohlase, učí se dýchat, vyslovovat a nebát se zpívat s ostatními.",
   "jak": [
-   "Zazpívá s ostatními několik jednoduchých písní.",
-   "Vytleská rytmus slova nebo krátkého říkadla.",
-   "Rozliší zvuk vysoký × hluboký, rychlý × pomalý."
+   "Zazpívá s třídou několik jednoduchých písní v přirozené hlasové poloze.",
+   "Drží základní melodii a ví, kdy začít a skončit.",
+   "Při zpěvu zřetelně vyslovuje a dýchá po kratších frázích."
   ],
-  "dal": "Základy notového zápisu a řízený poslech ve 4.–5. ročníku.",
-  "dalId": "hv5-noty",
+  "dal": "Rytmus, melodizace říkadel a jednoduché nástroje.",
+  "dalId": "hv2-rytmus-nastroje",
   "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 1. období.",
   "doma": [
-   "Zpívejte v autě a u vaření — jistota přijde opakováním.",
-   "Vytleskávejte jména členů rodiny po slabikách."
+   "Zpívejte písně, které dítě zná ze školy, bez opravování každého tónu.",
+   "Pomáhá pravidelné opakování krátkých písniček při běžných činnostech."
+  ],
+  "rvpRefs": [
+   "HV-3-1-01"
   ]
  },
  {
-  "id": "vv1-tvoreni",
+  "id": "hv2-rytmus-nastroje",
+  "r": 2,
+  "p": "hv",
+  "t": "Rytmus, říkadla a Orffovy nástroje",
+  "co": "Dítě rytmizuje slova a říkadla, doprovází písně hrou na tělo nebo jednoduché nástroje a zkouší, jak se z řeči může stát hudba. Nejde o výkon, ale o přesné slyšení pulzu, tempa a jednoduchého doprovodu.",
+  "jak": [
+   "Vytleská rytmus krátkého říkadla nebo svého jména.",
+   "Doprovodí píseň jednoduchým pravidelným rytmem.",
+   "Pozná, kdy má hrát potichu, nahlas, rychleji nebo pomaleji."
+  ],
+  "dal": "Pohybové vyjádření hudby a první poslechové rozlišování.",
+  "dalId": "hv3-pohyb-poslech",
+  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 1. období.",
+  "doma": [
+   "Tleskejte slabiky slov a hledejte, která slova mají stejný rytmus.",
+   "Stačí vařečky, krabička nebo ruce; důležitý je pravidelný pulz."
+  ],
+  "rvpRefs": [
+   "HV-3-1-02",
+   "HV-3-1-03"
+  ]
+ },
+ {
+  "id": "hv3-pohyb-poslech",
+  "r": 3,
+  "p": "hv",
+  "t": "Hudební pohyb, poslech a nástroje",
+  "co": "Ve 3. ročníku se propojuje poslech, pohyb a poznávání hudebních nástrojů. Dítě reaguje na tempo, dynamiku a směr melodie, rozlišuje kvality tónů a učí se slyšet rozdíl mezi zpěvem, nástroji a jejich kombinací.",
+  "jak": [
+   "Vyjádří pohybem rychlou, pomalou, silnou nebo jemnou hudbu.",
+   "Rozliší vysoký a hluboký tón, silný a slabý zvuk.",
+   "Pozná některé běžné nástroje podle zvuku."
+  ],
+  "dal": "Ve 4.–5. ročníku přibude notový zápis, dvojhlas a vědomější práce s písní.",
+  "dalId": "hv4-zpev-noty",
+  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 1. období.",
+  "doma": [
+   "Pusťte krátkou skladbu a nechte dítě ukázat rukou, jestli melodie stoupá nebo klesá.",
+   "Hrajte hádání nástrojů podle zvuku z krátkých ukázek."
+  ],
+  "rvpRefs": [
+   "HV-3-1-04",
+   "HV-3-1-05",
+   "HV-3-1-06"
+  ]
+ },
+ {
+  "id": "hv4-zpev-noty",
+  "r": 4,
+  "p": "hv",
+  "t": "Zpěv, dvojhlas a jednoduchý notový zápis",
+  "co": "Na konci 1. stupně se zpěv zpřesňuje: děti používají pěvecké návyky, zkoušejí kánon nebo jednoduchý dvojhlas a berou notový zápis jako oporu pro píseň, rytmus a melodii.",
+  "jak": [
+   "Zazpívá píseň v jednohlase, případně jednoduchém kánonu nebo dvojhlase.",
+   "Pozná notu jako značku pro tón a rytmus.",
+   "Podle jednoduchého zápisu se zorientuje, kde píseň stoupá, klesá nebo mění rytmus."
+  ],
+  "dal": "Doprovod, předehry, mezihry a vlastní drobné hudební nápady.",
+  "dalId": "hv5-doprovod-improvizace",
+  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 2. období.",
+  "doma": [
+   "Nenuťte noty jako klavírní drill; stačí chápat je jako mapu písničky.",
+   "Kánon typu „Bejvávalo“ ukáže dvojhlas srozumitelněji než výklad."
+  ],
+  "rvpRefs": [
+   "HV-5-1-01",
+   "HV-5-1-02"
+  ]
+ },
+ {
+  "id": "hv5-doprovod-improvizace",
+  "r": 5,
+  "p": "hv",
+  "t": "Doprovod, motivy a hudební improvizace",
+  "co": "Žák používá jednoduché nástroje k doprovodu i reprodukci motivů, zkouší předehru, mezihru, dohru a elementární improvizaci. Učí se, že hudba má pravidla, ale dovoluje vlastní nápad.",
+  "jak": [
+   "Doprovodí píseň jednoduchým ostinatem nebo rytmem.",
+   "Zopakuje krátký hudební motiv.",
+   "Vymyslí drobnou předehru, mezihru nebo zakončení písně."
+  ],
+  "dal": "Poslech, hudební forma a pohybové ztvárnění hudby.",
+  "dalId": "hv5-poslech-forma-pohyb",
+  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 2. období.",
+  "doma": [
+   "Zkuste otázku a odpověď: dospělý zatleská rytmus, dítě odpoví vlastním.",
+   "U písničky najděte opakující se rytmus a držte ho celou sloku."
+  ],
+  "rvpRefs": [
+   "HV-5-1-03",
+   "HV-5-1-05"
+  ]
+ },
+ {
+  "id": "hv5-poslech-forma-pohyb",
+  "r": 5,
+  "p": "hv",
+  "t": "Poslech, forma a pohyb v hudbě",
+  "co": "Dítě už hudbu jen neslyší, ale začíná ji vědomě poslouchat. Rozpoznává jednoduchou formu písně nebo skladby, slyší výrazové prostředky a dokáže hudbu ztvárnit pohybem nebo krátkým komentářem.",
+  "jak": [
+   "Pozná opakující se části jednoduché písně nebo skladby.",
+   "Řekne, čím hudba působí napjatě, klidně, slavnostně nebo tanečně.",
+   "Ztvární hudbu jednoduchým tanečním krokem nebo pohybovou improvizací."
+  ],
+  "dal": "Na 2. stupni se hudební dovednosti propojí se žánry, dějinami a vlastním hodnocením hudby.",
+  "dalId": "hv6-hudebni-projev",
+  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 2. období.",
+  "doma": [
+   "Pusťte krátkou skladbu a ptejte se, kdy se vrací známá část.",
+   "U filmové hudby se bavte o tom, jak mění náladu scény."
+  ],
+  "rvpRefs": [
+   "HV-5-1-04",
+   "HV-5-1-06",
+   "HV-5-1-07"
+  ]
+ },
+ {
+  "id": "hv6-hudebni-projev",
+  "r": 6,
+  "p": "hv",
+  "t": "Hudební projev na 2. stupni",
+  "co": "Hudebka na 2. stupni dál staví na zpěvu, hře, rytmu a improvizaci, ale víc respektuje hlasové změny a individuální možnosti. Důležité je aktivně se zapojit, používat pěvecké návyky a umět vytvořit jednoduchý doprovod nebo motiv.",
+  "jak": [
+   "Zapojuje se do zpěvu, rytmické hry nebo jednoduchého doprovodu podle svých možností.",
+   "Používá hlas zdravě a ví, že v období mutace se rozsah mění.",
+   "Vytvoří nebo zopakuje krátký motiv, doprovod či rytmickou figuru."
+  ],
+  "dal": "Poslech žánrů, hudební dějiny a vztahy hudby k dalším druhům umění.",
+  "dalId": "hv7-poslech-zanry-dejiny",
+  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 2. stupeň.",
+  "doma": [
+   "Oceňte aktivní účast, ne perfektní zpěv. V pubertě je to pro mnoho dětí citlivé.",
+   "Krátké rytmické doprovody jdou trénovat i bez nástroje."
+  ],
+  "rvpRefs": [
+   "HV-9-1-01",
+   "HV-9-1-02",
+   "HV-9-1-03"
+  ]
+ },
+ {
+  "id": "hv7-poslech-zanry-dejiny",
+  "r": 7,
+  "p": "hv",
+  "t": "Hudební žánry, dějiny a souvislosti",
+  "co": "Žák se učí vnímat hudbu jako celek: rozpoznává vybrané tance, žánry a stylová období, zařazuje slyšenou hudbu podle znaků a hledá souvislosti s filmem, divadlem, literaturou nebo výtvarným uměním.",
+  "jak": [
+   "Rozliší vybrané žánry a uvede, čím se liší.",
+   "Přiřadí ukázku k přibližnému období nebo kulturnímu kontextu.",
+   "Popíše, jak hudba souvisí s obrazem, pohybem, filmem nebo divadlem."
+  ],
+  "dal": "Vlastní poslechové preference, koncerty, projekty a propojení s dějepisem nebo mediální výchovou.",
+  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 2. stupeň.",
+  "doma": [
+   "Pouštějte krátké ukázky napříč žánry a ptejte se na konkrétní znaky.",
+   "Propojte hudbu s dobou: co se hrálo v baroku, za národního obrození nebo v 20. století?"
+  ],
+  "rvpRefs": [
+   "HV-9-1-04",
+   "HV-9-1-05",
+   "HV-9-1-06",
+   "HV-9-1-07"
+  ]
+ },
+ {
+  "id": "vv1-prvky-experiment",
   "r": 1,
   "p": "vv",
-  "t": "Výtvarné experimentování",
-  "co": "Ve výtvarce nejde o „hezké obrázky“, ale o objevování: míchání barev, práce se štětcem, voskovkami, modelínou i přírodninami. Dítě si osvojuje základní výtvarné techniky a učí se o svém obrázku mluvit — co vytvořilo a proč.",
+  "t": "Výtvarka: linie, tvary, barvy a experiment",
+  "co": "Začátek výtvarné výchovy je objevování vizuálního jazyka: linie, tvarů, barev, objektů, materiálů a jejich kombinací. Dítě netvoří jen „hezký obrázek“, ale zkouší, co různé prostředky umí.",
   "jak": [
-   "Zachází se štětcem, nůžkami a lepidlem bez větší dopomoci.",
-   "Namíchá ze základních barev novou (žlutá + modrá = zelená).",
-   "Popíše, co na obrázku vytvořilo a co tím chtělo říct."
+   "Rozpozná a pojmenuje základní linie, tvary, barvy a objekty.",
+   "Vlastní zkušenost vyjádří kresbou, malbou, koláží nebo prostorovou tvorbou.",
+   "Porovnává, co vznikne změnou barvy, velikosti, materiálu nebo uspořádání."
   ],
-  "dal": "Záměrná kompozice a ilustrace ve 4.–5. ročníku.",
-  "dalId": "vv5-kompozice",
+  "dal": "Smyslové vnímání a výtvarné vyjádření zvuku, pohybu nebo dotyku.",
+  "dalId": "vv2-smysly-vyjadreni",
   "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 1. období.",
   "doma": [
-   "Ptejte se „co jsi vytvořil?“ místo hodnocení „to je hezké“.",
-   "Vyhraďte doma koutek, kde se smí patlat."
+   "Ptejte se „co jsi zkusil?“ spíš než „co to je?“.",
+   "Nechte dítě kombinovat pastelky, papír, textil, přírodniny nebo modelínu."
+  ],
+  "rvpRefs": [
+   "VV-3-1-01",
+   "VV-3-1-02"
+  ]
+ },
+ {
+  "id": "vv2-smysly-vyjadreni",
+  "r": 2,
+  "p": "vv",
+  "t": "Smysly, zážitky a výtvarné vyjádření",
+  "co": "Dítě se učí, že obraz nemusí zachycovat jen to, co vidí. Výtvarně vyjadřuje zvuk, pohyb, dotyk, náladu nebo zážitek a hledá pro ně barvu, tvar, stopu, rytmus nebo prostorové řešení.",
+  "jak": [
+   "Vyjádří hudbu, pohyb nebo náladu barvou a tvarem.",
+   "Použije různé materiály podle toho, jak působí na zrak nebo hmat.",
+   "Dokáže říct, proč zvolilo určitou barvu, stopu nebo kompozici."
+  ],
+  "dal": "Interpretace vlastních i cizích obrazů a komunikace o nich.",
+  "dalId": "vv3-interpretace-komunikace",
+  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 1. období.",
+  "doma": [
+   "Zkuste kreslit na hudbu: nejdřív rychlou, potom klidnou.",
+   "U výtvoru se ptejte na pocit a postup, ne jen na výsledek."
+  ],
+  "rvpRefs": [
+   "VV-3-1-03"
+  ]
+ },
+ {
+  "id": "vv3-interpretace-komunikace",
+  "r": 3,
+  "p": "vv",
+  "t": "Obraz jako sdělení",
+  "co": "Dítě začíná vnímat, že obrázek, fotografie nebo plakát něco sdělují a různí lidé je mohou chápat odlišně. Učí se mluvit o vlastním díle, přijímat jiný výklad a zapojit obraz do komunikace.",
+  "jak": [
+   "Popíše, co vidí na obrázku a jak na něj působí.",
+   "Porovná svůj výklad s výkladem spolužáka bez sporu o jedinou správnou odpověď.",
+   "Vysvětlí, co chtělo vlastním výtvorem sdělit."
+  ],
+  "dal": "Ve 4.–5. ročníku přibude záměrnější práce s kompozicí a prvky obrazu.",
+  "dalId": "vv4-prvky-kompozice",
+  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 1. období.",
+  "doma": [
+   "Prohlížejte ilustrace v knížkách a ptejte se, co prozradí ještě před čtením textu.",
+   "U reklam nebo plakátů si všímejte, kam vedou oči jako první."
+  ],
+  "rvpRefs": [
+   "VV-3-1-04",
+   "VV-3-1-05"
+  ]
+ },
+ {
+  "id": "vv4-prvky-kompozice",
+  "r": 4,
+  "p": "vv",
+  "t": "Kompozice, prvky obrazu a vlastní zkušenost",
+  "co": "Na konci 1. stupně žák vědoměji používá prvky vizuálního vyjádření: linii, tvar, barvu, objem, kontrast, rytmus a uspořádání. Tvorba už má jasnější záměr a vychází z osobní zkušenosti.",
+  "jak": [
+   "Rozvrhne obraz na ploše a ví, co bude hlavní.",
+   "Použije kontrast, rytmus nebo opakování prvků.",
+   "Vysvětlí, jak jeho vlastní zkušenost ovlivnila výsledek."
+  ],
+  "dal": "Prostorová tvorba, kombinování technik a vztah obrazu k dalším smyslům.",
+  "dalId": "vv5-smysly-prostor-techniky",
+  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 2. období.",
+  "doma": [
+   "Fotografujte spolu a řešte, co bude v popředí a co v pozadí.",
+   "Ilustrace k vlastnímu zážitku pomůže spojit výtvarný záměr s obsahem."
+  ],
+  "rvpRefs": [
+   "VV-5-1-01",
+   "VV-5-1-02"
+  ]
+ },
+ {
+  "id": "vv5-smysly-prostor-techniky",
+  "r": 5,
+  "p": "vv",
+  "t": "Prostor, techniky a neobvyklé vyjádření",
+  "co": "Žák hledá vhodné prostředky pro vyjádření v ploše, objemu i prostoru. Kombinuje techniky, využívá zrakové i další smyslové podněty a učí se volit postup podle záměru, ne jen podle toho, co umí nejrychleji.",
+  "jak": [
+   "Vytvoří práci v ploše i jednoduchý prostorový objekt.",
+   "Zvolí techniku podle toho, co chce vyjádřit.",
+   "Použije neobvyklý materiál nebo postup a vysvětlí jeho účinek."
+  ],
+  "dal": "Interpretace děl, vlastní obsah a komunikace s divákem.",
+  "dalId": "vv5-interpretace-obsah",
+  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 2. období.",
+  "doma": [
+   "Zkuste koláž z novin, obalů nebo fotografií a mluvte o tom, proč jsou prvky vedle sebe.",
+   "Krátká návštěva galerie s jedním úkolem funguje lépe než dlouhá bez cíle."
+  ],
+  "rvpRefs": [
+   "VV-5-1-03",
+   "VV-5-1-04"
+  ]
+ },
+ {
+  "id": "vv5-interpretace-obsah",
+  "r": 5,
+  "p": "vv",
+  "t": "Interpretace, inspirace a obsah obrazu",
+  "co": "Žák porovnává různé interpretace obrazu, bere je jako inspiraci a vědomě zapojuje obsah vlastních i vybraných vizuálních vyjádření do komunikace. Učí se, že obraz může mít autora, diváka, kontext a účinek.",
+  "jak": [
+   "Porovná dvě interpretace stejného obrazu nebo fotografie.",
+   "Vysvětlí, čím se inspiroval a co chtěl sdělit.",
+   "Upraví nebo vybere obraz tak, aby lépe vyjádřil záměr."
+  ],
+  "dal": "Na 2. stupni přibude vizuální kultura, digitální média a osobitější výtvarné projekty.",
+  "dalId": "vv7-vizualni-prostredky",
+  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 2. období.",
+  "doma": [
+   "U plakátu, obalu nebo fotografie se ptejte, co chce autor, aby si divák myslel.",
+   "Nechte dítě prezentovat hotovou práci: název, záměr, nejdůležitější volba."
+  ],
+  "rvpRefs": [
+   "VV-5-1-05",
+   "VV-5-1-06"
+  ]
+ },
+ {
+  "id": "vv7-vizualni-prostredky",
+  "r": 7,
+  "p": "vv",
+  "t": "Vizuální prostředky a osobité vyjádření",
+  "co": "Na 2. stupni žák vybírá, kombinuje a pojmenovává prostředky vizuálního vyjádření. Zachycuje skutečnost, představy i fantazii a zkouší varianty, aby výsledek nebyl jen splněný úkol, ale osobitý výtvarný záměr.",
+  "jak": [
+   "Pojmenuje použité linie, tvary, barvy, kompozici nebo struktury.",
+   "Vytvoří několik variant a vybere tu, která nejlépe odpovídá záměru.",
+   "Zaznamená vizuální zkušenost i vlastní představu nebo fantazii."
+  ],
+  "dal": "Digitální média, fotografie, video, animace a interpretace obrazové kultury.",
+  "dalId": "vv8-digitalni-media-interpretace",
+  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 2. stupeň.",
+  "doma": [
+   "Při focení řešte světlo, výřez a kompozici, ne jen objekt.",
+   "Porovnejte dvě varianty stejného motivu a pojmenujte, proč působí jinak."
+  ],
+  "rvpRefs": [
+   "VV-9-1-01",
+   "VV-9-1-02",
+   "VV-9-1-04"
+  ]
+ },
+ {
+  "id": "vv8-digitalni-media-interpretace",
+  "r": 8,
+  "p": "vv",
+  "t": "Digitální média, vizuální kultura a interpretace",
+  "co": "Výtvarka na 2. stupni zahrnuje fotografii, video, animaci, počítačovou grafiku, reklamu i současné umění. Žák zachycuje proměny a vztahy, rozlišuje smyslový a subjektivní účinek obrazu, interpretuje díla v kontextu a ověřuje, jak jeho tvorba působí na diváka.",
+  "jak": [
+   "Použije fotografii, video, animaci nebo digitální grafiku pro vlastní záměr.",
+   "Rozebere, jak obraz působí barvou, kompozicí, kontrastem nebo kontextem.",
+   "Interpretuje dílo současnosti i minulosti a opře se o vlastní zkušenost i základní souvislosti."
+  ],
+  "dal": "Vlastní výtvarné projekty, portfolio a případná příprava na talentové zkoušky.",
+  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 2. stupeň.",
+  "doma": [
+   "Rozeberte spolu reklamu nebo instagramový vizuál: co přesně dělá, aby zaujal?",
+   "U vlastní práce zkuste test: co divák pochopí bez vysvětlování a co je potřeba upravit?"
+  ],
+  "rvpRefs": [
+   "VV-9-1-03",
+   "VV-9-1-05",
+   "VV-9-1-06",
+   "VV-9-1-07"
   ]
  },
  {
@@ -2180,44 +2514,6 @@
   ]
  },
  {
-  "id": "hv5-noty",
-  "r": 5,
-  "p": "hv",
-  "t": "Noty, poslech a hudební nauka",
-  "co": "Ve 4.–5. ročníku přibývá ke zpěvu základ hudební nauky: notová osnova, houslový klíč, délky not, poznávání hudebních nástrojů podle vzhledu i zvuku a řízený poslech skladeb (Smetanova Vltava bývá klasika).",
-  "jak": [
-   "Přečte v notové osnově jednoduché noty a rozliší jejich délky.",
-   "Pozná podle zvuku běžné nástroje (klavír, housle, trubka, flétna).",
-   "Poslechne si krátkou skladbu a řekne, jak na něj působila."
-  ],
-  "dal": "Hudební žánry a dějiny hudby na 2. stupni.",
-  "dalId": "hv6-dejiny",
-  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 2. období.",
-  "doma": [
-   "Pusťte si spolu Vltavu a zkuste v hudbě „slyšet“ řeku.",
-   "Živý koncert nebo besídka ZUŠ udělá víc než teorie."
-  ]
- },
- {
-  "id": "vv5-kompozice",
-  "r": 5,
-  "p": "vv",
-  "t": "Od hraní k záměru: kompozice a ilustrace",
-  "co": "Výtvarka na konci 1. stupně vede děti k záměrné tvorbě: rozvržení obrazu, kombinování technik (kresba, malba, koláž), ilustrace k textu a první seznámení s díly známých výtvarníků.",
-  "jak": [
-   "Rozvrhne si obrázek na ploše, než začne tvořit.",
-   "Zvolí techniku podle záměru a umí volbu zdůvodnit.",
-   "Vytvoří ilustraci k přečtenému příběhu."
-  ],
-  "dal": "Výtvarné vyjadřování a vizuální kultura na 2. stupni.",
-  "dalId": "vv7-vizual",
-  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 2. období.",
-  "doma": [
-   "Fotografujte spolu a mluvte o záběru: co je vepředu, co vzadu?",
-   "Ilustrujte společně přečtenou knížku."
-  ]
- },
- {
   "id": "cj6-clen",
   "r": 6,
   "p": "cj",
@@ -3171,24 +3467,6 @@
   ]
  },
  {
-  "id": "hv6-dejiny",
-  "r": 6,
-  "p": "hv",
-  "t": "Hudební žánry a dějiny hudby",
-  "co": "Hudebka na 2. stupni kombinuje zpěv a poslech s hudební naukou a přehledem dějin hudby — od lidové písně přes klasiky (Bach, Mozart, Smetana, Dvořák) po jazz, rock a současné žánry. Cílem není vychovat muzikology, ale poučené posluchače.",
-  "jak": [
-   "Přiřadí známé skladatele k obdobím a pozná jejich nejslavnější díla.",
-   "Rozliší základní žánry poslechem.",
-   "Kultivovaně zazpívá ve skupině, případně doprovodí na jednoduchý nástroj."
-  ],
-  "dal": "Hudba 20. století a současné žánry ve vyšších ročnících.",
-  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 2. stupeň.",
-  "doma": [
-   "Pouštějte si ukázky a hádejte žánr: baroko, jazz, rock?",
-   "Propojte s dějepisem: co se hrálo za Mozarta a co za totality?"
-  ]
- },
- {
   "id": "cj7-vedlejsi",
   "r": 7,
   "p": "cj",
@@ -3570,24 +3848,6 @@
    "D-9-5-04",
    "D-9-5-05",
    "D-9-5-06"
-  ]
- },
- {
-  "id": "vv7-vizual",
-  "r": 7,
-  "p": "vv",
-  "t": "Výtvarné vyjadřování a vizuální kultura",
-  "co": "Výtvarka na 2. stupni jde za kreslení: perspektiva, proporce postavy, grafické techniky, prostorová tvorba, ale i „čtení“ vizuální kultury kolem nás — reklamy, loga, fotografie, film. Žák se učí obraz nejen tvořit, ale i kriticky vnímat.",
-  "jak": [
-   "Nakreslí jednoduchou perspektivu (ubíhající ulice) a proporčně zvládne postavu.",
-   "Vyzkouší grafickou techniku (linoryt, tisk z koláže).",
-   "Rozebere, jak reklama pracuje s barvou a kompozicí, aby zaujala."
-  ],
-  "dal": "Vlastní výtvarné projekty; zájemci o umělecké školy skládají talentové zkoušky už v lednu 9. ročníku.",
-  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 2. stupeň.",
-  "doma": [
-   "Rozeberte spolu reklamu: čím přesně vás chce dostat?",
-   "Krátká návštěva galerie s jedním úkolem funguje líp než dlouhá bez cíle."
   ]
  },
  {
