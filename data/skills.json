@@ -1856,18 +1856,95 @@
   "id": "ncj7-start",
   "r": 7,
   "p": "ncj",
-  "t": "Druhý cizí jazyk",
-  "co": "RVP ukládá školám zařadit další cizí jazyk nejpozději od 8. ročníku (celkem minimálně 6 hodin), řada škol začíná už v 7. Nejčastější volbou je němčina, následují španělština, francouzština a ruština. Cílová úroveň na konci ZŠ je A1.",
+  "t": "Druhý cizí jazyk: první poslech a fráze",
+  "co": "Další cizí jazyk školy zařazují nejpozději od 8. ročníku, některé začínají už v 7. První krok je zvuk jazyka: pozdravy, pokyny, jednoduché otázky a známá slovíčka vyslovená pomalu a zřetelně.",
   "jak": [
-   "Pozdraví, představí se a zvládne základní zdvořilostní fráze.",
-   "Rozumí jednoduchým pokynům a otázkám v pomalém tempu.",
-   "Pojmenuje základní slovní zásobu (čísla, rodina, škola)."
+   "Rozumí jednoduchým pokynům a otázkám učitele.",
+   "Pozná známá slova a jednoduché věty z probíraných témat.",
+   "Z krátkého poslechu zachytí základní informaci, hlavně s vizuální oporou."
   ],
-  "dal": "Rozvíjení do úrovně A1 do konce 9. ročníku.",
-  "rvp": "RVP ZV · Jazyk a jazyková komunikace — Další cizí jazyk · 2. stupeň. Pozn.: připravovaná revize RVP ZV počítá s druhým cizím jazykem jako volitelným — ověřte aktuální stav na své škole.",
+  "dal": "Na poslech navazuje první jednoduchá konverzace.",
+  "dalId": "ncj7-mluveni",
+  "rvp": "RVP ZV · Další cizí jazyk · 2. stupeň · Poslech s porozuměním.",
   "doma": [
    "Jazyková apka 10 minut denně vydrží déle než nárazové šprtání.",
-   "Pojmenujte spolu snídani v novém jazyce."
+   "Pouštějte krátké fráze nahlas a nechte dítě opakovat rytmus a výslovnost."
+  ],
+  "rvpRefs": [
+   "DCJ-9-1-01",
+   "DCJ-9-1-02",
+   "DCJ-9-1-03"
+  ]
+ },
+ {
+  "id": "ncj7-mluveni",
+  "r": 7,
+  "p": "ncj",
+  "t": "Druhý cizí jazyk: pozdravy a jednoduchý rozhovor",
+  "co": "Mluvení v dalším cizím jazyce začíná velmi prakticky: pozdravit, představit se, říct základní informace o sobě a odpovědět na jednoduchou otázku. Cíl je nebát se krátké výměny, ne mluvit bez chyb.",
+  "jak": [
+   "Zapojí se do jednoduchého rozhovoru.",
+   "Sdělí základní informace o sobě, rodině, škole nebo volném čase.",
+   "Odpovídá na jednoduché otázky a podobné otázky pokládá."
+  ],
+  "dal": "Krátké rozhovory se opřou o čtení nápisů, pokynů a jednoduchých textů.",
+  "dalId": "ncj8-cteni",
+  "rvp": "RVP ZV · Další cizí jazyk · 2. stupeň · Mluvení.",
+  "doma": [
+   "Zaveďte dvě minuty denně: pozdrav, jméno, věk, jedna věta o dni.",
+   "Chyby opravujte jemně až po odpovědi, jinak dítě radši přestane mluvit."
+  ],
+  "rvpRefs": [
+   "DCJ-9-2-01",
+   "DCJ-9-2-02",
+   "DCJ-9-2-03"
+  ]
+ },
+ {
+  "id": "ncj8-cteni",
+  "r": 8,
+  "p": "ncj",
+  "t": "Druhý cizí jazyk: čtení nápisů a krátkých textů",
+  "co": "Žák se učí porozumět jednoduchým nápisům, pokynům, větám a krátkým textům k běžným tématům. V dalším cizím jazyce je běžné, že hodně pomáhá obrázek, kontext a podobnost slov.",
+  "jak": [
+   "Rozumí jednoduchým informačním nápisům a orientačním pokynům.",
+   "Rozumí slovům a jednoduchým větám k běžným tématům.",
+   "V krátkém textu s oporou vyhledá požadovanou informaci."
+  ],
+  "dal": "Čtení pomáhá při vyplnění formuláře a krátkém psaní.",
+  "dalId": "ncj9-psani",
+  "rvp": "RVP ZV · Další cizí jazyk · 2. stupeň · Čtení s porozuměním.",
+  "doma": [
+   "Čtěte reálné jednoduché texty: cedule, jídelní lístek, krátký dialog, popisek fotky.",
+   "Ptejte se jen na konkrétní informaci, ne na překlad celého textu."
+  ],
+  "rvpRefs": [
+   "DCJ-9-3-01",
+   "DCJ-9-3-02",
+   "DCJ-9-3-03"
+  ]
+ },
+ {
+  "id": "ncj9-psani",
+  "r": 9,
+  "p": "ncj",
+  "t": "Druhý cizí jazyk: formulář, zpráva a krátký text",
+  "co": "Psaní v dalším cizím jazyce míří na úroveň A1: základní osobní údaje, krátká zpráva, několik vět o sobě, rodině, škole nebo volném čase a stručná reakce na jednoduché sdělení.",
+  "jak": [
+   "Vyplní základní údaje o sobě ve formuláři.",
+   "Napíše jednoduchý text o sobě a známých tématech.",
+   "Stručně reaguje na jednoduché písemné sdělení."
+  ],
+  "dal": "Na střední škole může další cizí jazyk pokračovat podle zvoleného oboru a školy.",
+  "rvp": "RVP ZV · Další cizí jazyk · 2. stupeň · Psaní.",
+  "doma": [
+   "Pište krátké věty podle vzoru a měňte jen obsah: jméno, věk, město, záliby.",
+   "Formuláře a krátké zprávy procvičujte prakticky, ne jako dlouhé slohovky."
+  ],
+  "rvpRefs": [
+   "DCJ-9-4-01",
+   "DCJ-9-4-02",
+   "DCJ-9-4-03"
   ]
  },
  {
