@@ -2301,6 +2301,456 @@
     "section": "5.1.1"
    },
    "skillIds": []
+  },
+  {
+   "id": "I-5-1-01",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Data, informace a modelování",
+   "text": "uvede příklady dat, která ho obklopují a která mu mohou pomoci lépe se rozhodnout; vyslovuje odpovědi na základě dat",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-1-02",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Data, informace a modelování",
+   "text": "popíše konkrétní situaci, určí, co k ní již ví, a znázorní ji",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-1-03",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Data, informace a modelování",
+   "text": "vyčte informace z daného modelu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-2-01",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Algoritmizace a programování",
+   "text": "sestavuje a testuje symbolické zápisy postupů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-2-02",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Algoritmizace a programování",
+   "text": "popíše jednoduchý problém, navrhne a popíše jednotlivé kroky jeho řešení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-2-03",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Algoritmizace a programování",
+   "text": "v blokově orientovaném programovacím jazyce sestaví program; rozpozná opakující se vzory, používá opakování a připravené podprogramy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-2-04",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Algoritmizace a programování",
+   "text": "ověří správnost jím navrženého postupu či programu, najde a opraví v něm případnou chybu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-3-01",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Informační systémy",
+   "text": "v systémech, které ho obklopují, rozezná jednotlivé prvky a vztahy mezi nimi",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-3-02",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Informační systémy",
+   "text": "pro vymezený problém zaznamenává do existující tabulky nebo seznamu číselná i nečíselná data",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-4-01",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Digitální technologie",
+   "text": "najde a spustí aplikaci, pracuje s daty různého typu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-4-02",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Digitální technologie",
+   "text": "propojí digitální zařízení, uvede možná rizika, která s takovým propojením souvisejí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-5-4-03",
+   "fieldId": "informatika",
+   "periodId": "2-obdobi",
+   "topic": "Digitální technologie",
+   "text": "dodržuje bezpečnostní a jiná pravidla pro práci s digitálními technologiemi",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf4-zaklad"
+   ]
+  },
+  {
+   "id": "I-9-1-01",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Data, informace a modelování",
+   "text": "získá z dat informace, interpretuje data, odhaluje chyby v cizích interpretacích dat",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-1-02",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Data, informace a modelování",
+   "text": "navrhuje a porovnává různé způsoby kódování dat s cílem jejich uložení a přenosu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-1-03",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Data, informace a modelování",
+   "text": "vymezí problém a určí, jaké informace bude potřebovat k jeho řešení; situaci modeluje pomocí grafů, případně obdobných schémat; porovná svůj navržený model s jinými modely k řešení stejného problému a vybere vhodnější, svou volbu zdůvodní",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-1-04",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Data, informace a modelování",
+   "text": "zhodnotí, zda jsou v modelu všechna data potřebná k řešení problému; vyhledá chybu v modelu a opraví ji",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-2-01",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Algoritmizace a programování",
+   "text": "po přečtení jednotlivých kroků algoritmu nebo programu vysvětlí celý postup; určí problém, který je daným algoritmem řešen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-2-02",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Algoritmizace a programování",
+   "text": "rozdělí problém na jednotlivě řešitelné části a navrhne a popíše kroky k jejich řešení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-2-03",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Algoritmizace a programování",
+   "text": "vybere z více možností vhodný algoritmus pro řešený problém a svůj výběr zdůvodní; upraví daný algoritmus pro jiné problémy, navrhne různé algoritmy pro řešení problému",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-2-05",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Algoritmizace a programování",
+   "text": "v blokově orientovaném programovacím jazyce vytvoří přehledný program s ohledem na jeho možné důsledky a svou odpovědnost za ně; program vyzkouší a opraví v něm případné chyby; používá opakování, větvení programu, proměnné",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-2-06",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Algoritmizace a programování",
+   "text": "ověří správnost postupu, najde a opraví v něm případnou chybu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-3-01",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Informační systémy",
+   "text": "vysvětlí účel informačních systémů, které používá, identifikuje jejich jednotlivé prvky a vztahy mezi nimi; zvažuje možná rizika při navrhování i užívání informačních systémů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-3-02",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Informační systémy",
+   "text": "nastavuje zobrazení, řazení a filtrování dat v tabulce, aby mohl odpovědět na položenou otázku; využívá funkce pro automatizaci zpracování dat",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-3-03",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Informační systémy",
+   "text": "vymezí problém a určí, jak při jeho řešení využije evidenci dat; na základě doporučeného i vlastního návrhu sestaví tabulku pro evidenci dat a nastaví pravidla a postupy pro práci se záznamy v evidenci dat",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-3-04",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Informační systémy",
+   "text": "sám evidenci vyzkouší a následně zhodnotí její funkčnost, případně navrhne její úpravu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-4-01",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Digitální technologie",
+   "text": "popíše, jak funguje počítač po stránce hardwaru i operačního systému; diskutuje o fungování digitálních technologií určujících trendy ve světě",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-4-02",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Digitální technologie",
+   "text": "ukládá a spravuje svá data ve vhodném formátu s ohledem na jejich další zpracování či přenos",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-4-03",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Digitální technologie",
+   "text": "vybírá nejvhodnější způsob připojení digitálních zařízení do počítačové sítě; uvede příklady sítí a popíše jejich charakteristické znaky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-4-04",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Digitální technologie",
+   "text": "poradí si s typickými závadami a chybovými stavy počítače",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
+  },
+  {
+   "id": "I-9-4-05",
+   "fieldId": "informatika",
+   "periodId": "2-stupen",
+   "topic": "Digitální technologie",
+   "text": "dokáže usměrnit svoji činnost tak, aby minimalizoval riziko ztráty či zneužití dat; popíše fungování a diskutuje omezení zabezpečovacích řešení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.3.1"
+   },
+   "skillIds": [
+    "inf6-programovani"
+   ]
   }
  ]
 }
