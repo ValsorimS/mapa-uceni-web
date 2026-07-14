@@ -67,9 +67,14 @@ for (const skill of skills) {
   }
 }
 
-const mathSkills = skills.filter(s => s.p === "m");
-const mathWithoutRefs = mathSkills.filter(s => !Array.isArray(s.rvpRefs) || s.rvpRefs.length === 0);
-for (const skill of mathWithoutRefs) warnings.push(`Math skill ${skill.id} has no rvpRefs`);
+for (const area of rvp.areas || []) {
+  for (const field of area.fields || []) {
+    if (!outcomes.some(o => o.fieldId === field.id)) continue;
+    const fieldSkills = skills.filter(s => (field.skillSubjectKeys || []).includes(s.p));
+    const withoutRefs = fieldSkills.filter(s => !Array.isArray(s.rvpRefs) || s.rvpRefs.length === 0);
+    for (const skill of withoutRefs) warnings.push(`Skill ${skill.id} in imported RVP field ${field.id} has no rvpRefs`);
+  }
+}
 
 if (errors.length) {
   console.error("RVP validation failed:");

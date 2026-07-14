@@ -1288,6 +1288,1019 @@
     "section": "5.2.1"
    },
    "skillIds": []
+  },
+  {
+   "id": "ČJL-3-1-01",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "plynule čte s porozuměním texty přiměřeného rozsahu a náročnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj1-slabiky",
+    "cj2-cteni"
+   ]
+  },
+  {
+   "id": "ČJL-3-1-02",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "porozumí písemným nebo mluveným pokynům přiměřené složitosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj2-cteni"
+   ]
+  },
+  {
+   "id": "ČJL-3-1-03",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "respektuje základní komunikační pravidla v rozhovoru",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-3-1-04",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "pečlivě vyslovuje, opravuje svou nesprávnou nebo nedbalou výslovnost",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-3-1-05",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "v krátkých mluvených projevech správně dýchá a volí vhodné tempo řeči",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-3-1-06",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "volí vhodné verbální i nonverbální prostředky řeči v běžných školních i mimoškolních situacích",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-3-1-07",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "na základě vlastních zážitků tvoří krátký mluvený projev",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-3-1-08",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "zvládá základní hygienické návyky spojené se psaním",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj1-psani"
+   ]
+  },
+  {
+   "id": "ČJL-3-1-09",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "píše správné tvary písmen a číslic, správně spojuje písmena i slabiky; kontroluje vlastní písemný projev",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj1-pismena",
+    "cj1-psani"
+   ]
+  },
+  {
+   "id": "ČJL-3-1-10",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "píše věcně i formálně správně jednoduchá sdělení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj1-psani"
+   ]
+  },
+  {
+   "id": "ČJL-3-1-11",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "seřadí ilustrace podle dějové posloupnosti a vypráví podle nich jednoduchý příběh",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-1-01",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "čte s porozuměním přiměřeně náročné texty potichu i nahlas",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-1-02",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "rozlišuje podstatné a okrajové informace v textu vhodném pro daný věk, podstatné informace zaznamenává",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-1-03",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "posuzuje úplnost či neúplnost jednoduchého sdělení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-1-04",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "reprodukuje obsah přiměřeně složitého sdělení a zapamatuje si z něj podstatná fakta",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-1-05",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "vede správně dialog, telefonický rozhovor, zanechá vzkaz na záznamníku",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-1-06",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "rozpoznává manipulativní komunikaci v reklamě",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-1-07",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "volí náležitou intonaci, přízvuk, pauzy a tempo podle svého komunikačního záměru",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-1-08",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "rozlišuje spisovnou a nespisovnou výslovnost a vhodně ji užívá podle komunikační situace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-1-09",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "píše správně po stránce obsahové i formální jednoduché komunikační žánry",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-1-10",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Komunikační a slohová výchova",
+   "text": "sestaví osnovu vyprávění a na jejím základě vytváří krátký mluvený nebo písemný projev s dodržením časové posloupnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-3-2-01",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "rozlišuje zvukovou a grafickou podobu slova, člení slova na hlásky, odlišuje dlouhé a krátké samohlásky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj1-pismena"
+   ]
+  },
+  {
+   "id": "ČJL-3-2-02",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "porovnává významy slov, zvláště slova opačného významu a slova významem souřadná, nadřazená a podřazená, vyhledá v textu slova příbuzná",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-3-2-03",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "porovnává a třídí slova podle zobecněného významu – děj, věc, okolnost, vlastnost",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-3-2-04",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "rozlišuje slovní druhy v základním tvaru",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj3-slovni-druhy"
+   ]
+  },
+  {
+   "id": "ČJL-3-2-05",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "užívá v mluveném projevu správné gramatické tvary podstatných jmen, přídavných jmen a sloves",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj3-podstatna",
+    "cj3-slovesa"
+   ]
+  },
+  {
+   "id": "ČJL-3-2-06",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "spojuje věty do jednodušších souvětí vhodnými spojkami a jinými spojovacími výrazy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj2-vety"
+   ]
+  },
+  {
+   "id": "ČJL-3-2-07",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "rozlišuje v textu druhy vět podle postoje mluvčího a k jejich vytvoření volí vhodné jazykové i zvukové prostředky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj2-vety"
+   ]
+  },
+  {
+   "id": "ČJL-3-2-08",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "odůvodňuje a píše správně: i/y po tvrdých a měkkých souhláskách i po obojetných souhláskách ve vyjmenovaných slovech; dě, tě, ně, ú/ů, bě, pě, vě, mě – mimo morfologický šev; velká písmena na začátku věty a v typických případech vlastních jmen osob, zvířat a místních pojmenování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj2-tvrde",
+    "cj2-uu",
+    "cj3-vyjmenovana"
+   ]
+  },
+  {
+   "id": "ČJL-5-2-01",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "porovnává významy slov, zvláště slova stejného nebo podobného významu a slova vícevýznamová",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-2-02",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "rozlišuje ve slově kořen, část příponovou, předponovou a koncovku",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj4-stavba"
+   ]
+  },
+  {
+   "id": "ČJL-5-2-03",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "určuje slovní druhy plnovýznamových slov a využívá je v gramaticky správných tvarech ve svém mluveném projevu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj3-slovni-druhy",
+    "cj3-podstatna",
+    "cj3-slovesa",
+    "cj4-vzory"
+   ]
+  },
+  {
+   "id": "ČJL-5-2-04",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "rozlišuje slova spisovná a jejich nespisovné tvary",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-2-05",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "vyhledává základní skladební dvojici a v neúplné základní skladební dvojici označuje základ věty",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj4-podmet"
+   ]
+  },
+  {
+   "id": "ČJL-5-2-06",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "odlišuje větu jednoduchou a souvětí, vhodně změní větu jednoduchou v souvětí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj5-souveti"
+   ]
+  },
+  {
+   "id": "ČJL-5-2-07",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "užívá vhodných spojovacích výrazů, podle potřeby projevu je obměňuje",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj5-souveti"
+   ]
+  },
+  {
+   "id": "ČJL-5-2-08",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "píše správně i/y ve slovech po obojetných souhláskách",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj3-vyjmenovana",
+    "cj4-vzory"
+   ]
+  },
+  {
+   "id": "ČJL-5-2-09",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Jazyková výchova",
+   "text": "zvládá základní příklady syntaktického pravopisu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj5-shoda"
+   ]
+  },
+  {
+   "id": "ČJL-3-3-01",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Literární výchova",
+   "text": "čte a přednáší zpaměti ve vhodném frázování a tempu literární texty přiměřené věku",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj1-slabiky",
+    "cj2-cteni"
+   ]
+  },
+  {
+   "id": "ČJL-3-3-02",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Literární výchova",
+   "text": "vyjadřuje své pocity z přečteného textu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj2-cteni"
+   ]
+  },
+  {
+   "id": "ČJL-3-3-03",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Literární výchova",
+   "text": "rozlišuje vyjadřování v próze a ve verších, odlišuje pohádku od ostatních vyprávění",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-3-3-04",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "1-obdobi",
+   "topic": "Literární výchova",
+   "text": "pracuje tvořivě s literárním textem podle pokynů učitele a podle svých schopností",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-3-01",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Literární výchova",
+   "text": "vyjadřuje své dojmy z četby a zaznamenává je",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-3-02",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Literární výchova",
+   "text": "volně reprodukuje text podle svých schopností, tvoří vlastní literární text na dané téma",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-3-03",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Literární výchova",
+   "text": "rozlišuje různé typy uměleckých a neuměleckých textů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-5-3-04",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-obdobi",
+   "topic": "Literární výchova",
+   "text": "při jednoduchém rozboru literárních textů používá elementární literární pojmy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-1-01",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Komunikační a slohová výchova",
+   "text": "odlišuje ve čteném nebo slyšeném textu fakta od názorů a hodnocení, ověřuje fakta pomocí otázek nebo porovnáváním s dostupnými informačními zdroji",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-1-02",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Komunikační a slohová výchova",
+   "text": "rozlišuje subjektivní a objektivní sdělení a komunikační záměr partnera v hovoru",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-1-03",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Komunikační a slohová výchova",
+   "text": "rozpoznává manipulativní komunikaci v masmédiích a zaujímá k ní kritický postoj",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-1-04",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Komunikační a slohová výchova",
+   "text": "dorozumívá se kultivovaně, výstižně, jazykovými prostředky vhodnými pro danou komunikační situaci",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-1-05",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Komunikační a slohová výchova",
+   "text": "odlišuje spisovný a nespisovný projev a vhodně užívá spisovné jazykové prostředky vzhledem ke svému komunikačnímu záměru",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-1-06",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Komunikační a slohová výchova",
+   "text": "v mluveném projevu připraveném i improvizovaném vhodně užívá verbálních, nonverbálních i paralingválních prostředků řeči",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-1-07",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Komunikační a slohová výchova",
+   "text": "zapojuje se do diskuse, řídí ji a využívá zásad komunikace a pravidel dialogu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-1-08",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Komunikační a slohová výchova",
+   "text": "využívá základy studijního čtení – vyhledá klíčová slova, formuluje hlavní myšlenky textu, vytvoří otázky a stručné poznámky, výpisky nebo výtah z přečteného textu; samostatně připraví a s oporou o text přednese referát",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj9-pravopis"
+   ]
+  },
+  {
+   "id": "ČJL-9-1-09",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Komunikační a slohová výchova",
+   "text": "uspořádá informace v textu s ohledem na jeho účel, vytvoří koherentní text s dodržováním pravidel mezivětného navazování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-1-10",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Komunikační a slohová výchova",
+   "text": "využívá poznatků o jazyce a stylu ke gramaticky i věcně správnému písemnému projevu a k tvořivé práci s textem nebo i k vlastnímu tvořivému psaní na základě svých dispozic a osobních zájmů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-2-01",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Jazyková výchova",
+   "text": "spisovně vyslovuje česká a běžně užívaná cizí slova",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-2-02",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Jazyková výchova",
+   "text": "rozlišuje a příklady v textu dokládá nejdůležitější způsoby obohacování slovní zásoby a zásady tvoření českých slov, rozpoznává přenesená pojmenování, zvláště ve frazémech",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-2-03",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Jazyková výchova",
+   "text": "samostatně pracuje s Pravidly českého pravopisu, se Slovníkem spisovné češtiny a s dalšími slovníky a příručkami",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj9-pravopis"
+   ]
+  },
+  {
+   "id": "ČJL-9-2-04",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Jazyková výchova",
+   "text": "správně třídí slovní druhy, tvoří spisovné tvary slov a vědomě jich používá ve vhodné komunikační situaci",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj9-pravopis"
+   ]
+  },
+  {
+   "id": "ČJL-9-2-05",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Jazyková výchova",
+   "text": "využívá znalostí o jazykové normě při tvorbě vhodných jazykových projevů podle komunikační situace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-2-06",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Jazyková výchova",
+   "text": "rozlišuje významové vztahy gramatických jednotek ve větě a v souvětí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj6-clen",
+    "cj7-vedlejsi",
+    "cj8-rozbory"
+   ]
+  },
+  {
+   "id": "ČJL-9-2-07",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Jazyková výchova",
+   "text": "v písemném projevu zvládá pravopis lexikální, slovotvorný, morfologický i syntaktický ve větě jednoduché i souvětí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": [
+    "cj7-vedlejsi",
+    "cj8-rozbory",
+    "cj9-pravopis"
+   ]
+  },
+  {
+   "id": "ČJL-9-2-08",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Jazyková výchova",
+   "text": "rozlišuje spisovný jazyk, nářečí a obecnou češtinu a zdůvodní jejich užití",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-3-01",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Literární výchova",
+   "text": "uceleně reprodukuje přečtený text, jednoduše popisuje strukturu a jazyk literárního díla a vlastními slovy interpretuje smysl díla",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-3-02",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Literární výchova",
+   "text": "rozpoznává základní rysy výrazného individuálního stylu autora",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-3-03",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Literární výchova",
+   "text": "formuluje ústně i písemně dojmy ze své četby, návštěvy divadelního nebo filmového představení a názory na umělecké dílo",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-3-04",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Literární výchova",
+   "text": "tvoří vlastní literární text podle svých schopností a na základě osvojených znalostí základů literární teorie",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-3-05",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Literární výchova",
+   "text": "rozlišuje literaturu hodnotnou a konzumní, svůj názor doloží argumenty",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-3-06",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Literární výchova",
+   "text": "rozlišuje základní literární druhy a žánry, porovná je i jejich funkci, uvede jejich výrazné představitele",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-3-07",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Literární výchova",
+   "text": "uvádí základní literární směry a jejich významné představitele v české a světové literatuře",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-3-08",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Literární výchova",
+   "text": "porovnává různá ztvárnění téhož námětu v literárním, dramatickém i filmovém zpracování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "ČJL-9-3-09",
+   "fieldId": "cesky-jazyk-a-literatura",
+   "periodId": "2-stupen",
+   "topic": "Literární výchova",
+   "text": "vyhledává informace v různých typech katalogů, v knihovně i v dalších informačních zdrojích",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.1"
+   },
+   "skillIds": []
   }
  ]
 }

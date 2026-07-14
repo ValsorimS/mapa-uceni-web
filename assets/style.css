@@ -216,9 +216,12 @@ ul.jak li::before{
 .rvp-field{display:flex;justify-content:space-between;gap:14px;align-items:center;border-top:1px solid var(--line);padding:10px 0}
 .rvp-field:first-of-type{border-top:none}
 .rvp-field span{display:block;color:var(--muted);font-size:.86rem}
-.rvp-field em{font-style:normal;font-weight:700;border-radius:6px;padding:3px 9px;white-space:nowrap;font-size:.82rem}
-.rvp-field em.ok{color:var(--green);background:var(--green-soft)}
-.rvp-field em.wait{color:var(--muted);background:var(--paper);border:1px solid var(--line)}
+.rvp-field .status{font-style:normal;font-weight:700;border-radius:6px;padding:3px 9px;white-space:nowrap;font-size:.82rem;text-decoration:none}
+.rvp-field .status.ok{color:var(--green);background:var(--green-soft)}
+.rvp-field .status.ok:hover{outline:2px solid #BDD8C9}
+.rvp-field .status.wait{color:var(--muted);background:var(--paper);border:1px solid var(--line)}
+.rvp-outcome-field{scroll-margin-top:90px;margin-bottom:28px}
+.rvp-outcome-field h3{font-size:1.18rem;margin-bottom:12px}
 .outcomes{display:grid;gap:12px}
 .outcome{background:var(--card);border:1.5px solid var(--line);border-left-width:5px;border-radius:var(--radius);box-shadow:var(--shadow);padding:14px 16px;scroll-margin-top:90px}
 .outcome.covered{border-left-color:var(--green)}

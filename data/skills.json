@@ -17,6 +17,10 @@
    "Hrajte slovní fotbal na první hlásku: „Co začíná na M?“",
    "Písmena hledejte venku — na cedulích, SPZ, obalech.",
    "Nevnucujte předem psací tvary — držte se metody školy, jinak se dítě plete."
+  ],
+  "rvpRefs": [
+   "ČJL-3-2-01",
+   "ČJL-3-1-09"
   ]
  },
  {
@@ -37,6 +41,10 @@
    "Čtěte denně 5–10 minut, ne hodinu o víkendu.",
    "Střídejte se: větu vy, větu dítě — udrží to pozornost.",
    "Vybírejte knížky pro první čtení: velká písmena, krátká slova."
+  ],
+  "rvpRefs": [
+   "ČJL-3-1-01",
+   "ČJL-3-3-01"
   ]
  },
  {
@@ -56,6 +64,11 @@
    "Kontrolujte úchop tužky — pozdější přeučování bolí.",
    "Pište krátce a často, ruka prvňáka se rychle unaví.",
    "Chvalte tvar písmen, ne rychlost."
+  ],
+  "rvpRefs": [
+   "ČJL-3-1-08",
+   "ČJL-3-1-09",
+   "ČJL-3-1-10"
   ]
  },
  {
@@ -240,6 +253,12 @@
    "Zaveďte čtecí rituál před spaním — klidně střídavě nahlas.",
    "Po čtení se ptejte na děj: „Proč to udělal?“",
    "Komiksy a časopisy se počítají — důležité je číst."
+  ],
+  "rvpRefs": [
+   "ČJL-3-1-01",
+   "ČJL-3-1-02",
+   "ČJL-3-3-01",
+   "ČJL-3-3-02"
   ]
  },
  {
@@ -259,6 +278,9 @@
   "doma": [
    "Vyrobte kartičky tvrdých a měkkých souhlásek a třiďte slova.",
    "Říkejte řady souhlásek jako básničku (h, ch, k, r, d, t, n)."
+  ],
+  "rvpRefs": [
+   "ČJL-3-2-08"
   ]
  },
  {
@@ -278,6 +300,9 @@
   "doma": [
    "Krátké doplňovačky — 5 minut denně stačí.",
    "Chybu nechte dítě najít samo: „Jedno slovo tu má špatné ů.“"
+  ],
+  "rvpRefs": [
+   "ČJL-3-2-08"
   ]
  },
  {
@@ -297,6 +322,10 @@
   "doma": [
    "Hrajte na druhy vět: vy řeknete větu, dítě určí druh — a naopak.",
    "U přání a vzkazů hlídejte velké písmeno a znaménko."
+  ],
+  "rvpRefs": [
+   "ČJL-3-2-06",
+   "ČJL-3-2-07"
   ]
  },
  {
@@ -404,6 +433,10 @@
    "Věšte řady na lednici — jednu obojetnou souhlásku po druhé.",
    "Vymýšlejte nesmyslné věty z vyjmenovaných slov, humor pomáhá paměti.",
    "Dvojice být × bít vysvětlujte přes význam, ne přes pravidlo."
+  ],
+  "rvpRefs": [
+   "ČJL-3-2-08",
+   "ČJL-5-2-08"
   ]
  },
  {
@@ -423,6 +456,10 @@
   "doma": [
    "Hra u stolu: každý řekne slovo, ostatní určí slovní druh.",
    "Budujte jistotu u podstatných jmen a sloves, zbytek se přidá."
+  ],
+  "rvpRefs": [
+   "ČJL-3-2-04",
+   "ČJL-5-2-03"
   ]
  },
  {
@@ -442,6 +479,10 @@
   "doma": [
    "Pádové otázky jako říkanka cestou do školy.",
    "Skloňujte jména členů rodiny — je to zábavnější než cvičebnice."
+  ],
+  "rvpRefs": [
+   "ČJL-3-2-05",
+   "ČJL-5-2-03"
   ]
  },
  {
@@ -461,6 +502,10 @@
   "doma": [
    "Ptejte se na časy: „Včera jsem… zítra budu…“",
    "Hledejte slovesa v oblíbené knížce."
+  ],
+  "rvpRefs": [
+   "ČJL-3-2-05",
+   "ČJL-5-2-03"
   ]
  },
  {
@@ -587,6 +632,10 @@
   "doma": [
    "Vzory odříkávejte jako básničku: pán, hrad, muž, stroj…",
    "U diktátů chtějte zdůvodnění nahlas: „podle vzoru…“"
+  ],
+  "rvpRefs": [
+   "ČJL-5-2-03",
+   "ČJL-5-2-08"
   ]
  },
  {
@@ -605,6 +654,9 @@
   "doma": [
    "Hrajte na slovní rodiny: kdo vymyslí víc slov od „led“?",
    "Předponu od předložky odlišíte vložením slova (nad velkou zemí)."
+  ],
+  "rvpRefs": [
+   "ČJL-5-2-02"
   ]
  },
  {
@@ -624,6 +676,9 @@
   "doma": [
    "Ptejte se u vět z knížky: kdo? a co dělá?",
    "Podtrhávejte tužkou přímo v novinách — baví to víc než cvičebnice."
+  ],
+  "rvpRefs": [
+   "ČJL-5-2-05"
   ]
  },
  {
@@ -807,6 +862,9 @@
   "doma": [
    "Diktujte krátké věty s chytáky (děti, oči, města) — 5 minut denně.",
    "Chtějte zdůvodnění nahlas: jaký rod má podmět?"
+  ],
+  "rvpRefs": [
+   "ČJL-5-2-09"
   ]
  },
  {
@@ -826,6 +884,10 @@
   "doma": [
    "Počítejte věty v souvětích z knížky podle přísudků.",
    "Hra: spojte dvě věty spojkou a rozhodněte o čárce."
+  ],
+  "rvpRefs": [
+   "ČJL-5-2-06",
+   "ČJL-5-2-07"
   ]
  },
  {
@@ -1052,6 +1114,9 @@
   "doma": [
    "Ptejte se otázkami větných členů u běžných vět.",
    "Grafy věty kreslete barevně — vizuální paměť pomáhá."
+  ],
+  "rvpRefs": [
+   "ČJL-9-2-06"
   ]
  },
  {
@@ -1349,6 +1414,10 @@
   "doma": [
    "Rozebírejte souvětí z novin — skutečné texty baví víc.",
    "Čárky trénujte krátce a často, ne hodinu před testem."
+  ],
+  "rvpRefs": [
+   "ČJL-9-2-06",
+   "ČJL-9-2-07"
   ]
  },
  {
@@ -1610,6 +1679,10 @@
   "doma": [
    "Jedno souvětí denně, ale poctivě rozebrané.",
    "Testy JPZ z minulých let jsou zdarma na webu Cermatu."
+  ],
+  "rvpRefs": [
+   "ČJL-9-2-06",
+   "ČJL-9-2-07"
   ]
  },
  {
@@ -1839,6 +1912,12 @@
   "doma": [
    "Jeden test JPZ týdně od podzimu — a hlavně rozbor chyb.",
    "Nejlepší příprava na porozumění textu je číst. Cokoli."
+  ],
+  "rvpRefs": [
+   "ČJL-9-1-08",
+   "ČJL-9-2-03",
+   "ČJL-9-2-04",
+   "ČJL-9-2-07"
   ]
  },
  {

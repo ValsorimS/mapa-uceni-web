@@ -348,20 +348,31 @@ SKILLS.forEach(s => {
     const fieldOut = outcomes.filter(o => o.fieldId === field.id);
     const fieldMapped = fieldOut.filter(o => (o.skillIds || []).length);
     const skills = (field.skillSubjectKeys || []).reduce((n, p) => n + (subjectCounts[p] || 0), 0);
-    const state = fieldOut.length ? `${fieldMapped.length}/${fieldOut.length} výstupů` : "čeká na import";
+    const state = fieldOut.length
+      ? `<a class="status ok" href="#field-${esc(field.id)}">${fieldMapped.length}/${fieldOut.length} výstupů</a>`
+      : '<em class="status wait">čeká na import</em>';
     return `<div class="rvp-field">
       <div><b>${esc(field.name)}</b><span>${esc(field.code)} · ${skills} ${topicWord(skills)} na webu</span></div>
-      <em class="${fieldOut.length ? "ok" : "wait"}">${state}</em>
+      ${state}
     </div>`;
   };
-  const outcomeRows = outcomes.map(o => {
+  const outcomeCard = o => {
     const period = RVP_PERIOD[o.periodId];
     return `<div class="outcome ${(o.skillIds || []).length ? "covered" : "gap"}" id="${esc(o.id)}">
-      <div class="outcome-code"><b>${esc(o.id)}</b><span>${esc(period ? period.label : o.periodId)} · ${esc(o.topic)}</span></div>
-      <p>${esc(o.text)}</p>
-      <div class="outcome-skills">${skillLinks(o.skillIds || [])}</div>
-    </div>`;
-  }).join("");
+        <div class="outcome-code"><b>${esc(o.id)}</b><span>${esc(period ? period.label : o.periodId)} · ${esc(o.topic)}</span></div>
+        <p>${esc(o.text)}</p>
+        <div class="outcome-skills">${skillLinks(o.skillIds || [])}</div>
+      </div>`;
+  };
+  const outcomeSections = RVP.areas.flatMap(area => area.fields.map(field => ({ area, field })))
+    .map(({ field }) => {
+      const fieldOut = outcomes.filter(o => o.fieldId === field.id);
+      if (!fieldOut.length) return "";
+      return `<section class="rvp-outcome-field" id="field-${esc(field.id)}">
+        <h3>${esc(field.name)}</h3>
+        <div class="outcomes">${fieldOut.map(outcomeCard).join("")}</div>
+      </section>`;
+    }).join("");
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Pokrytí RVP</div>
   <div class="page-title"><h1>Pokrytí RVP</h1>
@@ -381,8 +392,8 @@ SKILLS.forEach(s => {
     </div>`).join("")}
   </section>
   <section class="section">
-    <div class="sec-head"><h2>Importované výstupy</h2><span class="cnt">Matematika a její aplikace</span></div>
-    <div class="outcomes">${outcomeRows}</div>
+    <div class="sec-head"><h2>Importované výstupy</h2><span class="cnt">Klikněte na čísla u oborů výše pro skok na sekci</span></div>
+    ${outcomeSections}
   </section>
   <section class="section">
     <div class="sec-head"><h2>Témata bez mapování</h2></div>
