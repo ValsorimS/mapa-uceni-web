@@ -1,0 +1,66 @@
+[
+ {
+  "z": "RVP ZV",
+  "v": "Rámcový vzdělávací program pro základní vzdělávání. Státem daný rámec toho, co má žák umět na konci jednotlivých období."
+ },
+ {
+  "z": "ŠVP",
+  "v": "Školní vzdělávací program. Konkrétní plán jedné školy vytvořený podle RVP — proto se pořadí učiva mezi školami liší."
+ },
+ {
+  "z": "MŠMT",
+  "v": "Ministerstvo školství, mládeže a tělovýchovy. Vydává RVP, vyhlášky a metodické pokyny."
+ },
+ {
+  "z": "ČŠI",
+  "v": "Česká školní inspekce. Kontroluje kvalitu škol; inspekční zprávy jsou veřejné na csicr.cz."
+ },
+ {
+  "z": "JPZ",
+  "v": "Jednotná přijímací zkouška z českého jazyka a matematiky. Skládá se při přijímačkách na maturitní obory a víceletá gymnázia."
+ },
+ {
+  "z": "Cermat",
+  "v": "Centrum pro zjišťování výsledků vzdělávání. Připravuje testy JPZ a maturity; na cermat.cz najdete i testy z minulých let."
+ },
+ {
+  "z": "DiPSy",
+  "v": "Digitální přihlašovací systém k přijímacímu řízení na střední školy (prihlaskynastredni.cz). Až 3 přihlášky v závazném pořadí."
+ },
+ {
+  "z": "PPP",
+  "v": "Pedagogicko-psychologická poradna. Vyšetřuje např. poruchy učení a doporučuje podpůrná opatření."
+ },
+ {
+  "z": "SPC",
+  "v": "Speciálně pedagogické centrum. Poradna zaměřená na děti se zdravotním postižením (zrak, sluch, řeč, autismus…)."
+ },
+ {
+  "z": "ŠPZ",
+  "v": "Školské poradenské zařízení — společné označení pro PPP a SPC."
+ },
+ {
+  "z": "SVP",
+  "v": "Speciální vzdělávací potřeby. Souhrnný pojem pro vše, co zakládá nárok na podpůrná opatření."
+ },
+ {
+  "z": "PLPP",
+  "v": "Plán pedagogické podpory. První stupeň podpory, který sestavuje sama škola bez poradny."
+ },
+ {
+  "z": "IVP",
+  "v": "Individuální vzdělávací plán. Upravuje obsah a metody výuky pro konkrétního žáka; vyžaduje doporučení poradny."
+ },
+ {
+  "z": "AP",
+  "v": "Asistent pedagoga. Pomáhá učiteli ve třídě se žáky s podpůrnými opatřeními — není to „asistent dítěte“."
+ },
+ {
+  "z": "OSPOD",
+  "v": "Orgán sociálně-právní ochrany dětí při obecním úřadě. Škola se na něj obrací mj. při neomluvených absencích."
+ },
+ {
+  "z": "ŠD",
+  "v": "Školní družina. Ranní a odpolední pobyt pro mladší žáky; přihlašuje se zvlášť, obvykle za úplatu."
+ }
+]

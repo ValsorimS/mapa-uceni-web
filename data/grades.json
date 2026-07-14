@@ -1,0 +1,47 @@
+{
+ "1": {
+  "age": "6–7 let",
+  "st": 1,
+  "intro": "První rok je hlavně o návycích: písmena, čísla do 20, držení tužky a radost z toho, že „už umím číst“. Tempo je pomalejší, než rodiče čekají — a to je záměr."
+ },
+ "2": {
+  "age": "7–8 let",
+  "st": 1,
+  "intro": "Čtení se rozjíždí a nastupují první velká témata: násobilka, tvrdé a měkké souhlásky, počítání do sta."
+ },
+ "3": {
+  "age": "8–9 let",
+  "st": 1,
+  "intro": "Nejnabitější rok prvního stupně: vyjmenovaná slova, celá malá násobilka a povinná angličtina."
+ },
+ "4": {
+  "age": "9–10 let",
+  "st": 1,
+  "intro": "Vzory podstatných jmen, písemné dělení a nová informatika. Prvouku střídají dva předměty — přírodověda a vlastivěda."
+ },
+ "5": {
+  "age": "10–11 let",
+  "st": 1,
+  "intro": "Uzavření 1. stupně: shoda přísudku s podmětem a desetinná čísla. Část dětí v dubnu skládá přijímačky na osmiletá gymnázia."
+ },
+ "6": {
+  "age": "11–12 let",
+  "st": 2,
+  "intro": "Start 2. stupně: na každý předmět jiný učitel, přibývá fyzika a dějepis se zeměpisem jako samostatné předměty."
+ },
+ "7": {
+  "age": "12–13 let",
+  "st": 2,
+  "intro": "Rok zlomků, procent a úměrností. Řada škol v tomto ročníku přidává druhý cizí jazyk (povinně nejpozději od 8. ročníku)."
+ },
+ "8": {
+  "age": "13–14 let",
+  "st": 2,
+  "intro": "Pythagorova věta, rovnice a první chemie. Učivo znatelně houstne a známky začínají hrát roli pro přijímačky."
+ },
+ "9": {
+  "age": "14–15 let",
+  "st": 2,
+  "intro": "Finále základní školy: velké opakování, jednotné přijímací zkoušky a dokončení základního vzdělání."
+ }
+}

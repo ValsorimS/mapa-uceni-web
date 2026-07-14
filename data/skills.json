@@ -1,0 +1,1944 @@
+[
+ {
+  "id": "cj1-pismena",
+  "r": 1,
+  "p": "cj",
+  "t": "Písmena a hlásky",
+  "co": "Dítě objevuje, že řeč se skládá z hlásek a každé hlásce odpovídá písmeno. Podle metody, kterou škola zvolila (analyticko-syntetická, tedy slabikování, nebo genetická, tedy hláskování velkými tiskacími písmeny), postupně poznává tvary písmen a spojuje je se zvuky.",
+  "jak": [
+   "Pozná a pojmenuje probraná písmena i mimo slabikář — na ceduli, v časopise.",
+   "Určí, jakou hláskou slovo začíná a končí.",
+   "Rozloží krátké slovo na hlásky (P-E-S) a zase ho složí."
+  ],
+  "dal": "Skládání hlásek a slabik do prvních přečtených slov.",
+  "dalId": "cj1-slabiky",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · očekávané výstupy 1. období (1.–3. ročník). Volba metody výuky čtení je na škole — ptejte se u zápisu.",
+  "doma": [
+   "Hrajte slovní fotbal na první hlásku: „Co začíná na M?“",
+   "Písmena hledejte venku — na cedulích, SPZ, obalech.",
+   "Nevnucujte předem psací tvary — držte se metody školy, jinak se dítě plete."
+  ]
+ },
+ {
+  "id": "cj1-slabiky",
+  "r": 1,
+  "p": "cj",
+  "t": "První čtení: slabiky a slova",
+  "co": "Z písmen se stávají slabiky (MA-MA) a ze slabik slova. Dítě nejdřív čte pomalu a nahlas „slabikuje“; plynulost přijde až s množstvím přečteného. V tomto období je normální, že čtení je pracné a obsah textu dítěti částečně uniká.",
+  "jak": [
+   "Přečte krátké slovo složené z otevřených slabik (máma, pije, sova).",
+   "Přečte jednoduchou větu a řekne vlastními slovy, co znamená.",
+   "Čtení ho úplně neodrazuje — krátké denní čtení zvládá bez velkého boje."
+  ],
+  "dal": "Plynulé čtení s porozuměním delších textů ve 2. ročníku.",
+  "dalId": "cj2-cteni",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1. období. Cílový výstup: plynulé čtení s porozuměním textů přiměřeného rozsahu a náročnosti.",
+  "doma": [
+   "Čtěte denně 5–10 minut, ne hodinu o víkendu.",
+   "Střídejte se: větu vy, větu dítě — udrží to pozornost.",
+   "Vybírejte knížky pro první čtení: velká písmena, krátká slova."
+  ]
+ },
+ {
+  "id": "cj1-psani",
+  "r": 1,
+  "p": "cj",
+  "t": "Uvolňovací cviky a psaní",
+  "co": "Před psaním písmen přijdou „čáranice“ — uvolňovací cviky, kterými se ruka učí správné návyky. Pak dítě nacvičuje tvary písmen v písance. Většina škol učí klasické vázané psací písmo, část škol zvolila nespojité písmo Comenia Script — obojí je povolené.",
+  "jak": [
+   "Drží tužku správným špetkovým úchopem a nepřetlačuje.",
+   "Napíše probraná písmena čitelně a ve správné velikosti do liniatury.",
+   "Opíše krátké slovo nebo větu bez vynechaných písmen."
+  ],
+  "dal": "Psaní krátkých vět, opis a přepis, později vlastní zápisky.",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1. období. Typ písma (vázané × Comenia Script) určuje ŠVP školy.",
+  "doma": [
+   "Kontrolujte úchop tužky — pozdější přeučování bolí.",
+   "Pište krátce a často, ruka prvňáka se rychle unaví.",
+   "Chvalte tvar písmen, ne rychlost."
+  ]
+ },
+ {
+  "id": "m1-do20",
+  "r": 1,
+  "p": "m",
+  "t": "Sčítání a odčítání do 20",
+  "co": "Základ celé školní matematiky. Nejdřív se počítá do 10 a do 20 bez přechodu přes desítku (12 + 3), přechod přes desítku (8 + 5) bývá až na konci 1. ročníku nebo začátku 2. ročníku. Děti si pomáhají prsty, počítadlem nebo rozkladem čísel — to je v pořádku.",
+  "jak": [
+   "Spočítá příklady do 20 bez přechodu přes desítku zpaměti nebo s drobnou oporou.",
+   "Rozloží číslo (7 = 5 + 2) a použije to při počítání.",
+   "Vyřeší jednoduchou slovní úlohu ze života („Měl jsi 5 korun, dostal jsi 3…“)."
+  ],
+  "dal": "Počítání do 100 a začátek násobilky ve 2. ročníku.",
+  "dalId": "m2-do100",
+  "rvp": "RVP ZV · Matematika a její aplikace · 1. období. Některé školy učí Hejného metodou — postup je jiný, cílové výstupy stejné.",
+  "doma": [
+   "Počítejte všude: schody, knoflíky, příbory na stůl.",
+   "Hrajte „Člověče“ a karty — počítání kroků je trénink.",
+   "Prsty nejsou podvod — je to legitimní opora a sama odpadne."
+  ]
+ },
+ {
+  "id": "m1-rada",
+  "r": 1,
+  "p": "m",
+  "t": "Číselná řada a porovnávání",
+  "co": "Dítě se učí, že čísla mají pevné pořadí a dají se porovnávat. Pracuje s pojmy více, méně, stejně a se znaménky <, >, =. Jistota v číselné řadě (co je před 14, co po 17) je nenápadný, ale klíčový základ pro všechno další.",
+  "jak": [
+   "Vyjmenuje řadu do 20 vzestupně i sestupně a najde chybějící číslo.",
+   "Porovná dvě čísla a zapíše to znaménkem.",
+   "Ukáže číslo na číselné ose."
+  ],
+  "dal": "Počítání a orientace v číslech do 100.",
+  "dalId": "m2-do100",
+  "rvp": "RVP ZV · Matematika a její aplikace · 1. období.",
+  "doma": [
+   "Ptejte se v běžné řeči: „Co je víc, 7 nebo 9?“",
+   "Odpočítávejte pozpátku jako start rakety."
+  ]
+ },
+ {
+  "id": "m1-tvary",
+  "r": 1,
+  "p": "m",
+  "t": "První geometrie: tvary a prostor",
+  "co": "Geometrie v 1. ročníku znamená poznávání základních rovinných tvarů (čtverec, obdélník, trojúhelník, kruh) a orientaci v prostoru: vpravo, vlevo, nad, pod, mezi. Rýsovat se zatím nerýsuje — to přijde později.",
+  "jak": [
+   "Pojmenuje základní tvary v okolí („stůl je obdélník“).",
+   "Roztřídí předměty podle tvaru a velikosti.",
+   "Splní pokyn typu „polož pastelku vlevo od sešitu“."
+  ],
+  "dal": "Rýsování úsečky podle pravítka ve 2. ročníku.",
+  "dalId": "m2-usecka",
+  "rvp": "RVP ZV · Matematika a její aplikace · 1. období (geometrie v rovině a v prostoru).",
+  "doma": [
+   "Hledejte tvary v kuchyni a na hřišti.",
+   "Stavějte z kostek a používejte u toho slova nad, pod, vedle, mezi."
+  ]
+ },
+ {
+  "id": "prv1-skola",
+  "r": 1,
+  "p": "prv",
+  "t": "Škola, režim dne a roční období",
+  "co": "Prvouka v 1. ročníku ukotvuje dítě ve světě: orientace ve škole a jejím okolí, pravidla soužití ve třídě, dny v týdnu, části dne a střídání ročních období. Zní to samozřejmě, ale právě tady se buduje slovní zásoba pro pozdější přírodovědu a vlastivědu.",
+  "jak": [
+   "Vyjmenuje dny v týdnu a ví, který den je dnes.",
+   "Přiřadí typické znaky k ročním obdobím.",
+   "Popíše cestu do školy a ví, komu říct, když se něco děje."
+  ],
+  "dal": "Hodiny, kalendář a témata rodiny a domova ve 2. ročníku.",
+  "dalId": "prv2-cas",
+  "rvp": "RVP ZV · Člověk a jeho svět · 1. období.",
+  "doma": [
+   "Povídejte si o dnech: „Jaký je dnes den? Co bylo včera?“",
+   "Nechte dítě balit aktovku samo podle rozvrhu."
+  ]
+ },
+ {
+  "id": "hv1-zpev",
+  "r": 1,
+  "p": "hv",
+  "t": "Zpěv, rytmus a písničky",
+  "co": "Hudební výchova v první třídě je hlavně o radosti: společný zpěv jednoduchých písní, vytleskávání rytmu, hra na tělo a na Orffovy nástroje (dřívka, triangl, bubínek). Rozvíjí se hudební sluch a paměť — a nenápadně i řeč a soustředění.",
+  "jak": [
+   "Zazpívá s ostatními několik jednoduchých písní.",
+   "Vytleská rytmus slova nebo krátkého říkadla.",
+   "Rozliší zvuk vysoký × hluboký, rychlý × pomalý."
+  ],
+  "dal": "Základy notového zápisu a řízený poslech ve 4.–5. ročníku.",
+  "dalId": "hv5-noty",
+  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 1. období.",
+  "doma": [
+   "Zpívejte v autě a u vaření — jistota přijde opakováním.",
+   "Vytleskávejte jména členů rodiny po slabikách."
+  ]
+ },
+ {
+  "id": "vv1-tvoreni",
+  "r": 1,
+  "p": "vv",
+  "t": "Výtvarné experimentování",
+  "co": "Ve výtvarce nejde o „hezké obrázky“, ale o objevování: míchání barev, práce se štětcem, voskovkami, modelínou i přírodninami. Dítě si osvojuje základní výtvarné techniky a učí se o svém obrázku mluvit — co vytvořilo a proč.",
+  "jak": [
+   "Zachází se štětcem, nůžkami a lepidlem bez větší dopomoci.",
+   "Namíchá ze základních barev novou (žlutá + modrá = zelená).",
+   "Popíše, co na obrázku vytvořilo a co tím chtělo říct."
+  ],
+  "dal": "Záměrná kompozice a ilustrace ve 4.–5. ročníku.",
+  "dalId": "vv5-kompozice",
+  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 1. období.",
+  "doma": [
+   "Ptejte se „co jsi vytvořil?“ místo hodnocení „to je hezké“.",
+   "Vyhraďte doma koutek, kde se smí patlat."
+  ]
+ },
+ {
+  "id": "tv1-pohyb",
+  "r": 1,
+  "p": "tv",
+  "t": "Tělocvik: pohybové hry a obratnost",
+  "co": "Základem tělesné výchovy v 1. ročníku jsou pohybové hry, honičky, překážkové dráhy a průpravná cvičení. Dítě se učí bezpečně se pohybovat v tělocvičně, reagovat na povely a dodržovat pravidla her — fair play začíná tady.",
+  "jak": [
+   "Zvládne základní lokomoci: běh, skok, házení a chytání míče.",
+   "Dodržuje domluvená pravidla hry a povely učitele.",
+   "Připraví se na cvičení (převlékání, nástup) samostatně."
+  ],
+  "dal": "Plavecký výcvik ve 2.–3. ročníku a základy sportovních her.",
+  "dalId": "tv3-plavani",
+  "rvp": "RVP ZV · Člověk a zdraví — Tělesná výchova · 1. období.",
+  "doma": [
+   "Denně ven — obratnost z hřiště se v tělocviku pozná.",
+   "Trénujte prohrávání na hrách doma: prohra je součást hry."
+  ]
+ },
+ {
+  "id": "csp1-prace",
+  "r": 1,
+  "p": "csp",
+  "t": "Pracovní činnosti: stříhání, lepení, stavebnice",
+  "co": "Předmět, kterému se říká pracovky (v RVP oblast Člověk a svět práce): práce s papírem, modelínou a drobným materiálem, konstrukční stavebnice, jednoduché skládání. Trénuje jemnou motoriku, která přímo souvisí s psaním.",
+  "jak": [
+   "Stříhá podél čáry a lepí bez „jezera“ lepidla.",
+   "Postaví model podle jednoduchého návodu nebo předlohy.",
+   "Uklidí po sobě pracovní místo."
+  ],
+  "dal": "Práce s dalšími materiály a pěstitelské práce ve 4.–5. ročníku.",
+  "dalId": "csp4-materialy",
+  "rvp": "RVP ZV · Člověk a svět práce · 1. stupeň.",
+  "doma": [
+   "Zapojte dítě do vaření a domácích prací — je to stejný trénink motoriky.",
+   "Levákovi pořiďte nůžky pro leváky."
+  ]
+ },
+ {
+  "id": "cj2-cteni",
+  "r": 2,
+  "p": "cj",
+  "t": "Plynulé čtení s porozuměním",
+  "co": "Ve 2. ročníku se ze slabikování stává skutečné čtení: plynulejší, s intonací a hlavně s porozuměním. Dítě už nečte jen „technicky“, ale dokáže o přečteném mluvit. Rozdíly mezi dětmi jsou v tomto věku obrovské a většinou se srovnají.",
+  "jak": [
+   "Přečte nahlas přiměřený text bez častého slabikování.",
+   "Odpoví na otázky k obsahu a převypráví děj vlastními slovy.",
+   "Sám sáhne po knížce nebo komiksu přiměřené délky."
+  ],
+  "dal": "Čtení delších textů, vyhledávání informací v textu, první čtenářské deníky.",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1. období: čte plynule s porozuměním texty přiměřeného rozsahu a náročnosti.",
+  "doma": [
+   "Zaveďte čtecí rituál před spaním — klidně střídavě nahlas.",
+   "Po čtení se ptejte na děj: „Proč to udělal?“",
+   "Komiksy a časopisy se počítají — důležité je číst."
+  ]
+ },
+ {
+  "id": "cj2-tvrde",
+  "r": 2,
+  "p": "cj",
+  "t": "Tvrdé a měkké souhlásky (y/i)",
+  "co": "První velké pravopisné téma. Po tvrdých souhláskách (h, ch, k, r, d, t, n) se píše y, po měkkých (ž, š, č, ř, c, j, ď, ť, ň) se píše i. Dítě se to učí zčásti pamětně, zčásti sluchem — u d/t/n je totiž rozdíl slyšet (dy × di).",
+  "jak": [
+   "Vyjmenuje tvrdé a měkké souhlásky.",
+   "Doplní správně y/i ve slovech jako hyne, žije, tiká.",
+   "Chybu po upozornění najde a zdůvodní."
+  ],
+  "dal": "Vyjmenovaná slova ve 3. ročníku — tam se řeší y/i po obojetných souhláskách.",
+  "dalId": "cj3-vyjmenovana",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1. období (zvuková a grafická podoba jazyka, pravopis).",
+  "doma": [
+   "Vyrobte kartičky tvrdých a měkkých souhlásek a třiďte slova.",
+   "Říkejte řady souhlásek jako básničku (h, ch, k, r, d, t, n)."
+  ]
+ },
+ {
+  "id": "cj2-uu",
+  "r": 2,
+  "p": "cj",
+  "t": "Psaní u, ú, ů",
+  "co": "Klasika českého pravopisu: ú s čárkou se píše na začátku slova (úkol) a po předponě (zaúčtovat), ů s kroužkem uprostřed a na konci slova (stůl, domů). Pár výjimek (ocún, túra) se děti učí později.",
+  "jak": [
+   "Správně doplní ú/ů v běžných slovech.",
+   "Zdůvodní volbu pravidlem („je to na začátku slova, proto ú“).",
+   "V diktátu už toto téma není hlavním zdrojem chyb."
+  ],
+  "dal": "Další pravopisná témata: párové souhlásky na konci slov, později vyjmenovaná slova.",
+  "dalId": "cj3-vyjmenovana",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1. období.",
+  "doma": [
+   "Krátké doplňovačky — 5 minut denně stačí.",
+   "Chybu nechte dítě najít samo: „Jedno slovo tu má špatné ů.“"
+  ]
+ },
+ {
+  "id": "cj2-vety",
+  "r": 2,
+  "p": "cj",
+  "t": "Druhy vět",
+  "co": "Věta oznamovací, tázací, rozkazovací a přací — a k nim správná znaménka (tečka, otazník, vykřičník). Dítě se zároveň učí, že věta začíná velkým písmenem, a trénuje pořádek slov ve větě.",
+  "jak": [
+   "Určí druh věty a zdůvodní podle čeho.",
+   "Napíše ke každému druhu vlastní příklad se správným znaménkem.",
+   "V psaném textu nezapomíná velká písmena na začátku vět."
+  ],
+  "dal": "Věta jednoduchá a souvětí v 5. ročníku, větné členy na 2. stupni.",
+  "dalId": "cj5-souveti",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1. období (skladba).",
+  "doma": [
+   "Hrajte na druhy vět: vy řeknete větu, dítě určí druh — a naopak.",
+   "U přání a vzkazů hlídejte velké písmeno a znaménko."
+  ]
+ },
+ {
+  "id": "m2-do100",
+  "r": 2,
+  "p": "m",
+  "t": "Sčítání a odčítání do 100",
+  "co": "Rozšíření počítání na dvouciferná čísla: nejdřív desítky (30 + 40), pak počítání s přechodem přes desítku (47 + 8). Dítě se učí čísla rozkládat a využívat desítkovou soustavu — tady se poprvé ukazuje, jestli rozumí, co číslo „znamená“.",
+  "jak": [
+   "Sečte a odečte dvouciferná čísla zpaměti s rozkladem (56 + 27 = 56 + 20 + 7).",
+   "Orientuje se na číselné ose do 100.",
+   "Vyřeší slovní úlohu o penězích do 100 Kč."
+  ],
+  "dal": "Počítání do 1000 a písemné sčítání pod sebou ve 3. ročníku.",
+  "dalId": "m3-pisemne",
+  "rvp": "RVP ZV · Matematika a její aplikace · 1. období.",
+  "doma": [
+   "Počítejte nákupy a vracení peněz.",
+   "Hra: „Myslím si číslo mezi 40 a 60…“"
+  ]
+ },
+ {
+  "id": "m2-nasobilka",
+  "r": 2,
+  "p": "m",
+  "t": "Násobilka 2, 3, 4, 5",
+  "co": "Násobení začíná jako opakované sčítání (3 · 4 = 4 + 4 + 4) a postupně se automatizuje. Ve 2. ročníku se probírají řady 2, 3, 4 a 5 včetně dělení v oboru těchto řad. Zpaměti zvládnutá násobilka je jedna z mála věcí, kde se dril opravdu vyplatí.",
+  "jak": [
+   "Vybaví si spoje řad 2–5 bez dlouhého přemýšlení.",
+   "Chápe souvislost násobení a dělení (3 · 5 = 15, tedy 15 : 5 = 3).",
+   "Použije násobilku ve slovní úloze („4 děti po 5 korunách…“)."
+  ],
+  "dal": "Celá malá násobilka do 100 ve 3. ročníku.",
+  "dalId": "m3-nasobilka",
+  "rvp": "RVP ZV · Matematika a její aplikace · 1. období.",
+  "doma": [
+   "Kartičky do kapsy: 3 spoje denně, ne 30 najednou.",
+   "Násobilkové písničky a říkanky opravdu fungují."
+  ]
+ },
+ {
+  "id": "m2-usecka",
+  "r": 2,
+  "p": "m",
+  "t": "Úsečka a měření",
+  "co": "První skutečné rýsování: bod, přímka, úsečka. Dítě se učí narýsovat úsečku dané délky podle pravítka a měřit s přesností na centimetry. Zároveň trénuje jemnou motoriku a přesnost — ostrouhaná tužka není detail.",
+  "jak": [
+   "Narýsuje a označí úsečku dané délky (např. |AB| = 6 cm).",
+   "Změří úsečku či předmět s přesností na centimetry.",
+   "Rozliší přímku a úsečku."
+  ],
+  "dal": "Rovnoběžky a kolmice ve 4. ročníku, rýsování podle trojúhelníku s ryskou.",
+  "dalId": "m4-kolmice",
+  "rvp": "RVP ZV · Matematika a její aplikace · 1. období (geometrie).",
+  "doma": [
+   "Půjčte dítěti pravítko k domácím projektům — měřit nábytek baví.",
+   "Ostrouhaná tužka a klid: přesnost je tady cíl."
+  ]
+ },
+ {
+  "id": "prv2-cas",
+  "r": 2,
+  "p": "prv",
+  "t": "Hodiny, kalendář a čas",
+  "co": "Určování času na ručičkových i digitálních hodinách, orientace v kalendáři, měsíce a jejich pořadí. Čtení ručičkových hodin (čtvrt na, půl, tři čtvrtě na) je pro mnoho dětí překvapivě těžké a chce trpělivost.",
+  "jak": [
+   "Přečte celé hodiny a půlhodiny na ručičkových hodinách, postupně i čtvrthodiny.",
+   "Vyjmenuje měsíce a přiřadí je k ročním obdobím.",
+   "Odhadne, jak dlouho trvá minuta, hodina, den."
+  ],
+  "dal": "Převody jednotek času v matematice na 1. stupni.",
+  "dalId": "m5-prevody",
+  "rvp": "RVP ZV · Člověk a jeho svět · 1. období (lidé a čas).",
+  "doma": [
+   "Pořiďte do dětského pokoje ručičkové hodiny.",
+   "Ptejte se: „Za čtvrt hodiny vyrážíme — kolik bude?“"
+  ]
+ },
+ {
+  "id": "cj3-vyjmenovana",
+  "r": 3,
+  "p": "cj",
+  "t": "Vyjmenovaná slova",
+  "co": "Asi nejikoničtější učivo českých základek. Po obojetných souhláskách b, l, m, p, s, v, z se ve vyjmenovaných slovech a slovech příbuzných píše y (být, mlýn, my, pýcha, syn, vy, brzy…). Dítě se učí řady zpaměti a hlavně poznávat slova příbuzná — v tom je celý vtip.",
+  "jak": [
+   "Odříká řady vyjmenovaných slov po všech obojetných souhláskách.",
+   "Rozliší dvojice typu být × bít, výr × vír podle významu.",
+   "Zdůvodní pravopis přes slovo příbuzné („obyvatel — je to příbuzné s bydlet“)."
+  ],
+  "dal": "Automatizace v diktátech a kombinace s dalšími pravopisnými jevy — vyjmenovaná slova se vracejí celou školní docházku.",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1. období: odůvodňuje a píše správně i/y po obojetných souhláskách ve vyjmenovaných slovech.",
+  "doma": [
+   "Věšte řady na lednici — jednu obojetnou souhlásku po druhé.",
+   "Vymýšlejte nesmyslné věty z vyjmenovaných slov, humor pomáhá paměti.",
+   "Dvojice být × bít vysvětlujte přes význam, ne přes pravidlo."
+  ]
+ },
+ {
+  "id": "cj3-slovni-druhy",
+  "r": 3,
+  "p": "cj",
+  "t": "Deset slovních druhů",
+  "co": "Podstatná jména, přídavná jména, zájmena, číslovky, slovesa, příslovce, předložky, spojky, částice, citoslovce. Ve 3. ročníku jde o poznávání a rozlišování — detailní mluvnické kategorie přijdou později. Pořadí 1–10 se hodí umět zpaměti.",
+  "jak": [
+   "Vyjmenuje slovní druhy ve správném pořadí.",
+   "Určí slovní druh u běžných slov ve větě.",
+   "Rozliší ohebné a neohebné slovní druhy."
+  ],
+  "dal": "Mluvnické kategorie podstatných jmen a sloves, později vzory.",
+  "dalId": "cj3-podstatna",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1. období: rozlišuje slovní druhy v základním tvaru.",
+  "doma": [
+   "Hra u stolu: každý řekne slovo, ostatní určí slovní druh.",
+   "Budujte jistotu u podstatných jmen a sloves, zbytek se přidá."
+  ]
+ },
+ {
+  "id": "cj3-podstatna",
+  "r": 3,
+  "p": "cj",
+  "t": "Podstatná jména: rod, číslo, pád",
+  "co": "U podstatných jmen se určuje rod (mužský životný/neživotný, ženský, střední), číslo (jednotné, množné) a pád. Sedm pádů a pádové otázky (kdo, co? — koho, čeho? …) je další velká pamětní dávka, na které stojí pozdější vzory i shoda.",
+  "jak": [
+   "Vyjmenuje pádové otázky v pořadí 1.–7. pád.",
+   "Určí u podstatného jména rod, číslo a pád ve větě.",
+   "Skloňuje slovo podle zadaného pádu."
+  ],
+  "dal": "Vzory podstatných jmen ve 4. ročníku.",
+  "dalId": "cj4-vzory",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1.–2. období (tvarosloví).",
+  "doma": [
+   "Pádové otázky jako říkanka cestou do školy.",
+   "Skloňujte jména členů rodiny — je to zábavnější než cvičebnice."
+  ]
+ },
+ {
+  "id": "cj3-slovesa",
+  "r": 3,
+  "p": "cj",
+  "t": "Slovesa: osoba, číslo, čas",
+  "co": "U sloves se dítě učí určovat osobu (já/ty/on…), číslo a čas (minulý, přítomný, budoucí) a časovat. Zároveň poznává infinitiv a zvratná slovesa. Je to základ pro pozdější shodu přísudku s podmětem.",
+  "jak": [
+   "Určí osobu, číslo a čas slovesa ve větě.",
+   "Převede sloveso do jiného času („psal → píše → bude psát“).",
+   "Pozná infinitiv."
+  ],
+  "dal": "Shoda přísudku s podmětem v 5. ročníku.",
+  "dalId": "cj5-shoda",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1.–2. období (tvarosloví).",
+  "doma": [
+   "Ptejte se na časy: „Včera jsem… zítra budu…“",
+   "Hledejte slovesa v oblíbené knížce."
+  ]
+ },
+ {
+  "id": "m3-nasobilka",
+  "r": 3,
+  "p": "m",
+  "t": "Celá malá násobilka",
+  "co": "Doplnění řad 6, 7, 8, 9 a automatizace celé násobilky do 100, včetně dělení a dělení se zbytkem. Tohle je učivo, které musí „sedět“ zpaměti — bez něj se later trápí zlomky, rovnice i procenta.",
+  "jak": [
+   "Vybaví si kterýkoli spoj malé násobilky do 3 sekund.",
+   "Dělí v oboru násobilky včetně zbytku (23 : 4 = 5, zbytek 3).",
+   "Používá násobilku v odhadech a slovních úlohách."
+  ],
+  "dal": "Písemné násobení a dělení ve 4. ročníku.",
+  "dalId": "m4-deleni",
+  "rvp": "RVP ZV · Matematika a její aplikace · 1. období: užívá spoje násobilek zpaměti.",
+  "doma": [
+   "Krátce a denně: 2 minuty kartiček po večeři.",
+   "Hrajte násobilkovou „válku“ s kartami.",
+   "Rychlost oceňujte až po jistotě."
+  ]
+ },
+ {
+  "id": "m3-pisemne",
+  "r": 3,
+  "p": "m",
+  "t": "Písemné sčítání a odčítání, čísla do 1000",
+  "co": "Počítání „pod sebou“ s přechodem přes desítku a rozšíření číselného oboru do 1000, včetně zaokrouhlování na desítky a stovky. Dítě se učí zapisovat čísla do řádů (jednotky, desítky, stovky) a kontrolovat výsledek odhadem.",
+  "jak": [
+   "Sečte a odečte trojciferná čísla písemně pod sebou.",
+   "Zaokrouhlí číslo na desítky a stovky.",
+   "Před výpočtem odhadne výsledek a pozná nesmyslnou hodnotu."
+  ],
+  "dal": "Velká čísla a písemné násobení a dělení ve 4. ročníku.",
+  "dalId": "m4-deleni",
+  "rvp": "RVP ZV · Matematika a její aplikace · 1. období.",
+  "doma": [
+   "Nechte dítě přepočítat účtenku písemně pod sebou.",
+   "Hlídejte zápis do sloupečků — čtverečkovaný papír pomáhá."
+  ]
+ },
+ {
+  "id": "aj3-zacatek",
+  "r": 3,
+  "p": "aj",
+  "t": "Angličtina začíná (povinně)",
+  "co": "Cizí jazyk je podle RVP povinný od 3. ročníku (mnoho škol začíná dříve formou kroužků nebo od 1. třídy). Výuka je hravá: slovíčka v okruzích (barvy, čísla, rodina, zvířata), písničky, jednoduché pokyny a fráze. Cílem 1. stupně je úroveň blížící se A1.",
+  "jak": [
+   "Rozumí jednoduchým pokynům učitele (sit down, open your book).",
+   "Představí se a odpoví na základní otázky (What's your name? How old are you?).",
+   "Pojmenuje slovíčka z probraných okruhů."
+  ],
+  "dal": "Jednoduchá konverzace a přítomný čas v 5. ročníku.",
+  "dalId": "aj5-konverzace",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace — Cizí jazyk · 1. stupeň. Povinná dotace od 3. ročníku, obvykle 3 hodiny týdně.",
+  "doma": [
+   "Nalepte na věci doma anglické názvy.",
+   "Pohádky v angličtině s titulky — poslech dělá zázraky.",
+   "Nepřekládejte každé slovo, jde o odvahu mluvit."
+  ]
+ },
+ {
+  "id": "prv3-priroda",
+  "r": 3,
+  "p": "prv",
+  "t": "Živá a neživá příroda",
+  "co": "Prvouka ve 3. ročníku přechází k soustavnějšímu pozorování přírody: rozdíl mezi živou a neživou přírodou, podmínky života, základní vlastnosti látek, jednoduché pokusy a měření (teplota, hmotnost, objem).",
+  "jak": [
+   "Roztřídí příklady na živou a neživou přírodu a zdůvodní.",
+   "Vyjmenuje, co potřebují rostliny a živočichové k životu.",
+   "Provede jednoduché měření a zapíše výsledek."
+  ],
+  "dal": "Přírodověda ve 4. ročníku — ekosystémy a společenstva.",
+  "dalId": "pri4-ekosystemy",
+  "rvp": "RVP ZV · Člověk a jeho svět · 1. období (rozmanitost přírody).",
+  "doma": [
+   "Pěstujte cokoli na parapetu a pozorujte to.",
+   "Na procházce třiďte: živé × neživé."
+  ]
+ },
+ {
+  "id": "tv3-plavani",
+  "r": 3,
+  "p": "tv",
+  "t": "Plavecký výcvik",
+  "co": "Součástí tělesné výchovy na 1. stupni je povinná základní plavecká výuka v rozsahu 40 vyučovacích hodin, kterou školy zpravidla rozdělují do dvou ročníků (nejčastěji 2. a 3.). Probíhá v plavecké škole pod vedením instruktorů; cílem je zvládnutí základních plaveckých dovedností, ne závodní styl.",
+  "jak": [
+   "Splývá, potopí se a vydechuje do vody beze strachu.",
+   "Uplave alespoň krátký úsek jedním plaveckým způsobem.",
+   "Zná zásady bezpečného chování u vody."
+  ],
+  "dal": "Zdokonalování plavání a sportovní hry na 2. stupni.",
+  "dalId": "tv6-sport",
+  "rvp": "RVP ZV · Člověk a zdraví — Tělesná výchova · 1. stupeň (základní plavecká výuka zpravidla ve 2. a 3. ročníku).",
+  "doma": [
+   "Choďte plavat i mimo výcvik — jistota z bazénu se přenáší.",
+   "Strach z vody řešte s instruktorem, ne tlakem."
+  ]
+ },
+ {
+  "id": "cj4-vzory",
+  "r": 4,
+  "p": "cj",
+  "t": "Vzory podstatných jmen",
+  "co": "Pán, hrad, muž, stroj — žena, růže, píseň, kost — město, moře, kuře, stavení. Podle vzorů se řídí pravopis koncovek podstatných jmen (na lukách × v ulicích). Dítě se učí přiřadit slovo ke vzoru a z toho odvodit i/y v koncovce.",
+  "jak": [
+   "Vyjmenuje vzory pro všechny tři rody.",
+   "Přiřadí podstatné jméno ke správnému vzoru.",
+   "Zdůvodní pravopis koncovky přes vzor („na topolech — podle vzoru hrad“)."
+  ],
+  "dal": "Vzory přídavných jmen a shoda přísudku s podmětem v 5. ročníku.",
+  "dalId": "cj5-shoda",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. období: píše správně i/y v koncovkách podstatných jmen podle vzorů.",
+  "doma": [
+   "Vzory odříkávejte jako básničku: pán, hrad, muž, stroj…",
+   "U diktátů chtějte zdůvodnění nahlas: „podle vzoru…“"
+  ]
+ },
+ {
+  "id": "cj4-stavba",
+  "r": 4,
+  "p": "cj",
+  "t": "Stavba slova: kořen, předpona, přípona",
+  "co": "Rozbor slova na části: kořen, předponu a příponovou část. S tím souvisí i pravopisné jevy — rozlišení předpony a předložky (nad zemí × nadzemní) a zdvojené hlásky na hranici částí slova (oddělit, bezzubý).",
+  "jak": [
+   "Najde kořen slova a slova příbuzná.",
+   "Rozliší předponu od předložky a správně je píše.",
+   "Vysvětlí, proč se ve slově píší dvě stejné souhlásky vedle sebe."
+  ],
+  "dal": "Předpony s-/z-/vz- a přejatá slova na 2. stupni.",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. období (stavba slova, pravopis).",
+  "doma": [
+   "Hrajte na slovní rodiny: kdo vymyslí víc slov od „led“?",
+   "Předponu od předložky odlišíte vložením slova (nad velkou zemí)."
+  ]
+ },
+ {
+  "id": "cj4-podmet",
+  "r": 4,
+  "p": "cj",
+  "t": "Podmět a přísudek",
+  "co": "Základní skladební dvojice: kdo/co něco dělá (podmět) a co dělá (přísudek). Dítě se učí obě části ve větě najít, včetně podmětu nevyjádřeného. Bez toho nejde pochopit shoda přísudku s podmětem, která přijde vzápětí.",
+  "jak": [
+   "Najde ve větě podmět a přísudek a podtrhne je (rovná × vlnovka).",
+   "Pozná podmět nevyjádřený („Půjdeme domů.“ — my).",
+   "Vytvoří větu k zadané dvojici podmět + přísudek."
+  ],
+  "dal": "Shoda přísudku s podmětem v 5. ročníku.",
+  "dalId": "cj5-shoda",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. období (skladba).",
+  "doma": [
+   "Ptejte se u vět z knížky: kdo? a co dělá?",
+   "Podtrhávejte tužkou přímo v novinách — baví to víc než cvičebnice."
+  ]
+ },
+ {
+  "id": "m4-deleni",
+  "r": 4,
+  "p": "m",
+  "t": "Písemné násobení a dělení",
+  "co": "Násobení pod sebou (i vícecifernými činiteli) a dělení jednociferným dělitelem, včetně zkoušky. Číselný obor se rozšiřuje do milionu. Je to hodně „řemeslné“ učivo — přesný zápis do sloupečků rozhoduje o úspěchu.",
+  "jak": [
+   "Vynásobí písemně dvojciferné a trojciferné číslo.",
+   "Vydělí jednociferným dělitelem a provede zkoušku násobením.",
+   "Udrží přehledný zápis (řády pod sebou) i u delších výpočtů."
+  ],
+  "dal": "Dělení dvojciferným dělitelem a počítání s desetinnými čísly v 5.–6. ročníku.",
+  "dalId": "m5-desetinna",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. období.",
+  "doma": [
+   "Dělte útratu nebo kapesné mezi sourozence.",
+   "Zkouška násobením jako detektivka: sedí to?"
+  ]
+ },
+ {
+  "id": "m4-zlomky",
+  "r": 4,
+  "p": "m",
+  "t": "První zlomky",
+  "co": "Po revizi RVP se zlomky objevují už na 1. stupni. Ve 4. ročníku jde o názornou představu: celek a jeho části, polovina, třetina, čtvrtina, čtení a zápis zlomku, vyznačení části celku na obrázku. Žádné počítání se zlomky — jen porozumění.",
+  "jak": [
+   "Vyznačí polovinu, třetinu nebo čtvrtinu celku na obrázku.",
+   "Přečte a zapíše zlomek (¼ = jedna čtvrtina).",
+   "Určí, kolik je čtvrtina z 12 bonbonů."
+  ],
+  "dal": "Porovnávání a sčítání zlomků se stejným jmenovatelem v 5. ročníku.",
+  "dalId": "m5-zlomky",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. období: modeluje a určí část celku, používá zápis ve formě zlomku.",
+  "doma": [
+   "Krájejte pizzu a čokoládu — nejlepší učebnice zlomků.",
+   "Pečte podle receptu: půl lžičky, čtvrt kila."
+  ]
+ },
+ {
+  "id": "m4-kolmice",
+  "r": 4,
+  "p": "m",
+  "t": "Rovnoběžky, kolmice a rýsování",
+  "co": "Geometrie dostává říz: rýsování rovnoběžek a kolmic pomocí trojúhelníku s ryskou, konstrukce čtverce a obdélníku, kružnice kružítkem. Přesnost na milimetr, tenká tužka a čisté náčrtky — tady se buduje rýsovací hygiena na celé roky.",
+  "jak": [
+   "Narýsuje kolmici a rovnoběžku k dané přímce trojúhelníkem s ryskou.",
+   "Sestrojí čtverec a obdélník podle zadaných rozměrů.",
+   "Narýsuje kružnici s daným středem a poloměrem."
+  ],
+  "dal": "Obvod a obsah v 5. ročníku, úhly a souměrnosti v 6. ročníku.",
+  "dalId": "m5-obsah",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. období (geometrie v rovině a v prostoru).",
+  "doma": [
+   "Kupte kvalitní trojúhelník s ryskou a kružítko — levné klouže.",
+   "Narýsujte spolu plánek dětského pokoje."
+  ]
+ },
+ {
+  "id": "inf4-zaklad",
+  "r": 4,
+  "p": "inf",
+  "t": "Nová informatika: data, roboti, bezpečí",
+  "co": "Od revize RVP (2021) je informatika povinný předmět už od 4. ročníku — a není to „psaní ve Wordu“. Základem je informatické myšlení: řešení problémů po krocích, jednoduché programování (často Scratch, Bee-bot a podobní roboti), práce s daty a bezpečné chování online.",
+  "jak": [
+   "Sestaví jednoduchý postup (algoritmus) krok za krokem a najde v něm chybu.",
+   "Vytvoří jednoduchý program v blokovém prostředí.",
+   "Ví, co nesdílet online a komu říct o nepříjemné zkušenosti na internetu."
+  ],
+  "dal": "Informatika pokračuje povinně na celém 2. stupni.",
+  "rvp": "RVP ZV · Informatika · 1. stupeň (povinně 4.–5. ročník po revizi RVP ZV 2021).",
+  "doma": [
+   "Scratch je zdarma — nechte si předvést, co dělali ve škole.",
+   "Pravidla pro internet domlouvejte společně, nezakazujte shora."
+  ]
+ },
+ {
+  "id": "vla4-cr",
+  "r": 4,
+  "p": "vla",
+  "t": "Česká republika na mapě",
+  "co": "Vlastivěda začíná zeměpisnou částí: poloha ČR v Evropě, sousední státy, kraje a krajská města, hlavní pohoří a řeky, práce s mapou (světové strany, měřítko, značky). Praha, Vltava a Sněžka přestávají být jen slova.",
+  "jak": [
+   "Ukáže na mapě ČR, sousední státy a krajská města.",
+   "Vyjmenuje hlavní řeky a pohoří.",
+   "Určí světové strany na mapě i podle kompasu."
+  ],
+  "dal": "Evropa v 5. ročníku, zeměpis jako samostatný předmět od 6. ročníku.",
+  "dalId": "z6-zeme",
+  "rvp": "RVP ZV · Člověk a jeho svět · 2. období (místo, kde žijeme).",
+  "doma": [
+   "Pověste mapu ČR na zeď k jídelnímu stolu.",
+   "Na výletech hledejte na mapě kraj a nejbližší řeku."
+  ]
+ },
+ {
+  "id": "vla4-dejiny",
+  "r": 4,
+  "p": "vla",
+  "t": "Nejstarší české dějiny a pověsti",
+  "co": "Dějepisná část vlastivědy: od pravěku přes Velkou Moravu a příchod Cyrila a Metoděje k Přemyslovcům a Karlu IV. Součástí jsou staré pověsti české (praotec Čech, Libuše) — a rozlišování mezi pověstí a doloženou historií.",
+  "jak": [
+   "Převypráví některou ze starých pověstí a ví, že je to pověst, ne fakt.",
+   "Zařadí Karla IV. a přemyslovská knížata do správného pořadí „kdo byl dřív“.",
+   "Vysvětlí, čím byli významní Cyril a Metoděj."
+  ],
+  "dal": "Novější české dějiny v 5. ročníku, systematický dějepis od 6. ročníku.",
+  "dalId": "d6-pravek",
+  "rvp": "RVP ZV · Člověk a jeho svět · 2. období (lidé a čas).",
+  "doma": [
+   "Čtěte Staré pověsti české před spaním.",
+   "Navštivte hrad v okolí a spojte ho s dobou, kdy vznikl."
+  ]
+ },
+ {
+  "id": "pri4-ekosystemy",
+  "r": 4,
+  "p": "pri",
+  "t": "Ekosystémy: les, pole, rybník",
+  "co": "Přírodověda zkoumá společenstva rostlin a živočichů v typických českých ekosystémech — les, louka, pole, rybník, okolí lidských obydlí. Dítě se učí vidět souvislosti: potravní řetězce, přizpůsobení organismů a proměny přírody během roku.",
+  "jak": [
+   "Přiřadí typické rostliny a živočichy k ekosystému.",
+   "Sestaví jednoduchý potravní řetězec.",
+   "Vysvětlí, proč do rybníka nepatří odpadky — co to udělá s řetězcem."
+  ],
+  "dal": "Lidské tělo v 5. ročníku, přírodopis od 6. ročníku.",
+  "dalId": "pri5-telo",
+  "rvp": "RVP ZV · Člověk a jeho svět · 2. období (rozmanitost přírody).",
+  "doma": [
+   "Pozorujte jeden strom celý rok — každý měsíc fotka.",
+   "U rybníka počítejte druhy: co všechno tu žije?"
+  ]
+ },
+ {
+  "id": "csp4-materialy",
+  "r": 4,
+  "p": "csp",
+  "t": "Práce s materiály a pěstitelství",
+  "co": "Pracovní činnosti ve 4.–5. ročníku zahrnují práci s papírem, textilem a drobným materiálem, jednoduché konstrukce, pěstitelské práce (setí, sázení, péče o rostliny) a základy přípravy jednoduchých pokrmů a stolování.",
+  "jak": [
+   "Vyrobí jednoduchý výrobek podle návodu včetně měření a značení.",
+   "Zaseje semínka a pravidelně se stará o rostlinu.",
+   "Prostře stůl a připraví jednoduchou svačinu."
+  ],
+  "dal": "Dílny, vaření a technické práce na 2. stupni.",
+  "dalId": "csp6-dilny",
+  "rvp": "RVP ZV · Člověk a svět práce · 2. období.",
+  "doma": [
+   "Sázejte spolu bylinky a svěřte je dítěti na starost.",
+   "Jednou týdně připraví dítě jednoduchou svačinu či večeři."
+  ]
+ },
+ {
+  "id": "cj5-shoda",
+  "r": 5,
+  "p": "cj",
+  "t": "Shoda přísudku s podmětem",
+  "co": "Vrchol pravopisu 1. stupně: koncovka příčestí minulého se řídí podmětem. Muži pracovali (rod mužský životný → -i), stroje pracovaly (neživotný → -y), ženy pracovaly (-y), města pracovala (-a). Chytáky: děti byly, oči slzely.",
+  "jak": [
+   "Určí rod a životnost podmětu a z toho odvodí koncovku přísudku.",
+   "Zvládne chytáky typu děti, lidé, oči, uši.",
+   "V diktátu dělá v shodě jen ojedinělé chyby."
+  ],
+  "dal": "Shoda u několikanásobného podmětu a složitější skladba na 2. stupni.",
+  "dalId": "cj6-clen",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. období: zvládá základní příklady syntaktického pravopisu.",
+  "doma": [
+   "Diktujte krátké věty s chytáky (děti, oči, města) — 5 minut denně.",
+   "Chtějte zdůvodnění nahlas: jaký rod má podmět?"
+  ]
+ },
+ {
+  "id": "cj5-souveti",
+  "r": 5,
+  "p": "cj",
+  "t": "Věta jednoduchá a souvětí",
+  "co": "Rozlišení věty jednoduché (jeden přísudek) a souvětí (více vět spojených spojkami či čárkami). Dítě určuje počet vět v souvětí podle přísudků, doplňuje čárky před spojkami a tvoří souvětí podle vzorce (V1, protože V2).",
+  "jak": [
+   "Spočítá věty v souvětí podle přísudků.",
+   "Doplní čárku před ale, protože, když, aby.",
+   "Vytvoří souvětí podle zadaného vzorce."
+  ],
+  "dal": "Větné členy a druhy vedlejších vět na 2. stupni.",
+  "dalId": "cj7-vedlejsi",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. období (skladba).",
+  "doma": [
+   "Počítejte věty v souvětích z knížky podle přísudků.",
+   "Hra: spojte dvě věty spojkou a rozhodněte o čárce."
+  ]
+ },
+ {
+  "id": "m5-desetinna",
+  "r": 5,
+  "p": "m",
+  "t": "Desetinná čísla: úvod",
+  "co": "První setkání s desetinnými čísly, nejčastěji přes peníze a měření: desetiny a setiny, zápis, porovnávání, sčítání a odčítání. Klíčové je pochopit desetinnou čárku jako hranici řádů — ne jako „tečku mezi dvěma čísly“.",
+  "jak": [
+   "Přečte a zapíše desetinné číslo (2,45) a umístí ho na číselnou osu.",
+   "Porovná desetinná čísla (0,5 × 0,45).",
+   "Sečte a odečte desetinná čísla písemně."
+  ],
+  "dal": "Všechny operace s desetinnými čísly v 6. ročníku.",
+  "dalId": "m6-desetinna",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. období.",
+  "doma": [
+   "Nakupujte spolu: ceny jsou desetinná čísla v praxi.",
+   "Čtěte teploměr a váhu — hodnoty s čárkou."
+  ]
+ },
+ {
+  "id": "m5-zlomky",
+  "r": 5,
+  "p": "m",
+  "t": "Zlomky: porovnávání a sčítání",
+  "co": "Navazuje na názornou představu ze 4. ročníku: porovnávání zlomků pomocí obrázků a sčítání a odčítání zlomků se stejným jmenovatelem (¼ + ¼ = ½ zatím spíš přes model než přes pravidlo). Počítání se zlomky „naplno“ přijde až v 7. ročníku.",
+  "jak": [
+   "Porovná dva zlomky se stejným jmenovatelem nebo čitatelem.",
+   "Sečte zlomky se stejným jmenovatelem s oporou modelu.",
+   "Převádí mezi zlomkem a desetinným číslem u jednoduchých případů (½ = 0,5)."
+  ],
+  "dal": "Zlomky naplno (všechny operace) v 7. ročníku.",
+  "dalId": "m7-zlomky",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. období: porovná, sčítá a odčítá zlomky se stejným jmenovatelem v jednoduchých případech.",
+  "doma": [
+   "Porovnávejte na čokoládě: co je víc, ⅓ nebo ¼?",
+   "Propojte s penězi: půlka koruny je 0,50 Kč."
+  ]
+ },
+ {
+  "id": "m5-prevody",
+  "r": 5,
+  "p": "m",
+  "t": "Převody jednotek",
+  "co": "Délka (mm–km), hmotnost (g–t), objem (ml–l) a čas. Převody prověřují porozumění desítkové soustavě a vracejí se v úlohách celý 2. stupeň i u přijímaček. Pomáhá vazba na realitu: kolik je 1500 m v kilometrech na cestě do školy?",
+  "jak": [
+   "Převede běžné jednotky délky, hmotnosti a objemu.",
+   "Vybere vhodnou jednotku k měřené věci (hmotnost slona → tuny).",
+   "Počítá s časem (za jak dlouho, o kolik déle)."
+  ],
+  "dal": "Jednotky obsahu a objemu ve vyšších ročnících (m², m³).",
+  "dalId": "m5-obsah",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. období (závislosti a práce s daty, měření).",
+  "doma": [
+   "Vařte a pečte: gramy, mililitry, deka.",
+   "Měřte trasy: kolik metrů je kilometr a půl?"
+  ]
+ },
+ {
+  "id": "m5-obsah",
+  "r": 5,
+  "p": "m",
+  "t": "Obvod a obsah čtverce a obdélníku",
+  "co": "První vzorce v životě: obvod jako „kolik plotu kolem“ a obsah jako „kolik dlaždic dovnitř“. Počítá se obvod a obsah čtverce a obdélníku ve čtvercové síti i podle vzorců, s jednotkami cm² a m².",
+  "jak": [
+   "Rozliší, kdy úloha chce obvod a kdy obsah.",
+   "Spočítá obvod i obsah čtverce a obdélníku.",
+   "Použije správné jednotky (cm × cm²)."
+  ],
+  "dal": "Obsah trojúhelníku a kruhu, povrchy a objemy těles na 2. stupni.",
+  "dalId": "m8-kruh",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. období (geometrie v rovině a v prostoru).",
+  "doma": [
+   "Spočítejte spolu podlahu pokoje na nový koberec.",
+   "Plot kolem zahrady = obvod, tráva uvnitř = obsah."
+  ]
+ },
+ {
+  "id": "aj5-konverzace",
+  "r": 5,
+  "p": "aj",
+  "t": "Angličtina: jednoduchá konverzace",
+  "co": "Na konci 1. stupně by dítě mělo zvládat jednoduchou komunikaci o sobě, rodině a škole: přítomný čas prostý a průběhový v základních větách, sloveso to be a have got, otázky a krátké odpovědi. Úroveň se blíží A1.",
+  "jak": [
+   "Popíše sebe a svou rodinu v několika větách.",
+   "Zeptá se a odpoví na běžné otázky (Where are you from? Do you like…?).",
+   "Přečte krátký jednoduchý text a rozumí hlavní myšlence."
+  ],
+  "dal": "Minulý čas a rozšiřování slovní zásoby na 2. stupni.",
+  "dalId": "aj7-minuly",
+  "rvp": "RVP ZV · Cizí jazyk · 2. období. Očekávaná úroveň na konci 1. stupně směřuje k A1.",
+  "doma": [
+   "Zaveďte anglické okénko u večeře: tři věty o svém dni.",
+   "Pouštějte dětské seriály v angličtině bez dabingu."
+  ]
+ },
+ {
+  "id": "pri5-telo",
+  "r": 5,
+  "p": "pri",
+  "t": "Lidské tělo",
+  "co": "Přírodověda v 5. ročníku věnuje velký blok člověku: stavba těla, základní orgánové soustavy (trávicí, dýchací, oběhová, smysly), zdravý životní styl, první pomoc a — přiměřeně věku — základy dospívání a rozmnožování.",
+  "jak": [
+   "Popíše, k čemu slouží hlavní orgánové soustavy.",
+   "Vysvětlí zásady zdravého jídelníčku a pohybu.",
+   "Ví, jak přivolat pomoc a co říct na lince 155/112."
+  ],
+  "dal": "Podrobná biologie člověka v 8. ročníku přírodopisu.",
+  "dalId": "prir8-clovek",
+  "rvp": "RVP ZV · Člověk a jeho svět · 2. období (člověk a jeho zdraví).",
+  "doma": [
+   "Mějte doma obrázkovou encyklopedii lidského těla.",
+   "Mluvte o zdraví prakticky: proč spát, proč zelenina."
+  ]
+ },
+ {
+  "id": "vla5-dejiny",
+  "r": 5,
+  "p": "vla",
+  "t": "České dějiny do současnosti (přehled)",
+  "co": "Vlastivěda dovypráví český příběh: husitství, Habsburkové, národní obrození, vznik Československa 1918, druhá světová válka, únor 1948, listopad 1989 a vznik ČR 1993. Jde o orientační přehled — do hloubky půjde dějepis na 2. stupni.",
+  "jak": [
+   "Seřadí klíčové události 20. století za sebou.",
+   "Vysvětlí, co se stalo 28. října 1918 a 17. listopadu 1989.",
+   "Pozná významné osobnosti (Masaryk, Havel) a řekne, čím byli důležití."
+  ],
+  "dal": "Systematický dějepis od pravěku v 6. ročníku.",
+  "dalId": "d6-pravek",
+  "rvp": "RVP ZV · Člověk a jeho svět · 2. období (lidé a čas).",
+  "doma": [
+   "Rodinná historie: kdo z rodiny zažil rok 1989? Vyprávějte.",
+   "O státních svátcích si řekněte, proč je zrovna volno."
+  ]
+ },
+ {
+  "id": "mil5-gympl",
+  "r": 5,
+  "p": "mil",
+  "t": "Milník: přijímačky na osmiletá gymnázia",
+  "co": "V 5. ročníku se část dětí hlásí na osmiletá gymnázia. Skládají jednotnou přijímací zkoušku (JPZ) od Cermatu z českého jazyka a matematiky, obvykle v dubnu. Přihlášky se podávají elektronicky přes systém DiPSy, zpravidla v únoru. Je to dobrovolná odbočka — ne povinnost.",
+  "jak": [
+   "Tohle není dovednost, ale rozhodnutí rodiny: zvažte motivaci dítěte, ne jen jeho známky.",
+   "Testy JPZ vycházejí z učiva RVP do 5. ročníku — nadstandardní znalosti nejsou podmínkou, rychlost a pozornost ano.",
+   "Nepřijetí nic neznamená: na gymnázium vede i cesta ze 7. třídy (šestileté) a z 9. třídy (čtyřleté)."
+  ],
+  "dal": "Šestiletá gymnázia (ze 7. ročníku) a čtyřletá (z 9. ročníku) — viz Zákony a pravidla.",
+  "rvp": "Zákon č. 561/2004 Sb., § 61 a násl.; jednotná přijímací zkouška podle § 60 a vyhlášky o přijímacím řízení. Podrobnosti: prihlaskynastredni.cz a cermat.cz.",
+  "doma": [
+   "Rozhodujte podle dítěte, ne podle okolí — chce to a unese nápor?",
+   "Zkuste testy nanečisto z webu Cermatu, ale bez dramatizování.",
+   "O plánu B mluvte jako o normální cestě, ne o prohře."
+  ]
+ },
+ {
+  "id": "hv5-noty",
+  "r": 5,
+  "p": "hv",
+  "t": "Noty, poslech a hudební nauka",
+  "co": "Ve 4.–5. ročníku přibývá ke zpěvu základ hudební nauky: notová osnova, houslový klíč, délky not, poznávání hudebních nástrojů podle vzhledu i zvuku a řízený poslech skladeb (Smetanova Vltava bývá klasika).",
+  "jak": [
+   "Přečte v notové osnově jednoduché noty a rozliší jejich délky.",
+   "Pozná podle zvuku běžné nástroje (klavír, housle, trubka, flétna).",
+   "Poslechne si krátkou skladbu a řekne, jak na něj působila."
+  ],
+  "dal": "Hudební žánry a dějiny hudby na 2. stupni.",
+  "dalId": "hv6-dejiny",
+  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 2. období.",
+  "doma": [
+   "Pusťte si spolu Vltavu a zkuste v hudbě „slyšet“ řeku.",
+   "Živý koncert nebo besídka ZUŠ udělá víc než teorie."
+  ]
+ },
+ {
+  "id": "vv5-kompozice",
+  "r": 5,
+  "p": "vv",
+  "t": "Od hraní k záměru: kompozice a ilustrace",
+  "co": "Výtvarka na konci 1. stupně vede děti k záměrné tvorbě: rozvržení obrazu, kombinování technik (kresba, malba, koláž), ilustrace k textu a první seznámení s díly známých výtvarníků.",
+  "jak": [
+   "Rozvrhne si obrázek na ploše, než začne tvořit.",
+   "Zvolí techniku podle záměru a umí volbu zdůvodnit.",
+   "Vytvoří ilustraci k přečtenému příběhu."
+  ],
+  "dal": "Výtvarné vyjadřování a vizuální kultura na 2. stupni.",
+  "dalId": "vv7-vizual",
+  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 2. období.",
+  "doma": [
+   "Fotografujte spolu a mluvte o záběru: co je vepředu, co vzadu?",
+   "Ilustrujte společně přečtenou knížku."
+  ]
+ },
+ {
+  "id": "cj6-clen",
+  "r": 6,
+  "p": "cj",
+  "t": "Větné členy",
+  "co": "Skladba se rozjíždí naplno: kromě podmětu a přísudku se určují rozvíjející větné členy — předmět, přívlastek, příslovečné určení (místa, času, způsobu). Dítě kreslí grafy věty a učí se klást správné otázky na jednotlivé členy.",
+  "jak": [
+   "Najde ve větě předmět a přívlastek pomocí otázek.",
+   "Rozliší druhy příslovečného určení.",
+   "Vytvoří jednoduchý graf věty."
+  ],
+  "dal": "Souvětí a druhy vedlejších vět v 7.–8. ročníku.",
+  "dalId": "cj7-vedlejsi",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. stupeň (skladba).",
+  "doma": [
+   "Ptejte se otázkami větných členů u běžných vět.",
+   "Grafy věty kreslete barevně — vizuální paměť pomáhá."
+  ]
+ },
+ {
+  "id": "m6-desetinna",
+  "r": 6,
+  "p": "m",
+  "t": "Desetinná čísla: všechny operace",
+  "co": "Násobení a dělení desetinných čísel (včetně dělení desetinným číslem), převody jednotek přes desetinná čísla a zaokrouhlování. Uzavírá se tím aritmetika „obyčejných“ čísel — dál už přijdou zlomky, záporná čísla a proměnné.",
+  "jak": [
+   "Vynásobí a vydělí desetinná čísla písemně i zpaměti v jednoduchých případech.",
+   "Správně posouvá desetinnou čárku při násobení 10, 100, 1000.",
+   "Řeší slovní úlohy s cenami a měřením."
+  ],
+  "dal": "Zlomky a racionální čísla v 7. ročníku.",
+  "dalId": "m7-zlomky",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná).",
+  "doma": [
+   "Přepočítávejte ceny za kilo a slevy v obchodě.",
+   "Trénujte posun čárky zpaměti: krát 10, krát 100."
+  ]
+ },
+ {
+  "id": "m6-delitelnost",
+  "r": 6,
+  "p": "m",
+  "t": "Dělitelnost",
+  "co": "Násobky a dělitelé, znaky dělitelnosti (2, 3, 5, 10…), prvočísla a čísla složená, rozklad na prvočinitele, největší společný dělitel a nejmenší společný násobek. Zdánlivě abstraktní téma, které se vzápětí hodí u krácení zlomků.",
+  "jak": [
+   "Pozná podle znaků, čím je číslo dělitelné.",
+   "Rozloží číslo na součin prvočísel.",
+   "Najde NSD a NSN dvou čísel a použije je v úloze."
+  ],
+  "dal": "Krácení a rozšiřování zlomků v 7. ročníku.",
+  "dalId": "m7-zlomky",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň: modeluje a řeší situace s využitím dělitelnosti v oboru přirozených čísel.",
+  "doma": [
+   "Hádanka: je 51 prvočíslo? Dokažte to.",
+   "Rozdělujte reálné věci: 24 bonbonů mezi 6 dětí."
+  ]
+ },
+ {
+  "id": "m6-uhly",
+  "r": 6,
+  "p": "m",
+  "t": "Úhly",
+  "co": "Měření a rýsování úhlů úhloměrem, druhy úhlů (ostrý, pravý, tupý, přímý), osa úhlu, sčítání a odčítání úhlů, vedlejší a vrcholové úhly. K tomu trojúhelník: součet vnitřních úhlů 180°.",
+  "jak": [
+   "Změří úhel úhloměrem s přesností na stupně a narýsuje úhel dané velikosti.",
+   "Rozliší druhy úhlů od pohledu.",
+   "Dopočítá třetí úhel trojúhelníku."
+  ],
+  "dal": "Konstrukce trojúhelníků a čtyřúhelníků v 7. ročníku, Pythagorova věta v 8.",
+  "dalId": "m8-mocniny",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (geometrie v rovině a v prostoru).",
+  "doma": [
+   "Kolik stupňů svírají ručičky v půl třetí? Změřte.",
+   "Hledejte doma pravé úhly."
+  ]
+ },
+ {
+  "id": "m6-soumernost",
+  "r": 6,
+  "p": "m",
+  "t": "Osová souměrnost",
+  "co": "Zobrazení „přes zrcadlo“: konstrukce obrazu bodu a útvaru v osové souměrnosti, hledání os souměrnosti u známých útvarů. Trénuje se přesné rýsování kolmic a přenášení vzdáleností kružítkem.",
+  "jak": [
+   "Sestrojí obraz útvaru v osové souměrnosti.",
+   "Určí, kolik os souměrnosti má čtverec, obdélník, kruh.",
+   "Pozná souměrné útvary v okolí (dopravní značky, písmena)."
+  ],
+  "dal": "Středová souměrnost a shodná zobrazení v dalších ročnících.",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (konstrukční úlohy).",
+  "doma": [
+   "Vystřihujte souměrné tvary z přeloženého papíru.",
+   "Hledejte osy souměrnosti v dopravních značkách a logách."
+  ]
+ },
+ {
+  "id": "fy6-mereni",
+  "r": 6,
+  "p": "fy",
+  "t": "Fyzika začíná: veličiny a měření",
+  "co": "První rok fyziky je o řemesle vědy: látky a tělesa, fyzikální veličiny (délka, hmotnost, objem, čas, teplota) a jejich jednotky, měřidla a zápis měření včetně odchylek. K tomu obvykle základy o částicovém složení látek a magnetismu.",
+  "jak": [
+   "Změří délku, hmotnost, objem a teplotu vhodným měřidlem.",
+   "Zapíše výsledek s jednotkou a převede běžné jednotky.",
+   "Rozliší látku a těleso (sklo × sklenice)."
+  ],
+  "dal": "Pohyb a síla v 7. ročníku.",
+  "dalId": "fy7-sila",
+  "rvp": "RVP ZV · Člověk a příroda — Fyzika · 2. stupeň (látky a tělesa).",
+  "doma": [
+   "Važte a měřte při vaření a kutění — vždy s jednotkami.",
+   "Zapisujte týden ranní a večerní teplotu a udělejte z toho graf."
+  ]
+ },
+ {
+  "id": "d6-pravek",
+  "r": 6,
+  "p": "d",
+  "t": "Pravěk a starověk",
+  "co": "Dějepis začíná od začátku: vývoj člověka, doba kamenná až železná, první státy (Mezopotámie, Egypt) a antika — Řecko a Řím, odkud pochází základ evropské kultury, práva i demokracie. Součástí je práce s časovou osou a pojmy před naším letopočtem / našeho letopočtu.",
+  "jak": [
+   "Orientuje se na časové ose včetně letopočtů př. n. l.",
+   "Popíše, jak změnilo život zemědělství.",
+   "Uvede, co si Evropa vzala z antického Řecka a Říma."
+  ],
+  "dal": "Středověk v 7. ročníku.",
+  "dalId": "d7-stredovek",
+  "rvp": "RVP ZV · Člověk a společnost — Dějepis · 2. stupeň.",
+  "doma": [
+   "Zajděte do muzea s pravěkou nebo antickou expozicí.",
+   "Půlhodinový dokument o Egyptě vydá za kapitolu učebnice."
+  ]
+ },
+ {
+  "id": "z6-zeme",
+  "r": 6,
+  "p": "z",
+  "t": "Planeta Země a mapy",
+  "co": "Zeměpis startuje u planety: tvar a pohyby Země, střídání dne a noci a ročních období, zeměpisná síť (poledníky, rovnoběžky), časová pásma a hlavně kartografie — měřítko mapy, vrstevnice, práce s atlasem.",
+  "jak": [
+   "Vysvětlí, proč se střídají roční období.",
+   "Najde místo podle zeměpisných souřadnic.",
+   "Spočítá skutečnou vzdálenost z měřítka mapy."
+  ],
+  "dal": "Světadíly a oceány v 7. ročníku.",
+  "dalId": "z7-svetadily",
+  "rvp": "RVP ZV · Člověk a příroda — Zeměpis · 2. stupeň (geografické informace, přírodní obraz Země).",
+  "doma": [
+   "Najděte na glóbusu či v mapové aplikaci souřadnice domova.",
+   "Vysvětlete časová pásma, když voláte příbuzným do ciziny."
+  ]
+ },
+ {
+  "id": "prir6-bunka",
+  "r": 6,
+  "p": "prir",
+  "t": "Od buňky k organismům",
+  "co": "Přírodopis obvykle začíná u základní stavební jednotky života: buňka, rozdíl rostlinné a živočišné buňky, mikroskopování, viry a bakterie, houby a řasy. Pořadí témat se mezi školami liší, mikroskop ale nemine nikoho.",
+  "jak": [
+   "Popíše základní části buňky.",
+   "Připraví jednoduchý preparát a zaostří mikroskop.",
+   "Vysvětlí rozdíl mezi virem a bakterií (a proč na virózu nezabírají antibiotika)."
+  ],
+  "dal": "Bezobratlí a obratlovci v dalších ročnících, biologie člověka v 8. ročníku.",
+  "dalId": "prir8-clovek",
+  "rvp": "RVP ZV · Člověk a příroda — Přírodopis · 2. stupeň (obecná biologie a genetika).",
+  "doma": [
+   "Lupa nebo levný mikroskop: cibule je hvězda preparátů.",
+   "Až bude dítě nemocné, vysvětlete, proč na virózu nejsou antibiotika."
+  ]
+ },
+ {
+  "id": "inf6-programovani",
+  "r": 6,
+  "p": "inf",
+  "t": "Informatika: programování a data",
+  "co": "Na 2. stupni informatika prohlubuje čtyři okruhy nové informatiky: data a jejich vizualizace, informační systémy, algoritmizace a programování (blokové prostředí, později i textové) a digitální technologie včetně počítačových sítí a bezpečnosti.",
+  "jak": [
+   "Vytvoří program s podmínkami, cykly a proměnnými.",
+   "Uspořádá data do tabulky a vytvoří z nich graf.",
+   "Rozpozná podezřelý e-mail či odkaz a ví, jak reagovat."
+  ],
+  "dal": "Složitější projekty a základy robotiky v 8.–9. ročníku (dle ŠVP).",
+  "rvp": "RVP ZV · Informatika · 2. stupeň (povinně po revizi RVP ZV 2021).",
+  "doma": [
+   "Nechte si předvést program a ptejte se, jak funguje.",
+   "Pravidla obrazovek domlouvejte společně — a dodržujte je i vy."
+  ]
+ },
+ {
+  "id": "ov6-obec",
+  "r": 6,
+  "p": "ov",
+  "t": "Občanka: naše škola, obec a stát",
+  "co": "Výchova k občanství (dřív občanská výchova, na řadě škol dnes spojená s výchovou ke zdraví) začíná od nejbližšího: pravidla ve škole, život v obci, státní symboly a svátky, vlast a domov. Učí děti chápat, proč pravidla existují a jak se na nich podílet.",
+  "jak": [
+   "Vysvětlí, k čemu slouží státní symboly a kdy se používají.",
+   "Popíše, co dělá obecní úřad a kdo obec vede.",
+   "Uvede příklad pravidla, které by ve škole změnil — a jak by to prosadil demokraticky."
+  ],
+  "dal": "Stát, právo a hospodaření v 8.–9. ročníku.",
+  "dalId": "ov8-stat",
+  "rvp": "RVP ZV · Člověk a společnost — Výchova k občanství · 2. stupeň.",
+  "doma": [
+   "Vezměte dítě k volbám nebo na jednání zastupitelstva.",
+   "U každého svátku si řekněte, co se vlastně slaví."
+  ]
+ },
+ {
+  "id": "vz6-zdravi",
+  "r": 6,
+  "p": "vz",
+  "t": "Výchova ke zdraví",
+  "co": "Samostatný obor RVP (často vyučovaný v rámci občanky, přírodopisu nebo TV): zdravý životní styl, výživa a režim dne, dospívání a změny v pubertě, duševní zdraví a zvládání stresu, prevence závislostí (alkohol, nikotin, digitální závislosti) a bezpečné chování — včetně toho online.",
+  "jak": [
+   "Sestaví si vyvážený jídelníček a rozumný denní režim.",
+   "Popíše změny v dospívání jako normální součást vývoje.",
+   "Ví, jak odmítnout cigaretu či alkohol a na koho se obrátit v nouzi."
+  ],
+  "dal": "Témata se prohlubují v 7.–9. ročníku (první pomoc, rizikové chování, vztahy).",
+  "rvp": "RVP ZV · Člověk a zdraví — Výchova ke zdraví · 2. stupeň.",
+  "doma": [
+   "Mluvte o pubertě dřív, než přijde — věcně a bez dramat.",
+   "Jídelníček řešte společně, ne příkazem."
+  ]
+ },
+ {
+  "id": "tv6-sport",
+  "r": 6,
+  "p": "tv",
+  "t": "Atletika, gymnastika a sportovní hry",
+  "co": "Tělesná výchova na 2. stupni se člení do klasických bloků: atletika (běhy, skoky, hody), gymnastika (akrobacie, přeskok, hrazda), sportovní hry (basketbal, volejbal, florbal, fotbal) a rozvoj zdatnosti. Důraz je na technice, spolupráci a fair play.",
+  "jak": [
+   "Zvládne základní techniku běhu, skoku dalekého a hodu míčkem.",
+   "Zapojí se do týmové hry a respektuje rozhodčího.",
+   "Zlepšuje své osobní výkony — porovnává se se sebou, ne jen s ostatními."
+  ],
+  "dal": "Lyžařský kurz v 7. ročníku a rozvoj kondice ve vyšších ročnících.",
+  "dalId": "tv7-lyzak",
+  "rvp": "RVP ZV · Člověk a zdraví — Tělesná výchova · 2. stupeň.",
+  "doma": [
+   "Podporujte aspoň jeden pravidelný sport mimo školu.",
+   "Sledujte spolu zápas a rozebírejte pravidla."
+  ]
+ },
+ {
+  "id": "csp6-dilny",
+  "r": 6,
+  "p": "csp",
+  "t": "Dílny, vaření a technické práce",
+  "co": "Člověk a svět práce na 2. stupni má volitelné okruhy, ze kterých školy vybírají: práce s technickými materiály (dřevo, kov, plast v dílnách), design a konstruování, pěstitelství a chovatelství, provoz a údržba domácnosti, příprava pokrmů. Nabídka se mezi školami hodně liší.",
+  "jak": [
+   "Bezpečně používá základní nářadí (pilka, kladivo, šroubovák) a ochranné pomůcky.",
+   "Uvaří podle receptu jednoduché jídlo a dodrží hygienu.",
+   "Přečte jednoduchý technický výkres nebo návod."
+  ],
+  "dal": "Svět práce a volba povolání v 8.–9. ročníku.",
+  "dalId": "csp9-povolani",
+  "rvp": "RVP ZV · Člověk a svět práce · 2. stupeň (povinný okruh Svět práce + volitelné okruhy dle ŠVP).",
+  "doma": [
+   "Opravujte spolu: kolo, poličku, kapající kohoutek.",
+   "Jedno jídlo týdně vaří dítě — od nákupu po úklid."
+  ]
+ },
+ {
+  "id": "hv6-dejiny",
+  "r": 6,
+  "p": "hv",
+  "t": "Hudební žánry a dějiny hudby",
+  "co": "Hudebka na 2. stupni kombinuje zpěv a poslech s hudební naukou a přehledem dějin hudby — od lidové písně přes klasiky (Bach, Mozart, Smetana, Dvořák) po jazz, rock a současné žánry. Cílem není vychovat muzikology, ale poučené posluchače.",
+  "jak": [
+   "Přiřadí známé skladatele k obdobím a pozná jejich nejslavnější díla.",
+   "Rozliší základní žánry poslechem.",
+   "Kultivovaně zazpívá ve skupině, případně doprovodí na jednoduchý nástroj."
+  ],
+  "dal": "Hudba 20. století a současné žánry ve vyšších ročnících.",
+  "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 2. stupeň.",
+  "doma": [
+   "Pouštějte si ukázky a hádejte žánr: baroko, jazz, rock?",
+   "Propojte s dějepisem: co se hrálo za Mozarta a co za totality?"
+  ]
+ },
+ {
+  "id": "cj7-vedlejsi",
+  "r": 7,
+  "p": "cj",
+  "t": "Souvětí a věty vedlejší",
+  "co": "Rozlišení věty hlavní a vedlejší a určování druhů vedlejších vět (podmětná, předmětná, přívlastková, příslovečné…). K tomu interpunkce v souvětí — čárky, které budou žáka provázet až k přijímačkám a maturitě.",
+  "jak": [
+   "Rozliší větu hlavní a vedlejší.",
+   "Určí druh vedlejší věty pomocí otázky a odkazovacího slova.",
+   "Správně doplní čárky v souvětí o třech i více větách."
+  ],
+  "dal": "Významové poměry mezi větami hlavními a složitá souvětí v 8.–9. ročníku.",
+  "dalId": "cj8-rozbory",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. stupeň (skladba).",
+  "doma": [
+   "Rozebírejte souvětí z novin — skutečné texty baví víc.",
+   "Čárky trénujte krátce a často, ne hodinu před testem."
+  ]
+ },
+ {
+  "id": "m7-zlomky",
+  "r": 7,
+  "p": "m",
+  "t": "Zlomky naplno",
+  "co": "Všechny operace se zlomky: krácení a rozšiřování, převod na společný jmenovatel, sčítání, odčítání, násobení, dělení, smíšená čísla a složené zlomky. Jedno z nejdůležitějších témat 2. stupně — na zlomcích stojí rovnice, výrazy i fyzika.",
+  "jak": [
+   "Zkrátí zlomek na základní tvar.",
+   "Sečte a odečte zlomky s různými jmenovateli.",
+   "Vynásobí a vydělí zlomky a vysvětlí, proč se při dělení „obrací“."
+  ],
+  "dal": "Racionální čísla (zlomky se znaménky) a poměr.",
+  "dalId": "m7-pomer",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná).",
+  "doma": [
+   "Vařte podle polovičního receptu: kolik je půlka ze ¾ hrnku?",
+   "Chybu hledejte společně krok po kroku, ne jen podle výsledku."
+  ]
+ },
+ {
+  "id": "m7-cela",
+  "r": 7,
+  "p": "m",
+  "t": "Celá a racionální čísla",
+  "co": "Záporná čísla vstupují do hry: číselná osa oběma směry, absolutní hodnota, počítání se zápornými čísly a pravidla znamének (minus krát minus je plus). Spojením se zlomky vznikají racionální čísla — obor, ve kterém se počítá až do konce základky.",
+  "jak": [
+   "Porovná záporná čísla (−7 < −2) a zobrazí je na ose.",
+   "Sčítá, odčítá, násobí a dělí celá čísla se správnými znaménky.",
+   "Použije záporná čísla v kontextu (teplota, dluh, nadmořská výška)."
+  ],
+  "dal": "Výrazy s proměnnou a rovnice v 8. ročníku.",
+  "dalId": "m8-vyrazy",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná).",
+  "doma": [
+   "Teploty pod nulou a podzemní patra garáží: záporná čísla kolem nás.",
+   "Dluh z kapesného: mínus v praxi."
+  ]
+ },
+ {
+  "id": "m7-pomer",
+  "r": 7,
+  "p": "m",
+  "t": "Poměr, úměrnost a trojčlenka",
+  "co": "Poměr (ředění šťávy 1 : 5, měřítko mapy), přímá a nepřímá úměrnost a jejich řešení trojčlenkou. Extrémně praktické učivo — recepty, ceny, rychlosti — a zároveň příprava na funkce v 9. ročníku.",
+  "jak": [
+   "Rozdělí částku v daném poměru.",
+   "Rozliší přímou a nepřímou úměrnost („víc dělníků = kratší čas“ je nepřímá).",
+   "Vyřeší úlohu trojčlenkou včetně zápisu šipek."
+  ],
+  "dal": "Procenta a později funkce.",
+  "dalId": "m7-procenta",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (závislosti, vztahy a práce s daty).",
+  "doma": [
+   "Řeďte šťávu 1 : 5 a přepočítejte recept pro 4 na 6 lidí.",
+   "Na výletě spočítejte vzdálenost z měřítka mapy."
+  ]
+ },
+ {
+  "id": "m7-procenta",
+  "r": 7,
+  "p": "m",
+  "t": "Procenta",
+  "co": "Procento jako setina celku: výpočet procentové části, základu i počtu procent, slevy, úroky, DPH. Učivo, které z celé školní matematiky použije v dospělosti opravdu každý — a u kterého se vyplatí rozumět, ne jen dosazovat do vzorce.",
+  "jak": [
+   "Spočítá 15 % z 800 Kč více způsoby (přes 1 %, přes desetinné číslo).",
+   "Určí základ, když zná část („20 % je 50 Kč — kolik je celek?“).",
+   "Odhalí chyták typu „sleva 50 % + 50 % není zadarmo“."
+  ],
+  "dal": "Úroky a finanční gramotnost, procenta v grafech a statistice v 8.–9. ročníku.",
+  "dalId": "m9-funkce",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň: řeší aplikační úlohy na procenta.",
+  "doma": [
+   "Slevy v obchodě: kolik reálně ušetříte?",
+   "Rozeberte spolu účet za telefon — najděte DPH."
+  ]
+ },
+ {
+  "id": "aj7-minuly",
+  "r": 7,
+  "p": "aj",
+  "t": "Angličtina: minulý čas a vyprávění",
+  "co": "Na 2. stupni angličtina přechází od frází k systému: minulý čas prostý (pravidelná i nepravidelná slovesa), budoucnost s will a going to, stupňování přídavných jmen. Cíl na konci 9. ročníku je úroveň A2.",
+  "jak": [
+   "Vypráví v minulém čase, co dělal o víkendu.",
+   "Používá základní nepravidelná slovesa (went, saw, had…).",
+   "Napíše krátký souvislý text (e-mail, příběh) o 8–10 větách."
+  ],
+  "dal": "Předpřítomný čas a souvislejší projev v 8.–9. ročníku.",
+  "rvp": "RVP ZV · Cizí jazyk · 2. stupeň. Očekávaná úroveň na konci ZŠ: A2.",
+  "doma": [
+   "Tři věty deníku anglicky: co jsem dnes dělal.",
+   "Nepravidelná slovesa po pěti a vždy s příkladovou větou."
+  ]
+ },
+ {
+  "id": "ncj7-start",
+  "r": 7,
+  "p": "ncj",
+  "t": "Druhý cizí jazyk",
+  "co": "RVP ukládá školám zařadit další cizí jazyk nejpozději od 8. ročníku (celkem minimálně 6 hodin), řada škol začíná už v 7. Nejčastější volbou je němčina, následují španělština, francouzština a ruština. Cílová úroveň na konci ZŠ je A1.",
+  "jak": [
+   "Pozdraví, představí se a zvládne základní zdvořilostní fráze.",
+   "Rozumí jednoduchým pokynům a otázkám v pomalém tempu.",
+   "Pojmenuje základní slovní zásobu (čísla, rodina, škola)."
+  ],
+  "dal": "Rozvíjení do úrovně A1 do konce 9. ročníku.",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace — Další cizí jazyk · 2. stupeň. Pozn.: připravovaná revize RVP ZV počítá s druhým cizím jazykem jako volitelným — ověřte aktuální stav na své škole.",
+  "doma": [
+   "Jazyková apka 10 minut denně vydrží déle než nárazové šprtání.",
+   "Pojmenujte spolu snídani v novém jazyce."
+  ]
+ },
+ {
+  "id": "fy7-sila",
+  "r": 7,
+  "p": "fy",
+  "t": "Pohyb a síla",
+  "co": "Klasická mechanika poprvé: rovnoměrný a nerovnoměrný pohyb, rychlost (v = s/t), síla a její měření, gravitační síla, tření, Newtonovy zákony v přístupné podobě a skládání sil. Hodně výpočtů — tady se poprvé potká fyzika s matematikou.",
+  "jak": [
+   "Spočítá rychlost, dráhu nebo čas ze vztahu v = s/t včetně převodu km/h ↔ m/s.",
+   "Změří sílu siloměrem a určí gravitační sílu působící na těleso.",
+   "Vysvětlí na příkladu setrvačnost („proč se v autobuse kymácíme“)."
+  ],
+  "dal": "Práce, výkon a energie v 8. ročníku.",
+  "dalId": "fy8-energie",
+  "rvp": "RVP ZV · Člověk a příroda — Fyzika · 2. stupeň (pohyb těles, síly).",
+  "doma": [
+   "Přepočítejte rychlost auta: km/h na m/s.",
+   "Bezpečné pokusy: tření na různých površích, setrvačnost kufru v kufru auta."
+  ]
+ },
+ {
+  "id": "d7-stredovek",
+  "r": 7,
+  "p": "d",
+  "t": "Středověk: od Velké Moravy po husity",
+  "co": "Velký český dějepisný blok: Velká Morava, přemyslovský stát, svatý Václav, Karel IV. a Lucemburkové, Jan Hus a husitské války, Jiří z Poděbrad. K tomu evropský rámec — feudalismus, křížové výpravy, gotika.",
+  "jak": [
+   "Vysvětlí význam Karla IV. pro české země (univerzita, Nové Město, koruna).",
+   "Popíše, o co šlo Janu Husovi a jak skončil.",
+   "Zařadí gotické památky (Karlštejn, katedrála sv. Víta) do doby vzniku."
+  ],
+  "dal": "Novověk: objevy, reformace a Habsburkové v 8. ročníku.",
+  "dalId": "d8-novovek",
+  "rvp": "RVP ZV · Člověk a společnost — Dějepis · 2. stupeň (křesťanství a středověká Evropa).",
+  "doma": [
+   "Karlštejn, Vyšehrad nebo katedrála: dějepis naživo.",
+   "Pusťte si dokument o Husovi a povídejte si, o co mu šlo."
+  ]
+ },
+ {
+  "id": "z7-svetadily",
+  "r": 7,
+  "p": "z",
+  "t": "Světadíly a oceány",
+  "co": "Regionální zeměpis světa: Afrika, Amerika, Asie, Austrálie a Oceánie, polární oblasti — přírodní podmínky, obyvatelstvo, státy a hospodářství. Evropa a Česko obvykle přijdou na řadu v 8.–9. ročníku.",
+  "jak": [
+   "Ukáže na mapě světadíly, oceány a významné státy.",
+   "Porovná přírodní podmínky dvou oblastí (poušť × deštný les).",
+   "Pracuje s tematickými mapami v atlase (podnebí, hustota zalidnění)."
+  ],
+  "dal": "Evropa a Česká republika v 8.–9. ročníku.",
+  "rvp": "RVP ZV · Člověk a příroda — Zeměpis · 2. stupeň (regiony světa).",
+  "doma": [
+   "Kvíz u večeře: hlavní města, vlajky, oceány.",
+   "U cestopisů hledejte místa na mapě."
+  ]
+ },
+ {
+  "id": "tv7-lyzak",
+  "r": 7,
+  "p": "tv",
+  "t": "Lyžařský kurz",
+  "co": "Lyžařský výcvikový kurz („lyžák“) bývá tradičně v 7. ročníku: týden na horách s výukou sjezdového lyžování, případně snowboardingu a běžek, večerními přednáškami o bezpečnosti a — pro mnohé děti — první delší dobou bez rodičů. Pořádání a podmínky určuje škola; účast pro žáka není ze zákona povinná.",
+  "jak": [
+   "Bezpečně zvládá jízdu na vleku a základní oblouky.",
+   "Zná pravidla chování na sjezdovce (pravidla FIS).",
+   "Postará se o své věci a vybavení po celý týden."
+  ],
+  "dal": "Sportovně-turistické kurzy ve vyšších ročnících (dle ŠVP).",
+  "rvp": "RVP ZV · Člověk a zdraví — Tělesná výchova · 2. stupeň (lyžařský výcvik dle podmínek školy); metodický pokyn MŠMT k organizaci kurzů.",
+  "doma": [
+   "Před kurzem půjčovna a den na svahu — první oblouky bez stresu.",
+   "Seznam věcí projděte a sbalte spolu: je to i lekce samostatnosti."
+  ]
+ },
+ {
+  "id": "vv7-vizual",
+  "r": 7,
+  "p": "vv",
+  "t": "Výtvarné vyjadřování a vizuální kultura",
+  "co": "Výtvarka na 2. stupni jde za kreslení: perspektiva, proporce postavy, grafické techniky, prostorová tvorba, ale i „čtení“ vizuální kultury kolem nás — reklamy, loga, fotografie, film. Žák se učí obraz nejen tvořit, ale i kriticky vnímat.",
+  "jak": [
+   "Nakreslí jednoduchou perspektivu (ubíhající ulice) a proporčně zvládne postavu.",
+   "Vyzkouší grafickou techniku (linoryt, tisk z koláže).",
+   "Rozebere, jak reklama pracuje s barvou a kompozicí, aby zaujala."
+  ],
+  "dal": "Vlastní výtvarné projekty; zájemci o umělecké školy skládají talentové zkoušky už v lednu 9. ročníku.",
+  "rvp": "RVP ZV · Umění a kultura — Výtvarná výchova · 2. stupeň.",
+  "doma": [
+   "Rozeberte spolu reklamu: čím přesně vás chce dostat?",
+   "Krátká návštěva galerie s jedním úkolem funguje líp než dlouhá bez cíle."
+  ]
+ },
+ {
+  "id": "prir7-obratlovci",
+  "r": 7,
+  "p": "prir",
+  "t": "Obratlovci a vyšší rostliny",
+  "co": "Sedmý ročník přírodopisu obvykle patří zoologii obratlovců (ryby, obojživelníci, plazi, ptáci, savci) a botanice vyšších rostlin — stavba rostlinného těla, fotosyntéza prakticky, poznávání běžných druhů. Herbář nebo poznávačky ke klasice předmětu patří.",
+  "jak": [
+   "Zařadí běžné živočichy do skupin obratlovců a popíše jejich znaky.",
+   "Popíše části kvetoucí rostliny a jejich funkce.",
+   "Pozná běžné stromy a rostliny v okolí (poznávačka)."
+  ],
+  "dal": "Biologie člověka v 8. ročníku.",
+  "dalId": "prir8-clovek",
+  "rvp": "RVP ZV · Člověk a příroda — Přírodopis · 2. stupeň (biologie živočichů a rostlin).",
+  "doma": [
+   "Poznávačka venku: 10 stromů a 10 ptáků z okolí.",
+   "ZOO s úkolem: najdi tři savce, kteří nežijí v Evropě."
+  ]
+ },
+ {
+  "id": "cj8-rozbory",
+  "r": 8,
+  "p": "cj",
+  "t": "Velké větné rozbory",
+  "co": "Skladba v plné síle: rozbor souvětí (věty hlavní a vedlejší, poměry mezi větami — slučovací, odporovací, důsledkový…), grafy souvětí, interpunkce ve složitých souvětích. Přesně tenhle typ úloh je jádrem přijímaček z češtiny.",
+  "jak": [
+   "Nakreslí graf souvětí a určí vztahy mezi větami.",
+   "Určí významový poměr mezi hlavními větami.",
+   "Bezpečně píše čárky i v souvětí s vloženou vedlejší větou."
+  ],
+  "dal": "Opakování a přijímačková čeština v 9. ročníku.",
+  "dalId": "cj9-pravopis",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. stupeň (skladba).",
+  "doma": [
+   "Jedno souvětí denně, ale poctivě rozebrané.",
+   "Testy JPZ z minulých let jsou zdarma na webu Cermatu."
+  ]
+ },
+ {
+  "id": "m8-mocniny",
+  "r": 8,
+  "p": "m",
+  "t": "Mocniny, odmocniny a Pythagorova věta",
+  "co": "Druhá mocnina a odmocnina a na nich postavená nejslavnější věta školské matematiky: a² + b² = c². V pravoúhlém trojúhelníku dopočítáte třetí stranu — a najednou jde spočítat úhlopříčka hřiště nebo délka žebříku. K tomu mocniny s přirozeným exponentem a zápis velkých čísel.",
+  "jak": [
+   "Zpaměti zná druhé mocniny do 15² a odhadne odmocninu.",
+   "Rozhodne, jestli je trojúhelník pravoúhlý, a dopočítá stranu Pythagorovou větou.",
+   "Použije větu ve slovní úloze (úhlopříčka, výška, vzdálenost)."
+  ],
+  "dal": "Výrazy a rovnice; v 9. ročníku tělesa a podobnost.",
+  "dalId": "m8-vyrazy",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná, geometrie).",
+  "doma": [
+   "Druhé mocniny do 15 na kartičkách.",
+   "Změřte úhlopříčku stolu a ověřte Pythagorovu větu — sedí!"
+  ]
+ },
+ {
+  "id": "m8-vyrazy",
+  "r": 8,
+  "p": "m",
+  "t": "Výrazy s proměnnou",
+  "co": "Písmenka místo čísel: dosazování do výrazů, sčítání a násobení mnohočlenů, vytýkání a vzorce (a + b)², a² − b². Abstraktní skok, který dělá potíže i šikovným počtářům — vyplatí se vracet k významu („x je prostě neznámé číslo“).",
+  "jak": [
+   "Dosadí do výrazu a vyčíslí ho.",
+   "Zjednoduší výraz sloučením členů a roznásobením závorky.",
+   "Vytkne společný činitel a použije základní vzorce."
+  ],
+  "dal": "Lineární rovnice — výrazy v akci.",
+  "dalId": "m8-rovnice",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň: matematizuje jednoduché reálné situace s využitím proměnných.",
+  "doma": [
+   "Vracejte se k dosazení: „za x dej trojku a zkontroluj“.",
+   "Chtějte zápis po krocích — chyby ve znaménkách jsou normální."
+  ]
+ },
+ {
+  "id": "m8-rovnice",
+  "r": 8,
+  "p": "m",
+  "t": "Lineární rovnice",
+  "co": "Řešení rovnic ekvivalentními úpravami — „co udělám s levou stranou, musím i s pravou“ — včetně zkoušky. Navazují slovní úlohy řešené rovnicí: o věku, o penězích, o pohybu. Jeden z pilířů přijímaček.",
+  "jak": [
+   "Vyřeší rovnici typu 3(x − 2) = x + 8 a provede zkoušku.",
+   "Sestaví rovnici ze slovní úlohy.",
+   "Pozná rovnici bez řešení a s nekonečně mnoha řešeními."
+  ],
+  "dal": "Soustavy rovnic a rovnice s neznámou ve jmenovateli v 9. ročníku.",
+  "dalId": "m9-rovnice",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná).",
+  "doma": [
+   "Rovnice jako váhy: co uděláš vlevo, udělej i vpravo.",
+   "Slovní úlohy ze života: věk, kapesné, tarify mobilů."
+  ]
+ },
+ {
+  "id": "m8-kruh",
+  "r": 8,
+  "p": "m",
+  "t": "Kružnice, kruh a válec",
+  "co": "Ludolfovo číslo π vstupuje na scénu: obvod a obsah kruhu, vzájemná poloha přímky a kružnice, Thaletova věta a první těleso s kruhovou podstavou — válec (povrch a objem). Hodně vzorců, ale i hodně hmatatelné geometrie.",
+  "jak": [
+   "Spočítá obvod a obsah kruhu (a ví, že π ≈ 3,14).",
+   "Rozliší kruh a kružnici.",
+   "Spočítá povrch a objem válce (plechovky, sudu)."
+  ],
+  "dal": "Jehlan, kužel a koule v 9. ročníku.",
+  "dalId": "m9-podobnost",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (geometrie v rovině a v prostoru).",
+  "doma": [
+   "Změřte obvod hrnce provázkem, vydělte průměrem — vyjde π.",
+   "Kolik vody se vejde do plechovky? Objem válce v praxi."
+  ]
+ },
+ {
+  "id": "ch8-zacatek",
+  "r": 8,
+  "p": "ch",
+  "t": "Chemie začíná",
+  "co": "Nový předmět od 8. ročníku: bezpečnost v laboratoři, směsi a jejich oddělování, voda a vzduch, částicové složení látek, chemické prvky a periodická soustava, značky prvků (H, O, Fe…), první chemické reakce a rovnice.",
+  "jak": [
+   "Zná značky běžných prvků a najde prvek v periodické tabulce.",
+   "Navrhne, jak oddělit složky směsi (filtrace, odpařování).",
+   "Rozliší chemický děj od fyzikálního (hoření × tání)."
+  ],
+  "dal": "Kyseliny, zásady, soli a organická chemie v 9. ročníku.",
+  "dalId": "ch9-organika",
+  "rvp": "RVP ZV · Člověk a příroda — Chemie · 2. stupeň.",
+  "doma": [
+   "Periodická tabulka na dveře záchodu — opravdu funguje.",
+   "Kuchyňská chemie: ocet a soda, rozpouštění, filtrování kávy."
+  ]
+ },
+ {
+  "id": "fy8-energie",
+  "r": 8,
+  "p": "fy",
+  "t": "Práce, výkon, energie a teplo",
+  "co": "Fyzika 8. ročníku obvykle pokrývá mechanickou práci a výkon, polohovou a pohybovou energii, přeměny energie a tepelné jevy (teplo, skupenské přeměny). Na některých školách sem spadá i elektřina — pořadí určuje ŠVP.",
+  "jak": [
+   "Spočítá práci (W = F·s) a výkon (P = W/t).",
+   "Popíše přeměny energie na příkladu (sjezd na kole, přehrada).",
+   "Vysvětlí rozdíl mezi teplem a teplotou."
+  ],
+  "dal": "Elektrické obvody a energetika v 9. ročníku.",
+  "dalId": "fy9-elektrina",
+  "rvp": "RVP ZV · Člověk a příroda — Fyzika · 2. stupeň (energie).",
+  "doma": [
+   "Čtěte štítky spotřebičů: watty a roční spotřeba.",
+   "Přeměny energie na kole: šlapání → pohyb → teplo brzd."
+  ]
+ },
+ {
+  "id": "prir8-clovek",
+  "r": 8,
+  "p": "prir",
+  "t": "Biologie člověka",
+  "co": "Tradiční náplň přírodopisu 8. ročníku: podrobně všechny orgánové soustavy člověka, od kostry a svalů přes oběhovou a nervovou soustavu po rozmnožování a vývin. Součástí je první pomoc, zdravý životní styl a prevence rizikového chování.",
+  "jak": [
+   "Popíše stavbu a funkci hlavních orgánových soustav.",
+   "Vysvětlí, co poškozuje srdce a cévy a jak tomu předcházet.",
+   "Předvede základy první pomoci (stabilizovaná poloha, resuscitace na modelu)."
+  ],
+  "dal": "Genetika a geologie v 9. ročníku.",
+  "rvp": "RVP ZV · Člověk a příroda — Přírodopis · 2. stupeň (biologie člověka).",
+  "doma": [
+   "Absolvujte spolu kurz první pomoci — hodí se oběma.",
+   "Spánek, jídlo a mobil řešte přes to, co se učí o těle."
+  ]
+ },
+ {
+  "id": "d8-novovek",
+  "r": 8,
+  "p": "d",
+  "t": "Novověk a 19. století",
+  "co": "Od zámořských objevů a reformace přes Bílou horu, baroko a Marii Terezii k Velké francouzské revoluci, průmyslové revoluci a národnímu obrození. Končí se obvykle první světovou válkou — na jejím prahu.",
+  "jak": [
+   "Vysvětlí, co změnila Bílá hora pro české země.",
+   "Popíše, jak průmyslová revoluce proměnila každodenní život.",
+   "Uvede hlavní postavy národního obrození a jejich přínos."
+  ],
+  "dal": "20. století v 9. ročníku.",
+  "dalId": "d9-20stoleti",
+  "rvp": "RVP ZV · Člověk a společnost — Dějepis · 2. stupeň (novověk, modernizace společnosti).",
+  "doma": [
+   "Po kom se jmenují ulice ve vašem městě? Obrození v terénu.",
+   "Návštěva zámku: baroko a Marie Terezie naživo."
+  ]
+ },
+ {
+  "id": "ov8-stat",
+  "r": 8,
+  "p": "ov",
+  "t": "Stát, právo a peníze",
+  "co": "Občanka v 8.–9. ročníku pokrývá fungování státu (dělba moci, volby, ústava), právní minimum (trestní odpovědnost od 15 let, smlouvy) a finanční gramotnost: rozpočet domácnosti, banky, úvěry a jejich rizika, pojištění. Věci, které dítě reálně potká hned po základce.",
+  "jak": [
+   "Vysvětlí rozdíl mezi mocí zákonodárnou, výkonnou a soudní.",
+   "Sestaví jednoduchý rozpočet a rozliší potřeby od přání.",
+   "Ví, co znamená podepsat smlouvu a proč si půjčky dobře rozmyslet."
+  ],
+  "dal": "Volby, EU a globální témata v 9. ročníku.",
+  "dalId": "ov9-svet",
+  "rvp": "RVP ZV · Člověk a společnost — Výchova k občanství · 2. stupeň (člověk, stát a právo; člověk, stát a hospodářství).",
+  "doma": [
+   "Dejte dítěti měsíční rozpočet na oblečení — ať plánuje samo.",
+   "Ukažte reálné dokumenty: výplatnici, složenku, smlouvu."
+  ]
+ },
+ {
+  "id": "z8-evropa",
+  "r": 8,
+  "p": "z",
+  "t": "Evropa",
+  "co": "Regionální zeměpis Evropy: přírodní poměry, státy a jejich hlavní města, obyvatelstvo, hospodářství a Evropská unie. Sousedé Česka dostávají zvláštní pozornost — a s nimi i otázka, jak Evropa drží pohromadě.",
+  "jak": [
+   "Ukáže na mapě evropské státy a významná města.",
+   "Porovná jižní a severní Evropu (podnebí, hospodářství).",
+   "Vysvětlí, co je EU a co členství znamená pro ČR."
+  ],
+  "dal": "Česká republika a globální souvislosti v 9. ročníku.",
+  "dalId": "z9-cr",
+  "rvp": "RVP ZV · Člověk a příroda — Zeměpis · 2. stupeň (regiony světa — Evropa).",
+  "doma": [
+   "Naplánujte spolu (klidně fiktivní) eurotrip: státy, měny, vzdálenosti.",
+   "U zpráv ze světa hledejte zemi na mapě."
+  ]
+ },
+ {
+  "id": "cj9-pravopis",
+  "r": 9,
+  "p": "cj",
+  "t": "Velké opakování: přijímačková čeština",
+  "co": "Devátý ročník češtiny je z velké části systematizace: kompletní pravopis, tvarosloví, skladba, slovotvorba, ale i porozumění textu a základní literární pojmy — přesně to, co testuje jednotná přijímací zkouška (didaktický test, 60 minut).",
+  "jak": [
+   "V testech JPZ nanečisto se zlepšuje a chyby umí zdůvodnit.",
+   "Pracuje s texty: najde hlavní myšlenku, rozliší fakta od názorů.",
+   "Zvládá časový limit — nezasekne se na jedné úloze."
+  ],
+  "dal": "Jednotná přijímací zkouška — viz milník níže.",
+  "dalId": "mil9-prijimacky",
+  "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. stupeň. Specifikace testů JPZ zveřejňuje Cermat (cermat.cz).",
+  "doma": [
+   "Jeden test JPZ týdně od podzimu — a hlavně rozbor chyb.",
+   "Nejlepší příprava na porozumění textu je číst. Cokoli."
+  ]
+ },
+ {
+  "id": "m9-rovnice",
+  "r": 9,
+  "p": "m",
+  "t": "Soustavy rovnic a slovní úlohy",
+  "co": "Dvě rovnice o dvou neznámých (řešení dosazovací a sčítací metodou), rovnice s neznámou ve jmenovateli a hlavně slovní úlohy: o pohybu, o společné práci, o směsích. Nejtěžší počtářské učivo základky — a stálice přijímaček.",
+  "jak": [
+   "Vyřeší soustavu dvou lineárních rovnic oběma metodami.",
+   "Sestaví soustavu ze slovní úlohy o dvou neznámých.",
+   "Vyřeší úlohu o společné práci („jeden natře plot za 6 hodin…“)."
+  ],
+  "dal": "Na střední škole kvadratické rovnice a další metody.",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná).",
+  "doma": [
+   "Staré testy JPZ s časomírou, rozbor potom v klidu bez ní.",
+   "U slovních úloh chtějte zápis: co přesně je x?"
+  ]
+ },
+ {
+  "id": "m9-funkce",
+  "r": 9,
+  "p": "m",
+  "t": "Funkce: úvod",
+  "co": "Funkce jako závislost jedné veličiny na druhé: tabulka, graf, předpis. Probírá se lineární funkce (přímka), přímá a nepřímá úměrnost jako funkce a čtení z grafů. Otevírá se tím brána ke středoškolské matematice.",
+  "jak": [
+   "Sestrojí graf lineární funkce z předpisu.",
+   "Přečte z grafu hodnoty a popíše, co se děje („cena roste s hmotností“).",
+   "Rozliší lineární funkci od nepřímé úměrnosti podle grafu."
+  ],
+  "dal": "Kvadratické a další funkce na střední škole.",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (závislosti, vztahy a práce s daty).",
+  "doma": [
+   "Grafy kolem nás: cena benzinu, teplota v týdnu.",
+   "Udělejte z tabulky graf — na papíře nebo v tabulkovém editoru."
+  ]
+ },
+ {
+  "id": "m9-podobnost",
+  "r": 9,
+  "p": "m",
+  "t": "Podobnost a tělesa",
+  "co": "Podobnost trojúhelníků (věty sss, sus, uu) s aplikacemi na měření výšek a vzdáleností, plus zbývající tělesa: jehlan, kužel a koule — jejich povrchy a objemy. Geometrická tečka za základkou.",
+  "jak": [
+   "Rozhodne o podobnosti trojúhelníků a určí poměr podobnosti.",
+   "Spočítá výšku stromu ze stínu pomocí podobnosti.",
+   "Spočítá objem a povrch jehlanu, kužele a koule podle vzorců."
+  ],
+  "dal": "Goniometrie a stereometrie na střední škole.",
+  "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (geometrie v rovině a v prostoru).",
+  "doma": [
+   "Změřte výšku stromu podle stínu — podobnost v praxi.",
+   "Modely a měřítka: kolikrát je angličák menší než auto?"
+  ]
+ },
+ {
+  "id": "ch9-organika",
+  "r": 9,
+  "p": "ch",
+  "t": "Organická chemie a chemie kolem nás",
+  "co": "Kyseliny, zásady a soli (pH, neutralizace), redoxní reakce a pak organika: uhlovodíky, paliva, alkoholy, plasty, a chemie v denním životě — potraviny, léčiva, čisticí prostředky, drogy a jejich rizika.",
+  "jak": [
+   "Určí pomocí indikátoru, zda je roztok kyselý, nebo zásaditý.",
+   "Vyjmenuje základní uhlovodíky a jejich užití (metan, propan-butan).",
+   "Vysvětlí, proč se plasty třídí a co znamená recyklace."
+  ],
+  "dal": "Systematická chemie na střední škole.",
+  "rvp": "RVP ZV · Člověk a příroda — Chemie · 2. stupeň (organické sloučeniny, chemie a společnost).",
+  "doma": [
+   "Čtěte etikety: složení potravin, pH čisticích prostředků.",
+   "Chemie je dobrá záminka mluvit otevřeně o alkoholu a drogách."
+  ]
+ },
+ {
+  "id": "fy9-elektrina",
+  "r": 9,
+  "p": "fy",
+  "t": "Elektřina a energetika",
+  "co": "Elektrické obvody (napětí, proud, odpor, Ohmův zákon), elektromagnetické jevy, výroba a přenos elektrické energie, jaderná energie a bezpečnost. Pořadí se mezi školami liší, ale bez Ohmova zákona ze základky nikdo neodejde.",
+  "jak": [
+   "Zapojí jednoduchý obvod podle schématu a změří proud a napětí.",
+   "Použije Ohmův zákon (U = R·I) ve výpočtu.",
+   "Vysvětlí, odkud se bere elektřina v zásuvce a proč se šetří energií."
+  ],
+  "dal": "Fyzika na střední škole; volba oboru u technických škol.",
+  "rvp": "RVP ZV · Člověk a příroda — Fyzika · 2. stupeň (elektromagnetické a světelné děje, energie).",
+  "doma": [
+   "Spočítejte spotřebu domácnosti z vyúčtování.",
+   "Stavebnice elektrických obvodů je skvělý dárek."
+  ]
+ },
+ {
+  "id": "d9-20stoleti",
+  "r": 9,
+  "p": "d",
+  "t": "20. století: války, totality, rok 1989",
+  "co": "Nejdůležitější dějepisný rok: první a druhá světová válka, vznik ČSR, Mnichov 1938, protektorát a holokaust, únor 1948, komunistický režim a normalizace, sametová revoluce 1989 a rozdělení Československa. Klíčové pro občanské porozumění současnosti.",
+  "jak": [
+   "Vysvětlí souvislost Mnichova 1938 a okupace 1939.",
+   "Popíše, jak fungoval komunistický režim a co znamenal pro běžné lidi.",
+   "Vysvětlí, co se stalo 17. listopadu 1989 a co následovalo."
+  ],
+  "dal": "Moderní dějiny a společenské vědy na střední škole.",
+  "rvp": "RVP ZV · Člověk a společnost — Dějepis · 2. stupeň (moderní doba, rozdělený a integrující se svět).",
+  "doma": [
+   "Ptejte se prarodičů na normalizaci a rok 1989 — živá paměť.",
+   "Projděte spolu příběhy na webu Paměť národa: silnější než letopočty."
+  ]
+ },
+ {
+  "id": "ov9-svet",
+  "r": 9,
+  "p": "ov",
+  "t": "Volby, EU a globální svět",
+  "co": "Závěr občanky: principy demokracie a voleb (a proč se jich účastnit), mezinárodní organizace (EU, NATO, OSN), globální problémy a mediální gramotnost — rozpoznávání dezinformací a manipulace. Průřezově se potkává s mediální výchovou.",
+  "jak": [
+   "Vysvětlí, jak fungují volby a kdo v ČR co volí.",
+   "Uvede, co pro občana znamená členství v EU (cestování, práce, práva).",
+   "Rozpozná znaky dezinformace (chybí zdroj, tlak na emoce, „sdílejte, než to smažou“)."
+  ],
+  "dal": "Společenské vědy na střední škole; první volby v 18 letech.",
+  "rvp": "RVP ZV · Člověk a společnost — Výchova k občanství · 2. stupeň; průřezová témata Mediální výchova a Výchova k myšlení v evropských a globálních souvislostech.",
+  "doma": [
+   "Vezměte dítě s sebou k volbám.",
+   "Rozeberte jednu virální zprávu: kdo je zdroj a co chce?"
+  ]
+ },
+ {
+  "id": "z9-cr",
+  "r": 9,
+  "p": "z",
+  "t": "Česká republika a svět v souvislostech",
+  "co": "Zeměpis se vrací domů: přírodní podmínky ČR, kraje a regiony, obyvatelstvo, průmysl a zemědělství, doprava a cestovní ruch. K tomu globální souvislosti — globalizace, klimatická změna, udržitelnost. Detailněji než vlastivěda na 1. stupni a s prací s daty.",
+  "jak": [
+   "Charakterizuje svůj kraj (příroda, hospodářství, zajímavosti).",
+   "Pracuje s daty o obyvatelstvu (hustota, věková struktura).",
+   "Vysvětlí na příkladu, jak globální jev dopadá na Česko (sucho, ceny energií)."
+  ],
+  "dal": "Zeměpis a geografie na střední škole.",
+  "rvp": "RVP ZV · Člověk a příroda — Zeměpis · 2. stupeň (Česká republika; životní prostředí).",
+  "doma": [
+   "Prozkoumejte vlastní kraj: výlet s mapou a otázkami.",
+   "Podívejte se spolu na data o počasí a suchu (ČHMÚ)."
+  ]
+ },
+ {
+  "id": "prir9-geologie",
+  "r": 9,
+  "p": "prir",
+  "t": "Geologie a genetika",
+  "co": "Devátý ročník přírodopisu obvykle patří neživé přírodě — minerály, horniny, vývoj Země, geologická období, půdy — a základům genetiky a evoluce: DNA, dědičnost, Darwin. Uzavírá se tím obraz přírody od buňky po planetu.",
+  "jak": [
+   "Rozliší základní horniny a minerály a popíše jejich vznik.",
+   "Vysvětlí jednoduše, co je DNA a jak se dědí znaky.",
+   "Popíše princip evoluce přirozeným výběrem."
+  ],
+  "dal": "Biologie, chemie a geologie na střední škole.",
+  "rvp": "RVP ZV · Člověk a příroda — Přírodopis · 2. stupeň (neživá příroda; obecná biologie a genetika).",
+  "doma": [
+   "Sbírejte kameny z výletů a určujte je.",
+   "Kdo má po kom oči? Dědičnost na vlastní rodině."
+  ]
+ },
+ {
+  "id": "csp9-povolani",
+  "r": 9,
+  "p": "csp",
+  "t": "Svět práce a volba povolání",
+  "co": "Povinný okruh Svět práce v 8.–9. ročníku: sebepoznání (co mi jde a co mě baví), přehled o oborech a trhu práce, informace o středních školách, dny otevřených dveří, nácvik životopisu a pohovoru. Přímá příprava na volbu střední školy.",
+  "jak": [
+   "Pojmenuje své silné stránky a zájmy ve vztahu k oborům.",
+   "Vyhledá informace o střední škole (obory, přijímačky, uplatnění).",
+   "Napíše jednoduchý strukturovaný životopis."
+  ],
+  "dal": "Přihlášky na střední školy přes DiPSy — viz milník Přijímačky.",
+  "dalId": "mil9-prijimacky",
+  "rvp": "RVP ZV · Člověk a svět práce · 2. stupeň (povinný tematický okruh Svět práce).",
+  "doma": [
+   "Dny otevřených dveří: aspoň tři školy naživo, ne jen weby.",
+   "Domluvte dítěti den stínování vaší práce nebo práce známých.",
+   "Životopis nanečisto se hodí hned — na první brigádu."
+  ]
+ },
+ {
+  "id": "mil9-prijimacky",
+  "r": 9,
+  "p": "mil",
+  "t": "Milník: přijímačky na střední školy",
+  "co": "Uchazeči o maturitní obory skládají jednotnou přijímací zkoušku (JPZ) z českého jazyka a matematiky — didaktické testy Cermatu, dva řádné termíny v dubnu, počítá se lepší výsledek. Přihlášky se podávají elektronicky přes systém DiPSy (obvykle do 20. února), lze uvést až 3 školy v pořadí podle priority.",
+  "jak": [
+   "Přihlášky: do 3 škol, pořadí na přihlášce je závazná priorita — rozmyslete ho pečlivě.",
+   "Školy mohou přidat školní přijímací zkoušku nebo talentovou zkoušku (umělecké a sportovní obory už v lednu).",
+   "Výsledky rozřazuje systém automaticky podle priorit — nečeká se na „zápisové lístky“ jako dříve."
+  ],
+  "dal": "Nástup na střední školu — povinná školní docházka končí, vzdělávání pokračuje.",
+  "dalId": "mil9-ukonceni",
+  "rvp": "Zákon č. 561/2004 Sb., § 59–64; vyhláška o přijímacím řízení ke střednímu vzdělávání. Oficiální informace: prihlaskynastredni.cz, cermat.cz.",
+  "doma": [
+   "Pořadí škol v DiPSy je závazné — proberte priority v klidu doma.",
+   "Mějte předem náhradní plán: uklidní všechny.",
+   "Den před zkouškou už neučit — spánek udělá víc než opakování."
+  ]
+ },
+ {
+  "id": "mil9-ukonceni",
+  "r": 9,
+  "p": "mil",
+  "t": "Milník: dokončení základního vzdělání",
+  "co": "Pozor na rozdíl dvou pojmů: povinná školní docházka trvá 9 školních roků (splní se „odchozením“), zatímco stupeň základní vzdělání žák získá úspěšným ukončením 9. ročníku. Žák, který 9. ročník nedokončí úspěšně, splnil docházku, ale základní vzdělání nemá — může si ho doplnit kurzem.",
+  "jak": [
+   "Vysvědčení z 9. ročníku s doložkou potvrzuje získání základního vzdělání.",
+   "Při neúspěchu existují opravné zkoušky (konec srpna) a možnost opakování ročníku.",
+   "Kurzy pro doplnění základního vzdělání organizují základní a střední školy."
+  ],
+  "dal": "Střední vzdělávání: gymnázia, střední odborné školy a učiliště.",
+  "rvp": "Zákon č. 561/2004 Sb., § 43–45 (splnění povinné školní docházky a získání základního vzdělání), § 55.",
+  "doma": [
+   "Mluvte o vysvědčení jako o etapě, ne o rozsudku.",
+   "Při potížích jednejte hned — opravné zkoušky mají svá pravidla a termíny."
+  ]
+ }
+]

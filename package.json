@@ -1,0 +1,14 @@
+{
+  "name": "mapa-uceni-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Staticky generovany web Mapa uceni pro rodice deti na ZS.",
+  "scripts": {
+    "build": "node build.js",
+    "check": "node build.js",
+    "serve": "python3 -m http.server 8080 -d docs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

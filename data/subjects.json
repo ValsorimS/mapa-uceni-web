@@ -1,0 +1,82 @@
+{
+ "cj": {
+  "n": "Český jazyk a literatura",
+  "c": "#C0392B"
+ },
+ "m": {
+  "n": "Matematika",
+  "c": "#1E44A0"
+ },
+ "aj": {
+  "n": "Anglický jazyk",
+  "c": "#7A3E9D"
+ },
+ "ncj": {
+  "n": "Další cizí jazyk",
+  "c": "#9D3E7A"
+ },
+ "prv": {
+  "n": "Prvouka (Člověk a jeho svět)",
+  "c": "#2F7D4F"
+ },
+ "pri": {
+  "n": "Přírodověda",
+  "c": "#3C8C5C"
+ },
+ "vla": {
+  "n": "Vlastivěda",
+  "c": "#8A5A2B"
+ },
+ "inf": {
+  "n": "Informatika",
+  "c": "#475569"
+ },
+ "fy": {
+  "n": "Fyzika",
+  "c": "#0E7490"
+ },
+ "ch": {
+  "n": "Chemie",
+  "c": "#B45309"
+ },
+ "prir": {
+  "n": "Přírodopis",
+  "c": "#2F7D4F"
+ },
+ "z": {
+  "n": "Zeměpis",
+  "c": "#0F766E"
+ },
+ "d": {
+  "n": "Dějepis",
+  "c": "#7C4A21"
+ },
+ "ov": {
+  "n": "Výchova k občanství",
+  "c": "#6E7F3C"
+ },
+ "vz": {
+  "n": "Výchova ke zdraví",
+  "c": "#B23A48"
+ },
+ "hv": {
+  "n": "Hudební výchova",
+  "c": "#C2762B"
+ },
+ "vv": {
+  "n": "Výtvarná výchova",
+  "c": "#B1497E"
+ },
+ "tv": {
+  "n": "Tělesná výchova",
+  "c": "#3A7CA5"
+ },
+ "csp": {
+  "n": "Člověk a svět práce",
+  "c": "#7A6A54"
+ },
+ "mil": {
+  "n": "Milníky a zkoušky",
+  "c": "#22304A"
+ }
+}

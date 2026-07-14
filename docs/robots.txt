@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /hledat/
+Sitemap: https://www.mapa-uceni.cz/sitemap.xml

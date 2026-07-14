@@ -1,0 +1,57 @@
+[
+ {
+  "t": "Povinná školní docházka: 9 let",
+  "p": "Školní docházka je povinná po dobu devíti školních roků, nejvýše však do konce školního roku, v němž žák dosáhne 17 let. Začíná počátkem školního roku, který následuje po dni, kdy dítě dosáhne šesti let (s možností odkladu). Zákonný zástupce je povinen dítě přihlásit k zápisu.",
+  "ref": "Zákon č. 561/2004 Sb. (školský zákon), § 36"
+ },
+ {
+  "t": "Zápis do 1. třídy",
+  "p": "Zápisy k povinné školní docházce probíhají každý rok od 1. do 30. dubna. Konkrétní termín a formu (často s elektronickou rezervací) určuje ředitel školy. K zápisu jdou i děti, jejichž rodiče budou žádat o odklad.",
+  "ref": "Školský zákon, § 36 odst. 4"
+ },
+ {
+  "t": "Spádová škola a právo volby",
+  "p": "Obec stanoví školské obvody; vaše spádová základní škola (podle trvalého pobytu dítěte) má povinnost dítě přednostně přijmout. Můžete ale zvolit kteroukoli jinou školu — ta přijímá podle volné kapacity a svých kritérií. U oblíbených nespádových škol rozhoduje často los.",
+  "ref": "Školský zákon, § 36 odst. 5 a 7"
+ },
+ {
+  "t": "Individuální (domácí) vzdělávání",
+  "p": "Žák může plnit povinnou školní docházku doma — na 1. i 2. stupni. Povoluje ho ředitel školy na žádost zákonného zástupce; podmínkou jsou mimo jiné vážné důvody, zajištění podmínek a vzdělání garanta (střední s maturitou pro 1. stupeň, vysokoškolské pro 2. stupeň). Žák je dvakrát ročně přezkoušen ve své kmenové škole.",
+  "ref": "Školský zákon, § 41"
+ },
+ {
+  "t": "Podpůrná opatření a inkluze",
+  "p": "Žáci se speciálními vzdělávacími potřebami (poruchy učení, ADHD, nadání, zdravotní znevýhodnění…) mají nárok na podpůrná opatření v pěti stupních — od úpravy metod přes pedagogickou intervenci a pomůcky po asistenta pedagoga a individuální vzdělávací plán (IVP). Od 2. stupně je doporučuje školské poradenské zařízení (PPP nebo SPC).",
+  "ref": "Školský zákon, § 16; vyhláška č. 27/2016 Sb."
+ },
+ {
+  "t": "Hodnocení, vysvědčení a opakování ročníku",
+  "p": "Žák dostává vysvědčení na konci každého pololetí (za 1. pololetí lze vydat výpis). Hodnotit lze známkami, slovně, nebo kombinací — formu určuje škola ve školním řádu. Při neprospěchu má žák právo na opravnou zkoušku na konci srpna; ročník lze na každém stupni opakovat jen jednou.",
+  "ref": "Školský zákon, § 51–53; vyhláška č. 48/2005 Sb."
+ },
+ {
+  "t": "Uvolnění z výuky a omlouvání absencí",
+  "p": "Nepřítomnost žáka dokládá zákonný zástupce podle pravidel školního řádu (obvykle do 3 kalendářních dnů od začátku absence). Na základě písemné žádosti může ředitel žáka uvolnit z výuky předem — třídní učitel na kratší dobu, ředitel na delší. Neomluvené hodiny řeší škola, ve vážných případech OSPOD.",
+  "ref": "Školský zákon, § 50; školní řád konkrétní školy"
+ },
+ {
+  "t": "Víceletá gymnázia",
+  "p": "Z 5. ročníku lze odejít na osmileté gymnázium, ze 7. ročníku na šestileté. Uchazeči skládají jednotnou přijímací zkoušku (Cermat) z českého jazyka a matematiky. Zbytek povinné školní docházky pak žák plní na gymnáziu.",
+  "ref": "Školský zákon, § 61; § 60 a násl. (přijímací řízení)"
+ },
+ {
+  "t": "Přijímací řízení na střední školy",
+  "p": "Přihlášky se podávají elektronicky přes informační systém DiPSy, zpravidla do 20. února; uvést lze až 3 školy v závazném pořadí podle priority. Uchazeči o maturitní obory konají jednotnou přijímací zkoušku z ČJ a matematiky (dva termíny, počítá se lepší výsledek). Rozřazení na školy probíhá centrálně podle výsledků a priorit.",
+  "ref": "Školský zákon, § 59–64; oficiální portál prihlaskynastredni.cz"
+ },
+ {
+  "t": "RVP a ŠVP: proč se školy liší",
+  "p": "Ministerstvo školství vydává rámcové vzdělávací programy (pro ZŠ je to RVP ZV) — ty stanoví povinné cíle a očekávané výstupy. Každá škola z nich tvoří vlastní školní vzdělávací program (ŠVP), který určuje, kdy a jak se co učí. Proto může být totéž učivo na dvou školách v jiném ročníku — obě přitom postupují správně.",
+  "ref": "Školský zákon, § 3–5"
+ },
+ {
+  "t": "Splnění docházky × získání základního vzdělání",
+  "p": "Povinná školní docházka se splní uplynutím devíti školních roků. Stupeň „základní vzdělání“ ale žák získá až úspěšným ukončením 9. ročníku (případně odpovídajícího ročníku víceletého gymnázia). Kdo ho nezíská, může si ho doplnit v kurzu pro získání základního vzdělání.",
+  "ref": "Školský zákon, § 43–45, § 55"
+ }
+]
