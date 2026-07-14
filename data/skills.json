@@ -3149,22 +3149,168 @@
   ]
  },
  {
-  "id": "ch8-zacatek",
+  "id": "ch8-latky-bezpecnost",
   "r": 8,
   "p": "ch",
-  "t": "Chemie začíná",
-  "co": "Nový předmět od 8. ročníku: bezpečnost v laboratoři, směsi a jejich oddělování, voda a vzduch, částicové složení látek, chemické prvky a periodická soustava, značky prvků (H, O, Fe…), první chemické reakce a rovnice.",
+  "t": "Chemie začíná: látky a bezpečnost",
+  "co": "Chemie začíná pozorováním látek, jejich vlastností a bezpečnou prací. Žák rozlišuje hustotu, rozpustnost, tepelnou a elektrickou vodivost, čte výstražné piktogramy a ví, se kterými látkami se doma ani ve škole nesmí zacházet lehkovážně.",
   "jak": [
-   "Zná značky běžných prvků a najde prvek v periodické tabulce.",
-   "Navrhne, jak oddělit složky směsi (filtrace, odpařování).",
-   "Rozliší chemický děj od fyzikálního (hoření × tání)."
+   "Určí společné a rozdílné vlastnosti běžných látek.",
+   "Pozná výstražné piktogramy a vysvětlí základní H-věty a P-věty lidsky.",
+   "Pracuje bezpečně s dostupnými látkami a posoudí riziko čisticích prostředků, kyselin nebo hořlavin."
   ],
-  "dal": "Kyseliny, zásady, soli a organická chemie v 9. ročníku.",
-  "dalId": "ch9-organika",
-  "rvp": "RVP ZV · Člověk a příroda — Chemie · 2. stupeň.",
+  "dal": "Směsi, roztoky, voda, vzduch a oddělování složek.",
+  "dalId": "ch8-smesi",
+  "rvp": "RVP ZV · Chemie · Pozorování, pokus a bezpečnost práce.",
   "doma": [
-   "Periodická tabulka na dveře záchodu — opravdu funguje.",
-   "Kuchyňská chemie: ocet a soda, rozpouštění, filtrování kávy."
+   "Čtěte etikety čisticích prostředků: piktogram, riziko, ochranné pomůcky.",
+   "Nechte dítě porovnat vlastnosti soli, cukru, oleje a vody bez nebezpečných pokusů."
+  ],
+  "rvpRefs": [
+   "CH-9-1-01",
+   "CH-9-1-02"
+  ]
+ },
+ {
+  "id": "ch8-smesi",
+  "r": 8,
+  "p": "ch",
+  "t": "Směsi, roztoky, voda a vzduch",
+  "co": "Směsi patří mezi nejpraktičtější chemická témata: různorodé směsi, stejnorodé roztoky, koncentrace, hmotnostní zlomek, filtrace, odpařování, krystalizace, destilace, čistota vody a vzduchu.",
+  "jak": [
+   "Rozliší směs a chemickou látku, roztok koncentrovanější a zředěnější.",
+   "Vypočítá jednoduché složení roztoku a prakticky roztok připraví.",
+   "Navrhne oddělení složek směsi a vysvětlí znečištění vody a vzduchu."
+  ],
+  "dal": "Atomy, molekuly, prvky a periodická tabulka.",
+  "dalId": "ch8-castice-prvky",
+  "rvp": "RVP ZV · Chemie · Směsi.",
+  "doma": [
+   "Káva a čaj jsou dobrá filtrace; sůl z vody jde získat odpařením.",
+   "U balené vody a ovzduší řešte, co znamená čistota a znečištění."
+  ],
+  "rvpRefs": [
+   "CH-9-2-01",
+   "CH-9-2-02",
+   "CH-9-2-03",
+   "CH-9-2-04"
+  ]
+ },
+ {
+  "id": "ch8-castice-prvky",
+  "r": 8,
+  "p": "ch",
+  "t": "Atomy, molekuly, prvky a periodická tabulka",
+  "co": "Tady se chemie přepne z viditelných látek na model částic: atom, molekula, prvek, sloučenina, protonové číslo, chemická vazba, značky prvků a orientace v periodické soustavě.",
+  "jak": [
+   "Použije správně pojmy atom, molekula, prvek a sloučenina.",
+   "Najde prvek v periodické tabulce a přečte jeho značku a protonové číslo.",
+   "Rozpozná vybrané kovy a nekovy a odvodí některé jejich vlastnosti."
+  ],
+  "dal": "Chemické reakce, rovnice a zákon zachování hmotnosti.",
+  "dalId": "ch8-reakce",
+  "rvp": "RVP ZV · Chemie · Částicové složení látek a chemické prvky.",
+  "doma": [
+   "Periodická tabulka na dveře záchodu opravdu funguje.",
+   "Hledejte značky prvků na obalech, bateriích a kuchyňské soli."
+  ],
+  "rvpRefs": [
+   "CH-9-3-01",
+   "CH-9-3-02"
+  ]
+ },
+ {
+  "id": "ch8-reakce",
+  "r": 8,
+  "p": "ch",
+  "t": "Chemické reakce a rovnice",
+  "co": "Chemické reakce ukazují, že z výchozích látek vznikají produkty. Žák se učí jednoduché chemické rovnice, zákon zachování hmotnosti a faktory, které ovlivňují rychlost reakce: teplotu, povrch a katalýzu.",
+  "jak": [
+   "Rozliší výchozí látky a produkty reakce.",
+   "Zapíše jednoduchou reakci rovnicí a ví, že hmota se neztrácí.",
+   "Vysvětlí, proč teplota, rozdrcení látky nebo katalyzátor mění průběh reakce."
+  ],
+  "dal": "Oxidy, kyseliny, hydroxidy, soli, pH a neutralizace.",
+  "dalId": "ch9-anorganika-ph",
+  "rvp": "RVP ZV · Chemie · Chemické reakce.",
+  "doma": [
+   "Kuchyňská chemie: ocet a soda, kynutí těsta, hnědnutí jablka.",
+   "U reakcí doma držte bezpečný rozsah: malé množství, žádné uzavřené nádoby, žádné neznámé směsi."
+  ],
+  "rvpRefs": [
+   "CH-9-4-01",
+   "CH-9-4-02"
+  ]
+ },
+ {
+  "id": "ch9-anorganika-ph",
+  "r": 9,
+  "p": "ch",
+  "t": "Kyseliny, zásady, soli a pH",
+  "co": "Anorganická chemie na základce se točí kolem prakticky významných oxidů, kyselin, hydroxidů a solí. Důležitá je stupnice pH, indikátory, neutralizace, názvosloví v přiměřené míře a bezpečnost při zasažení kyselinou nebo hydroxidem.",
+  "jak": [
+   "Porovná vlastnosti a použití vybraných oxidů, kyselin, hydroxidů a solí.",
+   "Změří pH roztoku indikátorovým papírkem a vysvětlí neutralizaci.",
+   "Posoudí vliv významných anorganických látek na životní prostředí."
+  ],
+  "dal": "Organické sloučeniny, paliva, deriváty uhlovodíků a přírodní látky.",
+  "dalId": "ch9-organika-paliva",
+  "rvp": "RVP ZV · Chemie · Anorganické sloučeniny.",
+  "doma": [
+   "Sledujte pH v běžném životě: ocet, citron, mýdlo, čisticí prostředky.",
+   "U čisticích prostředků zdůrazněte: nemíchat, nevdechovat, chránit oči a ruce."
+  ],
+  "rvpRefs": [
+   "CH-9-5-01",
+   "CH-9-5-02"
+  ]
+ },
+ {
+  "id": "ch9-organika-paliva",
+  "r": 9,
+  "p": "ch",
+  "t": "Organická chemie, paliva a přírodní látky",
+  "co": "Organická chemie vysvětluje uhlovodíky, ropu, zemní plyn, uhlí, průmyslově vyráběná paliva, alkoholy, karboxylové kyseliny a přírodní látky v potravě: bílkoviny, tuky, sacharidy a vitaminy.",
+  "jak": [
+   "Rozliší nejjednodušší uhlovodíky a uvede jejich zdroje, vlastnosti a použití.",
+   "Zhodnotí fosilní paliva a uvede produkty zpracování ropy.",
+   "Uvede příklady derivátů uhlovodíků a zdrojů bílkovin, tuků, sacharidů a vitaminů."
+  ],
+  "dal": "Chemie v průmyslu, recyklace, plasty, hnojiva, hašení požárů a dopady látek.",
+  "dalId": "ch9-chemie-spolecnost",
+  "rvp": "RVP ZV · Chemie · Organické sloučeniny.",
+  "doma": [
+   "Čtěte etikety potravin a hledejte sacharidy, tuky a bílkoviny.",
+   "Chemie je dobrá záminka mluvit otevřeně o alkoholu, palivech a dopadech spotřeby."
+  ],
+  "rvpRefs": [
+   "CH-9-6-01",
+   "CH-9-6-02",
+   "CH-9-6-03",
+   "CH-9-6-04"
+  ]
+ },
+ {
+  "id": "ch9-chemie-spolecnost",
+  "r": 9,
+  "p": "ch",
+  "t": "Chemie a společnost",
+  "co": "Závěr chemie propojuje průmysl a každodenní život: suroviny, recyklaci, korozi, hnojiva, cement, vápno, sádru, keramiku, plasty, syntetická vlákna, detergenty, pesticidy, insekticidy a hašení požárů.",
+  "jak": [
+   "Zhodnotí využívání prvotních a druhotných surovin z hlediska udržitelnosti.",
+   "Aplikuje principy hašení požárů na modelové situace.",
+   "Posoudí využití látek v praxi vzhledem k životnímu prostředí a zdraví člověka."
+  ],
+  "dal": "Systematická chemie na střední škole a praktické environmentální souvislosti.",
+  "rvp": "RVP ZV · Chemie · Chemie a společnost.",
+  "doma": [
+   "Třiďte odpad vědomě: co je plast, kov, sklo, papír a proč to dává smysl.",
+   "U hasicího přístroje nebo požární deky si řekněte, co se čím hasí a kdy volat 150."
+  ],
+  "rvpRefs": [
+   "CH-9-7-01",
+   "CH-9-7-02",
+   "CH-9-7-03"
   ]
  },
  {
@@ -3500,24 +3646,6 @@
    "M-9-3-11",
    "M-9-3-12",
    "M-9-3-13"
-  ]
- },
- {
-  "id": "ch9-organika",
-  "r": 9,
-  "p": "ch",
-  "t": "Organická chemie a chemie kolem nás",
-  "co": "Kyseliny, zásady a soli (pH, neutralizace), redoxní reakce a pak organika: uhlovodíky, paliva, alkoholy, plasty, a chemie v denním životě — potraviny, léčiva, čisticí prostředky, drogy a jejich rizika.",
-  "jak": [
-   "Určí pomocí indikátoru, zda je roztok kyselý, nebo zásaditý.",
-   "Vyjmenuje základní uhlovodíky a jejich užití (metan, propan-butan).",
-   "Vysvětlí, proč se plasty třídí a co znamená recyklace."
-  ],
-  "dal": "Systematická chemie na střední škole.",
-  "rvp": "RVP ZV · Člověk a příroda — Chemie · 2. stupeň (organické sloučeniny, chemie a společnost).",
-  "doma": [
-   "Čtěte etikety: složení potravin, pH čisticích prostředků.",
-   "Chemie je dobrá záminka mluvit otevřeně o alkoholu a drogách."
   ]
  },
  {

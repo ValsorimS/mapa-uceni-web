@@ -5260,6 +5260,291 @@
     "document": "RVP ZV 2023",
     "section": "5.6.1"
    }
+  },
+  {
+   "id": "CH-9-1-01",
+   "topic": "Pozorování, pokus a bezpečnost práce",
+   "text": "určí společné a rozdílné vlastnosti látek",
+   "skillIds": [
+    "ch8-latky-bezpecnost"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-1-02",
+   "topic": "Pozorování, pokus a bezpečnost práce",
+   "text": "pracuje bezpečně s vybranými dostupnými a běžně používanými látkami a hodnotí jejich rizikovost; posoudí nebezpečnost vybraných dostupných látek, se kterými zatím pracovat nesmí",
+   "skillIds": [
+    "ch8-latky-bezpecnost"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-2-01",
+   "topic": "Směsi",
+   "text": "rozlišuje směsi a chemické látky",
+   "skillIds": [
+    "ch8-smesi"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-2-02",
+   "topic": "Směsi",
+   "text": "vypočítá složení roztoků, připraví prakticky roztok daného složení",
+   "skillIds": [
+    "ch8-smesi"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-2-03",
+   "topic": "Směsi",
+   "text": "navrhne postupy a prakticky provede oddělování složek směsí o známém složení; uvede příklady oddělování složek v praxi",
+   "skillIds": [
+    "ch8-smesi"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-2-04",
+   "topic": "Směsi",
+   "text": "rozliší různé druhy vody a uvede příklady jejich výskytu a použití, uvede příklady znečišťování vody a vzduchu",
+   "skillIds": [
+    "ch8-smesi"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-3-01",
+   "topic": "Částicové složení látek a chemické prvky",
+   "text": "používá pojmy atom a molekula, prvek a sloučenina ve správných souvislostech",
+   "skillIds": [
+    "ch8-castice-prvky"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-3-02",
+   "topic": "Částicové složení látek a chemické prvky",
+   "text": "orientuje se v periodické soustavě chemických prvků, rozpozná vybrané kovy a nekovy a usuzuje na jejich možné vlastnosti",
+   "skillIds": [
+    "ch8-castice-prvky"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-4-01",
+   "topic": "Chemické reakce",
+   "text": "rozliší a zapíše rovnicí výchozí látky a produkty chemických reakcí, uvede příklady prakticky důležitých chemických reakcí a zhodnotí jejich využívání",
+   "skillIds": [
+    "ch8-reakce"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-4-02",
+   "topic": "Chemické reakce",
+   "text": "aplikuje poznatky o faktorech ovlivňujících průběh chemických reakcí v praxi a při předcházení jejich nebezpečnému průběhu",
+   "skillIds": [
+    "ch8-reakce"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-5-01",
+   "topic": "Anorganické sloučeniny",
+   "text": "porovná vlastnosti a použití vybraných prakticky významných oxidů, kyselin, hydroxidů a solí a posoudí vliv významných zástupců těchto látek na životní prostředí",
+   "skillIds": [
+    "ch9-anorganika-ph"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-5-02",
+   "topic": "Anorganické sloučeniny",
+   "text": "orientuje se na stupnici pH, změří reakci roztoku univerzálním indikátorovým papírkem a uvede příklady uplatňování neutralizace v praxi",
+   "skillIds": [
+    "ch9-anorganika-ph"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-6-01",
+   "topic": "Organické sloučeniny",
+   "text": "rozliší nejjednodušší uhlovodíky, uvede jejich zdroje, vlastnosti a použití",
+   "skillIds": [
+    "ch9-organika-paliva"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-6-02",
+   "topic": "Organické sloučeniny",
+   "text": "zhodnotí užívání fosilních paliv a vyráběných paliv jako zdrojů energie a uvede příklady produktů průmyslového zpracování ropy",
+   "skillIds": [
+    "ch9-organika-paliva"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-6-03",
+   "topic": "Organické sloučeniny",
+   "text": "rozliší vybrané deriváty uhlovodíků, uvede jejich zdroje, vlastnosti a použití",
+   "skillIds": [
+    "ch9-organika-paliva"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-6-04",
+   "topic": "Organické sloučeniny",
+   "text": "uvede příklady zdrojů bílkovin, tuků, sacharidů a vitaminů",
+   "skillIds": [
+    "ch9-organika-paliva"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-7-01",
+   "topic": "Chemie a společnost",
+   "text": "zhodnotí využívání prvotních a druhotných surovin z hlediska trvale udržitelného rozvoje na Zemi",
+   "skillIds": [
+    "ch9-chemie-spolecnost"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-7-02",
+   "topic": "Chemie a společnost",
+   "text": "aplikuje znalosti o principech hašení požárů na řešení modelových situací z praxe",
+   "skillIds": [
+    "ch9-chemie-spolecnost"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
+  },
+  {
+   "id": "CH-9-7-03",
+   "topic": "Chemie a společnost",
+   "text": "orientuje se v přípravě a využívání různých látek v praxi a jejich vlivech na životní prostředí a zdraví člověka",
+   "skillIds": [
+    "ch9-chemie-spolecnost"
+   ],
+   "fieldId": "chemie",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.2"
+   }
   }
  ]
 }
