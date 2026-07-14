@@ -3913,6 +3913,952 @@
     "pri5-telo",
     "pri5-bezpeci-zdravi"
    ]
+  },
+  {
+   "id": "D-9-1-01",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Člověk v dějinách",
+   "text": "uvede konkrétní příklady důležitosti a potřebnosti dějepisných poznatků",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d6-pravek"
+   ]
+  },
+  {
+   "id": "D-9-1-02",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Člověk v dějinách",
+   "text": "uvede příklady zdrojů informací o minulosti; pojmenuje instituce, kde jsou tyto zdroje shromažďovány",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d6-pravek"
+   ]
+  },
+  {
+   "id": "D-9-1-03",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Člověk v dějinách",
+   "text": "orientuje se na časové ose a v historické mapě, řadí hlavní historické epochy v chronologickém sledu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d6-pravek"
+   ]
+  },
+  {
+   "id": "D-9-2-01",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Počátky lidské společnosti",
+   "text": "charakterizuje život pravěkých sběračů a lovců, jejich materiální a duchovní kulturu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d6-pravek"
+   ]
+  },
+  {
+   "id": "D-9-2-02",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Počátky lidské společnosti",
+   "text": "objasní význam zemědělství, dobytkářství a zpracování kovů pro lidskou společnost",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d6-pravek"
+   ]
+  },
+  {
+   "id": "D-9-3-01",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Nejstarší civilizace. Kořeny evropské kultury",
+   "text": "rozpozná souvislost mezi přírodními podmínkami a vznikem prvních velkých zemědělských civilizací",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d6-pravek"
+   ]
+  },
+  {
+   "id": "D-9-3-02",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Nejstarší civilizace. Kořeny evropské kultury",
+   "text": "uvede nejvýznamnější typy památek, které se staly součástí světového kulturního dědictví",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d6-pravek"
+   ]
+  },
+  {
+   "id": "D-9-3-03",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Nejstarší civilizace. Kořeny evropské kultury",
+   "text": "demonstruje na konkrétních příkladech přínos antické kultury a zrod křesťanství",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d6-pravek"
+   ]
+  },
+  {
+   "id": "D-9-3-04",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Nejstarší civilizace. Kořeny evropské kultury",
+   "text": "porovná formy vlády a postavení společenských skupin v jednotlivých státech a vysvětlí podstatu antické demokracie",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d6-pravek"
+   ]
+  },
+  {
+   "id": "D-9-4-01",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Křesťanství a středověká Evropa",
+   "text": "popíše podstatnou změnu evropské situace, která nastala v důsledku příchodu nových etnik, christianizace a vzniku států",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d7-stredovek"
+   ]
+  },
+  {
+   "id": "D-9-4-02",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Křesťanství a středověká Evropa",
+   "text": "objasní situaci Velkomoravské říše a vnitřní vývoj českého státu a postavení těchto státních útvarů v evropských souvislostech",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d7-stredovek"
+   ]
+  },
+  {
+   "id": "D-9-4-03",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Křesťanství a středověká Evropa",
+   "text": "vymezí úlohu křesťanství a víry v životě středověkého člověka, konflikty mezi světskou a církevní mocí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d7-stredovek"
+   ]
+  },
+  {
+   "id": "D-9-4-04",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Křesťanství a středověká Evropa",
+   "text": "ilustruje postavení jednotlivých vrstev středověké společnosti, uvede příklady románské a gotické kultury",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d7-stredovek"
+   ]
+  },
+  {
+   "id": "D-9-5-01",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Objevy a dobývání. Počátky nové doby",
+   "text": "vysvětlí znovuobjevení antického ideálu člověka, nové myšlenky žádající reformu církve",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d7-rany-novovek"
+   ]
+  },
+  {
+   "id": "D-9-5-02",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Objevy a dobývání. Počátky nové doby",
+   "text": "vymezí význam husitské tradice pro český politický a kulturní život",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d7-rany-novovek"
+   ]
+  },
+  {
+   "id": "D-9-5-03",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Objevy a dobývání. Počátky nové doby",
+   "text": "popíše průběh zámořských objevů, jejich příčiny a důsledky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d7-rany-novovek"
+   ]
+  },
+  {
+   "id": "D-9-5-04",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Objevy a dobývání. Počátky nové doby",
+   "text": "objasní postavení českého státu v podmínkách Evropy a jeho postavení uvnitř habsburské monarchie",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d7-rany-novovek"
+   ]
+  },
+  {
+   "id": "D-9-5-05",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Objevy a dobývání. Počátky nové doby",
+   "text": "objasní příčiny a důsledky vzniku třicetileté války a posoudí její důsledky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d7-rany-novovek"
+   ]
+  },
+  {
+   "id": "D-9-5-06",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Objevy a dobývání. Počátky nové doby",
+   "text": "rozpozná základní znaky jednotlivých kulturních stylů a uvede příklady významných kulturních památek",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d7-rany-novovek"
+   ]
+  },
+  {
+   "id": "D-9-6-01",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Modernizace společnosti",
+   "text": "vysvětlí podstatné ekonomické, sociální, politické a kulturní změny ve vybraných zemích a u nás, které charakterizují modernizaci společnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d8-novovek"
+   ]
+  },
+  {
+   "id": "D-9-6-02",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Modernizace společnosti",
+   "text": "objasní souvislost mezi událostmi Francouzské revoluce a napoleonských válek a rozbití starých společenských struktur v Evropě",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d8-novovek"
+   ]
+  },
+  {
+   "id": "D-9-6-03",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Modernizace společnosti",
+   "text": "porovná jednotlivé fáze utváření novodobého českého národa v souvislosti s národními hnutími vybraných evropských národů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d8-novovek"
+   ]
+  },
+  {
+   "id": "D-9-6-04",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Modernizace společnosti",
+   "text": "vysvětlí rozdílné tempo modernizace a prohloubení nerovnoměrnosti vývoje jednotlivých částí Evropy a světa včetně důsledků, ke kterým tato nerovnoměrnost vedla; charakterizuje soupeření mezi velmocemi a vymezí význam kolonií",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d8-novovek"
+   ]
+  },
+  {
+   "id": "D-9-7-01",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Moderní doba",
+   "text": "na příkladech demonstruje zneužití techniky ve světových válkách a jeho důsledky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d9-20stoleti"
+   ]
+  },
+  {
+   "id": "D-9-7-02",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Moderní doba",
+   "text": "rozpozná klady a nedostatky demokratických systémů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d9-20stoleti"
+   ]
+  },
+  {
+   "id": "D-9-7-03",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Moderní doba",
+   "text": "charakterizuje jednotlivé totalitní systémy, příčiny jejich nastolení v širších ekonomických a politických souvislostech a důsledky jejich existence pro svět; rozpozná destruktivní sílu totalitarismu a vypjatého nacionalismu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d9-20stoleti"
+   ]
+  },
+  {
+   "id": "D-9-7-04",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Moderní doba",
+   "text": "na příkladech vyloží antisemitismus, rasismus a jejich nepřijatelnost z hlediska lidských práv",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d9-20stoleti"
+   ]
+  },
+  {
+   "id": "D-9-7-05",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Moderní doba",
+   "text": "zhodnotí postavení Československa v evropských souvislostech a jeho vnitřní sociální, politické, hospodářské a kulturní prostředí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d9-20stoleti"
+   ]
+  },
+  {
+   "id": "D-9-8-01",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Rozdělený a integrující se svět",
+   "text": "vysvětlí příčiny a důsledky vzniku bipolárního světa; uvede příklady střetávání obou bloků",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d9-20stoleti"
+   ]
+  },
+  {
+   "id": "D-9-8-02",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Rozdělený a integrující se svět",
+   "text": "vysvětlí a na příkladech doloží mocenské a politické důvody euroatlantické hospodářské a vojenské spolupráce",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d9-20stoleti"
+   ]
+  },
+  {
+   "id": "D-9-8-03",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Rozdělený a integrující se svět",
+   "text": "posoudí postavení rozvojových zemí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d9-20stoleti"
+   ]
+  },
+  {
+   "id": "D-9-8-04",
+   "fieldId": "dejepis",
+   "periodId": "2-stupen",
+   "topic": "Rozdělený a integrující se svět",
+   "text": "prokáže základní orientaci v problémech současného světa",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.1"
+   },
+   "skillIds": [
+    "d9-20stoleti"
+   ]
+  },
+  {
+   "id": "VO-9-1-01",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk ve společnosti",
+   "text": "objasní účel důležitých symbolů našeho státu a způsoby jejich používání",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov6-obec"
+   ]
+  },
+  {
+   "id": "VO-9-1-02",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk ve společnosti",
+   "text": "rozlišuje projevy vlastenectví od projevů nacionalismu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov6-obec"
+   ]
+  },
+  {
+   "id": "VO-9-1-03",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk ve společnosti",
+   "text": "kriticky přistupuje k mediálním informacím, vyjádří svůj postoj k působení propagandy a reklamy na veřejné mínění a chování lidí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov7-media-tolerance"
+   ]
+  },
+  {
+   "id": "VO-9-1-04",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk ve společnosti",
+   "text": "uplatňuje vhodné způsoby chování a komunikace v různých životních situacích",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov7-media-tolerance"
+   ]
+  },
+  {
+   "id": "VO-9-1-05",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk ve společnosti",
+   "text": "objasní potřebu tolerance ve společnosti, respektuje kulturní zvláštnosti i odlišné názory, zájmy, způsoby chování a myšlení lidí, zaujímá tolerantní postoje k menšinám",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov7-media-tolerance"
+   ]
+  },
+  {
+   "id": "VO-9-1-06",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk ve společnosti",
+   "text": "rozpoznává netolerantní, rasistické, xenofobní a extremistické projevy v chování lidí a zaujímá aktivní postoj proti všem projevům lidské nesnášenlivosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov7-media-tolerance"
+   ]
+  },
+  {
+   "id": "VO-9-2-01",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk jako jedinec",
+   "text": "objasní, jak může realističtější poznání a hodnocení vlastní osobnosti a potenciálu pozitivně ovlivnit jeho rozhodování, vztahy s druhými lidmi i kvalitu života",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov6-clovek-osobnost"
+   ]
+  },
+  {
+   "id": "VO-9-2-02",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk jako jedinec",
+   "text": "posoudí vliv osobních vlastností na dosahování individuálních i společných cílů, objasní význam vůle při dosahování cílů a překonávání překážek",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov6-clovek-osobnost"
+   ]
+  },
+  {
+   "id": "VO-9-2-03",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk jako jedinec",
+   "text": "kriticky hodnotí a vhodně koriguje své chování a jednání",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov6-clovek-osobnost"
+   ]
+  },
+  {
+   "id": "VO-9-2-04",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk jako jedinec",
+   "text": "popíše, jak lze usměrňovat a kultivovat charakterové a volní vlastnosti, rozvíjet osobní přednosti, překonávat osobní nedostatky a pěstovat zdravou sebedůvěru",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov6-clovek-osobnost"
+   ]
+  },
+  {
+   "id": "VO-9-3-01",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a hospodářství",
+   "text": "rozlišuje a porovnává různé formy vlastnictví, včetně duševního vlastnictví, a způsoby jejich ochrany, uvede příklady",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-finance-trh"
+   ]
+  },
+  {
+   "id": "VO-9-3-02",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a hospodářství",
+   "text": "sestaví jednoduchý rozpočet domácnosti, uvede hlavní příjmy a výdaje, rozliší pravidelné a jednorázové příjmy a výdaje, zváží nezbytnost jednotlivých výdajů v hospodaření domácnosti, objasní princip vyrovnaného, schodkového a přebytkového rozpočtu domácnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-finance-trh"
+   ]
+  },
+  {
+   "id": "VO-9-3-03",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a hospodářství",
+   "text": "na příkladech ukáže vhodné využití různých nástrojů hotovostního a bezhotovostního placení, uvede příklady použití debetní a kreditní platební karty, vysvětlí jejich omezení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-finance-trh"
+   ]
+  },
+  {
+   "id": "VO-9-3-04",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a hospodářství",
+   "text": "vysvětlí, jakou funkci plní banky a jaké služby nabízejí, vysvětlí význam úroku placeného a přijatého, uvede nejčastější druhy pojištění a navrhne, kdy je využít",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-finance-trh"
+   ]
+  },
+  {
+   "id": "VO-9-3-05",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a hospodářství",
+   "text": "uvede a porovná nejobvyklejší způsoby nakládání s volnými prostředky a způsoby krytí deficitu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-finance-trh"
+   ]
+  },
+  {
+   "id": "VO-9-3-06",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a hospodářství",
+   "text": "na příkladu chování kupujících a prodávajících vyloží podstatu fungování trhu, objasní vliv nabídky a poptávky na tvorbu ceny a její změny, na příkladu ukáže tvorbu ceny jako součet nákladů, zisku a DPH, popíše vliv inflace na hodnotu peněz",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-finance-trh"
+   ]
+  },
+  {
+   "id": "VO-9-3-07",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a hospodářství",
+   "text": "rozlišuje, ze kterých zdrojů pocházejí příjmy státu a do kterých oblastí stát směruje své výdaje, uvede příklady dávek a příspěvků ze státního rozpočtu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-finance-trh"
+   ]
+  },
+  {
+   "id": "VO-9-4-01",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "rozlišuje nejčastější typy a formy států a na příkladech porovná jejich znaky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-stat"
+   ]
+  },
+  {
+   "id": "VO-9-4-02",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "rozlišuje a porovnává úkoly jednotlivých složek státní moci ČR i jejich orgánů a institucí, uvede příklady institucí a orgánů, které se podílejí na správě obcí, krajů a státu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-stat"
+   ]
+  },
+  {
+   "id": "VO-9-4-03",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "objasní výhody demokratického způsobu řízení státu pro každodenní život občanů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-stat"
+   ]
+  },
+  {
+   "id": "VO-9-4-04",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "vyloží smysl voleb do zastupitelstev v demokratických státech a uvede příklady, jak mohou výsledky voleb ovlivňovat každodenní život občanů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-stat"
+   ]
+  },
+  {
+   "id": "VO-9-4-05",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "přiměřeně uplatňuje svá práva včetně práv spotřebitele a respektuje práva a oprávněné zájmy druhých lidí, posoudí význam ochrany lidských práv a svobod",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-stat",
+    "ov8-pravo-spotrebitel"
+   ]
+  },
+  {
+   "id": "VO-9-4-06",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "objasní význam právní úpravy důležitých vztahů – vlastnictví, pracovní poměr, manželství",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-pravo-spotrebitel"
+   ]
+  },
+  {
+   "id": "VO-9-4-07",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "uvede příklady některých smluv upravujících občanskoprávní vztahy – osobní přeprava, koupě, oprava či pronájem věci",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-pravo-spotrebitel"
+   ]
+  },
+  {
+   "id": "VO-9-4-08",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "dodržuje právní ustanovení, která se na něj vztahují, a uvědomuje si rizika jejich porušování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-pravo-spotrebitel"
+   ]
+  },
+  {
+   "id": "VO-9-4-09",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "rozlišuje a porovnává úkoly orgánů právní ochrany občanů, uvede příklady jejich činnosti a spolupráce při postihování trestných činů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-pravo-spotrebitel"
+   ]
+  },
+  {
+   "id": "VO-9-4-10",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "rozpozná protiprávní jednání, rozliší přestupek a trestný čin, uvede jejich příklady",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-pravo-spotrebitel"
+   ]
+  },
+  {
+   "id": "VO-9-4-11",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Člověk, stát a právo",
+   "text": "diskutuje o příčinách a důsledcích korupčního jednání",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov8-pravo-spotrebitel"
+   ]
+  },
+  {
+   "id": "VO-9-5-01",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Mezinárodní vztahy, globální svět",
+   "text": "popíše vliv začlenění ČR do EU na každodenní život občanů, uvede příklady práv občanů ČR v rámci EU i možných způsobů jejich uplatňování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov9-svet"
+   ]
+  },
+  {
+   "id": "VO-9-5-02",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Mezinárodní vztahy, globální svět",
+   "text": "uvede některé globální problémy současnosti, vyjádří na ně svůj osobní názor a popíše jejich hlavní příčiny i možné důsledky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov9-svet"
+   ]
+  },
+  {
+   "id": "VO-9-5-03",
+   "fieldId": "vychova-k-obcanstvi",
+   "periodId": "2-stupen",
+   "topic": "Mezinárodní vztahy, globální svět",
+   "text": "objasní souvislosti globálních a lokálních problémů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.5.2"
+   },
+   "skillIds": [
+    "ov9-svet"
+   ]
   }
  ]
 }

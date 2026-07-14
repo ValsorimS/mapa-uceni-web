@@ -1660,6 +1660,17 @@
   "doma": [
    "Zajděte do muzea s pravěkou nebo antickou expozicí.",
    "Půlhodinový dokument o Egyptě vydá za kapitolu učebnice."
+  ],
+  "rvpRefs": [
+   "D-9-1-01",
+   "D-9-1-02",
+   "D-9-1-03",
+   "D-9-2-01",
+   "D-9-2-02",
+   "D-9-3-01",
+   "D-9-3-02",
+   "D-9-3-03",
+   "D-9-3-04"
   ]
  },
  {
@@ -1813,11 +1824,40 @@
    "Uvede příklad pravidla, které by ve škole změnil — a jak by to prosadil demokraticky."
   ],
   "dal": "Stát, právo a hospodaření v 8.–9. ročníku.",
-  "dalId": "ov8-stat",
+  "dalId": "ov6-clovek-osobnost",
   "rvp": "RVP ZV · Člověk a společnost — Výchova k občanství · 2. stupeň.",
   "doma": [
    "Vezměte dítě k volbám nebo na jednání zastupitelstva.",
    "U každého svátku si řekněte, co se vlastně slaví."
+  ],
+  "rvpRefs": [
+   "VO-9-1-01",
+   "VO-9-1-02"
+  ]
+ },
+ {
+  "id": "ov6-clovek-osobnost",
+  "r": 6,
+  "p": "ov",
+  "t": "Občanka: osobnost, cíle a sebereflexe",
+  "co": "Žák se učí přemýšlet o sobě realisticky: osobní vlastnosti, vůle, cíle, vztahy s druhými, vlastní chování a schopnost pracovat se silnými i slabými stránkami. Téma propojuje školu, budoucí povolání a každodenní rozhodování.",
+  "jak": [
+   "Popíše, jak osobní vlastnosti ovlivňují vztahy a rozhodování.",
+   "Rozliší silné stránky, slabší místa a způsob, jak na sobě pracovat.",
+   "Formuluje blízký cíl a kroky, které k němu vedou."
+  ],
+  "dal": "Na sebepoznání navazuje tolerance, média a bezpečné vztahy ve společnosti.",
+  "dalId": "ov7-media-tolerance",
+  "rvp": "RVP ZV · Výchova k občanství · Člověk jako jedinec.",
+  "doma": [
+   "Mluvte o cílech konkrétně: co chci, proč, do kdy a co udělám jako první krok.",
+   "U neúspěchu oddělte chování od hodnoty člověka: co můžu příště změnit?"
+  ],
+  "rvpRefs": [
+   "VO-9-2-01",
+   "VO-9-2-02",
+   "VO-9-2-03",
+   "VO-9-2-04"
   ]
  },
  {
@@ -2208,11 +2248,44 @@
    "Zařadí gotické památky (Karlštejn, katedrála sv. Víta) do doby vzniku."
   ],
   "dal": "Novověk: objevy, reformace a Habsburkové v 8. ročníku.",
-  "dalId": "d8-novovek",
+  "dalId": "d7-rany-novovek",
   "rvp": "RVP ZV · Člověk a společnost — Dějepis · 2. stupeň (křesťanství a středověká Evropa).",
   "doma": [
    "Karlštejn, Vyšehrad nebo katedrála: dějepis naživo.",
    "Pusťte si dokument o Husovi a povídejte si, o co mu šlo."
+  ],
+  "rvpRefs": [
+   "D-9-4-01",
+   "D-9-4-02",
+   "D-9-4-03",
+   "D-9-4-04"
+  ]
+ },
+ {
+  "id": "d7-rany-novovek",
+  "r": 7,
+  "p": "d",
+  "t": "Raný novověk: renesance, reformace a objevy",
+  "co": "Po středověku přichází období objevů, proměny myšlení a mocenských konfliktů. Žák propojí renesanci, reformaci, zámořské objevy, české země v habsburské monarchii, třicetiletou válku a kulturní styly raného novověku.",
+  "jak": [
+   "Vysvětlí, co znamenala renesance a reformace pro Evropu.",
+   "Popíše příčiny a důsledky zámořských objevů.",
+   "Zařadí české země v habsburské monarchii a vysvětlí dopady třicetileté války."
+  ],
+  "dal": "Na raný novověk navazuje modernizace společnosti, revoluce a 19. století.",
+  "dalId": "d8-novovek",
+  "rvp": "RVP ZV · Dějepis · Objevy a dobývání. Počátky nové doby.",
+  "doma": [
+   "U mapy sledujte trasy objevných cest a co přinesly Evropě i mimoevropským civilizacím.",
+   "U památek rozlišujte renesanci, baroko a gotiku podle několika viditelných znaků."
+  ],
+  "rvpRefs": [
+   "D-9-5-01",
+   "D-9-5-02",
+   "D-9-5-03",
+   "D-9-5-04",
+   "D-9-5-05",
+   "D-9-5-06"
   ]
  },
  {
@@ -2481,25 +2554,119 @@
   "doma": [
    "Po kom se jmenují ulice ve vašem městě? Obrození v terénu.",
    "Návštěva zámku: baroko a Marie Terezie naživo."
+  ],
+  "rvpRefs": [
+   "D-9-6-01",
+   "D-9-6-02",
+   "D-9-6-03",
+   "D-9-6-04"
+  ]
+ },
+ {
+  "id": "ov7-media-tolerance",
+  "r": 7,
+  "p": "ov",
+  "t": "Občanka: média, tolerance a soužití",
+  "co": "Občanská výchova vede žáka k rozlišování vlastenectví a nacionalismu, k respektu k odlišnostem a ke kritickému čtení médií, reklamy a propagandy. Součástí je odmítání rasismu, xenofobie a extremistických projevů.",
+  "jak": [
+   "Kriticky zhodnotí mediální sdělení, reklamu nebo propagandu.",
+   "Vysvětlí potřebu tolerance a respektu k odlišným názorům a kulturám.",
+   "Rozpozná netolerantní nebo extremistický projev a umí se vůči němu vymezit."
+  ],
+  "dal": "Na společenské soužití navazuje fungování státu, demokracie a práva.",
+  "dalId": "ov8-stat",
+  "rvp": "RVP ZV · Výchova k občanství · Člověk ve společnosti.",
+  "doma": [
+   "U zpráv se ptejte: kdo to říká, proč, z jakého zdroje a co v textu chybí?",
+   "Rozlišujte nesouhlas s názorem od útoku na člověka nebo skupinu."
+  ],
+  "rvpRefs": [
+   "VO-9-1-03",
+   "VO-9-1-04",
+   "VO-9-1-05",
+   "VO-9-1-06"
   ]
  },
  {
   "id": "ov8-stat",
   "r": 8,
   "p": "ov",
-  "t": "Stát, právo a peníze",
-  "co": "Občanka v 8.–9. ročníku pokrývá fungování státu (dělba moci, volby, ústava), právní minimum (trestní odpovědnost od 15 let, smlouvy) a finanční gramotnost: rozpočet domácnosti, banky, úvěry a jejich rizika, pojištění. Věci, které dítě reálně potká hned po základce.",
+  "t": "Občanka: stát, demokracie a lidská práva",
+  "co": "Téma se soustředí na to, jak funguje stát a demokracie: typy a formy států, dělba moci, orgány obce, kraje a státu, smysl voleb, práva občanů a ochrana lidských práv a svobod.",
   "jak": [
-   "Vysvětlí rozdíl mezi mocí zákonodárnou, výkonnou a soudní.",
-   "Sestaví jednoduchý rozpočet a rozliší potřeby od přání.",
-   "Ví, co znamená podepsat smlouvu a proč si půjčky dobře rozmyslet."
+   "Rozliší základní typy a formy států a vysvětlí princip demokracie.",
+   "Popíše úkoly hlavních složek státní moci a institucí obce, kraje a státu.",
+   "Vysvětlí smysl voleb, občanských práv a ochrany lidských práv."
   ],
-  "dal": "Volby, EU a globální témata v 9. ročníku.",
-  "dalId": "ov9-svet",
-  "rvp": "RVP ZV · Člověk a společnost — Výchova k občanství · 2. stupeň (člověk, stát a právo; člověk, stát a hospodářství).",
+  "dal": "Na fungování státu navazuje praktická finanční gramotnost a běžné právní situace.",
+  "dalId": "ov8-finance-trh",
+  "rvp": "RVP ZV · Výchova k občanství · Člověk, stát a právo.",
   "doma": [
-   "Dejte dítěti měsíční rozpočet na oblečení — ať plánuje samo.",
-   "Ukažte reálné dokumenty: výplatnici, složenku, smlouvu."
+   "U voleb a veřejných rozhodnutí se ptejte: kdo rozhoduje, podle jakých pravidel a koho se to týká?",
+   "Na příkladech ze zpráv rozlišujte stát, vládu, parlament, soudy, obec a úřady."
+  ],
+  "rvpRefs": [
+   "VO-9-4-01",
+   "VO-9-4-02",
+   "VO-9-4-03",
+   "VO-9-4-04",
+   "VO-9-4-05"
+  ]
+ },
+ {
+  "id": "ov8-finance-trh",
+  "r": 8,
+  "p": "ov",
+  "t": "Občanka: rozpočet, banky a trh",
+  "co": "Žák se učí praktickou finanční gramotnost: domácí rozpočet, vlastnictví, hotovostní a bezhotovostní placení, bankovní služby, úrok, pojištění, nabídka, poptávka, cena, inflace a příjmy a výdaje státu.",
+  "jak": [
+   "Sestaví jednoduchý rozpočet domácnosti a rozliší pravidelné a jednorázové příjmy a výdaje.",
+   "Vysvětlí rozdíl mezi hotovostním a bezhotovostním placením, debetní a kreditní kartou.",
+   "Na příkladu vysvětlí nabídku, poptávku, tvorbu ceny, inflaci a roli státu v hospodaření."
+  ],
+  "dal": "Finanční témata se propojují s právem, spotřebitelem a odpovědností občana.",
+  "dalId": "ov8-pravo-spotrebitel",
+  "rvp": "RVP ZV · Výchova k občanství · Člověk, stát a hospodářství.",
+  "doma": [
+   "Dejte dítěti modelový měsíční rozpočet a nechte ho rozhodovat, co je nutné a co jen přání.",
+   "U bankovních produktů vždy řešte riziko, poplatek, úrok a závazek."
+  ],
+  "rvpRefs": [
+   "VO-9-3-01",
+   "VO-9-3-02",
+   "VO-9-3-03",
+   "VO-9-3-04",
+   "VO-9-3-05",
+   "VO-9-3-06",
+   "VO-9-3-07"
+  ]
+ },
+ {
+  "id": "ov8-pravo-spotrebitel",
+  "r": 8,
+  "p": "ov",
+  "t": "Občanka: právo, smlouvy a spotřebitel",
+  "co": "Žák se orientuje v běžných právních situacích: práva a povinnosti, spotřebitel, reklamace, smlouvy, vlastnictví, pracovní poměr, manželství, přestupky a trestné činy, právní ochrana a rizika porušování zákona.",
+  "jak": [
+   "Vysvětlí na příkladu, jak uplatnit právo spotřebitele nebo reklamaci.",
+   "Uvede příklady běžných smluv a právních vztahů.",
+   "Rozliší protiprávní jednání, přestupek a trestný čin a ví, kam se obrátit o pomoc."
+  ],
+  "dal": "Právo a občanství se propojí s EU, volbami a globálními problémy.",
+  "dalId": "ov9-svet",
+  "rvp": "RVP ZV · Výchova k občanství · Člověk, stát a právo.",
+  "doma": [
+   "Projděte účtenku a reklamační postup na reálném výrobku.",
+   "U běžných situací pojmenovávejte, jestli jde o pravidlo, smlouvu, právo nebo povinnost."
+  ],
+  "rvpRefs": [
+   "VO-9-4-05",
+   "VO-9-4-06",
+   "VO-9-4-07",
+   "VO-9-4-08",
+   "VO-9-4-09",
+   "VO-9-4-10",
+   "VO-9-4-11"
   ]
  },
  {
@@ -2669,6 +2836,17 @@
   "doma": [
    "Ptejte se prarodičů na normalizaci a rok 1989 — živá paměť.",
    "Projděte spolu příběhy na webu Paměť národa: silnější než letopočty."
+  ],
+  "rvpRefs": [
+   "D-9-7-01",
+   "D-9-7-02",
+   "D-9-7-03",
+   "D-9-7-04",
+   "D-9-7-05",
+   "D-9-8-01",
+   "D-9-8-02",
+   "D-9-8-03",
+   "D-9-8-04"
   ]
  },
  {
@@ -2687,6 +2865,11 @@
   "doma": [
    "Vezměte dítě s sebou k volbám.",
    "Rozeberte jednu virální zprávu: kdo je zdroj a co chce?"
+  ],
+  "rvpRefs": [
+   "VO-9-5-01",
+   "VO-9-5-02",
+   "VO-9-5-03"
   ]
  },
  {
