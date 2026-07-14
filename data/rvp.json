@@ -1351,7 +1351,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj1-komunikace"
+   ]
   },
   {
    "id": "ČJL-3-1-04",
@@ -1364,7 +1366,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj1-komunikace"
+   ]
   },
   {
    "id": "ČJL-3-1-05",
@@ -1377,7 +1381,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj1-komunikace"
+   ]
   },
   {
    "id": "ČJL-3-1-06",
@@ -1390,7 +1396,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj1-komunikace"
+   ]
   },
   {
    "id": "ČJL-3-1-07",
@@ -1403,7 +1411,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj1-komunikace"
+   ]
   },
   {
    "id": "ČJL-3-1-08",
@@ -1462,7 +1472,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj2-vypraveni"
+   ]
   },
   {
    "id": "ČJL-5-1-01",
@@ -1475,7 +1487,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj4-cteni-informace"
+   ]
   },
   {
    "id": "ČJL-5-1-02",
@@ -1488,7 +1502,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj4-cteni-informace"
+   ]
   },
   {
    "id": "ČJL-5-1-03",
@@ -1501,7 +1517,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj4-cteni-informace"
+   ]
   },
   {
    "id": "ČJL-5-1-04",
@@ -1514,7 +1532,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj4-cteni-informace"
+   ]
   },
   {
    "id": "ČJL-5-1-05",
@@ -1527,7 +1547,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj4-dialog-media"
+   ]
   },
   {
    "id": "ČJL-5-1-06",
@@ -1540,7 +1562,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj4-dialog-media"
+   ]
   },
   {
    "id": "ČJL-5-1-07",
@@ -1553,7 +1577,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj4-dialog-media"
+   ]
   },
   {
    "id": "ČJL-5-1-08",
@@ -1566,7 +1592,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj4-dialog-media"
+   ]
   },
   {
    "id": "ČJL-5-1-09",
@@ -1579,7 +1607,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj5-sloh-vypraveni"
+   ]
   },
   {
    "id": "ČJL-5-1-10",
@@ -1592,7 +1622,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj5-sloh-vypraveni"
+   ]
   },
   {
    "id": "ČJL-3-2-01",
@@ -1620,7 +1652,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj3-vyznam-slov"
+   ]
   },
   {
    "id": "ČJL-3-2-03",
@@ -1633,7 +1667,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj3-vyznam-slov"
+   ]
   },
   {
    "id": "ČJL-3-2-04",
@@ -1724,7 +1760,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj4-vyznam-spisovnost"
+   ]
   },
   {
    "id": "ČJL-5-2-02",
@@ -1770,7 +1808,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj4-vyznam-spisovnost"
+   ]
   },
   {
    "id": "ČJL-5-2-05",
@@ -1890,7 +1930,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj3-literatura"
+   ]
   },
   {
    "id": "ČJL-3-3-04",
@@ -1903,7 +1945,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj3-literatura"
+   ]
   },
   {
    "id": "ČJL-5-3-01",
@@ -1916,7 +1960,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj5-literatura"
+   ]
   },
   {
    "id": "ČJL-5-3-02",
@@ -1929,7 +1975,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj5-literatura"
+   ]
   },
   {
    "id": "ČJL-5-3-03",
@@ -1942,7 +1990,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj5-literatura"
+   ]
   },
   {
    "id": "ČJL-5-3-04",
@@ -1955,7 +2005,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj5-literatura"
+   ]
   },
   {
    "id": "ČJL-9-1-01",
@@ -1968,7 +2020,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj6-media-fakta"
+   ]
   },
   {
    "id": "ČJL-9-1-02",
@@ -1981,7 +2035,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj6-media-fakta"
+   ]
   },
   {
    "id": "ČJL-9-1-03",
@@ -1994,7 +2050,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj6-media-fakta"
+   ]
   },
   {
    "id": "ČJL-9-1-04",
@@ -2007,7 +2065,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj7-mluveny-projev"
+   ]
   },
   {
    "id": "ČJL-9-1-05",
@@ -2020,7 +2080,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj7-mluveny-projev"
+   ]
   },
   {
    "id": "ČJL-9-1-06",
@@ -2033,7 +2095,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj7-mluveny-projev"
+   ]
   },
   {
    "id": "ČJL-9-1-07",
@@ -2046,7 +2110,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj7-mluveny-projev"
+   ]
   },
   {
    "id": "ČJL-9-1-08",
@@ -2074,7 +2140,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj8-sloh-text"
+   ]
   },
   {
    "id": "ČJL-9-1-10",
@@ -2087,7 +2155,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj8-sloh-text"
+   ]
   },
   {
    "id": "ČJL-9-2-01",
@@ -2100,7 +2170,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj6-zvuk-jazyk"
+   ]
   },
   {
    "id": "ČJL-9-2-02",
@@ -2113,7 +2185,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj7-slovni-zasoba"
+   ]
   },
   {
    "id": "ČJL-9-2-03",
@@ -2156,7 +2230,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj7-slovni-zasoba"
+   ]
   },
   {
    "id": "ČJL-9-2-06",
@@ -2203,7 +2279,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj7-slovni-zasoba"
+   ]
   },
   {
    "id": "ČJL-9-3-01",
@@ -2216,7 +2294,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj8-literatura-interpretace"
+   ]
   },
   {
    "id": "ČJL-9-3-02",
@@ -2229,7 +2309,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj8-literatura-interpretace"
+   ]
   },
   {
    "id": "ČJL-9-3-03",
@@ -2242,7 +2324,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj8-literatura-interpretace"
+   ]
   },
   {
    "id": "ČJL-9-3-04",
@@ -2255,7 +2339,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj8-literatura-interpretace"
+   ]
   },
   {
    "id": "ČJL-9-3-05",
@@ -2268,7 +2354,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj9-literarni-dejiny"
+   ]
   },
   {
    "id": "ČJL-9-3-06",
@@ -2281,7 +2369,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj9-literarni-dejiny"
+   ]
   },
   {
    "id": "ČJL-9-3-07",
@@ -2294,7 +2384,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj9-literarni-dejiny"
+   ]
   },
   {
    "id": "ČJL-9-3-08",
@@ -2307,7 +2399,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj9-literarni-dejiny"
+   ]
   },
   {
    "id": "ČJL-9-3-09",
@@ -2320,7 +2414,9 @@
     "document": "RVP ZV 2023",
     "section": "5.1.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "cj9-literarni-dejiny"
+   ]
   },
   {
    "id": "I-5-1-01",

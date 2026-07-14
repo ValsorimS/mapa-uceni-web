@@ -48,6 +48,32 @@
   ]
  },
  {
+  "id": "cj1-komunikace",
+  "r": 1,
+  "p": "cj",
+  "t": "Mluvení, výslovnost a pravidla rozhovoru",
+  "co": "Čeština v 1.–3. ročníku rozvíjí i mluvený projev: naslouchání, střídání v rozhovoru, srozumitelná výslovnost, tempo řeči, dýchání a krátké vyprávění vlastního zážitku.",
+  "jak": [
+   "Neskáče druhému do řeči a odpovídá k věci.",
+   "Mluví dostatečně nahlas, srozumitelně a přiměřeným tempem.",
+   "Krátce převypráví vlastní zážitek nebo situaci ze školy."
+  ],
+  "dal": "Na mluvení navazuje vyprávění podle obrázků a první slohové pokusy.",
+  "dalId": "cj2-vypraveni",
+  "rvp": "RVP ZV · Český jazyk · 1. období · Komunikační a slohová výchova.",
+  "doma": [
+   "U večeře si dejte pravidlo: každý řekne jednu věc z dne a ostatní se zeptají.",
+   "Nechte dítě dovyprávět myšlenku, neopravujte každou chybu uprostřed věty."
+  ],
+  "rvpRefs": [
+   "ČJL-3-1-03",
+   "ČJL-3-1-04",
+   "ČJL-3-1-05",
+   "ČJL-3-1-06",
+   "ČJL-3-1-07"
+  ]
+ },
+ {
   "id": "cj1-psani",
   "r": 1,
   "p": "cj",
@@ -69,7 +95,8 @@
    "ČJL-3-1-08",
    "ČJL-3-1-09",
    "ČJL-3-1-10"
-  ]
+  ],
+  "dalId": "cj5-sloh-vypraveni"
  },
  {
   "id": "m1-do20",
@@ -287,6 +314,29 @@
    "ČJL-3-1-02",
    "ČJL-3-3-01",
    "ČJL-3-3-02"
+  ],
+  "dalId": "cj2-vypraveni"
+ },
+ {
+  "id": "cj2-vypraveni",
+  "r": 2,
+  "p": "cj",
+  "t": "Vyprávění podle obrázků a dějová posloupnost",
+  "co": "Dítě se učí řadit události tak, aby příběh dával smysl: začátek, co se stalo potom, jak to dopadlo. Pomáhají obrázky, komiksové řady a krátké osnovy.",
+  "jak": [
+   "Seřadí obrázky podle děje.",
+   "Vypráví jednoduchý příběh v časové posloupnosti.",
+   "Používá základní spojky a časové výrazy: nejdřív, potom, nakonec."
+  ],
+  "dal": "Na vyprávění naváže sloh a osnova ve 4.–5. ročníku.",
+  "dalId": "cj5-sloh-vypraveni",
+  "rvp": "RVP ZV · Český jazyk · 1. období · Komunikační a slohová výchova.",
+  "doma": [
+   "Po pohádce nechte dítě říct tři věty: kdo tam byl, co se stalo, jak to skončilo.",
+   "U fotek z výletu skládejte příběh podle pořadí."
+  ],
+  "rvpRefs": [
+   "ČJL-3-1-11"
   ]
  },
  {
@@ -517,6 +567,30 @@
   "rvpRefs": [
    "ČJL-3-2-08",
    "ČJL-5-2-08"
+  ],
+  "dalId": "cj4-vzory"
+ },
+ {
+  "id": "cj3-vyznam-slov",
+  "r": 3,
+  "p": "cj",
+  "t": "Význam slov: protiklady, nadřazená a příbuzná slova",
+  "co": "Dítě rozšiřuje slovní zásobu a učí se se slovy přemýšlet: slova opačná, souřadná, nadřazená a podřazená, slova příbuzná a třídění slov podle významu.",
+  "jak": [
+   "Najde slovo opačného významu a slovo významem podobné nebo příbuzné.",
+   "Rozliší slovo nadřazené a podřazené, například ovoce – jablko.",
+   "Třídí slova podle toho, zda označují věc, děj, vlastnost nebo okolnost."
+  ],
+  "dal": "Na význam slov naváže stavba slova, slovotvorba a práce se slovní zásobou na 2. stupni.",
+  "dalId": "cj4-stavba",
+  "rvp": "RVP ZV · Český jazyk · 1. období · Jazyková výchova.",
+  "doma": [
+   "Hrajte hry typu řekni opak, najdi slovo do stejné rodiny, co patří do skupiny.",
+   "U vyjmenovaných slov se ptejte i na příbuzná slova a význam, ne jen na řadu zpaměti."
+  ],
+  "rvpRefs": [
+   "ČJL-3-2-02",
+   "ČJL-3-2-03"
   ]
  },
  {
@@ -586,6 +660,29 @@
   "rvpRefs": [
    "ČJL-3-2-05",
    "ČJL-5-2-03"
+  ]
+ },
+ {
+  "id": "cj3-literatura",
+  "r": 3,
+  "p": "cj",
+  "t": "Pohádka, báseň a tvořivá práce s textem",
+  "co": "Literární výchova na 1. stupni není literární historie. Dítě rozlišuje prózu a verše, pozná pohádku, pracuje tvořivě s textem, dramatizuje, domýšlí pokračování a učí se říct, co se mu v textu líbilo.",
+  "jak": [
+   "Rozliší pohádku od běžného vyprávění a prózu od básně.",
+   "Převypráví krátký text vlastními slovy.",
+   "Vytvoří jednoduché pokračování, ilustraci nebo dramatizaci podle zadání."
+  ],
+  "dal": "Na 2. období naváže čtenářský deník, dojmy z četby a první literární pojmy.",
+  "dalId": "cj5-literatura",
+  "rvp": "RVP ZV · Český jazyk · 1. období · Literární výchova.",
+  "doma": [
+   "Po čtení se ptejte: kdo byl hlavní hrdina, co chtěl a co se změnilo?",
+   "Střídejte prózu, básničky, komiksy a pohádky."
+  ],
+  "rvpRefs": [
+   "ČJL-3-3-03",
+   "ČJL-3-3-04"
   ]
  },
  {
@@ -819,6 +916,30 @@
   ],
   "rvpRefs": [
    "ČJL-5-2-02"
+  ],
+  "dalId": "cj7-slovni-zasoba"
+ },
+ {
+  "id": "cj4-vyznam-spisovnost",
+  "r": 4,
+  "p": "cj",
+  "t": "Význam slov, spisovnost a nespisovné tvary",
+  "co": "Dítě rozlišuje slova stejného, podobného a vícevýznamového významu a začíná vnímat rozdíl mezi spisovnou češtinou a nespisovnými tvary. Nejde o zákaz běžné řeči, ale o volbu podle situace.",
+  "jak": [
+   "Najde slova podobného významu a rozliší slovo vícevýznamové.",
+   "Pozná nespisovný tvar a nahradí ho spisovným.",
+   "Vysvětlí, kdy se hodí spisovný projev a kdy běžná mluva."
+  ],
+  "dal": "Na 2. stupni naváže slovní zásoba, frazémy, nářečí a obecná čeština.",
+  "dalId": "cj7-slovni-zasoba",
+  "rvp": "RVP ZV · Český jazyk · 2. období · Jazyková výchova.",
+  "doma": [
+   "Sbírejte dvojice: hezký – pěkný, koruna stromu – koruna měny.",
+   "U mluvy doma rozlišujte: takhle mluvíme běžně, takhle bychom to napsali do školy."
+  ],
+  "rvpRefs": [
+   "ČJL-5-2-01",
+   "ČJL-5-2-04"
   ]
  },
  {
@@ -841,6 +962,56 @@
   ],
   "rvpRefs": [
    "ČJL-5-2-05"
+  ]
+ },
+ {
+  "id": "cj4-cteni-informace",
+  "r": 4,
+  "p": "cj",
+  "t": "Čtení s porozuměním a práce s informacemi",
+  "co": "Ve 4.–5. ročníku už čtení neslouží jen k plynulosti. Dítě má najít podstatné informace, rozlišit důležité od okrajového, poznat neúplné sdělení a reprodukovat obsah přiměřeně složitého textu.",
+  "jak": [
+   "Čte přiměřený text potichu i nahlas a odpoví na otázky k obsahu.",
+   "Vybere podstatné informace a stručně je zapíše.",
+   "Pozná, že ve sdělení chybí důležitá informace."
+  ],
+  "dal": "Na 2. stupni se z toho stane práce s fakty, názory a zdroji.",
+  "dalId": "cj6-media-fakta",
+  "rvp": "RVP ZV · Český jazyk · 2. období · Komunikační a slohová výchova.",
+  "doma": [
+   "U článku nebo návodu chtěte tři nejdůležitější informace.",
+   "Ptejte se: co víme jistě a co v textu chybí?"
+  ],
+  "rvpRefs": [
+   "ČJL-5-1-01",
+   "ČJL-5-1-02",
+   "ČJL-5-1-03",
+   "ČJL-5-1-04"
+  ]
+ },
+ {
+  "id": "cj4-dialog-media",
+  "r": 4,
+  "p": "cj",
+  "t": "Dialog, telefonování a reklama",
+  "co": "Dítě se učí vést dialog, telefonický rozhovor, zanechat vzkaz, mluvit spisovně podle situace a poznat, že reklama nebo sdělení může být záměrně přesvědčivé či manipulativní.",
+  "jak": [
+   "Vede jednoduchý dialog nebo telefonický rozhovor a drží se tématu.",
+   "Zanechá srozumitelný vzkaz s podstatnými informacemi.",
+   "Rozpozná v reklamě snahu přesvědčit a řekne, čím působí."
+  ],
+  "dal": "Na 2. stupni navážou média, fakta, názory a manipulace.",
+  "dalId": "cj6-media-fakta",
+  "rvp": "RVP ZV · Český jazyk · 2. období · Komunikační a slohová výchova.",
+  "doma": [
+   "Nacvičte telefonát: pozdrav, kdo volá, proč volá, co potřebuje, rozloučení.",
+   "U reklam se ptejte: co slibuje, čím láká a co neříká?"
+  ],
+  "rvpRefs": [
+   "ČJL-5-1-05",
+   "ČJL-5-1-06",
+   "ČJL-5-1-07",
+   "ČJL-5-1-08"
   ]
  },
  {
@@ -1215,6 +1386,54 @@
   "rvpRefs": [
    "ČJL-5-2-06",
    "ČJL-5-2-07"
+  ]
+ },
+ {
+  "id": "cj5-sloh-vypraveni",
+  "r": 5,
+  "p": "cj",
+  "t": "Sloh: vyprávění, osnova a krátké žánry",
+  "co": "Sloh na konci 1. stupně znamená umět napsat jednoduché komunikační žánry, sestavit osnovu a podle ní vytvořit krátký mluvený nebo písemný projev s jasnou časovou posloupností.",
+  "jak": [
+   "Napíše jednoduchý vzkaz, dopis, pozvánku nebo popis podle zadání.",
+   "Sestaví osnovu vyprávění.",
+   "Vytvoří krátký text, který má začátek, průběh a konec."
+  ],
+  "dal": "Na 2. stupni se texty rozšíří o popis, výklad, úvahu a práci se stylem.",
+  "dalId": "cj8-sloh-text",
+  "rvp": "RVP ZV · Český jazyk · 2. období · Komunikační a slohová výchova.",
+  "doma": [
+   "Před psaním textu vždy napište tři body osnovy.",
+   "Pište reálné krátké texty: pozvánka, zpráva, e-mail babičce."
+  ],
+  "rvpRefs": [
+   "ČJL-5-1-09",
+   "ČJL-5-1-10"
+  ]
+ },
+ {
+  "id": "cj5-literatura",
+  "r": 5,
+  "p": "cj",
+  "t": "Čtenářský deník a první literární pojmy",
+  "co": "Na konci 1. stupně dítě mluví o dojmech z četby, volně reprodukuje text, tvoří vlastní krátký literární text a používá jednoduché literární pojmy: postava, vypravěč, pohádka, pověst, báseň, rým.",
+  "jak": [
+   "Řekne nebo zapíše dojem z přečtené knihy.",
+   "Volně reprodukuje text a vytvoří vlastní krátký text na dané téma.",
+   "Rozliší umělecký a neumělecký text a použije základní literární pojmy."
+  ],
+  "dal": "Na 2. stupni přibude interpretace, žánry, literární směry a argumentovaný názor.",
+  "dalId": "cj8-literatura-interpretace",
+  "rvp": "RVP ZV · Český jazyk · 2. období · Literární výchova.",
+  "doma": [
+   "Čtenářský deník držte stručný: název, postava, co mě zaujalo, jedna věta proč.",
+   "Po filmu podle knihy porovnejte, co bylo jiné a proč."
+  ],
+  "rvpRefs": [
+   "ČJL-5-3-01",
+   "ČJL-5-3-02",
+   "ČJL-5-3-03",
+   "ČJL-5-3-04"
   ]
  },
  {
@@ -1645,6 +1864,52 @@
   ]
  },
  {
+  "id": "cj6-zvuk-jazyk",
+  "r": 6,
+  "p": "cj",
+  "t": "Zvuková stránka češtiny a výslovnost",
+  "co": "Žák si všímá spisovné výslovnosti českých i běžně užívaných cizích slov, přízvuku, tempa a srozumitelnosti. Téma propojuje jazykovou výchovu s mluveným projevem.",
+  "jak": [
+   "Spisovně vyslovuje česká a běžně užívaná cizí slova.",
+   "Pozná nedbalou výslovnost a opraví ji v připraveném projevu.",
+   "Při čtení nebo prezentaci mluví srozumitelně a přiměřeným tempem."
+  ],
+  "dal": "Na výslovnost naváže kultivovaný mluvený projev a diskuse.",
+  "dalId": "cj7-mluveny-projev",
+  "rvp": "RVP ZV · Český jazyk · 2. stupeň · Jazyková výchova.",
+  "doma": [
+   "U prezentace trénujte nahlas, ne jen potichu v hlavě.",
+   "Nahrajte krátký projev a společně si všimněte rychlosti, výslovnosti a srozumitelnosti."
+  ],
+  "rvpRefs": [
+   "ČJL-9-2-01"
+  ]
+ },
+ {
+  "id": "cj6-media-fakta",
+  "r": 6,
+  "p": "cj",
+  "t": "Fakta, názory a mediální sdělení",
+  "co": "Na 2. stupni čeština učí číst text kriticky: odlišit fakta od názorů a hodnocení, poznat komunikační záměr, ověřovat informace a rozpoznat manipulativní komunikaci v médiích.",
+  "jak": [
+   "V textu odliší fakt, názor a hodnocení.",
+   "Ověří informaci otázkou nebo porovnáním s jiným zdrojem.",
+   "Rozpozná manipulativní prvek v mediálním sdělení a vysvětlí ho."
+  ],
+  "dal": "Na kritické čtení naváže diskuse a kultivovaný mluvený projev.",
+  "dalId": "cj7-mluveny-projev",
+  "rvp": "RVP ZV · Český jazyk · 2. stupeň · Komunikační a slohová výchova.",
+  "doma": [
+   "U zpráv se ptejte: co je fakt, co názor a odkud to víme?",
+   "Porovnejte dvě zprávy o stejné události z různých zdrojů."
+  ],
+  "rvpRefs": [
+   "ČJL-9-1-01",
+   "ČJL-9-1-02",
+   "ČJL-9-1-03"
+  ]
+ },
+ {
   "id": "m6-desetinna",
   "r": 6,
   "p": "m",
@@ -2067,6 +2332,55 @@
   "rvpRefs": [
    "ČJL-9-2-06",
    "ČJL-9-2-07"
+  ]
+ },
+ {
+  "id": "cj7-slovni-zasoba",
+  "r": 7,
+  "p": "cj",
+  "t": "Slovní zásoba, frazémy a vrstvy češtiny",
+  "co": "Na 2. stupni se práce se slovy rozšíří o slovotvorbu, obohacování slovní zásoby, přenesená pojmenování, frazémy, jazykovou normu, nářečí a obecnou češtinu. Žák se učí volit výraz podle situace.",
+  "jak": [
+   "Rozpozná způsoby obohacování slovní zásoby a tvoření slov.",
+   "Vysvětlí přenesené pojmenování nebo frazém v textu.",
+   "Rozliší spisovný jazyk, nářečí a obecnou češtinu a zdůvodní jejich užití."
+  ],
+  "dal": "Slovní zásoba a styl se využijí při slohu, argumentaci a interpretaci textu.",
+  "dalId": "cj8-sloh-text",
+  "rvp": "RVP ZV · Český jazyk · 2. stupeň · Jazyková výchova.",
+  "doma": [
+   "Sbírejte frazémy z běžné řeči a vysvětlujte, co opravdu znamenají.",
+   "U textu se ptejte, proč autor použil právě tohle slovo a jak by zněla jiná varianta."
+  ],
+  "rvpRefs": [
+   "ČJL-9-2-02",
+   "ČJL-9-2-05",
+   "ČJL-9-2-08"
+  ]
+ },
+ {
+  "id": "cj7-mluveny-projev",
+  "r": 7,
+  "p": "cj",
+  "t": "Mluvený projev, diskuse a spisovnost",
+  "co": "Žák se učí mluvit kultivovaně a výstižně podle situace: rozlišit spisovný a nespisovný projev, použít vhodné prostředky řeči, zvládnout připravený i improvizovaný projev a zapojit se do diskuse.",
+  "jak": [
+   "Volí jazykové prostředky podle situace a komunikačního záměru.",
+   "V mluveném projevu používá hlas, tempo, pauzy a gesta přiměřeně situaci.",
+   "Zapojuje se do diskuse a dodržuje pravidla dialogu."
+  ],
+  "dal": "Na mluvený projev naváže tvorba delších písemných textů a práce se stylem.",
+  "dalId": "cj8-sloh-text",
+  "rvp": "RVP ZV · Český jazyk · 2. stupeň · Komunikační a slohová výchova.",
+  "doma": [
+   "Nechte dítě krátce obhájit názor: tvrzení, důvod, příklad.",
+   "Po prezentaci řešte obsah i projev: bylo slyšet, bylo to jasné, drželo se tématu?"
+  ],
+  "rvpRefs": [
+   "ČJL-9-1-04",
+   "ČJL-9-1-05",
+   "ČJL-9-1-06",
+   "ČJL-9-1-07"
   ]
  },
  {
@@ -2497,6 +2811,54 @@
   ]
  },
  {
+  "id": "cj8-sloh-text",
+  "r": 8,
+  "p": "cj",
+  "t": "Sloh na 2. stupni: stavba textu a styl",
+  "co": "Žák se učí uspořádat informace podle účelu textu, navazovat věty a odstavce, psát věcně i gramaticky správně a využívat poznatky o jazyce a stylu při vlastním psaní.",
+  "jak": [
+   "Uspořádá informace podle účelu textu.",
+   "Vytvoří souvislý text s návazností vět a odstavců.",
+   "Po revizi opraví věcné, gramatické a stylové nedostatky."
+  ],
+  "dal": "Dobrá stavba textu pomáhá u přijímaček i ve všech naukových předmětech.",
+  "dalId": "cj9-pravopis",
+  "rvp": "RVP ZV · Český jazyk · 2. stupeň · Komunikační a slohová výchova.",
+  "doma": [
+   "Před psaním si nechte říct účel textu: informovat, přesvědčit, vyprávět, vysvětlit.",
+   "U delšího textu kontrolujte odstavce a návaznost, ne jen pravopis."
+  ],
+  "rvpRefs": [
+   "ČJL-9-1-09",
+   "ČJL-9-1-10"
+  ]
+ },
+ {
+  "id": "cj8-literatura-interpretace",
+  "r": 8,
+  "p": "cj",
+  "t": "Interpretace literatury a vlastní čtenářský názor",
+  "co": "Literatura na 2. stupni není jen obsah knihy. Žák reprodukuje text, popisuje strukturu a jazyk díla, interpretuje smysl, poznává styl autora, formuluje dojmy a tvoří vlastní literární text.",
+  "jak": [
+   "Vlastními slovy interpretuje smysl přečteného textu.",
+   "Popíše postavy, prostředí, kompozici a jazyk literárního díla.",
+   "Formuluje názor na knihu, film nebo divadelní představení a doloží ho konkrétním příkladem."
+  ],
+  "dal": "Na interpretaci navážou literární žánry, směry a historické souvislosti.",
+  "dalId": "cj9-literarni-dejiny",
+  "rvp": "RVP ZV · Český jazyk · 2. stupeň · Literární výchova.",
+  "doma": [
+   "Po čtení chtěte jednu scénu, která zůstala v hlavě, a proč.",
+   "U filmu podle knihy porovnejte, co změna média udělala s příběhem."
+  ],
+  "rvpRefs": [
+   "ČJL-9-3-01",
+   "ČJL-9-3-02",
+   "ČJL-9-3-03",
+   "ČJL-9-3-04"
+  ]
+ },
+ {
   "id": "m8-mocniny",
   "r": 8,
   "p": "m",
@@ -2867,6 +3229,32 @@
    "ČJL-9-2-03",
    "ČJL-9-2-04",
    "ČJL-9-2-07"
+  ]
+ },
+ {
+  "id": "cj9-literarni-dejiny",
+  "r": 9,
+  "p": "cj",
+  "t": "Literární žánry, směry a kulturní kontext",
+  "co": "Žák rozlišuje literaturu hodnotnou a konzumní, základní druhy a žánry, významné směry a představitele české i světové literatury. Učí se také vyhledávat informace v knihovně, katalogu a dalších zdrojích.",
+  "jak": [
+   "Rozliší základní literární druhy a žánry a uvede příklady.",
+   "Uvede významné autory nebo směry v české a světové literatuře.",
+   "Argumentuje, proč považuje dílo za hodnotné nebo konzumní, a vyhledá k němu informace."
+  ],
+  "dal": "Literární kontext se hodí u přijímaček, na střední škole a při hlubším čtení.",
+  "dalId": "mil9-prijimacky",
+  "rvp": "RVP ZV · Český jazyk · 2. stupeň · Literární výchova.",
+  "doma": [
+   "U knihy hledejte žánr a jednu věc, podle které ho poznáte.",
+   "Navštivte knihovnu a zkuste najít knihu podle katalogu, autora nebo tématu."
+  ],
+  "rvpRefs": [
+   "ČJL-9-3-05",
+   "ČJL-9-3-06",
+   "ČJL-9-3-07",
+   "ČJL-9-3-08",
+   "ČJL-9-3-09"
   ]
  },
  {
