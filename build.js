@@ -21,12 +21,19 @@ const CAL = J("calendar.json");
 const GLOSS = J("glossary.json");
 const SYN = J("synonyms.json");
 const POPULAR = J("popular.json");
+const RVP = J("rvp.json");
 
 /* ---------- pomocné ---------- */
 const norm = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const slugify = s => norm(s).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 const byId = id => SKILLS.find(s => s.id === id);
+const RVP_OUT = Object.fromEntries((RVP.outcomes || []).map(o => [o.id, o]));
+const RVP_PERIOD = Object.fromEntries((RVP.periods || []).map(p => [p.id, p]));
+const RVP_FIELD = {};
+RVP.areas.forEach(area => area.fields.forEach(field => {
+  RVP_FIELD[field.id] = { ...field, area };
+}));
 
 /* unikátní slugy z názvů */
 const used = new Set();
@@ -89,6 +96,7 @@ ${o.extraHead || ""}
       ${navLink("predmety/", "predmety", "Předměty")}
       ${navLink("kalendar/", "kalendar", "Kalendář")}
       ${navLink("zakony/", "zakony", "Zákony a pravidla")}
+      ${navLink("rvp/", "rvp", "RVP")}
       ${navLink("slovnicek/", "slovnicek", "Slovníček")}
       ${navLink("o-mape/", "o-mape", "O mapě")}
     </nav>
@@ -138,6 +146,12 @@ function rulerHTML(R) {
 }
 
 const DATALIST = `<datalist id="topics">${SKILLS.map(s => `<option value="${esc(s.t)}">`).join("")}</datalist>`;
+
+function rvpOutcomeLink(id, R) {
+  const o = RVP_OUT[id];
+  if (!o) return `<span class="rvp-ref missing">${esc(id)}</span>`;
+  return `<a class="rvp-ref" href="${R}rvp/#${esc(id)}"><b>${esc(id)}</b><span>${esc(o.text)}</span></a>`;
+}
 
 /* ---------- stránky ---------- */
 /* Domů */
@@ -218,6 +232,11 @@ SKILLS.forEach(s => {
   const su = SUBJ[s.p];
   const prereq = SKILLS.filter(x => x.dalId === s.id);
   const nx = s.dalId ? byId(s.dalId) : null;
+  const refs = (s.rvpRefs || []).filter(id => RVP_OUT[id]);
+  const rvpDetail = refs.length
+    ? `<div class="rvp-links">${refs.map(id => rvpOutcomeLink(id, R)).join("")}</div>
+       <p class="rvp-note">Mapování je orientační: RVP stanovuje výstupy pro období, konkrétní ročník určuje škola ve svém ŠVP.</p>`
+    : esc(s.rvp);
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › <a href="${R}rocnik/${s.r}/">${s.r}. ročník</a> › ${su.n}</div>
   <article class="notebook"><div class="inner">
@@ -235,7 +254,7 @@ SKILLS.forEach(s => {
     <ul class="doma">${s.doma.map(j => `<li>${j}</li>`).join("")}</ul>` : ""}
     <p class="blockt">Co přijde dál</p>
     <div class="next">${s.dal}${nx ? ` <a href="${R}${skillUrl(nx)}">${nx.t} →</a>` : ""}</div>
-    <div class="rvpbox">${prereq.length ? `<b>Na co navazuje:</b> ${prereq.map(x => `<a href="${R}${skillUrl(x)}">${x.t}</a>`).join(" · ")}<br><br>` : ""}<b>Kde to najdete v osnovách:</b> ${s.rvp}</div>
+    <div class="rvpbox">${prereq.length ? `<b>Na co navazuje:</b> ${prereq.map(x => `<a href="${R}${skillUrl(x)}">${x.t}</a>`).join(" · ")}<br><br>` : ""}<b>Kde to najdete v RVP:</b> ${rvpDetail}</div>
   </div></article>
   <div class="pager">
     <a href="${R}rocnik/${s.r}/">← Zpět na ${s.r}. ročník</a>
@@ -303,6 +322,76 @@ SKILLS.forEach(s => {
     path: "zakony/", nav: "zakony",
     title: "Školský zákon pro rodiče srozumitelně | Mapa učení",
     desc: "Povinná docházka, zápisy, spádové školy, domácí vzdělávání, podpůrná opatření, víceletá gymnázia a přijímačky — pravidla ZŠ s odkazy na paragrafy.",
+    body
+  }));
+})();
+
+/* Pokrytí RVP */
+(function rvpPage() {
+  const R = "../";
+  const outcomes = RVP.outcomes || [];
+  const mappedOutcomes = outcomes.filter(o => (o.skillIds || []).length);
+  const mappedSkillIds = new Set(SKILLS.filter(s => (s.rvpRefs || []).length).map(s => s.id));
+  const subjectCounts = Object.fromEntries(Object.keys(SUBJ).map(p => [p, SKILLS.filter(s => s.p === p).length]));
+  const unmappedBySubject = Object.keys(SUBJ)
+    .map(p => ({ key: p, name: SUBJ[p].n, count: SKILLS.filter(s => s.p === p && !(s.rvpRefs || []).length).length }))
+    .filter(x => x.count);
+  const topicWord = n => n === 1 ? "téma" : (n > 1 && n < 5) ? "témata" : "témat";
+  const topicVerb = n => (n > 1 && n < 5) ? "nemají" : "nemá";
+  const skillLinks = ids => ids.length
+    ? ids.map(id => {
+      const s = byId(id);
+      return s ? `<a href="${R}${skillUrl(s)}">${esc(s.t)}</a>` : "";
+    }).filter(Boolean).join(" · ")
+    : '<span class="muted">Zatím bez přiřazeného tématu</span>';
+  const fieldStatus = field => {
+    const fieldOut = outcomes.filter(o => o.fieldId === field.id);
+    const fieldMapped = fieldOut.filter(o => (o.skillIds || []).length);
+    const skills = (field.skillSubjectKeys || []).reduce((n, p) => n + (subjectCounts[p] || 0), 0);
+    const state = fieldOut.length ? `${fieldMapped.length}/${fieldOut.length} výstupů` : "čeká na import";
+    return `<div class="rvp-field">
+      <div><b>${esc(field.name)}</b><span>${esc(field.code)} · ${skills} ${topicWord(skills)} na webu</span></div>
+      <em class="${fieldOut.length ? "ok" : "wait"}">${state}</em>
+    </div>`;
+  };
+  const outcomeRows = outcomes.map(o => {
+    const period = RVP_PERIOD[o.periodId];
+    return `<div class="outcome ${(o.skillIds || []).length ? "covered" : "gap"}" id="${esc(o.id)}">
+      <div class="outcome-code"><b>${esc(o.id)}</b><span>${esc(period ? period.label : o.periodId)} · ${esc(o.topic)}</span></div>
+      <p>${esc(o.text)}</p>
+      <div class="outcome-skills">${skillLinks(o.skillIds || [])}</div>
+    </div>`;
+  }).join("");
+  const body = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Pokrytí RVP</div>
+  <div class="page-title"><h1>Pokrytí RVP</h1>
+  <p class="lead">Strojově kontrolované mapování témat na očekávané výstupy RVP ZV. Zatím je detailně rozpracovaná matematika; ostatní oblasti čekají na import konkrétních výstupů.</p></div>
+  <div class="metrics">
+    <div><b>${outcomes.length}</b><span>importovaných výstupů RVP</span></div>
+    <div><b>${mappedOutcomes.length}</b><span>výstupů s tématem</span></div>
+    <div><b>${mappedSkillIds.size}</b><span>témat s rvpRefs</span></div>
+    <div><b>${SKILLS.length - mappedSkillIds.size}</b><span>${topicWord(SKILLS.length - mappedSkillIds.size)} čeká na mapování</span></div>
+  </div>
+  <div class="infobox"><b>Jak to číst:</b> RVP stanovuje výstupy pro období a stupně, nikoli pevné ročníky. Pokrytí proto ukazuje vazbu témat na RVP výstupy; ročníkové zařazení zůstává orientační.</div>
+  <section class="section">
+    <div class="sec-head"><h2>Oblasti a obory</h2></div>
+    ${RVP.areas.map(area => `<div class="rvp-area">
+      <h3>${esc(area.name)}</h3>
+      ${area.fields.map(fieldStatus).join("")}
+    </div>`).join("")}
+  </section>
+  <section class="section">
+    <div class="sec-head"><h2>Importované výstupy</h2><span class="cnt">Matematika a její aplikace</span></div>
+    <div class="outcomes">${outcomeRows}</div>
+  </section>
+  <section class="section">
+    <div class="sec-head"><h2>Témata bez mapování</h2></div>
+    <div class="cards">${unmappedBySubject.map(s => `<div class="gl"><b>${esc(s.name)}</b><p>${s.count} ${topicWord(s.count)} zatím ${topicVerb(s.count)} strojové RVP vazby.</p></div>`).join("")}</div>
+  </section>`;
+  write("rvp/index.html", layout({
+    path: "rvp/", nav: "rvp",
+    title: "Pokrytí RVP ZV | Mapa učení",
+    desc: "Přehled pokrytí očekávaných výstupů RVP ZV tématy na Mapě učení.",
     body
   }));
 })();
@@ -424,7 +513,7 @@ fs.mkdirSync(path.join(OUT, "assets"), { recursive: true });
   fs.copyFileSync(path.join(__dirname, "assets", f), path.join(OUT, "assets", f)));
 fs.writeFileSync(path.join(OUT, ".nojekyll"), "", "utf8");
 
-const urls = ["", "predmety/", "kalendar/", "zakony/", "slovnicek/", "o-mape/"]
+const urls = ["", "predmety/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/"]
   .concat(Array.from({ length: 9 }, (_, i) => `rocnik/${i + 1}/`))
   .concat(SKILLS.map(skillUrl));
 fs.writeFileSync(path.join(OUT, "sitemap.xml"),

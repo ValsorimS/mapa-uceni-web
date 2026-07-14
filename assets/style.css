@@ -195,6 +195,40 @@ ul.jak li::before{
   font-size:.88rem;color:var(--muted);
 }
 .rvpbox b{color:var(--ink)}
+.rvp-links{display:grid;gap:8px;margin-top:8px}
+.rvp-ref{
+  display:block;text-decoration:none;color:var(--ink);background:var(--paper);
+  border:1.5px solid var(--line);border-radius:8px;padding:9px 11px;
+}
+.rvp-ref:hover{border-color:var(--blue)}
+.rvp-ref b{display:block;color:var(--blue);font-family:"Bitter",serif;font-size:.9rem}
+.rvp-ref span{display:block;margin-top:2px;color:var(--muted);font-size:.88rem;line-height:1.35}
+.rvp-ref.missing{color:var(--red)}
+.rvp-note{margin-top:8px;font-size:.82rem;color:var(--muted)}
+
+/* ---------- RVP coverage ---------- */
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0 8px}
+.metrics div{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px}
+.metrics b{display:block;font-family:"Bitter",serif;font-size:1.8rem;line-height:1;color:var(--blue)}
+.metrics span{display:block;margin-top:6px;color:var(--muted);font-size:.9rem}
+.rvp-area{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);margin-bottom:14px;padding:16px 18px}
+.rvp-area h3{font-size:1.08rem;margin-bottom:10px}
+.rvp-field{display:flex;justify-content:space-between;gap:14px;align-items:center;border-top:1px solid var(--line);padding:10px 0}
+.rvp-field:first-of-type{border-top:none}
+.rvp-field span{display:block;color:var(--muted);font-size:.86rem}
+.rvp-field em{font-style:normal;font-weight:700;border-radius:6px;padding:3px 9px;white-space:nowrap;font-size:.82rem}
+.rvp-field em.ok{color:var(--green);background:var(--green-soft)}
+.rvp-field em.wait{color:var(--muted);background:var(--paper);border:1px solid var(--line)}
+.outcomes{display:grid;gap:12px}
+.outcome{background:var(--card);border:1.5px solid var(--line);border-left-width:5px;border-radius:var(--radius);box-shadow:var(--shadow);padding:14px 16px;scroll-margin-top:90px}
+.outcome.covered{border-left-color:var(--green)}
+.outcome.gap{border-left-color:var(--red)}
+.outcome-code{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
+.outcome-code b{font-family:"Bitter",serif;color:var(--blue)}
+.outcome-code span{font-size:.82rem;color:var(--muted)}
+.outcome p{margin-top:6px;max-width:760px}
+.outcome-skills{margin-top:8px;font-size:.9rem}
+.outcome-skills .muted{color:var(--muted)}
 
 /* ---------- laws ---------- */
 .law{

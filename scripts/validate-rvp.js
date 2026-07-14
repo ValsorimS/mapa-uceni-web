@@ -9,6 +9,7 @@ const readJson = file => JSON.parse(fs.readFileSync(path.join(root, file), "utf8
 
 const rvp = readJson("data/rvp.json");
 const skills = readJson("data/skills.json");
+const skillById = new Map(skills.map(s => [s.id, s]));
 
 const errors = [];
 const warnings = [];
@@ -44,6 +45,10 @@ for (const outcome of outcomes) {
   if (!periods.has(outcome.periodId)) errors.push(`Outcome ${outcome.id} has unknown periodId ${outcome.periodId}`);
   for (const skillId of outcome.skillIds || []) {
     if (!skillIds.has(skillId)) errors.push(`Outcome ${outcome.id} references unknown skill ${skillId}`);
+    const skill = skillById.get(skillId);
+    if (skill && !(skill.rvpRefs || []).includes(outcome.id)) {
+      errors.push(`Outcome ${outcome.id} references skill ${skillId}, but skill.rvpRefs does not point back`);
+    }
   }
 }
 
@@ -55,6 +60,10 @@ for (const skill of skills) {
   }
   for (const ref of skill.rvpRefs) {
     if (!outcomeIds.has(ref)) errors.push(`Skill ${skill.id} references unknown RVP outcome ${ref}`);
+    const outcome = outcomes.find(o => o.id === ref);
+    if (outcome && !(outcome.skillIds || []).includes(skill.id)) {
+      errors.push(`Skill ${skill.id} references outcome ${ref}, but outcome.skillIds does not point back`);
+    }
   }
 }
 
