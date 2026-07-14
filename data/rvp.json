@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "id": "rvp-zv-2023",
+    "title": "Rámcový vzdělávací program pro základní vzdělávání",
+    "shortTitle": "RVP ZV 2023",
+    "publisher": "MŠMT",
+    "effectiveFrom": "2023-09-01",
+    "sourceUrl": "https://www.edu.cz/wp-content/uploads/2023/07/RVP_ZV_2023_cista_verze.pdf",
+    "sourcePageUrl": "https://edu.gov.cz/rvp-zv-ramcovy-vzdelavaci-program-pro-zakladni-vzdelavani",
+    "notes": [
+      "RVP ZV stanovuje závazný rámec, nikoli přesné rozložení učiva do jednotlivých ročníků.",
+      "Ročníkové zařazení na webu je orientační a vychází z běžné školní praxe a ŠVP.",
+      "Doplňování očekávaných výstupů má probíhat po oborech, aby bylo možné průběžně kontrolovat pokrytí."
+    ]
+  },
+  "periods": [
+    {
+      "id": "1-obdobi",
+      "label": "1. období",
+      "grades": [1, 2, 3],
+      "stage": 1
+    },
+    {
+      "id": "2-obdobi",
+      "label": "2. období",
+      "grades": [4, 5],
+      "stage": 1
+    },
+    {
+      "id": "2-stupen",
+      "label": "2. stupeň",
+      "grades": [6, 7, 8, 9],
+      "stage": 2
+    }
+  ],
+  "areas": [
+    {
+      "id": "jazyk-a-jazykova-komunikace",
+      "code": "5.1",
+      "name": "Jazyk a jazyková komunikace",
+      "fields": [
+        {
+          "id": "cesky-jazyk-a-literatura",
+          "code": "5.1.1",
+          "name": "Český jazyk a literatura",
+          "skillSubjectKeys": ["cj"],
+          "outcomePrefix": "ČJL",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
+        },
+        {
+          "id": "cizi-jazyk",
+          "code": "5.1.2",
+          "name": "Cizí jazyk",
+          "skillSubjectKeys": ["aj"],
+          "outcomePrefix": "CJ",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
+        },
+        {
+          "id": "dalsi-cizi-jazyk",
+          "code": "5.1.3",
+          "name": "Další cizí jazyk",
+          "skillSubjectKeys": ["ncj"],
+          "outcomePrefix": "DCJ",
+          "periods": ["2-stupen"]
+        }
+      ]
+    },
+    {
+      "id": "matematika-a-jeji-aplikace",
+      "code": "5.2",
+      "name": "Matematika a její aplikace",
+      "fields": [
+        {
+          "id": "matematika-a-jeji-aplikace",
+          "code": "5.2.1",
+          "name": "Matematika a její aplikace",
+          "skillSubjectKeys": ["m"],
+          "outcomePrefix": "M",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
+        }
+      ]
+    },
+    {
+      "id": "informatika",
+      "code": "5.3",
+      "name": "Informatika",
+      "fields": [
+        {
+          "id": "informatika",
+          "code": "5.3.1",
+          "name": "Informatika",
+          "skillSubjectKeys": ["inf"],
+          "outcomePrefix": "I",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
+        }
+      ]
+    },
+    {
+      "id": "clovek-a-jeho-svet",
+      "code": "5.4",
+      "name": "Člověk a jeho svět",
+      "fields": [
+        {
+          "id": "clovek-a-jeho-svet",
+          "code": "5.4.1",
+          "name": "Člověk a jeho svět",
+          "skillSubjectKeys": ["prv", "pri", "vla"],
+          "outcomePrefix": "ČJS",
+          "periods": ["1-obdobi", "2-obdobi"]
+        }
+      ]
+    },
+    {
+      "id": "clovek-a-spolecnost",
+      "code": "5.5",
+      "name": "Člověk a společnost",
+      "fields": [
+        {
+          "id": "dejepis",
+          "code": "5.5.1",
+          "name": "Dějepis",
+          "skillSubjectKeys": ["d"],
+          "outcomePrefix": "D",
+          "periods": ["2-stupen"]
+        },
+        {
+          "id": "vychova-k-obcanstvi",
+          "code": "5.5.2",
+          "name": "Výchova k občanství",
+          "skillSubjectKeys": ["ov"],
+          "outcomePrefix": "VO",
+          "periods": ["2-stupen"]
+        }
+      ]
+    },
+    {
+      "id": "clovek-a-priroda",
+      "code": "5.6",
+      "name": "Člověk a příroda",
+      "fields": [
+        {
+          "id": "fyzika",
+          "code": "5.6.1",
+          "name": "Fyzika",
+          "skillSubjectKeys": ["fy"],
+          "outcomePrefix": "F",
+          "periods": ["2-stupen"]
+        },
+        {
+          "id": "chemie",
+          "code": "5.6.2",
+          "name": "Chemie",
+          "skillSubjectKeys": ["ch"],
+          "outcomePrefix": "CH",
+          "periods": ["2-stupen"]
+        },
+        {
+          "id": "prirodopis",
+          "code": "5.6.3",
+          "name": "Přírodopis",
+          "skillSubjectKeys": ["prir"],
+          "outcomePrefix": "P",
+          "periods": ["2-stupen"]
+        },
+        {
+          "id": "zemepis",
+          "code": "5.6.4",
+          "name": "Zeměpis (Geografie)",
+          "skillSubjectKeys": ["z"],
+          "outcomePrefix": "Z",
+          "periods": ["2-stupen"]
+        }
+      ]
+    },
+    {
+      "id": "umeni-a-kultura",
+      "code": "5.7",
+      "name": "Umění a kultura",
+      "fields": [
+        {
+          "id": "hudebni-vychova",
+          "code": "5.7.1",
+          "name": "Hudební výchova",
+          "skillSubjectKeys": ["hv"],
+          "outcomePrefix": "HV",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
+        },
+        {
+          "id": "vytvarna-vychova",
+          "code": "5.7.2",
+          "name": "Výtvarná výchova",
+          "skillSubjectKeys": ["vv"],
+          "outcomePrefix": "VV",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
+        }
+      ]
+    },
+    {
+      "id": "clovek-a-zdravi",
+      "code": "5.8",
+      "name": "Člověk a zdraví",
+      "fields": [
+        {
+          "id": "vychova-ke-zdravi",
+          "code": "5.8.1",
+          "name": "Výchova ke zdraví",
+          "skillSubjectKeys": ["vz"],
+          "outcomePrefix": "VZ",
+          "periods": ["2-stupen"]
+        },
+        {
+          "id": "telesna-vychova",
+          "code": "5.8.2",
+          "name": "Tělesná výchova",
+          "skillSubjectKeys": ["tv"],
+          "outcomePrefix": "TV",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
+        }
+      ]
+    },
+    {
+      "id": "clovek-a-svet-prace",
+      "code": "5.9",
+      "name": "Člověk a svět práce",
+      "fields": [
+        {
+          "id": "clovek-a-svet-prace",
+          "code": "5.9.1",
+          "name": "Člověk a svět práce",
+          "skillSubjectKeys": ["csp"],
+          "outcomePrefix": "ČSP",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
+        }
+      ]
+    },
+    {
+      "id": "doplnujici-vzdelavaci-obory",
+      "code": "5.10",
+      "name": "Doplňující vzdělávací obory",
+      "fields": [
+        {
+          "id": "dramaticka-vychova",
+          "code": "5.10.1",
+          "name": "Dramatická výchova",
+          "skillSubjectKeys": [],
+          "outcomePrefix": "DV",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"],
+          "optional": true
+        },
+        {
+          "id": "eticka-vychova",
+          "code": "5.10.2",
+          "name": "Etická výchova",
+          "skillSubjectKeys": [],
+          "outcomePrefix": "EV",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"],
+          "optional": true
+        },
+        {
+          "id": "filmova-a-audiovizualni-vychova",
+          "code": "5.10.3",
+          "name": "Filmová/Audiovizuální výchova",
+          "skillSubjectKeys": [],
+          "outcomePrefix": "FAV",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"],
+          "optional": true
+        },
+        {
+          "id": "tanecni-a-pohybova-vychova",
+          "code": "5.10.4",
+          "name": "Taneční a pohybová výchova",
+          "skillSubjectKeys": [],
+          "outcomePrefix": "TPV",
+          "periods": ["1-obdobi", "2-obdobi", "2-stupen"],
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "crossCuttingThemes": [
+    {
+      "id": "osobnostni-a-socialni-vychova",
+      "name": "Osobnostní a sociální výchova"
+    },
+    {
+      "id": "vychova-demokratickeho-obcana",
+      "name": "Výchova demokratického občana"
+    },
+    {
+      "id": "vychova-k-mysleni-v-evropskych-a-globalnich-souvislostech",
+      "name": "Výchova k myšlení v evropských a globálních souvislostech"
+    },
+    {
+      "id": "multikulturni-vychova",
+      "name": "Multikulturní výchova"
+    },
+    {
+      "id": "environmentalni-vychova",
+      "name": "Environmentální výchova"
+    },
+    {
+      "id": "medialni-vychova",
+      "name": "Mediální výchova"
+    }
+  ],
+  "outcomeModel": {
+    "plannedShape": {
+      "id": "M-5-1-02",
+      "fieldId": "matematika-a-jeji-aplikace",
+      "periodId": "2-obdobi",
+      "topic": "Číslo a početní operace",
+      "text": "provádí písemné početní operace v oboru přirozených čísel",
+      "minimumLevel": false,
+      "source": {
+        "document": "RVP ZV 2023",
+        "section": "5.2.1"
+      },
+      "skillIds": ["m4-pisemne-scitani-odcitani", "m5-pisemne-nasobeni-deleni"]
+    }
+  }
+}
