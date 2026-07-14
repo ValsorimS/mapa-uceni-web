@@ -640,7 +640,7 @@
     "section": "5.2.1"
    },
    "skillIds": [
-    "m5-desetinna"
+    "m5-zaporna-cisla"
    ]
   },
   {
@@ -654,7 +654,9 @@
     "document": "RVP ZV 2023",
     "section": "5.2.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "m2-cas-data"
+   ]
   },
   {
    "id": "M-3-2-02",
@@ -667,7 +669,9 @@
     "document": "RVP ZV 2023",
     "section": "5.2.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "m2-cas-data"
+   ]
   },
   {
    "id": "M-3-2-03",
@@ -681,6 +685,7 @@
     "section": "5.2.1"
    },
    "skillIds": [
+    "m2-cas-data",
     "m3-pisemne"
    ]
   },
@@ -755,7 +760,9 @@
     "document": "RVP ZV 2023",
     "section": "5.2.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "m3-soumernost"
+   ]
   },
   {
    "id": "M-5-3-01",
@@ -829,7 +836,9 @@
     "document": "RVP ZV 2023",
     "section": "5.2.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "m5-soumernost"
+   ]
   },
   {
    "id": "M-5-4-01",
@@ -842,7 +851,9 @@
     "document": "RVP ZV 2023",
     "section": "5.2.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "m5-logicke-ulohy"
+   ]
   },
   {
    "id": "M-9-1-01",
@@ -1003,7 +1014,7 @@
     "section": "5.2.1"
    },
    "skillIds": [
-    "m9-funkce"
+    "m9-statistika"
    ]
   },
   {
@@ -1017,7 +1028,9 @@
     "document": "RVP ZV 2023",
     "section": "5.2.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "m9-statistika"
+   ]
   },
   {
    "id": "M-9-2-03",
@@ -1076,7 +1089,7 @@
     "section": "5.2.1"
    },
    "skillIds": [
-    "m8-mocniny"
+    "m8-pythagoras"
    ]
   },
   {
@@ -1121,7 +1134,7 @@
     "section": "5.2.1"
    },
    "skillIds": [
-    "m8-mocniny",
+    "m8-pythagoras",
     "m8-kruh"
    ]
   },
@@ -1136,7 +1149,9 @@
     "document": "RVP ZV 2023",
     "section": "5.2.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "m8-konstrukce"
+   ]
   },
   {
    "id": "M-9-3-06",
@@ -1151,7 +1166,8 @@
    },
    "skillIds": [
     "m6-uhly",
-    "m6-soumernost"
+    "m6-soumernost",
+    "m8-konstrukce"
    ]
   },
   {
@@ -1259,7 +1275,7 @@
     "section": "5.2.1"
    },
    "skillIds": [
-    "m8-mocniny",
+    "m8-pythagoras",
     "m9-podobnost"
    ]
   },
@@ -1274,7 +1290,9 @@
     "document": "RVP ZV 2023",
     "section": "5.2.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "m9-logika-prostor"
+   ]
   },
   {
    "id": "M-9-4-02",
@@ -1287,7 +1305,9 @@
     "document": "RVP ZV 2023",
     "section": "5.2.1"
    },
-   "skillIds": []
+   "skillIds": [
+    "m9-logika-prostor"
+   ]
   },
   {
    "id": "ČJL-3-1-01",

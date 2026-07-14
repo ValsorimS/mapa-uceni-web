@@ -426,6 +426,30 @@
   ]
  },
  {
+  "id": "m2-cas-data",
+  "r": 2,
+  "p": "m",
+  "t": "Čas, tabulky a jednoduché závislosti",
+  "co": "Matematika na 1. stupni není jen počítání. Dítě se učí orientovat v čase, chápat jednoduché vztahy z praktického života a doplňovat tabulky nebo schémata podle pravidla.",
+  "jak": [
+   "Převede jednoduché jednotky času v běžných situacích.",
+   "Popíše jednoduchou závislost: čím více kusů, tím vyšší cena; čím déle cesta, tím pozdější příchod.",
+   "Doplní jednoduchou tabulku, schéma nebo číselnou posloupnost."
+  ],
+  "dal": "Na jednoduché tabulky naváže sběr dat, diagramy a grafy ve vyšších ročnících.",
+  "dalId": "m5-prevody",
+  "rvp": "RVP ZV · Matematika · 1. období · Závislosti, vztahy a práce s daty.",
+  "doma": [
+   "Plánujte den podle hodin: kdy odcházíme, jak dlouho trvá cesta, kdy dorazíme.",
+   "Dělejte malé tabulky: počet rohlíků a cena, počet dní a úkoly."
+  ],
+  "rvpRefs": [
+   "M-3-2-01",
+   "M-3-2-02",
+   "M-3-2-03"
+  ]
+ },
+ {
   "id": "prv2-cas",
   "r": 2,
   "p": "prv",
@@ -611,6 +635,28 @@
    "M-3-1-04",
    "M-3-1-05",
    "M-3-2-03"
+  ]
+ },
+ {
+  "id": "m3-soumernost",
+  "r": 3,
+  "p": "m",
+  "t": "Souměrnost a osové obrázky",
+  "co": "Dítě poznává, že některé tvary mají osu souměrnosti: po přeložení by se obě poloviny překryly. Pracuje s papírem, čtvercovou sítí, zrcadlením a jednoduchými obrázky.",
+  "jak": [
+   "Pozná jednoduchý souměrný útvar.",
+   "Najde osu souměrnosti u obrázku nebo tvaru.",
+   "Doplní druhou polovinu jednoduchého osově souměrného obrázku."
+  ],
+  "dal": "Na 2. stupni se souměrnost vrátí jako přesná geometrická konstrukce.",
+  "dalId": "m6-soumernost",
+  "rvp": "RVP ZV · Matematika · 1. období · Geometrie v rovině a v prostoru.",
+  "doma": [
+   "Skládejte papír a vystřihujte souměrné tvary.",
+   "Hledejte souměrnost na značkách, oknech, motýlech nebo listech."
+  ],
+  "rvpRefs": [
+   "M-3-3-03"
   ]
  },
  {
@@ -1183,14 +1229,35 @@
    "Sečte a odečte desetinná čísla písemně."
   ],
   "dal": "Všechny operace s desetinnými čísly v 6. ročníku.",
-  "dalId": "m6-desetinna",
+  "dalId": "m5-zaporna-cisla",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. období.",
   "doma": [
    "Nakupujte spolu: ceny jsou desetinná čísla v praxi.",
    "Čtěte teploměr a váhu — hodnoty s čárkou."
   ],
   "rvpRefs": [
-   "M-5-1-07",
+   "M-5-1-07"
+  ]
+ },
+ {
+  "id": "m5-zaporna-cisla",
+  "r": 5,
+  "p": "m",
+  "t": "Záporná čísla: první setkání",
+  "co": "Na 1. stupni se záporná čísla objevují hlavně na číselné ose a v praktických situacích: teplota pod nulou, dluh, výtah do podzemního patra. Nejde ještě o celé počítání se znaménky, ale o pochopení významu minus.",
+  "jak": [
+   "Přečte zápis záporného čísla a ukáže ho na číselné ose.",
+   "Porovná jednoduchá čísla kolem nuly, například −3 a 2.",
+   "Vysvětlí záporné číslo na teplotě, dluhu nebo podzemním patře."
+  ],
+  "dal": "Na 2. stupni přijdou celá a racionální čísla a početní pravidla se znaménky.",
+  "dalId": "m7-cela",
+  "rvp": "RVP ZV · Matematika · 2. období · Číslo a početní operace.",
+  "doma": [
+   "Sledujte teplotu pod nulou na předpovědi počasí.",
+   "Použijte výtah nebo parkovací dům: přízemí, patro −1, patro −2."
+  ],
+  "rvpRefs": [
    "M-5-1-08"
   ]
  },
@@ -1262,6 +1329,50 @@
   "rvpRefs": [
    "M-5-3-02",
    "M-5-3-04"
+  ]
+ },
+ {
+  "id": "m5-soumernost",
+  "r": 5,
+  "p": "m",
+  "t": "Osová souměrnost ve čtvercové síti",
+  "co": "Ve 4.–5. ročníku se souměrnost zpřesňuje: dítě rozpozná a znázorní osově souměrný útvar ve čtvercové síti a určí osu souměrnosti překládáním papíru nebo podle pravidelného obrazce.",
+  "jak": [
+   "Rozpozná osově souměrný útvar ve čtvercové síti.",
+   "Doplní chybějící polovinu obrázku podle osy.",
+   "Určí osu souměrnosti přeložením nebo podle čtvercové sítě."
+  ],
+  "dal": "Na 2. stupni se souměrnost rýsuje přesně pomocí pravítka, kružítka a osy.",
+  "dalId": "m6-soumernost",
+  "rvp": "RVP ZV · Matematika · 2. období · Geometrie v rovině a v prostoru.",
+  "doma": [
+   "Kreslete do čtverečkovaného papíru polovinu obrázku a nechte dítě doplnit druhou.",
+   "Hledejte osy souměrnosti v dopravních značkách nebo písmenkách."
+  ],
+  "rvpRefs": [
+   "M-5-3-05"
+  ]
+ },
+ {
+  "id": "m5-logicke-ulohy",
+  "r": 5,
+  "p": "m",
+  "t": "Slovní, logické a netradiční úlohy",
+  "co": "Některé matematické úlohy nejdou vyřešit jen naučeným algoritmem. Dítě zkouší kreslit si situaci, hledat vzor, rozdělit problém na části a obhájit vlastní postup.",
+  "jak": [
+   "Vyřeší jednoduchou praktickou slovní úlohu i bez předem daného postupu.",
+   "Vyzkouší více způsobů řešení a porovná je.",
+   "Vysvětlí, proč jeho řešení dává smysl."
+  ],
+  "dal": "Na 2. stupni se z toho stávají kombinační, logické a prostorové úlohy.",
+  "dalId": "m9-logika-prostor",
+  "rvp": "RVP ZV · Matematika · 2. období · Nestandardní aplikační úlohy a problémy.",
+  "doma": [
+   "Řešte hádanky, sudoku pro děti, tangramy nebo úlohy typu kdo kde sedí.",
+   "Ptejte se: jak jsi na to přišel, šlo by to i jinak?"
+  ],
+  "rvpRefs": [
+   "M-5-4-01"
   ]
  },
  {
@@ -1545,7 +1656,7 @@
    "Řeší slovní úlohy s cenami a měřením."
   ],
   "dal": "Zlomky a racionální čísla v 7. ročníku.",
-  "dalId": "m7-zlomky",
+  "dalId": "m7-cela",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná).",
   "doma": [
    "Přepočítávejte ceny za kilo a slevy v obchodě.",
@@ -1591,7 +1702,7 @@
    "Dopočítá třetí úhel trojúhelníku."
   ],
   "dal": "Konstrukce trojúhelníků a čtyřúhelníků v 7. ročníku, Pythagorova věta v 8.",
-  "dalId": "m8-mocniny",
+  "dalId": "m6-soumernost",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (geometrie v rovině a v prostoru).",
   "doma": [
    "Kolik stupňů svírají ručičky v půl třetí? Změřte.",
@@ -1622,7 +1733,8 @@
   "rvpRefs": [
    "M-9-3-06",
    "M-9-3-08"
-  ]
+  ],
+  "dalId": "m8-konstrukce"
  },
  {
   "id": "fy6-mereni",
@@ -1993,7 +2105,7 @@
    "Použije záporná čísla v kontextu (teplota, dluh, nadmořská výška)."
   ],
   "dal": "Výrazy s proměnnou a rovnice v 8. ročníku.",
-  "dalId": "m8-vyrazy",
+  "dalId": "m7-zlomky",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná).",
   "doma": [
    "Teploty pod nulou a podzemní patra garáží: záporná čísla kolem nás.",
@@ -2388,25 +2500,69 @@
   "id": "m8-mocniny",
   "r": 8,
   "p": "m",
-  "t": "Mocniny, odmocniny a Pythagorova věta",
-  "co": "Druhá mocnina a odmocnina a na nich postavená nejslavnější věta školské matematiky: a² + b² = c². V pravoúhlém trojúhelníku dopočítáte třetí stranu — a najednou jde spočítat úhlopříčka hřiště nebo délka žebříku. K tomu mocniny s přirozeným exponentem a zápis velkých čísel.",
+  "t": "Mocniny a odmocniny",
+  "co": "Druhá mocnina a odmocnina, mocniny s přirozeným exponentem a zápis velkých čísel. Žák chápe, co znamená umocnit číslo, kdy použít odmocninu a jak pracovat s odhadem výsledku.",
   "jak": [
-   "Zpaměti zná druhé mocniny do 15² a odhadne odmocninu.",
-   "Rozhodne, jestli je trojúhelník pravoúhlý, a dopočítá stranu Pythagorovou větou.",
-   "Použije větu ve slovní úloze (úhlopříčka, výška, vzdálenost)."
+   "Vypočítá druhou mocninu a odmocninu v jednoduchých případech.",
+   "Používá mocniny s přirozeným exponentem a rozumí jejich významu.",
+   "Odhadne výsledek a ověří ho kalkulátorem tam, kde to dává smysl."
   ],
-  "dal": "Výrazy a rovnice; v 9. ročníku tělesa a podobnost.",
-  "dalId": "m8-vyrazy",
+  "dal": "Mocniny a odmocniny se hned použijí v Pythagorově větě.",
+  "dalId": "m8-pythagoras",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná, geometrie).",
   "doma": [
    "Druhé mocniny do 15 na kartičkách.",
    "Změřte úhlopříčku stolu a ověřte Pythagorovu větu — sedí!"
   ],
   "rvpRefs": [
-   "M-9-1-01",
+   "M-9-1-01"
+  ]
+ },
+ {
+  "id": "m8-pythagoras",
+  "r": 8,
+  "p": "m",
+  "t": "Pythagorova věta a pravoúhlý trojúhelník",
+  "co": "Pythagorova věta propojí druhé mocniny s geometrií: v pravoúhlém trojúhelníku platí a² + b² = c². Díky tomu jde dopočítat úhlopříčku, vzdálenost nebo délku žebříku v praktické situaci.",
+  "jak": [
+   "Pozná pravoúhlý trojúhelník a správně označí přeponu a odvěsny.",
+   "Použije Pythagorovu větu k výpočtu chybějící strany.",
+   "Vyřeší jednoduchou praktickou geometrickou úlohu s pravoúhlým trojúhelníkem."
+  ],
+  "dal": "Pythagorova věta se používá v konstrukcích, tělesech i podobnosti.",
+  "dalId": "m8-konstrukce",
+  "rvp": "RVP ZV · Matematika · 2. stupeň · Geometrie v rovině a v prostoru.",
+  "doma": [
+   "Měřte úhlopříčku obdélníku a ověřte výpočet metrem.",
+   "Kreslete pravoúhlé trojúhelníky a vždy nejdřív označte přeponu."
+  ],
+  "rvpRefs": [
    "M-9-3-01",
    "M-9-3-04",
    "M-9-3-13"
+  ]
+ },
+ {
+  "id": "m8-konstrukce",
+  "r": 8,
+  "p": "m",
+  "t": "Konstrukční úlohy a množiny bodů",
+  "co": "Konstrukční geometrie učí přesně popsat, kde může bod ležet: kružnice jako množina bodů se stejnou vzdáleností, osa úsečky, osa úhlu, rovnoběžky a kolmice. Důležité je plánování konstrukce, ne jen rýsování čar.",
+  "jak": [
+   "Vysvětlí jednoduchou množinu bodů dané vlastnosti.",
+   "Navrhne postup konstrukce před samotným rýsováním.",
+   "Sestrojí rovinný útvar a zkontroluje, zda splňuje zadání."
+  ],
+  "dal": "Konstrukce se propojí s kružnicí, podobností a tělesy.",
+  "dalId": "m8-kruh",
+  "rvp": "RVP ZV · Matematika · 2. stupeň · Geometrie v rovině a v prostoru.",
+  "doma": [
+   "U každé konstrukce chtějte nejdřív slovní plán: co víme, co hledáme, jaké místo bodů použijeme.",
+   "Používejte čisté rýsování: ostrá tužka, popisky, pomocné čáry nerazítkovat jako výsledek."
+  ],
+  "rvpRefs": [
+   "M-9-3-05",
+   "M-9-3-06"
   ]
  },
  {
@@ -2736,6 +2892,29 @@
   ]
  },
  {
+  "id": "m9-statistika",
+  "r": 9,
+  "p": "m",
+  "t": "Statistika: data, grafy a porovnávání souborů",
+  "co": "Žák pracuje s daty jako s informací: vyhledává je, třídí, zpracovává, čte z tabulek a grafů a porovnává dva soubory dat. Cílem je nenechat se zmást jedním číslem bez kontextu.",
+  "jak": [
+   "Vyhledá, vyhodnotí a zpracuje data v tabulce nebo grafu.",
+   "Porovná dva soubory dat a řekne, co z porovnání plyne.",
+   "Vysvětlí, proč graf nebo průměr může být zavádějící bez dalších údajů."
+  ],
+  "dal": "Statistika navazuje na funkce, grafy a práci s daty na střední škole.",
+  "dalId": "m9-funkce",
+  "rvp": "RVP ZV · Matematika · 2. stupeň · Závislosti, vztahy a práce s daty.",
+  "doma": [
+   "Porovnávejte reálná data: ceny, počasí, sportovní výsledky, známky.",
+   "U grafů se ptejte, co ukazuje osa, jaké jsou jednotky a co z grafu nejde vyčíst."
+  ],
+  "rvpRefs": [
+   "M-9-2-01",
+   "M-9-2-02"
+  ]
+ },
+ {
   "id": "m9-funkce",
   "r": 9,
   "p": "m",
@@ -2753,9 +2932,30 @@
    "Udělejte z tabulky graf — na papíře nebo v tabulkovém editoru."
   ],
   "rvpRefs": [
-   "M-9-2-01",
    "M-9-2-04",
    "M-9-2-05"
+  ]
+ },
+ {
+  "id": "m9-logika-prostor",
+  "r": 9,
+  "p": "m",
+  "t": "Logické úlohy a prostorová představivost",
+  "co": "Na konci základky se matematika potkává s úlohami, kde je potřeba zkoušet strategie, kombinovat poznatky a představit si prostor. Patří sem logické úvahy, kombinatorické nápady, skládání tvarů, sítě těles a úlohy bez jednoho naučeného algoritmu.",
+  "jak": [
+   "Použije logickou úvahu nebo kombinační úsudek a najde více možných řešení.",
+   "Řeší úlohy na prostorovou představivost pomocí náčrtu, modelu nebo sítě.",
+   "Kombinuje poznatky z aritmetiky, geometrie a práce s daty."
+  ],
+  "dal": "Podobné úlohy se často objevují v přijímačkách a ve středoškolské matematice.",
+  "rvp": "RVP ZV · Matematika · 2. stupeň · Nestandardní aplikační úlohy a problémy.",
+  "doma": [
+   "Trénujte tangramy, krychlové stavby, logické tabulky a přijímačkové netradiční úlohy.",
+   "Nechte dítě popsat strategii, i když k výsledku došlo zkoušením."
+  ],
+  "rvpRefs": [
+   "M-9-4-01",
+   "M-9-4-02"
   ]
  },
  {
