@@ -562,19 +562,51 @@
   "r": 3,
   "p": "aj",
   "t": "Angličtina začíná (povinně)",
-  "co": "Cizí jazyk je podle RVP povinný od 3. ročníku (mnoho škol začíná dříve formou kroužků nebo od 1. třídy). Výuka je hravá: slovíčka v okruzích (barvy, čísla, rodina, zvířata), písničky, jednoduché pokyny a fráze. Cílem 1. stupně je úroveň blížící se A1.",
+  "co": "Cizí jazyk je podle RVP povinný od 3. ročníku, některé školy začínají dříve. V první fázi jde hlavně o zvuk jazyka, jednoduché pokyny, krátké fráze, slovíčka z blízkého světa dítěte a spojení mluvené a psané podoby slov.",
   "jak": [
-   "Rozumí jednoduchým pokynům učitele (sit down, open your book).",
-   "Představí se a odpoví na základní otázky (What's your name? How old are you?).",
-   "Pojmenuje slovíčka z probraných okruhů."
+   "Rozumí jednoduchým pokynům učitele a reaguje na ně i neverbálně.",
+   "Zopakuje a použije známá slova nebo krátké fráze.",
+   "S vizuální oporou rozumí velmi krátkému mluvenému i psanému textu."
   ],
-  "dal": "Jednoduchá konverzace a přítomný čas v 5. ročníku.",
-  "dalId": "aj5-konverzace",
-  "rvp": "RVP ZV · Jazyk a jazyková komunikace — Cizí jazyk · 1. stupeň. Povinná dotace od 3. ročníku, obvykle 3 hodiny týdně.",
+  "dal": "Na konci 1. stupně se dovednosti rozdělí na poslech, mluvení, čtení a psaní.",
+  "dalId": "aj4-poslech",
+  "rvp": "RVP ZV · Cizí jazyk · 1. období. Povinný cizí jazyk začíná nejpozději ve 3. ročníku.",
   "doma": [
-   "Nalepte na věci doma anglické názvy.",
-   "Pohádky v angličtině s titulky — poslech dělá zázraky.",
-   "Nepřekládejte každé slovo, jde o odvahu mluvit."
+   "Krátké písničky, říkanky a pokyny fungují lépe než slovíčka bez kontextu.",
+   "Nalepte na věci doma anglické názvy a občas je použijte ve větě.",
+   "Neřešte perfektní pravopis hned od začátku, nejdřív jde o chuť jazyku rozumět."
+  ],
+  "rvpRefs": [
+   "CJ-3-1-01",
+   "CJ-3-1-02",
+   "CJ-3-1-03",
+   "CJ-3-1-04",
+   "CJ-3-1-05",
+   "CJ-3-1-06"
+  ]
+ },
+ {
+  "id": "aj4-poslech",
+  "r": 4,
+  "p": "aj",
+  "t": "Angličtina: poslech a pokyny",
+  "co": "Dítě rozumí jednoduchým pokynům, otázkám, slovům a krátkým větám, pokud jsou vyslovené pomalu, zřetelně a ideálně s obrázkem nebo situací. Poslech je základ: bez něj se těžko rozbíhá mluvení i čtení.",
+  "jak": [
+   "Reaguje na běžné pokyny ve třídě.",
+   "Rozumí známým slovům a jednoduchým větám z probíraných témat.",
+   "Po poslechu krátkého textu odpoví na velmi jednoduchou otázku."
+  ],
+  "dal": "Na poslech navazuje jednoduchá konverzace o sobě, rodině, škole a volném čase.",
+  "dalId": "aj5-konverzace",
+  "rvp": "RVP ZV · Cizí jazyk · 2. období · Poslech s porozuměním.",
+  "doma": [
+   "Pouštějte krátká videa nebo písničky s opakovanými frázemi.",
+   "Dávejte doma pár jednoduchých pokynů anglicky: open, close, point to, show me."
+  ],
+  "rvpRefs": [
+   "CJ-5-1-01",
+   "CJ-5-1-02",
+   "CJ-5-1-03"
   ]
  },
  {
@@ -1066,18 +1098,92 @@
   "r": 5,
   "p": "aj",
   "t": "Angličtina: jednoduchá konverzace",
-  "co": "Na konci 1. stupně by dítě mělo zvládat jednoduchou komunikaci o sobě, rodině a škole: přítomný čas prostý a průběhový v základních větách, sloveso to be a have got, otázky a krátké odpovědi. Úroveň se blíží A1.",
+  "co": "Na konci 1. stupně by dítě mělo zvládat jednoduchou komunikaci o sobě, rodině, škole, volném čase a dalších známých tématech. Důležitější než dlouhé věty je schopnost pozdravit, zeptat se, odpovědět a nebát se krátké výměny.",
   "jak": [
-   "Popíše sebe a svou rodinu v několika větách.",
-   "Zeptá se a odpoví na běžné otázky (Where are you from? Do you like…?).",
-   "Přečte krátký jednoduchý text a rozumí hlavní myšlence."
+   "Zapojí se do jednoduchého rozhovoru.",
+   "Sdělí základní informace o sobě, rodině, škole nebo volném čase.",
+   "Odpovídá na jednoduché otázky a podobné otázky samo pokládá."
   ],
-  "dal": "Minulý čas a rozšiřování slovní zásoby na 2. stupni.",
-  "dalId": "aj7-minuly",
-  "rvp": "RVP ZV · Cizí jazyk · 2. období. Očekávaná úroveň na konci 1. stupně směřuje k A1.",
+  "dal": "Konverzace se opírá o čtení jednoduchých textů a postupně o přesnější věty.",
+  "dalId": "aj5-cteni",
+  "rvp": "RVP ZV · Cizí jazyk · 2. období · Mluvení.",
   "doma": [
-   "Zaveďte anglické okénko u večeře: tři věty o svém dni.",
-   "Pouštějte dětské seriály v angličtině bez dabingu."
+   "Zaveďte anglické okénko u večeře: tři krátké věty o sobě nebo svém dni.",
+   "Neopravujte každou chybu hned, nejdřív oceňte, že dítě mluví."
+  ],
+  "rvpRefs": [
+   "CJ-5-2-01",
+   "CJ-5-2-02",
+   "CJ-5-2-03"
+  ]
+ },
+ {
+  "id": "aj5-cteni",
+  "r": 5,
+  "p": "aj",
+  "t": "Angličtina: čtení jednoduchých textů",
+  "co": "Dítě se učí najít v jednoduchém anglickém textu potřebnou informaci a porozumět krátkým textům z běžného života, hlavně když má k dispozici obrázek, známý kontext nebo opakující se slovní zásobu.",
+  "jak": [
+   "V krátkém textu najde konkrétní informaci.",
+   "Rozumí jednoduchému textu z běžného života s vizuální oporou.",
+   "Spojí známá slova a fráze s jejich významem bez překládání každého slova zvlášť."
+  ],
+  "dal": "Čtení pomáhá při psaní krátkých vět a formulářů.",
+  "dalId": "aj5-psani",
+  "rvp": "RVP ZV · Cizí jazyk · 2. období · Čtení s porozuměním.",
+  "doma": [
+   "Čtěte krátké komiksy, popisky obrázků nebo jednoduché návody.",
+   "Ptejte se na konkrétní informaci: kdo, kde, kdy, kolik."
+  ],
+  "rvpRefs": [
+   "CJ-5-3-01",
+   "CJ-5-3-02"
+  ]
+ },
+ {
+  "id": "aj5-psani",
+  "r": 5,
+  "p": "aj",
+  "t": "Angličtina: krátké psaní a formuláře",
+  "co": "Psaní na konci 1. stupně znamená hlavně krátké věty o sobě, rodině, zájmech a běžném životě. Dítě také vyplní základní osobní údaje do jednoduchého formuláře.",
+  "jak": [
+   "Napíše krátký text o sobě, rodině, škole nebo volném čase.",
+   "Používá jednoduché věty a známá slovní spojení.",
+   "Vyplní základní osobní údaje do formuláře."
+  ],
+  "dal": "Na 2. stupni se dovednosti rozšiřují směrem k úrovni A2.",
+  "dalId": "aj6-poslech",
+  "rvp": "RVP ZV · Cizí jazyk · 2. období · Psaní.",
+  "doma": [
+   "Krátké pohlednice, zprávy nebo popisky fotek jsou lepší než dlouhá cvičení bez smyslu.",
+   "Nechte dítě psát podle vzoru a postupně měnit jen pár údajů."
+  ],
+  "rvpRefs": [
+   "CJ-5-4-01",
+   "CJ-5-4-02"
+  ]
+ },
+ {
+  "id": "aj6-poslech",
+  "r": 6,
+  "p": "aj",
+  "t": "Angličtina: poslech na 2. stupni",
+  "co": "Na 2. stupni se poslech posouvá od jednotlivých frází ke krátkým poslechovým textům a zřetelné konverzaci. Žák má rozumět hlavním informacím, pokud je řeč pomalá, jasná a týká se známých témat.",
+  "jak": [
+   "Rozumí informacím v jednoduchém poslechovém textu.",
+   "Zachytí obsah zřetelně vyslovované promluvy nebo konverzace.",
+   "Pozná, kdy nerozumí detailu a kdy mu stačí hlavní smysl."
+  ],
+  "dal": "Poslech se propojuje s mluvením: otázky, odpovědi a krátké vyprávění.",
+  "dalId": "aj7-minuly",
+  "rvp": "RVP ZV · Cizí jazyk · 2. stupeň · Poslech s porozuměním.",
+  "doma": [
+   "Pouštějte krátká videa v angličtině s anglickými titulky.",
+   "Po poslechu se neptejte na každé slovo, ale na hlavní informaci."
+  ],
+  "rvpRefs": [
+   "CJ-9-1-01",
+   "CJ-9-1-02"
   ]
  },
  {
@@ -1681,17 +1787,69 @@
   "r": 7,
   "p": "aj",
   "t": "Angličtina: minulý čas a vyprávění",
-  "co": "Na 2. stupni angličtina přechází od frází k systému: minulý čas prostý (pravidelná i nepravidelná slovesa), budoucnost s will a going to, stupňování přídavných jmen. Cíl na konci 9. ročníku je úroveň A2.",
+  "co": "Mluvení na 2. stupni zahrnuje běžné otázky a odpovědi, krátké povídání o sobě, rodině, škole a volném čase i jednoduché vyprávění události. Minulý čas je praktický nástroj: umožní říct, co se stalo.",
   "jak": [
-   "Vypráví v minulém čase, co dělal o víkendu.",
-   "Používá základní nepravidelná slovesa (went, saw, had…).",
-   "Napíše krátký souvislý text (e-mail, příběh) o 8–10 větách."
+   "Zeptá se na základní informace a adekvátně reaguje v běžné situaci.",
+   "Mluví o rodině, kamarádech, škole, volném čase a známých tématech.",
+   "Jednoduše vypráví příběh nebo událost a popíše osoby, místa a věci."
   ],
-  "dal": "Předpřítomný čas a souvislejší projev v 8.–9. ročníku.",
-  "rvp": "RVP ZV · Cizí jazyk · 2. stupeň. Očekávaná úroveň na konci ZŠ: A2.",
+  "dal": "Mluvení doplňuje čtení jednodušších autentických textů.",
+  "dalId": "aj8-cteni",
+  "rvp": "RVP ZV · Cizí jazyk · 2. stupeň · Mluvení.",
   "doma": [
    "Tři věty deníku anglicky: co jsem dnes dělal.",
-   "Nepravidelná slovesa po pěti a vždy s příkladovou větou."
+   "Nepravidelná slovesa učte vždy s příkladovou větou, ne jako osamělý seznam."
+  ],
+  "rvpRefs": [
+   "CJ-9-2-01",
+   "CJ-9-2-02",
+   "CJ-9-2-03"
+  ]
+ },
+ {
+  "id": "aj8-cteni",
+  "r": 8,
+  "p": "aj",
+  "t": "Angličtina: čtení a vyhledávání informací",
+  "co": "Žák se učí pracovat s krátkými a jednoduchými texty z běžného života: oznámení, zprávy, e-maily, návody, webové texty nebo popisy. Cílem není překlad slovo od slova, ale nalezení potřebné informace a porozumění smyslu.",
+  "jak": [
+   "V jednoduchém autentickém materiálu najde požadovanou informaci.",
+   "Rozumí krátkému jednoduchému textu a odpoví na otázky k obsahu.",
+   "Používá kontext a známá slova, aby odhadl význam neznámého výrazu."
+  ],
+  "dal": "Na čtení navazuje samostatnější psaní e-mailu, zprávy nebo krátkého textu.",
+  "dalId": "aj8-psani",
+  "rvp": "RVP ZV · Cizí jazyk · 2. stupeň · Čtení s porozuměním.",
+  "doma": [
+   "Čtěte krátké reálné texty: jídelní lístek, popis hry, krátký e-mail, návod.",
+   "Dejte konkrétní úkol: najdi cenu, místo, čas, jméno nebo důvod."
+  ],
+  "rvpRefs": [
+   "CJ-9-3-01",
+   "CJ-9-3-02"
+  ]
+ },
+ {
+  "id": "aj8-psani",
+  "r": 8,
+  "p": "aj",
+  "t": "Angličtina: e-mail, formulář a krátký text",
+  "co": "Psaní na 2. stupni míří k jednoduchým praktickým textům: formulář, e-mail, krátká zpráva nebo popis sebe, rodiny, školy a volného času. Důležitá je srozumitelnost, základní struktura a schopnost reagovat na písemné sdělení.",
+  "jak": [
+   "Vyplní základní údaje o sobě ve formuláři.",
+   "Napíše jednoduchý text o sobě a známých tématech.",
+   "Stručně a srozumitelně reaguje na jednoduché písemné sdělení."
+  ],
+  "dal": "Na konci základní školy směřuje cizí jazyk přibližně k úrovni A2 podle společného evropského rámce.",
+  "rvp": "RVP ZV · Cizí jazyk · 2. stupeň · Psaní.",
+  "doma": [
+   "Pište krátké zprávy s jasným účelem: domluvit sraz, popsat plán, odpovědět kamarádovi.",
+   "Používejte vzorové věty, ale nechte dítě měnit obsah podle sebe."
+  ],
+  "rvpRefs": [
+   "CJ-9-4-01",
+   "CJ-9-4-02",
+   "CJ-9-4-03"
   ]
  },
  {

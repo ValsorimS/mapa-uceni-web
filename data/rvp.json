@@ -2751,6 +2751,396 @@
    "skillIds": [
     "inf8-digitalni-technologie"
    ]
+  },
+  {
+   "id": "CJ-3-1-01",
+   "fieldId": "cizi-jazyk",
+   "periodId": "1-obdobi",
+   "topic": "Řečové dovednosti",
+   "text": "rozumí jednoduchým pokynům a otázkám učitele, které jsou sdělovány pomalu a s pečlivou výslovností, a reaguje na ně verbálně i neverbálně",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj3-zacatek"
+   ]
+  },
+  {
+   "id": "CJ-3-1-02",
+   "fieldId": "cizi-jazyk",
+   "periodId": "1-obdobi",
+   "topic": "Řečové dovednosti",
+   "text": "zopakuje a použije slova a slovní spojení, se kterými se v průběhu výuky setkal",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj3-zacatek"
+   ]
+  },
+  {
+   "id": "CJ-3-1-03",
+   "fieldId": "cizi-jazyk",
+   "periodId": "1-obdobi",
+   "topic": "Řečové dovednosti",
+   "text": "rozumí obsahu jednoduchého krátkého psaného textu, pokud má k dispozici vizuální oporu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj3-zacatek"
+   ]
+  },
+  {
+   "id": "CJ-3-1-04",
+   "fieldId": "cizi-jazyk",
+   "periodId": "1-obdobi",
+   "topic": "Řečové dovednosti",
+   "text": "rozumí obsahu jednoduchého krátkého mluveného textu, který je pronášen pomalu, zřetelně a s pečlivou výslovností, pokud má k dispozici vizuální oporu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj3-zacatek"
+   ]
+  },
+  {
+   "id": "CJ-3-1-05",
+   "fieldId": "cizi-jazyk",
+   "periodId": "1-obdobi",
+   "topic": "Řečové dovednosti",
+   "text": "přiřadí mluvenou a psanou podobu téhož slova či slovního spojení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj3-zacatek"
+   ]
+  },
+  {
+   "id": "CJ-3-1-06",
+   "fieldId": "cizi-jazyk",
+   "periodId": "1-obdobi",
+   "topic": "Řečové dovednosti",
+   "text": "píše slova a krátké věty na základě textové a vizuální předlohy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj3-zacatek"
+   ]
+  },
+  {
+   "id": "CJ-5-1-01",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-obdobi",
+   "topic": "Poslech s porozuměním",
+   "text": "rozumí jednoduchým pokynům a otázkám učitele, které jsou sdělovány pomalu a s pečlivou výslovností",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj4-poslech"
+   ]
+  },
+  {
+   "id": "CJ-5-1-02",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-obdobi",
+   "topic": "Poslech s porozuměním",
+   "text": "rozumí slovům a jednoduchým větám, pokud jsou pronášeny pomalu a zřetelně a týkají se osvojovaných témat, zejména pokud má k dispozici vizuální oporu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj4-poslech"
+   ]
+  },
+  {
+   "id": "CJ-5-1-03",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-obdobi",
+   "topic": "Poslech s porozuměním",
+   "text": "rozumí jednoduchému poslechovému textu, pokud je pronášen pomalu a zřetelně a má k dispozici vizuální oporu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj4-poslech"
+   ]
+  },
+  {
+   "id": "CJ-5-2-01",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-obdobi",
+   "topic": "Mluvení",
+   "text": "se zapojí do jednoduchých rozhovorů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj5-konverzace"
+   ]
+  },
+  {
+   "id": "CJ-5-2-02",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-obdobi",
+   "topic": "Mluvení",
+   "text": "sdělí jednoduchým způsobem základní informace týkající se jeho samotného, rodiny, školy, volného času a dalších osvojovaných témat",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj5-konverzace"
+   ]
+  },
+  {
+   "id": "CJ-5-2-03",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-obdobi",
+   "topic": "Mluvení",
+   "text": "odpovídá na jednoduché otázky týkající se jeho samotného, rodiny, školy, volného času a dalších osvojovaných témat a podobné otázky pokládá",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj5-konverzace"
+   ]
+  },
+  {
+   "id": "CJ-5-3-01",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-obdobi",
+   "topic": "Čtení s porozuměním",
+   "text": "vyhledá potřebnou informaci v jednoduchém textu, který se vztahuje k osvojovaným tématům",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj5-cteni"
+   ]
+  },
+  {
+   "id": "CJ-5-3-02",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-obdobi",
+   "topic": "Čtení s porozuměním",
+   "text": "rozumí jednoduchým krátkým textům z běžného života, zejména pokud má k dispozici vizuální oporu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj5-cteni"
+   ]
+  },
+  {
+   "id": "CJ-5-4-01",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-obdobi",
+   "topic": "Psaní",
+   "text": "napíše krátký text s použitím jednoduchých vět a slovních spojení o sobě, rodině, činnostech a událostech z oblasti svých zájmů a každodenního života",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj5-psani"
+   ]
+  },
+  {
+   "id": "CJ-5-4-02",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-obdobi",
+   "topic": "Psaní",
+   "text": "vyplní osobní údaje do formuláře",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj5-psani"
+   ]
+  },
+  {
+   "id": "CJ-9-1-01",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-stupen",
+   "topic": "Poslech s porozuměním",
+   "text": "rozumí informacím v jednoduchých poslechových textech, jsou-li pronášeny pomalu a zřetelně",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj6-poslech"
+   ]
+  },
+  {
+   "id": "CJ-9-1-02",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-stupen",
+   "topic": "Poslech s porozuměním",
+   "text": "rozumí obsahu jednoduché a zřetelně vyslovované promluvy či konverzace, který se týká osvojovaných témat",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj6-poslech"
+   ]
+  },
+  {
+   "id": "CJ-9-2-01",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-stupen",
+   "topic": "Mluvení",
+   "text": "zeptá se na základní informace a adekvátně reaguje v běžných formálních i neformálních situacích",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj7-minuly"
+   ]
+  },
+  {
+   "id": "CJ-9-2-02",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-stupen",
+   "topic": "Mluvení",
+   "text": "mluví o své rodině, kamarádech, škole, volném čase a dalších osvojovaných tématech",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj7-minuly"
+   ]
+  },
+  {
+   "id": "CJ-9-2-03",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-stupen",
+   "topic": "Mluvení",
+   "text": "vypráví jednoduchý příběh či událost; popíše osoby, místa a věci ze svého každodenního života",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj7-minuly"
+   ]
+  },
+  {
+   "id": "CJ-9-3-01",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-stupen",
+   "topic": "Čtení s porozuměním",
+   "text": "vyhledá požadované informace v jednoduchých každodenních autentických materiálech",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj8-cteni"
+   ]
+  },
+  {
+   "id": "CJ-9-3-02",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-stupen",
+   "topic": "Čtení s porozuměním",
+   "text": "rozumí krátkým a jednoduchým textům, vyhledá v nich požadované informace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj8-cteni"
+   ]
+  },
+  {
+   "id": "CJ-9-4-01",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-stupen",
+   "topic": "Psaní",
+   "text": "vyplní základní údaje o sobě ve formuláři",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj8-psani"
+   ]
+  },
+  {
+   "id": "CJ-9-4-02",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-stupen",
+   "topic": "Psaní",
+   "text": "napíše jednoduché texty týkající se jeho samotného, rodiny, školy, volného času a dalších osvojovaných témat",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj8-psani"
+   ]
+  },
+  {
+   "id": "CJ-9-4-03",
+   "fieldId": "cizi-jazyk",
+   "periodId": "2-stupen",
+   "topic": "Psaní",
+   "text": "reaguje na jednoduché písemné sdělení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.1.2"
+   },
+   "skillIds": [
+    "aj8-psani"
+   ]
   }
  ]
 }
