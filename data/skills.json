@@ -2189,6 +2189,202 @@
   ]
  },
  {
+  "id": "z6-zeme",
+  "r": 6,
+  "p": "z",
+  "t": "Mapy, geografická data a terén",
+  "co": "Zeměpis začíná prací s informacemi: mapa, atlas, měřítko, zeměpisná síť, souřadnice, grafy, diagramy, statistická data, orientace v terénu a bezpečný pohyb v krajině.",
+  "jak": [
+   "Používá základní kartografické a topografické pojmy.",
+   "Čte mapu, graf nebo jednoduchá geografická data a vybere podstatné informace.",
+   "Orientuje se v terénu a dodržuje zásady bezpečného pohybu v krajině."
+  ],
+  "dal": "Přírodní obraz Země: tvar, pohyby, sféry a procesy.",
+  "dalId": "z6-prirodni-obraz",
+  "rvp": "RVP ZV · Zeměpis · Geografické informace, kartografie, topografie a terénní výuka.",
+  "doma": [
+   "Plánujte výlet podle mapy a nechte dítě hlídat značku, měřítko a směr.",
+   "U grafu počasí se ptejte, co ukazuje osa a jaké jsou jednotky."
+  ],
+  "rvpRefs": [
+   "Z-9-1-01",
+   "Z-9-1-02",
+   "Z-9-7-01",
+   "Z-9-7-02",
+   "Z-9-7-03"
+  ]
+ },
+ {
+  "id": "z6-prirodni-obraz",
+  "r": 6,
+  "p": "z",
+  "t": "Přírodní obraz Země",
+  "co": "Žák chápe Zemi jako planetu: tvar a pohyby Země, střídání dne a noci a ročních období, přírodní sféry, tvary zemského povrchu a působení vnitřních a vnějších procesů.",
+  "jak": [
+   "Vysvětlí důsledky pohybů Země na život lidí a organismů.",
+   "Rozliší složky přírodní sféry a základní tvary povrchu.",
+   "Porovná vnitřní a vnější procesy a jejich dopad na krajinu a společnost."
+  ],
+  "dal": "Regiony světa: světadíly, oceány a makroregiony.",
+  "dalId": "z7-svetadily",
+  "rvp": "RVP ZV · Zeměpis · Přírodní obraz Země.",
+  "doma": [
+   "Na globusu ukažte den a noc pomocí lampy.",
+   "U hor, řek a pobřeží hledejte, co vytvořily vnitřní a vnější síly."
+  ],
+  "rvpRefs": [
+   "Z-9-2-01",
+   "Z-9-2-02",
+   "Z-9-2-03"
+  ]
+ },
+ {
+  "id": "z7-svetadily",
+  "r": 7,
+  "p": "z",
+  "t": "Světadíly, oceány a regiony světa",
+  "co": "Regionální zeměpis světa: světadíly, oceány, makroregiony, modelové státy, rozvojová jádra a periferní oblasti. Cílem je porovnávat regiony podle přírodních, kulturních, politických a hospodářských znaků.",
+  "jak": [
+   "Lokalizuje světadíly, oceány a významné makroregiony na mapě.",
+   "Porovná polohu, rozlohu, přírodní a společenské poměry vybraných regionů.",
+   "Vysvětlí příčiny zásadních změn ve vybraném světovém regionu."
+  ],
+  "dal": "Evropa a Evropská unie jako detailnější regionální celek.",
+  "dalId": "z8-evropa",
+  "rvp": "RVP ZV · Zeměpis · Regiony světa.",
+  "doma": [
+   "U zpráv ze světa vždy najděte místo na mapě.",
+   "Plánujte fiktivní cestu přes dva kontinenty: klima, města, rizika, doprava."
+  ],
+  "rvpRefs": [
+   "Z-9-3-01",
+   "Z-9-3-02",
+   "Z-9-3-03"
+  ]
+ },
+ {
+  "id": "z8-evropa",
+  "r": 8,
+  "p": "z",
+  "t": "Evropa a evropské regiony",
+  "co": "Evropa se probírá jako blízký regionální celek: přírodní podmínky, státy a hlavní města, obyvatelstvo, hospodářství, Evropská unie, rozdíly mezi regiony a změny, které Evropu ovlivňují.",
+  "jak": [
+   "Ukáže na mapě evropské státy, regiony a významná města.",
+   "Porovná evropské regiony podle přírodních a společenských znaků.",
+   "Vysvětlí, co je EU a jak členství souvisí s Českou republikou."
+  ],
+  "dal": "Obyvatelstvo, sídla a světové hospodářství.",
+  "dalId": "z8-obyvatelstvo-sidla",
+  "rvp": "RVP ZV · Zeměpis · Regiony světa.",
+  "doma": [
+   "Naplánujte eurotrip: státy, vzdálenosti, hranice, měny a jazyky.",
+   "U evropských zpráv hledejte souvislost s EU, dopravou, energií nebo migrací."
+  ],
+  "rvpRefs": [
+   "Z-9-3-02",
+   "Z-9-3-03"
+  ]
+ },
+ {
+  "id": "z8-obyvatelstvo-sidla",
+  "r": 8,
+  "p": "z",
+  "t": "Obyvatelstvo, sídla a urbanizace",
+  "co": "Společenský zeměpis začíná obyvatelstvem: rozmístění populace, hustota zalidnění, migrace, věková struktura, funkce lidských sídel, města, venkov a urbanizace.",
+  "jak": [
+   "Posoudí prostorovou organizaci světové populace na mapě nebo datech.",
+   "Vysvětlí, jak přírodní podmínky souvisejí s funkcí a polohou sídel.",
+   "Pojmenuje základní geografické znaky sídel."
+  ],
+  "dal": "Světové hospodářství, zdroje, státy a geopolitika.",
+  "dalId": "z8-hospodarstvi-politika",
+  "rvp": "RVP ZV · Zeměpis · Společenské a hospodářské prostředí.",
+  "doma": [
+   "Porovnejte hustotu obyvatel ČR, Nizozemska a Austrálie.",
+   "U vlastního města hledejte centrum, obytné části, průmysl, dopravu a služby."
+  ],
+  "rvpRefs": [
+   "Z-9-4-01",
+   "Z-9-4-02"
+  ]
+ },
+ {
+  "id": "z8-hospodarstvi-politika",
+  "r": 8,
+  "p": "z",
+  "t": "Hospodářství, zdroje, státy a geopolitika",
+  "co": "Téma propojuje světové hospodářství, surovinové a energetické zdroje, rozmístění hospodářských aktivit, státy, integrace států a aktuální geopolitické problémy ve světových regionech.",
+  "jak": [
+   "Lokalizuje hlavní světové surovinové a energetické zdroje.",
+   "Porovná faktory rozmístění hospodářských aktivit.",
+   "Porovná státy a integrace států podle podobných a odlišných znaků a lokalizuje aktuální politické problémy."
+  ],
+  "dal": "Krajina, životní prostředí a rizika přírodních i společenských vlivů.",
+  "dalId": "z8-krajina-zivotni-prostredi",
+  "rvp": "RVP ZV · Zeměpis · Společenské a hospodářské prostředí.",
+  "doma": [
+   "U výrobku sledujte cestu surovin, výroby a dopravy.",
+   "U zpráv o konfliktech nebo energiích najděte mapu zdrojů a dopravních cest."
+  ],
+  "rvpRefs": [
+   "Z-9-4-03",
+   "Z-9-4-04",
+   "Z-9-4-05",
+   "Z-9-4-06",
+   "Z-9-6-05"
+  ]
+ },
+ {
+  "id": "z8-krajina-zivotni-prostredi",
+  "r": 8,
+  "p": "z",
+  "t": "Krajina a životní prostředí",
+  "co": "Životní prostředí v zeměpisu znamená krajinu jako prostor, kde se potkává příroda a člověk: typy krajin, přírodní a kulturní složky, biomy, rizika, dopady lidské činnosti a hodnocení krajiny v terénu.",
+  "jak": [
+   "Porovná různé krajiny a jejich funkce.",
+   "Uvede přírodní a kulturní složky krajiny a rozmístění hlavních biomů.",
+   "Na příkladech popíše důsledky přírodních a společenských vlivů na životní prostředí."
+  ],
+  "dal": "Česká republika, místní region, kraje a postavení ČR ve světě.",
+  "dalId": "z9-cr",
+  "rvp": "RVP ZV · Zeměpis · Životní prostředí a terénní výuka.",
+  "doma": [
+   "Na výletě popište krajinu: co je přírodní, co vytvořil člověk a k čemu místo slouží.",
+   "U sucha, povodní nebo těžby řešte konkrétní dopady na krajinu."
+  ],
+  "rvpRefs": [
+   "Z-9-5-01",
+   "Z-9-5-02",
+   "Z-9-5-03",
+   "Z-9-7-02"
+  ]
+ },
+ {
+  "id": "z9-cr",
+  "r": 9,
+  "p": "z",
+  "t": "Česká republika, kraje a místní region",
+  "co": "Zeměpis se vrací domů: místní region, kraje ČR, poloha, přírodní poměry, obyvatelstvo, hospodářství, doprava, kulturní poměry a postavení České republiky v evropském a světovém kontextu.",
+  "jak": [
+   "Vymezí místní region a popíše jeho přírodní, hospodářské a kulturní poměry.",
+   "Porovná polohu, přírodní zdroje, obyvatelstvo a hospodářství ČR v evropském kontextu.",
+   "Lokalizuje kraje ČR a uvede příklady zapojení ČR do mezinárodních organizací."
+  ],
+  "dal": "Zeměpis na střední škole, občanské souvislosti a praktická orientace ve světě.",
+  "rvp": "RVP ZV · Zeměpis · Česká republika.",
+  "doma": [
+   "Prozkoumejte vlastní kraj: výlet s mapou, otázkami a fotkami.",
+   "Podívejte se spolu na data ČSÚ, počasí nebo sucho pro váš region."
+  ],
+  "rvpRefs": [
+   "Z-9-6-01",
+   "Z-9-6-02",
+   "Z-9-6-03",
+   "Z-9-6-04",
+   "Z-9-6-05"
+  ]
+ },
+ {
   "id": "d6-pravek",
   "r": 6,
   "p": "d",
@@ -2219,44 +2415,6 @@
   ]
  },
  {
-  "id": "z6-zeme",
-  "r": 6,
-  "p": "z",
-  "t": "Planeta Země a mapy",
-  "co": "Zeměpis startuje u planety: tvar a pohyby Země, střídání dne a noci a ročních období, zeměpisná síť (poledníky, rovnoběžky), časová pásma a hlavně kartografie — měřítko mapy, vrstevnice, práce s atlasem.",
-  "jak": [
-   "Vysvětlí, proč se střídají roční období.",
-   "Najde místo podle zeměpisných souřadnic.",
-   "Spočítá skutečnou vzdálenost z měřítka mapy."
-  ],
-  "dal": "Světadíly a oceány v 7. ročníku.",
-  "dalId": "z7-svetadily",
-  "rvp": "RVP ZV · Člověk a příroda — Zeměpis · 2. stupeň (geografické informace, přírodní obraz Země).",
-  "doma": [
-   "Najděte na glóbusu či v mapové aplikaci souřadnice domova.",
-   "Vysvětlete časová pásma, když voláte příbuzným do ciziny."
-  ]
- },
- {
-  "id": "prir6-bunka",
-  "r": 6,
-  "p": "prir",
-  "t": "Od buňky k organismům",
-  "co": "Přírodopis obvykle začíná u základní stavební jednotky života: buňka, rozdíl rostlinné a živočišné buňky, mikroskopování, viry a bakterie, houby a řasy. Pořadí témat se mezi školami liší, mikroskop ale nemine nikoho.",
-  "jak": [
-   "Popíše základní části buňky.",
-   "Připraví jednoduchý preparát a zaostří mikroskop.",
-   "Vysvětlí rozdíl mezi virem a bakterií (a proč na virózu nezabírají antibiotika)."
-  ],
-  "dal": "Bezobratlí a obratlovci v dalších ročnících, biologie člověka v 8. ročníku.",
-  "dalId": "prir8-clovek",
-  "rvp": "RVP ZV · Člověk a příroda — Přírodopis · 2. stupeň (obecná biologie a genetika).",
-  "doma": [
-   "Lupa nebo levný mikroskop: cibule je hvězda preparátů.",
-   "Až bude dítě nemocné, vysvětlete, proč na virózu nejsou antibiotika."
-  ]
- },
- {
   "id": "inf6-data-modelovani",
   "r": 6,
   "p": "inf",
@@ -2279,6 +2437,218 @@
    "I-9-1-02",
    "I-9-1-03",
    "I-9-1-04"
+  ]
+ },
+ {
+  "id": "prir6-bunka",
+  "r": 6,
+  "p": "prir",
+  "t": "Buňka, projevy života a poznávání přírody",
+  "co": "Přírodopis začíná otázkou, co je živé. Žák poznává buňku jako základ organismů, podmínky a projevy života, jednoduchý přehled vývoje organismů a praktické metody poznávání přírody: pozorování, lupa, mikroskop, klíč a atlas.",
+  "jak": [
+   "Rozliší základní projevy a podmínky života.",
+   "Popíše buňku jako základní jednotku organismů v přiměřené míře.",
+   "Použije lupu, mikroskop, atlas nebo jednoduchý určovací klíč."
+  ],
+  "dal": "Viry, bakterie, houby a jejich význam pro člověka i přírodu.",
+  "dalId": "prir6-mikrosvet-houby",
+  "rvp": "RVP ZV · Přírodopis · Obecná biologie a praktické poznávání přírody.",
+  "doma": [
+   "Mikroskop nebo lupa promění list, vlas i cibulovou slupku v dobré pozorování.",
+   "U každé vycházky zkuste jednu věc určit podle atlasu nebo aplikace a pak ověřit v atlasu."
+  ],
+  "rvpRefs": [
+   "P-9-1-01",
+   "P-9-8-01"
+  ]
+ },
+ {
+  "id": "prir6-mikrosvet-houby",
+  "r": 6,
+  "p": "prir",
+  "t": "Viry, bakterie a houby",
+  "co": "Mikrosvět a houby propojují přírodu, zdraví i běžný život. Žák chápe význam virů a bakterií v přírodě i pro člověka a pozná nejznámější jedlé a jedovaté houby podle charakteristických znaků.",
+  "jak": [
+   "Uvede příklady užitečných i škodlivých bakterií a virů.",
+   "Vysvětlí, proč se infekce šíří a proč pomáhá hygiena.",
+   "Rozpozná běžné jedlé a jedovaté houby s plodnicemi podle atlasu."
+  ],
+  "dal": "Rostliny: stavba těla, fyziologie, skupiny a určování.",
+  "dalId": "prir7-rostliny",
+  "rvp": "RVP ZV · Přírodopis · Viry, bakterie a biologie hub.",
+  "doma": [
+   "U potravin řešte kvašení, plíseň a trvanlivost.",
+   "Houby nesbírejte podle aplikace samotné; vždy atlas a zkušený dospělý."
+  ],
+  "rvpRefs": [
+   "P-9-1-04",
+   "P-9-2-01"
+  ]
+ },
+ {
+  "id": "prir7-rostliny",
+  "r": 7,
+  "p": "prir",
+  "t": "Rostliny: stavba, fotosyntéza a určování",
+  "co": "Rostliny se probírají od buňky přes pletiva a orgány až k fyziologii a systému. Důležitá je fotosyntéza, dýchání, rozmnožování, význam rostlin a práce s klíčem nebo atlasem.",
+  "jak": [
+   "Popíše základní orgány rostliny a jejich funkci.",
+   "Vysvětlí princip fotosyntézy a význam pěstování rostlin.",
+   "Rozliší základní skupiny rostlin a určí vybrané zástupce."
+  ],
+  "dal": "Živočichové: stavba, skupiny, chování a význam.",
+  "dalId": "prir7-obratlovci",
+  "rvp": "RVP ZV · Přírodopis · Biologie rostlin.",
+  "doma": [
+   "Pěstujte bylinky nebo fazoli a zapisujte změny.",
+   "Na procházce určujte listy a květy podle jednoduchého klíče."
+  ],
+  "rvpRefs": [
+   "P-9-3-01",
+   "P-9-3-02",
+   "P-9-3-03"
+  ]
+ },
+ {
+  "id": "prir7-obratlovci",
+  "r": 7,
+  "p": "prir",
+  "t": "Živočichové: stavba, skupiny a chování",
+  "co": "Živočichové se probírají přes stavbu těla, orgánové soustavy, hlavní skupiny, chování, přizpůsobení prostředí a význam pro člověka. Nejde jen o poznávačku, ale o pochopení souvislosti stavby, funkce a prostředí.",
+  "jak": [
+   "Porovná vnější a vnitřní stavbu vybraných živočichů.",
+   "Zařadí vybrané živočichy do hlavních skupin.",
+   "Vysvětlí přizpůsobení prostředí a bezpečné chování při kontaktu se živočichy."
+  ],
+  "dal": "Biologie člověka a orgánové soustavy.",
+  "dalId": "prir8-clovek",
+  "rvp": "RVP ZV · Přírodopis · Biologie živočichů.",
+  "doma": [
+   "Zoo nebo rybník s atlasem fungují lépe než seznam druhů.",
+   "U domácích zvířat řešte chování, potřeby a odpovědnost člověka."
+  ],
+  "rvpRefs": [
+   "P-9-4-01",
+   "P-9-4-02",
+   "P-9-4-03",
+   "P-9-4-04"
+  ]
+ },
+ {
+  "id": "prir8-clovek",
+  "r": 8,
+  "p": "prir",
+  "t": "Biologie člověka: orgánové soustavy",
+  "co": "Tradiční náplň 8. ročníku: stavba a funkce orgánových soustav člověka, jejich propojení a vztahy. Patří sem opěrná, pohybová, oběhová, dýchací, trávicí, vylučovací, nervová, smyslová, hormonální a rozmnožovací soustava.",
+  "jak": [
+   "Určí polohu hlavních orgánů a popíše jejich funkci.",
+   "Vysvětlí, jak spolu soustavy spolupracují.",
+   "Použije biologické poznatky k rozumné péči o tělo."
+  ],
+  "dal": "Vývoj člověka, rozmnožování, nemoci, prevence a zdraví.",
+  "dalId": "prir8-vyvoj-zdravi",
+  "rvp": "RVP ZV · Přírodopis · Biologie člověka.",
+  "doma": [
+   "Absolvujte spolu kurz první pomoci nebo si zopakujte základní postupy.",
+   "Spánek, jídlo a mobil řešte přes to, co se učí o nervové soustavě a regeneraci."
+  ],
+  "rvpRefs": [
+   "P-9-5-01"
+  ]
+ },
+ {
+  "id": "prir8-vyvoj-zdravi",
+  "r": 8,
+  "p": "prir",
+  "t": "Vývoj člověka, rozmnožování a zdraví",
+  "co": "Téma doplňuje orgánové soustavy o fylogenezi člověka, vznik a vývin jedince od početí po stáří, běžné nemoci, příznaky, prevenci a léčbu. Přirozeně se potkává s výchovou ke zdraví.",
+  "jak": [
+   "Popíše hlavní etapy vývoje člověka jako druhu.",
+   "Objasní vznik a vývin jedince v základních souvislostech.",
+   "Rozliší příčiny a příznaky běžných nemocí a uvede prevenci."
+  ],
+  "dal": "Ekologie, potravní řetězce a vliv člověka na prostředí.",
+  "dalId": "prir8-ekologie",
+  "rvp": "RVP ZV · Přírodopis · Biologie člověka.",
+  "doma": [
+   "Mluvte věcně o pubertě a rozmnožování dřív, než to dítě poskládá z internetu.",
+   "U nemocí rozlišujte viry, bakterie, prevenci, léčbu a kdy volat lékaře."
+  ],
+  "rvpRefs": [
+   "P-9-5-02",
+   "P-9-5-03",
+   "P-9-5-04"
+  ]
+ },
+ {
+  "id": "prir8-ekologie",
+  "r": 8,
+  "p": "prir",
+  "t": "Ekologie, ekosystémy a vliv člověka",
+  "co": "Ekologie propojuje organismy, neživé složky prostředí, potravní řetězce, ekosystémy a vliv člověka. Žák má chápat vztahy v přírodě, ne jen vyjmenovat pojmy.",
+  "jak": [
+   "Uvede organismy v určitém prostředí a vztahy mezi nimi.",
+   "Vysvětlí potravní řetězec a roli živých i neživých složek ekosystému.",
+   "Uvede kladné i záporné vlivy člověka na životní prostředí."
+  ],
+  "dal": "Neživá příroda: horniny, geologické děje, počasí a mimořádné události.",
+  "dalId": "prir9-geologie",
+  "rvp": "RVP ZV · Přírodopis · Základy ekologie.",
+  "doma": [
+   "Na výletě zkuste najít producenta, konzumenta a rozkladače.",
+   "U odpadu, vody a dopravy řešte konkrétní dopady na místní prostředí."
+  ],
+  "rvpRefs": [
+   "P-9-7-01",
+   "P-9-7-02",
+   "P-9-7-03",
+   "P-9-7-04"
+  ]
+ },
+ {
+  "id": "prir9-geologie",
+  "r": 9,
+  "p": "prir",
+  "t": "Neživá příroda: horniny, děje a klima",
+  "co": "Devátý ročník přírodopisu patří neživé přírodě: nerosty, horniny, geologický oběh, vnitřní a vnější geologické děje, voda, půda, počasí, podnebí a mimořádné přírodní události.",
+  "jak": [
+   "Rozpozná vybrané nerosty a horniny podle vlastností a pomůcek.",
+   "Rozliší vnitřní a vnější geologické děje a geologický oběh hornin.",
+   "Vysvětlí vliv počasí a podnebí na ekosystémy a rizika mimořádných událostí."
+  ],
+  "dal": "Dědičnost a genetika jako závěrečné propojení biologie.",
+  "dalId": "prir9-genetika",
+  "rvp": "RVP ZV · Přírodopis · Neživá příroda.",
+  "doma": [
+   "Sbírejte kameny z výletu a určujte je podle atlasu.",
+   "U zpráv o povodních, suchu nebo vichřici řešte příčiny, dopady a ochranu."
+  ],
+  "rvpRefs": [
+   "P-9-6-01",
+   "P-9-6-02",
+   "P-9-6-03"
+  ]
+ },
+ {
+  "id": "prir9-genetika",
+  "r": 9,
+  "p": "prir",
+  "t": "Dědičnost, rozmnožování a genetika",
+  "co": "Genetika uzavírá přírodopis: pohlavní a nepohlavní rozmnožování, dědičnost znaků, jednoduché příklady z praktického života a význam genetických informací pro vývoj organismů.",
+  "jak": [
+   "Vysvětlí rozdíl mezi pohlavním a nepohlavním rozmnožováním.",
+   "Uvede příklady dědičnosti v rodině, šlechtění nebo zdravotnictví.",
+   "Propojí dědičnost s rozmnožováním a vývojem organismů."
+  ],
+  "dal": "Biologie na střední škole a environmentální souvislosti v běžném životě.",
+  "rvp": "RVP ZV · Přírodopis · Obecná biologie a genetika.",
+  "doma": [
+   "Na rodinných znacích opatrně ukažte, co může a nemusí být dědičné.",
+   "U potravin a šlechtění se ptejte, proč lidé vybírají určité vlastnosti rostlin a zvířat."
+  ],
+  "rvpRefs": [
+   "P-9-1-02",
+   "P-9-1-03"
   ]
  },
  {
@@ -2864,24 +3234,6 @@
   ]
  },
  {
-  "id": "z7-svetadily",
-  "r": 7,
-  "p": "z",
-  "t": "Světadíly a oceány",
-  "co": "Regionální zeměpis světa: Afrika, Amerika, Asie, Austrálie a Oceánie, polární oblasti — přírodní podmínky, obyvatelstvo, státy a hospodářství. Evropa a Česko obvykle přijdou na řadu v 8.–9. ročníku.",
-  "jak": [
-   "Ukáže na mapě světadíly, oceány a významné státy.",
-   "Porovná přírodní podmínky dvou oblastí (poušť × deštný les).",
-   "Pracuje s tematickými mapami v atlase (podnebí, hustota zalidnění)."
-  ],
-  "dal": "Evropa a Česká republika v 8.–9. ročníku.",
-  "rvp": "RVP ZV · Člověk a příroda — Zeměpis · 2. stupeň (regiony světa).",
-  "doma": [
-   "Kvíz u večeře: hlavní města, vlajky, oceány.",
-   "U cestopisů hledejte místa na mapě."
-  ]
- },
- {
   "id": "tv7-lyzak",
   "r": 7,
   "p": "tv",
@@ -2915,25 +3267,6 @@
   "doma": [
    "Rozeberte spolu reklamu: čím přesně vás chce dostat?",
    "Krátká návštěva galerie s jedním úkolem funguje líp než dlouhá bez cíle."
-  ]
- },
- {
-  "id": "prir7-obratlovci",
-  "r": 7,
-  "p": "prir",
-  "t": "Obratlovci a vyšší rostliny",
-  "co": "Sedmý ročník přírodopisu obvykle patří zoologii obratlovců (ryby, obojživelníci, plazi, ptáci, savci) a botanice vyšších rostlin — stavba rostlinného těla, fotosyntéza prakticky, poznávání běžných druhů. Herbář nebo poznávačky ke klasice předmětu patří.",
-  "jak": [
-   "Zařadí běžné živočichy do skupin obratlovců a popíše jejich znaky.",
-   "Popíše části kvetoucí rostliny a jejich funkce.",
-   "Pozná běžné stromy a rostliny v okolí (poznávačka)."
-  ],
-  "dal": "Biologie člověka v 8. ročníku.",
-  "dalId": "prir8-clovek",
-  "rvp": "RVP ZV · Člověk a příroda — Přírodopis · 2. stupeň (biologie živočichů a rostlin).",
-  "doma": [
-   "Poznávačka venku: 10 stromů a 10 ptáků z okolí.",
-   "ZOO s úkolem: najdi tři savce, kteří nežijí v Evropě."
   ]
  },
  {
@@ -3314,24 +3647,6 @@
   ]
  },
  {
-  "id": "prir8-clovek",
-  "r": 8,
-  "p": "prir",
-  "t": "Biologie člověka",
-  "co": "Tradiční náplň přírodopisu 8. ročníku: podrobně všechny orgánové soustavy člověka, od kostry a svalů přes oběhovou a nervovou soustavu po rozmnožování a vývin. Součástí je první pomoc, zdravý životní styl a prevence rizikového chování.",
-  "jak": [
-   "Popíše stavbu a funkci hlavních orgánových soustav.",
-   "Vysvětlí, co poškozuje srdce a cévy a jak tomu předcházet.",
-   "Předvede základy první pomoci (stabilizovaná poloha, resuscitace na modelu)."
-  ],
-  "dal": "Genetika a geologie v 9. ročníku.",
-  "rvp": "RVP ZV · Člověk a příroda — Přírodopis · 2. stupeň (biologie člověka).",
-  "doma": [
-   "Absolvujte spolu kurz první pomoci — hodí se oběma.",
-   "Spánek, jídlo a mobil řešte přes to, co se učí o těle."
-  ]
- },
- {
   "id": "d8-novovek",
   "r": 8,
   "p": "d",
@@ -3461,25 +3776,6 @@
    "VO-9-4-09",
    "VO-9-4-10",
    "VO-9-4-11"
-  ]
- },
- {
-  "id": "z8-evropa",
-  "r": 8,
-  "p": "z",
-  "t": "Evropa",
-  "co": "Regionální zeměpis Evropy: přírodní poměry, státy a jejich hlavní města, obyvatelstvo, hospodářství a Evropská unie. Sousedé Česka dostávají zvláštní pozornost — a s nimi i otázka, jak Evropa drží pohromadě.",
-  "jak": [
-   "Ukáže na mapě evropské státy a významná města.",
-   "Porovná jižní a severní Evropu (podnebí, hospodářství).",
-   "Vysvětlí, co je EU a co členství znamená pro ČR."
-  ],
-  "dal": "Česká republika a globální souvislosti v 9. ročníku.",
-  "dalId": "z9-cr",
-  "rvp": "RVP ZV · Člověk a příroda — Zeměpis · 2. stupeň (regiony světa — Evropa).",
-  "doma": [
-   "Naplánujte spolu (klidně fiktivní) eurotrip: státy, měny, vzdálenosti.",
-   "U zpráv ze světa hledejte zemi na mapě."
   ]
  },
  {
@@ -3698,42 +3994,6 @@
    "VO-9-5-01",
    "VO-9-5-02",
    "VO-9-5-03"
-  ]
- },
- {
-  "id": "z9-cr",
-  "r": 9,
-  "p": "z",
-  "t": "Česká republika a svět v souvislostech",
-  "co": "Zeměpis se vrací domů: přírodní podmínky ČR, kraje a regiony, obyvatelstvo, průmysl a zemědělství, doprava a cestovní ruch. K tomu globální souvislosti — globalizace, klimatická změna, udržitelnost. Detailněji než vlastivěda na 1. stupni a s prací s daty.",
-  "jak": [
-   "Charakterizuje svůj kraj (příroda, hospodářství, zajímavosti).",
-   "Pracuje s daty o obyvatelstvu (hustota, věková struktura).",
-   "Vysvětlí na příkladu, jak globální jev dopadá na Česko (sucho, ceny energií)."
-  ],
-  "dal": "Zeměpis a geografie na střední škole.",
-  "rvp": "RVP ZV · Člověk a příroda — Zeměpis · 2. stupeň (Česká republika; životní prostředí).",
-  "doma": [
-   "Prozkoumejte vlastní kraj: výlet s mapou a otázkami.",
-   "Podívejte se spolu na data o počasí a suchu (ČHMÚ)."
-  ]
- },
- {
-  "id": "prir9-geologie",
-  "r": 9,
-  "p": "prir",
-  "t": "Geologie a genetika",
-  "co": "Devátý ročník přírodopisu obvykle patří neživé přírodě — minerály, horniny, vývoj Země, geologická období, půdy — a základům genetiky a evoluce: DNA, dědičnost, Darwin. Uzavírá se tím obraz přírody od buňky po planetu.",
-  "jak": [
-   "Rozliší základní horniny a minerály a popíše jejich vznik.",
-   "Vysvětlí jednoduše, co je DNA a jak se dědí znaky.",
-   "Popíše princip evoluce přirozeným výběrem."
-  ],
-  "dal": "Biologie, chemie a geologie na střední škole.",
-  "rvp": "RVP ZV · Člověk a příroda — Přírodopis · 2. stupeň (neživá příroda; obecná biologie a genetika).",
-  "doma": [
-   "Sbírejte kameny z výletů a určujte je.",
-   "Kdo má po kom oči? Dědičnost na vlastní rodině."
   ]
  },
  {

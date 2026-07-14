@@ -5545,6 +5545,745 @@
     "document": "RVP ZV 2023",
     "section": "5.6.2"
    }
+  },
+  {
+   "id": "P-9-1-01",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Obecná biologie a genetika",
+   "text": "rozliší základní projevy a podmínky života, orientuje se v daném přehledu vývoje organismů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir6-bunka"
+   ]
+  },
+  {
+   "id": "P-9-1-02",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Obecná biologie a genetika",
+   "text": "vysvětlí podstatu pohlavního a nepohlavního rozmnožování a jeho význam z hlediska dědičnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir9-genetika"
+   ]
+  },
+  {
+   "id": "P-9-1-03",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Obecná biologie a genetika",
+   "text": "uvede příklady dědičnosti v praktickém životě",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir9-genetika"
+   ]
+  },
+  {
+   "id": "P-9-1-04",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Obecná biologie a genetika",
+   "text": "uvede na příkladech z běžného života význam virů a bakterií v přírodě i pro člověka",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir6-mikrosvet-houby"
+   ]
+  },
+  {
+   "id": "P-9-2-01",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie hub",
+   "text": "rozpozná naše nejznámější jedlé a jedovaté houby s plodnicemi a porovná je podle charakteristických znaků",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir6-mikrosvet-houby"
+   ]
+  },
+  {
+   "id": "P-9-3-01",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie rostlin",
+   "text": "odvodí na základě pozorování uspořádání rostlinného těla od buňky přes pletiva až k jednotlivým orgánům",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir7-rostliny"
+   ]
+  },
+  {
+   "id": "P-9-3-02",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie rostlin",
+   "text": "vysvětlí princip základních rostlinných fyziologických procesů a jejich využití při pěstování rostlin",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir7-rostliny"
+   ]
+  },
+  {
+   "id": "P-9-3-03",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie rostlin",
+   "text": "rozlišuje základní systematické skupiny rostlin a určuje jejich význačné zástupce pomocí klíčů a atlasů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir7-rostliny"
+   ]
+  },
+  {
+   "id": "P-9-4-01",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie živočichů",
+   "text": "porovná základní vnější a vnitřní stavbu vybraných živočichů a vysvětlí funkci jednotlivých orgánů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir7-obratlovci"
+   ]
+  },
+  {
+   "id": "P-9-4-02",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie živočichů",
+   "text": "rozlišuje a porovná jednotlivé skupiny živočichů, určuje vybrané živočichy, zařazuje je do hlavních taxonomických skupin",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir7-obratlovci"
+   ]
+  },
+  {
+   "id": "P-9-4-03",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie živočichů",
+   "text": "odvodí na základě pozorování základní projevy chování živočichů v přírodě, na příkladech objasní jejich způsob života a přizpůsobení danému prostředí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir7-obratlovci"
+   ]
+  },
+  {
+   "id": "P-9-4-04",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie živočichů",
+   "text": "zhodnotí význam živočichů v přírodě i pro člověka; uplatňuje zásady bezpečného chování ve styku se živočichy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir7-obratlovci"
+   ]
+  },
+  {
+   "id": "P-9-5-01",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie člověka",
+   "text": "určí polohu a objasní stavbu a funkci orgánů a orgánových soustav lidského těla, vysvětlí jejich vztahy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir8-clovek"
+   ]
+  },
+  {
+   "id": "P-9-5-02",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie člověka",
+   "text": "orientuje se v základních vývojových stupních fylogeneze člověka",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir8-vyvoj-zdravi"
+   ]
+  },
+  {
+   "id": "P-9-5-03",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie člověka",
+   "text": "objasní vznik a vývin nového jedince od početí až do stáří",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir8-vyvoj-zdravi"
+   ]
+  },
+  {
+   "id": "P-9-5-04",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Biologie člověka",
+   "text": "rozlišuje příčiny, případně příznaky běžných nemocí a uplatňuje zásady jejich prevence a léčby",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir8-vyvoj-zdravi"
+   ]
+  },
+  {
+   "id": "P-9-6-01",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Neživá příroda",
+   "text": "rozpozná podle charakteristických vlastností vybrané nerosty a horniny s použitím určovacích pomůcek",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir9-geologie"
+   ]
+  },
+  {
+   "id": "P-9-6-02",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Neživá příroda",
+   "text": "rozlišuje důsledky vnitřních a vnějších geologických dějů, včetně geologického oběhu hornin i oběhu vody",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir9-geologie"
+   ]
+  },
+  {
+   "id": "P-9-6-03",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Neživá příroda",
+   "text": "uvede význam vlivu podnebí a počasí na rozvoj různých ekosystémů a charakterizuje mimořádné události způsobené výkyvy počasí a dalšími přírodními jevy, jejich doprovodné jevy a možné dopady i ochranu před nimi",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir9-geologie"
+   ]
+  },
+  {
+   "id": "P-9-7-01",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Základy ekologie",
+   "text": "uvede příklady výskytu organismů v určitém prostředí a vztahy mezi nimi",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir8-ekologie"
+   ]
+  },
+  {
+   "id": "P-9-7-02",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Základy ekologie",
+   "text": "na příkladu objasní základní princip existence živých a neživých složek ekosystému",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir8-ekologie"
+   ]
+  },
+  {
+   "id": "P-9-7-03",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Základy ekologie",
+   "text": "vysvětlí podstatu jednoduchých potravních řetězců v různých ekosystémech a zhodnotí jejich význam",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir8-ekologie"
+   ]
+  },
+  {
+   "id": "P-9-7-04",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Základy ekologie",
+   "text": "uvede příklady kladných i záporných vlivů člověka na životní prostředí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir8-ekologie"
+   ]
+  },
+  {
+   "id": "P-9-8-01",
+   "fieldId": "prirodopis",
+   "periodId": "2-stupen",
+   "topic": "Praktické poznávání přírody",
+   "text": "aplikuje praktické metody poznávání přírody",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.3"
+   },
+   "skillIds": [
+    "prir6-bunka"
+   ]
+  },
+  {
+   "id": "Z-9-1-01",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Geografické informace, zdroje dat, kartografie a topografie",
+   "text": "organizuje a přiměřeně hodnotí geografické informace a zdroje dat z dostupných kartografických produktů a elaborátů, z grafů, diagramů, statistických a dalších informačních zdrojů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z6-zeme"
+   ]
+  },
+  {
+   "id": "Z-9-1-02",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Geografické informace, zdroje dat, kartografie a topografie",
+   "text": "používá s porozuměním základní geografickou, topografickou a kartografickou terminologii",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z6-zeme"
+   ]
+  },
+  {
+   "id": "Z-9-2-01",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Přírodní obraz Země",
+   "text": "prokáže na konkrétních příkladech tvar planety Země, zhodnotí důsledky pohybů Země na život lidí a organismů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z6-prirodni-obraz"
+   ]
+  },
+  {
+   "id": "Z-9-2-02",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Přírodní obraz Země",
+   "text": "rozlišuje a porovnává složky a prvky přírodní sféry, jejich vzájemnou souvislost a podmíněnost, rozeznává, pojmenuje a klasifikuje tvary zemského povrchu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z6-prirodni-obraz"
+   ]
+  },
+  {
+   "id": "Z-9-2-03",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Přírodní obraz Země",
+   "text": "porovná působení vnitřních a vnějších procesů v přírodní sféře a jejich vliv na přírodu a na lidskou společnost",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z6-prirodni-obraz"
+   ]
+  },
+  {
+   "id": "Z-9-3-01",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Regiony světa",
+   "text": "lokalizuje na mapách světadíly, oceány a makroregiony světa podle zvolených kritérií, srovnává jejich postavení, rozvojová jádra a periferní zóny",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z7-svetadily"
+   ]
+  },
+  {
+   "id": "Z-9-3-02",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Regiony světa",
+   "text": "porovnává a přiměřeně hodnotí polohu, rozlohu, přírodní, kulturní, společenské, politické a hospodářské poměry, zvláštnosti a podobnosti, potenciál a bariéry jednotlivých světadílů, oceánů, vybraných makroregionů světa a vybraných modelových států",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z7-svetadily",
+    "z8-evropa"
+   ]
+  },
+  {
+   "id": "Z-9-3-03",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Regiony světa",
+   "text": "zvažuje, jaké změny ve vybraných regionech světa nastaly, nastávají, mohou nastat a co je příčinou zásadních změn v nich",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z7-svetadily",
+    "z8-evropa"
+   ]
+  },
+  {
+   "id": "Z-9-4-01",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Společenské a hospodářské prostředí",
+   "text": "posoudí na přiměřené úrovni prostorovou organizaci světové populace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z8-obyvatelstvo-sidla"
+   ]
+  },
+  {
+   "id": "Z-9-4-02",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Společenské a hospodářské prostředí",
+   "text": "posoudí, jak přírodní podmínky souvisejí s funkcí lidského sídla, pojmenuje obecné základní geografické znaky sídel",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z8-obyvatelstvo-sidla"
+   ]
+  },
+  {
+   "id": "Z-9-4-03",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Společenské a hospodářské prostředí",
+   "text": "zhodnotí přiměřeně strukturu, složky a funkce světového hospodářství, lokalizuje na mapách hlavní světové surovinové a energetické zdroje",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z8-hospodarstvi-politika"
+   ]
+  },
+  {
+   "id": "Z-9-4-04",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Společenské a hospodářské prostředí",
+   "text": "porovnává předpoklady a hlavní faktory pro územní rozmístění hospodářských aktivit",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z8-hospodarstvi-politika"
+   ]
+  },
+  {
+   "id": "Z-9-4-05",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Společenské a hospodářské prostředí",
+   "text": "porovnává státy světa a zájmové integrace států světa na základě podobných a odlišných znaků",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z8-hospodarstvi-politika"
+   ]
+  },
+  {
+   "id": "Z-9-4-06",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Společenské a hospodářské prostředí",
+   "text": "lokalizuje na mapách jednotlivých světadílů hlavní aktuální geopolitické změny a politické problémy v konkrétních světových regionech",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z8-hospodarstvi-politika"
+   ]
+  },
+  {
+   "id": "Z-9-5-01",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Životní prostředí",
+   "text": "porovnává různé krajiny jako součást pevninské části krajinné sféry, rozlišuje na konkrétních příkladech specifické znaky a funkce krajin",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z8-krajina-zivotni-prostredi"
+   ]
+  },
+  {
+   "id": "Z-9-5-02",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Životní prostředí",
+   "text": "uvádí konkrétní příklady přírodních a kulturních krajinných složek a prvků, prostorové rozmístění hlavních ekosystémů biomů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z8-krajina-zivotni-prostredi"
+   ]
+  },
+  {
+   "id": "Z-9-5-03",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Životní prostředí",
+   "text": "uvádí na vybraných příkladech závažné důsledky a rizika přírodních a společenských vlivů na životní prostředí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z8-krajina-zivotni-prostredi"
+   ]
+  },
+  {
+   "id": "Z-9-6-01",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Česká republika",
+   "text": "vymezí a lokalizuje místní oblast region podle bydliště nebo školy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z9-cr"
+   ]
+  },
+  {
+   "id": "Z-9-6-02",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Česká republika",
+   "text": "hodnotí na přiměřené úrovni přírodní, hospodářské a kulturní poměry místního regionu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z9-cr"
+   ]
+  },
+  {
+   "id": "Z-9-6-03",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Česká republika",
+   "text": "hodnotí a porovnává na přiměřené úrovni polohu, přírodní poměry, přírodní zdroje, lidský a hospodářský potenciál České republiky v evropském a světovém kontextu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z9-cr"
+   ]
+  },
+  {
+   "id": "Z-9-6-04",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Česká republika",
+   "text": "lokalizuje na mapách jednotlivé kraje České republiky a hlavní jádrové a periferní oblasti z hlediska osídlení a hospodářských aktivit",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z9-cr"
+   ]
+  },
+  {
+   "id": "Z-9-6-05",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Česká republika",
+   "text": "uvádí příklady účasti a působnosti České republiky ve světových mezinárodních a nadnárodních institucích, organizacích a integracích států",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z9-cr",
+    "z8-hospodarstvi-politika"
+   ]
+  },
+  {
+   "id": "Z-9-7-01",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Terénní geografická výuka, praxe a aplikace",
+   "text": "ovládá základy praktické topografie a orientace v terénu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z6-zeme"
+   ]
+  },
+  {
+   "id": "Z-9-7-02",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Terénní geografická výuka, praxe a aplikace",
+   "text": "aplikuje v terénu praktické postupy při pozorování, zobrazování a hodnocení krajiny",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z6-zeme",
+    "z8-krajina-zivotni-prostredi"
+   ]
+  },
+  {
+   "id": "Z-9-7-03",
+   "fieldId": "zemepis",
+   "periodId": "2-stupen",
+   "topic": "Terénní geografická výuka, praxe a aplikace",
+   "text": "uplatňuje v praxi zásady bezpečného pohybu a pobytu v krajině, uplatňuje v modelových situacích zásady bezpečného chování a jednání při mimořádných událostech",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.4"
+   },
+   "skillIds": [
+    "z6-zeme"
+   ]
   }
  ]
 }
