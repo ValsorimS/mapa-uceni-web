@@ -755,29 +755,93 @@
   "id": "inf4-zaklad",
   "r": 4,
   "p": "inf",
-  "t": "Nová informatika: data, roboti, bezpečí",
-  "co": "Od revize RVP (2021) je informatika povinný předmět už od 4. ročníku — a není to „psaní ve Wordu“. Základem je informatické myšlení: řešení problémů po krocích, jednoduché programování (často Scratch, Bee-bot a podobní roboti), práce s daty a bezpečné chování online.",
+  "t": "Informatika: data a modely",
+  "co": "Dítě se učí, že data nejsou jen čísla v počítači, ale informace kolem nás: výsledky ankety, měření, obrázek, mapa nebo jednoduché schéma. Zkouší z dat vyčíst odpověď a popsat situaci tak, aby jí rozuměl i někdo jiný.",
   "jak": [
-   "Sestaví jednoduchý postup (algoritmus) krok za krokem a najde v něm chybu.",
-   "Vytvoří jednoduchý program v blokovém prostředí.",
-   "Ví, co nesdílet online a komu říct o nepříjemné zkušenosti na internetu."
+   "Uvede příklady dat z běžného života a řekne, k čemu mohou pomoci.",
+   "Přečte jednoduchou tabulku, obrázkové schéma nebo model a odpoví podle něj na otázku.",
+   "Popíše situaci vlastními slovy a znázorní ji obrázkem, tabulkou nebo jednoduchým modelem."
   ],
-  "dal": "Informatika pokračuje povinně na celém 2. stupni.",
-  "rvp": "RVP ZV · Informatika · 1. stupeň (povinně 4.–5. ročník po revizi RVP ZV 2021).",
+  "dal": "Na data navazují jednoduché algoritmy a programování: dítě začne popisovat postupy krok za krokem.",
+  "dalId": "inf4-algoritmy",
+  "rvp": "RVP ZV · Informatika · 2. období · Data, informace a modelování.",
   "doma": [
-   "Scratch je zdarma — nechte si předvést, co dělali ve škole.",
-   "Pravidla pro internet domlouvejte společně, nezakazujte shora."
+   "Ptejte se nad grafy, jízdními řády nebo účtenkou: co z toho jde zjistit?",
+   "Nechte dítě vysvětlit vlastní obrázek nebo schéma tak, aby podle něj šel problém pochopit."
   ],
   "rvpRefs": [
    "I-5-1-01",
    "I-5-1-02",
-   "I-5-1-03",
+   "I-5-1-03"
+  ]
+ },
+ {
+  "id": "inf4-algoritmy",
+  "r": 4,
+  "p": "inf",
+  "t": "Informatika: algoritmy a roboti",
+  "co": "Základem nové informatiky je popsat řešení problému jako jasný postup. Dítě zkouší skládat příkazy, hledat opakující se vzory, ověřovat výsledek a opravovat chyby, často v blokovém programování nebo s jednoduchým robotem.",
+  "jak": [
+   "Sestaví postup z jednoduchých kroků a ověří, jestli vede ke správnému výsledku.",
+   "V blokovém prostředí vytvoří krátký program s opakováním nebo připraveným podprogramem.",
+   "Najde chybu v postupu nebo programu a zkusí ji opravit."
+  ],
+  "dal": "Programování se později rozšíří o větvení, proměnné a větší projekty na 2. stupni.",
+  "dalId": "inf5-systemy-data",
+  "rvp": "RVP ZV · Informatika · 2. období · Algoritmizace a programování.",
+  "doma": [
+   "Scratch nebo podobné blokové prostředí nechte dítěti předvést nahlas: co se stane po každém kroku?",
+   "U běžných činností si zkuste říct přesný návod: jak si připravit svačinu, jak dojít na zastávku."
+  ],
+  "rvpRefs": [
    "I-5-2-01",
    "I-5-2-02",
    "I-5-2-03",
-   "I-5-2-04",
+   "I-5-2-04"
+  ]
+ },
+ {
+  "id": "inf5-systemy-data",
+  "r": 5,
+  "p": "inf",
+  "t": "Informatika: systémy a evidence dat",
+  "co": "Dítě si všímá, že škola, knihovna, hra nebo rodinný kalendář jsou systémy složené z prvků a vztahů. Učí se zaznamenat data do tabulky nebo seznamu tak, aby s nimi šlo dál pracovat.",
+  "jak": [
+   "Rozpozná v jednoduchém systému prvky a vztahy mezi nimi.",
+   "Zapíše číselná i nečíselná data do připravené tabulky nebo seznamu.",
+   "Vysvětlí, proč je důležité zapisovat data jednotně a přehledně."
+  ],
+  "dal": "Na 2. stupni z toho vyrostou informační systémy, filtrování, řazení a automatizace zpracování dat.",
+  "dalId": "inf5-digitalni-bezpeci",
+  "rvp": "RVP ZV · Informatika · 2. období · Informační systémy.",
+  "doma": [
+   "Nechte dítě vést jednoduchý seznam knih, sportovních výsledků nebo úkolů.",
+   "U tabulky se ptejte, co je jeden záznam, co je vlastnost a co by se stalo při nepořádném zápisu."
+  ],
+  "rvpRefs": [
    "I-5-3-01",
-   "I-5-3-02",
+   "I-5-3-02"
+  ]
+ },
+ {
+  "id": "inf5-digitalni-bezpeci",
+  "r": 5,
+  "p": "inf",
+  "t": "Informatika: digitální zařízení a bezpečí",
+  "co": "Dítě pracuje s aplikacemi a soubory, rozumí základnímu propojení zařízení a učí se bezpečnému chování online. Nejde jen o zákaz rizik, ale o praktická pravidla: co sdílet, komu věřit a kdy požádat o pomoc.",
+  "jak": [
+   "Najde a spustí vhodnou aplikaci a pracuje s daty různého typu.",
+   "Popíše jednoduché propojení digitálních zařízení a rizika, která s tím souvisejí.",
+   "Dodržuje pravidla bezpečné práce s technologiemi a ví, komu říct o problému."
+  ],
+  "dal": "Na 2. stupni přibudou počítačové sítě, cloud, zabezpečení dat a digitální stopa.",
+  "dalId": "inf6-data-modelovani",
+  "rvp": "RVP ZV · Informatika · 2. období · Digitální technologie.",
+  "doma": [
+   "Pravidla internetu domlouvejte společně a vracejte se k nim u konkrétních situací.",
+   "Ukládání fotek, dokumentů a hesel vysvětlujte prakticky: kam se co ukládá a kdo se k tomu může dostat."
+  ],
+  "rvpRefs": [
    "I-5-4-01",
    "I-5-4-02",
    "I-5-4-03"
@@ -1301,36 +1365,99 @@
   ]
  },
  {
-  "id": "inf6-programovani",
+  "id": "inf6-data-modelovani",
   "r": 6,
   "p": "inf",
-  "t": "Informatika: programování a data",
-  "co": "Na 2. stupni informatika prohlubuje čtyři okruhy nové informatiky: data a jejich vizualizace, informační systémy, algoritmizace a programování (blokové prostředí, později i textové) a digitální technologie včetně počítačových sítí a bezpečnosti.",
+  "t": "Informatika: data, kódování a modely",
+  "co": "Na 2. stupni už žák s daty zachází vědoměji: hledá v nich informace, porovnává způsoby kódování a vytváří modely situací. Důležité je také poznat, kdy interpretace dat nebo model obsahuje chybu.",
   "jak": [
-   "Vytvoří program s podmínkami, cykly a proměnnými.",
-   "Uspořádá data do tabulky a vytvoří z nich graf.",
-   "Rozpozná podezřelý e-mail či odkaz a ví, jak reagovat."
+   "Získá z dat informaci a všimne si zavádějící nebo chybné interpretace.",
+   "Porovná různé způsoby kódování dat pro uložení nebo přenos.",
+   "Vytvoří jednoduchý model situace a umí ho porovnat s jiným řešením."
   ],
-  "dal": "Složitější projekty a základy robotiky v 8.–9. ročníku (dle ŠVP).",
-  "rvp": "RVP ZV · Informatika · 2. stupeň (povinně po revizi RVP ZV 2021).",
+  "dal": "Modelování pomáhá při návrhu algoritmů, tabulek i informačních systémů.",
+  "dalId": "inf6-programovani",
+  "rvp": "RVP ZV · Informatika · 2. stupeň · Data, informace a modelování.",
   "doma": [
-   "Nechte si předvést program a ptejte se, jak funguje.",
-   "Pravidla obrazovek domlouvejte společně — a dodržujte je i vy."
+   "U grafů a statistik se ptejte: co přesně data říkají a co už je jen výklad?",
+   "Nechte dítě nakreslit model problému před tím, než ho začne řešit v počítači."
   ],
   "rvpRefs": [
    "I-9-1-01",
    "I-9-1-02",
    "I-9-1-03",
-   "I-9-1-04",
+   "I-9-1-04"
+  ]
+ },
+ {
+  "id": "inf6-programovani",
+  "r": 6,
+  "p": "inf",
+  "t": "Informatika: algoritmy a programování",
+  "co": "Programování na 2. stupni už není jen skládání příkazů. Žák rozkládá problém na části, vybírá vhodný algoritmus, upravuje hotové postupy a tvoří přehledný program s opakováním, větvením a proměnnými.",
+  "jak": [
+   "Vysvětlí, jaký problém řeší daný algoritmus nebo program.",
+   "Rozdělí problém na menší části a navrhne kroky řešení.",
+   "Vytvoří a odladí program s opakováním, větvením a proměnnými."
+  ],
+  "dal": "Programování se propojuje s daty, tabulkami, robotikou a projekty podle ŠVP školy.",
+  "dalId": "inf7-informacni-systemy",
+  "rvp": "RVP ZV · Informatika · 2. stupeň · Algoritmizace a programování.",
+  "doma": [
+   "Nechte si předvést program a ptejte se, proč je řešení napsané právě takhle.",
+   "Při chybě podporujte ladění: co jsme čekali, co se stalo a který krok to mohl způsobit?"
+  ],
+  "rvpRefs": [
    "I-9-2-01",
    "I-9-2-02",
    "I-9-2-03",
    "I-9-2-05",
-   "I-9-2-06",
+   "I-9-2-06"
+  ]
+ },
+ {
+  "id": "inf7-informacni-systemy",
+  "r": 7,
+  "p": "inf",
+  "t": "Informatika: informační systémy a tabulky",
+  "co": "Žák se učí chápat informační systém jako celek: uživatelé, data, pravidla, práva a rizika. Prakticky pracuje s tabulkami, řadí a filtruje data, používá funkce a navrhuje jednoduchou evidenci dat.",
+  "jak": [
+   "Vysvětlí účel informačního systému a pojmenuje jeho prvky a vztahy.",
+   "V tabulce nastaví řazení, filtrování a základní automatizované zpracování dat.",
+   "Navrhne jednoduchou evidenci dat, vyzkouší ji a navrhne úpravu."
+  ],
+  "dal": "Tabulky a evidence se propojují s většími datovými projekty, bezpečností a odpovědnou správou dat.",
+  "dalId": "inf8-digitalni-technologie",
+  "rvp": "RVP ZV · Informatika · 2. stupeň · Informační systémy.",
+  "doma": [
+   "Společně vytvořte tabulku něčeho reálného: rozpočet, tréninky, sbírka knih.",
+   "Ptejte se, kdo má mít k datům přístup a jaká chyba v systému by vadila."
+  ],
+  "rvpRefs": [
    "I-9-3-01",
    "I-9-3-02",
    "I-9-3-03",
-   "I-9-3-04",
+   "I-9-3-04"
+  ]
+ },
+ {
+  "id": "inf8-digitalni-technologie",
+  "r": 8,
+  "p": "inf",
+  "t": "Informatika: sítě, zařízení a digitální stopa",
+  "co": "Žák rozumí základům hardwaru, softwaru, operačních systémů, sítí a internetu. Učí se spravovat soubory, řešit běžné potíže, chránit data a přemýšlet o digitální stopě, zabezpečení a odpovědném chování online.",
+  "jak": [
+   "Popíše základní fungování počítače, operačního systému, sítě a internetu.",
+   "Ukládá a spravuje data ve vhodném formátu s ohledem na přenos nebo další zpracování.",
+   "Vysvětlí rizika ztráty či zneužití dat a používá základní zabezpečovací postupy."
+  ],
+  "dal": "Na informatiku navazují digitální kompetence ve všech předmětech i běžném životě.",
+  "rvp": "RVP ZV · Informatika · 2. stupeň · Digitální technologie.",
+  "doma": [
+   "Projděte společně zálohování, správce hesel a dvoufaktorové ověření na konkrétních účtech.",
+   "U sociálních sítí řešte digitální stopu prakticky: co o nás zůstává, kdo to vidí a jak dlouho."
+  ],
+  "rvpRefs": [
    "I-9-4-01",
    "I-9-4-02",
    "I-9-4-03",

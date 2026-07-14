@@ -2359,7 +2359,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf4-zaklad"
+    "inf4-algoritmy"
    ]
   },
   {
@@ -2374,7 +2374,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf4-zaklad"
+    "inf4-algoritmy"
    ]
   },
   {
@@ -2389,7 +2389,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf4-zaklad"
+    "inf4-algoritmy"
    ]
   },
   {
@@ -2404,7 +2404,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf4-zaklad"
+    "inf4-algoritmy"
    ]
   },
   {
@@ -2419,7 +2419,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf4-zaklad"
+    "inf5-systemy-data"
    ]
   },
   {
@@ -2434,7 +2434,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf4-zaklad"
+    "inf5-systemy-data"
    ]
   },
   {
@@ -2449,7 +2449,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf4-zaklad"
+    "inf5-digitalni-bezpeci"
    ]
   },
   {
@@ -2464,7 +2464,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf4-zaklad"
+    "inf5-digitalni-bezpeci"
    ]
   },
   {
@@ -2479,7 +2479,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf4-zaklad"
+    "inf5-digitalni-bezpeci"
    ]
   },
   {
@@ -2494,7 +2494,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf6-data-modelovani"
    ]
   },
   {
@@ -2509,7 +2509,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf6-data-modelovani"
    ]
   },
   {
@@ -2524,7 +2524,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf6-data-modelovani"
    ]
   },
   {
@@ -2539,7 +2539,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf6-data-modelovani"
    ]
   },
   {
@@ -2629,7 +2629,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf7-informacni-systemy"
    ]
   },
   {
@@ -2644,7 +2644,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf7-informacni-systemy"
    ]
   },
   {
@@ -2659,7 +2659,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf7-informacni-systemy"
    ]
   },
   {
@@ -2674,7 +2674,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf7-informacni-systemy"
    ]
   },
   {
@@ -2689,7 +2689,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf8-digitalni-technologie"
    ]
   },
   {
@@ -2704,7 +2704,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf8-digitalni-technologie"
    ]
   },
   {
@@ -2719,7 +2719,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf8-digitalni-technologie"
    ]
   },
   {
@@ -2734,7 +2734,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf8-digitalni-technologie"
    ]
   },
   {
@@ -2749,7 +2749,7 @@
     "section": "5.3.1"
    },
    "skillIds": [
-    "inf6-programovani"
+    "inf8-digitalni-technologie"
    ]
   }
  ]
