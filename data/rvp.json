@@ -3321,6 +3321,598 @@
    "skillIds": [
     "ncj9-psani"
    ]
+  },
+  {
+   "id": "ČJS-3-1-01",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Místo, kde žijeme",
+   "text": "vyznačí v jednoduchém plánu místo svého bydliště a školy, cestu na určené místo a rozliší možná nebezpečí v nejbližším okolí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv1-skola"
+   ]
+  },
+  {
+   "id": "ČJS-3-1-02",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Místo, kde žijeme",
+   "text": "začlení svou obec (město) do příslušného kraje a obslužného centra ČR, pozoruje a popíše změny v nejbližším okolí, obci (městě)",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv1-skola"
+   ]
+  },
+  {
+   "id": "ČJS-3-2-01",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Lidé kolem nás",
+   "text": "rozlišuje blízké příbuzenské vztahy v rodině, role rodinných příslušníků a vztahy mezi nimi, projevuje toleranci k přirozeným odlišnostem spolužáků i jiných lidí, jejich přednostem i nedostatkům",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv1-rodina-lide"
+   ]
+  },
+  {
+   "id": "ČJS-3-2-02",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Lidé kolem nás",
+   "text": "odvodí význam a potřebu různých povolání a pracovních činností",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv1-rodina-lide"
+   ]
+  },
+  {
+   "id": "ČJS-3-3-01",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Lidé a čas",
+   "text": "využívá časové údaje při řešení různých situací v denním životě, rozlišuje děj v minulosti, přítomnosti a budoucnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv2-cas"
+   ]
+  },
+  {
+   "id": "ČJS-3-3-02",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Lidé a čas",
+   "text": "pojmenuje některé rodáky, kulturní či historické památky, významné události regionu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv3-region-historie"
+   ]
+  },
+  {
+   "id": "ČJS-3-3-03",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Lidé a čas",
+   "text": "uplatňuje elementární poznatky o sobě, o rodině a činnostech člověka, o lidské společnosti, soužití, zvycích a o práci lidí; na příkladech porovnává minulost a současnost",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv3-region-historie"
+   ]
+  },
+  {
+   "id": "ČJS-3-4-01",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Rozmanitost přírody",
+   "text": "pozoruje, popíše a porovná viditelné proměny v přírodě v jednotlivých ročních obdobích",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv1-skola",
+    "prv3-priroda"
+   ]
+  },
+  {
+   "id": "ČJS-3-4-02",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Rozmanitost přírody",
+   "text": "roztřídí některé přírodniny podle nápadných určujících znaků, uvede příklady výskytu organismů ve známé lokalitě",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv3-priroda"
+   ]
+  },
+  {
+   "id": "ČJS-3-4-03",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Rozmanitost přírody",
+   "text": "provádí jednoduché pokusy u skupiny známých látek, určuje jejich společné a rozdílné vlastnosti a změří základní veličiny pomocí jednoduchých nástrojů a přístrojů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv3-priroda"
+   ]
+  },
+  {
+   "id": "ČJS-3-5-01",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "uplatňuje základní hygienické, režimové a jiné zdravotně preventivní návyky s využitím elementárních znalostí o lidském těle; projevuje vhodným chováním a činnostmi vztah ke zdraví",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv2-bezpeci-zdravi"
+   ]
+  },
+  {
+   "id": "ČJS-3-5-02",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "rozezná nebezpečí různého charakteru, využívá bezpečná místa pro hru a trávení volného času; uplatňuje základní pravidla bezpečného chování účastníka silničního provozu, jedná tak, aby neohrožoval zdraví své a zdraví jiných",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv2-bezpeci-zdravi"
+   ]
+  },
+  {
+   "id": "ČJS-3-5-03",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "chová se obezřetně při setkání s neznámými jedinci, odmítne komunikaci, která je mu nepříjemná; v případě potřeby požádá o pomoc pro sebe i pro jiné; ovládá způsoby komunikace s operátory tísňových linek",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv2-bezpeci-zdravi"
+   ]
+  },
+  {
+   "id": "ČJS-3-5-04",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "1-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "reaguje adekvátně na pokyny dospělých při mimořádných událostech",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "prv2-bezpeci-zdravi"
+   ]
+  },
+  {
+   "id": "ČJS-5-1-01",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Místo, kde žijeme",
+   "text": "určí a vysvětlí polohu svého bydliště nebo pobytu vzhledem ke krajině a státu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-cr"
+   ]
+  },
+  {
+   "id": "ČJS-5-1-02",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Místo, kde žijeme",
+   "text": "určí světové strany v přírodě i podle mapy, orientuje se podle nich a řídí se podle zásad bezpečného pohybu a pobytu v přírodě",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-cr"
+   ]
+  },
+  {
+   "id": "ČJS-5-1-03",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Místo, kde žijeme",
+   "text": "rozlišuje mezi náčrty, plány a základními typy map; vyhledává jednoduché údaje o přírodních podmínkách a sídlištích lidí na mapách naší republiky, Evropy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-cr",
+    "vla5-evropa-svet"
+   ]
+  },
+  {
+   "id": "ČJS-5-1-04",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Místo, kde žijeme",
+   "text": "vyhledá typické regionální zvláštnosti přírody, osídlení, hospodářství a kultury, jednoduchým způsobem posoudí jejich význam",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-cr"
+   ]
+  },
+  {
+   "id": "ČJS-5-1-05",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Místo, kde žijeme",
+   "text": "porovná způsob života a přírodu v naší vlasti i v jiných zemích",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla5-evropa-svet"
+   ]
+  },
+  {
+   "id": "ČJS-5-1-06",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Místo, kde žijeme",
+   "text": "rozlišuje hlavní orgány státní moci a některé jejich zástupce, symboly našeho státu a jejich význam",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-cr"
+   ]
+  },
+  {
+   "id": "ČJS-5-2-01",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Lidé kolem nás",
+   "text": "vyjádří na základě vlastních zkušeností základní vztahy mezi lidmi, vyvodí a dodržuje pravidla pro soužití ve škole, mezi chlapci a dívkami, v rodině, v obci (městě)",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-lide-pravidla"
+   ]
+  },
+  {
+   "id": "ČJS-5-2-02",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Lidé kolem nás",
+   "text": "rozpozná ve svém okolí jednání a chování, která se už nemohou tolerovat",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-lide-pravidla"
+   ]
+  },
+  {
+   "id": "ČJS-5-2-03",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Lidé kolem nás",
+   "text": "orientuje se v základních formách vlastnictví; používá peníze v běžných situacích, odhadne a zkontroluje cenu nákupu a vrácené peníze, na příkladu ukáže nemožnost realizace všech chtěných výdajů, vysvětlí, proč spořit, kdy si půjčovat a jak vracet dluhy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-lide-pravidla"
+   ]
+  },
+  {
+   "id": "ČJS-5-3-01",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Lidé a čas",
+   "text": "pracuje s časovými údaji a využívá zjištěných údajů k pochopení vztahů mezi ději a mezi jevy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-dejiny",
+    "vla5-dejiny"
+   ]
+  },
+  {
+   "id": "ČJS-5-3-02",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Lidé a čas",
+   "text": "využívá knihovny, sbírky muzeí a galerie jako informační zdroje pro pochopení minulosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-dejiny",
+    "vla5-dejiny"
+   ]
+  },
+  {
+   "id": "ČJS-5-3-03",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Lidé a čas",
+   "text": "srovnává a hodnotí na vybraných ukázkách způsob života a práce předků na našem území v minulosti a současnosti s využitím regionálních specifik",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "vla4-dejiny",
+    "vla5-dejiny"
+   ]
+  },
+  {
+   "id": "ČJS-5-4-01",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Rozmanitost přírody",
+   "text": "objevuje a zjišťuje propojenost prvků živé a neživé přírody, princip rovnováhy přírody a nachází souvislosti mezi konečným vzhledem přírody a činností člověka",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri4-ekosystemy"
+   ]
+  },
+  {
+   "id": "ČJS-5-4-02",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Rozmanitost přírody",
+   "text": "vysvětlí na základě elementárních poznatků o Zemi jako součásti vesmíru souvislost s rozdělením času a střídáním ročních období",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri4-zeme-vesmir"
+   ]
+  },
+  {
+   "id": "ČJS-5-4-03",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Rozmanitost přírody",
+   "text": "zkoumá základní společenstva ve vybraných lokalitách regionů, zdůvodní podstatné vzájemné vztahy mezi organismy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri4-ekosystemy"
+   ]
+  },
+  {
+   "id": "ČJS-5-4-04",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Rozmanitost přírody",
+   "text": "porovnává na základě pozorování základní projevy života na konkrétních organismech, prakticky třídí organismy do známých skupin, využívá k tomu i jednoduché klíče a atlasy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri4-ekosystemy"
+   ]
+  },
+  {
+   "id": "ČJS-5-4-05",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Rozmanitost přírody",
+   "text": "zhodnotí některé konkrétní činnosti člověka v přírodě a rozlišuje aktivity, které mohou prostředí i zdraví člověka podporovat nebo poškozovat",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri4-ekosystemy"
+   ]
+  },
+  {
+   "id": "ČJS-5-4-06",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Rozmanitost přírody",
+   "text": "založí jednoduchý pokus, naplánuje a zdůvodní postup, vyhodnotí a vysvětlí výsledky pokusu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri5-pokusy-latky"
+   ]
+  },
+  {
+   "id": "ČJS-5-5-01",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "využívá poznatky o lidském těle k podpoře vlastního zdravého způsobu života",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri5-telo"
+   ]
+  },
+  {
+   "id": "ČJS-5-5-02",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "rozlišuje jednotlivé etapy lidského života a orientuje se ve vývoji dítěte před a po jeho narození",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri5-telo"
+   ]
+  },
+  {
+   "id": "ČJS-5-5-03",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "účelně plánuje svůj čas pro učení, práci, zábavu a odpočinek podle vlastních potřeb s ohledem na oprávněné nároky jiných osob",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri5-bezpeci-zdravi"
+   ]
+  },
+  {
+   "id": "ČJS-5-5-04",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "uplatňuje účelné způsoby chování v situacích ohrožujících zdraví a v modelových situacích simulujících mimořádné události; vnímá dopravní situaci, správně ji vyhodnotí a vyvodí odpovídající závěry pro své chování jako chodec a cyklista",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri5-bezpeci-zdravi"
+   ]
+  },
+  {
+   "id": "ČJS-5-5-05",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "předvede v modelových situacích osvojené jednoduché způsoby odmítání návykových látek",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri5-bezpeci-zdravi"
+   ]
+  },
+  {
+   "id": "ČJS-5-5-06",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "uplatňuje základní dovednosti a návyky související s podporou zdraví a jeho preventivní ochranou",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri5-telo",
+    "pri5-bezpeci-zdravi"
+   ]
+  },
+  {
+   "id": "ČJS-5-5-07",
+   "fieldId": "clovek-a-jeho-svet",
+   "periodId": "2-obdobi",
+   "topic": "Člověk a jeho zdraví",
+   "text": "rozpozná život ohrožující zranění; ošetří drobná poranění a zajistí lékařskou pomoc",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.4.1"
+   },
+   "skillIds": [
+    "pri5-telo",
+    "pri5-bezpeci-zdravi"
+   ]
   }
  ]
 }

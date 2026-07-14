@@ -153,11 +153,39 @@
    "Popíše cestu do školy a ví, komu říct, když se něco děje."
   ],
   "dal": "Hodiny, kalendář a témata rodiny a domova ve 2. ročníku.",
-  "dalId": "prv2-cas",
+  "dalId": "prv1-rodina-lide",
   "rvp": "RVP ZV · Člověk a jeho svět · 1. období.",
   "doma": [
    "Povídejte si o dnech: „Jaký je dnes den? Co bylo včera?“",
    "Nechte dítě balit aktovku samo podle rozvrhu."
+  ],
+  "rvpRefs": [
+   "ČJS-3-1-01",
+   "ČJS-3-1-02",
+   "ČJS-3-4-01"
+  ]
+ },
+ {
+  "id": "prv1-rodina-lide",
+  "r": 1,
+  "p": "prv",
+  "t": "Rodina, spolužáci a povolání",
+  "co": "Dítě se učí pojmenovat blízké vztahy v rodině, rozumět rolím lidí kolem sebe a vnímat, že spolužáci i dospělí mohou být různí. Součástí je také první představa o povoláních a práci lidí.",
+  "jak": [
+   "Pojmenuje základní příbuzenské vztahy a role v rodině.",
+   "Dodržuje jednoduchá pravidla chování ve třídě a respektuje odlišnosti spolužáků.",
+   "Uvede příklady běžných povolání a řekne, proč jsou užitečná."
+  ],
+  "dal": "Na vztahy a pravidla navazuje orientace v čase, režimu dne a bezpečném chování.",
+  "dalId": "prv2-cas",
+  "rvp": "RVP ZV · Člověk a jeho svět · 1. období · Lidé kolem nás.",
+  "doma": [
+   "Povídejte si, kdo v rodině co dělá a jak si doma pomáháte.",
+   "Na procházce hádejte povolání podle míst a nástrojů: lékárna, obchod, stavba, ordinace."
+  ],
+  "rvpRefs": [
+   "ČJS-3-2-01",
+   "ČJS-3-2-02"
   ]
  },
  {
@@ -409,11 +437,39 @@
    "Odhadne, jak dlouho trvá minuta, hodina, den."
   ],
   "dal": "Převody jednotek času v matematice na 1. stupni.",
-  "dalId": "m5-prevody",
+  "dalId": "prv2-bezpeci-zdravi",
   "rvp": "RVP ZV · Člověk a jeho svět · 1. období (lidé a čas).",
   "doma": [
    "Pořiďte do dětského pokoje ručičkové hodiny.",
    "Ptejte se: „Za čtvrt hodiny vyrážíme — kolik bude?“"
+  ],
+  "rvpRefs": [
+   "ČJS-3-3-01"
+  ]
+ },
+ {
+  "id": "prv2-bezpeci-zdravi",
+  "r": 2,
+  "p": "prv",
+  "t": "Bezpečí, hygiena a zdraví",
+  "co": "Prvouka vede dítě k základní péči o zdraví a bezpečí: hygiena, režim dne, bezpečná hra, cesta do školy, kontakt s neznámými lidmi, tísňové linky a reakce na mimořádné situace.",
+  "jak": [
+   "Dodržuje základní hygienické a režimové návyky.",
+   "Pozná nebezpečnou situaci doma, venku i v dopravě a ví, jak se zachovat.",
+   "Ví, kdy požádat o pomoc a jak zavolat na tísňovou linku."
+  ],
+  "dal": "Bezpečí a zdraví se později rozšíří v přírodovědě o tělo, první pomoc a prevenci.",
+  "dalId": "prv3-region-historie",
+  "rvp": "RVP ZV · Člověk a jeho svět · 1. období · Člověk a jeho zdraví.",
+  "doma": [
+   "Nacvičte, co říct při volání na 112/155: kdo volá, kde je, co se stalo.",
+   "Na cestě do školy si ukažte bezpečná a riziková místa."
+  ],
+  "rvpRefs": [
+   "ČJS-3-5-01",
+   "ČJS-3-5-02",
+   "ČJS-3-5-03",
+   "ČJS-3-5-04"
   ]
  },
  {
@@ -610,6 +666,29 @@
   ]
  },
  {
+  "id": "prv3-region-historie",
+  "r": 3,
+  "p": "prv",
+  "t": "Můj region, památky a minulost",
+  "co": "Dítě propojuje vlastní život s místem, kde žije: obec, region, místní památky, významné události a rozdíl mezi minulostí, současností a budoucností. Nejde o velký dějepis, ale o první porozumění času a proměnám života lidí.",
+  "jak": [
+   "Pojmenuje některou památku, významné místo nebo událost ve svém okolí.",
+   "Na příkladech porovná, jak se žilo dříve a jak se žije dnes.",
+   "Rozliší, co se stalo v minulosti, co se děje teď a co teprve bude."
+  ],
+  "dal": "Na regionální minulost navážou české pověsti a starší dějiny ve vlastivědě.",
+  "dalId": "vla4-dejiny",
+  "rvp": "RVP ZV · Člověk a jeho svět · 1. období · Lidé a čas.",
+  "doma": [
+   "Projděte si staré rodinné fotky a řekněte si, co je na nich jiné než dnes.",
+   "Navštivte místní památku, muzeum nebo knihovnu a spojte ji s příběhem místa."
+  ],
+  "rvpRefs": [
+   "ČJS-3-3-02",
+   "ČJS-3-3-03"
+  ]
+ },
+ {
   "id": "prv3-priroda",
   "r": 3,
   "p": "prv",
@@ -626,6 +705,11 @@
   "doma": [
    "Pěstujte cokoli na parapetu a pozorujte to.",
    "Na procházce třiďte: živé × neživé."
+  ],
+  "rvpRefs": [
+   "ČJS-3-4-01",
+   "ČJS-3-4-02",
+   "ČJS-3-4-03"
   ]
  },
  {
@@ -891,11 +975,65 @@
    "Určí světové strany na mapě i podle kompasu."
   ],
   "dal": "Evropa v 5. ročníku, zeměpis jako samostatný předmět od 6. ročníku.",
-  "dalId": "z6-zeme",
+  "dalId": "vla5-evropa-svet",
   "rvp": "RVP ZV · Člověk a jeho svět · 2. období (místo, kde žijeme).",
   "doma": [
    "Pověste mapu ČR na zeď k jídelnímu stolu.",
    "Na výletech hledejte na mapě kraj a nejbližší řeku."
+  ],
+  "rvpRefs": [
+   "ČJS-5-1-01",
+   "ČJS-5-1-02",
+   "ČJS-5-1-03",
+   "ČJS-5-1-04",
+   "ČJS-5-1-06"
+  ]
+ },
+ {
+  "id": "vla5-evropa-svet",
+  "r": 5,
+  "p": "vla",
+  "t": "Evropa, sousedé a život v jiných zemích",
+  "co": "Dítě se učí dívat za hranice České republiky: sousední státy, Evropa na mapě, rozdíly v přírodě a způsobu života, zkušenosti z cest a základní srovnání naší vlasti s jinými zeměmi.",
+  "jak": [
+   "Najde na mapě Evropu, Českou republiku a sousední státy.",
+   "Porovná jednoduchým způsobem život nebo přírodu u nás a v jiné zemi.",
+   "Vyhledá na mapě nebo v atlasu základní údaje o sídlech a přírodních podmínkách."
+  ],
+  "dal": "Na 2. stupni na to navazuje zeměpis Evropy a světa.",
+  "dalId": "z6-zeme",
+  "rvp": "RVP ZV · Člověk a jeho svět · 2. období · Místo, kde žijeme.",
+  "doma": [
+   "Při cestování nebo u zpráv vždy najděte místo na mapě.",
+   "Srovnávejte běžné věci: počasí, jídlo, škola, doprava, jazyk."
+  ],
+  "rvpRefs": [
+   "ČJS-5-1-03",
+   "ČJS-5-1-05"
+  ]
+ },
+ {
+  "id": "vla4-lide-pravidla",
+  "r": 4,
+  "p": "vla",
+  "t": "Soužití, pravidla a peníze",
+  "co": "Vlastivěda rozšiřuje pohled na vztahy ve škole, rodině a obci. Dítě se učí rozpoznat pravidla soužití, netolerovatelné chování a základní finanční situace: cena nákupu, vrácené peníze, přání versus možnosti, spoření a půjčování.",
+  "jak": [
+   "Vysvětlí pravidla soužití ve škole, rodině a obci na konkrétních příkladech.",
+   "Rozpozná chování, které ubližuje nebo porušuje práva druhých.",
+   "Odhadne cenu nákupu, zkontroluje vrácené peníze a vysvětlí, proč nejde mít všechno najednou."
+  ],
+  "dal": "Na 2. stupni se podobná témata rozvíjejí ve výchově k občanství.",
+  "dalId": "ov6-obec",
+  "rvp": "RVP ZV · Člověk a jeho svět · 2. období · Lidé kolem nás.",
+  "doma": [
+   "Nechte dítě zaplatit drobný nákup a zkontrolovat účtenku.",
+   "U konfliktů se ptejte: jaké pravidlo tu chrání koho?"
+  ],
+  "rvpRefs": [
+   "ČJS-5-2-01",
+   "ČJS-5-2-02",
+   "ČJS-5-2-03"
   ]
  },
  {
@@ -910,11 +1048,16 @@
    "Vysvětlí, čím byli významní Cyril a Metoděj."
   ],
   "dal": "Novější české dějiny v 5. ročníku, systematický dějepis od 6. ročníku.",
-  "dalId": "d6-pravek",
+  "dalId": "vla5-dejiny",
   "rvp": "RVP ZV · Člověk a jeho svět · 2. období (lidé a čas).",
   "doma": [
    "Čtěte Staré pověsti české před spaním.",
    "Navštivte hrad v okolí a spojte ho s dobou, kdy vznikl."
+  ],
+  "rvpRefs": [
+   "ČJS-5-3-01",
+   "ČJS-5-3-02",
+   "ČJS-5-3-03"
   ]
  },
  {
@@ -929,11 +1072,39 @@
    "Vysvětlí, proč do rybníka nepatří odpadky — co to udělá s řetězcem."
   ],
   "dal": "Lidské tělo v 5. ročníku, přírodopis od 6. ročníku.",
-  "dalId": "pri5-telo",
+  "dalId": "pri4-zeme-vesmir",
   "rvp": "RVP ZV · Člověk a jeho svět · 2. období (rozmanitost přírody).",
   "doma": [
    "Pozorujte jeden strom celý rok — každý měsíc fotka.",
    "U rybníka počítejte druhy: co všechno tu žije?"
+  ],
+  "rvpRefs": [
+   "ČJS-5-4-01",
+   "ČJS-5-4-03",
+   "ČJS-5-4-04",
+   "ČJS-5-4-05"
+  ]
+ },
+ {
+  "id": "pri4-zeme-vesmir",
+  "r": 4,
+  "p": "pri",
+  "t": "Země, vesmír a střídání ročních období",
+  "co": "Přírodověda ukazuje Zemi jako součást vesmíru. Dítě si propojí otáčení Země, den a noc, oběh kolem Slunce, roční období a měření času s tím, co pozoruje venku během roku.",
+  "jak": [
+   "Vysvětlí jednoduchým způsobem střídání dne a noci a ročních období.",
+   "Popíše Zemi jako planetu sluneční soustavy.",
+   "Spojí pozorované změny v přírodě s časem, počasím a ročním obdobím."
+  ],
+  "dal": "Pozorování přírody pokračuje pokusy, měřením a zkoumáním látek.",
+  "dalId": "pri5-pokusy-latky",
+  "rvp": "RVP ZV · Člověk a jeho svět · 2. období · Rozmanitost přírody.",
+  "doma": [
+   "Sledujte východ/západ Slunce během roku a zapisujte rozdíly.",
+   "Použijte globus a lampu jako jednoduchý model Slunce a Země."
+  ],
+  "rvpRefs": [
+   "ČJS-5-4-02"
   ]
  },
  {
@@ -1187,6 +1358,28 @@
   ]
  },
  {
+  "id": "pri5-pokusy-latky",
+  "r": 5,
+  "p": "pri",
+  "t": "Jednoduché pokusy a vlastnosti látek",
+  "co": "Dítě se učí zkoumat přírodu postupem: otázka, plán, pokus, měření, výsledek a vysvětlení. Důraz je na jednoduché bezpečné pokusy se známými látkami a schopnost říct, co se změnilo a proč.",
+  "jak": [
+   "Naplánuje jednoduchý pokus a řekne, co bude pozorovat nebo měřit.",
+   "Použije jednoduché pomůcky a zaznamená výsledek.",
+   "Vyhodnotí, co pokus ukázal, a zkusí vysvětlit výsledek."
+  ],
+  "dal": "Na 2. stupni se pokusy rozvíjejí ve fyzice, chemii a přírodopisu.",
+  "dalId": "fy6-mereni",
+  "rvp": "RVP ZV · Člověk a jeho svět · 2. období · Rozmanitost přírody.",
+  "doma": [
+   "Dělejte bezpečné kuchyňské pokusy: rozpouštění, vypařování, míchání, měření teploty.",
+   "Před pokusem se ptejte: co si myslíš, že se stane, a podle čeho to poznáme?"
+  ],
+  "rvpRefs": [
+   "ČJS-5-4-06"
+  ]
+ },
+ {
   "id": "pri5-telo",
   "r": 5,
   "p": "pri",
@@ -1198,11 +1391,43 @@
    "Ví, jak přivolat pomoc a co říct na lince 155/112."
   ],
   "dal": "Podrobná biologie člověka v 8. ročníku přírodopisu.",
-  "dalId": "prir8-clovek",
+  "dalId": "pri5-bezpeci-zdravi",
   "rvp": "RVP ZV · Člověk a jeho svět · 2. období (člověk a jeho zdraví).",
   "doma": [
    "Mějte doma obrázkovou encyklopedii lidského těla.",
    "Mluvte o zdraví prakticky: proč spát, proč zelenina."
+  ],
+  "rvpRefs": [
+   "ČJS-5-5-01",
+   "ČJS-5-5-02",
+   "ČJS-5-5-06",
+   "ČJS-5-5-07"
+  ]
+ },
+ {
+  "id": "pri5-bezpeci-zdravi",
+  "r": 5,
+  "p": "pri",
+  "t": "Zdraví, bezpečí a první pomoc",
+  "co": "Na konci 1. stupně dítě propojuje poznatky o těle s praktickým zdravím: režim dne, prevence, bezpečné chování, dopravní situace, návykové látky, první pomoc a přivolání lékařské pomoci.",
+  "jak": [
+   "Naplánuje rozumný den s učením, odpočinkem, pohybem a spánkem.",
+   "V modelové situaci ukáže, jak odmítnout rizikové chování nebo návykovou látku.",
+   "Rozpozná vážné zranění, ošetří drobné poranění a ví, kdy volat pomoc."
+  ],
+  "dal": "Téma pokračuje ve výchově ke zdraví a v přírodopisu člověka na 2. stupni.",
+  "dalId": "vz6-zdravi",
+  "rvp": "RVP ZV · Člověk a jeho svět · 2. období · Člověk a jeho zdraví.",
+  "doma": [
+   "Projdi s dítětem domácí lékárničku a pravidla, na co sahat samo nesmí.",
+   "U dopravních situací se ptejte: co vidíš, co hrozí, co uděláš?"
+  ],
+  "rvpRefs": [
+   "ČJS-5-5-03",
+   "ČJS-5-5-04",
+   "ČJS-5-5-05",
+   "ČJS-5-5-06",
+   "ČJS-5-5-07"
   ]
  },
  {
@@ -1222,6 +1447,11 @@
   "doma": [
    "Rodinná historie: kdo z rodiny zažil rok 1989? Vyprávějte.",
    "O státních svátcích si řekněte, proč je zrovna volno."
+  ],
+  "rvpRefs": [
+   "ČJS-5-3-01",
+   "ČJS-5-3-02",
+   "ČJS-5-3-03"
   ]
  },
  {
