@@ -1,321 +1,1293 @@
 {
-  "meta": {
-    "id": "rvp-zv-2023",
-    "title": "Rámcový vzdělávací program pro základní vzdělávání",
-    "shortTitle": "RVP ZV 2023",
-    "publisher": "MŠMT",
-    "effectiveFrom": "2023-09-01",
-    "sourceUrl": "https://www.edu.cz/wp-content/uploads/2023/07/RVP_ZV_2023_cista_verze.pdf",
-    "sourcePageUrl": "https://edu.gov.cz/rvp-zv-ramcovy-vzdelavaci-program-pro-zakladni-vzdelavani",
-    "notes": [
-      "RVP ZV stanovuje závazný rámec, nikoli přesné rozložení učiva do jednotlivých ročníků.",
-      "Ročníkové zařazení na webu je orientační a vychází z běžné školní praxe a ŠVP.",
-      "Doplňování očekávaných výstupů má probíhat po oborech, aby bylo možné průběžně kontrolovat pokrytí."
-    ]
+ "meta": {
+  "id": "rvp-zv-2023",
+  "title": "Rámcový vzdělávací program pro základní vzdělávání",
+  "shortTitle": "RVP ZV 2023",
+  "publisher": "MŠMT",
+  "effectiveFrom": "2023-09-01",
+  "sourceUrl": "https://www.edu.cz/wp-content/uploads/2023/07/RVP_ZV_2023_cista_verze.pdf",
+  "sourcePageUrl": "https://edu.gov.cz/rvp-zv-ramcovy-vzdelavaci-program-pro-zakladni-vzdelavani",
+  "notes": [
+   "RVP ZV stanovuje závazný rámec, nikoli přesné rozložení učiva do jednotlivých ročníků.",
+   "Ročníkové zařazení na webu je orientační a vychází z běžné školní praxe a ŠVP.",
+   "Doplňování očekávaných výstupů má probíhat po oborech, aby bylo možné průběžně kontrolovat pokrytí."
+  ]
+ },
+ "periods": [
+  {
+   "id": "1-obdobi",
+   "label": "1. období",
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "stage": 1
   },
-  "periods": [
-    {
-      "id": "1-obdobi",
-      "label": "1. období",
-      "grades": [1, 2, 3],
-      "stage": 1
-    },
-    {
-      "id": "2-obdobi",
-      "label": "2. období",
-      "grades": [4, 5],
-      "stage": 1
-    },
-    {
-      "id": "2-stupen",
-      "label": "2. stupeň",
-      "grades": [6, 7, 8, 9],
-      "stage": 2
-    }
-  ],
-  "areas": [
-    {
-      "id": "jazyk-a-jazykova-komunikace",
-      "code": "5.1",
-      "name": "Jazyk a jazyková komunikace",
-      "fields": [
-        {
-          "id": "cesky-jazyk-a-literatura",
-          "code": "5.1.1",
-          "name": "Český jazyk a literatura",
-          "skillSubjectKeys": ["cj"],
-          "outcomePrefix": "ČJL",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
-        },
-        {
-          "id": "cizi-jazyk",
-          "code": "5.1.2",
-          "name": "Cizí jazyk",
-          "skillSubjectKeys": ["aj"],
-          "outcomePrefix": "CJ",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
-        },
-        {
-          "id": "dalsi-cizi-jazyk",
-          "code": "5.1.3",
-          "name": "Další cizí jazyk",
-          "skillSubjectKeys": ["ncj"],
-          "outcomePrefix": "DCJ",
-          "periods": ["2-stupen"]
-        }
-      ]
-    },
-    {
-      "id": "matematika-a-jeji-aplikace",
-      "code": "5.2",
-      "name": "Matematika a její aplikace",
-      "fields": [
-        {
-          "id": "matematika-a-jeji-aplikace",
-          "code": "5.2.1",
-          "name": "Matematika a její aplikace",
-          "skillSubjectKeys": ["m"],
-          "outcomePrefix": "M",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
-        }
-      ]
-    },
-    {
-      "id": "informatika",
-      "code": "5.3",
-      "name": "Informatika",
-      "fields": [
-        {
-          "id": "informatika",
-          "code": "5.3.1",
-          "name": "Informatika",
-          "skillSubjectKeys": ["inf"],
-          "outcomePrefix": "I",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
-        }
-      ]
-    },
-    {
-      "id": "clovek-a-jeho-svet",
-      "code": "5.4",
-      "name": "Člověk a jeho svět",
-      "fields": [
-        {
-          "id": "clovek-a-jeho-svet",
-          "code": "5.4.1",
-          "name": "Člověk a jeho svět",
-          "skillSubjectKeys": ["prv", "pri", "vla"],
-          "outcomePrefix": "ČJS",
-          "periods": ["1-obdobi", "2-obdobi"]
-        }
-      ]
-    },
-    {
-      "id": "clovek-a-spolecnost",
-      "code": "5.5",
-      "name": "Člověk a společnost",
-      "fields": [
-        {
-          "id": "dejepis",
-          "code": "5.5.1",
-          "name": "Dějepis",
-          "skillSubjectKeys": ["d"],
-          "outcomePrefix": "D",
-          "periods": ["2-stupen"]
-        },
-        {
-          "id": "vychova-k-obcanstvi",
-          "code": "5.5.2",
-          "name": "Výchova k občanství",
-          "skillSubjectKeys": ["ov"],
-          "outcomePrefix": "VO",
-          "periods": ["2-stupen"]
-        }
-      ]
-    },
-    {
-      "id": "clovek-a-priroda",
-      "code": "5.6",
-      "name": "Člověk a příroda",
-      "fields": [
-        {
-          "id": "fyzika",
-          "code": "5.6.1",
-          "name": "Fyzika",
-          "skillSubjectKeys": ["fy"],
-          "outcomePrefix": "F",
-          "periods": ["2-stupen"]
-        },
-        {
-          "id": "chemie",
-          "code": "5.6.2",
-          "name": "Chemie",
-          "skillSubjectKeys": ["ch"],
-          "outcomePrefix": "CH",
-          "periods": ["2-stupen"]
-        },
-        {
-          "id": "prirodopis",
-          "code": "5.6.3",
-          "name": "Přírodopis",
-          "skillSubjectKeys": ["prir"],
-          "outcomePrefix": "P",
-          "periods": ["2-stupen"]
-        },
-        {
-          "id": "zemepis",
-          "code": "5.6.4",
-          "name": "Zeměpis (Geografie)",
-          "skillSubjectKeys": ["z"],
-          "outcomePrefix": "Z",
-          "periods": ["2-stupen"]
-        }
-      ]
-    },
-    {
-      "id": "umeni-a-kultura",
-      "code": "5.7",
-      "name": "Umění a kultura",
-      "fields": [
-        {
-          "id": "hudebni-vychova",
-          "code": "5.7.1",
-          "name": "Hudební výchova",
-          "skillSubjectKeys": ["hv"],
-          "outcomePrefix": "HV",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
-        },
-        {
-          "id": "vytvarna-vychova",
-          "code": "5.7.2",
-          "name": "Výtvarná výchova",
-          "skillSubjectKeys": ["vv"],
-          "outcomePrefix": "VV",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
-        }
-      ]
-    },
-    {
-      "id": "clovek-a-zdravi",
-      "code": "5.8",
-      "name": "Člověk a zdraví",
-      "fields": [
-        {
-          "id": "vychova-ke-zdravi",
-          "code": "5.8.1",
-          "name": "Výchova ke zdraví",
-          "skillSubjectKeys": ["vz"],
-          "outcomePrefix": "VZ",
-          "periods": ["2-stupen"]
-        },
-        {
-          "id": "telesna-vychova",
-          "code": "5.8.2",
-          "name": "Tělesná výchova",
-          "skillSubjectKeys": ["tv"],
-          "outcomePrefix": "TV",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
-        }
-      ]
-    },
-    {
-      "id": "clovek-a-svet-prace",
-      "code": "5.9",
-      "name": "Člověk a svět práce",
-      "fields": [
-        {
-          "id": "clovek-a-svet-prace",
-          "code": "5.9.1",
-          "name": "Člověk a svět práce",
-          "skillSubjectKeys": ["csp"],
-          "outcomePrefix": "ČSP",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"]
-        }
-      ]
-    },
-    {
-      "id": "doplnujici-vzdelavaci-obory",
-      "code": "5.10",
-      "name": "Doplňující vzdělávací obory",
-      "fields": [
-        {
-          "id": "dramaticka-vychova",
-          "code": "5.10.1",
-          "name": "Dramatická výchova",
-          "skillSubjectKeys": [],
-          "outcomePrefix": "DV",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"],
-          "optional": true
-        },
-        {
-          "id": "eticka-vychova",
-          "code": "5.10.2",
-          "name": "Etická výchova",
-          "skillSubjectKeys": [],
-          "outcomePrefix": "EV",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"],
-          "optional": true
-        },
-        {
-          "id": "filmova-a-audiovizualni-vychova",
-          "code": "5.10.3",
-          "name": "Filmová/Audiovizuální výchova",
-          "skillSubjectKeys": [],
-          "outcomePrefix": "FAV",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"],
-          "optional": true
-        },
-        {
-          "id": "tanecni-a-pohybova-vychova",
-          "code": "5.10.4",
-          "name": "Taneční a pohybová výchova",
-          "skillSubjectKeys": [],
-          "outcomePrefix": "TPV",
-          "periods": ["1-obdobi", "2-obdobi", "2-stupen"],
-          "optional": true
-        }
-      ]
-    }
-  ],
-  "crossCuttingThemes": [
-    {
-      "id": "osobnostni-a-socialni-vychova",
-      "name": "Osobnostní a sociální výchova"
-    },
-    {
-      "id": "vychova-demokratickeho-obcana",
-      "name": "Výchova demokratického občana"
-    },
-    {
-      "id": "vychova-k-mysleni-v-evropskych-a-globalnich-souvislostech",
-      "name": "Výchova k myšlení v evropských a globálních souvislostech"
-    },
-    {
-      "id": "multikulturni-vychova",
-      "name": "Multikulturní výchova"
-    },
-    {
-      "id": "environmentalni-vychova",
-      "name": "Environmentální výchova"
-    },
-    {
-      "id": "medialni-vychova",
-      "name": "Mediální výchova"
-    }
-  ],
-  "outcomeModel": {
-    "plannedShape": {
-      "id": "M-5-1-02",
-      "fieldId": "matematika-a-jeji-aplikace",
-      "periodId": "2-obdobi",
-      "topic": "Číslo a početní operace",
-      "text": "provádí písemné početní operace v oboru přirozených čísel",
-      "minimumLevel": false,
-      "source": {
-        "document": "RVP ZV 2023",
-        "section": "5.2.1"
-      },
-      "skillIds": ["m4-pisemne-scitani-odcitani", "m5-pisemne-nasobeni-deleni"]
-    }
+  {
+   "id": "2-obdobi",
+   "label": "2. období",
+   "grades": [
+    4,
+    5
+   ],
+   "stage": 1
+  },
+  {
+   "id": "2-stupen",
+   "label": "2. stupeň",
+   "grades": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "stage": 2
   }
+ ],
+ "areas": [
+  {
+   "id": "jazyk-a-jazykova-komunikace",
+   "code": "5.1",
+   "name": "Jazyk a jazyková komunikace",
+   "fields": [
+    {
+     "id": "cesky-jazyk-a-literatura",
+     "code": "5.1.1",
+     "name": "Český jazyk a literatura",
+     "skillSubjectKeys": [
+      "cj"
+     ],
+     "outcomePrefix": "ČJL",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ]
+    },
+    {
+     "id": "cizi-jazyk",
+     "code": "5.1.2",
+     "name": "Cizí jazyk",
+     "skillSubjectKeys": [
+      "aj"
+     ],
+     "outcomePrefix": "CJ",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ]
+    },
+    {
+     "id": "dalsi-cizi-jazyk",
+     "code": "5.1.3",
+     "name": "Další cizí jazyk",
+     "skillSubjectKeys": [
+      "ncj"
+     ],
+     "outcomePrefix": "DCJ",
+     "periods": [
+      "2-stupen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "matematika-a-jeji-aplikace",
+   "code": "5.2",
+   "name": "Matematika a její aplikace",
+   "fields": [
+    {
+     "id": "matematika-a-jeji-aplikace",
+     "code": "5.2.1",
+     "name": "Matematika a její aplikace",
+     "skillSubjectKeys": [
+      "m"
+     ],
+     "outcomePrefix": "M",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "informatika",
+   "code": "5.3",
+   "name": "Informatika",
+   "fields": [
+    {
+     "id": "informatika",
+     "code": "5.3.1",
+     "name": "Informatika",
+     "skillSubjectKeys": [
+      "inf"
+     ],
+     "outcomePrefix": "I",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "clovek-a-jeho-svet",
+   "code": "5.4",
+   "name": "Člověk a jeho svět",
+   "fields": [
+    {
+     "id": "clovek-a-jeho-svet",
+     "code": "5.4.1",
+     "name": "Člověk a jeho svět",
+     "skillSubjectKeys": [
+      "prv",
+      "pri",
+      "vla"
+     ],
+     "outcomePrefix": "ČJS",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "clovek-a-spolecnost",
+   "code": "5.5",
+   "name": "Člověk a společnost",
+   "fields": [
+    {
+     "id": "dejepis",
+     "code": "5.5.1",
+     "name": "Dějepis",
+     "skillSubjectKeys": [
+      "d"
+     ],
+     "outcomePrefix": "D",
+     "periods": [
+      "2-stupen"
+     ]
+    },
+    {
+     "id": "vychova-k-obcanstvi",
+     "code": "5.5.2",
+     "name": "Výchova k občanství",
+     "skillSubjectKeys": [
+      "ov"
+     ],
+     "outcomePrefix": "VO",
+     "periods": [
+      "2-stupen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "clovek-a-priroda",
+   "code": "5.6",
+   "name": "Člověk a příroda",
+   "fields": [
+    {
+     "id": "fyzika",
+     "code": "5.6.1",
+     "name": "Fyzika",
+     "skillSubjectKeys": [
+      "fy"
+     ],
+     "outcomePrefix": "F",
+     "periods": [
+      "2-stupen"
+     ]
+    },
+    {
+     "id": "chemie",
+     "code": "5.6.2",
+     "name": "Chemie",
+     "skillSubjectKeys": [
+      "ch"
+     ],
+     "outcomePrefix": "CH",
+     "periods": [
+      "2-stupen"
+     ]
+    },
+    {
+     "id": "prirodopis",
+     "code": "5.6.3",
+     "name": "Přírodopis",
+     "skillSubjectKeys": [
+      "prir"
+     ],
+     "outcomePrefix": "P",
+     "periods": [
+      "2-stupen"
+     ]
+    },
+    {
+     "id": "zemepis",
+     "code": "5.6.4",
+     "name": "Zeměpis (Geografie)",
+     "skillSubjectKeys": [
+      "z"
+     ],
+     "outcomePrefix": "Z",
+     "periods": [
+      "2-stupen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "umeni-a-kultura",
+   "code": "5.7",
+   "name": "Umění a kultura",
+   "fields": [
+    {
+     "id": "hudebni-vychova",
+     "code": "5.7.1",
+     "name": "Hudební výchova",
+     "skillSubjectKeys": [
+      "hv"
+     ],
+     "outcomePrefix": "HV",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ]
+    },
+    {
+     "id": "vytvarna-vychova",
+     "code": "5.7.2",
+     "name": "Výtvarná výchova",
+     "skillSubjectKeys": [
+      "vv"
+     ],
+     "outcomePrefix": "VV",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "clovek-a-zdravi",
+   "code": "5.8",
+   "name": "Člověk a zdraví",
+   "fields": [
+    {
+     "id": "vychova-ke-zdravi",
+     "code": "5.8.1",
+     "name": "Výchova ke zdraví",
+     "skillSubjectKeys": [
+      "vz"
+     ],
+     "outcomePrefix": "VZ",
+     "periods": [
+      "2-stupen"
+     ]
+    },
+    {
+     "id": "telesna-vychova",
+     "code": "5.8.2",
+     "name": "Tělesná výchova",
+     "skillSubjectKeys": [
+      "tv"
+     ],
+     "outcomePrefix": "TV",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "clovek-a-svet-prace",
+   "code": "5.9",
+   "name": "Člověk a svět práce",
+   "fields": [
+    {
+     "id": "clovek-a-svet-prace",
+     "code": "5.9.1",
+     "name": "Člověk a svět práce",
+     "skillSubjectKeys": [
+      "csp"
+     ],
+     "outcomePrefix": "ČSP",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "doplnujici-vzdelavaci-obory",
+   "code": "5.10",
+   "name": "Doplňující vzdělávací obory",
+   "fields": [
+    {
+     "id": "dramaticka-vychova",
+     "code": "5.10.1",
+     "name": "Dramatická výchova",
+     "skillSubjectKeys": [],
+     "outcomePrefix": "DV",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ],
+     "optional": true
+    },
+    {
+     "id": "eticka-vychova",
+     "code": "5.10.2",
+     "name": "Etická výchova",
+     "skillSubjectKeys": [],
+     "outcomePrefix": "EV",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ],
+     "optional": true
+    },
+    {
+     "id": "filmova-a-audiovizualni-vychova",
+     "code": "5.10.3",
+     "name": "Filmová/Audiovizuální výchova",
+     "skillSubjectKeys": [],
+     "outcomePrefix": "FAV",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ],
+     "optional": true
+    },
+    {
+     "id": "tanecni-a-pohybova-vychova",
+     "code": "5.10.4",
+     "name": "Taneční a pohybová výchova",
+     "skillSubjectKeys": [],
+     "outcomePrefix": "TPV",
+     "periods": [
+      "1-obdobi",
+      "2-obdobi",
+      "2-stupen"
+     ],
+     "optional": true
+    }
+   ]
+  }
+ ],
+ "crossCuttingThemes": [
+  {
+   "id": "osobnostni-a-socialni-vychova",
+   "name": "Osobnostní a sociální výchova"
+  },
+  {
+   "id": "vychova-demokratickeho-obcana",
+   "name": "Výchova demokratického občana"
+  },
+  {
+   "id": "vychova-k-mysleni-v-evropskych-a-globalnich-souvislostech",
+   "name": "Výchova k myšlení v evropských a globálních souvislostech"
+  },
+  {
+   "id": "multikulturni-vychova",
+   "name": "Multikulturní výchova"
+  },
+  {
+   "id": "environmentalni-vychova",
+   "name": "Environmentální výchova"
+  },
+  {
+   "id": "medialni-vychova",
+   "name": "Mediální výchova"
+  }
+ ],
+ "outcomeModel": {
+  "plannedShape": {
+   "id": "M-5-1-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "provádí písemné početní operace v oboru přirozených čísel",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m4-pisemne-scitani-odcitani",
+    "m5-pisemne-nasobeni-deleni"
+   ]
+  }
+ },
+ "outcomes": [
+  {
+   "id": "M-3-1-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "používá přirozená čísla k modelování reálných situací, počítá předměty v daném souboru, vytváří soubory s daným počtem prvků",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m1-do20"
+   ]
+  },
+  {
+   "id": "M-3-1-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "čte, zapisuje a porovnává přirozená čísla do 1 000, užívá a zapisuje vztah rovnosti a nerovnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m1-rada",
+    "m2-do100",
+    "m3-pisemne"
+   ]
+  },
+  {
+   "id": "M-3-1-03",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "užívá lineární uspořádání; zobrazí číslo na číselné ose",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m1-rada"
+   ]
+  },
+  {
+   "id": "M-3-1-04",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "provádí zpaměti jednoduché početní operace s přirozenými čísly",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m1-do20",
+    "m2-do100",
+    "m2-nasobilka",
+    "m3-nasobilka",
+    "m3-pisemne"
+   ]
+  },
+  {
+   "id": "M-3-1-05",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "řeší a tvoří úlohy, ve kterých aplikuje a modeluje osvojené početní operace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m1-do20",
+    "m2-do100",
+    "m2-nasobilka",
+    "m3-nasobilka",
+    "m3-pisemne"
+   ]
+  },
+  {
+   "id": "M-5-1-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "využívá při pamětném i písemném počítání komutativnost a asociativnost sčítání a násobení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m4-deleni"
+   ]
+  },
+  {
+   "id": "M-5-1-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "provádí písemné početní operace v oboru přirozených čísel",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m4-deleni"
+   ]
+  },
+  {
+   "id": "M-5-1-03",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "zaokrouhluje přirozená čísla, provádí odhady a kontroluje výsledky početních operací v oboru přirozených čísel",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m4-deleni"
+   ]
+  },
+  {
+   "id": "M-5-1-04",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "řeší a tvoří úlohy, ve kterých aplikuje osvojené početní operace v celém oboru přirozených čísel",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m4-deleni"
+   ]
+  },
+  {
+   "id": "M-5-1-05",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "modeluje a určí část celku, používá zápis ve formě zlomku",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m4-zlomky",
+    "m5-zlomky"
+   ]
+  },
+  {
+   "id": "M-5-1-06",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "porovná, sčítá a odčítá zlomky se stejným jmenovatelem v oboru kladných čísel",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m5-zlomky"
+   ]
+  },
+  {
+   "id": "M-5-1-07",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "přečte zápis desetinného čísla a vyznačí na číselné ose desetinné číslo dané hodnoty",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m5-desetinna"
+   ]
+  },
+  {
+   "id": "M-5-1-08",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Číslo a početní operace",
+   "text": "porozumí významu znaku „−“ pro zápis celého záporného čísla a toto číslo vyznačí na číselné ose",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m5-desetinna"
+   ]
+  },
+  {
+   "id": "M-3-2-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Závislosti, vztahy a práce s daty",
+   "text": "orientuje se v čase, provádí jednoduché převody jednotek času",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "M-3-2-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Závislosti, vztahy a práce s daty",
+   "text": "popisuje jednoduché závislosti z praktického života",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "M-3-2-03",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Závislosti, vztahy a práce s daty",
+   "text": "doplňuje tabulky, schémata, posloupnosti čísel",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m3-pisemne"
+   ]
+  },
+  {
+   "id": "M-5-2-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Závislosti, vztahy a práce s daty",
+   "text": "vyhledává, sbírá a třídí data",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m5-prevody"
+   ]
+  },
+  {
+   "id": "M-5-2-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Závislosti, vztahy a práce s daty",
+   "text": "čte a sestavuje jednoduché tabulky a diagramy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m5-prevody"
+   ]
+  },
+  {
+   "id": "M-3-3-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "rozezná, pojmenuje, vymodeluje a popíše základní rovinné útvary a jednoduchá tělesa; nachází v realitě jejich reprezentaci",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m1-tvary"
+   ]
+  },
+  {
+   "id": "M-3-3-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "porovnává velikost útvarů, měří a odhaduje délku úsečky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m2-usecka"
+   ]
+  },
+  {
+   "id": "M-3-3-03",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "1-obdobi",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "rozezná a modeluje jednoduché souměrné útvary v rovině",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "M-5-3-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "narýsuje a znázorní základní rovinné útvary; užívá jednoduché konstrukce",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m4-kolmice"
+   ]
+  },
+  {
+   "id": "M-5-3-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "sčítá a odčítá graficky úsečky; určí délku lomené čáry, obvod mnohoúhelníku sečtením délek jeho stran",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m5-prevody",
+    "m5-obsah"
+   ]
+  },
+  {
+   "id": "M-5-3-03",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "sestrojí rovnoběžky a kolmice",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m4-kolmice"
+   ]
+  },
+  {
+   "id": "M-5-3-04",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "určí obsah obrazce pomocí čtvercové sítě a užívá základní jednotky obsahu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m5-obsah"
+   ]
+  },
+  {
+   "id": "M-5-3-05",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "rozpozná a znázorní ve čtvercové síti jednoduché osově souměrné útvary a určí osu souměrnosti útvaru překládáním papíru",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "M-5-4-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-obdobi",
+   "topic": "Nestandardní aplikační úlohy a problémy",
+   "text": "řeší jednoduché praktické slovní úlohy a problémy, jejichž řešení je do značné míry nezávislé na obvyklých postupech a algoritmech školské matematiky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "M-9-1-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Číslo a proměnná",
+   "text": "provádí početní operace v oboru celých a racionálních čísel; užívá ve výpočtech druhou mocninu a odmocninu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m6-desetinna",
+    "m7-zlomky",
+    "m7-cela",
+    "m8-mocniny"
+   ]
+  },
+  {
+   "id": "M-9-1-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Číslo a proměnná",
+   "text": "zaokrouhluje a provádí odhady s danou přesností, účelně využívá kalkulátor",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m6-desetinna",
+    "m7-cela"
+   ]
+  },
+  {
+   "id": "M-9-1-03",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Číslo a proměnná",
+   "text": "modeluje a řeší situace s využitím dělitelnosti v oboru přirozených čísel",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m6-delitelnost"
+   ]
+  },
+  {
+   "id": "M-9-1-04",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Číslo a proměnná",
+   "text": "užívá různé způsoby kvantitativního vyjádření vztahu celek-část",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m7-zlomky",
+    "m7-pomer",
+    "m7-procenta"
+   ]
+  },
+  {
+   "id": "M-9-1-05",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Číslo a proměnná",
+   "text": "řeší modelováním a výpočtem situace vyjádřené poměrem; pracuje s měřítky map a plánů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m7-pomer"
+   ]
+  },
+  {
+   "id": "M-9-1-06",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Číslo a proměnná",
+   "text": "řeší aplikační úlohy na procenta",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m7-procenta"
+   ]
+  },
+  {
+   "id": "M-9-1-07",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Číslo a proměnná",
+   "text": "matematizuje jednoduché reálné situace s využitím proměnných; určí hodnotu výrazu, sčítá a násobí mnohočleny, provádí rozklad mnohočlenu na součin",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m8-vyrazy"
+   ]
+  },
+  {
+   "id": "M-9-1-08",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Číslo a proměnná",
+   "text": "formuluje a řeší reálnou situaci pomocí rovnic a jejich soustav",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m8-rovnice",
+    "m9-rovnice"
+   ]
+  },
+  {
+   "id": "M-9-1-09",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Číslo a proměnná",
+   "text": "analyzuje a řeší jednoduché problémy, modeluje konkrétní situace, v nichž využívá matematický aparát v oboru celých a racionálních čísel",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m6-desetinna",
+    "m7-zlomky",
+    "m7-cela",
+    "m8-vyrazy",
+    "m8-rovnice",
+    "m9-rovnice"
+   ]
+  },
+  {
+   "id": "M-9-2-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Závislosti, vztahy a práce s daty",
+   "text": "vyhledává, vyhodnocuje a zpracovává data",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m9-funkce"
+   ]
+  },
+  {
+   "id": "M-9-2-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Závislosti, vztahy a práce s daty",
+   "text": "porovnává soubory dat",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "M-9-2-03",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Závislosti, vztahy a práce s daty",
+   "text": "určuje vztah přímé anebo nepřímé úměrnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m7-pomer"
+   ]
+  },
+  {
+   "id": "M-9-2-04",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Závislosti, vztahy a práce s daty",
+   "text": "vyjádří funkční vztah tabulkou, rovnicí, grafem",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m9-funkce"
+   ]
+  },
+  {
+   "id": "M-9-2-05",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Závislosti, vztahy a práce s daty",
+   "text": "matematizuje jednoduché reálné situace s využitím funkčních vztahů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m9-funkce"
+   ]
+  },
+  {
+   "id": "M-9-3-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "zdůvodňuje a využívá polohové a metrické vlastnosti základních rovinných útvarů při řešení úloh a jednoduchých praktických problémů; využívá potřebnou matematickou symboliku",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m8-mocniny"
+   ]
+  },
+  {
+   "id": "M-9-3-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "charakterizuje a třídí základní rovinné útvary",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m8-kruh"
+   ]
+  },
+  {
+   "id": "M-9-3-03",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "určuje velikost úhlu měřením a výpočtem",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m6-uhly"
+   ]
+  },
+  {
+   "id": "M-9-3-04",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "odhaduje a vypočítá obsah a obvod základních rovinných útvarů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m8-mocniny",
+    "m8-kruh"
+   ]
+  },
+  {
+   "id": "M-9-3-05",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "využívá pojem množina všech bodů dané vlastnosti k charakteristice útvaru a k řešení konstrukčních úloh",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "M-9-3-06",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "načrtne a sestrojí rovinné útvary",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m6-uhly",
+    "m6-soumernost"
+   ]
+  },
+  {
+   "id": "M-9-3-07",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "užívá k argumentaci a při výpočtech věty o shodnosti a podobnosti trojúhelníků",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m9-podobnost"
+   ]
+  },
+  {
+   "id": "M-9-3-08",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "načrtne a sestrojí obraz rovinného útvaru ve středové a osové souměrnosti, určí osově a středově souměrný útvar",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m6-soumernost"
+   ]
+  },
+  {
+   "id": "M-9-3-09",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "určuje a charakterizuje základní prostorové útvary, analyzuje jejich vlastnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m8-kruh",
+    "m9-podobnost"
+   ]
+  },
+  {
+   "id": "M-9-3-10",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "odhaduje a vypočítá objem a povrch těles",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m8-kruh",
+    "m9-podobnost"
+   ]
+  },
+  {
+   "id": "M-9-3-11",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "načrtne a sestrojí sítě základních těles",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m8-kruh",
+    "m9-podobnost"
+   ]
+  },
+  {
+   "id": "M-9-3-12",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "načrtne a sestrojí obraz jednoduchých těles v rovině",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m9-podobnost"
+   ]
+  },
+  {
+   "id": "M-9-3-13",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Geometrie v rovině a v prostoru",
+   "text": "analyzuje a řeší aplikační geometrické úlohy s využitím osvojeného matematického aparátu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": [
+    "m8-mocniny",
+    "m9-podobnost"
+   ]
+  },
+  {
+   "id": "M-9-4-01",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Nestandardní aplikační úlohy a problémy",
+   "text": "užívá logickou úvahu a kombinační úsudek při řešení úloh a problémů a nalézá různá řešení předkládaných nebo zkoumaných situací",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": []
+  },
+  {
+   "id": "M-9-4-02",
+   "fieldId": "matematika-a-jeji-aplikace",
+   "periodId": "2-stupen",
+   "topic": "Nestandardní aplikační úlohy a problémy",
+   "text": "řeší úlohy na prostorovou představivost, aplikuje a kombinuje poznatky a dovednosti z různých tematických a vzdělávacích oblastí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.2.1"
+   },
+   "skillIds": []
+  }
+ ]
 }

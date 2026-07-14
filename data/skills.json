@@ -76,6 +76,11 @@
    "Počítejte všude: schody, knoflíky, příbory na stůl.",
    "Hrajte „Člověče“ a karty — počítání kroků je trénink.",
    "Prsty nejsou podvod — je to legitimní opora a sama odpadne."
+  ],
+  "rvpRefs": [
+   "M-3-1-01",
+   "M-3-1-04",
+   "M-3-1-05"
   ]
  },
  {
@@ -95,6 +100,10 @@
   "doma": [
    "Ptejte se v běžné řeči: „Co je víc, 7 nebo 9?“",
    "Odpočítávejte pozpátku jako start rakety."
+  ],
+  "rvpRefs": [
+   "M-3-1-02",
+   "M-3-1-03"
   ]
  },
  {
@@ -114,6 +123,9 @@
   "doma": [
    "Hledejte tvary v kuchyni a na hřišti.",
    "Stavějte z kostek a používejte u toho slova nad, pod, vedle, mezi."
+  ],
+  "rvpRefs": [
+   "M-3-3-01"
   ]
  },
  {
@@ -304,6 +316,11 @@
   "doma": [
    "Počítejte nákupy a vracení peněz.",
    "Hra: „Myslím si číslo mezi 40 a 60…“"
+  ],
+  "rvpRefs": [
+   "M-3-1-02",
+   "M-3-1-04",
+   "M-3-1-05"
   ]
  },
  {
@@ -323,6 +340,10 @@
   "doma": [
    "Kartičky do kapsy: 3 spoje denně, ne 30 najednou.",
    "Násobilkové písničky a říkanky opravdu fungují."
+  ],
+  "rvpRefs": [
+   "M-3-1-04",
+   "M-3-1-05"
   ]
  },
  {
@@ -342,6 +363,9 @@
   "doma": [
    "Půjčte dítěti pravítko k domácím projektům — měřit nábytek baví.",
    "Ostrouhaná tužka a klid: přesnost je tady cíl."
+  ],
+  "rvpRefs": [
+   "M-3-3-02"
   ]
  },
  {
@@ -457,6 +481,10 @@
    "Krátce a denně: 2 minuty kartiček po večeři.",
    "Hrajte násobilkovou „válku“ s kartami.",
    "Rychlost oceňujte až po jistotě."
+  ],
+  "rvpRefs": [
+   "M-3-1-04",
+   "M-3-1-05"
   ]
  },
  {
@@ -476,6 +504,12 @@
   "doma": [
    "Nechte dítě přepočítat účtenku písemně pod sebou.",
    "Hlídejte zápis do sloupečků — čtverečkovaný papír pomáhá."
+  ],
+  "rvpRefs": [
+   "M-3-1-02",
+   "M-3-1-04",
+   "M-3-1-05",
+   "M-3-2-03"
   ]
  },
  {
@@ -609,6 +643,12 @@
   "doma": [
    "Dělte útratu nebo kapesné mezi sourozence.",
    "Zkouška násobením jako detektivka: sedí to?"
+  ],
+  "rvpRefs": [
+   "M-5-1-01",
+   "M-5-1-02",
+   "M-5-1-03",
+   "M-5-1-04"
   ]
  },
  {
@@ -628,6 +668,9 @@
   "doma": [
    "Krájejte pizzu a čokoládu — nejlepší učebnice zlomků.",
    "Pečte podle receptu: půl lžičky, čtvrt kila."
+  ],
+  "rvpRefs": [
+   "M-5-1-05"
   ]
  },
  {
@@ -647,6 +690,10 @@
   "doma": [
    "Kupte kvalitní trojúhelník s ryskou a kružítko — levné klouže.",
    "Narýsujte spolu plánek dětského pokoje."
+  ],
+  "rvpRefs": [
+   "M-5-3-01",
+   "M-5-3-03"
   ]
  },
  {
@@ -798,6 +845,10 @@
   "doma": [
    "Nakupujte spolu: ceny jsou desetinná čísla v praxi.",
    "Čtěte teploměr a váhu — hodnoty s čárkou."
+  ],
+  "rvpRefs": [
+   "M-5-1-07",
+   "M-5-1-08"
   ]
  },
  {
@@ -817,6 +868,10 @@
   "doma": [
    "Porovnávejte na čokoládě: co je víc, ⅓ nebo ¼?",
    "Propojte s penězi: půlka koruny je 0,50 Kč."
+  ],
+  "rvpRefs": [
+   "M-5-1-05",
+   "M-5-1-06"
   ]
  },
  {
@@ -836,6 +891,11 @@
   "doma": [
    "Vařte a pečte: gramy, mililitry, deka.",
    "Měřte trasy: kolik metrů je kilometr a půl?"
+  ],
+  "rvpRefs": [
+   "M-5-2-01",
+   "M-5-2-02",
+   "M-5-3-02"
   ]
  },
  {
@@ -855,6 +915,10 @@
   "doma": [
    "Spočítejte spolu podlahu pokoje na nový koberec.",
    "Plot kolem zahrady = obvod, tráva uvnitř = obsah."
+  ],
+  "rvpRefs": [
+   "M-5-3-02",
+   "M-5-3-04"
   ]
  },
  {
@@ -1007,6 +1071,11 @@
   "doma": [
    "Přepočítávejte ceny za kilo a slevy v obchodě.",
    "Trénujte posun čárky zpaměti: krát 10, krát 100."
+  ],
+  "rvpRefs": [
+   "M-9-1-01",
+   "M-9-1-02",
+   "M-9-1-09"
   ]
  },
  {
@@ -1026,6 +1095,9 @@
   "doma": [
    "Hádanka: je 51 prvočíslo? Dokažte to.",
    "Rozdělujte reálné věci: 24 bonbonů mezi 6 dětí."
+  ],
+  "rvpRefs": [
+   "M-9-1-03"
   ]
  },
  {
@@ -1045,6 +1117,10 @@
   "doma": [
    "Kolik stupňů svírají ručičky v půl třetí? Změřte.",
    "Hledejte doma pravé úhly."
+  ],
+  "rvpRefs": [
+   "M-9-3-03",
+   "M-9-3-06"
   ]
  },
  {
@@ -1063,6 +1139,10 @@
   "doma": [
    "Vystřihujte souměrné tvary z přeloženého papíru.",
    "Hledejte osy souměrnosti v dopravních značkách a logách."
+  ],
+  "rvpRefs": [
+   "M-9-3-06",
+   "M-9-3-08"
   ]
  },
  {
@@ -1288,6 +1368,11 @@
   "doma": [
    "Vařte podle polovičního receptu: kolik je půlka ze ¾ hrnku?",
    "Chybu hledejte společně krok po kroku, ne jen podle výsledku."
+  ],
+  "rvpRefs": [
+   "M-9-1-01",
+   "M-9-1-04",
+   "M-9-1-09"
   ]
  },
  {
@@ -1307,6 +1392,11 @@
   "doma": [
    "Teploty pod nulou a podzemní patra garáží: záporná čísla kolem nás.",
    "Dluh z kapesného: mínus v praxi."
+  ],
+  "rvpRefs": [
+   "M-9-1-01",
+   "M-9-1-02",
+   "M-9-1-09"
   ]
  },
  {
@@ -1326,6 +1416,11 @@
   "doma": [
    "Řeďte šťávu 1 : 5 a přepočítejte recept pro 4 na 6 lidí.",
    "Na výletě spočítejte vzdálenost z měřítka mapy."
+  ],
+  "rvpRefs": [
+   "M-9-1-04",
+   "M-9-1-05",
+   "M-9-2-03"
   ]
  },
  {
@@ -1345,6 +1440,10 @@
   "doma": [
    "Slevy v obchodě: kolik reálně ušetříte?",
    "Rozeberte spolu účet za telefon — najděte DPH."
+  ],
+  "rvpRefs": [
+   "M-9-1-04",
+   "M-9-1-06"
   ]
  },
  {
@@ -1530,6 +1629,12 @@
   "doma": [
    "Druhé mocniny do 15 na kartičkách.",
    "Změřte úhlopříčku stolu a ověřte Pythagorovu větu — sedí!"
+  ],
+  "rvpRefs": [
+   "M-9-1-01",
+   "M-9-3-01",
+   "M-9-3-04",
+   "M-9-3-13"
   ]
  },
  {
@@ -1549,6 +1654,10 @@
   "doma": [
    "Vracejte se k dosazení: „za x dej trojku a zkontroluj“.",
    "Chtějte zápis po krocích — chyby ve znaménkách jsou normální."
+  ],
+  "rvpRefs": [
+   "M-9-1-07",
+   "M-9-1-09"
   ]
  },
  {
@@ -1568,6 +1677,10 @@
   "doma": [
    "Rovnice jako váhy: co uděláš vlevo, udělej i vpravo.",
    "Slovní úlohy ze života: věk, kapesné, tarify mobilů."
+  ],
+  "rvpRefs": [
+   "M-9-1-08",
+   "M-9-1-09"
   ]
  },
  {
@@ -1587,6 +1700,13 @@
   "doma": [
    "Změřte obvod hrnce provázkem, vydělte průměrem — vyjde π.",
    "Kolik vody se vejde do plechovky? Objem válce v praxi."
+  ],
+  "rvpRefs": [
+   "M-9-3-02",
+   "M-9-3-04",
+   "M-9-3-09",
+   "M-9-3-10",
+   "M-9-3-11"
   ]
  },
  {
@@ -1737,6 +1857,10 @@
   "doma": [
    "Staré testy JPZ s časomírou, rozbor potom v klidu bez ní.",
    "U slovních úloh chtějte zápis: co přesně je x?"
+  ],
+  "rvpRefs": [
+   "M-9-1-08",
+   "M-9-1-09"
   ]
  },
  {
@@ -1755,6 +1879,11 @@
   "doma": [
    "Grafy kolem nás: cena benzinu, teplota v týdnu.",
    "Udělejte z tabulky graf — na papíře nebo v tabulkovém editoru."
+  ],
+  "rvpRefs": [
+   "M-9-2-01",
+   "M-9-2-04",
+   "M-9-2-05"
   ]
  },
  {
@@ -1773,6 +1902,14 @@
   "doma": [
    "Změřte výšku stromu podle stínu — podobnost v praxi.",
    "Modely a měřítka: kolikrát je angličák menší než auto?"
+  ],
+  "rvpRefs": [
+   "M-9-3-07",
+   "M-9-3-09",
+   "M-9-3-10",
+   "M-9-3-11",
+   "M-9-3-12",
+   "M-9-3-13"
   ]
  },
  {
