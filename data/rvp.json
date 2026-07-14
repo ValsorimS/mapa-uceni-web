@@ -6284,6 +6284,835 @@
    "skillIds": [
     "z6-zeme"
    ]
+  },
+  {
+   "id": "VZ-9-1-01",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Vztahy mezi lidmi a formy soužití",
+   "text": "respektuje přijatá pravidla soužití mezi spolužáky i jinými vrstevníky a přispívá k utváření dobrých mezilidských vztahů v komunitě",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz6-vztahy-komunita"
+   ]
+  },
+  {
+   "id": "VZ-9-1-02",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Vztahy mezi lidmi a formy soužití",
+   "text": "vysvětlí role členů komunity rodiny, třídy, spolku a uvede příklady pozitivního a negativního vlivu na kvalitu sociálního klimatu z hlediska prospěšnosti zdraví",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz6-vztahy-komunita"
+   ]
+  },
+  {
+   "id": "VZ-9-1-03",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Zdravý způsob života a péče o zdraví",
+   "text": "vysvětlí na příkladech přímé souvislosti mezi tělesným, duševním a sociálním zdravím; vysvětlí vztah mezi uspokojováním základních lidských potřeb a hodnotou zdraví",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz6-zdravi"
+   ]
+  },
+  {
+   "id": "VZ-9-1-04",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Hodnota a podpora zdraví",
+   "text": "posoudí různé způsoby chování lidí z hlediska odpovědnosti za vlastní zdraví i zdraví druhých a vyvozuje z nich osobní odpovědnost ve prospěch aktivní podpory zdraví",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz6-zdravi"
+   ]
+  },
+  {
+   "id": "VZ-9-1-05",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Hodnota a podpora zdraví",
+   "text": "usiluje v rámci svých možností a zkušeností o aktivní podporu zdraví",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz6-zdravi"
+   ]
+  },
+  {
+   "id": "VZ-9-1-06",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Hodnota a podpora zdraví",
+   "text": "vyjádří vlastní názor k problematice zdraví a diskutuje o něm v kruhu vrstevníků, rodiny i v nejbližším okolí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz6-zdravi"
+   ]
+  },
+  {
+   "id": "VZ-9-1-07",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Zdravý způsob života a péče o zdraví",
+   "text": "dává do souvislostí složení stravy a způsob stravování s rozvojem civilizačních nemocí a v rámci svých možností uplatňuje zdravé stravovací návyky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz7-vyziva"
+   ]
+  },
+  {
+   "id": "VZ-9-1-08",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Zdravý způsob života a péče o zdraví",
+   "text": "uplatňuje osvojené preventivní způsoby rozhodování, chování a jednání v souvislosti s běžnými, přenosnými, civilizačními a jinými chorobami; svěří se se zdravotním problémem a v případě potřeby vyhledá odbornou pomoc",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz7-nemoci-prevence"
+   ]
+  },
+  {
+   "id": "VZ-9-1-09",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Osobnostní a sociální rozvoj",
+   "text": "projevuje odpovědný vztah k sobě samému, k vlastnímu dospívání a pravidlům zdravého životního stylu; dobrovolně se podílí na programech podpory zdraví v rámci školy a obce",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz6-zdravi",
+    "vz8-dospivani-sexualita"
+   ]
+  },
+  {
+   "id": "VZ-9-1-10",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Osobnostní a sociální rozvoj",
+   "text": "samostatně využívá osvojené kompenzační a relaxační techniky a sociální dovednosti k regeneraci organismu, překonávání únavy a předcházení stresovým situacím",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz8-stres-dusevni-hygiena"
+   ]
+  },
+  {
+   "id": "VZ-9-1-11",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Změny v životě člověka a jejich reflexe",
+   "text": "respektuje změny v období dospívání, vhodně na ně reaguje; kultivovaně se chová k opačnému pohlaví",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz8-dospivani-sexualita"
+   ]
+  },
+  {
+   "id": "VZ-9-1-12",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Změny v životě člověka a jejich reflexe",
+   "text": "respektuje význam sexuality v souvislosti se zdravím, etikou, morálkou a pozitivními životními cíli; chápe význam zdrženlivosti v dospívání a odpovědného sexuálního chování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz8-dospivani-sexualita"
+   ]
+  },
+  {
+   "id": "VZ-9-1-13",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Rizika ohrožující zdraví a jejich prevence",
+   "text": "uvádí do souvislostí zdravotní a psychosociální rizika spojená se zneužíváním návykových látek a životní perspektivu mladého člověka; uplatňuje osvojené sociální dovednosti a modely chování při kontaktu se sociálně patologickými jevy ve škole i mimo ni; v případě potřeby vyhledá odbornou pomoc sobě nebo druhým",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz8-rizika-zavislosti"
+   ]
+  },
+  {
+   "id": "VZ-9-1-14",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Rizika ohrožující zdraví a jejich prevence",
+   "text": "vyhodnotí na základě svých znalostí a zkušeností možný manipulativní vliv vrstevníků, médií, sekt; uplatňuje osvojené dovednosti komunikační obrany proti manipulaci a agresi",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz8-rizika-zavislosti"
+   ]
+  },
+  {
+   "id": "VZ-9-1-15",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Rizika ohrožující zdraví a jejich prevence",
+   "text": "projevuje odpovědné chování v rizikových situacích silniční a železniční dopravy; aktivně předchází situacím ohrožení zdraví a osobního bezpečí; v případě potřeby poskytne adekvátní první pomoc",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz9-bezpeci-prvni-pomoc"
+   ]
+  },
+  {
+   "id": "VZ-9-1-16",
+   "fieldId": "vychova-ke-zdravi",
+   "periodId": "2-stupen",
+   "topic": "Rizika ohrožující zdraví a jejich prevence",
+   "text": "uplatňuje adekvátní způsoby chování a ochrany v modelových situacích ohrožení, nebezpečí i mimořádných událostí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.1"
+   },
+   "skillIds": [
+    "vz9-bezpeci-prvni-pomoc"
+   ]
+  },
+  {
+   "id": "TV-3-1-01",
+   "fieldId": "telesna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Tělesná výchova 1. období",
+   "text": "spojuje pravidelnou každodenní pohybovou činnost se zdravím a využívá nabízené příležitosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv1-pohyb"
+   ]
+  },
+  {
+   "id": "TV-3-1-02",
+   "fieldId": "telesna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Tělesná výchova 1. období",
+   "text": "zvládá v souladu s individuálními předpoklady jednoduché pohybové činnosti jednotlivce nebo činnosti prováděné ve skupině; usiluje o jejich zlepšení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv1-pohyb"
+   ]
+  },
+  {
+   "id": "TV-3-1-03",
+   "fieldId": "telesna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Tělesná výchova 1. období",
+   "text": "spolupracuje při jednoduchých týmových pohybových činnostech a soutěžích",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv1-pohyb"
+   ]
+  },
+  {
+   "id": "TV-3-1-04",
+   "fieldId": "telesna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Tělesná výchova 1. období",
+   "text": "uplatňuje hlavní zásady hygieny a bezpečnosti při pohybových činnostech ve známých prostorech školy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv1-pohyb"
+   ]
+  },
+  {
+   "id": "TV-3-1-05",
+   "fieldId": "telesna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Tělesná výchova 1. období",
+   "text": "reaguje na základní pokyny a povely k osvojované činnosti a její organizaci",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv1-pohyb"
+   ]
+  },
+  {
+   "id": "TV-5-1-01",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "podílí se na realizaci pravidelného pohybového režimu; uplatňuje kondičně zaměřené činnosti; projevuje přiměřenou samostatnost a vůli po zlepšení úrovně své zdatnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-rezim-zdatnost"
+   ]
+  },
+  {
+   "id": "TV-5-1-02",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "zařazuje do pohybového režimu korektivní cvičení, především v souvislosti s jednostrannou zátěží nebo vlastním svalovým oslabením",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-zdravotni-cviceni"
+   ]
+  },
+  {
+   "id": "TV-5-1-03",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "zvládá v souladu s individuálními předpoklady osvojované pohybové dovednosti; vytváří varianty osvojených pohybových her",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-rezim-zdatnost"
+   ]
+  },
+  {
+   "id": "TV-5-1-04",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "uplatňuje pravidla hygieny a bezpečného chování v běžném sportovním prostředí; adekvátně reaguje v situaci úrazu spolužáka",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-rezim-zdatnost"
+   ]
+  },
+  {
+   "id": "TV-5-1-05",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "jednoduše zhodnotí kvalitu pohybové činnosti spolužáka a reaguje na pokyny k vlastnímu provedení pohybové činnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-rezim-zdatnost"
+   ]
+  },
+  {
+   "id": "TV-5-1-06",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "jedná v duchu fair play: dodržuje pravidla her a soutěží, pozná a označí zjevné přestupky proti pravidlům a adekvátně na ně reaguje; respektuje při pohybových činnostech opačné pohlaví",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-fair-play"
+   ]
+  },
+  {
+   "id": "TV-5-1-07",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "užívá při pohybové činnosti základní osvojované tělocvičné názvosloví; cvičí podle jednoduchého nákresu, popisu cvičení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-fair-play"
+   ]
+  },
+  {
+   "id": "TV-5-1-08",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "zorganizuje nenáročné pohybové činnosti a soutěže na úrovni třídy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-fair-play"
+   ]
+  },
+  {
+   "id": "TV-5-1-09",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "změří základní pohybové výkony a porovná je s předchozími výsledky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-rezim-zdatnost"
+   ]
+  },
+  {
+   "id": "TV-5-1-10",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "orientuje se v informačních zdrojích o pohybových aktivitách a sportovních akcích ve škole i v místě bydliště; samostatně získá potřebné informace",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-rezim-zdatnost"
+   ]
+  },
+  {
+   "id": "TV-5-1-11",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "adaptuje se na vodní prostředí, dodržuje hygienu plavání, zvládá v souladu s individuálními předpoklady plavecké dovednosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv3-plavani"
+   ]
+  },
+  {
+   "id": "TV-5-1-12",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Tělesná výchova 2. období",
+   "text": "zvládá v souladu s individuálními předpoklady vybranou plaveckou techniku, prvky sebezáchrany a bezpečnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv3-plavani"
+   ]
+  },
+  {
+   "id": "TV-9-1-01",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti ovlivňující zdraví",
+   "text": "aktivně vstupuje do organizace svého pohybového režimu, některé pohybové činnosti zařazuje pravidelně a s konkrétním účelem",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv6-zdatnost-bezpecnost"
+   ]
+  },
+  {
+   "id": "TV-9-1-02",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti ovlivňující zdraví",
+   "text": "usiluje o zlepšení své tělesné zdatnosti; z nabídky zvolí vhodný rozvojový program",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv6-zdatnost-bezpecnost"
+   ]
+  },
+  {
+   "id": "TV-9-1-03",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti ovlivňující zdraví",
+   "text": "samostatně se připraví před pohybovou činností a ukončí ji ve shodě s hlavní činností zatěžovanými svaly",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv6-zdatnost-bezpecnost",
+    "tv4-zdravotni-cviceni"
+   ]
+  },
+  {
+   "id": "TV-9-1-04",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti ovlivňující zdraví",
+   "text": "odmítá drogy a jiné škodliviny jako neslučitelné se sportovní etikou a zdravím; upraví pohybovou aktivitu vzhledem k údajům o znečištění ovzduší",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv6-zdatnost-bezpecnost"
+   ]
+  },
+  {
+   "id": "TV-9-1-05",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti ovlivňující zdraví",
+   "text": "uplatňuje vhodné a bezpečné chování i v méně známém prostředí sportovišť, přírody, silničního provozu; předvídá možná nebezpečí úrazu a přizpůsobí jim svou činnost",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv6-zdatnost-bezpecnost",
+    "tv7-lyzak"
+   ]
+  },
+  {
+   "id": "TV-9-2-01",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti ovlivňující úroveň pohybových dovedností",
+   "text": "zvládá v souladu s individuálními předpoklady osvojované pohybové dovednosti a tvořivě je aplikuje ve hře, soutěži, při rekreačních činnostech",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv6-sport",
+    "tv7-lyzak"
+   ]
+  },
+  {
+   "id": "TV-9-2-02",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti ovlivňující úroveň pohybových dovedností",
+   "text": "posoudí provedení osvojované pohybové činnosti, označí zjevné nedostatky a jejich možné příčiny",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv6-sport"
+   ]
+  },
+  {
+   "id": "TV-9-3-01",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti podporující pohybové učení",
+   "text": "užívá osvojované názvosloví na úrovni cvičence, rozhodčího, diváka, čtenáře novin a časopisů, uživatele internetu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv7-tymove-hry-organizace"
+   ]
+  },
+  {
+   "id": "TV-9-3-02",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti podporující pohybové učení",
+   "text": "naplňuje ve školních podmínkách základní olympijské myšlenky čestné soupeření, pomoc handicapovaným, respekt k opačnému pohlaví, ochranu přírody při sportu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv7-tymove-hry-organizace"
+   ]
+  },
+  {
+   "id": "TV-9-3-03",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti podporující pohybové učení",
+   "text": "dohodne se na spolupráci i jednoduché taktice vedoucí k úspěchu družstva a dodržuje ji",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv7-tymove-hry-organizace"
+   ]
+  },
+  {
+   "id": "TV-9-3-04",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti podporující pohybové učení",
+   "text": "rozlišuje a uplatňuje práva a povinnosti vyplývající z role hráče, rozhodčího, diváka, organizátora",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv7-tymove-hry-organizace"
+   ]
+  },
+  {
+   "id": "TV-9-3-05",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti podporující pohybové učení",
+   "text": "sleduje určené prvky pohybové činnosti a výkony, eviduje je a vyhodnotí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv7-tymove-hry-organizace"
+   ]
+  },
+  {
+   "id": "TV-9-3-06",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti podporující pohybové učení",
+   "text": "zorganizuje samostatně i v týmu jednoduché turnaje, závody, turistické akce na úrovni školy; spolurozhoduje osvojované hry a soutěže",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv7-tymove-hry-organizace"
+   ]
+  },
+  {
+   "id": "TV-9-3-07",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Činnosti podporující pohybové učení",
+   "text": "zpracuje naměřená data a informace o pohybových aktivitách a podílí se na jejich prezentaci",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv7-tymove-hry-organizace"
+   ]
+  },
+  {
+   "id": "ZTV-3-1-01",
+   "fieldId": "telesna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Zdravotní tělesná výchova",
+   "text": "uplatňuje správné způsoby držení těla v různých polohách a pracovních činnostech; zaujímá správné základní cvičební polohy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv1-pohyb"
+   ]
+  },
+  {
+   "id": "ZTV-3-1-02",
+   "fieldId": "telesna-vychova",
+   "periodId": "1-obdobi",
+   "topic": "Zdravotní tělesná výchova",
+   "text": "zvládá jednoduchá speciální cvičení související s vlastním oslabením",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv1-pohyb"
+   ]
+  },
+  {
+   "id": "ZTV-5-1-01",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Zdravotní tělesná výchova",
+   "text": "zařazuje pravidelně do svého pohybového režimu speciální vyrovnávací cvičení související s vlastním oslabením v optimálním počtu opakování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-zdravotni-cviceni"
+   ]
+  },
+  {
+   "id": "ZTV-5-1-02",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Zdravotní tělesná výchova",
+   "text": "zvládá základní techniku speciálních cvičení; koriguje techniku cvičení podle obrazu v zrcadle, podle pokynů učitele",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-zdravotni-cviceni"
+   ]
+  },
+  {
+   "id": "ZTV-5-1-03",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-obdobi",
+   "topic": "Zdravotní tělesná výchova",
+   "text": "upozorní samostatně na činnosti prostředí, které jsou v rozporu s jeho oslabením",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-zdravotni-cviceni"
+   ]
+  },
+  {
+   "id": "ZTV-9-1-01",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Zdravotní tělesná výchova",
+   "text": "uplatňuje odpovídající vytrvalost a cílevědomost při korekci zdravotních oslabení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-zdravotni-cviceni"
+   ]
+  },
+  {
+   "id": "ZTV-9-1-02",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Zdravotní tělesná výchova",
+   "text": "zařazuje pravidelně a samostatně do svého pohybového režimu speciální vyrovnávací cvičení související s vlastním oslabením, usiluje o jejich optimální provedení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-zdravotni-cviceni"
+   ]
+  },
+  {
+   "id": "ZTV-9-1-03",
+   "fieldId": "telesna-vychova",
+   "periodId": "2-stupen",
+   "topic": "Zdravotní tělesná výchova",
+   "text": "aktivně se vyhýbá činnostem, které jsou kontraindikací zdravotního oslabení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.8.2"
+   },
+   "skillIds": [
+    "tv4-zdravotni-cviceni"
+   ]
   }
  ]
 }

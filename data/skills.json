@@ -254,22 +254,417 @@
   ]
  },
  {
+  "id": "vz6-vztahy-komunita",
+  "r": 6,
+  "p": "vz",
+  "t": "Vztahy, pravidla a zdravé klima",
+  "co": "Výchova ke zdraví nezačíná jídelníčkem, ale vztahy. Žák rozumí pravidlům soužití, rolím v rodině, třídě a dalších komunitách a tomu, že dobré nebo špatné sociální klima má přímý vliv na zdraví.",
+  "jak": [
+   "Respektuje přijatá pravidla soužití mezi vrstevníky.",
+   "Vysvětlí role členů rodiny, třídy nebo spolku.",
+   "Uvede příklady pozitivního a negativního vlivu vztahů na zdraví."
+  ],
+  "dal": "Zdraví jako propojení tělesné, duševní a sociální roviny.",
+  "dalId": "vz6-zdravi",
+  "rvp": "RVP ZV · Výchova ke zdraví · Vztahy mezi lidmi a formy soužití.",
+  "doma": [
+   "U konfliktů doma pojmenujte pravidlo, potřebu a dopad na ostatní.",
+   "Mluvte o tom, jak se pozná bezpečná parta a férové chování."
+  ],
+  "rvpRefs": [
+   "VZ-9-1-01",
+   "VZ-9-1-02"
+  ]
+ },
+ {
+  "id": "vz6-zdravi",
+  "r": 6,
+  "p": "vz",
+  "t": "Zdraví, životní styl a odpovědnost",
+  "co": "Žák chápe zdraví jako propojení tělesné, duševní a sociální pohody. Učí se osobní odpovědnosti, aktivní podpoře zdraví, pravidlům zdravého životního stylu a věcné diskusi o zdraví.",
+  "jak": [
+   "Vysvětlí souvislost tělesného, duševního a sociálního zdraví.",
+   "Posoudí chování z hlediska odpovědnosti za vlastní zdraví i zdraví druhých.",
+   "Vyjádří vlastní názor k otázkám zdraví a umí o něm diskutovat."
+  ],
+  "dal": "Výživa, stravovací návyky a prevence civilizačních nemocí.",
+  "dalId": "vz7-vyziva",
+  "rvp": "RVP ZV · Výchova ke zdraví · Hodnota a podpora zdraví.",
+  "doma": [
+   "Neřešte zdraví jen jako zákaz sladkostí; řešte spánek, pohyb, vztahy a odpočinek.",
+   "U vlastních návyků se ptejte: pomáhá mi to dlouhodobě, nebo jen teď hned?"
+  ],
+  "rvpRefs": [
+   "VZ-9-1-03",
+   "VZ-9-1-04",
+   "VZ-9-1-05",
+   "VZ-9-1-06",
+   "VZ-9-1-09"
+  ]
+ },
+ {
+  "id": "vz7-vyziva",
+  "r": 7,
+  "p": "vz",
+  "t": "Výživa a civilizační nemoci",
+  "co": "Téma propojuje složení stravy, způsob stravování, pitný režim, energii, živiny a riziko civilizačních nemocí. Cílem není dieta, ale rozumné návyky a schopnost číst běžné informace o jídle.",
+  "jak": [
+   "Dá do souvislosti stravu a riziko civilizačních nemocí.",
+   "Popíše základní složky stravy a pitný režim.",
+   "Uplatní v rámci možností zdravé stravovací návyky."
+  ],
+  "dal": "Nemoci, prevence, zdravotní problém a vyhledání pomoci.",
+  "dalId": "vz7-nemoci-prevence",
+  "rvp": "RVP ZV · Výchova ke zdraví · Zdravý způsob života a péče o zdraví.",
+  "doma": [
+   "Čtěte etikety: cukr, sůl, tuky, bílkoviny, velikost porce.",
+   "Nedělejte z jídla morální test; hledejte dlouhodobě udržitelný režim."
+  ],
+  "rvpRefs": [
+   "VZ-9-1-07"
+  ]
+ },
+ {
+  "id": "vz7-nemoci-prevence",
+  "r": 7,
+  "p": "vz",
+  "t": "Nemoci, prevence a odborná pomoc",
+  "co": "Žák rozumí běžným, přenosným i civilizačním nemocem, preventivnímu chování, léčbě a tomu, kdy zdravotní problém řešit s dospělým nebo odborníkem.",
+  "jak": [
+   "Uvede preventivní chování u běžných a přenosných nemocí.",
+   "Rozliší, kdy stačí režimové opatření a kdy vyhledat pomoc.",
+   "Svěří se se zdravotním problémem a ví, kam se obrátit."
+  ],
+  "dal": "Dospívání, vztahy, sexualita a odpovědné chování.",
+  "dalId": "vz8-dospivani-sexualita",
+  "rvp": "RVP ZV · Výchova ke zdraví · Zdravý způsob života a péče o zdraví.",
+  "doma": [
+   "Dohodněte, s čím dítě vždy přijde za dospělým: bolest, úraz, psychická tíseň, intimní problém.",
+   "U nemocí rozlišujte prevenci, příznaky, léčbu a rekonvalescenci."
+  ],
+  "rvpRefs": [
+   "VZ-9-1-08"
+  ]
+ },
+ {
+  "id": "vz8-dospivani-sexualita",
+  "r": 8,
+  "p": "vz",
+  "t": "Dospívání, vztahy a sexualita",
+  "co": "Téma musí být věcné a citlivé: tělesné a psychické změny dospívání, respekt k sobě i druhým, kultivované chování, sexualita ve vztahu ke zdraví, etice, morálce a odpovědným životním cílům.",
+  "jak": [
+   "Respektuje změny v dospívání a vhodně na ně reaguje.",
+   "Chová se kultivovaně k opačnému pohlaví i k lidem s odlišnou zkušeností.",
+   "Chápe význam odpovědného sexuálního chování a hranic."
+  ],
+  "dal": "Stres, regenerace, relaxační techniky a duševní hygiena.",
+  "dalId": "vz8-stres-dusevni-hygiena",
+  "rvp": "RVP ZV · Výchova ke zdraví · Změny v životě člověka.",
+  "doma": [
+   "Mluvte o hranicích, souhlasu a bezpečí bez strašení.",
+   "Když se dítě ptá, odpovězte věcně a přiměřeně věku, ne výsměchem."
+  ],
+  "rvpRefs": [
+   "VZ-9-1-09",
+   "VZ-9-1-11",
+   "VZ-9-1-12"
+  ]
+ },
+ {
+  "id": "vz8-stres-dusevni-hygiena",
+  "r": 8,
+  "p": "vz",
+  "t": "Stres, regenerace a duševní hygiena",
+  "co": "Žák se učí rozpoznat únavu a stres, používat kompenzační a relaxační techniky, regenerovat organismus a využívat sociální dovednosti, které pomáhají předcházet stresovým situacím.",
+  "jak": [
+   "Rozpozná únavu a stresové signály.",
+   "Použije jednoduchou relaxační nebo kompenzační techniku.",
+   "Navrhne, co mu pomáhá regenerovat a předcházet přetížení."
+  ],
+  "dal": "Závislosti, manipulace, agrese a sociálně patologické jevy.",
+  "dalId": "vz8-rizika-zavislosti",
+  "rvp": "RVP ZV · Výchova ke zdraví · Osobnostní a sociální rozvoj.",
+  "doma": [
+   "Zaveďte jazyk pro stres: co cítím v těle, co potřebuji, co teď pomůže.",
+   "Spánek a pauzy berte jako výkonovou hygienu, ne lenost."
+  ],
+  "rvpRefs": [
+   "VZ-9-1-10"
+  ]
+ },
+ {
+  "id": "vz8-rizika-zavislosti",
+  "r": 8,
+  "p": "vz",
+  "t": "Závislosti, manipulace a rizikové chování",
+  "co": "Téma zahrnuje návykové látky, hazard, sociálně patologické jevy, manipulaci vrstevníků, médií a sekt, agresi a komunikační obranu. Cílem je umět odmítnout, vyhledat pomoc a vidět důsledky pro životní perspektivu.",
+  "jak": [
+   "Vysvětlí zdravotní a psychosociální rizika návykových látek a hazardu.",
+   "Rozpozná manipulativní vliv vrstevníků, médií nebo sekt.",
+   "Použije model odmítnutí a ví, kde hledat odbornou pomoc."
+  ],
+  "dal": "Bezpečí, doprava, první pomoc a mimořádné události.",
+  "dalId": "vz9-bezpeci-prvni-pomoc",
+  "rvp": "RVP ZV · Výchova ke zdraví · Rizika ohrožující zdraví.",
+  "doma": [
+   "Trénujte konkrétní věty odmítnutí, ne jen obecné „řekni ne“.",
+   "U influencerů a reklam řešte, co po tobě chtějí a jaký tlak používají."
+  ],
+  "rvpRefs": [
+   "VZ-9-1-13",
+   "VZ-9-1-14"
+  ]
+ },
+ {
+  "id": "vz9-bezpeci-prvni-pomoc",
+  "r": 9,
+  "p": "vz",
+  "t": "Bezpečí, první pomoc a mimořádné události",
+  "co": "Závěr výchovy ke zdraví patří bezpečnému chování v dopravě a krizových situacích, předcházení ohrožení zdraví, adekvátní první pomoci a ochraně při mimořádných událostech.",
+  "jak": [
+   "Chová se odpovědně v rizikových situacích silniční a železniční dopravy.",
+   "Poskytne adekvátní první pomoc podle situace a svých možností.",
+   "Uplatní způsoby ochrany v modelových situacích ohrožení a mimořádných událostí."
+  ],
+  "dal": "Navazuje praktický život: zdraví, bezpečí, vztahy a odpovědnost po základní škole.",
+  "rvp": "RVP ZV · Výchova ke zdraví · Bezpečí, první pomoc a mimořádné události.",
+  "doma": [
+   "Zopakujte tísňová čísla, adresu, stabilizovanou polohu a kdy volat dospělého.",
+   "Projděte cestu do školy: riziková místa, koleje, přechody, tma, telefon v ruce."
+  ],
+  "rvpRefs": [
+   "VZ-9-1-15",
+   "VZ-9-1-16"
+  ]
+ },
+ {
   "id": "tv1-pohyb",
   "r": 1,
   "p": "tv",
-  "t": "Tělocvik: pohybové hry a obratnost",
-  "co": "Základem tělesné výchovy v 1. ročníku jsou pohybové hry, honičky, překážkové dráhy a průpravná cvičení. Dítě se učí bezpečně se pohybovat v tělocvičně, reagovat na povely a dodržovat pravidla her — fair play začíná tady.",
+  "t": "Tělocvik: pohybové hry, obratnost a bezpečí",
+  "co": "Na začátku školy je tělocvik hlavně radost z pohybu: pohybové hry, obratnost, jednoduché činnosti jednotlivce i skupiny, základní hygiena, bezpečnost, reakce na pokyny a první správné držení těla.",
   "jak": [
-   "Zvládne základní lokomoci: běh, skok, házení a chytání míče.",
-   "Dodržuje domluvená pravidla hry a povely učitele.",
-   "Připraví se na cvičení (převlékání, nástup) samostatně."
+   "Spojuje každodenní pohyb se zdravím.",
+   "Zvládá jednoduché pohybové činnosti a spolupracuje ve hrách.",
+   "Dodržuje hygienu, bezpečnost a reaguje na pokyny učitele."
   ],
-  "dal": "Plavecký výcvik ve 2.–3. ročníku a základy sportovních her.",
+  "dal": "Plavecký výcvik, adaptace na vodu a bezpečnost u vody.",
   "dalId": "tv3-plavani",
-  "rvp": "RVP ZV · Člověk a zdraví — Tělesná výchova · 1. období.",
+  "rvp": "RVP ZV · Tělesná výchova · 1. období a prvky zdravotní TV.",
   "doma": [
-   "Denně ven — obratnost z hřiště se v tělocviku pozná.",
-   "Trénujte prohrávání na hrách doma: prohra je součást hry."
+   "Denně ven: hřiště, schody, míč, honičky, chůze.",
+   "Trénujte převlékání, zavazování bot a domluvená pravidla bezpečí."
+  ],
+  "rvpRefs": [
+   "TV-3-1-01",
+   "TV-3-1-02",
+   "TV-3-1-03",
+   "TV-3-1-04",
+   "TV-3-1-05",
+   "ZTV-3-1-01",
+   "ZTV-3-1-02"
+  ]
+ },
+ {
+  "id": "tv3-plavani",
+  "r": 3,
+  "p": "tv",
+  "t": "Plavecký výcvik a bezpečnost ve vodě",
+  "co": "Plavání je v RVP výslovně uvedené ve 2. období 1. stupně. Žák se adaptuje na vodní prostředí, dodržuje hygienu plavání, zvládá vybranou plaveckou techniku a prvky sebezáchrany.",
+  "jak": [
+   "Adaptuje se na vodní prostředí a dodržuje hygienu plavání.",
+   "Zvládá podle možností vybranou plaveckou techniku.",
+   "Zná základní pravidla sebezáchrany a bezpečnosti u vody."
+  ],
+  "dal": "Pohybový režim, zdatnost, měření výkonů a korektivní cvičení.",
+  "dalId": "tv4-rezim-zdatnost",
+  "rvp": "RVP ZV · Tělesná výchova · Plavání.",
+  "doma": [
+   "Bazén berte jako bezpečnostní dovednost, ne jen sport.",
+   "U vody opakujte pravidla: neskákat neznámo kam, neplavat sám, říct dospělému."
+  ],
+  "rvpRefs": [
+   "TV-5-1-11",
+   "TV-5-1-12"
+  ]
+ },
+ {
+  "id": "tv4-rezim-zdatnost",
+  "r": 4,
+  "p": "tv",
+  "t": "Pohybový režim, zdatnost a měření výkonů",
+  "co": "Ve 4.–5. ročníku žák přebírá víc odpovědnosti: pravidelný pohybový režim, kondiční činnosti, zlepšování zdatnosti, bezpečné chování, reakce na úraz, jednoduché hodnocení výkonu a práce s informacemi o sportu.",
+  "jak": [
+   "Podílí se na pravidelném pohybovém režimu a usiluje o zlepšení zdatnosti.",
+   "Uplatňuje hygienu a bezpečnost a reaguje na úraz spolužáka.",
+   "Změří základní pohybový výkon a porovná ho s předchozím výsledkem."
+  ],
+  "dal": "Fair play, pravidla, organizace her a tělocvičné názvosloví.",
+  "dalId": "tv4-fair-play",
+  "rvp": "RVP ZV · Tělesná výchova · 2. období.",
+  "doma": [
+   "Měřte pokrok proti sobě, ne proti sourozenci.",
+   "Hledejte sportovní akce v okolí a nechte dítě zjistit čas, místo a vybavení."
+  ],
+  "rvpRefs": [
+   "TV-5-1-01",
+   "TV-5-1-03",
+   "TV-5-1-04",
+   "TV-5-1-05",
+   "TV-5-1-09",
+   "TV-5-1-10"
+  ]
+ },
+ {
+  "id": "tv4-fair-play",
+  "r": 4,
+  "p": "tv",
+  "t": "Fair play, pravidla a organizace her",
+  "co": "Tělocvik učí i sociální dovednosti: fair play, pravidla, respekt, role hráče a organizátora, základní tělocvičné názvosloví a schopnost uspořádat jednoduchou soutěž.",
+  "jak": [
+   "Dodržuje pravidla her a jedná v duchu fair play.",
+   "Používá základní tělocvičné názvosloví a cvičí podle jednoduchého popisu.",
+   "Zorganizuje nenáročnou pohybovou činnost nebo soutěž ve třídě."
+  ],
+  "dal": "Zdravotní a vyrovnávací cvičení, držení těla a oslabení.",
+  "dalId": "tv4-zdravotni-cviceni",
+  "rvp": "RVP ZV · Tělesná výchova · Činnosti podporující pohybové učení.",
+  "doma": [
+   "U her doma řešte vítězství i prohru jako součást pravidel.",
+   "Nechte dítě vymyslet jednoduchý turnaj: pravidla, pořadí, rozhodčí."
+  ],
+  "rvpRefs": [
+   "TV-5-1-06",
+   "TV-5-1-07",
+   "TV-5-1-08"
+  ]
+ },
+ {
+  "id": "tv4-zdravotni-cviceni",
+  "r": 5,
+  "p": "tv",
+  "t": "Zdravotní a vyrovnávací cvičení",
+  "co": "Zdravotní tělesná výchova a korektivní cvičení učí správné držení těla, speciální a vyrovnávací cviky, kompenzaci jednostranné zátěže a respekt k vlastním oslabením nebo kontraindikacím.",
+  "jak": [
+   "Zařazuje korektivní a vyrovnávací cvičení do pohybového režimu.",
+   "Zvládá základní techniku speciálních cvičení a koriguje ji podle pokynů.",
+   "Upozorní na činnost nebo prostředí, které je v rozporu s jeho oslabením."
+  ],
+  "dal": "Zdatnost, bezpečí a pohybový režim na 2. stupni.",
+  "dalId": "tv6-zdatnost-bezpecnost",
+  "rvp": "RVP ZV · Zdravotní tělesná výchova.",
+  "doma": [
+   "Po dlouhém sezení zařaďte krátké protažení zad, kyčlí a ramen.",
+   "U bolestí nebo diagnóz se řiďte doporučením lékaře či fyzioterapeuta."
+  ],
+  "rvpRefs": [
+   "TV-5-1-02",
+   "TV-9-1-03",
+   "ZTV-5-1-01",
+   "ZTV-5-1-02",
+   "ZTV-5-1-03",
+   "ZTV-9-1-01",
+   "ZTV-9-1-02",
+   "ZTV-9-1-03"
+  ]
+ },
+ {
+  "id": "tv6-zdatnost-bezpecnost",
+  "r": 6,
+  "p": "tv",
+  "t": "Zdatnost, trénink a bezpečnost při pohybu",
+  "co": "Na 2. stupni žák aktivně organizuje svůj pohybový režim, vybírá rozvojový program, připraví se před zátěží, odmítá škodliviny a přizpůsobuje pohyb prostředí, počasí, znečištění a riziku úrazu.",
+  "jak": [
+   "Zařazuje některé pohybové činnosti pravidelně a s konkrétním účelem.",
+   "Zvolí vhodný program pro zlepšení zdatnosti.",
+   "Chová se bezpečně na sportovišti, v přírodě i v silničním provozu."
+  ],
+  "dal": "Atletika, gymnastika, sportovní hry a tvořivé použití pohybových dovedností.",
+  "dalId": "tv6-sport",
+  "rvp": "RVP ZV · Tělesná výchova · Činnosti ovlivňující zdraví.",
+  "doma": [
+   "Pomozte dítěti najít sport, který vydrží, ne jen jednorázový výkon.",
+   "U smogu, horka a náledí řešte, kdy změnit plán pohybu."
+  ],
+  "rvpRefs": [
+   "TV-9-1-01",
+   "TV-9-1-02",
+   "TV-9-1-03",
+   "TV-9-1-04",
+   "TV-9-1-05"
+  ]
+ },
+ {
+  "id": "tv6-sport",
+  "r": 6,
+  "p": "tv",
+  "t": "Atletika, gymnastika a sportovní hry",
+  "co": "Téma zahrnuje běh, skoky, hody, gymnastiku, pohybové a sportovní hry, úpoly, rytmické a kondiční formy cvičení. Důležité je dovednosti tvořivě použít ve hře, soutěži nebo rekreační aktivitě a umět zhodnotit provedení.",
+  "jak": [
+   "Zvládá osvojované pohybové dovednosti podle svých předpokladů.",
+   "Použije dovednosti ve hře, soutěži nebo rekreační činnosti.",
+   "Posoudí provedení pohybu a označí zjevný nedostatek."
+  ],
+  "dal": "Týmové hry, role, pravidla, organizace a práce s výsledky.",
+  "dalId": "tv7-tymove-hry-organizace",
+  "rvp": "RVP ZV · Tělesná výchova · Pohybové dovednosti.",
+  "doma": [
+   "Střídejte sporty: běh, míč, kolo, turistika, posilování s vlastní vahou.",
+   "U techniky pohybu raději krátká kvalitní opakování než dlouhé trápení."
+  ],
+  "rvpRefs": [
+   "TV-9-2-01",
+   "TV-9-2-02"
+  ]
+ },
+ {
+  "id": "tv7-tymove-hry-organizace",
+  "r": 7,
+  "p": "tv",
+  "t": "Týmové hry, taktika a organizace sportu",
+  "co": "Pohybové učení na 2. stupni zahrnuje názvosloví, role hráče, rozhodčího, diváka a organizátora, olympijské myšlenky, taktiku družstva, evidenci výkonů, organizaci turnajů a prezentaci pohybových dat.",
+  "jak": [
+   "Používá tělocvičné názvosloví v různých rolích.",
+   "Dohodne se na spolupráci a jednoduché taktice družstva.",
+   "Zorganizuje nebo spolurozhoduje jednoduchou soutěž a zpracuje naměřená data."
+  ],
+  "dal": "Lyžařský kurz, zimní sporty a bezpečnost v horském prostředí.",
+  "dalId": "tv7-lyzak",
+  "rvp": "RVP ZV · Tělesná výchova · Činnosti podporující pohybové učení.",
+  "doma": [
+   "U sportu sledujte i role mimo hráče: rozhodčí, organizátor, zapisovatel.",
+   "Z výsledků udělejte tabulku a ptejte se, co z ní opravdu plyne."
+  ],
+  "rvpRefs": [
+   "TV-9-3-01",
+   "TV-9-3-02",
+   "TV-9-3-03",
+   "TV-9-3-04",
+   "TV-9-3-05",
+   "TV-9-3-06",
+   "TV-9-3-07"
+  ]
+ },
+ {
+  "id": "tv7-lyzak",
+  "r": 7,
+  "p": "tv",
+  "t": "Lyžařský kurz a zimní sporty",
+  "co": "Lyžařský kurz není povinný výstup sám o sobě, ale typická školní aplikace RVP: pohyb v méně známém prostředí, bezpečnost v horách, zimní sporty, spolupráce skupiny, přiměřená zátěž a pravidla chování v přírodě.",
+  "jak": [
+   "Uplatňuje bezpečné chování v horském a zimním prostředí.",
+   "Zvládá podle předpokladů vybrané zimní pohybové dovednosti.",
+   "Přizpůsobí pohyb počasí, terénu, výstroji a riziku úrazu."
+  ],
+  "dal": "Celoživotní pohyb: najít aktivitu, která drží zdraví i hlavu pohromadě.",
+  "rvp": "RVP ZV · Tělesná výchova · Zimní sporty, turistika a bezpečnost.",
+  "doma": [
+   "Před kurzem řešte výbavu, helmu, vrstvení a únavu.",
+   "Po kurzu se ptejte, co dítě zvládlo nově a jak se chovalo ve skupině."
+  ],
+  "rvpRefs": [
+   "TV-9-1-05",
+   "TV-9-2-01"
   ]
  },
  {
@@ -853,25 +1248,6 @@
    "ČJS-3-4-01",
    "ČJS-3-4-02",
    "ČJS-3-4-03"
-  ]
- },
- {
-  "id": "tv3-plavani",
-  "r": 3,
-  "p": "tv",
-  "t": "Plavecký výcvik",
-  "co": "Součástí tělesné výchovy na 1. stupni je povinná základní plavecká výuka v rozsahu 40 vyučovacích hodin, kterou školy zpravidla rozdělují do dvou ročníků (nejčastěji 2. a 3.). Probíhá v plavecké škole pod vedením instruktorů; cílem je zvládnutí základních plaveckých dovedností, ne závodní styl.",
-  "jak": [
-   "Splývá, potopí se a vydechuje do vody beze strachu.",
-   "Uplave alespoň krátký úsek jedním plaveckým způsobem.",
-   "Zná zásady bezpečného chování u vody."
-  ],
-  "dal": "Zdokonalování plavání a sportovní hry na 2. stupni.",
-  "dalId": "tv6-sport",
-  "rvp": "RVP ZV · Člověk a zdraví — Tělesná výchova · 1. stupeň (základní plavecká výuka zpravidla ve 2. a 3. ročníku).",
-  "doma": [
-   "Choďte plavat i mimo výcvik — jistota z bazénu se přenáší.",
-   "Strach z vody řešte s instruktorem, ne tlakem."
   ]
  },
  {
@@ -2776,43 +3152,6 @@
   ]
  },
  {
-  "id": "vz6-zdravi",
-  "r": 6,
-  "p": "vz",
-  "t": "Výchova ke zdraví",
-  "co": "Samostatný obor RVP (často vyučovaný v rámci občanky, přírodopisu nebo TV): zdravý životní styl, výživa a režim dne, dospívání a změny v pubertě, duševní zdraví a zvládání stresu, prevence závislostí (alkohol, nikotin, digitální závislosti) a bezpečné chování — včetně toho online.",
-  "jak": [
-   "Sestaví si vyvážený jídelníček a rozumný denní režim.",
-   "Popíše změny v dospívání jako normální součást vývoje.",
-   "Ví, jak odmítnout cigaretu či alkohol a na koho se obrátit v nouzi."
-  ],
-  "dal": "Témata se prohlubují v 7.–9. ročníku (první pomoc, rizikové chování, vztahy).",
-  "rvp": "RVP ZV · Člověk a zdraví — Výchova ke zdraví · 2. stupeň.",
-  "doma": [
-   "Mluvte o pubertě dřív, než přijde — věcně a bez dramat.",
-   "Jídelníček řešte společně, ne příkazem."
-  ]
- },
- {
-  "id": "tv6-sport",
-  "r": 6,
-  "p": "tv",
-  "t": "Atletika, gymnastika a sportovní hry",
-  "co": "Tělesná výchova na 2. stupni se člení do klasických bloků: atletika (běhy, skoky, hody), gymnastika (akrobacie, přeskok, hrazda), sportovní hry (basketbal, volejbal, florbal, fotbal) a rozvoj zdatnosti. Důraz je na technice, spolupráci a fair play.",
-  "jak": [
-   "Zvládne základní techniku běhu, skoku dalekého a hodu míčkem.",
-   "Zapojí se do týmové hry a respektuje rozhodčího.",
-   "Zlepšuje své osobní výkony — porovnává se se sebou, ne jen s ostatními."
-  ],
-  "dal": "Lyžařský kurz v 7. ročníku a rozvoj kondice ve vyšších ročnících.",
-  "dalId": "tv7-lyzak",
-  "rvp": "RVP ZV · Člověk a zdraví — Tělesná výchova · 2. stupeň.",
-  "doma": [
-   "Podporujte aspoň jeden pravidelný sport mimo školu.",
-   "Sledujte spolu zápas a rozebírejte pravidla."
-  ]
- },
- {
   "id": "csp6-dilny",
   "r": 6,
   "p": "csp",
@@ -3231,24 +3570,6 @@
    "D-9-5-04",
    "D-9-5-05",
    "D-9-5-06"
-  ]
- },
- {
-  "id": "tv7-lyzak",
-  "r": 7,
-  "p": "tv",
-  "t": "Lyžařský kurz",
-  "co": "Lyžařský výcvikový kurz („lyžák“) bývá tradičně v 7. ročníku: týden na horách s výukou sjezdového lyžování, případně snowboardingu a běžek, večerními přednáškami o bezpečnosti a — pro mnohé děti — první delší dobou bez rodičů. Pořádání a podmínky určuje škola; účast pro žáka není ze zákona povinná.",
-  "jak": [
-   "Bezpečně zvládá jízdu na vleku a základní oblouky.",
-   "Zná pravidla chování na sjezdovce (pravidla FIS).",
-   "Postará se o své věci a vybavení po celý týden."
-  ],
-  "dal": "Sportovně-turistické kurzy ve vyšších ročnících (dle ŠVP).",
-  "rvp": "RVP ZV · Člověk a zdraví — Tělesná výchova · 2. stupeň (lyžařský výcvik dle podmínek školy); metodický pokyn MŠMT k organizaci kurzů.",
-  "doma": [
-   "Před kurzem půjčovna a den na svahu — první oblouky bez stresu.",
-   "Seznam věcí projděte a sbalte spolu: je to i lekce samostatnosti."
   ]
  },
  {
