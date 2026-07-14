@@ -2005,19 +2005,187 @@
   "id": "fy6-mereni",
   "r": 6,
   "p": "fy",
-  "t": "Fyzika začíná: veličiny a měření",
-  "co": "První rok fyziky je o řemesle vědy: látky a tělesa, fyzikální veličiny (délka, hmotnost, objem, čas, teplota) a jejich jednotky, měřidla a zápis měření včetně odchylek. K tomu obvykle základy o částicovém složení látek a magnetismu.",
+  "t": "Fyzika začíná: veličiny, látky a měření",
+  "co": "První fyzika je o řemesle vědy: látky a tělesa, délka, hmotnost, objem, čas, teplota, měřidla, jednotky a zápis výsledku. Přidává se částicové složení látek, difuze, teplotní roztažnost a vztah hustoty, hmotnosti a objemu.",
   "jak": [
-   "Změří délku, hmotnost, objem a teplotu vhodným měřidlem.",
-   "Zapíše výsledek s jednotkou a převede běžné jednotky.",
-   "Rozliší látku a těleso (sklo × sklenice)."
+   "Změří délku, hmotnost, objem, čas a teplotu vhodným měřidlem.",
+   "Zapíše výsledek s jednotkou, převede běžné jednotky a odhadne rozumnost výsledku.",
+   "Vysvětlí na příkladu difuzi, změnu objemu při zahřátí a spočítá hustotu, hmotnost nebo objem."
   ],
-  "dal": "Pohyb a síla v 7. ročníku.",
-  "dalId": "fy7-sila",
+  "dal": "Pohyb těles, rychlost a síly v 7. ročníku.",
+  "dalId": "fy7-pohyb",
   "rvp": "RVP ZV · Člověk a příroda — Fyzika · 2. stupeň (látky a tělesa).",
   "doma": [
    "Važte a měřte při vaření a kutění — vždy s jednotkami.",
-   "Zapisujte týden ranní a večerní teplotu a udělejte z toho graf."
+   "Zapisujte týden ranní a večerní teplotu a udělejte z toho graf.",
+   "Porovnávejte hustotu: proč dřevo plave a kovový klíč se potopí."
+  ],
+  "rvpRefs": [
+   "F-9-1-01",
+   "F-9-1-02",
+   "F-9-1-03",
+   "F-9-1-04"
+  ]
+ },
+ {
+  "id": "fy7-pohyb",
+  "r": 7,
+  "p": "fy",
+  "t": "Pohyb těles a rychlost",
+  "co": "Žák se učí popsat, jestli je těleso v klidu nebo v pohybu vzhledem k jinému tělesu, rozlišit pohyb rovnoměrný a nerovnoměrný, přímočarý a křivočarý a počítat rychlost, dráhu a čas.",
+  "jak": [
+   "Rozhodne, vůči čemu je těleso v klidu nebo v pohybu.",
+   "Rozliší rovnoměrný a nerovnoměrný pohyb na příkladech.",
+   "Použije vztah v = s/t a převede běžně km/h a m/s."
+  ],
+  "dal": "Na pohyb navazují síly, tření, tlak a skládání sil.",
+  "dalId": "fy7-sily",
+  "rvp": "RVP ZV · Fyzika · Pohyb těles; síly.",
+  "doma": [
+   "Přepočítejte rychlost auta: km/h na m/s.",
+   "Při cestě odhadujte čas příjezdu podle vzdálenosti a rychlosti."
+  ],
+  "rvpRefs": [
+   "F-9-2-01",
+   "F-9-2-02"
+  ]
+ },
+ {
+  "id": "fy7-sily",
+  "r": 7,
+  "p": "fy",
+  "t": "Síly, tření, tlak a výslednice",
+  "co": "Síla vysvětluje změnu pohybu, tíhu, tření i tlak. Důležité je umět určit druh síly, její směr a velikost, pracovat se siloměrem a chápat výslednici sil v jednoduchých situacích.",
+  "jak": [
+   "Změří sílu siloměrem a určí její směr.",
+   "Vysvětlí gravitační sílu, tření a tlak na praktických příkladech.",
+   "Určí výslednici dvou sil stejných nebo opačných směrů."
+  ],
+  "dal": "Tlak v kapalinách a plynech, Pascalův a Archimédův zákon.",
+  "dalId": "fy7-tekutiny",
+  "rvp": "RVP ZV · Fyzika · Pohyb těles; síly.",
+  "doma": [
+   "Zkoušejte tření na různých površích.",
+   "Porovnejte tlak podpatku, lyže a sněžnice."
+  ],
+  "rvpRefs": [
+   "F-9-2-03"
+  ]
+ },
+ {
+  "id": "fy7-tekutiny",
+  "r": 7,
+  "p": "fy",
+  "t": "Tlak v kapalinách a plynech",
+  "co": "Mechanické vlastnosti tekutin propojují tlak, hloubku, hustotu, vztlak a praktická zařízení. Patří sem Pascalův zákon, hydraulika, hydrostatický a atmosférický tlak i Archimédův zákon.",
+  "jak": [
+   "Vysvětlí, proč tlak v kapalině roste s hloubkou.",
+   "Popíše princip hydraulického zařízení.",
+   "Rozhodne, proč těleso plave, vznáší se nebo se potápí."
+  ],
+  "dal": "Práce, výkon, energie a tepelné děje v 8. ročníku.",
+  "dalId": "fy8-energie",
+  "rvp": "RVP ZV · Fyzika · Mechanické vlastnosti tekutin.",
+  "doma": [
+   "Pozorujte brčko, injekční stříkačku bez jehly nebo hydraulický zvedák.",
+   "U lodí a koupání řešte vztlak: proč velká loď plave a malý kámen ne."
+  ],
+  "rvpRefs": [
+   "F-9-3-01"
+  ]
+ },
+ {
+  "id": "fy8-energie",
+  "r": 8,
+  "p": "fy",
+  "t": "Práce, výkon, energie a teplo",
+  "co": "Fyzika 8. ročníku obvykle pokrývá mechanickou práci a výkon, polohovou a pohybovou energii, přeměny energie, vnitřní energii, teplo, skupenské přeměny a energetické zdroje.",
+  "jak": [
+   "Spočítá práci a výkon ve školních úlohách.",
+   "Popíše přeměny energie na praktickém příkladu.",
+   "Vysvětlí rozdíl mezi teplem a teplotou a porovná výhody energetických zdrojů."
+  ],
+  "dal": "Zvukové děje a ochrana před hlukem.",
+  "dalId": "fy8-zvuk",
+  "rvp": "RVP ZV · Fyzika · Energie.",
+  "doma": [
+   "Čtěte štítky spotřebičů: watty a roční spotřeba.",
+   "Přeměny energie na kole: šlapání → pohyb → teplo brzd."
+  ],
+  "rvpRefs": [
+   "F-9-4-01",
+   "F-9-4-02"
+  ]
+ },
+ {
+  "id": "fy8-zvuk",
+  "r": 8,
+  "p": "fy",
+  "t": "Zvuk, šíření zvuku a hluk",
+  "co": "Zvukové děje se dají dobře pozorovat v běžném životě: zdroje zvuku, šíření v látkovém prostředí, odraz, ozvěna, pohlcování a hluk. Důležité je i zdraví sluchu a omezení nadměrného hluku.",
+  "jak": [
+   "Rozpozná zdroje zvuku a popíše, kudy se zvuk šíří.",
+   "Vysvětlí odraz zvuku, ozvěnu a pohlcování.",
+   "Navrhne, jak zmenšit hluk doma, ve třídě nebo v dopravě."
+  ],
+  "dal": "Elektrické obvody, magnetismus a bezpečné zacházení s elektřinou.",
+  "dalId": "fy9-elektrina",
+  "rvp": "RVP ZV · Fyzika · Zvukové děje.",
+  "doma": [
+   "Porovnejte ozvěnu v prázdné a zařízené místnosti.",
+   "Měřte hluk mobilní aplikací jen orientačně a řešte, kdy je zvuk nepříjemný."
+  ],
+  "rvpRefs": [
+   "F-9-5-01",
+   "F-9-5-02"
+  ]
+ },
+ {
+  "id": "fy9-elektrina",
+  "r": 9,
+  "p": "fy",
+  "t": "Elektřina, obvody a magnetismus",
+  "co": "Elektřina zahrnuje jednoduché obvody, schémata, napětí, proud, odpor, vodiče, izolanty, polovodiče, tepelné účinky proudu a magnetické jevy. Součástí je bezpečné zacházení s elektrickými zařízeními.",
+  "jak": [
+   "Zapojí jednoduchý obvod podle schématu a změří proud a napětí.",
+   "Rozliší stejnosměrný a střídavý proud, vodič, izolant a polovodič.",
+   "Vysvětlí, jak souvisí magnet, cívka s proudem a elektromagnetická indukce."
+  ],
+  "dal": "Světlo, optika a pohyb těles ve Sluneční soustavě.",
+  "dalId": "fy9-svetlo-vesmir",
+  "rvp": "RVP ZV · Fyzika · Elektromagnetické děje.",
+  "doma": [
+   "Stavebnice elektrických obvodů je skvělý praktický trénink.",
+   "U prodlužovaček a nabíječek mluvte o bezpečnosti, přetížení a poškozené izolaci."
+  ],
+  "rvpRefs": [
+   "F-9-6-01",
+   "F-9-6-02",
+   "F-9-6-03",
+   "F-9-6-04"
+  ]
+ },
+ {
+  "id": "fy9-svetlo-vesmir",
+  "r": 9,
+  "p": "fy",
+  "t": "Světlo, optika a vesmír",
+  "co": "Závěr fyziky propojuje šíření světla, stín, odraz, lom, čočky a základní pohyb planet a měsíců ve Sluneční soustavě. Nejde o astronomii do hloubky, ale o kvalitativní pochopení pomocí gravitace a světelných jevů.",
+  "jak": [
+   "Použije zákon přímočarého šíření světla a odrazu světla v jednoduchých úlohách.",
+   "Rozhodne, kdy se světlo láme ke kolmici nebo od kolmice a co dělá spojka a rozptylka.",
+   "Kvalitativně vysvětlí pohyb planet kolem Slunce a měsíců kolem planet."
+  ],
+  "dal": "Fyzika na střední škole; volba oboru u technických škol.",
+  "rvp": "RVP ZV · Fyzika · Světelné děje a vesmír.",
+  "doma": [
+   "Zkoušejte odraz na zrcadle, stíny a lom světla ve sklenici vody.",
+   "Sledujte fáze Měsíce a vraťte se k nim za měsíc."
+  ],
+  "rvpRefs": [
+   "F-9-6-05",
+   "F-9-6-06",
+   "F-9-7-01"
   ]
  },
  {
@@ -2644,25 +2812,6 @@
   ]
  },
  {
-  "id": "fy7-sila",
-  "r": 7,
-  "p": "fy",
-  "t": "Pohyb a síla",
-  "co": "Klasická mechanika poprvé: rovnoměrný a nerovnoměrný pohyb, rychlost (v = s/t), síla a její měření, gravitační síla, tření, Newtonovy zákony v přístupné podobě a skládání sil. Hodně výpočtů — tady se poprvé potká fyzika s matematikou.",
-  "jak": [
-   "Spočítá rychlost, dráhu nebo čas ze vztahu v = s/t včetně převodu km/h ↔ m/s.",
-   "Změří sílu siloměrem a určí gravitační sílu působící na těleso.",
-   "Vysvětlí na příkladu setrvačnost („proč se v autobuse kymácíme“)."
-  ],
-  "dal": "Práce, výkon a energie v 8. ročníku.",
-  "dalId": "fy8-energie",
-  "rvp": "RVP ZV · Člověk a příroda — Fyzika · 2. stupeň (pohyb těles, síly).",
-  "doma": [
-   "Přepočítejte rychlost auta: km/h na m/s.",
-   "Bezpečné pokusy: tření na různých površích, setrvačnost kufru v kufru auta."
-  ]
- },
- {
   "id": "d7-stredovek",
   "r": 7,
   "p": "d",
@@ -3019,25 +3168,6 @@
   ]
  },
  {
-  "id": "fy8-energie",
-  "r": 8,
-  "p": "fy",
-  "t": "Práce, výkon, energie a teplo",
-  "co": "Fyzika 8. ročníku obvykle pokrývá mechanickou práci a výkon, polohovou a pohybovou energii, přeměny energie a tepelné jevy (teplo, skupenské přeměny). Na některých školách sem spadá i elektřina — pořadí určuje ŠVP.",
-  "jak": [
-   "Spočítá práci (W = F·s) a výkon (P = W/t).",
-   "Popíše přeměny energie na příkladu (sjezd na kole, přehrada).",
-   "Vysvětlí rozdíl mezi teplem a teplotou."
-  ],
-  "dal": "Elektrické obvody a energetika v 9. ročníku.",
-  "dalId": "fy9-elektrina",
-  "rvp": "RVP ZV · Člověk a příroda — Fyzika · 2. stupeň (energie).",
-  "doma": [
-   "Čtěte štítky spotřebičů: watty a roční spotřeba.",
-   "Přeměny energie na kole: šlapání → pohyb → teplo brzd."
-  ]
- },
- {
   "id": "prir8-clovek",
   "r": 8,
   "p": "prir",
@@ -3388,24 +3518,6 @@
   "doma": [
    "Čtěte etikety: složení potravin, pH čisticích prostředků.",
    "Chemie je dobrá záminka mluvit otevřeně o alkoholu a drogách."
-  ]
- },
- {
-  "id": "fy9-elektrina",
-  "r": 9,
-  "p": "fy",
-  "t": "Elektřina a energetika",
-  "co": "Elektrické obvody (napětí, proud, odpor, Ohmův zákon), elektromagnetické jevy, výroba a přenos elektrické energie, jaderná energie a bezpečnost. Pořadí se mezi školami liší, ale bez Ohmova zákona ze základky nikdo neodejde.",
-  "jak": [
-   "Zapojí jednoduchý obvod podle schématu a změří proud a napětí.",
-   "Použije Ohmův zákon (U = R·I) ve výpočtu.",
-   "Vysvětlí, odkud se bere elektřina v zásuvce a proč se šetří energií."
-  ],
-  "dal": "Fyzika na střední škole; volba oboru u technických škol.",
-  "rvp": "RVP ZV · Člověk a příroda — Fyzika · 2. stupeň (elektromagnetické a světelné děje, energie).",
-  "doma": [
-   "Spočítejte spotřebu domácnosti z vyúčtování.",
-   "Stavebnice elektrických obvodů je skvělý dárek."
   ]
  },
  {

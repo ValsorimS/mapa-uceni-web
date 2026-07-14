@@ -376,7 +376,7 @@ SKILLS.forEach(s => {
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Pokrytí RVP</div>
   <div class="page-title"><h1>Pokrytí RVP</h1>
-  <p class="lead">Strojově kontrolované mapování témat na očekávané výstupy RVP ZV. Zatím je detailně rozpracovaná matematika; ostatní oblasti čekají na import konkrétních výstupů.</p></div>
+  <p class="lead">Strojově kontrolované mapování témat na očekávané výstupy RVP ZV. U importovaných oborů je vidět pokrytí výstupů, navázaná témata i mezery, které ještě čekají na doplnění.</p></div>
   <div class="metrics">
     <div><b>${outcomes.length}</b><span>importovaných výstupů RVP</span></div>
     <div><b>${mappedOutcomes.length}</b><span>výstupů s tématem</span></div>

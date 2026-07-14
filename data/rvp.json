@@ -4975,6 +4975,291 @@
    "skillIds": [
     "ov9-svet"
    ]
+  },
+  {
+   "id": "F-9-1-01",
+   "topic": "Látky a tělesa",
+   "text": "změří vhodně zvolenými měřidly některé důležité fyzikální veličiny charakterizující látky a tělesa",
+   "skillIds": [
+    "fy6-mereni"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-1-02",
+   "topic": "Látky a tělesa",
+   "text": "uvede konkrétní příklady jevů dokazujících, že se částice látek neustále pohybují a vzájemně na sebe působí",
+   "skillIds": [
+    "fy6-mereni"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-1-03",
+   "topic": "Látky a tělesa",
+   "text": "předpoví, jak se změní délka či objem tělesa při dané změně jeho teploty",
+   "skillIds": [
+    "fy6-mereni"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-1-04",
+   "topic": "Látky a tělesa",
+   "text": "využívá s porozuměním vztah mezi hustotou, hmotností a objemem při řešení praktických problémů",
+   "skillIds": [
+    "fy6-mereni"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-2-01",
+   "topic": "Pohyb těles; síly",
+   "text": "rozhodne, jaký druh pohybu těleso koná vzhledem k jinému tělesu",
+   "skillIds": [
+    "fy7-pohyb"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-2-02",
+   "topic": "Pohyb těles; síly",
+   "text": "využívá s porozuměním při řešení problémů a úloh vztah mezi rychlostí, dráhou a časem u rovnoměrného pohybu těles",
+   "skillIds": [
+    "fy7-pohyb"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-2-03",
+   "topic": "Pohyb těles; síly",
+   "text": "určí v konkrétní jednoduché situaci druhy sil působících na těleso, jejich velikosti, směry a výslednici",
+   "skillIds": [
+    "fy7-sily"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-3-01",
+   "topic": "Mechanické vlastnosti tekutin",
+   "text": "využívá poznatky o zákonitostech tlaku v klidných tekutinách pro řešení konkrétních praktických problémů",
+   "skillIds": [
+    "fy7-tekutiny"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-4-01",
+   "topic": "Energie",
+   "text": "využívá s porozuměním vztah mezi výkonem, vykonanou prací a časem",
+   "skillIds": [
+    "fy8-energie"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-4-02",
+   "topic": "Energie",
+   "text": "zhodnotí výhody a nevýhody využívání různých energetických zdrojů z hlediska vlivu na životní prostředí",
+   "skillIds": [
+    "fy8-energie"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-5-01",
+   "topic": "Zvukové děje",
+   "text": "rozpozná ve svém okolí zdroje zvuku a kvalitativně analyzuje příhodnost daného prostředí pro šíření zvuku",
+   "skillIds": [
+    "fy8-zvuk"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-5-02",
+   "topic": "Zvukové děje",
+   "text": "posoudí možnosti zmenšování vlivu nadměrného hluku na životní prostředí",
+   "skillIds": [
+    "fy8-zvuk"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-6-01",
+   "topic": "Elektromagnetické a světelné děje",
+   "text": "sestaví správně podle schématu elektrický obvod a analyzuje správně schéma reálného obvodu",
+   "skillIds": [
+    "fy9-elektrina"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-6-02",
+   "topic": "Elektromagnetické a světelné děje",
+   "text": "rozliší stejnosměrný proud od střídavého a změří elektrický proud a napětí",
+   "skillIds": [
+    "fy9-elektrina"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-6-03",
+   "topic": "Elektromagnetické a světelné děje",
+   "text": "rozliší vodič, izolant a polovodič na základě analýzy jejich vlastností",
+   "skillIds": [
+    "fy9-elektrina"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-6-04",
+   "topic": "Elektromagnetické a světelné děje",
+   "text": "využívá prakticky poznatky o působení magnetického pole na magnet a cívku s proudem a o vlivu změny magnetického pole v okolí cívky na vznik indukovaného napětí v ní",
+   "skillIds": [
+    "fy9-elektrina"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-6-05",
+   "topic": "Elektromagnetické a světelné děje",
+   "text": "využívá zákon o přímočarém šíření světla ve stejnorodém optickém prostředí a zákon odrazu světla při řešení problémů a úloh",
+   "skillIds": [
+    "fy9-svetlo-vesmir"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-6-06",
+   "topic": "Elektromagnetické a světelné děje",
+   "text": "rozhodne ze znalosti rychlostí světla ve dvou různých prostředích, zda se světlo bude lámat ke kolmici, či od kolmice, a využívá této skutečnosti při analýze průchodu světla čočkami",
+   "skillIds": [
+    "fy9-svetlo-vesmir"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
+  },
+  {
+   "id": "F-9-7-01",
+   "topic": "Vesmír",
+   "text": "objasní kvalitativně pomocí poznatků o gravitačních silách pohyb planet kolem Slunce a měsíců planet kolem planet",
+   "skillIds": [
+    "fy9-svetlo-vesmir"
+   ],
+   "fieldId": "fyzika",
+   "periodId": "2-stupen",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.6.1"
+   }
   }
  ]
 }
