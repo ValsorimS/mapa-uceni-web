@@ -7683,6 +7683,876 @@
    "skillIds": [
     "vv8-digitalni-media-interpretace"
    ]
+  },
+  {
+   "id": "ČSP-3-1-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "1-obdobi",
+   "topic": "Práce s drobným materiálem 1. období",
+   "text": "vytváří jednoduchými postupy různé předměty z tradičních i netradičních materiálů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp1-materialy-navod"
+   ]
+  },
+  {
+   "id": "ČSP-3-1-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "1-obdobi",
+   "topic": "Práce s drobným materiálem 1. období",
+   "text": "pracuje podle slovního návodu a předlohy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp1-materialy-navod"
+   ]
+  },
+  {
+   "id": "ČSP-3-2-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "1-obdobi",
+   "topic": "Konstrukční činnosti 1. období",
+   "text": "zvládá elementární dovednosti a činnosti při práci se stavebnicemi",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp2-stavebnice"
+   ]
+  },
+  {
+   "id": "ČSP-3-3-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "1-obdobi",
+   "topic": "Pěstitelské práce 1. období",
+   "text": "provádí pozorování přírody, zaznamená a zhodnotí výsledky pozorování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp2-pestovani-rostlin"
+   ]
+  },
+  {
+   "id": "ČSP-3-3-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "1-obdobi",
+   "topic": "Pěstitelské práce 1. období",
+   "text": "pečuje o nenáročné rostliny",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp2-pestovani-rostlin"
+   ]
+  },
+  {
+   "id": "ČSP-3-4-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "1-obdobi",
+   "topic": "Příprava pokrmů 1. období",
+   "text": "připraví tabuli pro jednoduché stolování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp3-stolovani"
+   ]
+  },
+  {
+   "id": "ČSP-3-4-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "1-obdobi",
+   "topic": "Příprava pokrmů 1. období",
+   "text": "chová se vhodně při stolování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp3-stolovani"
+   ]
+  },
+  {
+   "id": "ČSP-5-1-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Práce s drobným materiálem 2. období",
+   "text": "vytváří přiměřenými pracovními operacemi a postupy na základě své představivosti různé výrobky z daného materiálu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp4-vyrobky-tradice"
+   ]
+  },
+  {
+   "id": "ČSP-5-1-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Práce s drobným materiálem 2. období",
+   "text": "využívá při tvořivých činnostech s různým materiálem prvky lidových tradic",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp4-vyrobky-tradice"
+   ]
+  },
+  {
+   "id": "ČSP-5-1-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Práce s drobným materiálem 2. období",
+   "text": "volí vhodné pracovní pomůcky, nástroje a náčiní vzhledem k použitému materiálu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp4-pomucky-bezpecnost"
+   ]
+  },
+  {
+   "id": "ČSP-5-1-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Práce s drobným materiálem 2. období",
+   "text": "udržuje pořádek na pracovním místě a dodržuje zásady hygieny a bezpečnosti práce; poskytne první pomoc při úrazu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp4-pomucky-bezpecnost"
+   ]
+  },
+  {
+   "id": "ČSP-5-2-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Konstrukční činnosti 2. období",
+   "text": "provádí při práci se stavebnicemi jednoduchou montáž a demontáž",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp4-stavebnice-navrhy"
+   ]
+  },
+  {
+   "id": "ČSP-5-2-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Konstrukční činnosti 2. období",
+   "text": "pracuje podle slovního návodu, předlohy, jednoduchého náčrtu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp4-stavebnice-navrhy"
+   ]
+  },
+  {
+   "id": "ČSP-5-2-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Konstrukční činnosti 2. období",
+   "text": "dodržuje zásady hygieny a bezpečnosti práce, poskytne první pomoc při úrazu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp4-stavebnice-navrhy"
+   ]
+  },
+  {
+   "id": "ČSP-5-3-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Pěstitelské práce 2. období",
+   "text": "provádí jednoduché pěstitelské činnosti, samostatně vede pěstitelské pokusy a pozorování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp5-pestitelske-pokusy"
+   ]
+  },
+  {
+   "id": "ČSP-5-3-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Pěstitelské práce 2. období",
+   "text": "ošetřuje a pěstuje podle daných zásad pokojové i jiné rostliny",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp5-pestitelske-pokusy"
+   ]
+  },
+  {
+   "id": "ČSP-5-3-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Pěstitelské práce 2. období",
+   "text": "volí podle druhu pěstitelských činností správné pomůcky, nástroje a náčiní",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp5-pestitelske-pokusy"
+   ]
+  },
+  {
+   "id": "ČSP-5-3-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Pěstitelské práce 2. období",
+   "text": "dodržuje zásady hygieny a bezpečnosti práce; poskytne první pomoc při úrazu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp5-pestitelske-pokusy"
+   ]
+  },
+  {
+   "id": "ČSP-5-4-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Příprava pokrmů 2. období",
+   "text": "orientuje se v základním vybavení kuchyně",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp5-kuchyne-pokrmy"
+   ]
+  },
+  {
+   "id": "ČSP-5-4-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Příprava pokrmů 2. období",
+   "text": "připraví samostatně jednoduchý pokrm",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp5-kuchyne-pokrmy"
+   ]
+  },
+  {
+   "id": "ČSP-5-4-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Příprava pokrmů 2. období",
+   "text": "dodržuje pravidla správného stolování a společenského chování",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp5-kuchyne-pokrmy"
+   ]
+  },
+  {
+   "id": "ČSP-5-4-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-obdobi",
+   "topic": "Příprava pokrmů 2. období",
+   "text": "udržuje pořádek a čistotu pracovních ploch, dodržuje základy hygieny a bezpečnosti práce; poskytne první pomoc i při úrazu v kuchyni",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp5-kuchyne-pokrmy"
+   ]
+  },
+  {
+   "id": "ČSP-9-1-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Práce s technickými materiály",
+   "text": "provádí jednoduché práce s technickými materiály a dodržuje technologickou kázeň",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp6-technicke-materialy"
+   ]
+  },
+  {
+   "id": "ČSP-9-1-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Práce s technickými materiály",
+   "text": "řeší jednoduché technické úkoly s vhodným výběrem materiálů, pracovních nástrojů a nářadí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp6-technicke-materialy"
+   ]
+  },
+  {
+   "id": "ČSP-9-1-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Práce s technickými materiály",
+   "text": "organizuje a plánuje svoji pracovní činnost",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp6-technicke-materialy"
+   ]
+  },
+  {
+   "id": "ČSP-9-1-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Práce s technickými materiály",
+   "text": "užívá technickou dokumentaci, připraví si vlastní jednoduchý náčrt výrobku",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp6-technicke-materialy"
+   ]
+  },
+  {
+   "id": "ČSP-9-1-05",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Práce s technickými materiály",
+   "text": "dodržuje obecné zásady bezpečnosti a hygieny při práci i zásady bezpečnosti a ochrany při práci s nástroji a nářadím; poskytne první pomoc při úrazu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp6-technicke-materialy"
+   ]
+  },
+  {
+   "id": "ČSP-9-2-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Design a konstruování",
+   "text": "sestaví podle návodu, náčrtu, plánu, jednoduchého programu daný model",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp6-design-konstruovani"
+   ]
+  },
+  {
+   "id": "ČSP-9-2-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Design a konstruování",
+   "text": "navrhne a sestaví jednoduché konstrukční prvky a ověří a porovná jejich funkčnost, nosnost, stabilitu aj.",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp6-design-konstruovani"
+   ]
+  },
+  {
+   "id": "ČSP-9-2-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Design a konstruování",
+   "text": "provádí montáž, demontáž a údržbu jednoduchých předmětů a zařízení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp6-design-konstruovani"
+   ]
+  },
+  {
+   "id": "ČSP-9-2-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Design a konstruování",
+   "text": "dodržuje zásady bezpečnosti a hygieny práce a bezpečnostní předpisy; poskytne první pomoc při úrazu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp6-design-konstruovani"
+   ]
+  },
+  {
+   "id": "ČSP-9-3-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Pěstitelské práce, chovatelství",
+   "text": "volí vhodné pracovní postupy při pěstování vybraných rostlin",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp7-pestitelstvi-chovatelstvi"
+   ]
+  },
+  {
+   "id": "ČSP-9-3-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Pěstitelské práce, chovatelství",
+   "text": "pěstuje a využívá květiny pro výzdobu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp7-pestitelstvi-chovatelstvi"
+   ]
+  },
+  {
+   "id": "ČSP-9-3-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Pěstitelské práce, chovatelství",
+   "text": "používá vhodné pracovní pomůcky a provádí jejich údržbu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp7-pestitelstvi-chovatelstvi"
+   ]
+  },
+  {
+   "id": "ČSP-9-3-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Pěstitelské práce, chovatelství",
+   "text": "prokáže základní znalost chovu drobných zvířat a zásad bezpečného kontaktu se zvířaty",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp7-pestitelstvi-chovatelstvi"
+   ]
+  },
+  {
+   "id": "ČSP-9-3-05",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Pěstitelské práce, chovatelství",
+   "text": "dodržuje technologickou kázeň, zásady hygieny a bezpečnosti práce, poskytne první pomoc při úrazu, včetně úrazu způsobeného zvířaty",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp7-pestitelstvi-chovatelstvi"
+   ]
+  },
+  {
+   "id": "ČSP-9-4-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Provoz a údržba domácnosti",
+   "text": "provádí jednoduché operace platebního styku a domácího účetnictví",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp7-domacnost-udrzba"
+   ]
+  },
+  {
+   "id": "ČSP-9-4-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Provoz a údržba domácnosti",
+   "text": "ovládá jednoduché pracovní postupy při základních činnostech v domácnosti a orientuje se v návodech k obsluze běžných domácích spotřebičů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp7-domacnost-udrzba"
+   ]
+  },
+  {
+   "id": "ČSP-9-4-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Provoz a údržba domácnosti",
+   "text": "správně zachází s pomůckami, nástroji, nářadím a zařízením včetně údržby; provádí drobnou domácí údržbu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp7-domacnost-udrzba"
+   ]
+  },
+  {
+   "id": "ČSP-9-4-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Provoz a údržba domácnosti",
+   "text": "dodržuje základní hygienická a bezpečnostní pravidla a předpisy a poskytne první pomoc při úrazu, včetně úrazu elektrickým proudem",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp7-domacnost-udrzba"
+   ]
+  },
+  {
+   "id": "ČSP-9-5-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Příprava pokrmů",
+   "text": "používá základní kuchyňský inventář a bezpečně obsluhuje základní spotřebiče",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-priprava-pokrmu"
+   ]
+  },
+  {
+   "id": "ČSP-9-5-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Příprava pokrmů",
+   "text": "připraví jednoduché pokrmy v souladu se zásadami zdravé výživy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-priprava-pokrmu"
+   ]
+  },
+  {
+   "id": "ČSP-9-5-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Příprava pokrmů",
+   "text": "dodržuje základní principy stolování, společenského chování a obsluhy u stolu ve společnosti",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-priprava-pokrmu"
+   ]
+  },
+  {
+   "id": "ČSP-9-5-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Příprava pokrmů",
+   "text": "dodržuje zásady hygieny a bezpečnosti práce; poskytne první pomoc při úrazech v kuchyni",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-priprava-pokrmu"
+   ]
+  },
+  {
+   "id": "ČSP-9-6-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Práce s laboratorní technikou",
+   "text": "vybere a prakticky využívá vhodné pracovní postupy, přístroje, zařízení a pomůcky pro konání konkrétních pozorování, měření a experimentů",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-laboratorni-technika"
+   ]
+  },
+  {
+   "id": "ČSP-9-6-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Práce s laboratorní technikou",
+   "text": "zpracuje protokol o cíli, průběhu a výsledcích své experimentální práce a zformuluje v něm závěry, k nimž dospěl",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-laboratorni-technika"
+   ]
+  },
+  {
+   "id": "ČSP-9-6-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Práce s laboratorní technikou",
+   "text": "vyhledá v dostupných informačních zdrojích všechny podklady, jež mu co nejlépe pomohou provést danou experimentální práci",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-laboratorni-technika"
+   ]
+  },
+  {
+   "id": "ČSP-9-6-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Práce s laboratorní technikou",
+   "text": "dodržuje pravidla bezpečné práce a ochrany životního prostředí při experimentální práci",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-laboratorni-technika"
+   ]
+  },
+  {
+   "id": "ČSP-9-6-05",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Práce s laboratorní technikou",
+   "text": "poskytne první pomoc při úrazu v laboratoři",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-laboratorni-technika"
+   ]
+  },
+  {
+   "id": "ČSP-9-7-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Využití digitálních technologií",
+   "text": "ovládá základní funkce digitální techniky; diagnostikuje a odstraňuje základní problémy při provozu digitální techniky",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-digitalni-technologie"
+   ]
+  },
+  {
+   "id": "ČSP-9-7-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Využití digitálních technologií",
+   "text": "propojuje vzájemně jednotlivá digitální zařízení",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-digitalni-technologie"
+   ]
+  },
+  {
+   "id": "ČSP-9-7-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Využití digitálních technologií",
+   "text": "pracuje uživatelským způsobem s mobilními technologiemi – cestování, obchod, vzdělávání, zábava",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-digitalni-technologie"
+   ]
+  },
+  {
+   "id": "ČSP-9-7-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Využití digitálních technologií",
+   "text": "ošetřuje digitální techniku a chrání ji před poškozením",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-digitalni-technologie"
+   ]
+  },
+  {
+   "id": "ČSP-9-7-05",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Využití digitálních technologií",
+   "text": "dodržuje základní hygienická a bezpečnostní pravidla a předpisy při práci s digitální technikou a poskytne první pomoc při úrazu",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp8-digitalni-technologie"
+   ]
+  },
+  {
+   "id": "ČSP-9-8-01",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Svět práce",
+   "text": "orientuje se v pracovních činnostech vybraných profesí",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp9-povolani"
+   ]
+  },
+  {
+   "id": "ČSP-9-8-02",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Svět práce",
+   "text": "posoudí své možnosti při rozhodování o volbě vhodného povolání a profesní přípravy",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp9-povolani"
+   ]
+  },
+  {
+   "id": "ČSP-9-8-03",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Svět práce",
+   "text": "využije profesní informace a poradenské služby pro výběr vhodného vzdělávání",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp9-povolani"
+   ]
+  },
+  {
+   "id": "ČSP-9-8-04",
+   "fieldId": "clovek-a-svet-prace",
+   "periodId": "2-stupen",
+   "topic": "Svět práce",
+   "text": "prokáže v modelových situacích schopnost prezentace své osoby při vstupu na trh práce",
+   "minimumLevel": false,
+   "source": {
+    "document": "RVP ZV 2023",
+    "section": "5.9"
+   },
+   "skillIds": [
+    "csp9-povolani"
+   ]
   }
  ]
 }

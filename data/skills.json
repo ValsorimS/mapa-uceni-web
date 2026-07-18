@@ -1002,22 +1002,419 @@
   ]
  },
  {
-  "id": "csp1-prace",
+  "id": "csp1-materialy-navod",
   "r": 1,
   "p": "csp",
-  "t": "Pracovní činnosti: stříhání, lepení, stavebnice",
-  "co": "Předmět, kterému se říká pracovky (v RVP oblast Člověk a svět práce): práce s papírem, modelínou a drobným materiálem, konstrukční stavebnice, jednoduché skládání. Trénuje jemnou motoriku, která přímo souvisí s psaním.",
+  "t": "Drobný materiál, návod a předloha",
+  "co": "První pracovní činnosti: papír, karton, přírodniny, modelína, textil a další drobný materiál. Dítě zkouší jednoduché pracovní postupy, učí se poslouchat návod, dívat se na předlohu a dokončit výrobek bez zbytečného spěchu.",
   "jak": [
-   "Stříhá podél čáry a lepí bez „jezera“ lepidla.",
-   "Postaví model podle jednoduchého návodu nebo předlohy.",
-   "Uklidí po sobě pracovní místo."
+   "Vytvoří jednoduchý výrobek z tradičního i netradičního materiálu.",
+   "Pracuje podle slovního návodu nebo předlohy.",
+   "Připraví si pomůcky a po práci uklidí pracovní místo."
   ],
-  "dal": "Práce s dalšími materiály a pěstitelské práce ve 4.–5. ročníku.",
-  "dalId": "csp4-materialy",
-  "rvp": "RVP ZV · Člověk a svět práce · 1. stupeň.",
+  "dal": "Na jemnou motoriku naváže práce se stavebnicemi, pěstování a jednoduché stolování.",
+  "dalId": "csp2-stavebnice",
+  "rvp": "RVP ZV · Člověk a svět práce · Práce s drobným materiálem · 1. období.",
   "doma": [
-   "Zapojte dítě do vaření a domácích prací — je to stejný trénink motoriky.",
-   "Levákovi pořiďte nůžky pro leváky."
+   "Mějte doma krabičku s papíry, provázky, lepidlem a bezpečnými nůžkami.",
+   "Nechte dítě dodělat výrobek po svém; důležitý je postup, vytrvalost a uklizený stůl."
+  ],
+  "rvpRefs": [
+   "ČSP-3-1-01",
+   "ČSP-3-1-02"
+  ]
+ },
+ {
+  "id": "csp2-stavebnice",
+  "r": 2,
+  "p": "csp",
+  "t": "Stavebnice, skládání a jednoduché modely",
+  "co": "Konstrukční činnosti v mladším školním věku: plošné a prostorové stavebnice, skládání modelů, práce s díly, spojování, rozebírání a porovnávání, co drží pohromadě a proč.",
+  "jak": [
+   "Sestaví jednoduchý model ze stavebnice.",
+   "Rozebere model bez ničení dílů a vrátí je na místo.",
+   "Zkouší, jak změna konstrukce ovlivní stabilitu nebo tvar."
+  ],
+  "dal": "Další krok je samostatnější pěstování a pozorování rostlin.",
+  "dalId": "csp2-pestovani-rostlin",
+  "rvp": "RVP ZV · Člověk a svět práce · Konstrukční činnosti · 1. období.",
+  "doma": [
+   "Stavte podle obrázku i bez návodu: most, věž, domek, jednoduchý mechanismus.",
+   "Ptejte se: co by šlo zpevnit, co se rozpadá a proč?"
+  ],
+  "rvpRefs": [
+   "ČSP-3-2-01"
+  ]
+ },
+ {
+  "id": "csp2-pestovani-rostlin",
+  "r": 2,
+  "p": "csp",
+  "t": "Pozorování přírody a péče o rostliny",
+  "co": "Dítě si všímá změn v přírodě, pěstuje nenáročné rostliny a učí se, že péče má pravidelnost: světlo, voda, půda, čas a trpělivost.",
+  "jak": [
+   "Pozoruje přírodu a jednoduše zaznamená, co se změnilo.",
+   "Pečuje o nenáročnou rostlinu ve třídě nebo doma.",
+   "Popíše, co rostlině pomáhá a co jí škodí."
+  ],
+  "dal": "Na péči o rostliny navazuje příprava stolu a vhodné chování při jídle.",
+  "dalId": "csp3-stolovani",
+  "rvp": "RVP ZV · Člověk a svět práce · Pěstitelské práce · 1. období.",
+  "doma": [
+   "Zasaďte fazoli nebo bylinky a nechte dítě vést jednoduchý záznam.",
+   "Svěřte dítěti jednu konkrétní rostlinu místo obecného „zalij květiny“."
+  ],
+  "rvpRefs": [
+   "ČSP-3-3-01",
+   "ČSP-3-3-02"
+  ]
+ },
+ {
+  "id": "csp3-stolovani",
+  "r": 3,
+  "p": "csp",
+  "t": "Jednoduché stolování a chování u stolu",
+  "co": "Základy přípravy pokrmů na 1. období: připravit stůl, chovat se u jídla ohleduplně, vnímat čistotu, pořádek a drobné domácí rituály kolem stolování.",
+  "jak": [
+   "Připraví tabuli pro jednoduché stolování.",
+   "Používá základní pravidla vhodného chování u stolu.",
+   "Po jídle pomůže s úklidem a udržuje čistotu."
+  ],
+  "dal": "Ve 4.–5. ročníku se pracovní činnosti rozšíří na vlastní výrobky, tradice, nástroje a bezpečnost.",
+  "dalId": "csp4-vyrobky-tradice",
+  "rvp": "RVP ZV · Člověk a svět práce · Příprava pokrmů · 1. období.",
+  "doma": [
+   "Nechte dítě pravidelně prostřít pro rodinu.",
+   "Učte pravidla stolování v praxi, ne jako přednášku."
+  ],
+  "rvpRefs": [
+   "ČSP-3-4-01",
+   "ČSP-3-4-02"
+  ]
+ },
+ {
+  "id": "csp4-vyrobky-tradice",
+  "r": 4,
+  "p": "csp",
+  "t": "Výrobky z materiálů a lidové tradice",
+  "co": "Tvořivé pracovní činnosti ve 4.–5. ročníku: dítě už nepracuje jen podle předlohy, ale používá vlastní představu, volí postup a poznává řemesla, lidové zvyky a tradiční výrobky.",
+  "jak": [
+   "Vytvoří výrobek z daného materiálu podle vlastní představy.",
+   "Použije při tvoření prvek lidové tradice, řemesla nebo svátku.",
+   "Popíše postup práce a zhodnotí výsledek."
+  ],
+  "dal": "Vedle tvoření je důležitá volba pomůcek, bezpečnost a první pomoc při drobném úrazu.",
+  "dalId": "csp4-pomucky-bezpecnost",
+  "rvp": "RVP ZV · Člověk a svět práce · Práce s drobným materiálem · 2. období.",
+  "doma": [
+   "Vyrábějte věci s reálným použitím: obal, přání, dekoraci, jednoduchý šitý výrobek.",
+   "U tradic vysvětlete smysl zvyku, nejen výtvarnou část."
+  ],
+  "rvpRefs": [
+   "ČSP-5-1-01",
+   "ČSP-5-1-02"
+  ]
+ },
+ {
+  "id": "csp4-pomucky-bezpecnost",
+  "r": 4,
+  "p": "csp",
+  "t": "Pomůcky, nástroje a bezpečné pracovní místo",
+  "co": "Žák se učí vybrat vhodné pracovní pomůcky a nástroje podle materiálu, pracovat bezpečně, držet pořádek a vědět, co udělat při drobném úrazu.",
+  "jak": [
+   "Vybere pomůcku, nástroj nebo náčiní podle použitého materiálu.",
+   "Udržuje pořádek na pracovním místě.",
+   "Dodržuje zásady hygieny a bezpečnosti a poskytne první pomoc při drobném úrazu."
+  ],
+  "dal": "Bezpečná práce pokračuje u stavebnic, montáže a jednoduchých náčrtů.",
+  "dalId": "csp4-stavebnice-navrhy",
+  "rvp": "RVP ZV · Člověk a svět práce · Práce s drobným materiálem · 2. období.",
+  "doma": [
+   "Dítěti dejte skutečné, ale bezpečné nástroje: nůžky, pravítko, lepidlo, jehlu pod dohledem.",
+   "Po práci chtějte úklid jako součást úkolu, ne jako trest navíc."
+  ],
+  "rvpRefs": [
+   "ČSP-5-1-03",
+   "ČSP-5-1-04"
+  ]
+ },
+ {
+  "id": "csp4-stavebnice-navrhy",
+  "r": 4,
+  "p": "csp",
+  "t": "Montáž, demontáž a práce podle náčrtu",
+  "co": "Konstrukční činnosti ve 2. období: stavebnice, jednoduchá montáž a demontáž, práce podle slovního návodu, předlohy nebo náčrtu a bezpečné používání pomůcek.",
+  "jak": [
+   "Provede jednoduchou montáž a demontáž stavebnice.",
+   "Pracuje podle návodu, předlohy nebo jednoduchého náčrtu.",
+   "Při konstrukční práci dodrží hygienu, bezpečnost a pořádek."
+  ],
+  "dal": "Na konstrukce navazují pěstitelské pokusy a péče o rostliny.",
+  "dalId": "csp5-pestitelske-pokusy",
+  "rvp": "RVP ZV · Člověk a svět práce · Konstrukční činnosti · 2. období.",
+  "doma": [
+   "Skládejte nábytek, stavebnici nebo model podle jednoduchého obrázkového návodu.",
+   "Nechte dítě najít chybu v konstrukci a opravit ji."
+  ],
+  "rvpRefs": [
+   "ČSP-5-2-01",
+   "ČSP-5-2-02",
+   "ČSP-5-2-03"
+  ]
+ },
+ {
+  "id": "csp5-pestitelske-pokusy",
+  "r": 5,
+  "p": "csp",
+  "t": "Pěstitelské pokusy, pokojové rostliny a bezpečnost",
+  "co": "Pěstitelské práce ve 4.–5. ročníku: žák vede jednoduché pokusy a pozorování, pečuje o rostliny, volí vhodné pomůcky a dodržuje bezpečnost při práci s půdou, náčiním a rostlinami.",
+  "jak": [
+   "Vede jednoduchý pěstitelský pokus nebo pozorování.",
+   "Ošetřuje pokojové i jiné rostliny podle daných zásad.",
+   "Vybere vhodné pomůcky a dodržuje hygienu, bezpečnost a první pomoc při úrazu."
+  ],
+  "dal": "Další praktický blok je kuchyně: vybavení, pokrm, stolování a bezpečnost.",
+  "dalId": "csp5-kuchyne-pokrmy",
+  "rvp": "RVP ZV · Člověk a svět práce · Pěstitelské práce · 2. období.",
+  "doma": [
+   "Porovnejte růst dvou rostlin v jiných podmínkách a zapisujte výsledek.",
+   "Ukažte i rizika: jedovaté rostliny, alergie, bezpečné zacházení s náčiním."
+  ],
+  "rvpRefs": [
+   "ČSP-5-3-01",
+   "ČSP-5-3-02",
+   "ČSP-5-3-03",
+   "ČSP-5-3-04"
+  ]
+ },
+ {
+  "id": "csp5-kuchyne-pokrmy",
+  "r": 5,
+  "p": "csp",
+  "t": "Kuchyně, jednoduchý pokrm a stolování",
+  "co": "Základy přípravy pokrmů: vybavení kuchyně, jednoduchý pokrm, nákup a skladování potravin, čistota pracovních ploch, stolování, společenské chování a bezpečnost v kuchyni.",
+  "jak": [
+   "Orientuje se v základním vybavení kuchyně.",
+   "Samostatně připraví jednoduchý pokrm.",
+   "Dodržuje pravidla stolování, hygienu, bezpečnost a první pomoc při úrazu v kuchyni."
+  ],
+  "dal": "Na 2. stupni se ČSP rozvětví do technických materiálů, konstruování, domácnosti, vaření, digitálních technologií a světa práce.",
+  "dalId": "csp6-technicke-materialy",
+  "rvp": "RVP ZV · Člověk a svět práce · Příprava pokrmů · 2. období.",
+  "doma": [
+   "Jednou týdně svěřte dítěti jednoduchou svačinu nebo část večeře.",
+   "Učte bezpečnost přirozeně: nůž, horká voda, elektřina, čistá plocha, úklid."
+  ],
+  "rvpRefs": [
+   "ČSP-5-4-01",
+   "ČSP-5-4-02",
+   "ČSP-5-4-03",
+   "ČSP-5-4-04"
+  ]
+ },
+ {
+  "id": "csp6-technicke-materialy",
+  "r": 6,
+  "p": "csp",
+  "t": "Technické materiály, nářadí a pracovní postup",
+  "co": "Práce s technickými materiály na 2. stupni: dřevo, kov, plasty a kompozity, ruční opracování, výběr nástrojů, plánování práce, technická dokumentace a bezpečnost v dílně.",
+  "jak": [
+   "Provede jednoduchou práci s technickým materiálem a dodrží technologický postup.",
+   "Vybere vhodný materiál, nástroj a nářadí pro jednoduchý technický úkol.",
+   "Pracuje podle technické dokumentace nebo jednoduchého náčrtu a dodrží bezpečnost."
+  ],
+  "dal": "Technické postupy pokračují designem, konstruováním a ověřováním funkčnosti modelů.",
+  "dalId": "csp6-design-konstruovani",
+  "rvp": "RVP ZV · Člověk a svět práce · Práce s technickými materiály · 2. stupeň.",
+  "doma": [
+   "Opravujte spolu drobnosti: madlo, poličku, kolo, uvolněný šroub.",
+   "Nechte dítě udělat náčrt před výrobou; stačí jednoduchý rozměrový obrázek."
+  ],
+  "rvpRefs": [
+   "ČSP-9-1-01",
+   "ČSP-9-1-02",
+   "ČSP-9-1-03",
+   "ČSP-9-1-04",
+   "ČSP-9-1-05"
+  ]
+ },
+ {
+  "id": "csp6-design-konstruovani",
+  "r": 6,
+  "p": "csp",
+  "t": "Design, konstruování a ověřování modelů",
+  "co": "Žák sestavuje modely podle návodu, náčrtu, plánu nebo jednoduchého programu, navrhuje konstrukční prvky a zkouší jejich funkčnost, nosnost, stabilitu, montáž, demontáž a údržbu.",
+  "jak": [
+   "Sestaví model podle návodu, náčrtu, plánu nebo jednoduchého programu.",
+   "Navrhne jednoduchý konstrukční prvek a ověří jeho funkčnost nebo stabilitu.",
+   "Provede montáž, demontáž a údržbu jednoduchého předmětu bezpečným způsobem."
+  ],
+  "dal": "Další volitelný okruh je pěstitelství, chovatelství a bezpečný kontakt se zvířaty.",
+  "dalId": "csp7-pestitelstvi-chovatelstvi",
+  "rvp": "RVP ZV · Člověk a svět práce · Design a konstruování · 2. stupeň.",
+  "doma": [
+   "Stavte funkční věci, ne jen dekorace: stojánek, háček, most, držák.",
+   "Testujte výsledek: co unese, kde selže, co by šlo upravit."
+  ],
+  "rvpRefs": [
+   "ČSP-9-2-01",
+   "ČSP-9-2-02",
+   "ČSP-9-2-03",
+   "ČSP-9-2-04"
+  ]
+ },
+ {
+  "id": "csp7-pestitelstvi-chovatelstvi",
+  "r": 7,
+  "p": "csp",
+  "t": "Pěstitelství, chovatelství a bezpečný kontakt se zvířaty",
+  "co": "Volitelný okruh 2. stupně: pěstování zeleniny, okrasných a pokojových rostlin, práce s půdou a pomůckami, léčivé a jedovaté rostliny, základní chov drobných zvířat a bezpečný kontakt.",
+  "jak": [
+   "Volí vhodné postupy při pěstování vybraných rostlin.",
+   "Pěstuje nebo využívá květiny pro výzdobu.",
+   "Popíše zásady chovu drobných zvířat a dodrží bezpečnost včetně první pomoci."
+  ],
+  "dal": "Praktické dovednosti pokračují provozem domácnosti, rozpočtem, spotřebiči a údržbou.",
+  "dalId": "csp7-domacnost-udrzba",
+  "rvp": "RVP ZV · Člověk a svět práce · Pěstitelské práce, chovatelství · 2. stupeň.",
+  "doma": [
+   "Svěřte dítěti konkrétní pěstitelský nebo chovatelský úkol s pravidelnou péčí.",
+   "Mluvte o bezpečí: neznámá zvířata, jedovaté rostliny, alergie, pracovní rukavice."
+  ],
+  "rvpRefs": [
+   "ČSP-9-3-01",
+   "ČSP-9-3-02",
+   "ČSP-9-3-03",
+   "ČSP-9-3-04",
+   "ČSP-9-3-05"
+  ]
+ },
+ {
+  "id": "csp7-domacnost-udrzba",
+  "r": 7,
+  "p": "csp",
+  "t": "Provoz domácnosti, rozpočet, spotřebiče a údržba",
+  "co": "Domácnost jako praktický systém: jednoduché platby a domácí účetnictví, údržba oděvů a textilií, úklid, ekologická likvidace odpadu, návody ke spotřebičům, drobná domácí údržba a bezpečnost včetně elektřiny.",
+  "jak": [
+   "Provede jednoduché operace platebního styku a domácího účetnictví.",
+   "Orientuje se v návodech k běžným spotřebičům a zvládá jednoduché domácí postupy.",
+   "Provádí drobnou údržbu bezpečně a ví, jak poskytnout první pomoc při úrazu."
+  ],
+  "dal": "Domácnost přirozeně navazuje na samostatnější vaření a zásady zdravé výživy.",
+  "dalId": "csp8-priprava-pokrmu",
+  "rvp": "RVP ZV · Člověk a svět práce · Provoz a údržba domácnosti · 2. stupeň.",
+  "doma": [
+   "Ukažte dítěti rodinný rozpočet na jednoduchých položkách: příjem, výdaj, úspora.",
+   "Nechte ho podle návodu vyčistit filtr, vyměnit baterie nebo provést jinou bezpečnou údržbu."
+  ],
+  "rvpRefs": [
+   "ČSP-9-4-01",
+   "ČSP-9-4-02",
+   "ČSP-9-4-03",
+   "ČSP-9-4-04"
+  ]
+ },
+ {
+  "id": "csp8-priprava-pokrmu",
+  "r": 8,
+  "p": "csp",
+  "t": "Příprava pokrmů, výživa a bezpečnost v kuchyni",
+  "co": "Samostatnější práce v kuchyni na 2. stupni: kuchyňský inventář, spotřebiče, výběr a skladování potravin, pokrmy za studena i tepelné úpravy, jídelníček, stolování a první pomoc při kuchyňských úrazech.",
+  "jak": [
+   "Používá základní kuchyňský inventář a bezpečně obsluhuje spotřebiče.",
+   "Připraví jednoduchý pokrm v souladu se zásadami zdravé výživy.",
+   "Dodržuje stolování, hygienu, bezpečnost a první pomoc při úrazech v kuchyni."
+  ],
+  "dal": "Na praktickou přesnost navazuje laboratorní technika: měření, experiment, protokol a bezpečnost.",
+  "dalId": "csp8-laboratorni-technika",
+  "rvp": "RVP ZV · Člověk a svět práce · Příprava pokrmů · 2. stupeň.",
+  "doma": [
+   "Dítě může převzít jedno jednoduché jídlo od nákupu po úklid.",
+   "Ptejte se na skladování, hygienu a bezpečnou práci s nožem, horkem a elektřinou."
+  ],
+  "rvpRefs": [
+   "ČSP-9-5-01",
+   "ČSP-9-5-02",
+   "ČSP-9-5-03",
+   "ČSP-9-5-04"
+  ]
+ },
+ {
+  "id": "csp8-laboratorni-technika",
+  "r": 8,
+  "p": "csp",
+  "t": "Laboratorní technika, měření a protokol",
+  "co": "Volitelný okruh 2. stupně: žák volí pracovní postupy, přístroje a pomůcky pro pozorování, měření a experimenty, zpracuje protokol, hledá podklady a dodržuje bezpečnost a ochranu životního prostředí.",
+  "jak": [
+   "Vybere vhodný postup, přístroj nebo pomůcku pro konkrétní měření či experiment.",
+   "Zpracuje protokol s cílem, průběhem, výsledky a závěrem.",
+   "Dodržuje pravidla bezpečné práce a poskytne první pomoc při úrazu v laboratoři."
+  ],
+  "dal": "Podobně praktický okruh jsou digitální technologie: zařízení, propojení, mobilní služby a bezpečnost.",
+  "dalId": "csp8-digitalni-technologie",
+  "rvp": "RVP ZV · Člověk a svět práce · Práce s laboratorní technikou · 2. stupeň.",
+  "doma": [
+   "Při domácím pokusu pište krátký protokol: otázka, postup, výsledek, co bych příště změnil.",
+   "Ukažte rozdíl mezi odhadem a měřením: váha, teplota, objem, čas."
+  ],
+  "rvpRefs": [
+   "ČSP-9-6-01",
+   "ČSP-9-6-02",
+   "ČSP-9-6-03",
+   "ČSP-9-6-04",
+   "ČSP-9-6-05"
+  ]
+ },
+ {
+  "id": "csp8-digitalni-technologie",
+  "r": 8,
+  "p": "csp",
+  "t": "Digitální technika, propojení zařízení a bezpečný provoz",
+  "co": "Digitální technologie v ČSP nejsou programování, ale praktické používání zařízení: základní funkce, propojení, mobilní služby, údržba, ochrana před poškozením a bezpečnost při práci s digitální technikou.",
+  "jak": [
+   "Ovládá základní funkce digitální techniky a řeší běžné provozní problémy.",
+   "Propojí vybraná digitální zařízení a používá mobilní technologie pro běžné situace.",
+   "Pečuje o zařízení, chrání je před poškozením a dodržuje hygienu a bezpečnost."
+  ],
+  "dal": "Povinný závěrečný okruh je Svět práce: profese, střední školy, poradenské služby, životopis a pohovor.",
+  "dalId": "csp9-povolani",
+  "rvp": "RVP ZV · Člověk a svět práce · Využití digitálních technologií · 2. stupeň.",
+  "doma": [
+   "Nechte dítě propojit zařízení nebo vyřešit jednoduchý problém podle návodu.",
+   "Řešte i ergonomii: světlo, sezení, přestávky, kabely, nabíjení a ochrana zařízení."
+  ],
+  "rvpRefs": [
+   "ČSP-9-7-01",
+   "ČSP-9-7-02",
+   "ČSP-9-7-03",
+   "ČSP-9-7-04",
+   "ČSP-9-7-05"
+  ]
+ },
+ {
+  "id": "csp9-povolani",
+  "r": 9,
+  "p": "csp",
+  "t": "Svět práce a volba povolání",
+  "co": "Povinný okruh Svět práce v 8.–9. ročníku: orientace v profesích, sebepoznání, výběr střední školy, poradenské služby, životopis, motivační dopis, pohovor, práva a povinnosti zaměstnanců a zaměstnavatelů.",
+  "jak": [
+   "Orientuje se v pracovních činnostech vybraných profesí.",
+   "Posoudí své možnosti při volbě povolání a profesní přípravy.",
+   "Využije profesní informace a v modelové situaci prezentuje sebe při vstupu na trh práce."
+  ],
+  "dal": "Přihlášky na střední školy přes DiPSy — viz milník Přijímačky.",
+  "dalId": "mil9-prijimacky",
+  "rvp": "RVP ZV · Člověk a svět práce · Svět práce · 2. stupeň.",
+  "doma": [
+   "Dny otevřených dveří: aspoň tři školy naživo, ne jen weby.",
+   "Domluvte dítěti den stínování vaší práce nebo práce známých.",
+   "Životopis nanečisto se hodí hned — na první brigádu."
+  ],
+  "rvpRefs": [
+   "ČSP-9-8-01",
+   "ČSP-9-8-02",
+   "ČSP-9-8-03",
+   "ČSP-9-8-04"
   ]
  },
  {
@@ -2032,25 +2429,6 @@
   ],
   "rvpRefs": [
    "ČJS-5-4-02"
-  ]
- },
- {
-  "id": "csp4-materialy",
-  "r": 4,
-  "p": "csp",
-  "t": "Práce s materiály a pěstitelství",
-  "co": "Pracovní činnosti ve 4.–5. ročníku zahrnují práci s papírem, textilem a drobným materiálem, jednoduché konstrukce, pěstitelské práce (setí, sázení, péče o rostliny) a základy přípravy jednoduchých pokrmů a stolování.",
-  "jak": [
-   "Vyrobí jednoduchý výrobek podle návodu včetně měření a značení.",
-   "Zaseje semínka a pravidelně se stará o rostlinu.",
-   "Prostře stůl a připraví jednoduchou svačinu."
-  ],
-  "dal": "Dílny, vaření a technické práce na 2. stupni.",
-  "dalId": "csp6-dilny",
-  "rvp": "RVP ZV · Člověk a svět práce · 2. období.",
-  "doma": [
-   "Sázejte spolu bylinky a svěřte je dítěti na starost.",
-   "Jednou týdně připraví dítě jednoduchou svačinu či večeři."
   ]
  },
  {
@@ -3448,25 +3826,6 @@
   ]
  },
  {
-  "id": "csp6-dilny",
-  "r": 6,
-  "p": "csp",
-  "t": "Dílny, vaření a technické práce",
-  "co": "Člověk a svět práce na 2. stupni má volitelné okruhy, ze kterých školy vybírají: práce s technickými materiály (dřevo, kov, plast v dílnách), design a konstruování, pěstitelství a chovatelství, provoz a údržba domácnosti, příprava pokrmů. Nabídka se mezi školami hodně liší.",
-  "jak": [
-   "Bezpečně používá základní nářadí (pilka, kladivo, šroubovák) a ochranné pomůcky.",
-   "Uvaří podle receptu jednoduché jídlo a dodrží hygienu.",
-   "Přečte jednoduchý technický výkres nebo návod."
-  ],
-  "dal": "Svět práce a volba povolání v 8.–9. ročníku.",
-  "dalId": "csp9-povolani",
-  "rvp": "RVP ZV · Člověk a svět práce · 2. stupeň (povinný okruh Svět práce + volitelné okruhy dle ŠVP).",
-  "doma": [
-   "Opravujte spolu: kolo, poličku, kapající kohoutek.",
-   "Jedno jídlo týdně vaří dítě — od nákupu po úklid."
-  ]
- },
- {
   "id": "cj7-vedlejsi",
   "r": 7,
   "p": "cj",
@@ -4575,26 +4934,6 @@
    "VO-9-5-01",
    "VO-9-5-02",
    "VO-9-5-03"
-  ]
- },
- {
-  "id": "csp9-povolani",
-  "r": 9,
-  "p": "csp",
-  "t": "Svět práce a volba povolání",
-  "co": "Povinný okruh Svět práce v 8.–9. ročníku: sebepoznání (co mi jde a co mě baví), přehled o oborech a trhu práce, informace o středních školách, dny otevřených dveří, nácvik životopisu a pohovoru. Přímá příprava na volbu střední školy.",
-  "jak": [
-   "Pojmenuje své silné stránky a zájmy ve vztahu k oborům.",
-   "Vyhledá informace o střední škole (obory, přijímačky, uplatnění).",
-   "Napíše jednoduchý strukturovaný životopis."
-  ],
-  "dal": "Přihlášky na střední školy přes DiPSy — viz milník Přijímačky.",
-  "dalId": "mil9-prijimacky",
-  "rvp": "RVP ZV · Člověk a svět práce · 2. stupeň (povinný tematický okruh Svět práce).",
-  "doma": [
-   "Dny otevřených dveří: aspoň tři školy naživo, ne jen weby.",
-   "Domluvte dítěti den stínování vaší práce nebo práce známých.",
-   "Životopis nanečisto se hodí hned — na první brigádu."
   ]
  },
  {
