@@ -21,7 +21,13 @@
     "rvpRefs": [
       "ČJL-3-2-01",
       "ČJL-3-1-09"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě plete tvar písmene se zvukem a rodič to opravuje jako nepozornost, ne jako normální začátek čtení.",
+      "childQuestion": "Jakou hlásku slyšíš na začátku a na konci slova?",
+      "homeActivity": "Vyberte pět věcí v místnosti a řekněte první a poslední hlásku, bez psaní a bez spěchu.",
+      "teacherSignal": "Dítě po delší době nepoznává většinu probraných písmen nebo neslyší první hlásku ve známých slovech."
+    }
   },
   {
     "id": "cj1-slabiky",
@@ -196,7 +202,13 @@
     ],
     "rvpRefs": [
       "M-3-3-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si plete název tvaru s jeho otočením nebo velikostí.",
+      "childQuestion": "Podle čeho poznáš, že je to pořád stejný tvar?",
+      "homeActivity": "Hledejte doma kruhy, čtverce, obdélníky a trojúhelníky a porovnávejte jejich vlastnosti.",
+      "teacherSignal": "Dítě po delší době nerozlišuje základní rovinné tvary ani na konkrétních předmětech."
+    }
   },
   {
     "id": "prv1-skola",
@@ -1524,7 +1536,13 @@
     ],
     "rvpRefs": [
       "ČJL-3-1-11"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě popisuje obrázky jako samostatné věci a vynechá pořadí děje.",
+      "childQuestion": "Co se stalo nejdřív, potom a nakonec?",
+      "homeActivity": "Seřaďte tři fotky nebo obrázky a nechte dítě říct krátký příběh po jednotlivých krocích.",
+      "teacherSignal": "Dítě dlouhodobě nedokáže převyprávět jednoduchou událost ani s oporou obrázků."
+    }
   },
   {
     "id": "cj2-tvrde",
@@ -1603,7 +1621,13 @@
     "rvpRefs": [
       "ČJL-3-2-06",
       "ČJL-3-2-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě pozná tečku, otazník a vykřičník, ale neví, jak mění smysl věty.",
+      "childQuestion": "Ptá se tahle věta, oznamuje něco, nebo něco přikazuje?",
+      "homeActivity": "Napište jednu krátkou větu třemi způsoby: jako oznámení, otázku a přání nebo rozkaz.",
+      "teacherSignal": "Dítě při čtení i psaní trvale nerozlišuje otázku, oznámení a příkaz."
+    }
   },
   {
     "id": "m2-do100",
@@ -1684,7 +1708,13 @@
     ],
     "rvpRefs": [
       "M-3-3-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě měří od kraje pravítka místo od nuly nebo zaměňuje úsečku a přímku.",
+      "childQuestion": "Kde přesně úsečka začíná a končí?",
+      "homeActivity": "Rýsujte tři úsečky různé délky a vždy označte krajní body.",
+      "teacherSignal": "Dítě opakovaně neumí použít pravítko od nuly nebo neurčí délku jednoduché úsečky."
+    }
   },
   {
     "id": "m2-cas-data",
@@ -1814,7 +1844,13 @@
     "rvpRefs": [
       "ČJL-3-2-02",
       "ČJL-3-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě hledá jen podobně znějící slova a uniká mu skutečný význam.",
+      "childQuestion": "Které slovo by šlo říct jinak a které znamená opak?",
+      "homeActivity": "Vyberte slovo z běžného rozhovoru a společně najděte protiklad, nadřazené slovo a dvě příbuzná slova.",
+      "teacherSignal": "Dítě nerozumí běžným slovům v zadáních nebo často odpovídá mimo význam otázky."
+    }
   },
   {
     "id": "cj3-slovni-druhy",
@@ -1837,7 +1873,13 @@
     "rvpRefs": [
       "ČJL-3-2-04",
       "ČJL-5-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí seznam slovních druhů nazpaměť, ale neumí se zeptat na funkci slova ve větě.",
+      "childQuestion": "Co to slovo ve větě dělá: pojmenovává, říká děj, nebo vlastnost?",
+      "homeActivity": "Z jedné krátké věty barevně označte podstatná jména, slovesa a přídavná jména.",
+      "teacherSignal": "Dítě neumí rozlišit ani základní slovní druhy ve známých větách."
+    }
   },
   {
     "id": "cj3-podstatna",
@@ -1860,7 +1902,13 @@
     "rvpRefs": [
       "ČJL-3-2-05",
       "ČJL-5-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě určuje rod, číslo a pád podle koncovky mechanicky a nevšímá si celé věty.",
+      "childQuestion": "Můžeš si ke slovu říct ten, ta, to a zeptat se pádovou otázkou?",
+      "homeActivity": "Vezměte tři věci doma a tvořte s nimi věty v jednotném a množném čísle.",
+      "teacherSignal": "Dítě opakovaně nezvládá určit rod nebo číslo běžných podstatných jmen."
+    }
   },
   {
     "id": "cj3-slovesa",
@@ -1883,7 +1931,13 @@
     "rvpRefs": [
       "ČJL-3-2-05",
       "ČJL-5-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě pozná sloveso jen podle koncovky a plete si ho s podstatným jménem děje.",
+      "childQuestion": "Co někdo dělá, dělal nebo bude dělat?",
+      "homeActivity": "Zapište tři činnosti z dne a převyprávějte je v minulém, přítomném a budoucím čase.",
+      "teacherSignal": "Dítě neumí najít sloveso ve větě ani po otázce co dělá."
+    }
   },
   {
     "id": "cj3-literatura",
@@ -1906,7 +1960,13 @@
     "rvpRefs": [
       "ČJL-3-3-03",
       "ČJL-3-3-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě převypráví děj, ale nevšímá si postav, nálady a toho, proč se něco stalo.",
+      "childQuestion": "Která postava se zachovala dobře a proč si to myslíš?",
+      "homeActivity": "Po krátkém čtení nechte dítě vybrat oblíbenou větu nebo postavu a říct důvod.",
+      "teacherSignal": "Dítě textům nerozumí ani po společném čtení a nedokáže říct základní děj."
+    }
   },
   {
     "id": "m3-nasobilka",
@@ -1930,7 +1990,13 @@
     "rvpRefs": [
       "M-3-1-04",
       "M-3-1-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě odříká řadu násobků, ale neumí použít násobilku v úloze.",
+      "childQuestion": "Kolik skupin máš a kolik je v každé skupině?",
+      "homeActivity": "Skládejte násobení z předmětů: 4 talíře po 3 kouscích, potom zapište příklad.",
+      "teacherSignal": "Dítě zná řady mechanicky, ale při slovních úlohách nepozná násobení."
+    }
   },
   {
     "id": "m3-pisemne",
@@ -1955,7 +2021,13 @@
       "M-3-1-04",
       "M-3-1-05",
       "M-3-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zapisuje čísla pod sebe špatně a pak chybuje, i když princip sčítání chápe.",
+      "childQuestion": "Jsou jednotky pod jednotkami, desítky pod desítkami a stovky pod stovkami?",
+      "homeActivity": "Počítejte dva příklady denně s barevným označením řádů.",
+      "teacherSignal": "Dítě opakovaně chybuje kvůli zápisu pod sebe nebo nerozumí přechodu přes desítku."
+    }
   },
   {
     "id": "m3-soumernost",
@@ -1977,7 +2049,13 @@
     ],
     "rvpRefs": [
       "M-3-3-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě kreslí druhou polovinu podle dojmu a nepočítá vzdálenost od osy.",
+      "childQuestion": "Je bod stejně daleko od osy jako jeho obraz?",
+      "homeActivity": "Na čtverečkovaném papíře dokreslete jednoduchý obrázek po jednom bodu od osy.",
+      "teacherSignal": "Dítě neumí udržet stejnou vzdálenost od osy ani v jednoduché síti."
+    }
   },
   {
     "id": "aj3-zacatek",
@@ -2099,7 +2177,13 @@
     "rvpRefs": [
       "ČJL-5-2-03",
       "ČJL-5-2-08"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě přiřazuje vzor podle prvního dojmu a neověří si koncovku ve více pádech.",
+      "childQuestion": "Jak zní slovo ve 2. pádě jednotného a množného čísla?",
+      "homeActivity": "Vyberte pět podstatných jmen z článku a zkuste je skloňovat podle vzoru nahlas.",
+      "teacherSignal": "Dítě dlouhodobě chybuje ve vzorech tak, že se to výrazně promítá do i/y v koncovkách."
+    }
   },
   {
     "id": "cj4-stavba",
@@ -2121,7 +2205,13 @@
     "rvpRefs": [
       "ČJL-5-2-02"
     ],
-    "dalId": "cj7-slovni-zasoba"
+    "dalId": "cj7-slovni-zasoba",
+    "quality": {
+      "typicalMistake": "Dítě označí celou část slova jako předponu nebo příponu a nehledá kořen významu.",
+      "childQuestion": "Která část slova zůstane stejná ve slovech příbuzných?",
+      "homeActivity": "Vytvořte rodinu slov kolem jednoho známého slova a zvýrazněte společný kořen.",
+      "teacherSignal": "Dítě neumí najít příbuzná slova a kvůli tomu tápe v pravopisu předpon a kořenů."
+    }
   },
   {
     "id": "cj4-vyznam-spisovnost",
@@ -2144,7 +2234,13 @@
     "rvpRefs": [
       "ČJL-5-2-01",
       "ČJL-5-2-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere nespisovné tvary jako chybu vždy, místo aby rozlišilo situaci a adresáta.",
+      "childQuestion": "Hodilo by se tohle slovo do rozhovoru s kamarádem, nebo i do dopisu učiteli?",
+      "homeActivity": "Přepište tři běžné hovorové věty do spisovnější podoby.",
+      "teacherSignal": "Dítě nerozlišuje školní spisovný projev od běžné mluvy ani v písemných úkolech."
+    }
   },
   {
     "id": "cj4-podmet",
@@ -2166,7 +2262,13 @@
     ],
     "rvpRefs": [
       "ČJL-5-2-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě hledá podmět jen jako první slovo ve větě a přísudek jen jako nejbližší sloveso.",
+      "childQuestion": "Kdo nebo co něco dělá a co o něm věta říká?",
+      "homeActivity": "U tří krátkých vět podtrhněte dvojici podmět-přísudek a zkuste změnit číslo.",
+      "teacherSignal": "Dítě neumí najít základní skladební dvojici ani v jednoduchých větách."
+    }
   },
   {
     "id": "cj4-cteni-informace",
@@ -2191,7 +2293,13 @@
       "ČJL-5-1-02",
       "ČJL-5-1-03",
       "ČJL-5-1-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě text přečte, ale odpovídá podle paměti nebo dojmu místo podle konkrétní věty.",
+      "childQuestion": "Kde přesně v textu jsi našel odpověď?",
+      "homeActivity": "Po krátkém článku nechte dítě podtrhnout větu, o kterou opírá odpověď.",
+      "teacherSignal": "Dítě opakovaně nerozumí zadáním a neumí v textu dohledat jednoduchou informaci."
+    }
   },
   {
     "id": "cj4-dialog-media",
@@ -2216,7 +2324,13 @@
       "ČJL-5-1-06",
       "ČJL-5-1-07",
       "ČJL-5-1-08"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zná pravidla slušnosti, ale v dialogu nenaslouchá a nereaguje na předchozí repliku.",
+      "childQuestion": "Na co druhý člověk právě odpověděl nebo co po tobě chce?",
+      "homeActivity": "Zahrajte si krátký telefonát: pozdrav, důvod volání, domluva, rozloučení.",
+      "teacherSignal": "Dítě má potíže vést základní školní komunikaci nebo nerozpozná reklamní záměr sdělení."
+    }
   },
   {
     "id": "m4-deleni",
@@ -2241,7 +2355,13 @@
       "M-5-1-02",
       "M-5-1-03",
       "M-5-1-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si plete algoritmus s odhadem a neověří výsledek opačnou operací.",
+      "childQuestion": "Jak si výsledek zkontroluješ násobením?",
+      "homeActivity": "Po každém písemném dělení udělejte krátkou kontrolu násobením a zbytkem.",
+      "teacherSignal": "Dítě má dlouhodobě potíže s postupem písemného násobení nebo dělení i u malých čísel."
+    }
   },
   {
     "id": "m4-zlomky",
@@ -2263,7 +2383,13 @@
     ],
     "rvpRefs": [
       "M-5-1-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere zlomek jako dvě oddělená čísla a ne jako část celku.",
+      "childQuestion": "Co je celek a na kolik stejných částí je rozdělený?",
+      "homeActivity": "Krájejte papír nebo jídlo na stejné části a zapisujte odpovídající zlomky.",
+      "teacherSignal": "Dítě nerozumí, co znamená čitatel a jmenovatel ani na obrázku."
+    }
   },
   {
     "id": "m4-kolmice",
@@ -2286,7 +2412,13 @@
     "rvpRefs": [
       "M-5-3-01",
       "M-5-3-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě rýsuje přibližně podle oka a vynechá kontrolu pravého úhlu.",
+      "childQuestion": "Která pomůcka ti ukáže, že jsou čáry opravdu kolmé?",
+      "homeActivity": "Rýsujte jednu přímku a k ní kolmici i rovnoběžku, potom zkontrolujte úhelníkem.",
+      "teacherSignal": "Dítě opakovaně nezvládá přesné rýsování s pravítkem a trojúhelníkem."
+    }
   },
   {
     "id": "inf4-zaklad",
@@ -2577,7 +2709,13 @@
     "rvpRefs": [
       "ČJL-5-2-06",
       "ČJL-5-2-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě spojuje věty čárkami náhodně a nevidí, kolik myšlenek ve větě skutečně je.",
+      "childQuestion": "Kolik slovesných tvarů ve větě najdeš?",
+      "homeActivity": "Vezměte dlouhou větu a rozdělte ji na kratší věty, potom ji znovu spojte spojkou.",
+      "teacherSignal": "Dítě dlouhodobě nerozlišuje větu jednoduchou a souvětí ani podle sloves."
+    }
   },
   {
     "id": "cj5-sloh-vypraveni",
@@ -2687,7 +2825,13 @@
     ],
     "rvpRefs": [
       "M-5-1-08"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě chápe minus jen jako odčítání a ne jako číslo na číselné ose.",
+      "childQuestion": "Kde by číslo leželo vůči nule?",
+      "homeActivity": "Používejte teploměr nebo výtah: pohyb nad a pod nulou zapisujte čísly.",
+      "teacherSignal": "Dítě neumí seřadit jednoduchá záporná čísla ani na ose."
+    }
   },
   {
     "id": "m5-zlomky",
@@ -3062,7 +3206,13 @@
     ],
     "rvpRefs": [
       "ČJL-9-2-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí názvy větných členů, ale neptá se na vztah ke slovesu nebo podstatnému jménu.",
+      "childQuestion": "Na které slovo se tenhle výraz ve větě váže?",
+      "homeActivity": "Rozšiřujte jednoduchou větu po jednom členu: kdo, co dělá, kde, kdy, jak.",
+      "teacherSignal": "Dítě neumí rozpoznat základní větné členy ani v krátkých větách."
+    }
   },
   {
     "id": "cj6-zvuk-jazyk",
@@ -3084,7 +3234,13 @@
     ],
     "rvpRefs": [
       "ČJL-9-2-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě opravuje výslovnost jen podle psané podoby a nevnímá spisovnou výslovnost v řeči.",
+      "childQuestion": "Jak bys tu větu řekl nahlas, aby ti ostatní dobře rozuměli?",
+      "homeActivity": "Nahrajte krátké čtení a společně si všimněte tempa, pauz a srozumitelnosti.",
+      "teacherSignal": "Výslovnost nebo tempo řeči dlouhodobě brání srozumitelnosti ve škole."
+    }
   },
   {
     "id": "cj6-media-fakta",
@@ -3108,7 +3264,13 @@
       "ČJL-9-1-01",
       "ČJL-9-1-02",
       "ČJL-9-1-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě považuje výrazný názor za fakt, protože je napsaný sebejistě.",
+      "childQuestion": "Dá se tahle věta ověřit, nebo je to něčí hodnocení?",
+      "homeActivity": "U jedné zprávy označte dvě ověřitelné informace a jednu větu s názorem.",
+      "teacherSignal": "Dítě opakovaně nerozlišuje informaci, názor a reklamu v běžných sděleních."
+    }
   },
   {
     "id": "m6-desetinna",
@@ -3160,7 +3322,13 @@
     ],
     "rvpRefs": [
       "M-9-1-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zkouší dělit naslepo a nepoužívá znaky dělitelnosti.",
+      "childQuestion": "Podle čeho rychle poznáš dělitelnost dvěma, pěti nebo deseti?",
+      "homeActivity": "Tři minuty denně třiďte čísla podle dělitelnosti a vždy řekněte pravidlo.",
+      "teacherSignal": "Dítě nepozná ani základní dělitelnost a zdržuje ho to u zlomků."
+    }
   },
   {
     "id": "m6-uhly",
@@ -3183,7 +3351,13 @@
     "rvpRefs": [
       "M-9-3-03",
       "M-9-3-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě špatně přiloží úhloměr nebo čte druhou stupnici.",
+      "childQuestion": "Kde je vrchol úhlu a od které nuly měříš?",
+      "homeActivity": "Nakreslete tři úhly, odhadněte velikost a teprve potom změřte úhloměrem.",
+      "teacherSignal": "Dítě neumí úhel změřit ani narýsovat podle zadání."
+    }
   },
   {
     "id": "m6-soumernost",
@@ -3206,7 +3380,13 @@
       "M-9-3-06",
       "M-9-3-08"
     ],
-    "dalId": "m8-konstrukce"
+    "dalId": "m8-konstrukce",
+    "quality": {
+      "typicalMistake": "Dítě zná pojem osa, ale při konstrukci nehlídá kolmici a stejnou vzdálenost.",
+      "childQuestion": "Je spojnice bodu a obrazu kolmá na osu a půlí se osou?",
+      "homeActivity": "Zkuste zrcadlit tři body podle osy a pak z nich složit obrazec.",
+      "teacherSignal": "Dítě nezvládá základní konstrukci obrazu bodu podle osy."
+    }
   },
   {
     "id": "fy6-mereni",
@@ -4010,7 +4190,13 @@
     "rvpRefs": [
       "ČJL-9-2-06",
       "ČJL-9-2-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě pozná spojku, ale neurčí vztah vedlejší věty k větě hlavní.",
+      "childQuestion": "Na co se vedlejší věta ptá: kdo, jaký, kde, kdy, proč?",
+      "homeActivity": "Z jedné hlavní věty tvořte různé vedlejší věty a ptejte se na ně otázkou.",
+      "teacherSignal": "Dítě ztrácí orientaci v souvětí natolik, že chybuje i v porozumění textu."
+    }
   },
   {
     "id": "cj7-slovni-zasoba",
@@ -4034,7 +4220,13 @@
       "ČJL-9-2-02",
       "ČJL-9-2-05",
       "ČJL-9-2-08"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě používá slovo podle přibližného dojmu a nehlídá styl, situaci ani přesný význam.",
+      "childQuestion": "Kdo by takové slovo použil a v jaké situaci?",
+      "homeActivity": "Vyberte z textu tři neobvyklá slova a zkuste k nim najít běžnější opis.",
+      "teacherSignal": "Dítě často nerozumí slovům v učebních textech a stydí se zeptat na význam."
+    }
   },
   {
     "id": "cj7-mluveny-projev",
@@ -4059,7 +4251,13 @@
       "ČJL-9-1-05",
       "ČJL-9-1-06",
       "ČJL-9-1-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě mluví dlouho, ale bez jasné myšlenky, nebo naopak odpovídá jednoslovně ze strachu z chyby.",
+      "childQuestion": "Co je jedna hlavní věc, kterou chceš ostatním říct?",
+      "homeActivity": "Nechte dítě minutu vysvětlit jednoduché téma a pak společně vyberte začátek, důkaz a závěr.",
+      "teacherSignal": "Dítě se vyhýbá mluvení před třídou nebo jeho projev opakovaně nejde sledovat."
+    }
   },
   {
     "id": "m7-zlomky",
@@ -4083,7 +4281,13 @@
       "M-9-1-01",
       "M-9-1-04",
       "M-9-1-09"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě počítá se zlomky jako s celými čísly a sčítá čitatele i jmenovatele bez úpravy.",
+      "childQuestion": "Mají zlomky stejný jmenovatel, tedy stejné díly celku?",
+      "homeActivity": "Na proužku papíru ukažte stejné zlomky a pak sčítejte jen stejné díly.",
+      "teacherSignal": "Dítě opakovaně nerozumí společnému jmenovateli nebo krácení."
+    }
   },
   {
     "id": "m7-cela",
@@ -4107,7 +4311,13 @@
       "M-9-1-01",
       "M-9-1-02",
       "M-9-1-09"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě ztrácí znaménko a nehlídá, zda se pohybuje doprava nebo doleva na ose.",
+      "childQuestion": "Co se s číslem stane na číselné ose?",
+      "homeActivity": "Kreslete krátké příklady jako pohyb po ose: plus doprava, minus doleva.",
+      "teacherSignal": "Dítě dlouhodobě chybuje ve znaménkách i u jednoduchých příkladů."
+    }
   },
   {
     "id": "m7-pomer",
@@ -4131,7 +4341,13 @@
       "M-9-1-04",
       "M-9-1-05",
       "M-9-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zamění poměr za rozdíl a porovnává jen o kolik, ne kolikrát.",
+      "childQuestion": "Porovnáváš části mezi sebou, nebo část k celku?",
+      "homeActivity": "Vařte podle receptu pro jiný počet osob a přepočítejte suroviny poměrem.",
+      "teacherSignal": "Dítě nerozpozná situaci na poměr nebo trojčlenku v běžné slovní úloze."
+    }
   },
   {
     "id": "m7-procenta",
@@ -4154,7 +4370,13 @@
     "rvpRefs": [
       "M-9-1-04",
       "M-9-1-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě počítá procenta mechanicky a neví, z jakého základu procento bere.",
+      "childQuestion": "Co je sto procent v téhle úloze?",
+      "homeActivity": "U slev v obchodě určujte nejdřív základ a potom odhadněte výsledek.",
+      "teacherSignal": "Dítě opakovaně nepozná základ procent nebo zaměňuje procenta a procentní body."
+    }
   },
   {
     "id": "aj7-minuly",
@@ -4394,7 +4616,13 @@
     "rvpRefs": [
       "ČJL-9-2-06",
       "ČJL-9-2-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě rozebírá větu mechanicky po slovech a ztratí smysl celé věty.",
+      "childQuestion": "Jaká je základní dvojice a co ji ve větě rozvíjí?",
+      "homeActivity": "Vezměte jednu složitější větu a nejdřív najděte sloveso a podmět, teprve potom další členy.",
+      "teacherSignal": "Dítě nezvládá základní syntaktickou orientaci ani po opakování a nedaří se mu pravopis podle větných vztahů."
+    }
   },
   {
     "id": "cj8-sloh-text",
@@ -4417,7 +4645,13 @@
     "rvpRefs": [
       "ČJL-9-1-09",
       "ČJL-9-1-10"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě píše text jako proud vět bez odstavců, adresáta a jasného cíle.",
+      "childQuestion": "Komu text píšeš a co má po přečtení vědět nebo udělat?",
+      "homeActivity": "Před psaním si udělejte tříbodovou osnovu: začátek, hlavní sdělení, konec.",
+      "teacherSignal": "Dítě opakovaně neodevzdává srozumitelný text ani s osnovou a časem navíc."
+    }
   },
   {
     "id": "cj8-literatura-interpretace",
@@ -4442,7 +4676,13 @@
       "ČJL-9-3-02",
       "ČJL-9-3-03",
       "ČJL-9-3-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě hledá jedinou správnou odpověď a bojí se vlastního názoru podloženého textem.",
+      "childQuestion": "Která věta v textu podporuje tvůj názor?",
+      "homeActivity": "Po čtení vyberte jednu pasáž a řekněte, jakou náladu vytváří a proč.",
+      "teacherSignal": "Dítě text pouze převypráví a neumí ani jednoduše vysvětlit svůj čtenářský dojem."
+    }
   },
   {
     "id": "m8-mocniny",
@@ -4464,7 +4704,13 @@
     ],
     "rvpRefs": [
       "M-9-1-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě násobí základ exponentem místo opakovaného násobení základu.",
+      "childQuestion": "Kolikrát se stejné číslo násobí samo sebou?",
+      "homeActivity": "Rozepište několik mocnin jako opakované násobení a teprve potom je spočítejte.",
+      "teacherSignal": "Dítě si plete význam exponentu a nezvládá ani druhé a třetí mocniny."
+    }
   },
   {
     "id": "m8-pythagoras",
@@ -4488,7 +4734,13 @@
       "M-9-3-01",
       "M-9-3-04",
       "M-9-3-13"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě dosazuje do vzorce bez ověření, která strana je přepona.",
+      "childQuestion": "Která strana leží proti pravému úhlu?",
+      "homeActivity": "U každého pravoúhlého trojúhelníku nejdřív označte přeponu barevně a pak počítejte.",
+      "teacherSignal": "Dítě neumí rozpoznat přeponu nebo používá větu i u nepravoúhlých trojúhelníků."
+    }
   },
   {
     "id": "m8-konstrukce",
@@ -4511,7 +4763,13 @@
     "rvpRefs": [
       "M-9-3-05",
       "M-9-3-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě začne rýsovat bez rozboru a pak neví, proč konstrukce vyšla nebo nevyšla.",
+      "childQuestion": "Jaké údaje máš dané a co musí výsledný bod splnit?",
+      "homeActivity": "Před rýsováním napište krátký plán konstrukce ve třech krocích.",
+      "teacherSignal": "Dítě opakovaně nezvládá převést zadání na postup konstrukce."
+    }
   },
   {
     "id": "m8-vyrazy",
@@ -4534,7 +4792,13 @@
     "rvpRefs": [
       "M-9-1-07",
       "M-9-1-09"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě dosazuje čísla, ale nerozumí, že písmeno zastupuje proměnnou hodnotu.",
+      "childQuestion": "Co v této úloze znamená písmeno?",
+      "homeActivity": "Vymyslete výraz pro cenu nákupu: počet kusů krát cena plus poplatek.",
+      "teacherSignal": "Dítě nerozlišuje výraz, rovnici a dosazení hodnoty."
+    }
   },
   {
     "id": "m8-rovnice",
@@ -4557,7 +4821,13 @@
     "rvpRefs": [
       "M-9-1-08",
       "M-9-1-09"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě přesouvá členy jako naučený trik a ztrácí rovnováhu obou stran.",
+      "childQuestion": "Co uděláš na jedné straně, musíš udělat i na druhé?",
+      "homeActivity": "Řešte rovnici jako váhy: stejnou operaci zapište na obě strany.",
+      "teacherSignal": "Dítě neumí vysvětlit základní úpravu rovnice nebo často mění znaménka náhodně."
+    }
   },
   {
     "id": "m8-kruh",
@@ -4583,7 +4853,13 @@
       "M-9-3-09",
       "M-9-3-10",
       "M-9-3-11"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zaměňuje poloměr, průměr, obvod a obsah a nečte jednotky.",
+      "childQuestion": "Ptá se úloha na délku okraje, nebo na plochu uvnitř?",
+      "homeActivity": "Na kruhovém předmětu změřte průměr, odhadněte poloměr a pojmenujte, co by byl obvod.",
+      "teacherSignal": "Dítě opakovaně nepozná, který vzorec patří k obvodu a který k obsahu."
+    }
   },
   {
     "id": "ch8-latky-bezpecnost",
@@ -4938,7 +5214,13 @@
       "ČJL-9-3-07",
       "ČJL-9-3-08",
       "ČJL-9-3-09"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si pamatuje názvy směrů, ale neumí je propojit s ukázkou nebo dobou.",
+      "childQuestion": "Co v ukázce prozrazuje dobu, žánr nebo autorův záměr?",
+      "homeActivity": "Ke krátké ukázce doplňte tři stopy: téma, jazyk, historický kontext.",
+      "teacherSignal": "Dítě se ztrácí v literárních pojmech tak, že nerozumí ani základní otázce k ukázce."
+    }
   },
   {
     "id": "m9-rovnice",
@@ -4989,7 +5271,13 @@
     "rvpRefs": [
       "M-9-2-01",
       "M-9-2-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě čte graf podle prvního dojmu a nevšímá si měřítka osy.",
+      "childQuestion": "Jaké jednotky a měřítko graf používá?",
+      "homeActivity": "Najděte jednoduchý graf ve zprávách a popište, co opravdu ukazuje a co už je interpretace.",
+      "teacherSignal": "Dítě z grafu opakovaně vyvozuje závěry, které v datech nejsou."
+    }
   },
   {
     "id": "m9-funkce",
@@ -5073,7 +5361,13 @@
       "M-9-3-11",
       "M-9-3-12",
       "M-9-3-13"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si plete podobnost se shodností a čeká stejné délky místo stejného tvaru.",
+      "childQuestion": "Co zůstává stejné a co se jen zvětšilo nebo zmenšilo?",
+      "homeActivity": "Porovnejte dvě fotografie stejného objektu v jiné velikosti a určete poměr zvětšení.",
+      "teacherSignal": "Dítě nerozlišuje podobné a shodné útvary ani u jednoduchých příkladů."
+    }
   },
   {
     "id": "d9-20stoleti",
