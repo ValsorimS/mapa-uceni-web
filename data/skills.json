@@ -3128,10 +3128,10 @@
   "r": 7,
   "p": "fy",
   "t": "Tlak v kapalinách a plynech",
-  "co": "Mechanické vlastnosti tekutin propojují tlak, hloubku, hustotu, vztlak a praktická zařízení. Patří sem Pascalův zákon, hydraulika, hydrostatický a atmosférický tlak i Archimédův zákon.",
+  "co": "Mechanické vlastnosti tekutin propojují tlak, hloubku, hustotu, vztlak a praktická zařízení. Patří sem Pascalův zákon, hydraulika, hydrostatický a atmosférický tlak i Archimédův zákon. Žák si spojuje vzorce s běžnými situacemi: potápění, brčko, injekční stříkačka, loď nebo hydraulický zvedák.",
   "jak": [
    "Vysvětlí, proč tlak v kapalině roste s hloubkou.",
-   "Popíše princip hydraulického zařízení.",
+   "Popíše princip hydraulického zařízení na praktickém příkladu.",
    "Rozhodne, proč těleso plave, vznáší se nebo se potápí."
   ],
   "dal": "Práce, výkon, energie a tepelné děje v 8. ročníku.",
@@ -3196,7 +3196,7 @@
   "r": 9,
   "p": "fy",
   "t": "Elektřina, obvody a magnetismus",
-  "co": "Elektřina zahrnuje jednoduché obvody, schémata, napětí, proud, odpor, vodiče, izolanty, polovodiče, tepelné účinky proudu a magnetické jevy. Součástí je bezpečné zacházení s elektrickými zařízeními.",
+  "co": "Elektřina zahrnuje jednoduché obvody, schémata, napětí, proud, odpor, vodiče, izolanty, polovodiče, tepelné účinky proudu a magnetické jevy. Součástí je bezpečné zacházení s elektrickými zařízeními. Téma pomáhá pochopit, proč elektrické spotřebiče fungují, kdy je proud nebezpečný a jak spolu souvisí elektřina a magnetismus.",
   "jak": [
    "Zapojí jednoduchý obvod podle schématu a změří proud a napětí.",
    "Rozliší stejnosměrný a střídavý proud, vodič, izolant a polovodič.",
@@ -3244,7 +3244,7 @@
   "r": 6,
   "p": "z",
   "t": "Mapy, geografická data a terén",
-  "co": "Zeměpis začíná prací s informacemi: mapa, atlas, měřítko, zeměpisná síť, souřadnice, grafy, diagramy, statistická data, orientace v terénu a bezpečný pohyb v krajině.",
+  "co": "Zeměpis začíná prací s informacemi: mapa, atlas, měřítko, zeměpisná síť, souřadnice, grafy, diagramy, statistická data, orientace v terénu a bezpečný pohyb v krajině. Žák se učí nejen mapu přečíst, ale i vybrat správný zdroj pro otázku, kterou právě řeší.",
   "jak": [
    "Používá základní kartografické a topografické pojmy.",
    "Čte mapu, graf nebo jednoduchá geografická data a vybere podstatné informace.",
@@ -3294,7 +3294,7 @@
   "r": 7,
   "p": "z",
   "t": "Světadíly, oceány a regiony světa",
-  "co": "Regionální zeměpis světa: světadíly, oceány, makroregiony, modelové státy, rozvojová jádra a periferní oblasti. Cílem je porovnávat regiony podle přírodních, kulturních, politických a hospodářských znaků.",
+  "co": "Regionální zeměpis světa: světadíly, oceány, makroregiony, modelové státy, rozvojová jádra a periferní oblasti. Cílem je porovnávat regiony podle přírodních, kulturních, politických a hospodářských znaků. Dítě se učí, že oblast na mapě není jen název, ale soubor podmínek, lidí, zdrojů a vztahů.",
   "jak": [
    "Lokalizuje světadíly, oceány a významné makroregiony na mapě.",
    "Porovná polohu, rozlohu, přírodní a společenské poměry vybraných regionů.",
@@ -3364,7 +3364,7 @@
   "r": 8,
   "p": "z",
   "t": "Hospodářství, zdroje, státy a geopolitika",
-  "co": "Téma propojuje světové hospodářství, surovinové a energetické zdroje, rozmístění hospodářských aktivit, státy, integrace států a aktuální geopolitické problémy ve světových regionech.",
+  "co": "Téma propojuje světové hospodářství, surovinové a energetické zdroje, rozmístění hospodářských aktivit, státy, integrace států a aktuální geopolitické problémy ve světových regionech. Žák se učí číst mapu světa i jako mapu závislostí: kde jsou zdroje, kudy vedou trasy a kdo o nich rozhoduje.",
   "jak": [
    "Lokalizuje hlavní světové surovinové a energetické zdroje.",
    "Porovná faktory rozmístění hospodářských aktivit.",
@@ -3636,7 +3636,7 @@
   "r": 8,
   "p": "prir",
   "t": "Ekologie, ekosystémy a vliv člověka",
-  "co": "Ekologie propojuje organismy, neživé složky prostředí, potravní řetězce, ekosystémy a vliv člověka. Žák má chápat vztahy v přírodě, ne jen vyjmenovat pojmy.",
+  "co": "Ekologie propojuje organismy, neživé složky prostředí, potravní řetězce, ekosystémy a vliv člověka. Žák má chápat vztahy v přírodě, ne jen vyjmenovat pojmy. Dobré zvládnutí znamená umět vysvětlit, co se v ekosystému změní, když se změní voda, půda, druhové složení nebo lidský zásah.",
   "jak": [
    "Uvede organismy v určitém prostředí a vztahy mezi nimi.",
    "Vysvětlí potravní řetězec a roli živých i neživých složek ekosystému.",
@@ -3685,13 +3685,14 @@
   "r": 9,
   "p": "prir",
   "t": "Dědičnost, rozmnožování a genetika",
-  "co": "Genetika uzavírá přírodopis: pohlavní a nepohlavní rozmnožování, dědičnost znaků, jednoduché příklady z praktického života a význam genetických informací pro vývoj organismů.",
+  "co": "Genetika uzavírá přírodopis: pohlavní a nepohlavní rozmnožování, dědičnost znaků, jednoduché příklady z praktického života a význam genetických informací pro vývoj organismů. Nejde o složité křížení, ale o základní pochopení, proč potomci nejsou náhodní a jak se vlastnosti předávají.",
   "jak": [
    "Vysvětlí rozdíl mezi pohlavním a nepohlavním rozmnožováním.",
    "Uvede příklady dědičnosti v rodině, šlechtění nebo zdravotnictví.",
    "Propojí dědičnost s rozmnožováním a vývojem organismů."
   ],
-  "dal": "Biologie na střední škole a environmentální souvislosti v běžném životě.",
+  "dal": "Na genetiku navazuje biologie na střední škole a praktické environmentální i zdravotní souvislosti v běžném životě.",
+  "dalId": "mil9-ukonceni",
   "rvp": "RVP ZV · Přírodopis · Obecná biologie a genetika.",
   "doma": [
    "Na rodinných znacích opatrně ukažte, co může a nemusí být dědičné.",
@@ -4544,7 +4545,7 @@
   "r": 9,
   "p": "ch",
   "t": "Organická chemie, paliva a přírodní látky",
-  "co": "Organická chemie vysvětluje uhlovodíky, ropu, zemní plyn, uhlí, průmyslově vyráběná paliva, alkoholy, karboxylové kyseliny a přírodní látky v potravě: bílkoviny, tuky, sacharidy a vitaminy.",
+  "co": "Organická chemie vysvětluje uhlovodíky, ropu, zemní plyn, uhlí, průmyslově vyráběná paliva, alkoholy, karboxylové kyseliny a přírodní látky v potravě: bílkoviny, tuky, sacharidy a vitaminy. Žák si propojuje vzorce s tím, co zná z dopravy, energie, potravin a běžných výrobků.",
   "jak": [
    "Rozliší nejjednodušší uhlovodíky a uvede jejich zdroje, vlastnosti a použití.",
    "Zhodnotí fosilní paliva a uvede produkty zpracování ropy.",
@@ -4569,13 +4570,14 @@
   "r": 9,
   "p": "ch",
   "t": "Chemie a společnost",
-  "co": "Závěr chemie propojuje průmysl a každodenní život: suroviny, recyklaci, korozi, hnojiva, cement, vápno, sádru, keramiku, plasty, syntetická vlákna, detergenty, pesticidy, insekticidy a hašení požárů.",
+  "co": "Závěr chemie propojuje průmysl a každodenní život: suroviny, recyklaci, korozi, hnojiva, cement, vápno, sádru, keramiku, plasty, syntetická vlákna, detergenty, pesticidy, insekticidy a hašení požárů. Smyslem je posoudit užitek i riziko látek, ne jen vyjmenovat průmyslové výrobky.",
   "jak": [
    "Zhodnotí využívání prvotních a druhotných surovin z hlediska udržitelnosti.",
    "Aplikuje principy hašení požárů na modelové situace.",
    "Posoudí využití látek v praxi vzhledem k životnímu prostředí a zdraví člověka."
   ],
-  "dal": "Systematická chemie na střední škole a praktické environmentální souvislosti.",
+  "dal": "Na chemii společnosti navazuje systematická chemie na střední škole a praktické environmentální souvislosti v běžném životě.",
+  "dalId": "mil9-ukonceni",
   "rvp": "RVP ZV · Chemie · Chemie a společnost.",
   "doma": [
    "Třiďte odpad vědomě: co je plast, kov, sklo, papír a proč to dává smysl.",
