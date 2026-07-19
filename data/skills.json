@@ -232,7 +232,13 @@
       "ČJS-3-1-01",
       "ČJS-3-1-02",
       "ČJS-3-4-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zná pravidla, ale neumí je použít v běžném školním dni bez připomenutí.",
+      "childQuestion": "Co ti dnes pomohlo zvládnout školní den v klidu?",
+      "homeActivity": "Večer si projděte tři části dne: ráno, škola, odpoledne, a vyberte jednu věc, která zítra pomůže.",
+      "teacherSignal": "Dítě dlouhodobě nezvládá režim, orientaci ve škole nebo základní pravidla soužití."
+    }
   },
   {
     "id": "prv1-rodina-lide",
@@ -255,7 +261,13 @@
     "rvpRefs": [
       "ČJS-3-2-01",
       "ČJS-3-2-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě popisuje lidi jen podle role, ale nevnímá vztahy, potřeby a vzájemnou pomoc.",
+      "childQuestion": "Kdo ti dnes s něčím pomohl a komu jsi pomohl ty?",
+      "homeActivity": "Nakreslete jednoduchou mapu lidí kolem dítěte: doma, ve škole, v okolí, a řekněte, co kdo dělá.",
+      "teacherSignal": "Dítě má trvalé potíže v základních vztazích se spolužáky nebo nerozumí běžným sociálním situacím."
+    }
   },
   {
     "id": "hv1-zpev",
@@ -1766,7 +1778,13 @@
     ],
     "rvpRefs": [
       "ČJS-3-3-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě odříká dny a měsíce, ale neumí je použít k orientaci v reálném čase.",
+      "childQuestion": "Co bude za hodinu, zítra a příští týden?",
+      "homeActivity": "Každý den nechte dítě najít datum v kalendáři a říct jednu věc, která ho čeká.",
+      "teacherSignal": "Dítě se opakovaně neorientuje v hodinách, dnech nebo pořadí událostí."
+    }
   },
   {
     "id": "prv2-bezpeci-zdravi",
@@ -1791,7 +1809,13 @@
       "ČJS-3-5-02",
       "ČJS-3-5-03",
       "ČJS-3-5-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zná poučky o bezpečí, ale v konkrétní situaci neví, koho oslovit nebo co udělat první.",
+      "childQuestion": "Komu bys řekl, kdyby ses necítil bezpečně?",
+      "homeActivity": "Projděte cestu do školy a pojmenujte tři místa, kde je potřeba zpomalit a rozhlédnout se.",
+      "teacherSignal": "Dítě opakovaně riskuje, neumí přivolat pomoc nebo nerozlišuje bezpečné a nebezpečné situace."
+    }
   },
   {
     "id": "cj3-vyjmenovana",
@@ -2083,7 +2107,13 @@
       "CJ-3-1-04",
       "CJ-3-1-05",
       "CJ-3-1-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě čeká, že musí rozumět každému slovu, a ztrácí odvahu mluvit.",
+      "childQuestion": "Které slovo nebo pokyn jsi poznal i bez překladu?",
+      "homeActivity": "Doma opakujte krátké fráze v běžných situacích: pozdrav, barva, číslo, pokyn.",
+      "teacherSignal": "Dítě dlouhodobě nereaguje ani na základní pokyny nebo se angličtině silně vyhýbá."
+    }
   },
   {
     "id": "aj4-poslech",
@@ -2107,7 +2137,13 @@
       "CJ-5-1-01",
       "CJ-5-1-02",
       "CJ-5-1-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se zasekne na neznámém slově a přestane poslouchat zbytek sdělení.",
+      "childQuestion": "Co jsi zachytil: osobu, číslo, místo nebo činnost?",
+      "homeActivity": "Pouštějte krátké věty a nechte dítě ukázat obrázek nebo gesto místo překladu celého textu.",
+      "teacherSignal": "Dítě nerozumí běžným třídním pokynům ani s gesty a opakováním."
+    }
   },
   {
     "id": "prv3-region-historie",
@@ -2130,7 +2166,13 @@
     "rvpRefs": [
       "ČJS-3-3-02",
       "ČJS-3-3-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si plete místní názvy jako seznam a nevidí, jak souvisejí s jeho každodenním životem.",
+      "childQuestion": "Které místo v okolí bys ukázal návštěvě a proč?",
+      "homeActivity": "Vyberte jednu památku nebo důležité místo v obci a zjistěte k němu jednu krátkou informaci.",
+      "teacherSignal": "Dítě se vůbec neorientuje ve svém okolí nebo nerozumí základním místním souvislostem."
+    }
   },
   {
     "id": "prv3-priroda",
@@ -2154,7 +2196,13 @@
       "ČJS-3-4-01",
       "ČJS-3-4-02",
       "ČJS-3-4-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě třídí přírodu podle vzhledu, ale nevšímá si znaků živého a neživého.",
+      "childQuestion": "Podle čeho poznáš, že je něco živé?",
+      "homeActivity": "Na procházce najděte tři živé a tři neživé věci a u živých řekněte, co potřebují k životu.",
+      "teacherSignal": "Dítě dlouhodobě nerozlišuje základní přírodniny a neumí pozorovat jednoduché znaky."
+    }
   },
   {
     "id": "cj4-vzory",
@@ -2442,7 +2490,13 @@
       "I-5-1-01",
       "I-5-1-02",
       "I-5-1-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere model jako obrázek, ne jako zjednodušení skutečnosti pro řešení otázky.",
+      "childQuestion": "Co model ukazuje a co naopak vynechává?",
+      "homeActivity": "Nakreslete jednoduchý model pokoje, cesty do školy nebo rozvrhu a řekněte, k čemu slouží.",
+      "teacherSignal": "Dítě neumí z jednoduchého modelu vyčíst informaci nebo ho použít k rozhodnutí."
+    }
   },
   {
     "id": "inf4-algoritmy",
@@ -2467,7 +2521,13 @@
       "I-5-2-02",
       "I-5-2-03",
       "I-5-2-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě chápe algoritmus jako práci pro počítač, ale neumí sestavit přesný postup.",
+      "childQuestion": "Co musí být první krok a co by se stalo, kdybychom ho vynechali?",
+      "homeActivity": "Napište postup na čištění zubů nebo přípravu svačiny a zkuste najít chybějící krok.",
+      "teacherSignal": "Dítě neumí seřadit jednoduchý postup nebo opravit zjevnou chybu v instrukcích."
+    }
   },
   {
     "id": "inf5-systemy-data",
@@ -2490,7 +2550,13 @@
     "rvpRefs": [
       "I-5-3-01",
       "I-5-3-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zapisuje údaje nahodile a pak z nich nejde nic vyhledat ani porovnat.",
+      "childQuestion": "Jaké sloupce potřebuješ, aby se v datech dalo hledat?",
+      "homeActivity": "Vytvořte malou tabulku knih, her nebo sportů a seřaďte ji podle jednoho údaje.",
+      "teacherSignal": "Dítě nerozumí základnímu uspořádání dat do tabulky nebo evidence."
+    }
   },
   {
     "id": "inf5-digitalni-bezpeci",
@@ -2514,7 +2580,13 @@
       "I-5-4-01",
       "I-5-4-02",
       "I-5-4-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zná heslo jako tajnou věc, ale neřeší stopy, sdílení a důvěryhodnost zařízení.",
+      "childQuestion": "Kterou informaci o sobě bys na internetu raději nesdílel?",
+      "homeActivity": "Projděte spolu jedno nastavení soukromí a pojmenujte, kdo co může vidět.",
+      "teacherSignal": "Dítě sdílí citlivé údaje nebo nerozpozná základní rizikové digitální situace."
+    }
   },
   {
     "id": "vla4-cr",
@@ -2540,7 +2612,13 @@
       "ČJS-5-1-03",
       "ČJS-5-1-04",
       "ČJS-5-1-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě ukazuje místa na mapě náhodně a nečte legendu, měřítko ani světové strany.",
+      "childQuestion": "Podle čeho na mapě poznáš řeku, město nebo pohoří?",
+      "homeActivity": "Při plánování výletu najděte kraj, nejbližší větší město a směr cesty.",
+      "teacherSignal": "Dítě se neorientuje v mapě ČR ani s pomocí legendy a základních značek."
+    }
   },
   {
     "id": "vla5-evropa-svet",
@@ -2563,7 +2641,13 @@
     "rvpRefs": [
       "ČJS-5-1-03",
       "ČJS-5-1-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí státy jako seznam a nevnímá sousedství, vzdálenost a způsob života.",
+      "childQuestion": "Čím je tahle země podobná Česku a čím se liší?",
+      "homeActivity": "Vyberte jednu evropskou zemi a najděte hlavní město, jazyk a jednu běžnou zajímavost.",
+      "teacherSignal": "Dítě se dlouhodobě neorientuje v Evropě ani v základních sousedech ČR."
+    }
   },
   {
     "id": "vla4-lide-pravidla",
@@ -2587,7 +2671,13 @@
       "ČJS-5-2-01",
       "ČJS-5-2-02",
       "ČJS-5-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě chápe pravidla jen jako zákazy, ne jako domluvu, která chrání soužití.",
+      "childQuestion": "Komu pravidlo pomáhá a co by se stalo bez něj?",
+      "homeActivity": "Vyberte jedno domácí nebo školní pravidlo a zkuste ho přeformulovat jako důvod a přínos.",
+      "teacherSignal": "Dítě má opakované potíže respektovat základní pravidla nebo nerozumí smyslu dohody."
+    }
   },
   {
     "id": "vla4-dejiny",
@@ -2611,7 +2701,13 @@
       "ČJS-5-3-01",
       "ČJS-5-3-02",
       "ČJS-5-3-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si pamatuje pověsti jako fakta nebo naopak odmítá příběh, protože není přesnou historií.",
+      "childQuestion": "Co je v příběhu pověst a co by mohla být historická stopa?",
+      "homeActivity": "Přečtěte krátkou pověst a označte postavy, místo a jednu otázku pro historika.",
+      "teacherSignal": "Dítě nerozlišuje příběh, pověst a historickou informaci ani po vysvětlení."
+    }
   },
   {
     "id": "pri4-ekosystemy",
@@ -2636,7 +2732,13 @@
       "ČJS-5-4-03",
       "ČJS-5-4-04",
       "ČJS-5-4-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si pamatuje názvy rostlin a živočichů, ale nevidí vztahy v ekosystému.",
+      "childQuestion": "Co by se změnilo, kdyby z ekosystému zmizel jeden druh?",
+      "homeActivity": "Vyberte les, pole nebo rybník a nakreslete jednoduchý řetězec: rostlina, živočich, člověk.",
+      "teacherSignal": "Dítě neumí propojit organismy s prostředím ani v běžných příkladech."
+    }
   },
   {
     "id": "pri4-zeme-vesmir",
@@ -2658,7 +2760,13 @@
     ],
     "rvpRefs": [
       "ČJS-5-4-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě vysvětluje střídání dne, noci a ročních období podle pocitu, ne podle pohybu Země.",
+      "childQuestion": "Co se pohybuje a co se jen zdá, že se pohybuje po obloze?",
+      "homeActivity": "S lampou a míčkem si ukažte den a noc, potom sklon Země a roční období.",
+      "teacherSignal": "Dítě má trvalé miskoncepce o Slunci, Zemi a střídání ročních období."
+    }
   },
   {
     "id": "cj5-shoda",
@@ -2999,7 +3107,13 @@
       "CJ-5-2-01",
       "CJ-5-2-02",
       "CJ-5-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě odpovídá naučenou větou, ale nereaguje na skutečnou otázku.",
+      "childQuestion": "Na co se tě ten člověk ptá?",
+      "homeActivity": "Zahrajte si dvouminutový rozhovor: jméno, věk, oblíbená věc, jednoduchá otázka zpět.",
+      "teacherSignal": "Dítě se dlouhodobě bojí říct i jednoduchou větu nebo nerozumí základním otázkám."
+    }
   },
   {
     "id": "aj5-cteni",
@@ -3022,7 +3136,13 @@
     "rvpRefs": [
       "CJ-5-3-01",
       "CJ-5-3-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě překládá slovo po slově a uniká mu hlavní smysl krátkého textu.",
+      "childQuestion": "O čem text je, i když nerozumíš každému slovu?",
+      "homeActivity": "U krátkého textu nejdřív hledejte známá slova a obrázky, potom teprve detaily.",
+      "teacherSignal": "Dítě neumí vyčíst hlavní informaci ani z velmi krátkého známého textu."
+    }
   },
   {
     "id": "aj5-psani",
@@ -3045,7 +3165,13 @@
     "rvpRefs": [
       "CJ-5-4-01",
       "CJ-5-4-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě píše věty podle češtiny a zapomíná jednoduchý anglický slovosled.",
+      "childQuestion": "Kdo něco dělá a jaké sloveso k tomu potřebuješ?",
+      "homeActivity": "Napište tři krátké věty o sobě podle stejného vzoru a obměňte jen jedno slovo.",
+      "teacherSignal": "Dítě neumí napsat ani jednoduchou větu podle vzoru nebo se v psaní úplně ztrácí."
+    }
   },
   {
     "id": "aj6-poslech",
@@ -3068,7 +3194,13 @@
     "rvpRefs": [
       "CJ-9-1-01",
       "CJ-9-1-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se snaží přeložit celý poslech a nezachytí hlavní informaci.",
+      "childQuestion": "Co bylo nejdůležitější: kdo, kde, kdy nebo co se stalo?",
+      "homeActivity": "Pusťte krátké audio dvakrát: poprvé pro hlavní smysl, podruhé pro dvě konkrétní informace.",
+      "teacherSignal": "Dítě po opakovaném poslechu nezachytí ani základní téma sdělení."
+    }
   },
   {
     "id": "pri5-pokusy-latky",
@@ -3090,7 +3222,13 @@
     ],
     "rvpRefs": [
       "ČJS-5-4-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere pokus jako efekt a nevšímá si otázky, postupu a pozorování.",
+      "childQuestion": "Co se změnilo a podle čeho to víš?",
+      "homeActivity": "U jednoduchého pokusu zapisujte tři věci: odhad, co jsme udělali, co jsme viděli.",
+      "teacherSignal": "Dítě neumí bezpečně postupovat podle pokynů nebo nerozlišuje odhad a pozorování."
+    }
   },
   {
     "id": "pri5-telo",
@@ -3115,7 +3253,13 @@
       "ČJS-5-5-02",
       "ČJS-5-5-06",
       "ČJS-5-5-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zná názvy orgánů, ale neumí je propojit s funkcí a péčí o zdraví.",
+      "childQuestion": "Která část těla ti pomáhá dýchat, hýbat se nebo trávit jídlo?",
+      "homeActivity": "Při běžném dni si všimněte jedné situace pro dýchání, pohyb, trávení a odpočinek.",
+      "teacherSignal": "Dítě nerozumí základní péči o tělo nebo má výrazné nejasnosti v bezpečí a zdraví."
+    }
   },
   {
     "id": "pri5-bezpeci-zdravi",
@@ -3141,7 +3285,13 @@
       "ČJS-5-5-05",
       "ČJS-5-5-06",
       "ČJS-5-5-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí první pomoc jako seznam, ale neví, co udělat jako první v reálné situaci.",
+      "childQuestion": "Co je první krok, když se někomu něco stane?",
+      "homeActivity": "Natrénujte scénku: zastavit se, zkontrolovat bezpečí, zavolat dospělého nebo 155.",
+      "teacherSignal": "Dítě neumí přivolat pomoc nebo v modelové situaci panikaří tak, že neudělá první bezpečný krok."
+    }
   },
   {
     "id": "vla5-dejiny",
@@ -3165,7 +3315,13 @@
       "ČJS-5-3-01",
       "ČJS-5-3-02",
       "ČJS-5-3-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí dějiny jako data bez příčiny, následku a běžného života lidí.",
+      "childQuestion": "Co se změnilo pro obyčejné lidi v téhle době?",
+      "homeActivity": "Ke každému období napište jednu událost, jednu osobu a jednu změnu v životě lidí.",
+      "teacherSignal": "Dítě se v časové ose českých dějin ztrácí natolik, že nerozumí návaznosti období."
+    }
   },
   {
     "id": "mil5-gympl",
@@ -3824,7 +3980,13 @@
       "I-9-1-02",
       "I-9-1-03",
       "I-9-1-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si plete kódování s tajnou šifrou a nevidí, že jde o dohodnuté zastoupení informace.",
+      "childQuestion": "Jakou informaci tenhle kód nese a podle jakého pravidla?",
+      "homeActivity": "Zakódujte krátkou zprávu pomocí vlastních značek a nechte druhého podle pravidla zprávu přečíst.",
+      "teacherSignal": "Dítě nerozumí vztahu mezi daty, značkou a významem ani na jednoduchém příkladu."
+    }
   },
   {
     "id": "prir6-bunka",
@@ -4063,7 +4225,13 @@
       "I-9-2-03",
       "I-9-2-05",
       "I-9-2-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě hledá správný příkaz, ale netestuje postup po malých krocích.",
+      "childQuestion": "Který krok programu udělá to, co čekáš?",
+      "homeActivity": "Sestavte jednoduchý postup pro postavu v mřížce a po každém kroku kontrolujte, kde skončí.",
+      "teacherSignal": "Dítě neumí ladit jednoduchý algoritmus a opakuje stejnou chybu bez kontroly."
+    }
   },
   {
     "id": "inf7-informacni-systemy",
@@ -4088,7 +4256,13 @@
       "I-9-3-02",
       "I-9-3-03",
       "I-9-3-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě používá tabulku jen jako hezký seznam a nevyužívá filtrování, řazení ani pravidla dat.",
+      "childQuestion": "Podle čeho bys tyto záznamy seřadil nebo vyfiltroval?",
+      "homeActivity": "V tabulce rodinných výdajů nebo knih vyzkoušejte řazení a jeden jednoduchý filtr.",
+      "teacherSignal": "Dítě neumí vyhledat nebo uspořádat data v jednoduché tabulce."
+    }
   },
   {
     "id": "inf8-digitalni-technologie",
@@ -4113,7 +4287,13 @@
       "I-9-4-03",
       "I-9-4-04",
       "I-9-4-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě řeší zařízení jen jako zapnout-vypnout a nevnímá síť, účty, aktualizace a digitální stopu.",
+      "childQuestion": "Co se stane s informací, když ji pošleš přes aplikaci?",
+      "homeActivity": "Nakreslete cestu zprávy od telefonu přes internet k druhému člověku a označte místa rizika.",
+      "teacherSignal": "Dítě opakovaně podceňuje bezpečnost účtů, sdílení nebo veřejnou digitální stopu."
+    }
   },
   {
     "id": "ov6-obec",
@@ -4400,7 +4580,13 @@
       "CJ-9-2-01",
       "CJ-9-2-02",
       "CJ-9-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě tvoří minulý čas jen přidáním koncovky a zapomíná nepravidelná slovesa nebo otázku.",
+      "childQuestion": "Mluvíš o tom, co se stalo v minulosti?",
+      "homeActivity": "Vyprávějte tři věty o včerejšku: jedna kladná, jedna záporná, jedna otázka.",
+      "teacherSignal": "Dítě nerozlišuje přítomný a minulý děj ani v jednoduchém vyprávění."
+    }
   },
   {
     "id": "aj8-cteni",
@@ -4423,7 +4609,13 @@
     "rvpRefs": [
       "CJ-9-3-01",
       "CJ-9-3-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě hledá překlad všech slov a nestíhá najít požadovanou informaci.",
+      "childQuestion": "Jaké klíčové slovo v otázce hledáš v textu?",
+      "homeActivity": "U článku nejdřív přečtěte nadpisy a otázky, potom vyhledejte konkrétní údaje.",
+      "teacherSignal": "Dítě neumí v textu najít jednoduchou informaci ani s klíčovými slovy."
+    }
   },
   {
     "id": "aj8-psani",
@@ -4446,7 +4638,13 @@
       "CJ-9-4-01",
       "CJ-9-4-02",
       "CJ-9-4-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě začne psát bez účelu a adresáta, takže text je nesouvislý nebo moc český.",
+      "childQuestion": "Komu píšeš a co od něj potřebuješ?",
+      "homeActivity": "Před e-mailem si napište tři body: pozdrav, důvod, závěr, a pak je rozviňte do vět.",
+      "teacherSignal": "Dítě nezvládá sestavit krátký srozumitelný text podle vzoru."
+    }
   },
   {
     "id": "ncj7-start",
@@ -4470,7 +4668,13 @@
       "DCJ-9-1-01",
       "DCJ-9-1-02",
       "DCJ-9-1-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě porovnává druhý jazyk s angličtinou a má pocit, že má hned umět totéž.",
+      "childQuestion": "Kterou frázi už poznáš podle zvuku?",
+      "homeActivity": "Opakujte krátké pozdravy a reakce nahlas, klidně s kartičkami a gesty.",
+      "teacherSignal": "Dítě se v novém jazyce ztrácí už v základních pozdravech a pokynech."
+    }
   },
   {
     "id": "ncj7-mluveni",
@@ -4494,7 +4698,13 @@
       "DCJ-9-2-01",
       "DCJ-9-2-02",
       "DCJ-9-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se bojí výslovnosti a raději neřekne nic.",
+      "childQuestion": "Jak můžeš odpovědět jedním krátkým spojením?",
+      "homeActivity": "Trénujte minirozhovor pozdrav, jméno, rozloučení, bez opravování každé výslovnostní drobnosti.",
+      "teacherSignal": "Dítě dlouhodobě odmítá mluvit i v bezpečných jednoduchých situacích."
+    }
   },
   {
     "id": "ncj8-cteni",
@@ -4518,7 +4728,13 @@
       "DCJ-9-3-01",
       "DCJ-9-3-02",
       "DCJ-9-3-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě chce překládat každé slovo a nevyužívá podobnost, kontext a značky.",
+      "childQuestion": "Co poznáš z nápisu podle obrázku, čísla nebo známého slova?",
+      "homeActivity": "Na obalech, mapách nebo webech hledejte krátké nápisy a odhadujte jejich význam.",
+      "teacherSignal": "Dítě neumí porozumět ani velmi krátkým nápisům s oporou kontextu."
+    }
   },
   {
     "id": "ncj9-psani",
@@ -4541,7 +4757,13 @@
       "DCJ-9-4-01",
       "DCJ-9-4-02",
       "DCJ-9-4-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě píše zprávu jako českou větu se slovníkem a ztrácí základní strukturu.",
+      "childQuestion": "Jaký je účel formuláře nebo zprávy?",
+      "homeActivity": "Vyplňte jednoduchý vzorový formulář a napište tři věty podle připravených frází.",
+      "teacherSignal": "Dítě nezvládá vyplnit základní údaje nebo napsat krátkou zprávu podle vzoru."
+    }
   },
   {
     "id": "d7-stredovek",
