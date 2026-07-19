@@ -176,6 +176,122 @@ function cermatGradePanel(r, R) {
   </section>`;
 }
 
+function cermatGroupLinks(subject, groupIds) {
+  return groupIds.map(id => subject.groups.find(group => group.id === id)).filter(Boolean);
+}
+
+function cermatDiagnostics(subject) {
+  const math = [
+    {
+      title: "Nerozumím zadání",
+      symptom: "Dítě umí počítat, ale odpoví na jinou otázku nebo přeskočí podmínku.",
+      groupIds: ["slovni-logicke", "data-logika", "jednotky-data", "algebra-rovnice"],
+      fix: "Začít podtržením údajů, zakroužkováním otázky a jednou větou říct, co se má zjistit."
+    },
+    {
+      title: "Počítám špatně",
+      symptom: "Postup je zhruba správně, body mizí na znaménkách, závorkách, dělení nebo přepisu čísla.",
+      groupIds: ["cisla-operace", "zlomky-desetinna"],
+      fix: "Trénovat krátké sady na přesnost a po výpočtu povinně udělat odhad, jestli výsledek dává smysl."
+    },
+    {
+      title: "Pletu jednotky a části celku",
+      symptom: "Výsledek vyjde číselně, ale v metrech místo centimetrů, v obvodu místo obsahu nebo se špatným základem procent.",
+      groupIds: ["jednotky-data", "pomery-procenta", "geometrie-mereni", "geometrie"],
+      fix: "Psát jednotky už během výpočtu a před každou úlohou si označit základ, celek nebo měřený útvar."
+    },
+    {
+      title: "Nevím, jak začít delší úlohu",
+      symptom: "Dítě dlouho čte, ale nezačne kreslit, zapisovat možnosti ani stavět rovnici.",
+      groupIds: ["slovni-logicke", "algebra-rovnice", "data-logika"],
+      fix: "Nutit první krok: náčrt, tabulka možností nebo pojmenování neznámé. Výpočet přijde až potom."
+    },
+    {
+      title: "Nestíhám",
+      symptom: "Jednotlivé typy úloh zvládá, ale u celého testu zůstávají lehké body na konci.",
+      groupIds: subject.groups.slice(0, 2).map(group => group.id),
+      fix: "Nejdřív sbírat rychlé jisté body, těžké úlohy označit a vrátit se k nim až ve druhém průchodu."
+    }
+  ];
+  const czech = [
+    {
+      title: "Odpovídám podle dojmu, ne podle textu",
+      symptom: "Odpověď zní rozumně, ale v ukázce pro ni není opora.",
+      groupIds: ["cteni-porozumeni"],
+      fix: "U každé odpovědi chtít důkaz přímo v textu: větu, slovo nebo část ukázky."
+    },
+    {
+      title: "Neumím odůvodnit pravopis",
+      symptom: "Dítě často trefí správnou možnost, ale neumí říct proč, takže pod tlakem chybuje.",
+      groupIds: ["pravopis", "pravopis-tvaroslovi"],
+      fix: "Trénovat méně slov, ale vždy s pravidlem: druh slova, vzor, podmět, předpona nebo koncovka."
+    },
+    {
+      title: "Pletu slovní druhy a tvary",
+      symptom: "Chyba vzniká tím, že dítě nečte slovo v konkrétní větě.",
+      groupIds: ["tvaroslovi-skladba", "pravopis-tvaroslovi"],
+      fix: "Určovat podle použití ve větě, ne podle izolovaného slova nebo pocitu."
+    },
+    {
+      title: "Ztrácím se ve větě a souvětí",
+      symptom: "Problém dělají čárky, vztahy mezi větami, podmět, přísudek nebo vedlejší věty.",
+      groupIds: ["tvaroslovi-skladba", "skladba"],
+      fix: "Nejdřív najít slovesa a základní skladební dvojice, až potom řešit čárky a typy vět."
+    },
+    {
+      title: "Nestíhám nebo přeskakuju zadání",
+      symptom: "Body mizí na přehlédnutém slově, negaci, počtu správných odpovědí nebo rychlém čtení ukázky.",
+      groupIds: ["cteni-porozumeni", "literatura-sloh"],
+      fix: "Trénovat krátké ukázky s časem a po každé chybě pojmenovat, jestli šlo o pravidlo, čtení nebo spěch."
+    }
+  ];
+  return subject.subjectKey === "m" ? math : czech;
+}
+
+function cermatDiagnosticsHTML(subject) {
+  const items = cermatDiagnostics(subject);
+  return `<section class="section cermat-diagnostics">
+    <div class="sec-head"><h2>Kde ztrácím body?</h2><span class="cnt">Diagnostika podle chyby</span></div>
+    <div class="diagnostic-grid">${items.map(item => {
+      const links = cermatGroupLinks(subject, item.groupIds);
+      return `<article class="diagnostic-card">
+        <h3>${esc(item.title)}</h3>
+        <p>${esc(item.symptom)}</p>
+        <div class="diagnostic-links">${links.map(group => `<a href="#${esc(group.id)}">${esc(group.title)}</a>`).join("")}</div>
+        <p class="diagnostic-fix">${esc(item.fix)}</p>
+      </article>`;
+    }).join("")}</div>
+  </section>`;
+}
+
+function cermatPlanHTML(subject) {
+  const mathSteps = [
+    ["Jisté body nejdřív", "Zpevnit počítání, základní postupy a typy úloh, kde se dají získat rychlé body bez dlouhého přemýšlení."],
+    ["Časté pasti", "Projít úlohy, kde se chybuje kvůli jednotkám, základu procent, obrázku, slovnímu zadání nebo delšímu postupu."],
+    ["Celý test na čas", "Teprve potom řešit celé testy. Po každém testu rozdělit chyby podle příčiny a vrátit je do okruhů výše."]
+  ];
+  const czechSteps = [
+    ["Text a pravopis nejdřív", "Získat jistotu v práci s ukázkou a v pravopisných pravidlech, protože dávají hodně bodů a dobře se trénují po malých dávkách."],
+    ["Mluvnice v kontextu", "Procvičit slovní druhy, tvary, skladbu a význam slov vždy ve větě nebo textu, ne jako izolované poučky."],
+    ["Ukázky a celý test na čas", "Spojit literaturu, sloh a čtení zadání do celého testu. Po testu určit, jestli chyba vznikla pravidlem, čtením nebo spěchem."]
+  ];
+  const steps = subject.subjectKey === "m" ? mathSteps : czechSteps;
+  const groupChunks = [
+    subject.groups.slice(0, 2),
+    subject.groups.slice(2, 4),
+    subject.groups.slice(4)
+  ];
+  return `<section class="section cermat-plan">
+    <div class="sec-head"><h2>Doporučené pořadí přípravy</h2><span class="cnt">Od jistoty k testu nanečisto</span></div>
+    <div class="plan-steps">${steps.map((step, i) => `<article class="plan-step">
+      <span>${i + 1}</span>
+      <h3>${esc(step[0])}</h3>
+      <p>${esc(step[1])}</p>
+      <div class="plan-links">${groupChunks[i].map(group => `<a href="#${esc(group.id)}">${esc(group.title)}</a>`).join("")}</div>
+    </article>`).join("")}</div>
+  </section>`;
+}
+
 function rulerHTML(R) {
   let g = "";
   for (let r = 1; r <= 9; r++) {
@@ -423,6 +539,8 @@ SKILLS.forEach(s => {
         <div class="sec-head"><h2>Okruhy v testu</h2><span class="cnt">${subject.groups.length} okruhů · ${new Set(subject.groups.flatMap(g => g.skillIds)).size} navázaných témat</span></div>
         <div class="cermat-toc">${subject.groups.map(group => `<a href="#${esc(group.id)}">${esc(group.title)}</a>`).join("")}</div>
       </section>
+      ${cermatDiagnosticsHTML(subject)}
+      ${cermatPlanHTML(subject)}
       ${subject.groups.map(groupCard).join("")}
       <section class="section">
         <div class="sec-head"><h2>Jak trénovat</h2></div>

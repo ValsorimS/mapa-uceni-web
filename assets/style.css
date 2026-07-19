@@ -243,6 +243,29 @@ ul.jak li::before{
   text-decoration:none;font-weight:700;color:var(--blue);background:var(--blue-soft);
   border:1.5px solid #C6D5F2;border-radius:999px;padding:6px 12px;font-size:.9rem
 }
+.cermat-diagnostics,.cermat-plan{padding-top:10px;padding-bottom:16px}
+.diagnostic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.diagnostic-card,.plan-step{
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:16px 18px
+}
+.diagnostic-card h3,.plan-step h3{font-size:1.04rem;margin-bottom:6px}
+.diagnostic-card p,.plan-step p{font-size:.92rem;color:var(--muted)}
+.diagnostic-links,.plan-links{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}
+.diagnostic-links a,.plan-links a{
+  text-decoration:none;font-weight:700;color:var(--blue);background:var(--blue-soft);
+  border:1px solid #C6D5F2;border-radius:999px;padding:4px 9px;font-size:.82rem
+}
+.diagnostic-links a:hover,.plan-links a:hover{border-color:var(--blue)}
+.diagnostic-fix{
+  margin-top:10px;background:var(--paper);border-left:3px solid var(--green);
+  padding:8px 10px;border-radius:0 7px 7px 0
+}
+.plan-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;counter-reset:plan}
+.plan-step span{
+  display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;
+  background:var(--ink);color:#fff;border-radius:50%;font-family:"Bitter",serif;font-weight:800;margin-bottom:10px
+}
 .cermat-group{
   scroll-margin-top:90px;background:var(--card);border:1.5px solid var(--line);
   border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;margin:18px 0
@@ -370,6 +393,7 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .notebook .inner{padding:24px 20px 28px 44px}
   .notebook .inner::before{left:28px}
   .cermat-grid{grid-template-columns:1fr}
+  .plan-steps{grid-template-columns:1fr}
   .grade-cermat{grid-template-columns:1fr}
   nav{margin-left:0}
 }
