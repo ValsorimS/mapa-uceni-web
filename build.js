@@ -292,6 +292,103 @@ function cermatPlanHTML(subject) {
   </section>`;
 }
 
+function cermatGroupAdvice(subject, group) {
+  const advice = {
+    "cisla-operace": {
+      mistake: "Správný nápad se rozpadne na drobné početní chybě.",
+      recognize: "Výsledky jsou blízko, ale nesedí znaménko, závorka, přepis čísla nebo pořadí kroků.",
+      fix: "Dávat krátké sady na přesnost a po každém výpočtu chtít odhad výsledku."
+    },
+    "zlomky-desetinna": {
+      mistake: "Dítě počítá se zlomkem mechanicky a ztratí, čeho je částí.",
+      recognize: "Umí upravit čísla, ale v obrázku nebo slovní situaci odpoví k jinému celku.",
+      fix: "Nejdřív pojmenovat celek a část, teprve potom převádět nebo počítat."
+    },
+    "slovni-logicke": {
+      mistake: "Úloha se začne počítat dřív, než je jasný plán.",
+      recognize: "Dítě několikrát zkouší náhodné výpočty a nedokáže říct, proč zvolilo právě je.",
+      fix: "Vyžadovat náčrt, tabulku možností nebo krátký zápis podmínek před výpočtem."
+    },
+    "geometrie-mereni": {
+      mistake: "Záměna obvodu, obsahu, délky a jednotek.",
+      recognize: "Výpočet vypadá správně, ale odpověď má špatnou veličinu nebo vychází z nepopsaného obrázku.",
+      fix: "Dopsat rozměry přímo do náčrtu a u každého čísla držet jednotku."
+    },
+    "jednotky-data": {
+      mistake: "Údaje z tabulky nebo obrázku se použijí bez sjednocení jednotek.",
+      recognize: "Chyba vznikne až po přečtení informací: minuty se míchají s hodinami, cm s m, Kč s počtem kusů.",
+      fix: "Před výpočtem přepsat všechny údaje do stejné jednotky a označit, odkud se vzaly."
+    },
+    "pomery-procenta": {
+      mistake: "Procenta se počítají ze špatného základu nebo se obrátí poměr.",
+      recognize: "Dítě zná postup, ale neví, co je 100 %, případně prohodí členy poměru.",
+      fix: "V každé úloze nejdřív napsat základ, část a jednotku; u poměru hlídat pořadí."
+    },
+    "algebra-rovnice": {
+      mistake: "Text se nepřevede na vztah, jen se zkouší čísla.",
+      recognize: "Dítě najde výsledek odhadem, ale neumí ukázat rovnici ani kontrolu podmínek.",
+      fix: "Pojmenovat neznámou slovy, zapsat jednu větu jako rovnici a výsledek vrátit do zadání."
+    },
+    "geometrie": {
+      mistake: "Obrázek se čte příliš rychle a přehlédnou se vazby mezi délkami, úhly nebo tělesy.",
+      recognize: "Chybí pomocný náčrt, popsané údaje nebo kontrola, jestli jde o obvod, obsah či objem.",
+      fix: "Doplnit do obrázku všechna známá čísla a vybrat vzorec až podle otázky."
+    },
+    "data-logika": {
+      mistake: "Možnosti se neprojdou systematicky.",
+      recognize: "Dítě drží podmínky v hlavě, vrací se zpět a mění odpověď bez jasného záznamu.",
+      fix: "Psát možnosti do tabulky, škrtat nemožné varianty a u dat nejdřív popsat, co graf ukazuje."
+    },
+    "cteni-porozumeni": {
+      mistake: "Odpověď vychází z dojmu, ne z ukázky.",
+      recognize: "Dítě umí odpověď obhájit obecně, ale nenajde větu nebo slovo v textu.",
+      fix: "Ke každé odpovědi podtrhnout důkaz v textu a znovu přečíst přesné znění otázky."
+    },
+    "pravopis": {
+      mistake: "Pravopis se tipuje podle sluchu.",
+      recognize: "Dítě často trefí doplnění, ale neumí říct pravidlo nebo druh slova.",
+      fix: "Cvičit po malých dávkách a u každého slova chtít jedno konkrétní odůvodnění."
+    },
+    "pravopis-tvaroslovi": {
+      mistake: "Pravidlo je známé, ale v testové větě se nerozpozná.",
+      recognize: "Chyba vzniká u slovních druhů, kategorií nebo koncovek, když je věta delší.",
+      fix: "Nejdřív určit roli slova ve větě, potom teprve doplnit pravopis nebo tvar."
+    },
+    "tvaroslovi-skladba": {
+      mistake: "Slovo se určuje izolovaně, ne podle použití ve větě.",
+      recognize: "Stejné slovo v jiné větě dítě určí jinak jen náhodou nebo podle koncovky.",
+      fix: "Ptát se, co slovo ve větě dělá, a k určení připojit krátké zdůvodnění."
+    },
+    "skladba": {
+      mistake: "Věta se nerozebere od slovesa a základních vztahů.",
+      recognize: "Dítě doplňuje čárky nebo větné členy podle pocitu a nevidí řídící výraz.",
+      fix: "Nejdřív najít slovesa, podmět a přísudek, potom otázkou určit další vztahy."
+    },
+    "slovni-zasoba": {
+      mistake: "Příbuznost a význam slov se posuzují podle podobného zvuku.",
+      recognize: "Dítě vybere slovo, které zní podobně, ale významově do řady nepatří.",
+      fix: "Vždy říct význam vlastními slovy a ověřit ho v konkrétní větě."
+    },
+    "slovni-zasoba-vyznam": {
+      mistake: "Význam slova se bere bez kontextu.",
+      recognize: "Dítě zná jeden význam, ale v ukázce je použité jinak nebo stylově příznakově.",
+      fix: "Číst okolní větu a nahradit slovo vlastním výrazem, který zachová smysl."
+    },
+    "literatura-sloh": {
+      mistake: "Literární pojem se vybírá zpaměti bez opory v ukázce.",
+      recognize: "Dítě zná název žánru nebo prostředku, ale neukáže, kde se v textu projevuje.",
+      fix: "Každý pojem spojit s konkrétním znakem v ukázce: vypravěč, verš, děj, účel textu."
+    }
+  };
+  return advice[group.id] || {
+    mistake: group.watchOut,
+    recognize: "Chyba se opakuje u podobných úloh nebo se objeví až při práci na čas.",
+    fix: subject.subjectKey === "m"
+      ? "Vrátit se k navázaným tématům a po každé chybě zapsat, který krok selhal."
+      : "Vrátit se k navázaným tématům a u každé odpovědi vyžadovat oporu v pravidle nebo textu."
+  };
+}
+
 function rulerHTML(R) {
   let g = "";
   for (let r = 1; r <= 9; r++) {
@@ -506,12 +603,21 @@ SKILLS.forEach(s => {
       const subjectColor = SUBJ[subject.subjectKey].c;
       const groupCard = group => {
         const linkedSkills = group.skillIds.map(byId).filter(Boolean);
+        const advice = cermatGroupAdvice(subject, group);
         return `<section class="cermat-group" id="${esc(group.id)}">
           <div class="cermat-group-head">
             <span class="tag" style="background:${subjectColor}">${esc(subject.shortTitle)}</span>
             <h2>${esc(group.title)}</h2>
           </div>
           <p>${esc(group.why)}</p>
+          <div class="cermat-status" data-cermat-key="${esc(exam.id)}:${esc(subject.id)}:${esc(group.id)}" data-skill-ids="${esc(group.skillIds.join(","))}">
+            <div class="cermat-skill-progress"><span>Zvládnuto <b>0</b> z ${linkedSkills.length} témat</span><i><em style="width:0%"></em></i></div>
+            <div class="cermat-status-buttons" role="group" aria-label="Stav přípravy: ${esc(group.title)}">
+              <button type="button" data-state="done">Umím</button>
+              <button type="button" data-state="practice">Trénuju</button>
+              <button type="button" data-state="problem">Problém</button>
+            </div>
+          </div>
           <div class="cermat-grid">
             <div>
               <b>Typické úlohy</b>
@@ -521,6 +627,11 @@ SKILLS.forEach(s => {
               <b>Na co si dát pozor</b>
               <p>${esc(group.watchOut)}</p>
             </div>
+          </div>
+          <div class="cermat-advice">
+            <div><b>Typická chyba</b><p>${esc(advice.mistake)}</p></div>
+            <div><b>Jak ji poznat</b><p>${esc(advice.recognize)}</p></div>
+            <div><b>Jak ji doma opravit</b><p>${esc(advice.fix)}</p></div>
           </div>
           <div class="mini-cards">${linkedSkills.map(s => `<a href="${subjectR}${skillUrl(s)}"><span>${s.r}. ročník</span><b>${esc(s.t)}</b></a>`).join("")}</div>
         </section>`;

@@ -272,11 +272,36 @@ ul.jak li::before{
 }
 .cermat-group-head{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
 .cermat-group-head h2{font-size:1.28rem}
+.cermat-status{
+  display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap;
+  background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:12px;margin:14px 0
+}
+.cermat-skill-progress{min-width:210px;flex:1}
+.cermat-skill-progress span{display:block;color:var(--muted);font-size:.86rem;margin-bottom:6px}
+.cermat-skill-progress b{color:var(--ink)}
+.cermat-skill-progress i{
+  display:block;height:8px;background:var(--blue-soft);border:1px solid #C6D5F2;border-radius:999px;overflow:hidden
+}
+.cermat-skill-progress em{display:block;height:100%;background:var(--blue)}
+.cermat-status-buttons{display:flex;gap:6px;flex-wrap:wrap}
+.cermat-status-buttons button{
+  border:1.5px solid var(--line);background:var(--card);color:var(--ink);
+  border-radius:999px;padding:5px 10px;font-weight:700;font-size:.84rem
+}
+.cermat-status-buttons button:hover{border-color:var(--ink)}
+.cermat-status-buttons button.on{color:#fff;border-color:var(--ink);background:var(--ink)}
+.cermat-status[data-state="done"]{border-color:#BDD8C9;background:var(--green-soft)}
+.cermat-status[data-state="practice"]{border-color:#C6D5F2;background:var(--blue-soft)}
+.cermat-status[data-state="problem"]{border-color:#E7BDB8;background:var(--red-soft)}
 .cermat-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:16px;margin:14px 0}
 .cermat-grid>div{background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:14px}
 .cermat-grid b{font-family:"Bitter",serif}
 .cermat-grid ul{margin:8px 0 0 20px}
 .cermat-grid p{margin-top:8px;color:var(--muted)}
+.cermat-advice{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+.cermat-advice div{background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:12px}
+.cermat-advice b{font-family:"Bitter",serif;font-size:.92rem}
+.cermat-advice p{font-size:.88rem;color:var(--muted);margin-top:5px;line-height:1.45}
 .mini-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin-top:12px}
 .mini-cards a{
   text-decoration:none;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);
@@ -393,6 +418,7 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .notebook .inner{padding:24px 20px 28px 44px}
   .notebook .inner::before{left:28px}
   .cermat-grid{grid-template-columns:1fr}
+  .cermat-advice{grid-template-columns:1fr}
   .plan-steps{grid-template-columns:1fr}
   .grade-cermat{grid-template-columns:1fr}
   nav{margin-left:0}

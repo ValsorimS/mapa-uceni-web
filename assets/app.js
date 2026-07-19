@@ -6,6 +6,8 @@
     set:function(k,v){try{window.localStorage.setItem(k,v);}catch(e){this.mem[k]=v;}}};
   function doneSet(){try{return new Set(JSON.parse(store.get("mapa-done")||"[]"));}catch(e){return new Set();}}
   function save(s){store.set("mapa-done",JSON.stringify(Array.from(s)));}
+  function cermatStatus(){try{return JSON.parse(store.get("mapa-cermat-status")||"{}")||{};}catch(e){return {};}}
+  function saveCermatStatus(s){store.set("mapa-cermat-status",JSON.stringify(s));}
 
   /* Tlačítko na detailu tématu */
   var btn=document.querySelector(".donebtn[data-skill-id]");
@@ -41,6 +43,33 @@
       var bar=pr.querySelector(".bar i");if(bar)bar.style.width=(ids.length?Math.round(n/ids.length*100):0)+"%";
       var cnt=pr.querySelector(".lab b");if(cnt)cnt.textContent=n;
     }
+    document.querySelectorAll(".cermat-status[data-cermat-key]").forEach(function(box){
+      var ids=box.getAttribute("data-skill-ids").split(",").filter(Boolean);
+      var n=ids.filter(function(i){return d.has(i);}).length;
+      var bar=box.querySelector("i em");if(bar)bar.style.width=(ids.length?Math.round(n/ids.length*100):0)+"%";
+      var cnt=box.querySelector(".cermat-skill-progress b");if(cnt)cnt.textContent=n;
+    });
   }
+
+  document.querySelectorAll(".cermat-status[data-cermat-key]").forEach(function(box){
+    var key=box.getAttribute("data-cermat-key");
+    var paint=function(){
+      var state=cermatStatus()[key]||"";
+      box.setAttribute("data-state",state);
+      box.querySelectorAll("button[data-state]").forEach(function(b){
+        var on=b.getAttribute("data-state")===state;
+        b.classList.toggle("on",on);
+        b.setAttribute("aria-pressed",on?"true":"false");
+      });
+    };
+    box.querySelectorAll("button[data-state]").forEach(function(b){
+      b.addEventListener("click",function(){
+        var all=cermatStatus(),state=b.getAttribute("data-state");
+        all[key]===state?delete all[key]:all[key]=state;
+        saveCermatStatus(all);paint();
+      });
+    });
+    paint();
+  });
   refresh();
 })();
