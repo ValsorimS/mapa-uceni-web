@@ -176,6 +176,36 @@ function cermatGradePanel(r, R) {
   </section>`;
 }
 
+function cermatDashboardHTML(exam, R) {
+  const subjectCards = exam.subjects.map(subject => {
+    const skillIds = Array.from(new Set(subject.groups.flatMap(group => group.skillIds)));
+    const groups = subject.groups.map(group => `<a data-dashboard-group
+      data-key="${esc(exam.id)}:${esc(subject.id)}:${esc(group.id)}"
+      data-skill-ids="${esc(group.skillIds.join(","))}"
+      href="${R}${cermatSubjectUrl(exam, subject)}#${esc(group.id)}">
+        <span>${esc(group.title)}</span><b data-state-label>Nezařazeno</b>
+      </a>`).join("");
+    return `<article class="dashboard-subject" data-dashboard-subject data-skill-ids="${esc(skillIds.join(","))}">
+      <div class="dashboard-title">
+        <span class="tag" style="background:${SUBJ[subject.subjectKey].c}">${esc(subject.shortTitle)}</span>
+        <h3>${esc(subject.title)}</h3>
+      </div>
+      <div class="dashboard-counts">
+        <span data-count="done">0 umím</span>
+        <span data-count="practice">0 trénuju</span>
+        <span data-count="problem">0 problém</span>
+      </div>
+      <div class="dashboard-progress"><span>Zvládnuto <b>0</b> z ${skillIds.length} témat</span><i><em style="width:0%"></em></i></div>
+      <a class="continue" data-continue href="${R}${cermatSubjectUrl(exam, subject)}">Pokračovat v přípravě →</a>
+      <div class="dashboard-groups">${groups}</div>
+    </article>`;
+  }).join("");
+  return `<section class="cermat-dashboard" data-cermat-dashboard>
+    <div class="sec-head"><h2>Stav přípravy</h2><span class="cnt">Souhrn podle uložených okruhů</span></div>
+    <div class="dashboard-subjects">${subjectCards}</div>
+  </section>`;
+}
+
 function cermatGroupLinks(subject, groupIds) {
   return groupIds.map(id => subject.groups.find(group => group.id === id)).filter(Boolean);
 }
@@ -575,6 +605,7 @@ SKILLS.forEach(s => {
   ${CERMAT.exams.map(exam => `<section class="section">
     <div class="sec-head"><h2>${esc(exam.title)}</h2><a class="more" href="${R}${cermatExamUrl(exam)}">Přehled →</a></div>
     <p class="lead small-lead">${esc(exam.desc)}</p>
+    ${cermatDashboardHTML(exam, R)}
     <div class="cards">${exam.subjects.map(subject => cardSubject(exam, subject, R)).join("")}</div>
   </section>`).join("")}`;
   write("cermat/index.html", layout({
@@ -589,6 +620,7 @@ SKILLS.forEach(s => {
     const examBody = `
     <div class="crumbs"><a href="${examR}">Mapa učení</a> › <a href="${examR}cermat/">Cermat</a> › ${esc(exam.label)}</div>
     <div class="page-title"><h1>${esc(exam.title)}</h1><p class="lead">${esc(exam.desc)}</p></div>
+    ${cermatDashboardHTML(exam, examR)}
     <div class="cards">${exam.subjects.map(subject => cardSubject(exam, subject, examR)).join("")}</div>
     <div class="infobox"><b>Jak používat:</b> nejdřív najděte okruh, kde dítě ztrácí body, pak otevřete navázaná témata. Celý test nanečisto má smysl hlavně tehdy, když po něm následuje rozbor chyb.</div>`;
     write(`${cermatExamUrl(exam)}index.html`, layout({

@@ -238,6 +238,48 @@ ul.jak li::before{
 }
 .cermat-actions a:hover{background:var(--ink);color:#fff}
 .cermat-overview{padding-bottom:18px}
+.cermat-dashboard{
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:18px;margin:18px 0 22px
+}
+.cermat-dashboard .sec-head{margin-bottom:12px}
+.dashboard-subjects{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.dashboard-subject{
+  background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:14px
+}
+.dashboard-title{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.dashboard-title h3{font-size:1.05rem}
+.dashboard-counts{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:10px}
+.dashboard-counts span{
+  background:var(--card);border:1px solid var(--line);border-radius:999px;
+  padding:3px 8px;font-size:.8rem;font-weight:800;color:var(--muted)
+}
+.dashboard-progress span{display:block;color:var(--muted);font-size:.86rem;margin-bottom:6px}
+.dashboard-progress b{color:var(--ink)}
+.dashboard-progress i{
+  display:block;height:8px;background:var(--blue-soft);border:1px solid #C6D5F2;border-radius:999px;overflow:hidden
+}
+.dashboard-progress em{display:block;height:100%;background:var(--blue)}
+.continue{
+  display:inline-block;margin:12px 0 10px;text-decoration:none;font-weight:800;color:var(--ink);
+  border:2px solid var(--ink);border-radius:8px;padding:7px 11px;background:var(--card)
+}
+.continue:hover{background:var(--ink);color:#fff}
+.dashboard-groups{display:grid;gap:7px}
+.dashboard-groups a{
+  display:flex;justify-content:space-between;gap:10px;align-items:center;
+  text-decoration:none;color:var(--ink);background:var(--card);
+  border:1.5px solid var(--line);border-radius:8px;padding:8px 10px
+}
+.dashboard-groups a:hover{border-color:var(--blue)}
+.dashboard-groups span{font-size:.88rem;line-height:1.25}
+.dashboard-groups b{
+  white-space:nowrap;font-size:.76rem;border-radius:999px;padding:2px 7px;
+  color:var(--muted);background:var(--paper);border:1px solid var(--line)
+}
+.dashboard-groups a[data-state="done"] b{color:var(--green);background:var(--green-soft);border-color:#BDD8C9}
+.dashboard-groups a[data-state="practice"] b{color:var(--blue);background:var(--blue-soft);border-color:#C6D5F2}
+.dashboard-groups a[data-state="problem"] b{color:var(--red);background:var(--red-soft);border-color:#E7BDB8}
 .cermat-toc{display:flex;gap:10px;flex-wrap:wrap}
 .cermat-toc a{
   text-decoration:none;font-weight:700;color:var(--blue);background:var(--blue-soft);
@@ -417,6 +459,7 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .ruler-top .seg{font-size:.72rem}
   .notebook .inner{padding:24px 20px 28px 44px}
   .notebook .inner::before{left:28px}
+  .dashboard-subjects{grid-template-columns:1fr}
   .cermat-grid{grid-template-columns:1fr}
   .cermat-advice{grid-template-columns:1fr}
   .plan-steps{grid-template-columns:1fr}

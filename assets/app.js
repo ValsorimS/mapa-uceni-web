@@ -8,6 +8,7 @@
   function save(s){store.set("mapa-done",JSON.stringify(Array.from(s)));}
   function cermatStatus(){try{return JSON.parse(store.get("mapa-cermat-status")||"{}")||{};}catch(e){return {};}}
   function saveCermatStatus(s){store.set("mapa-cermat-status",JSON.stringify(s));}
+  var stateLabel={done:"Umím",practice:"Trénuju",problem:"Problém"};
 
   /* Tlačítko na detailu tématu */
   var btn=document.querySelector(".donebtn[data-skill-id]");
@@ -49,6 +50,39 @@
       var bar=box.querySelector("i em");if(bar)bar.style.width=(ids.length?Math.round(n/ids.length*100):0)+"%";
       var cnt=box.querySelector(".cermat-skill-progress b");if(cnt)cnt.textContent=n;
     });
+    refreshCermatDashboards(d);
+  }
+
+  function countDone(ids,d){
+    return ids.filter(function(i,idx){return ids.indexOf(i)===idx&&d.has(i);}).length;
+  }
+
+  function refreshCermatDashboards(d){
+    var statuses=cermatStatus();
+    document.querySelectorAll("[data-dashboard-subject]").forEach(function(card){
+      var counts={done:0,practice:0,problem:0};
+      var firstProblem=null,firstPractice=null,firstOpen=null;
+      card.querySelectorAll("[data-dashboard-group]").forEach(function(link){
+        var state=statuses[link.getAttribute("data-key")]||"";
+        if(state&&counts[state]!==undefined)counts[state]++;
+        link.setAttribute("data-state",state);
+        var label=link.querySelector("[data-state-label]");
+        if(label)label.textContent=stateLabel[state]||"Nezařazeno";
+        if(state==="problem"&&!firstProblem)firstProblem=link.href;
+        if(state==="practice"&&!firstPractice)firstPractice=link.href;
+        if(state!=="done"&&!firstOpen)firstOpen=link.href;
+      });
+      Object.keys(counts).forEach(function(k){
+        var el=card.querySelector('[data-count="'+k+'"]');
+        if(el)el.textContent=counts[k]+" "+(k==="done"?"umím":k==="practice"?"trénuju":"problém");
+      });
+      var ids=card.getAttribute("data-skill-ids").split(",").filter(Boolean);
+      var n=countDone(ids,d);
+      var cnt=card.querySelector(".dashboard-progress b");if(cnt)cnt.textContent=n;
+      var bar=card.querySelector(".dashboard-progress i em");if(bar)bar.style.width=(ids.length?Math.round(n/ids.length*100):0)+"%";
+      var next=card.querySelector("[data-continue]");
+      if(next&&ids.length)next.href=firstProblem||firstPractice||firstOpen||next.href;
+    });
   }
 
   document.querySelectorAll(".cermat-status[data-cermat-key]").forEach(function(box){
@@ -66,7 +100,7 @@
       b.addEventListener("click",function(){
         var all=cermatStatus(),state=b.getAttribute("data-state");
         all[key]===state?delete all[key]:all[key]=state;
-        saveCermatStatus(all);paint();
+        saveCermatStatus(all);paint();refresh();
       });
     });
     paint();
