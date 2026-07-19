@@ -403,6 +403,10 @@ ul.jak li::before{
 .cermat-advice div{background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:12px}
 .cermat-advice b{font-family:"Bitter",serif;font-size:.92rem}
 .cermat-advice p{font-size:.88rem;color:var(--muted);margin-top:5px;line-height:1.45}
+.qualitybox{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;max-width:720px;margin:8px 0 4px}
+.qualitybox div{background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:12px}
+.qualitybox b{font-family:"Bitter",serif;font-size:.92rem}
+.qualitybox p{font-size:.88rem;color:var(--muted);margin-top:5px;line-height:1.45}
 .mini-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin-top:12px}
 .mini-cards a{
   text-decoration:none;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);
@@ -575,6 +579,7 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .supp-stages,.supp-columns{grid-template-columns:1fr}
   .cermat-grid{grid-template-columns:1fr}
   .cermat-advice{grid-template-columns:1fr}
+  .qualitybox{grid-template-columns:1fr}
   .plan-steps{grid-template-columns:1fr}
   .grade-cermat{grid-template-columns:1fr}
   nav{margin-left:0}

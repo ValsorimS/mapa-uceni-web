@@ -607,6 +607,24 @@ function contentAudit(skills) {
 
 const CONTENT_AUDIT = contentAudit(SKILLS);
 
+function skillQualityAudit(skills) {
+  const required = [
+    ["typicalMistake", "typická chyba"],
+    ["childQuestion", "otázka pro dítě"],
+    ["homeActivity", "domácí aktivita"],
+    ["teacherSignal", "signál pro učitele"]
+  ];
+  const mappable = skills.filter(s => s.p !== "mil");
+  const findings = mappable.map(skill => {
+    const quality = skill.quality || {};
+    const missing = required.filter(([key]) => !String(quality[key] || "").trim()).map(([, label]) => label);
+    return { skill, missing };
+  }).filter(item => item.missing.length);
+  return { total: mappable.length, complete: mappable.length - findings.length, findings };
+}
+
+const SKILL_QUALITY_AUDIT = skillQualityAudit(SKILLS);
+
 function parentPathQuality(paths) {
   const required = [
     ["typicalMistake", "typická chyba"],
@@ -740,6 +758,16 @@ SKILLS.forEach(s => {
       <div class="supp-links">${supplementaryRefs.map(field => `<a href="${R}${supplementaryUrl(field)}"><span>${esc(field.shortTitle)}</span><b>${esc(field.title)}</b></a>`).join("")}</div>
       <p>Tyto obory nejsou povinné ve všech školách. Škola je může zařadit do svého ŠVP jako rozšíření běžného učiva.</p></div>`
     : "";
+  const q = s.quality || null;
+  const qualityDetail = q
+    ? `<p class="blockt">Rodičovská vodítka</p>
+      <div class="qualitybox">
+        <div><b>Typická chyba</b><p>${esc(q.typicalMistake)}</p></div>
+        <div><b>Otázka pro dítě</b><p>${esc(q.childQuestion)}</p></div>
+        <div><b>Domácí aktivita</b><p>${esc(q.homeActivity)}</p></div>
+        <div><b>Signál pro učitele</b><p>${esc(q.teacherSignal)}</p></div>
+      </div>`
+    : "";
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › <a href="${R}rocnik/${s.r}/">${s.r}. ročník</a> › ${su.n}</div>
   <article class="notebook"><div class="inner">
@@ -755,6 +783,7 @@ SKILLS.forEach(s => {
     <ul class="jak">${s.jak.map(j => `<li>${j}</li>`).join("")}</ul>
     ${s.doma ? `<p class="blockt">Jak pomoci doma</p>
     <ul class="doma">${s.doma.map(j => `<li>${j}</li>`).join("")}</ul>` : ""}
+    ${qualityDetail}
     <p class="blockt">Co přijde dál</p>
     <div class="next">${s.dal}${nx ? ` <a href="${R}${skillUrl(nx)}">${nx.t} →</a>` : ""}</div>
     <div class="rvpbox">${prereq.length ? `<b>Na co navazuje:</b> ${prereq.map(x => `<a href="${R}${skillUrl(x)}">${x.t}</a>`).join(" · ")}<br><br>` : ""}<b>Kde to najdete v RVP:</b> ${rvpDetail}</div>
@@ -1541,12 +1570,18 @@ SKILLS.forEach(s => {
     <div><b>${CONTENT_AUDIT.candidates.length}</b><span>kandidátů k doplnění</span></div>
     <div><b>${CONTENT_AUDIT.high}</b><span>vysoká priorita</span></div>
     <div><b>${CONTENT_AUDIT.medium}</b><span>střední priorita</span></div>
+    <div><b>${SKILL_QUALITY_AUDIT.complete}</b><span>témat s rodičovskými vodítky</span></div>
     <div><b>${PARENT_PATH_QUALITY.findings.length}</b><span>cest bez kvalitativních vodítek</span></div>
   </div>
   <div class="infobox"><b>Jak to číst:</b> skóre není známka kvality učiva. Je to pracovní filtr, který pomáhá najít témata, kde by rodičům nejvíc pomohlo doplnit konkrétnější texty, domácí otázky nebo další krok.</div>
   ${section("Vysoká priorita", byPriority("vysoká"))}
   ${section("Střední priorita", byPriority("střední"))}
   ${section("Nízká priorita", byPriority("nízká"))}
+  <section class="section">
+    <div class="sec-head"><h2>Kvalitativní audit běžných témat</h2><span class="cnt">${SKILL_QUALITY_AUDIT.complete}/${SKILL_QUALITY_AUDIT.total} hotovo</span></div>
+    ${SKILL_QUALITY_AUDIT.findings.length ? `<div class="infobox"><b>Chybí ještě:</b> ${SKILL_QUALITY_AUDIT.findings.length} běžných témat nemá kompletní rodičovská vodítka. První řez doplňuje hlavně témata napojená na Pomoc, rodičovské cesty a Cermat.</div>
+    <div class="cards">${SKILL_QUALITY_AUDIT.findings.slice(0, 24).map(item => `<div class="gl"><span class="tag" style="background:${SUBJ[item.skill.p].c}">${esc(SUBJ[item.skill.p].n)} · ${item.skill.r}. ročník</span><b><a href="${R}${skillUrl(item.skill)}">${esc(item.skill.t)}</a></b><p>Chybí: ${item.missing.map(esc).join(", ")}</p></div>`).join("")}</div>` : `<div class="noresults">Všechna běžná témata mají rodičovská vodítka.</div>`}
+  </section>
   <section class="section">
     <div class="sec-head"><h2>Kvalitativní audit rodičovských cest</h2><span class="cnt">${PARENT_PATH_QUALITY.total} cest</span></div>
     ${PARENT_PATH_QUALITY.findings.length ? `<div class="cards">${PARENT_PATH_QUALITY.findings.map(item => `<div class="gl"><b><a href="${R}${parentPathUrl(item.path)}">${esc(item.path.title)}</a></b><p>Chybí: ${item.missing.map(esc).join(", ")}</p></div>`).join("")}</div>` : `<div class="noresults">Všechny rodičovské cesty mají typickou chybu, otázku pro dítě, domácí aktivitu i signál pro učitele.</div>`}
