@@ -2329,29 +2329,30 @@ fs.writeFileSync(path.join(OUT, "manifest.webmanifest"), JSON.stringify({
   name: "Mapa učení",
   short_name: "Mapa učení",
   description: "Průvodce českým základním vzděláváním pro rodiče.",
-  start_url: "/",
-  scope: "/",
+  start_url: "./",
+  scope: "./",
   display: "standalone",
   background_color: "#FCFCF8",
   theme_color: "#22304A",
   lang: "cs",
   icons: [
-    { src: "/assets/favicon.svg", sizes: "64x64 192x192 512x512", type: "image/svg+xml", purpose: "any" },
-    { src: "/assets/favicon.svg", sizes: "64x64 192x192 512x512", type: "image/svg+xml", purpose: "maskable" }
+    { src: "assets/favicon.svg", sizes: "64x64 192x192 512x512", type: "image/svg+xml", purpose: "any" },
+    { src: "assets/favicon.svg", sizes: "64x64 192x192 512x512", type: "image/svg+xml", purpose: "maskable" }
   ],
   shortcuts: [
-    { name: "Pomoc", url: "/pomoc/", description: "Rodičovské rozcestníky a situace." },
-    { name: "Můj plán", url: "/plan/", description: "Tisknutelný týdenní plán." },
-    { name: "Cermat", url: "/cermat/", description: "Přijímačková příprava." }
+    { name: "Pomoc", url: "pomoc/", description: "Rodičovské rozcestníky a situace." },
+    { name: "Můj plán", url: "plan/", description: "Tisknutelný týdenní plán." },
+    { name: "Cermat", url: "cermat/", description: "Přijímačková příprava." }
   ]
 }, null, 2) + "\n", "utf8");
 fs.writeFileSync(path.join(OUT, "sw.js"),
   `"use strict";\n` +
   `const CACHE="mapa-uceni-pwa-v1";\n` +
-  `const CORE=${JSON.stringify(["/","/index.html","/pomoc/","/hledat/","/plan/","/cermat/","/rvp/","/o-mape/","/audit/","/assets/style.css","/assets/app.js","/assets/search-data.js","/assets/favicon.svg","/manifest.webmanifest"])};\n` +
-  `self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting()));});\n` +
+  `const CORE=${JSON.stringify(["./","index.html","pomoc/","hledat/","plan/","cermat/","rvp/","o-mape/","audit/","assets/style.css","assets/app.js","assets/search-data.js","assets/favicon.svg","manifest.webmanifest"])};\n` +
+  `const coreRequests=()=>CORE.map(item=>new Request(new URL(item,self.registration.scope),{cache:"reload"}));\n` +
+  `self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(coreRequests())).then(()=>self.skipWaiting()));});\n` +
   `self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});\n` +
-  `self.addEventListener("fetch",event=>{if(event.request.method!=="GET")return;const url=new URL(event.request.url);if(url.origin!==location.origin)return;event.respondWith(fetch(event.request).then(response=>{const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));return response;}).catch(()=>caches.match(event.request).then(found=>found||caches.match("/"))));});\n`, "utf8");
+  `self.addEventListener("fetch",event=>{if(event.request.method!=="GET")return;const url=new URL(event.request.url);if(url.origin!==location.origin||!url.href.startsWith(self.registration.scope))return;event.respondWith(fetch(event.request).then(response=>{const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));return response;}).catch(()=>caches.match(event.request).then(found=>found||caches.match(new URL("./",self.registration.scope)))));});\n`, "utf8");
 fs.writeFileSync(path.join(OUT, "llms.txt"),
   `# Mapa učení\n\nMapa učení je český statický web pro rodiče dětí na základní škole. Vysvětluje témata 1.–9. ročníku, RVP vazby, Cermat přípravu, rodičovské cesty, životní situace a zákonný rámec.\n\nDůležité vstupy:\n- ${SITE_URL}/\n- ${SITE_URL}/predmety/\n- ${SITE_URL}/pomoc/\n- ${SITE_URL}/cermat/\n- ${SITE_URL}/rvp/\n- ${SITE_URL}/audit/\n\nObsah je orientační a nenahrazuje konzultaci s učitelem, školou ani poradenským zařízením.\n`, "utf8");
 
