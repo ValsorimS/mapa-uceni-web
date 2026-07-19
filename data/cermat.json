@@ -7,6 +7,240 @@
  },
  "exams": [
   {
+   "id": "5",
+   "slug": "5-trida",
+   "label": "5. třída",
+   "title": "Cermat pro 5. třídu",
+   "desc": "Jednotná přijímací zkouška na osmiletá gymnázia: český jazyk a literatura a matematika. Testy ověřují učivo 1. stupně, ale v přijímačkové podobě: přesné čtení zadání, rychlou orientaci, vytrvalost a schopnost vysvětlit si úlohu krok po kroku.",
+   "subjects": [
+    {
+     "id": "matematika",
+     "subjectKey": "m",
+     "title": "Matematika",
+     "shortTitle": "Matematika 5",
+     "duration": "70 minut",
+     "points": "max. 50 bodů",
+     "lead": "Matematika pro osmiletá gymnázia staví na učivu 1. stupně, ale úlohy bývají méně přímočaré. Dítě potřebuje jisté počítání, čtení zadání, práci s obrázkem, převody jednotek a klid u slovních a logických úloh.",
+     "officialLinks": [
+      {
+       "label": "Oficiální testová zadání Cermatu",
+       "url": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf"
+      },
+      {
+       "label": "Procvičovací aplikace Cermatu",
+       "url": "https://procvicprijimacky.cermat.cz"
+      }
+     ],
+     "groups": [
+      {
+       "id": "cisla-operace",
+       "title": "Čísla a početní operace",
+       "why": "Bez bezpečného počítání se dítě zdržuje u každé další úlohy. Základ jsou čísla do větších řádů, písemné operace, násobilka, dělení a kontrola výsledku.",
+       "skillIds": [
+        "m2-do100",
+        "m2-nasobilka",
+        "m3-nasobilka",
+        "m3-pisemne",
+        "m4-deleni",
+        "m5-desetinna"
+       ],
+       "typicalTasks": [
+        "písemné sčítání, odčítání, násobení a dělení",
+        "výpočet výrazu se závorkami a více kroky",
+        "porovnávání čísel a odhad výsledku"
+       ],
+       "watchOut": "Nejčastěji se ztrácí body za nepozorné přepsání čísla, špatné pořadí kroků a chybějící kontrolu."
+      },
+      {
+       "id": "zlomky-desetinna",
+       "title": "Zlomky, desetinná čísla a části celku",
+       "why": "Přijímačkové úlohy často schovají zlomky do obrázku, slovní situace nebo porovnání několika možností.",
+       "skillIds": [
+        "m4-zlomky",
+        "m5-zlomky",
+        "m5-desetinna",
+        "m5-zaporna-cisla"
+       ],
+       "typicalTasks": [
+        "vyznačení části celku a porovnání zlomků",
+        "jednoduché operace se zlomky se stejným jmenovatelem",
+        "desetinná čísla v penězích, měření a pořadí čísel"
+       ],
+       "watchOut": "Dítě by mělo pořád vědět, čeho je zlomek částí. Bez toho mechanicky počítá, ale odpoví na jinou otázku."
+      },
+      {
+       "id": "slovni-logicke",
+       "title": "Slovní, logické a netradiční úlohy",
+       "why": "Tohle je hlavní rozdíl mezi běžným školním procvičováním a testem. Úloha často nejdřív vyžaduje najít plán, až potom počítat.",
+       "skillIds": [
+        "m5-logicke-ulohy",
+        "m2-cas-data",
+        "m1-rada"
+       ],
+       "typicalTasks": [
+        "úlohy s podmínkami a hledáním možností",
+        "čas, kalendář, pořadí, tabulky a jednoduché závislosti",
+        "slovní úloha s více kroky a odpovědí větou"
+       ],
+       "watchOut": "U logických úloh pomáhá kreslit, zapisovat možnosti do tabulky a škrtat nemožné varianty."
+      },
+      {
+       "id": "geometrie-mereni",
+       "title": "Geometrie, měření, obvod a obsah",
+       "why": "Geometrie v testu spojuje rýsování, čtení obrázku, jednotky, obvod, obsah a prostorovou představivost.",
+       "skillIds": [
+        "m1-tvary",
+        "m2-usecka",
+        "m4-kolmice",
+        "m5-obsah",
+        "m5-soumernost"
+       ],
+       "typicalTasks": [
+        "měření a rýsování úseček, rovnoběžek a kolmic",
+        "obvod a obsah čtverce nebo obdélníku",
+        "osová souměrnost a práce ve čtvercové síti"
+       ],
+       "watchOut": "Pozor na záměnu obvodu a obsahu. U obrázků se vyplatí nejdřív doplnit známé délky přímo do náčrtu."
+      },
+      {
+       "id": "jednotky-data",
+       "title": "Jednotky, data, tabulky a grafické informace",
+       "why": "Cermat rád kombinuje převody jednotek s tabulkou, obrázkem nebo slovní úlohou z běžného života.",
+       "skillIds": [
+        "m5-prevody",
+        "m2-cas-data",
+        "m5-obsah"
+       ],
+       "typicalTasks": [
+        "převody délky, hmotnosti, času, objemu a peněz",
+        "čtení jednoduché tabulky nebo diagramu",
+        "dosazení údajů z obrázku do výpočtu"
+       ],
+       "watchOut": "Jednotky je potřeba sjednotit před výpočtem, ne až na konci."
+      }
+     ],
+     "training": [
+      "Krátké počítání na jistotu každý den: 10–15 minut je lepší než dlouhé bloky jednou týdně.",
+      "U slovních úloh chtít náčrt, zápis nebo tabulku. Ne jen výsledek.",
+      "Po celém testu rozdělit chyby na početní, čtenářské, jednotky, geometrii a logiku."
+     ]
+    },
+    {
+     "id": "cestina",
+     "subjectKey": "cj",
+     "title": "Český jazyk a literatura",
+     "shortTitle": "Čeština 5",
+     "duration": "60 minut",
+     "points": "max. 50 bodů",
+     "lead": "Čeština pro osmiletá gymnázia prověřuje hlavně porozumění textu a jistotu v učivu 1. stupně: pravopis, slovní druhy, tvary slov, skladbu jednoduché věty, význam slov, sloh a základní literární pojmy.",
+     "officialLinks": [
+      {
+       "label": "Oficiální testová zadání Cermatu",
+       "url": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf"
+      },
+      {
+       "label": "Procvičovací aplikace Cermatu",
+       "url": "https://procvicprijimacky.cermat.cz"
+      }
+     ],
+     "groups": [
+      {
+       "id": "cteni-porozumeni",
+       "title": "Čtení s porozuměním a práce s textem",
+       "why": "Dítě musí najít informaci v ukázce, odlišit tvrzení podle textu a udržet pozornost u přesného znění otázky.",
+       "skillIds": [
+        "cj2-cteni",
+        "cj4-cteni-informace",
+        "cj5-sloh-vypraveni",
+        "cj4-dialog-media"
+       ],
+       "typicalTasks": [
+        "výběr tvrzení, které odpovídá textu",
+        "seřazení vět nebo částí textu",
+        "určení adresáta, účelu nebo hlavní myšlenky"
+       ],
+       "watchOut": "Odpověď má vycházet z textu, ne z toho, co si dítě myslí obecně. Pomáhá podtrhnout důkaz v ukázce."
+      },
+      {
+       "id": "pravopis",
+       "title": "Pravopis: i/y, ú/ů, předpony, koncovky",
+       "why": "Pravopis dává rychlé body, když dítě umí pravidlo použít v konkrétním slově a nepíše podle dojmu.",
+       "skillIds": [
+        "cj2-tvrde",
+        "cj2-uu",
+        "cj3-vyjmenovana",
+        "cj4-vzory",
+        "cj4-stavba",
+        "cj5-shoda"
+       ],
+       "typicalTasks": [
+        "doplňování i/y po tvrdých, měkkých a obojetných souhláskách",
+        "koncovky podstatných jmen podle vzorů",
+        "shoda přísudku s podmětem a stavba slova"
+       ],
+       "watchOut": "U i/y je potřeba nejdřív poznat druh slova a pravidlo. Rychlé hádání podle sluchu nestačí."
+      },
+      {
+       "id": "tvaroslovi-skladba",
+       "title": "Slovní druhy, tvary slov a stavba věty",
+       "why": "Test ověřuje, jestli dítě rozumí slovu ve větě: jaký má slovní druh, tvar, vztah k ostatním slovům a roli ve větě.",
+       "skillIds": [
+        "cj3-slovni-druhy",
+        "cj3-podstatna",
+        "cj3-slovesa",
+        "cj4-podmet",
+        "cj5-souveti"
+       ],
+       "typicalTasks": [
+        "určení slovního druhu a mluvnických kategorií",
+        "podmět, přísudek a základní skladební dvojice",
+        "rozlišení věty jednoduché a souvětí"
+       ],
+       "watchOut": "Slovní druh se určuje podle použití ve větě. Stejné slovo může v jiné větě fungovat jinak."
+      },
+      {
+       "id": "slovni-zasoba",
+       "title": "Význam slov a slovní zásoba",
+       "why": "Dítě má poznat významové vztahy, spisovnost, příbuznost slov a význam slova podle kontextu.",
+       "skillIds": [
+        "cj3-vyznam-slov",
+        "cj4-vyznam-spisovnost",
+        "cj4-stavba"
+       ],
+       "typicalTasks": [
+        "synonyma, antonyma, slova nadřazená, podřazená a souřadná",
+        "slova příbuzná, kořen, předpona a přípona",
+        "spisovné a nespisovné tvary"
+       ],
+       "watchOut": "U příbuzných slov nestačí podobný zvuk. Musí spolu souviset významově."
+      },
+      {
+       "id": "literatura-sloh",
+       "title": "Literatura, sloh a vyprávění",
+       "why": "Literární část většinou stojí na práci s ukázkou: žánr, postava, vypravěč, dějová posloupnost, rým nebo základní básnické prostředky.",
+       "skillIds": [
+        "cj2-vypraveni",
+        "cj3-literatura",
+        "cj5-literatura",
+        "cj5-sloh-vypraveni"
+       ],
+       "typicalTasks": [
+        "určení pohádky, básně, vyprávění nebo jiné ukázky",
+        "dějová posloupnost a osnova textu",
+        "základní literární pojmy a práce s veršem"
+       ],
+       "watchOut": "Není nutné memorovat mnoho autorů. Důležitější je umět číst ukázku a pojmenovat, co v ní skutečně je."
+      }
+     ],
+     "training": [
+      "Číst krátké ukázky a u každé odpovědi říct, kde je důkaz v textu.",
+      "Pravopis trénovat po malých dávkách a vždy chtít zdůvodnění pravidlem.",
+      "U testu sledovat typ chyby: neznám pravidlo, přehlédl jsem slovo, odpověděl jsem podle dojmu, nestihl jsem."
+     ]
+    }
+   ]
+  },
+  {
    "id": "9",
    "slug": "9-trida",
    "label": "9. třída",
