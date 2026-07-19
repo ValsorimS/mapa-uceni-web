@@ -550,6 +550,40 @@ function rvpOutcomeLink(id, R) {
   return `<a class="rvp-ref" href="${R}rvp/#${esc(id)}"><b>${esc(id)}</b><span>${esc(o.text)}</span></a>`;
 }
 
+function words(value) {
+  return String(value || "").trim().split(/\s+/).filter(Boolean).length;
+}
+
+function contentAudit(skills) {
+  const mappable = skills.filter(s => s.p !== "mil");
+  const audit = mappable.map(s => {
+    const issues = [];
+    const coWords = words(s.co);
+    const dalWords = words(s.dal);
+    const jak = s.jak || [];
+    const doma = s.doma || [];
+    if (coWords < 25) issues.push({ weight: 3, label: `Krátké „Co to znamená“ (${coWords} slov)` });
+    if (jak.length < 3) issues.push({ weight: 3, label: `Málo bodů v „Jak poznáte“ (${jak.length}/3)` });
+    if (doma.length < 2) issues.push({ weight: 2, label: `Málo domácích tipů (${doma.length}/2)` });
+    if (dalWords < 8) issues.push({ weight: 2, label: `Krátké „Co přijde dál“ (${dalWords} slov)` });
+    if (!s.dalId) issues.push({ weight: 1, label: "Chybí strojová návaznost dalId" });
+    if (jak.some(item => words(item) < 5)) issues.push({ weight: 1, label: "Některý bod zvládnutí je příliš stručný" });
+    if (doma.some(item => words(item) < 5)) issues.push({ weight: 1, label: "Některý domácí tip je příliš stručný" });
+    const score = issues.reduce((sum, issue) => sum + issue.weight, 0);
+    const priority = score >= 5 ? "vysoká" : score >= 3 ? "střední" : "nízká";
+    return { skill: s, issues, score, priority };
+  }).filter(item => item.score >= 2).sort((a, b) => b.score - a.score || a.skill.r - b.skill.r || a.skill.t.localeCompare(b.skill.t, "cs"));
+  return {
+    total: mappable.length,
+    candidates: audit,
+    high: audit.filter(item => item.priority === "vysoká").length,
+    medium: audit.filter(item => item.priority === "střední").length,
+    low: audit.filter(item => item.priority === "nízká").length
+  };
+}
+
+const CONTENT_AUDIT = contentAudit(SKILLS);
+
 /* ---------- stránky ---------- */
 /* Domů */
 (function home() {
@@ -1078,6 +1112,50 @@ SKILLS.forEach(s => {
   }));
 })();
 
+/* Audit obsahu */
+(function auditPage() {
+  const R = "../";
+  const topicWord = n => n === 1 ? "téma" : (n > 1 && n < 5) ? "témata" : "témat";
+  const byPriority = priority => CONTENT_AUDIT.candidates.filter(item => item.priority === priority);
+  const auditCard = item => {
+    const s = item.skill;
+    return `<div class="gl">
+      <span class="tag" style="background:${SUBJ[s.p].c}">${esc(SUBJ[s.p].n)} · ${s.r}. ročník</span>
+      <b><a href="${R}${skillUrl(s)}">${esc(s.t)}</a></b>
+      <p>Priorita: ${esc(item.priority)} · skóre ${item.score}</p>
+      <ul>${item.issues.map(issue => `<li>${esc(issue.label)}</li>`).join("")}</ul>
+    </div>`;
+  };
+  const section = (title, items) => `<section class="section">
+    <div class="sec-head"><h2>${esc(title)}</h2><span class="cnt">${items.length} ${topicWord(items.length)}</span></div>
+    ${items.length ? `<div class="cards">${items.map(auditCard).join("")}</div>` : `<div class="noresults">V téhle prioritě teď nic není.</div>`}
+  </section>`;
+  const body = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Audit obsahu</div>
+  <div class="page-title"><h1>Audit obsahu</h1>
+  <p class="lead">Automatický seznam témat, která stojí za ruční doplnění. Audit hledá krátké texty, málo domácích tipů, slabé body zvládnutí a chybějící návaznost.</p></div>
+  <div class="metrics">
+    <div><b>${CONTENT_AUDIT.total}</b><span>běžných témat v auditu</span></div>
+    <div><b>${CONTENT_AUDIT.candidates.length}</b><span>kandidátů k doplnění</span></div>
+    <div><b>${CONTENT_AUDIT.high}</b><span>vysoká priorita</span></div>
+    <div><b>${CONTENT_AUDIT.medium}</b><span>střední priorita</span></div>
+  </div>
+  <div class="infobox"><b>Jak to číst:</b> skóre není známka kvality učiva. Je to pracovní filtr, který pomáhá najít témata, kde by rodičům nejvíc pomohlo doplnit konkrétnější texty, domácí otázky nebo další krok.</div>
+  ${section("Vysoká priorita", byPriority("vysoká"))}
+  ${section("Střední priorita", byPriority("střední"))}
+  ${section("Nízká priorita", byPriority("nízká"))}
+  <section class="section">
+    <div class="sec-head"><h2>Další postup</h2></div>
+    <div class="infobox"><b>Doporučení:</b> nejdřív projít vysokou prioritu a u každého tématu doplnit konkrétní „co zkusit doma“, typickou chybu, otázku pro dítě a jasnější návaznost. Pak má smysl pustit se do střední priority po předmětech.</div>
+  </section>`;
+  write("audit/index.html", layout({
+    path: "audit/", nav: "o-mape",
+    title: "Audit obsahu | Mapa učení",
+    desc: "Automatický audit slabších témat na Mapě učení: krátké texty, chybějící domácí tipy a návaznosti.",
+    body
+  }));
+})();
+
 /* Slovníček */
 (function slovnicek() {
   const R = "../";
@@ -1107,6 +1185,8 @@ SKILLS.forEach(s => {
     <p style="max-width:640px">Obsah je postaven na Rámcovém vzdělávacím programu pro základní vzdělávání (RVP ZV), který vydává MŠMT, a na běžné praxi českých škol. Protože si každá škola tvoří vlastní ŠVP, zařazení tématu do ročníku berte jako obvyklé, ne závazné.</p>
     <p class="blockt">Co mapa není</p>
     <p style="max-width:640px">Není to diagnostický nástroj ani měřítko, podle kterého dítě „zaostává“. Věkové údaje jsou typické, ne termíny. Když si nejste jistí, první adresa je vždy třídní učitel — zná vaše dítě, my ne.</p>
+    <p class="blockt">Jak hlídáme kvalitu</p>
+    <p style="max-width:640px">Součástí webu je i <a href="${R}audit/">audit obsahu</a>, který automaticky hledá témata s krátkým textem, slabší domácí pomocí nebo chybějící návazností. Je to pracovní seznam pro další doplňování, ne hodnocení dítěte ani školy.</p>
   </div></article>`;
   write("o-mape/index.html", layout({
     path: "o-mape/", nav: "o-mape",
@@ -1231,7 +1311,7 @@ const cermatUrls = ["cermat/"]
   .concat(CERMAT.exams.map(cermatExamUrl))
   .concat(CERMAT.exams.flatMap(exam => exam.subjects.map(subject => cermatSubjectUrl(exam, subject))));
 const supplementaryUrls = ["doplnujici-obory/"].concat(SUPP.fields.map(supplementaryUrl));
-const urls = ["", "predmety/", "milniky/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/"]
+const urls = ["", "predmety/", "milniky/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/", "audit/"]
   .concat(supplementaryUrls)
   .concat(cermatUrls)
   .concat(Array.from({ length: 9 }, (_, i) => `rocnik/${i + 1}/`))
