@@ -122,6 +122,7 @@ ${o.extraHead || ""}
       ${navLink("doplnujici-obory/", "doplnujici", "Doplňující")}
       ${navLink("cermat/", "cermat", "Cermat")}
       ${navLink("milniky/", "milniky", "Milníky")}
+      ${navLink("kdyz-dite-nestiha/", "pomoc", "Pomoc")}
       ${navLink("kalendar/", "kalendar", "Kalendář")}
       ${navLink("zakony/", "zakony", "Zákony a pravidla")}
       ${navLink("rvp/", "rvp", "RVP")}
@@ -604,6 +605,7 @@ const CONTENT_AUDIT = contentAudit(SKILLS);
   </section>
   <section class="section" style="padding-bottom:0">
     <div class="cards">
+      <a class="card" href="kdyz-dite-nestiha/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Když dítě nestíhá</h3><p>Jak rozlišit běžné zadrhnutí od dlouhodobého problému a co řešit doma, se školou nebo poradnou.</p></a>
       <a class="card" href="kalendar/"><span class="tag" style="background:var(--blue)">Termíny</span><h3>Kalendář školního roku</h3><p>Přihlášky, zápisy, přijímačky a opravné zkoušky měsíc po měsíci.</p></a>
       <a class="card" href="slovnicek/"><span class="tag" style="background:var(--red)">Zkratky</span><h3>Slovníček pojmů</h3><p>ŠVP, IVP, PPP, DiPSy… co znamenají zkratky ze třídních schůzek.</p></a>
     </div>
@@ -974,6 +976,78 @@ SKILLS.forEach(s => {
   });
 })();
 
+/* Když dítě nestíhá */
+(function kdyzDiteNestiha() {
+  const R = "../";
+  const topicLinks = [
+    { label: "Čtení", skill: "cj2-cteni", text: "plynulost, porozumění a únava při čtení" },
+    { label: "Psaní", skill: "cj1-psani", text: "úchop, tempo, opis, přepis a bolest ruky" },
+    { label: "Pravopis", skill: "cj9-pravopis", text: "opakované chyby, diktáty a přijímačková čeština" },
+    { label: "Matematika", skill: "m2-nasobilka", text: "automatizace základů, násobilka a slovní úlohy" },
+    { label: "Stres", skill: "vz8-stres-dusevni-hygiena", text: "únava, přetížení, regenerace a tlak na výkon" },
+    { label: "Bezpečí a pomoc", skill: "vz9-bezpeci-prvni-pomoc", text: "krizové situace, dospělý, odborná pomoc a první kroky" }
+  ];
+  const topicCards = topicLinks.map(item => {
+    const s = byId(item.skill);
+    return `<a class="card" href="${R}${skillUrl(s)}">
+      <span class="tag" style="background:${SUBJ[s.p].c}">${esc(item.label)}</span>
+      <h3>${esc(s.t)}</h3>
+      <p>${esc(item.text)}</p>
+    </a>`;
+  }).join("");
+  const steps = [
+    ["Zmapujte problém", "Týden si zapisujte, kde přesně to drhne: čtení, tempo, porozumění zadání, výpočty, pozornost, stres, domácí úkoly nebo vztahy ve třídě."],
+    ["Zmenšete úkol", "Místo dlouhého dohánění dejte krátký, jasný blok: 10 minut čtení, 5 příkladů, jeden odstavec, jedno pravidlo. Úspěch musí být dosažitelný."],
+    ["Domluvte se se školou", "Učitel vidí dítě ve třídě a může říct, jestli jde o běžný výkyv, díru v konkrétním učivu, tempo třídy nebo signál k dalšímu řešení."],
+    ["Když se to opakuje, řešte podporu", "Pokud problém trvá týdny, zhoršuje se nebo zasahuje psychiku dítěte, má smysl mluvit o školním poradenském pracovišti, PPP nebo SPC."]
+  ].map((step, i) => `<div class="gl"><b>${i + 1}. ${esc(step[0])}</b><p>${esc(step[1])}</p></div>`).join("");
+  const body = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Když dítě nestíhá</div>
+  <div class="page-title"><h1>Když dítě nestíhá</h1>
+  <p class="lead">Praktický postup pro rodiče, když se dítě začne ztrácet v učivu, tempu, domácích úkolech nebo školním tlaku.</p></div>
+  <div class="infobox"><b>Nejdřív klid:</b> jedno horší období neznamená selhání dítěte ani školy. Smyslem je zjistit, co přesně se děje, zmenšit tlak a včas zapojit správnou pomoc.</div>
+  <section class="section">
+    <div class="sec-head"><h2>První postup</h2></div>
+    <div class="cards">${steps}</div>
+  </section>
+  <section class="section">
+    <div class="sec-head"><h2>Kdy mluvit s učitelem</h2></div>
+    <div class="cards">
+      <div class="gl"><b>Opakovaně nerozumí zadání</b><p>Dítě doma neví, co má dělat, nebo úkol splní jinak, než škola čekala.</p></div>
+      <div class="gl"><b>Dře základní dovednost</b><p>Čtení, psaní, počítání nebo porozumění textu bere tolik energie, že nezbývá síla na samotné učivo.</p></div>
+      <div class="gl"><b>Změnilo se chování</b><p>Objevuje se vyhýbání škole, bolesti břicha, pláč, výbuchy, rezignace nebo dlouhé večerní dohánění.</p></div>
+      <div class="gl"><b>Není jasné, co procvičovat</b><p>Učitel může určit konkrétní prioritu: ne „víc se učit“, ale jedno pravidlo, typ úloh nebo dovednost.</p></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="sec-head"><h2>Kdy PPP nebo SPC</h2></div>
+    <div class="infobox"><b>Poradna dává smysl, když:</b> potíže trvají delší dobu, nelepší se běžnou podporou, výrazně zasahují čtení, psaní, matematiku, pozornost, komunikaci, psychickou pohodu nebo vztahy ve třídě. Škola i rodič mohou řešit školní poradenské pracoviště, pedagogicko-psychologickou poradnu (PPP) nebo speciálně pedagogické centrum (SPC).</div>
+    <div class="cards">
+      <div class="gl"><b>PLPP</b><p>Plán pedagogické podpory je první školní úroveň pomoci. Popisuje, co škola zkusí změnit bez nutnosti formální diagnózy.</p></div>
+      <div class="gl"><b>IVP</b><p>Individuální vzdělávací plán se používá tam, kde dítě potřebuje upravený postup na základě doporučení poradenského zařízení.</p></div>
+      <div class="gl"><b>Podpůrná opatření</b><p>Mohou znamenat úpravu metod, hodnocení, pomůcky, asistenta, organizaci výuky nebo další podporu podle doporučení.</p></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="sec-head"><h2>Podle problému</h2></div>
+    <div class="cards">${topicCards}</div>
+  </section>
+  <section class="section">
+    <div class="sec-head"><h2>Související stránky</h2></div>
+    <div class="cards">
+      <a class="card" href="${R}slovnicek/"><span class="tag" style="background:var(--red)">Zkratky</span><h3>Slovníček</h3><p>PPP, SPC, IVP, PLPP, podpůrná opatření a další školní pojmy.</p></a>
+      <a class="card" href="${R}zakony/"><span class="tag" style="background:var(--blue)">Pravidla</span><h3>Zákony a pravidla</h3><p>Povinná školní docházka, podpůrná opatření a práva dítěte ve škole.</p></a>
+      <a class="card" href="${R}rvp/"><span class="tag" style="background:var(--green)">RVP</span><h3>Pokrytí RVP</h3><p>Co je očekávaný výstup a proč ročníkové zařazení není pevný termín.</p></a>
+    </div>
+  </section>`;
+  write("kdyz-dite-nestiha/index.html", layout({
+    path: "kdyz-dite-nestiha/", nav: "pomoc",
+    title: "Když dítě nestíhá školu | Mapa učení",
+    desc: "Praktický průvodce pro rodiče: co dělat, když dítě nestíhá učivo, kdy mluvit s učitelem a kdy řešit PPP, SPC, IVP nebo podpůrná opatření.",
+    body
+  }));
+})();
+
 /* Kalendář */
 (function kalendar() {
   const R = "../";
@@ -1311,7 +1385,7 @@ const cermatUrls = ["cermat/"]
   .concat(CERMAT.exams.map(cermatExamUrl))
   .concat(CERMAT.exams.flatMap(exam => exam.subjects.map(subject => cermatSubjectUrl(exam, subject))));
 const supplementaryUrls = ["doplnujici-obory/"].concat(SUPP.fields.map(supplementaryUrl));
-const urls = ["", "predmety/", "milniky/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/", "audit/"]
+const urls = ["", "predmety/", "milniky/", "kdyz-dite-nestiha/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/", "audit/"]
   .concat(supplementaryUrls)
   .concat(cermatUrls)
   .concat(Array.from({ length: 9 }, (_, i) => `rocnik/${i + 1}/`))
