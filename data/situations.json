@@ -1,0 +1,176 @@
+[
+  {
+    "id": "zapis-do-1-tridy",
+    "title": "Zápis do 1. třídy",
+    "lead": "Co rodič potřebuje vědět před zápisem: školní zralost, komunikace, samostatnost, základní předmatematické a předčtenářské dovednosti.",
+    "gradeRefs": [1],
+    "milestoneIds": [],
+    "skillIds": ["cj1-pismena", "cj1-komunikace", "cj1-psani", "m1-do20", "m1-rada", "m1-tvary"],
+    "whatMatters": [
+      "Dítě nemusí umět číst ani počítat jako školák. Důležitější je, jestli rozumí jednoduchému zadání, vydrží krátkou činnost a umí si říct o pomoc.",
+      "Škola sleduje řeč, jemnou motoriku, orientaci v prostoru, sociální připravenost, pozornost a základní představy o množství.",
+      "Příprava doma má být krátká a praktická: povídání, čtení obrázků, kreslení, hry s kostkou, skládání, třídění a jednoduché pokyny."
+    ],
+    "homeSteps": [
+      "Nechte dítě vyprávět podle obrázku a ptejte se na začátek, konec a důvod.",
+      "Procvičujte stříhání, kreslení, navlékání, stavebnice a práci s tužkou bez dlouhého drilu.",
+      "Hrajte hry s počtem do 6 až 10: kostka, domino, třídění předmětů, porovnávání více/méně.",
+      "Zkoušejte krátké rutiny: obléct se, uklidit pomůcky, dokončit jednoduchý úkol."
+    ],
+    "schoolQuestions": [
+      "Co přesně škola u zápisu sleduje a jak dítěti průběh vysvětlit?",
+      "Je potřeba něco doma cíleně posilovat, nebo jde o běžnou nezralost?",
+      "Kdy má smysl konzultace s pedagogicko-psychologickou poradnou?"
+    ],
+    "watchOut": "Pozor na předčasné školní drilování. Pokud dítě začne mít ze zápisu strach, je lepší vrátit se k hrám, řeči a samostatnosti než přidávat pracovní listy.",
+    "relatedUrls": [
+      { "href": "slovnicek/", "label": "Slovníček", "title": "Školní zralost a poradna" },
+      { "href": "zakony/", "label": "Pravidla", "title": "Zápis a povinná školní docházka" }
+    ]
+  },
+  {
+    "id": "odklad-skolni-dochazky",
+    "title": "Odklad školní docházky",
+    "lead": "Kdy může odklad pomoci, kdo se k němu vyjadřuje a jak využít rok navíc tak, aby dítě opravdu dozrávalo.",
+    "gradeRefs": [1],
+    "milestoneIds": [],
+    "skillIds": ["cj1-komunikace", "cj1-psani", "m1-rada", "m1-tvary", "vz6-zdravi"],
+    "whatMatters": [
+      "Odklad není ostuda ani automatické řešení. Má dávat smysl pro konkrétní oblast: řeč, pozornost, motoriku, sociální zralost, zdravotní stav nebo emoční připravenost.",
+      "Rozhodnutí se opírá o doporučení poradenského zařízení a odborného lékaře nebo klinického psychologa podle aktuálních pravidel.",
+      "Rok navíc má mít plán. Dítě potřebuje přiměřené výzvy, režim, vrstevníky a cílené posilování slabších oblastí."
+    ],
+    "homeSteps": [
+      "Sepište konkrétní situace, kde dítě naráží: únava, řeč, sebeobsluha, pozornost, vztahy, motorika.",
+      "Zeptejte se školky, co dítě zvládá ve skupině a co doma nemusí být vidět.",
+      "Domluvte jednoduchý plán na 2 až 3 oblasti, ne deset různých cílů najednou.",
+      "Po několika měsících zkontrolujte, jestli se slabá místa skutečně posouvají."
+    ],
+    "schoolQuestions": [
+      "Co je hlavní důvod odkladu a jak se projeví ve třídě?",
+      "Jaký konkrétní plán doporučuje školka, škola nebo poradna na další rok?",
+      "Jak poznáme, že dítě je po roce připravenější?"
+    ],
+    "watchOut": "Odklad bez plánu často jen posune problém o rok. Důležité je vědět, co přesně se má během roku změnit.",
+    "relatedUrls": [
+      { "href": "kdyz-dite-nestiha/", "label": "Pomoc", "title": "Když se potíže opakují" },
+      { "href": "zakony/", "label": "Pravidla", "title": "Odklad a školský zákon" }
+    ]
+  },
+  {
+    "id": "prechod-1-2-stupen",
+    "title": "Přechod z 1. na 2. stupeň",
+    "lead": "Více učitelů, víc předmětů, samostatnější příprava a nový tlak na organizaci práce.",
+    "gradeRefs": [5, 6],
+    "milestoneIds": [],
+    "skillIds": ["cj5-souveti", "cj5-sloh-vypraveni", "m5-zlomky", "m5-prevody", "m6-desetinna", "m6-delitelnost", "ov6-clovek-osobnost"],
+    "whatMatters": [
+      "Na druhém stupni často nejde jen o těžší učivo, ale o organizaci: více sešitů, učitelů, termínů, testů a domácí přípravy.",
+      "Dítě potřebuje postupně převzít odpovědnost, ale ne ze dne na den. Pomáhá jednoduchý systém úkolů, kalendář a pravidelná krátká kontrola.",
+      "První měsíce v 6. třídě jsou adaptační. Má smysl sledovat nejen známky, ale i únavu, stres a vztahy ve třídě."
+    ],
+    "homeSteps": [
+      "Zaveďte jeden přehled úkolů a testů, který dítě opravdu používá.",
+      "Jednou týdně projděte, co se povedlo, co se nestihlo a proč.",
+      "Učte dítě připravit se na test aktivně: otázky, příklady, vysvětlení vlastními slovy.",
+      "Když se objeví propad, hledejte konkrétní předmět nebo dovednost, ne obecné „nestíhá školu“."
+    ],
+    "schoolQuestions": [
+      "Je problém hlavně v učivu, tempu, organizaci, nebo adaptaci na nové učitele?",
+      "Které minimum má dítě teď zvládnout, aby se mohlo chytit?",
+      "Jak škola podporuje adaptaci nových šesťáků?"
+    ],
+    "watchOut": "Rychlý pokles známek po přechodu nemusí znamenat lenost. Často se rozpadne systém přípravy, který na 1. stupni držel třídní učitel nebo rodič.",
+    "relatedUrls": [
+      { "href": "rodicovske-cesty/neumi-se-ucit/", "label": "Cesta", "title": "Dítě se neumí učit" },
+      { "href": "rodicovske-cesty/nestiha-tempo/", "label": "Cesta", "title": "Dítě nestíhá tempo" }
+    ]
+  },
+  {
+    "id": "zmena-skoly",
+    "title": "Změna školy",
+    "lead": "Jak zvládnout přechod na jinou školu: rozdíly v ŠVP, adaptace ve třídě, komunikace s učiteli a první měsíc.",
+    "gradeRefs": [],
+    "milestoneIds": [],
+    "skillIds": ["ov6-obec", "ov6-clovek-osobnost", "vz6-vztahy-komunita", "vz8-stres-dusevni-hygiena", "cj6-media-fakta"],
+    "whatMatters": [
+      "Každá škola má vlastní ŠVP, takže stejné ročníky nemusí probírat učivo ve stejném pořadí.",
+      "První týdny jsou hlavně adaptační. Dítě řeší nové vztahy, pravidla, učitele, tempo a někdy i mezery nebo naopak opakování učiva.",
+      "Rodič potřebuje rychle zjistit, co je skutečná učební mezera a co je jen rozdíl v pořadí výuky."
+    ],
+    "homeSteps": [
+      "Požádejte školu o přehled, co třída právě probírá v hlavních předmětech.",
+      "První měsíc sledujte únavu, vztahy a orientaci v pravidlech, nejen známky.",
+      "Doma řešte jednu až dvě největší mezery, ne všechno najednou.",
+      "Domluvte krátkou kontrolu s třídním učitelem po 4 až 6 týdnech."
+    ],
+    "schoolQuestions": [
+      "Kde se ŠVP nové školy liší od předchozí školy?",
+      "Které učivo má dítě doplnit jako první?",
+      "Jak bude škola sledovat adaptaci ve třídě a vztahy?"
+    ],
+    "watchOut": "Neberte první známky jako definitivní obrázek. Při změně školy se často míchá učivo, stres, vztahy a orientace v novém systému.",
+    "relatedUrls": [
+      { "href": "kdyz-dite-nestiha/", "label": "Pomoc", "title": "Když dítě začne ztrácet tempo" },
+      { "href": "rvp/", "label": "RVP", "title": "RVP a rozdíly mezi ŠVP" }
+    ]
+  },
+  {
+    "id": "prechod-zs-ss",
+    "title": "Přechod ze ZŠ na SŠ",
+    "lead": "Přijímačky jsou jen první část. Důležitá je i volba školy, dokončení ZŠ a adaptace po nástupu na střední.",
+    "gradeRefs": [9],
+    "milestoneIds": ["mil9-prijimacky", "mil9-ukonceni"],
+    "skillIds": ["mil9-prijimacky", "mil9-ukonceni", "cj9-pravopis", "m9-rovnice", "m9-funkce", "m9-logika-prostor", "ov9-svet"],
+    "whatMatters": [
+      "Přijímací zkouška prověří hlavně češtinu a matematiku, ale úspěšný přechod na SŠ stojí i na samostatnosti, organizaci a reálné volbě oboru.",
+      "Po přijímačkách má smysl nepustit úplně základní dovednosti: čtení zadání, zápis postupu, práce s chybou, pravidelná příprava.",
+      "První pololetí na SŠ bývá náročné kvůli tempu, nové třídě, dojíždění a jinému stylu hodnocení."
+    ],
+    "homeSteps": [
+      "Po testu nanečisto neřešte jen body, ale typy chyb a návrat ke konkrétním okruhům.",
+      "Před volbou školy si pojmenujte, co dítě zvládá samostatně a kde potřebuje podporu.",
+      "Po přijetí si ponechte lehký režim přípravy: čtení, matematické základy, organizace času.",
+      "Na začátku SŠ sledujte spánek, dojíždění, úkoly a první signály přetížení."
+    ],
+    "schoolQuestions": [
+      "Které předměty nebo typy úloh nejvíc rozhodují o připravenosti na zvolený obor?",
+      "Jak škola pracuje s rozborem přijímačkových chyb?",
+      "Co má dítě zvládnout samo před nástupem na SŠ?"
+    ],
+    "watchOut": "Po přijímačkách často přijde úleva a výpadek režimu. U dětí, které se učily jen pod tlakem termínu, je dobré opatrně budovat samostatnou přípravu.",
+    "relatedUrls": [
+      { "href": "cermat/9-trida/", "label": "Cermat", "title": "Příprava na přijímačky v 9. třídě" },
+      { "href": "milniky/", "label": "Milníky", "title": "Přijímačky a dokončení ZŠ" }
+    ]
+  },
+  {
+    "id": "domaci-vzdelavani",
+    "title": "Domácí vzdělávání",
+    "lead": "Základní orientace pro rodiče: kdy o něm uvažovat, co obnáší, jak hlídat RVP, socializaci a přezkoušení.",
+    "gradeRefs": [],
+    "milestoneIds": [],
+    "skillIds": ["cj2-cteni", "cj5-souveti", "m2-nasobilka", "m5-zlomky", "ov6-clovek-osobnost", "vz6-vztahy-komunita"],
+    "whatMatters": [
+      "Domácí vzdělávání není jen výuka doma. Rodič přebírá velkou část organizace, plánování, evidence a každodenní práce s dítětem.",
+      "Dítě pořád musí směřovat k očekávaným výstupům RVP a pravidelně prochází přezkoušením podle pravidel kmenové školy.",
+      "Vedle učiva je potřeba promyslet vztahy, vrstevníky, pohyb, režim, samostatnost a hranici mezi rodičovskou a učitelskou rolí."
+    ],
+    "homeSteps": [
+      "Sepište důvod, proč o domácím vzdělávání uvažujete, a ověřte, jestli nejde řešit mírnější podporou ve škole.",
+      "Promluvte s kmenovou školou o požadavcích, přezkoušení, komunikaci a materiálech.",
+      "Sestavte jednoduchý týdenní režim s časy na učení, čtení, pohyb, projekty a kontakt s vrstevníky.",
+      "Pravidelně kontrolujte, jestli dítě postupuje v češtině, matematice a dalších oblastech rovnoměrně."
+    ],
+    "schoolQuestions": [
+      "Jak bude probíhat přezkoušení a jaké výstupy bude škola očekávat?",
+      "Jaké materiály, konzultace nebo osnovu škola poskytne?",
+      "Jak budete řešit situaci, kdy dítě dlouhodobě nespolupracuje nebo se doma nedaří držet režim?"
+    ],
+    "watchOut": "Domácí vzdělávání může dítěti výrazně pomoci, ale není únikem od všech školních potíží. Pokud je hlavním důvodem úzkost, šikana nebo dlouhodobý konflikt, je potřeba řešit i příčinu.",
+    "relatedUrls": [
+      { "href": "rvp/", "label": "RVP", "title": "Co musí vzdělávání pokrýt" },
+      { "href": "zakony/", "label": "Pravidla", "title": "Domácí vzdělávání v pravidlech" }
+    ]
+  }
+]

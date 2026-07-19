@@ -25,6 +25,7 @@ const RVP = J("rvp.json");
 const CERMAT = J("cermat.json");
 const SUPP = J("supplementary.json");
 const PPATHS = J("parent_paths.json");
+const SITUATIONS = J("situations.json");
 
 /* ---------- pomocné ---------- */
 const norm = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -52,6 +53,7 @@ const cermatExamUrl = exam => `cermat/${exam.slug}/`;
 const cermatSubjectUrl = (exam, subject) => `${cermatExamUrl(exam)}${subject.id}/`;
 const supplementaryUrl = field => `doplnujici-obory/${field.id}/`;
 const parentPathUrl = parentPath => `rodicovske-cesty/${parentPath.id}/`;
+const situationUrl = situation => `situace/${situation.id}/`;
 
 const CERMAT_BY_SKILL = new Map();
 CERMAT.exams.forEach(exam => exam.subjects.forEach(subject => subject.groups.forEach(group => {
@@ -124,7 +126,7 @@ ${o.extraHead || ""}
       ${navLink("doplnujici-obory/", "doplnujici", "Doplňující")}
       ${navLink("cermat/", "cermat", "Cermat")}
       ${navLink("milniky/", "milniky", "Milníky")}
-      ${navLink("kdyz-dite-nestiha/", "pomoc", "Pomoc")}
+      ${navLink("pomoc/", "pomoc", "Pomoc")}
       ${navLink("kalendar/", "kalendar", "Kalendář")}
       ${navLink("zakony/", "zakony", "Zákony a pravidla")}
       ${navLink("rvp/", "rvp", "RVP")}
@@ -603,6 +605,24 @@ function parentPathQuality(paths) {
 
 const PARENT_PATH_QUALITY = parentPathQuality(PPATHS);
 
+function situationCard(situation, R) {
+  return `<a class="card" href="${R}${situationUrl(situation)}">
+    <span class="tag" style="background:var(--blue)">Situace</span>
+    <h3>${esc(situation.title)}</h3>
+    <p>${esc(situation.lead)}</p>
+    <span class="meta">${situation.skillIds.length} navázaných témat</span>
+  </a>`;
+}
+
+function situationGradePanel(grade, R) {
+  const items = SITUATIONS.filter(situation => (situation.gradeRefs || []).includes(grade));
+  if (!items.length) return "";
+  return `<section class="section" style="padding-top:0">
+    <div class="sec-head"><h2>Životní situace v tomto období</h2><a class="more" href="${R}situace/">Všechny situace →</a></div>
+    <div class="cards">${items.map(situation => situationCard(situation, R)).join("")}</div>
+  </section>`;
+}
+
 /* ---------- stránky ---------- */
 /* Domů */
 (function home() {
@@ -623,7 +643,7 @@ const PARENT_PATH_QUALITY = parentPathQuality(PPATHS);
   </section>
   <section class="section" style="padding-bottom:0">
     <div class="cards">
-      <a class="card" href="kdyz-dite-nestiha/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Když dítě nestíhá</h3><p>Jak rozlišit běžné zadrhnutí od dlouhodobého problému a co řešit doma, se školou nebo poradnou.</p></a>
+      <a class="card" href="pomoc/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Rodičovská pomoc</h3><p>Když dítě nestíhá, rodičovské cesty podle problému a praktické životní situace ve škole.</p></a>
       <a class="card" href="kalendar/"><span class="tag" style="background:var(--blue)">Termíny</span><h3>Kalendář školního roku</h3><p>Přihlášky, zápisy, přijímačky a opravné zkoušky měsíc po měsíci.</p></a>
       <a class="card" href="slovnicek/"><span class="tag" style="background:var(--red)">Zkratky</span><h3>Slovníček pojmů</h3><p>ŠVP, IVP, PPP, DiPSy… co znamenají zkratky ze třídních schůzek.</p></a>
     </div>
@@ -659,6 +679,7 @@ for (let r = 1; r <= 9; r++) {
     <div class="progress" data-ids="${list.map(s => s.id).join(",")}"><div class="bar"><i style="width:0%"></i></div><div class="lab">Zvládnuto <b>0</b> z ${list.length} témat — odškrtávejte v detailu tématu.</div></div>
   </div>
   ${cermatGradePanel(r, R)}
+  ${situationGradePanel(r, R)}
   ${groups.map(p => {
     const items = list.filter(s => s.p === p);
     return `<div class="subj">
@@ -784,6 +805,13 @@ SKILLS.forEach(s => {
       color: "var(--blue)",
       title: "Kalendář školního roku",
       text: "Zápisy, přihlášky, termíny přijímaček a důležité lhůty v čase."
+    },
+    {
+      href: "situace/",
+      tag: "Situace",
+      color: "var(--blue)",
+      title: "Přechody a životní situace",
+      text: "Zápis, odklad, změna školy, přechod na druhý stupeň nebo na SŠ."
     },
     {
       href: "zakony/",
@@ -994,6 +1022,90 @@ SKILLS.forEach(s => {
   });
 })();
 
+/* Pomoc a životní situace */
+(function pomocHub() {
+  const R = "../";
+  const body = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Pomoc</div>
+  <div class="page-title"><h1>Pomoc pro rodiče</h1>
+  <p class="lead">Praktické rozcestníky mimo osnovu: když dítě nestíhá, když se opakuje konkrétní problém nebo když rodina řeší důležitý školní přechod.</p></div>
+  <div class="cards">
+    <a class="card" href="${R}kdyz-dite-nestiha/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Když dítě nestíhá</h3><p>Jak zmapovat problém, zmenšit tlak a domluvit podporu doma, se školou nebo poradnou.</p></a>
+    <a class="card" href="${R}rodicovske-cesty/"><span class="tag" style="background:var(--green)">Cesty</span><h3>Rodičovské cesty</h3><p>Rozcestníky podle problému: čtení, učení, matematika, tempo, pravopis nebo odpor ke škole.</p></a>
+    <a class="card" href="${R}situace/"><span class="tag" style="background:var(--blue)">Situace</span><h3>Přechody a životní situace</h3><p>Zápis, odklad, změna školy, přechod na druhý stupeň, SŠ a domácí vzdělávání.</p></a>
+  </div>
+  <section class="section">
+    <div class="sec-head"><h2>Nejčastější situace</h2><a class="more" href="${R}situace/">Všechny situace →</a></div>
+    <div class="cards">${SITUATIONS.slice(0, 3).map(situation => situationCard(situation, R)).join("")}</div>
+  </section>`;
+  write("pomoc/index.html", layout({
+    path: "pomoc/", nav: "pomoc",
+    title: "Pomoc pro rodiče | Mapa učení",
+    desc: "Rodičovská pomoc mimo osnovu: dítě nestíhá, rodičovské cesty podle problému a životní situace ve škole.",
+    body
+  }));
+})();
+
+(function situace() {
+  const R = "../";
+  const body = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Přechody a životní situace</div>
+  <div class="page-title"><h1>Přechody a životní situace</h1>
+  <p class="lead">Školní situace, které rodiče řeší napříč ročníky. Nejsou to běžná témata učiva, ale pomáhají rozhodnout, co hlídat, na co se ptát školy a kam dál v mapě.</p></div>
+  <div class="cards">${SITUATIONS.map(situation => situationCard(situation, R)).join("")}</div>`;
+  write("situace/index.html", layout({
+    path: "situace/", nav: "pomoc",
+    title: "Přechody a životní situace ve škole | Mapa učení",
+    desc: "Zápis do první třídy, odklad, přechod na druhý stupeň, změna školy, přechod na SŠ a domácí vzdělávání.",
+    body
+  }));
+
+  SITUATIONS.forEach(situation => {
+    const pageR = "../../";
+    const linkedSkills = situation.skillIds.map(byId).filter(Boolean);
+    const relatedPages = (situation.relatedUrls || []).map(item => `<a class="card" href="${pageR}${item.href}">
+      <span class="tag" style="background:var(--green)">${esc(item.label)}</span>
+      <h3>${esc(item.title)}</h3>
+      <p>Navazující rozcestník pro další orientaci.</p>
+    </a>`).join("");
+    const gradeLinks = (situation.gradeRefs || []).map(r => `<a href="${pageR}rocnik/${r}/">${r}. ročník</a>`).join(" · ");
+    const milestones = (situation.milestoneIds || []).map(byId).filter(Boolean);
+    const body = `
+    <div class="crumbs"><a href="${pageR}">Mapa učení</a> › <a href="${pageR}situace/">Situace</a> › ${esc(situation.title)}</div>
+    <div class="page-title"><h1>${esc(situation.title)}</h1>
+    <p class="lead">${esc(situation.lead)}</p></div>
+    ${gradeLinks || milestones.length ? `<div class="infobox"><b>Kde se to typicky řeší:</b> ${gradeLinks}${gradeLinks && milestones.length ? " · " : ""}${milestones.map(m => `<a href="${pageR}${skillUrl(m)}">${esc(m.t)}</a>`).join(" · ")}</div>` : ""}
+    <section class="section">
+      <div class="sec-head"><h2>Co je důležité</h2></div>
+      <div class="cards">${situation.whatMatters.map(item => `<div class="gl"><p>${esc(item)}</p></div>`).join("")}</div>
+    </section>
+    <section class="section">
+      <div class="sec-head"><h2>Co zkusit doma</h2></div>
+      <div class="cards">${situation.homeSteps.map(item => `<div class="gl"><p>${esc(item)}</p></div>`).join("")}</div>
+    </section>
+    <section class="section">
+      <div class="sec-head"><h2>Na co se ptát školy</h2></div>
+      <div class="cards">${situation.schoolQuestions.map(item => `<div class="gl"><p>${esc(item)}</p></div>`).join("")}</div>
+    </section>
+    <div class="infobox"><b>Na co si dát pozor:</b> ${esc(situation.watchOut)}</div>
+    <section class="section">
+      <div class="sec-head"><h2>Navázaná témata</h2></div>
+      <div class="cards">${linkedSkills.map(s => skillCard(s, pageR)).join("")}</div>
+    </section>
+    ${relatedPages ? `<section class="section">
+      <div class="sec-head"><h2>Související rozcestníky</h2></div>
+      <div class="cards">${relatedPages}</div>
+    </section>` : ""}
+    <div class="pager"><a href="${pageR}situace/">← Všechny situace</a><a href="${pageR}pomoc/">Pomoc pro rodiče →</a></div>`;
+    write(`${situationUrl(situation)}index.html`, layout({
+      path: situationUrl(situation), nav: "pomoc",
+      title: `${situation.title} | Mapa učení`,
+      desc: cut(situation.lead),
+      body
+    }));
+  });
+})();
+
 /* Rodičovské cesty */
 (function rodicovskeCesty() {
   const R = "../";
@@ -1117,6 +1229,7 @@ SKILLS.forEach(s => {
     <div class="sec-head"><h2>Související stránky</h2></div>
     <div class="cards">
       <a class="card" href="${R}slovnicek/"><span class="tag" style="background:var(--red)">Zkratky</span><h3>Slovníček</h3><p>PPP, SPC, IVP, PLPP, podpůrná opatření a další školní pojmy.</p></a>
+      <a class="card" href="${R}situace/"><span class="tag" style="background:var(--blue)">Situace</span><h3>Přechody a životní situace</h3><p>Zápis, odklad, změna školy, domácí vzdělávání a další praktické školní situace.</p></a>
       <a class="card" href="${R}zakony/"><span class="tag" style="background:var(--blue)">Pravidla</span><h3>Zákony a pravidla</h3><p>Povinná školní docházka, podpůrná opatření a práva dítěte ve škole.</p></a>
       <a class="card" href="${R}rvp/"><span class="tag" style="background:var(--green)">RVP</span><h3>Pokrytí RVP</h3><p>Co je očekávaný výstup a proč ročníkové zařazení není pevný termín.</p></a>
     </div>
@@ -1472,9 +1585,11 @@ const cermatUrls = ["cermat/"]
   .concat(CERMAT.exams.flatMap(exam => exam.subjects.map(subject => cermatSubjectUrl(exam, subject))));
 const supplementaryUrls = ["doplnujici-obory/"].concat(SUPP.fields.map(supplementaryUrl));
 const parentPathUrls = ["rodicovske-cesty/"].concat(PPATHS.map(parentPathUrl));
-const urls = ["", "predmety/", "milniky/", "kdyz-dite-nestiha/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/", "audit/"]
+const situationUrls = ["situace/"].concat(SITUATIONS.map(situationUrl));
+const urls = ["", "predmety/", "pomoc/", "milniky/", "kdyz-dite-nestiha/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/", "audit/"]
   .concat(supplementaryUrls)
   .concat(parentPathUrls)
+  .concat(situationUrls)
   .concat(cermatUrls)
   .concat(Array.from({ length: 9 }, (_, i) => `rocnik/${i + 1}/`))
   .concat(SKILLS.map(skillUrl));
