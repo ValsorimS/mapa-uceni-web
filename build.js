@@ -243,6 +243,70 @@ function cermatPrintPlanHTML(exam) {
   </section>`;
 }
 
+function cermatReviewTargets(subject) {
+  const math = {
+    zadani: ["slovni-logicke", "data-logika", "algebra-rovnice", "jednotky-data"],
+    pocitani: ["cisla-operace", "zlomky-desetinna"],
+    jednotky: ["jednotky-data", "pomery-procenta", "geometrie-mereni", "geometrie"],
+    postup: ["slovni-logicke", "algebra-rovnice", "data-logika"],
+    cas: subject.groups.slice(0, 2).map(group => group.id)
+  };
+  const czech = {
+    text: ["cteni-porozumeni"],
+    pravopis: ["pravopis", "pravopis-tvaroslovi"],
+    mluvnice: ["tvaroslovi-skladba", "pravopis-tvaroslovi", "slovni-zasoba", "slovni-zasoba-vyznam"],
+    skladba: ["tvaroslovi-skladba", "skladba"],
+    cas: ["cteni-porozumeni", "literatura-sloh"]
+  };
+  const raw = subject.subjectKey === "m" ? math : czech;
+  return Object.fromEntries(Object.entries(raw).map(([cause, ids]) => [
+    cause,
+    ids.filter(id => subject.groups.some(group => group.id === id))
+  ]));
+}
+
+function cermatReviewHTML(exam, R) {
+  const causeLabels = [
+    ["zadani", "Nerozuměl/a zadání"],
+    ["pocitani", "Početní chyba"],
+    ["jednotky", "Jednotky, graf nebo obrázek"],
+    ["postup", "Nevěděl/a, jak začít"],
+    ["text", "Odpověď nebyla podle textu"],
+    ["pravopis", "Pravopis bez odůvodnění"],
+    ["mluvnice", "Slovní druhy, tvary nebo význam"],
+    ["skladba", "Věta, souvětí, čárky"],
+    ["cas", "Nestihl/a nebo spěchal/a"]
+  ];
+  const subjectOptions = exam.subjects.map(subject =>
+    `<option value="${esc(subject.id)}">${esc(subject.title)}</option>`).join("");
+  const causeInputs = causeLabels.map(([id, label]) => {
+    const targets = exam.subjects.map(subject => {
+      const groups = cermatReviewTargets(subject)[id] || [];
+      return groups.map(groupId => `${subject.id}:${groupId}`).join(",");
+    }).filter(Boolean).join(",");
+    return `<label><input type="checkbox" name="cause" value="${esc(id)}" data-targets="${esc(targets)}"> ${esc(label)}</label>`;
+  }).join("");
+  const allGroups = exam.subjects.flatMap(subject => subject.groups.map(group =>
+    `<a data-review-group="${esc(subject.id)}:${esc(group.id)}" href="${R}${cermatSubjectUrl(exam, subject)}#${esc(group.id)}">${esc(subject.shortTitle)} · ${esc(group.title)}</a>`
+  )).join("");
+  return `<section class="test-review" data-test-review data-exam-id="${esc(exam.id)}">
+    <div class="sec-head"><h2>Rozbor testu nanečisto</h2><span class="cnt">Ukládá se jen v tomto prohlížeči</span></div>
+    <form class="review-form">
+      <div class="review-grid">
+        <label>Datum <input type="date" name="date"></label>
+        <label>Předmět <select name="subject">${subjectOptions}</select></label>
+        <label>Body <input type="number" name="points" min="0" max="50" step="1" placeholder="0–50"></label>
+        <label>Čas <select name="time"><option value="stihl">Stihl/a</option><option value="tesne">Těsně</option><option value="nestihl">Nestihl/a</option></select></label>
+      </div>
+      <fieldset><legend>Hlavní příčiny chyb</legend><div class="cause-list">${causeInputs}</div></fieldset>
+      <label class="review-note">Poznámka <textarea name="note" rows="3" placeholder="Co se opakovalo, co příště zkusit jinak…"></textarea></label>
+      <div class="review-actions"><button type="submit">Zapsat rozbor</button><span data-review-feedback></span></div>
+    </form>
+    <div class="review-recommendations"><b>Doporučené okruhy</b><div data-review-recommendations>${allGroups}</div></div>
+    <div class="review-history"><div class="sec-head"><h3>Historie testů</h3><span data-review-trend></span></div><div data-review-history></div></div>
+  </section>`;
+}
+
 function cermatGroupLinks(subject, groupIds) {
   return groupIds.map(id => subject.groups.find(group => group.id === id)).filter(Boolean);
 }
@@ -658,6 +722,7 @@ SKILLS.forEach(s => {
     <div class="crumbs"><a href="${examR}">Mapa učení</a> › <a href="${examR}cermat/">Cermat</a> › ${esc(exam.label)}</div>
     <div class="page-title"><h1>${esc(exam.title)}</h1><p class="lead">${esc(exam.desc)}</p></div>
     ${cermatDashboardHTML(exam, examR)}
+    ${cermatReviewHTML(exam, examR)}
     ${cermatPrintPlanHTML(exam)}
     <div class="cards">${exam.subjects.map(subject => cardSubject(exam, subject, examR)).join("")}</div>
     <div class="infobox"><b>Jak používat:</b> nejdřív najděte okruh, kde dítě ztrácí body, pak otevřete navázaná témata. Celý test nanečisto má smysl hlavně tehdy, když po něm následuje rozbor chyb.</div>`;

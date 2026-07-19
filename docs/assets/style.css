@@ -298,6 +298,47 @@ ul.jak li::before{
 .print-subjects ul{list-style:none;margin-top:6px}
 .print-subjects li{font-size:.88rem;color:var(--muted);padding:3px 0}
 .print-subjects input{margin-right:6px}
+.test-review{
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:18px;margin:18px 0 22px
+}
+.review-form{display:grid;gap:12px}
+.review-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.review-grid label,.review-note{display:grid;gap:5px;font-weight:700;font-size:.88rem}
+.review-grid input,.review-grid select,.review-note textarea{
+  width:100%;border:1.5px solid var(--line);border-radius:8px;background:var(--paper);
+  color:var(--ink);font:inherit;padding:8px 10px
+}
+.review-form fieldset{border:1.5px solid var(--line);border-radius:8px;padding:12px}
+.review-form legend{font-weight:800;font-family:"Bitter",serif;padding:0 6px}
+.cause-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+.cause-list label{font-size:.9rem;color:var(--muted)}
+.cause-list input{margin-right:6px}
+.review-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.review-actions button{
+  border:2px solid var(--ink);background:var(--ink);color:#fff;border-radius:8px;
+  padding:8px 13px;font-weight:800
+}
+.review-actions span{color:var(--green);font-weight:700;font-size:.9rem}
+.review-recommendations{margin-top:16px;background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:12px}
+.review-recommendations>b{font-family:"Bitter",serif}
+.review-recommendations [data-review-recommendations]{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px}
+.review-recommendations a{
+  text-decoration:none;font-weight:700;color:var(--blue);background:var(--blue-soft);
+  border:1px solid #C6D5F2;border-radius:999px;padding:4px 9px;font-size:.82rem
+}
+.review-recommendations .empty::after{content:"Vyberte předmět a příčiny chyb.";color:var(--muted);font-size:.9rem}
+.review-history{margin-top:18px}
+.review-history .sec-head h3{font-size:1.08rem}
+.history-item{background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:10px 12px;margin-top:8px}
+.history-item b{display:block;font-family:"Bitter",serif;font-size:.95rem}
+.history-item span{display:block;color:var(--muted);font-size:.86rem;margin-top:2px}
+.history-item p{font-size:.9rem;margin-top:6px}
+.history-item button{
+  margin-top:7px;border:1px solid var(--line);background:var(--card);border-radius:7px;
+  padding:3px 8px;font-size:.8rem;color:var(--muted)
+}
+.muted{color:var(--muted)}
 .cermat-toc{display:flex;gap:10px;flex-wrap:wrap}
 .cermat-toc a{
   text-decoration:none;font-weight:700;color:var(--blue);background:var(--blue-soft);
@@ -479,6 +520,7 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .notebook .inner::before{left:28px}
   .dashboard-subjects{grid-template-columns:1fr}
   .print-weeks,.print-subjects{grid-template-columns:1fr}
+  .review-grid{grid-template-columns:1fr}
   .cermat-grid{grid-template-columns:1fr}
   .cermat-advice{grid-template-columns:1fr}
   .plan-steps{grid-template-columns:1fr}
@@ -500,7 +542,7 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
 @media print{
   @page{margin:12mm}
   body{background:#fff;color:#000;font-size:12pt;line-height:1.35}
-  header,footer,.hsearch,.cermat-actions,.cermat-toc,.cards,.pager,.printbtn,.diagnostic-links,.plan-links,.mini-cards{display:none!important}
+  header,footer,.hsearch,.cermat-actions,.cermat-toc,.cards,.pager,.printbtn,.diagnostic-links,.plan-links,.mini-cards,.review-actions,.history-item button{display:none!important}
   .wrap{max-width:none;padding:0}
   main.wrap{padding:0}
   a{color:#000;text-decoration:none}
@@ -508,11 +550,11 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .page-title{padding:0 0 8px}
   .page-title h1{font-size:22pt}
   .page-title .lead{font-size:11pt;color:#333;max-width:none}
-  .section,.cermat-dashboard,.print-plan{padding:8px 0;margin:0 0 10px;border:none;box-shadow:none;background:#fff}
+  .section,.cermat-dashboard,.print-plan,.test-review{padding:8px 0;margin:0 0 10px;border:none;box-shadow:none;background:#fff}
   .sec-head{margin-bottom:6px}
   .sec-head h2{font-size:15pt}
   .dashboard-subjects,.print-weeks{grid-template-columns:1fr;gap:8px}
-  .dashboard-subject,.print-week,.cermat-group,.diagnostic-card,.plan-step{
+  .dashboard-subject,.print-week,.cermat-group,.diagnostic-card,.plan-step,.history-item{
     break-inside:avoid;border:1px solid #999;box-shadow:none;background:#fff;padding:10px;margin:0 0 8px
   }
   .dashboard-groups a{border:1px solid #ccc;background:#fff;padding:5px 7px}
@@ -520,6 +562,8 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .dashboard-progress i,.cermat-skill-progress i{border:1px solid #777;background:#fff}
   .dashboard-progress em,.cermat-skill-progress em{background:#777}
   .print-subjects{grid-template-columns:repeat(2,1fr)}
+  .review-grid{grid-template-columns:repeat(4,1fr)}
+  .review-form input,.review-form select,.review-note textarea{border:1px solid #999;background:#fff}
   .cermat-grid,.cermat-advice,.plan-steps{grid-template-columns:1fr;gap:6px}
   .cermat-status-buttons button{border:1px solid #999;background:#fff;color:#000}
   .infobox{border:1px solid #999;background:#fff;color:#000}

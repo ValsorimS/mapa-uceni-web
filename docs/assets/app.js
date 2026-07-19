@@ -8,7 +8,13 @@
   function save(s){store.set("mapa-done",JSON.stringify(Array.from(s)));}
   function cermatStatus(){try{return JSON.parse(store.get("mapa-cermat-status")||"{}")||{};}catch(e){return {};}}
   function saveCermatStatus(s){store.set("mapa-cermat-status",JSON.stringify(s));}
+  function testLog(){try{return JSON.parse(store.get("mapa-cermat-tests")||"[]")||[];}catch(e){return [];}}
+  function saveTestLog(s){store.set("mapa-cermat-tests",JSON.stringify(s.slice(-30)));}
   var stateLabel={done:"Umím",practice:"Trénuju",problem:"Problém"};
+  var causeLabel={
+    zadani:"zadání",pocitani:"počítání",jednotky:"jednotky/graf",postup:"postup",
+    text:"text",pravopis:"pravopis",mluvnice:"mluvnice",skladba:"skladba",cas:"čas"
+  };
 
   /* Tlačítko na detailu tématu */
   var btn=document.querySelector(".donebtn[data-skill-id]");
@@ -107,6 +113,88 @@
   });
   document.querySelectorAll("[data-print]").forEach(function(b){
     b.addEventListener("click",function(){window.print();});
+  });
+
+  function selectedReviewTargets(root){
+    var subject=root.querySelector('[name="subject"]').value;
+    var links=[];
+    root.querySelectorAll('[name="cause"]:checked').forEach(function(c){
+      (c.getAttribute("data-targets")||"").split(",").filter(Boolean).forEach(function(t){
+        if(t.indexOf(subject+":")===0&&links.indexOf(t)===-1)links.push(t);
+      });
+    });
+    return links;
+  }
+
+  function paintReview(root){
+    var exam=root.getAttribute("data-exam-id");
+    var subject=root.querySelector('[name="subject"]').value;
+    root.querySelectorAll('[name="cause"]').forEach(function(c){
+      var visible=(c.getAttribute("data-targets")||"").split(",").some(function(t){return t.indexOf(subject+":")===0;});
+      var label=c.closest?c.closest("label"):null;
+      if(label)label.hidden=!visible;
+      if(!visible)c.checked=false;
+    });
+    var targets=selectedReviewTargets(root);
+    root.querySelectorAll("[data-review-group]").forEach(function(a){
+      var id=a.getAttribute("data-review-group");
+      var show=targets.indexOf(id)>-1;
+      a.hidden=!show;
+    });
+    var rec=root.querySelector("[data-review-recommendations]");
+    if(rec)rec.classList.toggle("empty",!targets.length);
+    var all=testLog().filter(function(x){return x.exam===exam;}).slice(-8).reverse();
+    var history=root.querySelector("[data-review-history]");
+    if(history)history.innerHTML=all.length?all.map(function(x){
+      return '<div class="history-item"><b>'+x.date+' · '+(x.subject==="matematika"?"Matematika":"Čeština")+' · '+(x.points||"–")+'/50</b>'
+        +'<span>'+(x.time==="nestihl"?"nestihl/a":x.time==="tesne"?"těsně":"stihl/a")+' · '+x.causes.map(function(c){return causeLabel[c]||c;}).join(", ")+'</span>'
+        +(x.note?'<p>'+x.note.replace(/&/g,"&amp;").replace(/</g,"&lt;")+'</p>':"")
+        +'<button type="button" data-delete-test="'+x.id+'">Smazat</button></div>';
+    }).join(""):'<p class="muted">Zatím žádný uložený rozbor.</p>';
+    var trend=root.querySelector("[data-review-trend]");
+    var sub=testLog().filter(function(x){return x.exam===exam&&x.subject===subject&&x.points!=="";});
+    if(trend&&sub.length){
+      var last=Number(sub[sub.length-1].points),prev=sub.length>1?Number(sub[sub.length-2].points):null;
+      trend.textContent=prev===null?"Posledně "+last+"/50":"Trend "+(last-prev>=0?"+":"")+(last-prev)+" bodů";
+    }else if(trend){trend.textContent="";}
+  }
+
+  document.querySelectorAll("[data-test-review]").forEach(function(root){
+    var form=root.querySelector(".review-form");
+    var date=form.querySelector('[name="date"]');
+    if(date&&!date.value)date.value=(new Date()).toISOString().slice(0,10);
+    root.addEventListener("change",function(){paintReview(root);});
+    root.addEventListener("click",function(e){
+      var del=e.target&&e.target.getAttribute("data-delete-test");
+      if(!del)return;
+      saveTestLog(testLog().filter(function(x){return x.id!==del;}));
+      paintReview(root);
+    });
+    form.addEventListener("submit",function(e){
+      e.preventDefault();
+      var causes=Array.from(form.querySelectorAll('[name="cause"]:checked')).map(function(x){return x.value;});
+      var entry={
+        id:String(Date.now()),exam:root.getAttribute("data-exam-id"),
+        date:form.querySelector('[name="date"]').value||new Date().toISOString().slice(0,10),
+        subject:form.querySelector('[name="subject"]').value,
+        points:form.querySelector('[name="points"]').value,
+        time:form.querySelector('[name="time"]').value,
+        causes:causes,
+        note:form.querySelector('[name="note"]').value.trim()
+      };
+      var log=testLog();log.push(entry);saveTestLog(log);
+      var statuses=cermatStatus();
+      selectedReviewTargets(root).forEach(function(t){
+        var parts=t.split(":");
+        statuses[entry.exam+":"+parts[0]+":"+parts[1]]="problem";
+      });
+      saveCermatStatus(statuses);
+      var feedback=root.querySelector("[data-review-feedback]");
+      if(feedback)feedback.textContent="Uloženo a navázané okruhy jsou označené jako Problém.";
+      form.querySelector('[name="note"]').value="";
+      paintReview(root);refresh();
+    });
+    paintReview(root);
   });
   refresh();
 })();

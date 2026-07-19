@@ -124,6 +124,22 @@
       </a></div>
     </article></div>
   </section>
+    <section class="test-review" data-test-review data-exam-id="5">
+    <div class="sec-head"><h2>Rozbor testu nanečisto</h2><span class="cnt">Ukládá se jen v tomto prohlížeči</span></div>
+    <form class="review-form">
+      <div class="review-grid">
+        <label>Datum <input type="date" name="date"></label>
+        <label>Předmět <select name="subject"><option value="matematika">Matematika</option><option value="cestina">Český jazyk a literatura</option></select></label>
+        <label>Body <input type="number" name="points" min="0" max="50" step="1" placeholder="0–50"></label>
+        <label>Čas <select name="time"><option value="stihl">Stihl/a</option><option value="tesne">Těsně</option><option value="nestihl">Nestihl/a</option></select></label>
+      </div>
+      <fieldset><legend>Hlavní příčiny chyb</legend><div class="cause-list"><label><input type="checkbox" name="cause" value="zadani" data-targets="matematika:slovni-logicke,matematika:jednotky-data"> Nerozuměl/a zadání</label><label><input type="checkbox" name="cause" value="pocitani" data-targets="matematika:cisla-operace,matematika:zlomky-desetinna"> Početní chyba</label><label><input type="checkbox" name="cause" value="jednotky" data-targets="matematika:jednotky-data,matematika:geometrie-mereni"> Jednotky, graf nebo obrázek</label><label><input type="checkbox" name="cause" value="postup" data-targets="matematika:slovni-logicke"> Nevěděl/a, jak začít</label><label><input type="checkbox" name="cause" value="text" data-targets="cestina:cteni-porozumeni"> Odpověď nebyla podle textu</label><label><input type="checkbox" name="cause" value="pravopis" data-targets="cestina:pravopis"> Pravopis bez odůvodnění</label><label><input type="checkbox" name="cause" value="mluvnice" data-targets="cestina:tvaroslovi-skladba,cestina:slovni-zasoba"> Slovní druhy, tvary nebo význam</label><label><input type="checkbox" name="cause" value="skladba" data-targets="cestina:tvaroslovi-skladba"> Věta, souvětí, čárky</label><label><input type="checkbox" name="cause" value="cas" data-targets="matematika:cisla-operace,matematika:zlomky-desetinna,cestina:cteni-porozumeni,cestina:literatura-sloh"> Nestihl/a nebo spěchal/a</label></div></fieldset>
+      <label class="review-note">Poznámka <textarea name="note" rows="3" placeholder="Co se opakovalo, co příště zkusit jinak…"></textarea></label>
+      <div class="review-actions"><button type="submit">Zapsat rozbor</button><span data-review-feedback></span></div>
+    </form>
+    <div class="review-recommendations"><b>Doporučené okruhy</b><div data-review-recommendations><a data-review-group="matematika:cisla-operace" href="../../cermat/5-trida/matematika/#cisla-operace">Matematika 5 · Čísla a početní operace</a><a data-review-group="matematika:zlomky-desetinna" href="../../cermat/5-trida/matematika/#zlomky-desetinna">Matematika 5 · Zlomky, desetinná čísla a části celku</a><a data-review-group="matematika:slovni-logicke" href="../../cermat/5-trida/matematika/#slovni-logicke">Matematika 5 · Slovní, logické a netradiční úlohy</a><a data-review-group="matematika:geometrie-mereni" href="../../cermat/5-trida/matematika/#geometrie-mereni">Matematika 5 · Geometrie, měření, obvod a obsah</a><a data-review-group="matematika:jednotky-data" href="../../cermat/5-trida/matematika/#jednotky-data">Matematika 5 · Jednotky, data, tabulky a grafické informace</a><a data-review-group="cestina:cteni-porozumeni" href="../../cermat/5-trida/cestina/#cteni-porozumeni">Čeština 5 · Čtení s porozuměním a práce s textem</a><a data-review-group="cestina:pravopis" href="../../cermat/5-trida/cestina/#pravopis">Čeština 5 · Pravopis: i/y, ú/ů, předpony, koncovky</a><a data-review-group="cestina:tvaroslovi-skladba" href="../../cermat/5-trida/cestina/#tvaroslovi-skladba">Čeština 5 · Slovní druhy, tvary slov a stavba věty</a><a data-review-group="cestina:slovni-zasoba" href="../../cermat/5-trida/cestina/#slovni-zasoba">Čeština 5 · Význam slov a slovní zásoba</a><a data-review-group="cestina:literatura-sloh" href="../../cermat/5-trida/cestina/#literatura-sloh">Čeština 5 · Literatura, sloh a vyprávění</a></div></div>
+    <div class="review-history"><div class="sec-head"><h3>Historie testů</h3><span data-review-trend></span></div><div data-review-history></div></div>
+  </section>
     <section class="print-plan">
     <div class="sec-head"><h2>Tiskový plán na 4 týdny</h2><span class="cnt">Zaškrtněte po rozboru chyb</span></div>
     <div class="print-weeks"><article class="print-week">
