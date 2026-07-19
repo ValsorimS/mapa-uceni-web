@@ -52,7 +52,7 @@
   "r": 1,
   "p": "cj",
   "t": "Mluvení, výslovnost a pravidla rozhovoru",
-  "co": "Čeština v 1.–3. ročníku rozvíjí i mluvený projev: naslouchání, střídání v rozhovoru, srozumitelná výslovnost, tempo řeči, dýchání a krátké vyprávění vlastního zážitku.",
+  "co": "Čeština v 1.–3. ročníku rozvíjí i mluvený projev: naslouchání, střídání v rozhovoru, srozumitelná výslovnost, tempo řeči, dýchání a krátké vyprávění vlastního zážitku. Dítě se učí mluvit tak, aby mu druzí rozuměli, a zároveň respektovat, že rozhovor není monolog.",
   "jak": [
    "Neskáče druhému do řeči a odpovídá k věci.",
    "Mluví dostatečně nahlas, srozumitelně a přiměřeným tempem.",
@@ -1702,7 +1702,7 @@
   "r": 3,
   "p": "cj",
   "t": "Význam slov: protiklady, nadřazená a příbuzná slova",
-  "co": "Dítě rozšiřuje slovní zásobu a učí se se slovy přemýšlet: slova opačná, souřadná, nadřazená a podřazená, slova příbuzná a třídění slov podle významu.",
+  "co": "Dítě rozšiřuje slovní zásobu a učí se se slovy přemýšlet: slova opačná, souřadná, nadřazená a podřazená, slova příbuzná a třídění slov podle významu. Nejde jen o pracovní listy, ale o přesnější vyjadřování a schopnost vybrat slovo, které opravdu odpovídá situaci.",
   "jak": [
    "Najde slovo opačného významu a slovo významem podobné nebo příbuzné.",
    "Rozliší slovo nadřazené a podřazené, například ovoce – jablko.",
@@ -1775,9 +1775,9 @@
   "jak": [
    "Určí osobu, číslo a čas slovesa ve větě.",
    "Převede sloveso do jiného času („psal → píše → bude psát“).",
-   "Pozná infinitiv."
+   "Pozná infinitiv jako základní tvar slovesa."
   ],
-  "dal": "Shoda přísudku s podmětem v 5. ročníku.",
+  "dal": "Na slovesa navazuje shoda přísudku s podmětem v 5. ročníku, kde dítě používá osobu, číslo i tvar slovesa v pravopisu.",
   "dalId": "cj5-shoda",
   "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1.–2. období (tvarosloví).",
   "doma": [
@@ -1866,9 +1866,9 @@
   "r": 3,
   "p": "m",
   "t": "Souměrnost a osové obrázky",
-  "co": "Dítě poznává, že některé tvary mají osu souměrnosti: po přeložení by se obě poloviny překryly. Pracuje s papírem, čtvercovou sítí, zrcadlením a jednoduchými obrázky.",
+  "co": "Dítě poznává, že některé tvary mají osu souměrnosti: po přeložení by se obě poloviny překryly. Pracuje s papírem, čtvercovou sítí, zrcadlením a jednoduchými obrázky. Téma propojuje geometrii s vizuálním vnímáním, přesností a schopností kontrolovat vlastní kresbu.",
   "jak": [
-   "Pozná jednoduchý souměrný útvar.",
+   "Pozná jednoduchý souměrný útvar v obrázku nebo geometrii.",
    "Najde osu souměrnosti u obrázku nebo tvaru.",
    "Doplní druhou polovinu jednoduchého osově souměrného obrázku."
   ],
@@ -2666,7 +2666,7 @@
   "r": 5,
   "p": "m",
   "t": "Slovní, logické a netradiční úlohy",
-  "co": "Některé matematické úlohy nejdou vyřešit jen naučeným algoritmem. Dítě zkouší kreslit si situaci, hledat vzor, rozdělit problém na části a obhájit vlastní postup.",
+  "co": "Některé matematické úlohy nejdou vyřešit jen naučeným algoritmem. Dítě zkouší kreslit si situaci, hledat vzor, rozdělit problém na části a obhájit vlastní postup. Důležitější než rychlost je tady strategie: co vím, co hledám, jak si úlohu zjednoduším a jak ověřím výsledek.",
   "jak": [
    "Vyřeší jednoduchou praktickou slovní úlohu i bez předem daného postupu.",
    "Vyzkouší více způsobů řešení a porovná je.",
@@ -2919,7 +2919,7 @@
   "r": 6,
   "p": "cj",
   "t": "Zvuková stránka češtiny a výslovnost",
-  "co": "Žák si všímá spisovné výslovnosti českých i běžně užívaných cizích slov, přízvuku, tempa a srozumitelnosti. Téma propojuje jazykovou výchovu s mluveným projevem.",
+  "co": "Žák si všímá spisovné výslovnosti českých i běžně užívaných cizích slov, přízvuku, tempa a srozumitelnosti. Téma propojuje jazykovou výchovu s mluveným projevem a pomáhá rozlišit běžné neformální mluvení od připraveného projevu před třídou.",
   "jak": [
    "Spisovně vyslovuje česká a běžně užívaná cizí slova.",
    "Pozná nedbalou výslovnost a opraví ji v připraveném projevu.",
@@ -4404,10 +4404,10 @@
   "co": "Ludolfovo číslo π vstupuje na scénu: obvod a obsah kruhu, vzájemná poloha přímky a kružnice, Thaletova věta a první těleso s kruhovou podstavou — válec (povrch a objem). Hodně vzorců, ale i hodně hmatatelné geometrie.",
   "jak": [
    "Spočítá obvod a obsah kruhu (a ví, že π ≈ 3,14).",
-   "Rozliší kruh a kružnici.",
+   "Rozliší kruh a kružnici podle významu i obrázku.",
    "Spočítá povrch a objem válce (plechovky, sudu)."
   ],
-  "dal": "Jehlan, kužel a koule v 9. ročníku.",
+  "dal": "Na kruh a válec navazují v 9. ročníku jehlan, kužel a koule a práce s objemem i povrchem těles.",
   "dalId": "m9-podobnost",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (geometrie v rovině a v prostoru).",
   "doma": [
@@ -4826,7 +4826,8 @@
    "Přečte z grafu hodnoty a popíše, co se děje („cena roste s hmotností“).",
    "Rozliší lineární funkci od nepřímé úměrnosti podle grafu."
   ],
-  "dal": "Kvadratické a další funkce na střední škole.",
+  "dal": "Na základní představu funkce navazují kvadratické a další funkce na střední škole a práce s grafy v různých předmětech.",
+  "dalId": "mil9-ukonceni",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (závislosti, vztahy a práce s daty).",
   "doma": [
    "Grafy kolem nás: cena benzinu, teplota v týdnu.",
@@ -4870,7 +4871,8 @@
    "Spočítá výšku stromu ze stínu pomocí podobnosti.",
    "Spočítá objem a povrch jehlanu, kužele a koule podle vzorců."
   ],
-  "dal": "Goniometrie a stereometrie na střední škole.",
+  "dal": "Na podobnost a tělesa navazuje goniometrie a stereometrie na střední škole, případně praktické měření a technické kreslení.",
+  "dalId": "mil9-ukonceni",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (geometrie v rovině a v prostoru).",
   "doma": [
    "Změřte výšku stromu podle stínu — podobnost v praxi.",
