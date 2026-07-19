@@ -99,6 +99,7 @@ const BREADCRUMB_LABELS = {
   "kdyz-dite-nestiha": "Když dítě nestíhá",
   "situace": "Situace",
   "rodicovske-cesty": "Rodičovské cesty",
+  "pruvodce": "Průvodce",
   "kalendar": "Kalendář",
   "zakony": "Zákony a pravidla",
   "rvp": "RVP",
@@ -886,8 +887,8 @@ const OFFICIAL_SOURCES = {
   },
   podpurna: {
     title: "Podpůrná opatření",
-    url: "https://www.edu.cz/poradenstvi-a-prevence/",
-    text: "Školní poradenství, prevence a orientace v podpoře žáků."
+    url: "https://www.msmt.gov.cz/vzdelavani/socialni-programy",
+    text: "Školní poradenství, prevence a sociální programy MŠMT."
   }
 };
 
@@ -920,6 +921,112 @@ function lastChanges(R) {
     <div class="sec-head"><h2>Co je nové</h2><a class="more" href="${R}audit/">Audit →</a></div>
     <div class="cards">${changes.map(([title, text]) => `<div class="gl"><b>${esc(title)}</b><p>${esc(text)}</p></div>`).join("")}</div>
   </section>`;
+}
+
+const QUICK_START = [
+  ["Vyberte vstup", "Ročník pro přehled učiva, Pomoc pro problém, Cermat pro přijímačky, RVP pro povinný rámec."],
+  ["Otevřete konkrétní stránku", "Na tématu hledejte význam, domácí aktivitu, otázku pro dítě a signál pro učitele."],
+  ["Uložte stav", "Odškrtnutá témata, Cermat okruhy a rozbor testu zůstávají jen v tomto prohlížeči."],
+  ["Vytiskněte plán", "Můj plán a checklisty situací pomůžou převést mapu do jednoho týdne doma."]
+];
+
+function startGuide(R) {
+  return `<section class="section start-guide">
+    <div class="sec-head"><h2>Start tady</h2><a class="more" href="${R}plan/">Můj plán →</a></div>
+    <div class="guide-phases">${QUICK_START.map(([title, text]) => `<div><b>${esc(title)}</b><span>${esc(text)}</span></div>`).join("")}</div>
+  </section>`;
+}
+
+const PARENT_SCENARIOS = [
+  ["3. třída: čtení bere moc energie", "pomoc/", "rodicovske-cesty/spatne-cte/", "dovednost/plynule-cteni-s-porozumenim/", "do 3 kliků"],
+  ["5. třída: přijímačky na gympl", "cermat/", "cermat/5-trida/", "cermat/5-trida/matematika/", "do 2 kliků"],
+  ["Rodič řeší odklad", "pomoc/", "situace/odklad-skolni-dochazky/", "zakony/", "do 2 kliků"],
+  ["Dítě nezvládá zlomky", "hledat/?q=zlomky", "dovednost/zlomky-naplno/", "predmety/matematika/", "přes hledání"],
+  ["Co je povinné podle RVP", "rvp/", "o-mape/", "predmety/", "do 2 kliků"],
+  ["Dítě se bojí matematiky", "pomoc/", "rodicovske-cesty/boji-se-matematiky/", "dovednost/cela-mala-nasobilka/", "do 2 kliků"],
+  ["Přechod na 2. stupeň", "situace/prechod-1-2-stupen/", "rocnik/6/", "rodicovske-cesty/neumi-se-ucit/", "do 2 kliků"],
+  ["Domácí vzdělávání", "situace/domaci-vzdelavani/", "rvp/", "zakony/", "do 2 kliků"],
+  ["Dítě nechce do školy", "pomoc/", "rodicovske-cesty/nechce-do-skoly/", "kdyz-dite-nestiha/", "do 2 kliků"],
+  ["Rodič chce týdenní plán", "plan/", "audit/", "pomoc/", "jeden vstup"]
+];
+
+function parentScenarioAudit(R) {
+  return `<section class="section">
+    <div class="sec-head"><h2>Rodičovský průchod</h2><span class="cnt">${PARENT_SCENARIOS.length} scénářů</span></div>
+    <div class="infobox"><b>Ruční test:</b> každý scénář má jasný start, cílovou stránku a náhradní cestu. Slouží k tomu, aby nové funkce nezůstaly schované v navigaci.</div>
+    <div class="coverage-tables"><article><table><thead><tr><th>Situace</th><th>Start</th><th>Cíl</th><th>Dál</th><th>Stav</th></tr></thead><tbody>
+      ${PARENT_SCENARIOS.map(([title, start, target, next, status]) => `<tr><th>${esc(title)}</th><td><a href="${R}${start}">${esc(start)}</a></td><td><a href="${R}${target}">${esc(target)}</a></td><td><a href="${R}${next}">${esc(next)}</a></td><td>${esc(status)}</td></tr>`).join("")}
+    </tbody></table></article></div>
+  </section>`;
+}
+
+function situationChecklist(situation) {
+  const items = [
+    ...(situation.whatMatters || []).slice(0, 2).map(text => `Ujasnit: ${text}`),
+    ...(situation.homeSteps || []).slice(0, 3),
+    ...(situation.schoolQuestions || []).slice(0, 3).map(text => `Zeptat se školy: ${text}`),
+    `Ověřit pravidla nebo termín v oficiálním zdroji.`
+  ];
+  return `<section class="situation-print">
+    <div class="sec-head"><h2>Tiskový checklist</h2><button class="printbtn" type="button" data-print>Vytisknout checklist</button></div>
+    <div class="situation-checklist">${items.map(item => `<label><input type="checkbox"> <span>${esc(item)}</span></label>`).join("")}</div>
+  </section>`;
+}
+
+const PARENT_GUIDES = [
+  {
+    id: "dite-nejde-matematika",
+    title: "Co dělat, když dítěti nejde matematika",
+    lead: "Nejdřív zjistit, jestli drhne základní představa, postup, čtení zadání nebo strach z chyby.",
+    main: "rodicovske-cesty/boji-se-matematiky/",
+    skillIds: ["m2-nasobilka", "m5-zlomky", "m5-prevody", "m9-rovnice"],
+    steps: ["Vrátit se k jednomu konkrétnímu typu chyby.", "Nechat dítě vysvětlit postup nahlas.", "Dělat krátký trénink a střídat lehké a problémové úlohy."],
+    search: "nejde matematika"
+  },
+  {
+    id: "problem-se-ctenim",
+    title: "Jak poznat problém se čtením",
+    lead: "Sledujte, jestli dítě bojuje s technikou čtení, porozuměním textu, únavou nebo strachem číst nahlas.",
+    main: "rodicovske-cesty/spatne-cte/",
+    skillIds: ["cj1-slabiky", "cj2-cteni", "cj5-literatura"],
+    steps: ["Oddělit rychlost čtení od porozumění.", "Číst kratší úsek a ptát se na smysl.", "Když potíže trvají, mluvit s učitelem o konkrétních projevech."],
+    search: "špatně čte"
+  },
+  {
+    id: "co-ma-umet-pred-zapisem",
+    title: "Co má umět dítě před zápisem",
+    lead: "Nejde o hotové čtení. Důležitá je řeč, samostatnost, pozornost, motorika a základní představy o množství.",
+    main: "situace/zapis-do-1-tridy/",
+    skillIds: ["cj1-komunikace", "cj1-psani", "m1-rada", "m1-tvary"],
+    steps: ["Vyprávět podle obrázku.", "Hrát hry s počtem a tvary.", "Trénovat krátké rutiny: obléct se, uklidit, dokončit úkol."],
+    search: "zápis do první třídy"
+  },
+  {
+    id: "prijimacky-5-trida",
+    title: "Jak se připravit na přijímačky v 5. třídě",
+    lead: "Příprava stojí na typech chyb: zadání, čas, pravopis, zlomky, slovní úlohy a čtení textu.",
+    main: "cermat/5-trida/",
+    skillIds: ["mil5-gympl", "cj5-shoda", "m5-zlomky", "m5-prevody"],
+    steps: ["Nejdřív projít okruhy, ne celé testy dokola.", "Po testu nanečisto zapsat příčiny chyb.", "Problémové okruhy převést do týdenního plánu."],
+    search: "přijímačky 5 třída"
+  },
+  {
+    id: "dite-nestiha-tempo",
+    title: "Co dělat, když dítě nestíhá tempo",
+    lead: "Tempo může brzdit čtení zadání, pomalý zápis, počítání, organizace práce nebo stres.",
+    main: "rodicovske-cesty/nestiha-tempo/",
+    skillIds: ["vz8-stres-dusevni-hygiena", "cj2-cteni", "m2-cas-data"],
+    steps: ["Týden sledovat, kde se čas ztrácí.", "Zmenšit úkol na krátký blok.", "S učitelem ověřit, jestli problém vidí i ve třídě."],
+    search: "nestíhá tempo"
+  }
+];
+
+function guideCard(guide, R) {
+  return `<a class="card" href="${R}pruvodce/${guide.id}/">
+    <span class="tag" style="background:var(--green)">Průvodce</span>
+    <h3>${esc(guide.title)}</h3>
+    <p>${esc(guide.lead)}</p>
+  </a>`;
 }
 
 function subjectGuide(p, items, R) {
@@ -998,8 +1105,14 @@ function controlQuestions(s) {
   const body = `
   <section class="hero">
     <span class="eyebrow">Zdarma · bez účtu · bez reklam</span>
-    <h1>Mapa učiva a pomoci pro rodiče školáků</h1>
-    <p class="sub">Najděte ročník, téma nebo problém. Každá stránka říká, co se dítě učí, jak poznat porozumění, co zkusit doma a kdy mluvit se školou.</p>
+    <h1>Vyberte, co právě řešíte</h1>
+    <p class="sub">Ročník, problém, přijímačky nebo pravidla. Mapa vás dovede ke konkrétním tématům, otázkám pro dítě a dalšímu kroku doma.</p>
+    <div class="home-actions" aria-label="Hlavní vstupy">
+      <a href="#rocniky"><b>Ročník</b><span>1.–9. třída</span></a>
+      <a href="pomoc/"><b>Problém</b><span>čtení, tempo, škola</span></a>
+      <a href="cermat/"><b>Přijímačky</b><span>5. a 9. třída</span></a>
+      <a href="rvp/"><b>Pravidla/RVP</b><span>co je závazné</span></a>
+    </div>
     <form class="searchbox" action="hledat/" method="get" role="search">
       <input type="search" name="q" list="topics" placeholder="Zkuste: vyjmenovaná slova, zlomky, Pythagorova věta…" aria-label="Hledat učivo">
       <button class="sbtn" type="submit" aria-label="Hledat">→</button>
@@ -1008,6 +1121,7 @@ function controlQuestions(s) {
     <p class="pop">Nejhledanější: ${POPULAR.map(p => `<a href="hledat/?q=${encodeURIComponent(p)}">${p}</a>`).join(" · ")}</p>
     ${rulerHTML(R)}
   </section>
+  ${startGuide(R)}
   <section class="section" style="padding-bottom:0">
     <div class="sec-head"><h2>Čím chcete začít?</h2></div>
     <div class="cards">
@@ -1547,6 +1661,7 @@ SKILLS.forEach(s => {
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Pomoc</div>
   <div class="page-title"><h1>Pomoc pro rodiče</h1>
   <p class="lead">Vyberte problém. Stránka vás pošle k dalšímu kroku doma, ve škole nebo v poradně.</p></div>
+  ${startGuide(R)}
   <section class="section help-chooser">
     <div class="sec-head"><h2>Co právě řešíte?</h2></div>
     <div class="infobox"><b>Bez ukládání:</b> výběr se nikam neposílá ani neukládá. Jen na této stránce ukáže vhodný další krok.</div>
@@ -1556,6 +1671,7 @@ SKILLS.forEach(s => {
   <div class="cards">
     <a class="card" href="${R}kdyz-dite-nestiha/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Když dítě nestíhá</h3><p>Postup, jak zjistit příčinu, zmenšit tlak a zapojit školu.</p></a>
     <a class="card" href="${R}rodicovske-cesty/"><span class="tag" style="background:var(--green)">Cesty</span><h3>Rodičovské cesty</h3><p>Rozcestníky podle problému: čtení, učení, matematika, tempo, pravopis nebo odpor ke škole.</p></a>
+    <a class="card" href="${R}pruvodce/"><span class="tag" style="background:var(--green)">Průvodce</span><h3>Nejčastější dotazy</h3><p>Krátké SEO průvodce, které vedou přímo na témata a situace.</p></a>
     <a class="card" href="${R}situace/"><span class="tag" style="background:var(--blue)">Situace</span><h3>Přechody a životní situace</h3><p>Zápis, odklad, změna školy, přechod na druhý stupeň, SŠ a domácí vzdělávání.</p></a>
   </div>
   <section class="section">
@@ -1639,6 +1755,7 @@ SKILLS.forEach(s => {
       <div class="cards">${situation.schoolQuestions.map(item => `<div class="gl"><p>${esc(item)}</p></div>`).join("")}</div>
     </section>
     <div class="infobox"><b>Na co si dát pozor:</b> ${esc(situation.watchOut)}</div>
+    ${situationChecklist(situation)}
     ${sourceSection(["law", "edu", "podpurna"], "Zdroje k pravidlům a podpoře")}
     <section class="section">
       <div class="sec-head"><h2>Navázaná témata</h2></div>
@@ -1712,6 +1829,46 @@ SKILLS.forEach(s => {
       path: parentPathUrl(path), nav: "pomoc",
       title: `${path.title} | Rodičovské cesty | Mapa učení`,
       desc: cut(path.lead),
+      body
+    }));
+  });
+})();
+
+/* Průvodce podle rodičovských dotazů */
+(function parentGuides() {
+  const R = "../";
+  const body = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Průvodce</div>
+  <div class="page-title"><h1>Průvodce podle dotazu rodiče</h1>
+  <p class="lead">Krátké vstupní stránky pro nejčastější otázky. Každá vede na konkrétní téma, situaci nebo Cermat plán.</p></div>
+  <div class="cards">${PARENT_GUIDES.map(guide => guideCard(guide, R)).join("")}</div>`;
+  write("pruvodce/index.html", layout({
+    path: "pruvodce/", nav: "pomoc",
+    title: "Průvodce podle rodičovských dotazů | Mapa učení",
+    desc: "Krátké praktické průvodce pro rodiče: matematika, čtení, zápis, tempo a přijímačky.",
+    body
+  }));
+
+  PARENT_GUIDES.forEach(guide => {
+    const pageR = "../../";
+    const linkedSkills = guide.skillIds.map(byId).filter(Boolean);
+    const body = `
+    <div class="crumbs"><a href="${pageR}">Mapa učení</a> › <a href="${pageR}pruvodce/">Průvodce</a> › ${esc(guide.title)}</div>
+    <div class="page-title"><h1>${esc(guide.title)}</h1>
+    <p class="lead">${esc(guide.lead)}</p></div>
+    <section class="section">
+      <div class="sec-head"><h2>První postup</h2><a class="more" href="${pageR}${guide.main}">Hlavní rozcestník →</a></div>
+      <div class="cards">${guide.steps.map((step, i) => `<div class="gl"><b>${i + 1}. krok</b><p>${esc(step)}</p></div>`).join("")}</div>
+    </section>
+    <section class="section">
+      <div class="sec-head"><h2>Konkrétní témata</h2><a class="more" href="${pageR}hledat/?q=${encodeURIComponent(guide.search)}">Hledat podobně →</a></div>
+      <div class="cards">${linkedSkills.map(s => skillCard(s, pageR)).join("")}</div>
+    </section>
+    <div class="pager"><a href="${pageR}pruvodce/">← Všechny průvodce</a><a href="${pageR}pomoc/">Pomoc →</a></div>`;
+    write(`pruvodce/${guide.id}/index.html`, layout({
+      path: `pruvodce/${guide.id}/`, nav: "pomoc",
+      title: `${guide.title} | Mapa učení`,
+      desc: cut(guide.lead),
       body
     }));
   });
@@ -1982,6 +2139,7 @@ SKILLS.forEach(s => {
       <div class="gl"><b>Pravidla</b><p>Právní a poradenské stránky ukazují zdroje a připomínají, že závazná je škola a aktuální oficiální znění.</p></div>
     </div>
   </section>
+  ${parentScenarioAudit(R)}
   ${uxScenarioAudit(R)}
   ${coverageDashboard(R)}
   ${analyticsPanel()}
@@ -2218,6 +2376,22 @@ window.MAPA_CERMAT_GROUPS=${JSON.stringify(cermatGroups)};
       txt: norm([SUBJ[p].n, ...items.map(s => `${s.t} ${s.co}`)].join(" "))
     };
   });
+  const guideSearchItems = PARENT_GUIDES.map(guide => {
+    const linked = guide.skillIds.map(byId).filter(Boolean).map(s => s.t).join(" ");
+    return {
+      id: `guide-${guide.id}`,
+      type: "guide",
+      url: `pruvodce/${guide.id}/`,
+      title: guide.title,
+      tag: "Průvodce",
+      color: "var(--green)",
+      meta: "rodičovský dotaz",
+      p: "",
+      cermat: [],
+      lead: guide.lead,
+      txt: norm([guide.title, guide.lead, guide.search, ...(guide.steps || []), linked].join(" "))
+    };
+  });
   const pageSearchItems = [
     {
       id: "pomoc",
@@ -2227,8 +2401,19 @@ window.MAPA_CERMAT_GROUPS=${JSON.stringify(cermatGroups)};
       tag: "Pomoc",
       color: "var(--green)",
       meta: "rozcestník",
-      lead: "Když dítě nestíhá, rodičovské cesty a praktické školní situace.",
-      txt: norm("pomoc pro rodiče dítě nestíhá rodičovské cesty situace odklad zápis poradna škola")
+      lead: "Když dítě nestíhá, rodičovské cesty, průvodce a praktické školní situace.",
+      txt: norm("pomoc pro rodiče dítě nestíhá rodičovské cesty průvodce situace odklad zápis poradna škola")
+    },
+    {
+      id: "pruvodce",
+      type: "guide",
+      url: "pruvodce/",
+      title: "Průvodce podle dotazu rodiče",
+      tag: "Průvodce",
+      color: "var(--green)",
+      meta: "rozcestník",
+      lead: "Krátké vstupy pro nejčastější rodičovské dotazy.",
+      txt: norm(["průvodce rodičovské dotazy", ...PARENT_GUIDES.map(guide => `${guide.title} ${guide.lead}`)].join(" "))
     },
     {
       id: "plan",
@@ -2303,6 +2488,7 @@ window.MAPA_CERMAT_GROUPS=${JSON.stringify(cermatGroups)};
     .concat(cermatSearchItems)
     .concat(supplementarySearchItems)
     .concat(subjectSearchItems)
+    .concat(guideSearchItems)
     .concat(pageSearchItems);
   const searchData = `window.SEARCH=${JSON.stringify({ items: index, syn: SYN })};`;
   fs.mkdirSync(path.join(OUT, "assets"), { recursive: true });
@@ -2323,6 +2509,7 @@ window.MAPA_CERMAT_GROUPS=${JSON.stringify(cermatGroups)};
     <a data-filter="m" href="?predmet=m">Matematika</a>
     <a data-filter="cj" href="?predmet=cj">Čeština</a>
     <a data-filter="help" href="?typ=help">Pomoc</a>
+    <a data-filter="guide" href="?typ=guide">Průvodce</a>
     <a data-filter="situace" href="?typ=situace">Situace</a>
     <a data-filter="path" href="?typ=path">Rodičovské cesty</a>
     <a data-filter="milnik" href="?typ=milnik">Milníky</a>
@@ -2358,7 +2545,7 @@ window.MAPA_CERMAT_GROUPS=${JSON.stringify(cermatGroups)};
     });
   }
   if(!q&&!cermat&&!predmet&&!typ){count.textContent="Zadejte učivo nebo situaci — třeba „zlomky“, „odklad“, „nestíhá“ nebo „gympl“.";return;}
-  var typeLabels={help:"Pomoc",situace:"Situace",path:"Rodičovské cesty",milnik:"Milníky",rules:"RVP/pravidla"};
+  var typeLabels={help:"Pomoc",guide:"Průvodce",situace:"Situace",path:"Rodičovské cesty",milnik:"Milníky",rules:"RVP/pravidla"};
   var label=cermat?("Cermat "+cermat):(predmet==="m"?"Matematika":predmet==="cj"?"Čeština":(typeLabels[typ]||"Výsledky"));
   title.textContent=q?("Výsledky pro \\u201E"+q+"\\u201C"):(label);
   document.title=(q?("Hledání: "+q):label)+" | Mapa učení";
@@ -2438,9 +2625,11 @@ const cermatUrls = ["cermat/"]
 const supplementaryUrls = ["doplnujici-obory/"].concat(SUPP.fields.map(supplementaryUrl));
 const parentPathUrls = ["rodicovske-cesty/"].concat(PPATHS.map(parentPathUrl));
 const situationUrls = ["situace/"].concat(SITUATIONS.map(situationUrl));
+const guideUrls = ["pruvodce/"].concat(PARENT_GUIDES.map(guide => `pruvodce/${guide.id}/`));
 const subjectUrls = Object.keys(SUBJ).filter(p => p !== "mil").map(subjectUrl);
 const urls = ["", "predmety/", "pomoc/", "plan/", "milniky/", "kdyz-dite-nestiha/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/", "audit/"]
   .concat(subjectUrls)
+  .concat(guideUrls)
   .concat(supplementaryUrls)
   .concat(parentPathUrls)
   .concat(situationUrls)
@@ -2475,13 +2664,13 @@ fs.writeFileSync(path.join(OUT, "manifest.webmanifest"), JSON.stringify({
 fs.writeFileSync(path.join(OUT, "sw.js"),
   `"use strict";\n` +
   `const CACHE="mapa-uceni-pwa-v1";\n` +
-  `const CORE=${JSON.stringify(["./","index.html","pomoc/","hledat/","plan/","cermat/","rvp/","o-mape/","audit/","assets/style.css","assets/app.js","assets/search-data.js","assets/favicon.svg","manifest.webmanifest"])};\n` +
+  `const CORE=${JSON.stringify(["./","index.html","pomoc/","pruvodce/","hledat/","plan/","cermat/","rvp/","o-mape/","audit/","assets/style.css","assets/app.js","assets/search-data.js","assets/favicon.svg","manifest.webmanifest"])};\n` +
   `const coreRequests=()=>CORE.map(item=>new Request(new URL(item,self.registration.scope),{cache:"reload"}));\n` +
   `self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(coreRequests())).then(()=>self.skipWaiting()));});\n` +
   `self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});\n` +
   `self.addEventListener("fetch",event=>{if(event.request.method!=="GET")return;const url=new URL(event.request.url);if(url.origin!==location.origin||!url.href.startsWith(self.registration.scope))return;event.respondWith(fetch(event.request).then(response=>{const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));return response;}).catch(()=>caches.match(event.request).then(found=>found||caches.match(new URL("./",self.registration.scope)))));});\n`, "utf8");
 fs.writeFileSync(path.join(OUT, "llms.txt"),
-  `# Mapa učení\n\nMapa učení je český statický web pro rodiče dětí na základní škole. Vysvětluje témata 1.–9. ročníku, RVP vazby, Cermat přípravu, rodičovské cesty, životní situace a zákonný rámec.\n\nDůležité vstupy:\n- ${SITE_URL}/\n- ${SITE_URL}/predmety/\n- ${SITE_URL}/pomoc/\n- ${SITE_URL}/cermat/\n- ${SITE_URL}/rvp/\n- ${SITE_URL}/audit/\n\nObsah je orientační a nenahrazuje konzultaci s učitelem, školou ani poradenským zařízením.\n`, "utf8");
+  `# Mapa učení\n\nMapa učení je český statický web pro rodiče dětí na základní škole. Vysvětluje témata 1.–9. ročníku, RVP vazby, Cermat přípravu, rodičovské cesty, životní situace a zákonný rámec.\n\nDůležité vstupy:\n- ${SITE_URL}/\n- ${SITE_URL}/predmety/\n- ${SITE_URL}/pomoc/\n- ${SITE_URL}/pruvodce/\n- ${SITE_URL}/cermat/\n- ${SITE_URL}/rvp/\n- ${SITE_URL}/audit/\n\nObsah je orientační a nenahrazuje konzultaci s učitelem, školou ani poradenským zařízením.\n`, "utf8");
 
 function mirrorDocsToRoot() {
   const copy = dir => {

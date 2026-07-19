@@ -110,7 +110,12 @@ function checkSourceAndTrustBlocks() {
     ["situace/index.html", "Oficiální zdroje"],
     ["kdyz-dite-nestiha/index.html", "Zdroje k podpoře dítěte"],
     ["o-mape/index.html", "Co je nové"],
-    ["audit/index.html", "Zdrojová kontrola"]
+    ["audit/index.html", "Zdrojová kontrola"],
+    ["audit/index.html", "Rodičovský průchod"],
+    ["index.html", "Start tady"],
+    ["pomoc/index.html", "Start tady"],
+    ["pruvodce/index.html", "Průvodce podle dotazu rodiče"],
+    ["situace/zapis-do-1-tridy/index.html", "Tiskový checklist"]
   ];
   const findings = required.filter(([rel, needle]) => !read(path.join(DOCS, rel)).includes(needle));
   if (findings.length) fail(`Missing trust/source blocks:\n${findings.map(([rel, needle]) => `${rel}: ${needle}`).join("\n")}`);

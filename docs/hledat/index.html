@@ -66,6 +66,7 @@
     <a data-filter="m" href="?predmet=m">Matematika</a>
     <a data-filter="cj" href="?predmet=cj">Čeština</a>
     <a data-filter="help" href="?typ=help">Pomoc</a>
+    <a data-filter="guide" href="?typ=guide">Průvodce</a>
     <a data-filter="situace" href="?typ=situace">Situace</a>
     <a data-filter="path" href="?typ=path">Rodičovské cesty</a>
     <a data-filter="milnik" href="?typ=milnik">Milníky</a>
@@ -109,7 +110,7 @@
     });
   }
   if(!q&&!cermat&&!predmet&&!typ){count.textContent="Zadejte učivo nebo situaci — třeba „zlomky“, „odklad“, „nestíhá“ nebo „gympl“.";return;}
-  var typeLabels={help:"Pomoc",situace:"Situace",path:"Rodičovské cesty",milnik:"Milníky",rules:"RVP/pravidla"};
+  var typeLabels={help:"Pomoc",guide:"Průvodce",situace:"Situace",path:"Rodičovské cesty",milnik:"Milníky",rules:"RVP/pravidla"};
   var label=cermat?("Cermat "+cermat):(predmet==="m"?"Matematika":predmet==="cj"?"Čeština":(typeLabels[typ]||"Výsledky"));
   title.textContent=q?("Výsledky pro \u201E"+q+"\u201C"):(label);
   document.title=(q?("Hledání: "+q):label)+" | Mapa učení";

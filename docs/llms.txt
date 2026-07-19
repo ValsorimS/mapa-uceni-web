@@ -6,6 +6,7 @@ Důležité vstupy:
 - https://valsorims.github.io/mapa-uceni-web/
 - https://valsorims.github.io/mapa-uceni-web/predmety/
 - https://valsorims.github.io/mapa-uceni-web/pomoc/
+- https://valsorims.github.io/mapa-uceni-web/pruvodce/
 - https://valsorims.github.io/mapa-uceni-web/cermat/
 - https://valsorims.github.io/mapa-uceni-web/rvp/
 - https://valsorims.github.io/mapa-uceni-web/audit/

@@ -11,6 +11,8 @@ const pages = [
   ["pomoc", "/pomoc/"],
   ["audit", "/audit/"],
   ["cermat-5", "/cermat/5-trida/"],
+  ["guide", "/pruvodce/dite-nejde-matematika/"],
+  ["situation", "/situace/zapis-do-1-tridy/"],
   ["skill-reading", "/dovednost/plynule-cteni-s-porozumenim/"],
   ["plan", "/plan/"]
 ];
