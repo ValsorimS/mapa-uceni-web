@@ -1,0 +1,241 @@
+{
+ "source": {
+  "name": "Cermat · jednotná přijímací zkouška",
+  "testsUrl": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf",
+  "practiceUrl": "https://procvicprijimacky.cermat.cz",
+  "note": "Mapa neopisuje testová zadání. Odkazuje na oficiální materiály Cermatu a mapuje požadované dovednosti na témata webu."
+ },
+ "exams": [
+  {
+   "id": "9",
+   "slug": "9-trida",
+   "label": "9. třída",
+   "title": "Cermat pro 9. třídu",
+   "desc": "Jednotná přijímací zkouška na čtyřleté maturitní obory: český jazyk a literatura a matematika. Oba testy ověřují hlavně práci s textem zadání, přesnost a schopnost použít učivo v úloze.",
+   "subjects": [
+    {
+     "id": "matematika",
+     "subjectKey": "m",
+     "title": "Matematika",
+     "shortTitle": "Matematika 9",
+     "duration": "70 minut",
+     "points": "max. 50 bodů",
+     "lead": "Cermat v matematice netestuje jen výpočty. Hodně bodů stojí na čtení zadání, převodu slovní situace na vztah, práci s jednotkami, odhadu a kontrole výsledku.",
+     "officialLinks": [
+      {
+       "label": "Oficiální testová zadání Cermatu",
+       "url": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf"
+      },
+      {
+       "label": "Procvičovací aplikace Cermatu",
+       "url": "https://procvicprijimacky.cermat.cz"
+      }
+     ],
+     "groups": [
+      {
+       "id": "cisla-operace",
+       "title": "Čísla, zlomky a početní přesnost",
+       "why": "Základ testu: bez bezpečných úprav čísel se žák zasekne i v geometrii, slovních úlohách a procentech.",
+       "skillIds": [
+        "m6-desetinna",
+        "m7-zlomky",
+        "m7-cela",
+        "m6-delitelnost",
+        "m8-mocniny"
+       ],
+       "typicalTasks": [
+        "počítání se zlomky, desetinnými a zápornými čísly",
+        "úprava číselného výrazu se závorkami",
+        "odhad a kontrola, zda výsledek dává smysl"
+       ],
+       "watchOut": "Nejčastěji padají body za znaménka, pořadí početních operací a převod mezi zlomkem, desetinným číslem a procenty."
+      },
+      {
+       "id": "pomery-procenta",
+       "title": "Poměr, procenta a úměrnost",
+       "why": "Cermat často balí výpočty do běžných situací: sleva, zdražení, směs, měřítko, rychlost, část z celku.",
+       "skillIds": [
+        "m7-pomer",
+        "m7-procenta",
+        "m5-prevody"
+       ],
+       "typicalTasks": [
+        "výpočet části, celku a procentové změny",
+        "trojčlenka a přímá nebo nepřímá úměrnost",
+        "převody jednotek v kontextu slovní úlohy"
+       ],
+       "watchOut": "U procent je klíčové rozlišit, co je základ. U poměru zase pořadí členů a jednotky."
+      },
+      {
+       "id": "algebra-rovnice",
+       "title": "Výrazy, rovnice a slovní úlohy",
+       "why": "Uchazeč musí převést text na matematický zápis, upravit výraz a výsledek vrátit zpět do zadání.",
+       "skillIds": [
+        "m8-vyrazy",
+        "m8-rovnice",
+        "m9-rovnice",
+        "m9-funkce"
+       ],
+       "typicalTasks": [
+        "doplnění výrazu podle popisu",
+        "řešení lineární rovnice nebo soustavy",
+        "slovní úloha s neznámou a kontrolou podmínek"
+       ],
+       "watchOut": "Nestačí najít číslo. V otevřených úlohách je potřeba čitelný postup a odpověď ve správných jednotkách."
+      },
+      {
+       "id": "geometrie",
+       "title": "Geometrie, konstrukce a tělesa",
+       "why": "Geometrie kombinuje vzorečky, prostorovou představivost, přesné rýsování a čtení obrázku.",
+       "skillIds": [
+        "m5-obsah",
+        "m6-uhly",
+        "m8-pythagoras",
+        "m8-konstrukce",
+        "m8-kruh",
+        "m9-podobnost"
+       ],
+       "typicalTasks": [
+        "obsah, obvod, úhly, délky a jednotky",
+        "Pythagorova věta v obrázku nebo slovní situaci",
+        "konstrukční postup, měřítko, podobnost a tělesa"
+       ],
+       "watchOut": "Hodně chyb vzniká z nepřesného náčrtu a záměny obvodu, obsahu a objemu."
+      },
+      {
+       "id": "data-logika",
+       "title": "Data, grafy, tabulky a logické úlohy",
+       "why": "Závěrečné úlohy často prověřují čtení podmínek, systematický rozbor možností a práci s daty.",
+       "skillIds": [
+        "m9-statistika",
+        "m9-logika-prostor",
+        "m2-cas-data"
+       ],
+       "typicalTasks": [
+        "čtení tabulky, grafu nebo diagramu",
+        "porovnávání dat a jednoduchá statistika",
+        "logická úloha s více podmínkami"
+       ],
+       "watchOut": "Vyplatí se psát si možnosti systematicky. U těchto úloh se ztrácí body hlavně uspěchaným čtením."
+      }
+     ],
+     "training": [
+      "Jeden celý test týdně s časomírou, potom rozbor bez časomíry.",
+      "Vést si seznam typů chyb: počty, zadání, jednotky, geometrie, zápis postupu.",
+      "Každou chybnou úlohu po týdnu spočítat znovu bez koukání do řešení."
+     ]
+    },
+    {
+     "id": "cestina",
+     "subjectKey": "cj",
+     "title": "Český jazyk a literatura",
+     "shortTitle": "Čeština 9",
+     "duration": "60 minut",
+     "points": "max. 50 bodů",
+     "lead": "Čeština v JPZ stojí na přesném čtení. Pravopis je důležitý, ale test stejně silně ověřuje porozumění textu, práci s významem slov, skladbu, sloh a základní literární orientaci.",
+     "officialLinks": [
+      {
+       "label": "Oficiální testová zadání Cermatu",
+       "url": "https://prijimacky.cermat.cz/menu/testova-zadani-k-procvicovani/testova-zadani-v-pdf"
+      },
+      {
+       "label": "Procvičovací aplikace Cermatu",
+       "url": "https://procvicprijimacky.cermat.cz"
+      }
+     ],
+     "groups": [
+      {
+       "id": "cteni-porozumeni",
+       "title": "Čtení s porozuměním a práce s informacemi",
+       "why": "Velká část bodů je schovaná v přesném čtení zadání, vyhledání informace a rozlišení, co text skutečně říká.",
+       "skillIds": [
+        "cj4-cteni-informace",
+        "cj6-media-fakta",
+        "cj8-sloh-text"
+       ],
+       "typicalTasks": [
+        "určení tvrzení, které odpovídá textu",
+        "vyhledání informace v ukázce, tabulce nebo grafu",
+        "rozpoznání účelu textu, adresáta a komunikační situace"
+       ],
+       "watchOut": "Žák často odpoví podle dojmu, ne podle textu. Trénovat se má podtrhávání důkazů přímo v ukázce."
+      },
+      {
+       "id": "pravopis-tvaroslovi",
+       "title": "Pravopis a tvarosloví",
+       "why": "Pravopisné úlohy jsou rychlé body, pokud má žák jistotu v pravidlech a umí si tvar odůvodnit.",
+       "skillIds": [
+        "cj3-vyjmenovana",
+        "cj4-vzory",
+        "cj4-stavba",
+        "cj5-shoda",
+        "cj6-zvuk-jazyk",
+        "cj9-pravopis"
+       ],
+       "typicalTasks": [
+        "doplňování i/y, mě/mně, s/z, předpon a přípon",
+        "určování slovních druhů a mluvnických kategorií",
+        "oprava chyb v textu"
+       ],
+       "watchOut": "Nestačí znát poučku. U přijímaček je potřeba rychle poznat, které pravidlo se právě používá."
+      },
+      {
+       "id": "skladba",
+       "title": "Skladba a stavba věty",
+       "why": "Skladba propojuje větné členy, druhy vedlejších vět, interpunkci a porozumění vztahům ve větě.",
+       "skillIds": [
+        "cj7-vedlejsi",
+        "cj8-rozbory",
+        "cj9-pravopis"
+       ],
+       "typicalTasks": [
+        "určení větného členu nebo druhu vedlejší věty",
+        "doplnění čárek v souvětí",
+        "rozlišení vztahů mezi větami a významových poměrů"
+       ],
+       "watchOut": "Nejvíc pomáhá ptát se správnou otázkou a najít řídící výraz, ne určovat větný člen jen podle pořadí slov."
+      },
+      {
+       "id": "slovni-zasoba-vyznam",
+       "title": "Význam slov, slovní zásoba a jazykové vrstvy",
+       "why": "Cermat ověřuje, jestli žák rozumí slovům v kontextu, pozná významový vztah a rozliší spisovnost nebo stylové zabarvení.",
+       "skillIds": [
+        "cj3-vyznam-slov",
+        "cj4-vyznam-spisovnost",
+        "cj7-slovni-zasoba"
+       ],
+       "typicalTasks": [
+        "synonyma, antonyma, slova nadřazená a podřazená",
+        "frazémy, přenesený význam a význam podle kontextu",
+        "spisovné, nespisovné a stylově příznakové výrazy"
+       ],
+       "watchOut": "Význam slova se často rozhoduje podle okolní věty. Izolované slovíčko může svádět k chybné odpovědi."
+      },
+      {
+       "id": "literatura-sloh",
+       "title": "Literatura, sloh a práce s ukázkou",
+       "why": "Literární a slohové úlohy většinou netestují memorování seznamů, ale orientaci v žánru, vypravěči, kompozici a účinku textu.",
+       "skillIds": [
+        "cj5-literatura",
+        "cj8-literatura-interpretace",
+        "cj8-sloh-text",
+        "cj9-literarni-dejiny"
+       ],
+       "typicalTasks": [
+        "určení žánru, vypravěče, rýmu nebo básnického prostředku",
+        "řazení částí textu a rozpoznání návaznosti vět",
+        "výběr vhodného nadpisu, shrnutí nebo slohového postupu"
+       ],
+       "watchOut": "U literatury stačí základní pojmy, ale musí být navázané na konkrétní ukázku."
+      }
+     ],
+     "training": [
+      "Při rozboru testu vždy hledat důkaz v textu, ne jen správnou možnost.",
+      "Pravopis trénovat krátce a často: 10 minut denně bývá lepší než hodina jednou týdně.",
+      "Chybné úlohy třídit podle příčiny: pravidlo neznám, špatně jsem četl, spletl jsem otázku, nestihl jsem."
+     ]
+    }
+   ]
+  }
+ ]
+}

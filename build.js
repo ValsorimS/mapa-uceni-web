@@ -22,6 +22,7 @@ const GLOSS = J("glossary.json");
 const SYN = J("synonyms.json");
 const POPULAR = J("popular.json");
 const RVP = J("rvp.json");
+const CERMAT = J("cermat.json");
 
 /* ---------- pomocné ---------- */
 const norm = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -45,6 +46,16 @@ SKILLS.forEach(s => {
   s.slug = sl;
 });
 const skillUrl = s => "dovednost/" + s.slug + "/";
+const cermatExamUrl = exam => `cermat/${exam.slug}/`;
+const cermatSubjectUrl = (exam, subject) => `${cermatExamUrl(exam)}${subject.id}/`;
+
+const CERMAT_BY_SKILL = new Map();
+CERMAT.exams.forEach(exam => exam.subjects.forEach(subject => subject.groups.forEach(group => {
+  group.skillIds.forEach(skillId => {
+    if (!CERMAT_BY_SKILL.has(skillId)) CERMAT_BY_SKILL.set(skillId, []);
+    CERMAT_BY_SKILL.get(skillId).push({ exam, subject, group });
+  });
+})));
 
 const cut = (s, n = 155) => {
   s = s.replace(/\s+/g, " ").trim();
@@ -94,6 +105,7 @@ ${o.extraHead || ""}
     <nav>
       ${navLink("", "home", "Ročníky")}
       ${navLink("predmety/", "predmety", "Předměty")}
+      ${navLink("cermat/", "cermat", "Cermat")}
       ${navLink("kalendar/", "kalendar", "Kalendář")}
       ${navLink("zakony/", "zakony", "Zákony a pravidla")}
       ${navLink("rvp/", "rvp", "RVP")}
@@ -233,10 +245,16 @@ SKILLS.forEach(s => {
   const prereq = SKILLS.filter(x => x.dalId === s.id);
   const nx = s.dalId ? byId(s.dalId) : null;
   const refs = (s.rvpRefs || []).filter(id => RVP_OUT[id]);
+  const cermatRefs = CERMAT_BY_SKILL.get(s.id) || [];
   const rvpDetail = refs.length
     ? `<div class="rvp-links">${refs.map(id => rvpOutcomeLink(id, R)).join("")}</div>
        <p class="rvp-note">Mapování je orientační: RVP stanovuje výstupy pro období, konkrétní ročník určuje škola ve svém ŠVP.</p>`
     : esc(s.rvp);
+  const cermatDetail = cermatRefs.length
+    ? `<div class="cermatbox"><b>Vazba na Cermat:</b>
+      <div class="cermat-links">${cermatRefs.map(ref => `<a href="${R}${cermatSubjectUrl(ref.exam, ref.subject)}#${esc(ref.group.id)}"><span>${esc(ref.exam.label)} · ${esc(ref.subject.shortTitle)}</span><b>${esc(ref.group.title)}</b></a>`).join("")}</div>
+      <p>Vazba ukazuje, kde se téma typicky vrací v jednotné přijímací zkoušce. Konkrétní zadání se rok od roku mění.</p></div>`
+    : "";
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › <a href="${R}rocnik/${s.r}/">${s.r}. ročník</a> › ${su.n}</div>
   <article class="notebook"><div class="inner">
@@ -255,6 +273,7 @@ SKILLS.forEach(s => {
     <p class="blockt">Co přijde dál</p>
     <div class="next">${s.dal}${nx ? ` <a href="${R}${skillUrl(nx)}">${nx.t} →</a>` : ""}</div>
     <div class="rvpbox">${prereq.length ? `<b>Na co navazuje:</b> ${prereq.map(x => `<a href="${R}${skillUrl(x)}">${x.t}</a>`).join(" · ")}<br><br>` : ""}<b>Kde to najdete v RVP:</b> ${rvpDetail}</div>
+    ${cermatDetail}
   </div></article>
   <div class="pager">
     <a href="${R}rocnik/${s.r}/">← Zpět na ${s.r}. ročník</a>
@@ -290,6 +309,101 @@ SKILLS.forEach(s => {
     desc: "Všechny předměty 1.–9. ročníku ZŠ podle RVP ZV — od češtiny a matematiky po výchovy a svět práce. Témata seřazená tak, jak na sebe navazují.",
     body
   }));
+})();
+
+/* Cermat */
+(function cermatPages() {
+  const R = "../";
+  const cardSubject = (exam, subject, rel) => `<a class="card cermat-card" href="${rel}${cermatSubjectUrl(exam, subject)}">
+    <span class="tag" style="background:${SUBJ[subject.subjectKey].c}">${esc(subject.title)}</span>
+    <h3>${esc(subject.shortTitle)}</h3>
+    <p>${esc(subject.lead)}</p>
+    <span class="meta">${esc(subject.duration)} · ${esc(subject.points)} · ${subject.groups.length} okruhů</span>
+  </a>`;
+
+  const indexBody = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Cermat</div>
+  <div class="page-title"><h1>Cermat a Mapa učení</h1>
+  <p class="lead">Přijímačky nejsou samostatný předmět. Tady je vidět, která témata z matematiky a češtiny se v jednotné přijímací zkoušce typicky potkávají a jak je trénovat bez náhodného listování testy.</p></div>
+  <div class="infobox"><b>Princip:</b> zadání a klíče patří na oficiální web Cermatu. Mapa učení ukazuje dovednosti za úlohami, typické pasti a odkazy zpět na učivo.</div>
+  ${CERMAT.exams.map(exam => `<section class="section">
+    <div class="sec-head"><h2>${esc(exam.title)}</h2><a class="more" href="${R}${cermatExamUrl(exam)}">Přehled →</a></div>
+    <p class="lead small-lead">${esc(exam.desc)}</p>
+    <div class="cards">${exam.subjects.map(subject => cardSubject(exam, subject, R)).join("")}</div>
+  </section>`).join("")}`;
+  write("cermat/index.html", layout({
+    path: "cermat/", nav: "cermat",
+    title: "Cermat a přijímačky podle témat | Mapa učení",
+    desc: "Vazby mezi jednotnou přijímací zkouškou Cermatu a tématy z matematiky a češtiny na Mapě učení.",
+    body: indexBody
+  }));
+
+  CERMAT.exams.forEach(exam => {
+    const examR = "../../";
+    const examBody = `
+    <div class="crumbs"><a href="${examR}">Mapa učení</a> › <a href="${examR}cermat/">Cermat</a> › ${esc(exam.label)}</div>
+    <div class="page-title"><h1>${esc(exam.title)}</h1><p class="lead">${esc(exam.desc)}</p></div>
+    <div class="cards">${exam.subjects.map(subject => cardSubject(exam, subject, examR)).join("")}</div>
+    <div class="infobox"><b>Jak používat:</b> nejdřív najděte okruh, kde dítě ztrácí body, pak otevřete navázaná témata. Celý test nanečisto má smysl hlavně tehdy, když po něm následuje rozbor chyb.</div>`;
+    write(`${cermatExamUrl(exam)}index.html`, layout({
+      path: cermatExamUrl(exam), nav: "cermat",
+      title: `${exam.title} podle témat | Mapa učení`,
+      desc: cut(exam.desc),
+      body: examBody
+    }));
+
+    exam.subjects.forEach(subject => {
+      const subjectR = "../../../";
+      const subjectColor = SUBJ[subject.subjectKey].c;
+      const groupCard = group => {
+        const linkedSkills = group.skillIds.map(byId).filter(Boolean);
+        return `<section class="cermat-group" id="${esc(group.id)}">
+          <div class="cermat-group-head">
+            <span class="tag" style="background:${subjectColor}">${esc(subject.shortTitle)}</span>
+            <h2>${esc(group.title)}</h2>
+          </div>
+          <p>${esc(group.why)}</p>
+          <div class="cermat-grid">
+            <div>
+              <b>Typické úlohy</b>
+              <ul>${group.typicalTasks.map(t => `<li>${esc(t)}</li>`).join("")}</ul>
+            </div>
+            <div>
+              <b>Na co si dát pozor</b>
+              <p>${esc(group.watchOut)}</p>
+            </div>
+          </div>
+          <div class="mini-cards">${linkedSkills.map(s => `<a href="${subjectR}${skillUrl(s)}"><span>${s.r}. ročník</span><b>${esc(s.t)}</b></a>`).join("")}</div>
+        </section>`;
+      };
+      const subjectBody = `
+      <div class="crumbs"><a href="${subjectR}">Mapa učení</a> › <a href="${subjectR}cermat/">Cermat</a> › <a href="${subjectR}${cermatExamUrl(exam)}">${esc(exam.label)}</a> › ${esc(subject.title)}</div>
+      <div class="page-title cermat-title">
+        <span class="pill ${subject.subjectKey === "m" ? "p1" : "p2"}">${esc(subject.duration)} · ${esc(subject.points)}</span>
+        <h1>${esc(subject.title)} · Cermat ${esc(exam.label)}</h1>
+        <p class="lead">${esc(subject.lead)}</p>
+      </div>
+      <div class="cermat-actions">
+        ${subject.officialLinks.map(link => `<a href="${esc(link.url)}">${esc(link.label)} →</a>`).join("")}
+      </div>
+      <section class="section cermat-overview">
+        <div class="sec-head"><h2>Okruhy v testu</h2><span class="cnt">${subject.groups.length} okruhů · ${new Set(subject.groups.flatMap(g => g.skillIds)).size} navázaných témat</span></div>
+        <div class="cermat-toc">${subject.groups.map(group => `<a href="#${esc(group.id)}">${esc(group.title)}</a>`).join("")}</div>
+      </section>
+      ${subject.groups.map(groupCard).join("")}
+      <section class="section">
+        <div class="sec-head"><h2>Jak trénovat</h2></div>
+        <div class="practice-list">${subject.training.map(t => `<div>${esc(t)}</div>`).join("")}</div>
+      </section>
+      <div class="infobox"><b>Právně čistě:</b> konkrétní testy, záznamové archy a klíče jsou na webu Cermatu. Tady mapujeme dovednosti a strategii, ne kopie testových úloh.</div>`;
+      write(`${cermatSubjectUrl(exam, subject)}index.html`, layout({
+        path: cermatSubjectUrl(exam, subject), nav: "cermat",
+        title: `${subject.title} k přijímačkám Cermat · ${exam.label} | Mapa učení`,
+        desc: cut(subject.lead),
+        body: subjectBody
+      }));
+    });
+  });
 })();
 
 /* Kalendář */
@@ -524,7 +638,11 @@ fs.mkdirSync(path.join(OUT, "assets"), { recursive: true });
   fs.copyFileSync(path.join(__dirname, "assets", f), path.join(OUT, "assets", f)));
 fs.writeFileSync(path.join(OUT, ".nojekyll"), "", "utf8");
 
+const cermatUrls = ["cermat/"]
+  .concat(CERMAT.exams.map(cermatExamUrl))
+  .concat(CERMAT.exams.flatMap(exam => exam.subjects.map(subject => cermatSubjectUrl(exam, subject))));
 const urls = ["", "predmety/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/"]
+  .concat(cermatUrls)
   .concat(Array.from({ length: 9 }, (_, i) => `rocnik/${i + 1}/`))
   .concat(SKILLS.map(skillUrl));
 fs.writeFileSync(path.join(OUT, "sitemap.xml"),
