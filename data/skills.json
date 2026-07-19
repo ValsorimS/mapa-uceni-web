@@ -663,13 +663,13 @@
   "r": 7,
   "p": "vz",
   "t": "Nemoci, prevence a odborná pomoc",
-  "co": "Žák rozumí běžným, přenosným i civilizačním nemocem, preventivnímu chování, léčbě a tomu, kdy zdravotní problém řešit s dospělým nebo odborníkem.",
+  "co": "Žák rozumí běžným, přenosným i civilizačním nemocem, preventivnímu chování, léčbě a tomu, kdy zdravotní problém řešit s dospělým nebo odborníkem. Nejde o memorování diagnóz, ale o rozhodování: co zvládnu režimem, kdy potřebuji lékaře a jak chránit sebe i okolí.",
   "jak": [
    "Uvede preventivní chování u běžných a přenosných nemocí.",
    "Rozliší, kdy stačí režimové opatření a kdy vyhledat pomoc.",
    "Svěří se se zdravotním problémem a ví, kam se obrátit."
   ],
-  "dal": "Dospívání, vztahy, sexualita a odpovědné chování.",
+  "dal": "Na prevenci navazuje téma dospívání, vztahů, sexuality a odpovědného chování, kde dítě znovu řeší zdraví, hranice a vyhledání pomoci.",
   "dalId": "vz8-dospivani-sexualita",
   "rvp": "RVP ZV · Výchova ke zdraví · Zdravý způsob života a péče o zdraví.",
   "doma": [
@@ -709,13 +709,13 @@
   "r": 8,
   "p": "vz",
   "t": "Stres, regenerace a duševní hygiena",
-  "co": "Žák se učí rozpoznat únavu a stres, používat kompenzační a relaxační techniky, regenerovat organismus a využívat sociální dovednosti, které pomáhají předcházet stresovým situacím.",
+  "co": "Žák se učí rozpoznat únavu a stres, používat kompenzační a relaxační techniky, regenerovat organismus a využívat sociální dovednosti, které pomáhají předcházet stresovým situacím. Důležité je, aby stres nebral jen jako osobní selhání, ale jako signál k úpravě režimu, komunikaci a hledání podpory.",
   "jak": [
    "Rozpozná únavu a stresové signály.",
    "Použije jednoduchou relaxační nebo kompenzační techniku.",
    "Navrhne, co mu pomáhá regenerovat a předcházet přetížení."
   ],
-  "dal": "Závislosti, manipulace, agrese a sociálně patologické jevy.",
+  "dal": "Na duševní hygienu navazuje prevence závislostí, manipulace a rizikového chování, kde se ukazuje, jak stres a tlak okolí ovlivňují rozhodování.",
   "dalId": "vz8-rizika-zavislosti",
   "rvp": "RVP ZV · Výchova ke zdraví · Osobnostní a sociální rozvoj.",
   "doma": [
@@ -3149,13 +3149,13 @@
   "r": 8,
   "p": "fy",
   "t": "Práce, výkon, energie a teplo",
-  "co": "Fyzika 8. ročníku obvykle pokrývá mechanickou práci a výkon, polohovou a pohybovou energii, přeměny energie, vnitřní energii, teplo, skupenské přeměny a energetické zdroje.",
+  "co": "Fyzika 8. ročníku obvykle pokrývá mechanickou práci a výkon, polohovou a pohybovou energii, přeměny energie, vnitřní energii, teplo, skupenské přeměny a energetické zdroje. Žák se učí spojit vzorce s reálnými situacemi: zvedání břemene, jízda na kole, ohřívání vody nebo úspora energie doma.",
   "jak": [
    "Spočítá práci a výkon ve školních úlohách.",
    "Popíše přeměny energie na praktickém příkladu.",
    "Vysvětlí rozdíl mezi teplem a teplotou a porovná výhody energetických zdrojů."
   ],
-  "dal": "Zvukové děje a ochrana před hlukem.",
+  "dal": "Po energii následují zvukové děje a ochrana před hlukem, kde se znovu pracuje s přenosem energie, prostředím a dopadem na zdraví.",
   "dalId": "fy8-zvuk",
   "rvp": "RVP ZV · Fyzika · Energie.",
   "doma": [
@@ -3340,13 +3340,13 @@
   "r": 8,
   "p": "z",
   "t": "Obyvatelstvo, sídla a urbanizace",
-  "co": "Společenský zeměpis začíná obyvatelstvem: rozmístění populace, hustota zalidnění, migrace, věková struktura, funkce lidských sídel, města, venkov a urbanizace.",
+  "co": "Společenský zeměpis začíná obyvatelstvem: rozmístění populace, hustota zalidnění, migrace, věková struktura, funkce lidských sídel, města, venkov a urbanizace. Žák se učí číst mapy a data tak, aby pochopil, proč lidé žijí právě tam, jak se mění města a jak sídla ovlivňují dopravu, práci i služby.",
   "jak": [
    "Posoudí prostorovou organizaci světové populace na mapě nebo datech.",
    "Vysvětlí, jak přírodní podmínky souvisejí s funkcí a polohou sídel.",
    "Pojmenuje základní geografické znaky sídel."
   ],
-  "dal": "Světové hospodářství, zdroje, státy a geopolitika.",
+  "dal": "Na obyvatelstvo a sídla navazuje světové hospodářství, zdroje, státy a geopolitika, protože rozmístění lidí úzce souvisí s prací, dopravou, energií a mocí.",
   "dalId": "z8-hospodarstvi-politika",
   "rvp": "RVP ZV · Zeměpis · Společenské a hospodářské prostředí.",
   "doma": [
@@ -3660,13 +3660,13 @@
   "r": 9,
   "p": "prir",
   "t": "Neživá příroda: horniny, děje a klima",
-  "co": "Devátý ročník přírodopisu patří neživé přírodě: nerosty, horniny, geologický oběh, vnitřní a vnější geologické děje, voda, půda, počasí, podnebí a mimořádné přírodní události.",
+  "co": "Devátý ročník přírodopisu patří neživé přírodě: nerosty, horniny, geologický oběh, vnitřní a vnější geologické děje, voda, půda, počasí, podnebí a mimořádné přírodní události. Smyslem je vidět Zemi jako proměnlivý systém, ve kterém horniny, voda, půda a klima ovlivňují krajinu i život lidí.",
   "jak": [
    "Rozpozná vybrané nerosty a horniny podle vlastností a pomůcek.",
    "Rozliší vnitřní a vnější geologické děje a geologický oběh hornin.",
    "Vysvětlí vliv počasí a podnebí na ekosystémy a rizika mimořádných událostí."
   ],
-  "dal": "Dědičnost a genetika jako závěrečné propojení biologie.",
+  "dal": "Na neživou přírodu navazuje dědičnost a genetika jako závěrečné propojení biologie; společně ukazují, jak podmínky prostředí a vlastnosti organismů formují život.",
   "dalId": "prir9-genetika",
   "rvp": "RVP ZV · Přírodopis · Neživá příroda.",
   "doma": [
@@ -4449,13 +4449,13 @@
   "r": 8,
   "p": "ch",
   "t": "Směsi, roztoky, voda a vzduch",
-  "co": "Směsi patří mezi nejpraktičtější chemická témata: různorodé směsi, stejnorodé roztoky, koncentrace, hmotnostní zlomek, filtrace, odpařování, krystalizace, destilace, čistota vody a vzduchu.",
+  "co": "Směsi patří mezi nejpraktičtější chemická témata: různorodé směsi, stejnorodé roztoky, koncentrace, hmotnostní zlomek, filtrace, odpařování, krystalizace, destilace, čistota vody a vzduchu. Žák se učí poznat, co je v látce smíchané, jak složky oddělit a proč na koncentraci záleží v kuchyni, laboratoři i přírodě.",
   "jak": [
    "Rozliší směs a chemickou látku, roztok koncentrovanější a zředěnější.",
    "Vypočítá jednoduché složení roztoku a prakticky roztok připraví.",
    "Navrhne oddělení složek směsi a vysvětlí znečištění vody a vzduchu."
   ],
-  "dal": "Atomy, molekuly, prvky a periodická tabulka.",
+  "dal": "Po směsích přichází atomy, molekuly, prvky a periodická tabulka, tedy přechod od viditelných látek k částicovému vysvětlení chemie.",
   "dalId": "ch8-castice-prvky",
   "rvp": "RVP ZV · Chemie · Směsi.",
   "doma": [
