@@ -1043,10 +1043,100 @@ SKILLS.forEach(s => {
 /* Pomoc a životní situace */
 (function pomocHub() {
   const R = "../";
+  const helpChoices = [
+    {
+      id: "tempo",
+      title: "Dítě nestíhá tempo",
+      desc: "Práce mu trvá dlouho, nestíhá testy nebo končí úkoly pozdě večer.",
+      main: { href: "rodicovske-cesty/nestiha-tempo/", label: "Rodičovská cesta", title: "Dítě nestíhá tempo", text: "Nejdřív zjistit, kde se čas ztrácí: čtení, psaní, počítání nebo rozhodování." },
+      skillIds: ["vz8-stres-dusevni-hygiena", "cj2-cteni", "m2-cas-data"],
+      teacher: "Když dítě pravidelně nedokončuje práci i při porozumění učivu.",
+      advisory: "Poradnu řešte, pokud tempo dlouhodobě zasahuje víc předmětů nebo psychickou pohodu.",
+      search: "nestíhá tempo"
+    },
+    {
+      id: "matematika",
+      title: "Bojí se matematiky",
+      desc: "U matematiky zamrzá, brečí, vzdává se nebo říká, že na ni nemá hlavu.",
+      main: { href: "rodicovske-cesty/boji-se-matematiky/", label: "Rodičovská cesta", title: "Dítě se bojí matematiky", text: "Vrátit se k jednomu konkrétnímu kroku, ne přidávat další příklady naslepo." },
+      skillIds: ["m2-nasobilka", "m5-zlomky", "m9-rovnice"],
+      teacher: "Když dítě zamrzá u testů nebo opakuje stejný typ chyby napříč tématy.",
+      advisory: "Poradna dává smysl, když se strach z matematiky mění v dlouhodobou úzkost nebo vyhýbání škole.",
+      search: "bojí se matematiky"
+    },
+    {
+      id: "cteni",
+      title: "Špatně čte",
+      desc: "Čtení bere moc energie, dítě ztrácí smysl textu nebo odmítá číst nahlas.",
+      main: { href: "rodicovske-cesty/spatne-cte/", label: "Rodičovská cesta", title: "Dítě špatně čte", text: "Netlačit jen na rychlost. Oddělit techniku čtení od porozumění textu." },
+      skillIds: ["cj1-slabiky", "cj2-cteni", "cj5-literatura"],
+      teacher: "Když čtení brzdí i zadání v matematice, prvouce nebo testech.",
+      advisory: "PPP zvažte, pokud potíže se čtením trvají přes cílený trénink a výrazně zasahují školu.",
+      search: "špatně čte"
+    },
+    {
+      id: "zapis",
+      title: "Řešíme zápis nebo odklad",
+      desc: "Nejste si jistí školní zralostí, zápisem nebo tím, jestli má odklad smysl.",
+      main: { href: "situace/zapis-do-1-tridy/", label: "Situace", title: "Zápis do 1. třídy", text: "Podívat se na řeč, samostatnost, pozornost, motoriku a základní představy o množství." },
+      skillIds: ["cj1-komunikace", "cj1-psani", "m1-rada"],
+      teacher: "Ptejte se školy nebo školky, co přesně dítěti v připravenosti chybí.",
+      advisory: "PPP má smysl, pokud se rozhodujete o odkladu nebo jsou potíže výrazné ve více oblastech.",
+      search: "zápis odklad"
+    },
+    {
+      id: "druhy-stupen",
+      title: "Přecházíme na 2. stupeň",
+      desc: "Přibyli učitelé, testy, domácí příprava a dítě se hůř organizuje.",
+      main: { href: "situace/prechod-1-2-stupen/", label: "Situace", title: "Přechod z 1. na 2. stupeň", text: "Rozlišit, jestli problém leží v učivu, organizaci, tempu nebo adaptaci." },
+      skillIds: ["m5-zlomky", "m6-desetinna", "ov6-clovek-osobnost"],
+      teacher: "Požádejte o jednu až dvě priority, které teď rozhodují o tom, jestli se dítě chytí.",
+      advisory: "Poradnu řešte, pokud se potíže po adaptačním období nelepší nebo výrazně zasahují psychiku.",
+      search: "přechod na druhý stupeň"
+    },
+    {
+      id: "prijimacky",
+      title: "Řešíme přijímačky",
+      desc: "Dítě se připravuje na osmileté gymnázium nebo střední školu.",
+      main: { href: "cermat/", label: "Cermat", title: "Cermat příprava", text: "Nejdřív rozlišit okruhy a typy chyb, potom trénovat testy na čas." },
+      skillIds: ["mil5-gympl", "mil9-prijimacky", "cj9-pravopis", "m9-logika-prostor"],
+      teacher: "Ptejte se, které typy úloh dítěti berou body a jak je škola doporučuje trénovat.",
+      advisory: "Poradna není běžná součást přijímaček, ale dává smysl při výrazných obtížích, úpravách podmínek nebo dlouhodobém stresu.",
+      search: "přijímačky cermat"
+    },
+    {
+      id: "nechce-do-skoly",
+      title: "Nechce chodit do školy",
+      desc: "Objevuje se odpor, strach, bolesti břicha, pláč nebo vyhýbání škole.",
+      main: { href: "rodicovske-cesty/nechce-do-skoly/", label: "Rodičovská cesta", title: "Dítě nechce chodit do školy", text: "Neoznačit to rychle za lenost. Zmapovat strach, vztahy, přetížení a konkrétní situace." },
+      skillIds: ["vz6-vztahy-komunita", "vz8-stres-dusevni-hygiena", "vz9-bezpeci-prvni-pomoc"],
+      teacher: "Mluvte se školou hned, pokud dítě mluví o strachu, izolaci, konfliktu nebo bezpečí.",
+      advisory: "PPP, SPC nebo další odbornou pomoc řešte, pokud se vyhýbání škole opakuje nebo se zhoršuje psychický stav.",
+      search: "nechce do školy"
+    }
+  ].map(choice => ({
+    ...choice,
+    skills: choice.skillIds.map(byId).filter(Boolean).map(s => ({
+      title: s.t,
+      href: skillUrl(s),
+      tag: SUBJ[s.p].n,
+      color: SUBJ[s.p].c,
+      lead: s.co.slice(0, s.co.indexOf(".") + 1)
+    }))
+  }));
+  const choiceButtons = helpChoices.map(choice => `<button class="choice-btn" type="button" data-choice="${esc(choice.id)}">
+    <b>${esc(choice.title)}</b><span>${esc(choice.desc)}</span>
+  </button>`).join("");
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Pomoc</div>
   <div class="page-title"><h1>Pomoc pro rodiče</h1>
   <p class="lead">Praktické rozcestníky mimo osnovu: když dítě nestíhá, když se opakuje konkrétní problém nebo když rodina řeší důležitý školní přechod.</p></div>
+  <section class="section help-chooser">
+    <div class="sec-head"><h2>Co právě řešíte?</h2></div>
+    <div class="infobox"><b>Bez ukládání:</b> výběr se nikam neposílá ani neukládá. Jen na této stránce ukáže vhodný další krok.</div>
+    <div class="choice-grid">${choiceButtons}</div>
+    <div class="chooser-result" id="help-result" hidden></div>
+  </section>
   <div class="cards">
     <a class="card" href="${R}kdyz-dite-nestiha/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Když dítě nestíhá</h3><p>Jak zmapovat problém, zmenšit tlak a domluvit podporu doma, se školou nebo poradnou.</p></a>
     <a class="card" href="${R}rodicovske-cesty/"><span class="tag" style="background:var(--green)">Cesty</span><h3>Rodičovské cesty</h3><p>Rozcestníky podle problému: čtení, učení, matematika, tempo, pravopis nebo odpor ke škole.</p></a>
@@ -1056,11 +1146,37 @@ SKILLS.forEach(s => {
     <div class="sec-head"><h2>Nejčastější situace</h2><a class="more" href="${R}situace/">Všechny situace →</a></div>
     <div class="cards">${SITUATIONS.slice(0, 3).map(situation => situationCard(situation, R)).join("")}</div>
   </section>`;
+  const extraScript = `<script>
+(function(){
+  "use strict";
+  var choices=${JSON.stringify(helpChoices)};
+  var result=document.getElementById("help-result");
+  var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");};
+  var render=function(choice){
+    result.hidden=false;
+    result.innerHTML='<div class="sec-head"><h2>Doporučený další krok</h2><a class="more" href="../hledat/?q='+encodeURIComponent(choice.search)+'">Hledat podobně →</a></div>'
+      +'<div class="cards">'
+      +'<a class="card" href="../'+choice.main.href+'"><span class="tag" style="background:var(--green)">'+esc(choice.main.label)+'</span><h3>'+esc(choice.main.title)+'</h3><p>'+esc(choice.main.text)+'</p></a>'
+      +choice.skills.map(function(s){return '<a class="card" href="../'+s.href+'"><span class="tag" style="background:'+s.color+'">'+esc(s.tag)+'</span><h3>'+esc(s.title)+'</h3><p>'+esc(s.lead)+'</p></a>';}).join("")
+      +'</div>'
+      +'<div class="cards chooser-notes"><div class="gl"><b>Kdy mluvit s učitelem</b><p>'+esc(choice.teacher)+'</p></div><div class="gl"><b>Kdy řešit poradnu</b><p>'+esc(choice.advisory)+'</p></div></div>';
+    result.scrollIntoView({behavior:"smooth",block:"nearest"});
+  };
+  document.querySelectorAll(".choice-btn").forEach(function(btn){
+    btn.addEventListener("click",function(){
+      document.querySelectorAll(".choice-btn").forEach(function(other){other.classList.remove("active");});
+      btn.classList.add("active");
+      var choice=choices.find(function(item){return item.id===btn.getAttribute("data-choice");});
+      if(choice)render(choice);
+    });
+  });
+})();
+</script>`;
   write("pomoc/index.html", layout({
     path: "pomoc/", nav: "pomoc",
     title: "Pomoc pro rodiče | Mapa učení",
     desc: "Rodičovská pomoc mimo osnovu: dítě nestíhá, rodičovské cesty podle problému a životní situace ve škole.",
-    body
+    body, extraScript
   }));
 })();
 
