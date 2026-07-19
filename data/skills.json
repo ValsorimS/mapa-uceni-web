@@ -315,10 +315,10 @@
   "co": "Žák používá jednoduché nástroje k doprovodu i reprodukci motivů, zkouší předehru, mezihru, dohru a elementární improvizaci. Učí se, že hudba má pravidla, ale dovoluje vlastní nápad.",
   "jak": [
    "Doprovodí píseň jednoduchým ostinatem nebo rytmem.",
-   "Zopakuje krátký hudební motiv.",
+   "Zopakuje krátký hudební motiv podle sluchu nebo zápisu.",
    "Vymyslí drobnou předehru, mezihru nebo zakončení písně."
   ],
-  "dal": "Poslech, hudební forma a pohybové ztvárnění hudby.",
+  "dal": "Na doprovod a improvizaci navazuje poslech, hudební forma a pohybové ztvárnění hudby, kde dítě lépe slyší stavbu skladby.",
   "dalId": "hv5-poslech-forma-pohyb",
   "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 2. období.",
   "doma": [
@@ -754,13 +754,14 @@
   "r": 9,
   "p": "vz",
   "t": "Bezpečí, první pomoc a mimořádné události",
-  "co": "Závěr výchovy ke zdraví patří bezpečnému chování v dopravě a krizových situacích, předcházení ohrožení zdraví, adekvátní první pomoci a ochraně při mimořádných událostech.",
+  "co": "Závěr výchovy ke zdraví patří bezpečnému chování v dopravě a krizových situacích, předcházení ohrožení zdraví, adekvátní první pomoci a ochraně při mimořádných událostech. Žák si má odnést praktický postup: zastavit se, vyhodnotit riziko, přivolat pomoc a udělat jen to, co odpovídá jeho možnostem.",
   "jak": [
    "Chová se odpovědně v rizikových situacích silniční a železniční dopravy.",
    "Poskytne adekvátní první pomoc podle situace a svých možností.",
    "Uplatní způsoby ochrany v modelových situacích ohrožení a mimořádných událostí."
   ],
   "dal": "Navazuje praktický život: zdraví, bezpečí, vztahy a odpovědnost po základní škole.",
+  "dalId": "mil9-ukonceni",
   "rvp": "RVP ZV · Výchova ke zdraví · Bezpečí, první pomoc a mimořádné události.",
   "doma": [
    "Zopakujte tísňová čísla, adresu, stabilizovanou polohu a kdy volat dospělého.",
@@ -854,7 +855,7 @@
   "r": 4,
   "p": "tv",
   "t": "Fair play, pravidla a organizace her",
-  "co": "Tělocvik učí i sociální dovednosti: fair play, pravidla, respekt, role hráče a organizátora, základní tělocvičné názvosloví a schopnost uspořádat jednoduchou soutěž.",
+  "co": "Tělocvik učí i sociální dovednosti: fair play, pravidla, respekt, role hráče a organizátora, základní tělocvičné názvosloví a schopnost uspořádat jednoduchou soutěž. Dítě se učí vyhrát bez ponižování, prohrát bez výbuchu a domluvit se ve skupině.",
   "jak": [
    "Dodržuje pravidla her a jedná v duchu fair play.",
    "Používá základní tělocvičné názvosloví a cvičí podle jednoduchého popisu.",
@@ -878,7 +879,7 @@
   "r": 5,
   "p": "tv",
   "t": "Zdravotní a vyrovnávací cvičení",
-  "co": "Zdravotní tělesná výchova a korektivní cvičení učí správné držení těla, speciální a vyrovnávací cviky, kompenzaci jednostranné zátěže a respekt k vlastním oslabením nebo kontraindikacím.",
+  "co": "Zdravotní tělesná výchova a korektivní cvičení učí správné držení těla, speciální a vyrovnávací cviky, kompenzaci jednostranné zátěže a respekt k vlastním oslabením nebo kontraindikacím. Smyslem není výkon, ale bezpečný pohyb, prevence bolesti a schopnost poznat, kdy je potřeba cvičení upravit.",
   "jak": [
    "Zařazuje korektivní a vyrovnávací cvičení do pohybového režimu.",
    "Zvládá základní techniku speciálních cvičení a koriguje ji podle pokynů.",
@@ -1029,7 +1030,7 @@
   "r": 2,
   "p": "csp",
   "t": "Stavebnice, skládání a jednoduché modely",
-  "co": "Konstrukční činnosti v mladším školním věku: plošné a prostorové stavebnice, skládání modelů, práce s díly, spojování, rozebírání a porovnávání, co drží pohromadě a proč.",
+  "co": "Konstrukční činnosti v mladším školním věku: plošné a prostorové stavebnice, skládání modelů, práce s díly, spojování, rozebírání a porovnávání, co drží pohromadě a proč. Dítě si přitom trénuje prostorovou představivost, trpělivost, jemnou motoriku a schopnost opravit konstrukci po neúspěšném pokusu.",
   "jak": [
    "Sestaví jednoduchý model ze stavebnice.",
    "Rozebere model bez ničení dílů a vrátí je na místo.",
@@ -1051,7 +1052,7 @@
   "r": 2,
   "p": "csp",
   "t": "Pozorování přírody a péče o rostliny",
-  "co": "Dítě si všímá změn v přírodě, pěstuje nenáročné rostliny a učí se, že péče má pravidelnost: světlo, voda, půda, čas a trpělivost.",
+  "co": "Dítě si všímá změn v přírodě, pěstuje nenáročné rostliny a učí se, že péče má pravidelnost: světlo, voda, půda, čas a trpělivost. Z jednoduchého zalévání se postupně stává pozorování příčin a následků: co se stane, když rostlina nemá vodu, světlo nebo vhodné místo.",
   "jak": [
    "Pozoruje přírodu a jednoduše zaznamená, co se změnilo.",
    "Pečuje o nenáročnou rostlinu ve třídě nebo doma.",
@@ -1074,7 +1075,7 @@
   "r": 3,
   "p": "csp",
   "t": "Jednoduché stolování a chování u stolu",
-  "co": "Základy přípravy pokrmů na 1. období: připravit stůl, chovat se u jídla ohleduplně, vnímat čistotu, pořádek a drobné domácí rituály kolem stolování.",
+  "co": "Základy přípravy pokrmů na 1. období: připravit stůl, chovat se u jídla ohleduplně, vnímat čistotu, pořádek a drobné domácí rituály kolem stolování. Dítě se učí, že společné jídlo není jen talíř a příbor, ale také domluva, pomoc ostatním a odpovědnost za úklid.",
   "jak": [
    "Připraví tabuli pro jednoduché stolování.",
    "Používá základní pravidla vhodného chování u stolu.",
@@ -1120,7 +1121,7 @@
   "r": 4,
   "p": "csp",
   "t": "Pomůcky, nástroje a bezpečné pracovní místo",
-  "co": "Žák se učí vybrat vhodné pracovní pomůcky a nástroje podle materiálu, pracovat bezpečně, držet pořádek a vědět, co udělat při drobném úrazu.",
+  "co": "Žák se učí vybrat vhodné pracovní pomůcky a nástroje podle materiálu, pracovat bezpečně, držet pořádek a vědět, co udělat při drobném úrazu. Důležité je plánování práce předem: připravit místo, zvolit pomůcku, pracovat soustředěně a po dokončení vše uklidit.",
   "jak": [
    "Vybere pomůcku, nástroj nebo náčiní podle použitého materiálu.",
    "Udržuje pořádek na pracovním místě.",
@@ -1143,7 +1144,7 @@
   "r": 4,
   "p": "csp",
   "t": "Montáž, demontáž a práce podle náčrtu",
-  "co": "Konstrukční činnosti ve 2. období: stavebnice, jednoduchá montáž a demontáž, práce podle slovního návodu, předlohy nebo náčrtu a bezpečné používání pomůcek.",
+  "co": "Konstrukční činnosti ve 2. období: stavebnice, jednoduchá montáž a demontáž, práce podle slovního návodu, předlohy nebo náčrtu a bezpečné používání pomůcek. Žák už jen neskládá podle obrázku, ale začíná chápat postup, pořadí kroků, kontrolu výsledku a opravu chyby.",
   "jak": [
    "Provede jednoduchou montáž a demontáž stavebnice.",
    "Pracuje podle návodu, předlohy nebo jednoduchého náčrtu.",
@@ -1192,10 +1193,10 @@
   "r": 5,
   "p": "csp",
   "t": "Kuchyně, jednoduchý pokrm a stolování",
-  "co": "Základy přípravy pokrmů: vybavení kuchyně, jednoduchý pokrm, nákup a skladování potravin, čistota pracovních ploch, stolování, společenské chování a bezpečnost v kuchyni.",
+  "co": "Základy přípravy pokrmů: vybavení kuchyně, jednoduchý pokrm, nákup a skladování potravin, čistota pracovních ploch, stolování, společenské chování a bezpečnost v kuchyni. Praktický smysl je jasný: dítě se učí připravit jednoduché jídlo tak, aby bylo bezpečné, čisté a použitelné pro ostatní.",
   "jak": [
    "Orientuje se v základním vybavení kuchyně.",
-   "Samostatně připraví jednoduchý pokrm.",
+   "Samostatně připraví jednoduchý pokrm podle domluveného postupu.",
    "Dodržuje pravidla stolování, hygienu, bezpečnost a první pomoc při úrazu v kuchyni."
   ],
   "dal": "Na 2. stupni se ČSP rozvětví do technických materiálů, konstruování, domácnosti, vaření, digitálních technologií a světa práce.",
@@ -1217,7 +1218,7 @@
   "r": 6,
   "p": "csp",
   "t": "Technické materiály, nářadí a pracovní postup",
-  "co": "Práce s technickými materiály na 2. stupni: dřevo, kov, plasty a kompozity, ruční opracování, výběr nástrojů, plánování práce, technická dokumentace a bezpečnost v dílně.",
+  "co": "Práce s technickými materiály na 2. stupni: dřevo, kov, plasty a kompozity, ruční opracování, výběr nástrojů, plánování práce, technická dokumentace a bezpečnost v dílně. Žák se učí převést nápad do postupu: změřit, naříznout, spojit, zkontrolovat a poučit se z nepřesnosti.",
   "jak": [
    "Provede jednoduchou práci s technickým materiálem a dodrží technologický postup.",
    "Vybere vhodný materiál, nástroj a nářadí pro jednoduchý technický úkol.",
@@ -1243,7 +1244,7 @@
   "r": 6,
   "p": "csp",
   "t": "Design, konstruování a ověřování modelů",
-  "co": "Žák sestavuje modely podle návodu, náčrtu, plánu nebo jednoduchého programu, navrhuje konstrukční prvky a zkouší jejich funkčnost, nosnost, stabilitu, montáž, demontáž a údržbu.",
+  "co": "Žák sestavuje modely podle návodu, náčrtu, plánu nebo jednoduchého programu, navrhuje konstrukční prvky a zkouší jejich funkčnost, nosnost, stabilitu, montáž, demontáž a údržbu. V popředí je technické myšlení: navrhnout řešení, ověřit ho, najít slabé místo a upravit konstrukci podle výsledku.",
   "jak": [
    "Sestaví model podle návodu, náčrtu, plánu nebo jednoduchého programu.",
    "Navrhne jednoduchý konstrukční prvek a ověří jeho funkčnost nebo stabilitu.",
