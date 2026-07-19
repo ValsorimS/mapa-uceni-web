@@ -1,0 +1,13 @@
+# Mapa učení
+
+Mapa učení je český statický web pro rodiče dětí na základní škole. Vysvětluje témata 1.–9. ročníku, RVP vazby, Cermat přípravu, rodičovské cesty, životní situace a zákonný rámec.
+
+Důležité vstupy:
+- https://www.mapa-uceni.cz/
+- https://www.mapa-uceni.cz/predmety/
+- https://www.mapa-uceni.cz/pomoc/
+- https://www.mapa-uceni.cz/cermat/
+- https://www.mapa-uceni.cz/rvp/
+- https://www.mapa-uceni.cz/audit/
+
+Obsah je orientační a nenahrazuje konzultaci s učitelem, školou ani poradenským zařízením.

@@ -161,10 +161,14 @@ a.card:hover{transform:translateY(-2px);border-color:var(--ink)}
   background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
   padding:14px 16px;margin:0 0 14px;box-shadow:var(--shadow)
 }
+.grade-guide{
+  background:var(--card);border:1.5px solid var(--line);border-left:5px solid var(--green);
+  border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 18px;margin:20px 0
+}
 .guide-phases{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:10px}
 .guide-phases div{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:10px}
 .guide-phases b{display:block;font-family:"Bitter",serif;font-size:.9rem;margin-bottom:3px}
-.guide-phases span,.subject-guide p{display:block;color:var(--muted);font-size:.9rem;line-height:1.4}
+.guide-phases span,.subject-guide p,.grade-guide p{display:block;color:var(--muted);font-size:.9rem;line-height:1.4}
 .grade-cermat{
   display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:center;
   background:var(--card);border:1.5px solid var(--line);border-left:5px solid var(--red);
@@ -333,6 +337,16 @@ ul.jak li::before{
 .coverage-tables th,.coverage-tables td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left}
 .coverage-tables th{font-weight:800;color:var(--ink)}
 .coverage-tables td{color:var(--muted)}
+.weekly-plan{padding:18px 0}
+.plan-output{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:16px}
+.plan-item{
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:16px;break-inside:avoid
+}
+.plan-item h3{font-size:1.02rem;margin:8px 0}
+.plan-item p{font-size:.9rem;color:var(--muted);margin-top:6px}
+.plan-item label{display:block;margin-top:10px;font-weight:700;font-size:.9rem}
+.plan-item input{margin-right:6px}
 .test-review{
   background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
   box-shadow:var(--shadow);padding:18px;margin:18px 0 22px
@@ -442,6 +456,12 @@ ul.jak li::before{
 .qualitybox div{background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:12px}
 .qualitybox b{font-family:"Bitter",serif;font-size:.92rem}
 .qualitybox p{font-size:.88rem;color:var(--muted);margin-top:5px;line-height:1.45}
+.check-questions{display:grid;gap:8px;max-width:680px}
+.check-questions label{
+  display:flex;gap:8px;align-items:flex-start;background:var(--paper);
+  border:1.5px solid var(--line);border-radius:8px;padding:10px 12px;font-size:.93rem;color:var(--muted)
+}
+.check-questions input{margin-top:5px;flex:none}
 .mini-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin-top:12px}
 .mini-cards a{
   text-decoration:none;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);
@@ -619,6 +639,7 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .grade-cermat{grid-template-columns:1fr}
   .grade-print-grid{grid-template-columns:1fr}
   .coverage-summary{grid-template-columns:repeat(2,1fr)}
+  .plan-output{grid-template-columns:1fr}
   nav{margin-left:0}
 }
 
@@ -647,8 +668,8 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .section,.cermat-dashboard,.print-plan,.test-review,.grade-print-plan{padding:8px 0;margin:0 0 10px;border:none;box-shadow:none;background:#fff}
   .sec-head{margin-bottom:6px}
   .sec-head h2{font-size:15pt}
-  .dashboard-subjects,.print-weeks,.grade-print-grid{grid-template-columns:1fr;gap:8px}
-  .dashboard-subject,.print-week,.print-subject,.cermat-group,.diagnostic-card,.plan-step,.history-item{
+  .dashboard-subjects,.print-weeks,.grade-print-grid,.plan-output{grid-template-columns:1fr;gap:8px}
+  .dashboard-subject,.print-week,.print-subject,.plan-item,.cermat-group,.diagnostic-card,.plan-step,.history-item{
     break-inside:avoid;border:1px solid #999;box-shadow:none;background:#fff;padding:10px;margin:0 0 8px
   }
   .dashboard-groups a{border:1px solid #ccc;background:#fff;padding:5px 7px}

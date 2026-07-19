@@ -54,6 +54,7 @@ const cermatSubjectUrl = (exam, subject) => `${cermatExamUrl(exam)}${subject.id}
 const supplementaryUrl = field => `doplnujici-obory/${field.id}/`;
 const parentPathUrl = parentPath => `rodicovske-cesty/${parentPath.id}/`;
 const situationUrl = situation => `situace/${situation.id}/`;
+const subjectUrl = p => `predmety/${slugify(SUBJ[p].n)}/`;
 
 const CERMAT_BY_SKILL = new Map();
 CERMAT.exams.forEach(exam => exam.subjects.forEach(subject => subject.groups.forEach(group => {
@@ -107,6 +108,26 @@ function layout(o) {
 <meta property="og:description" content="${esc(o.desc)}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="${canonical}">
+<meta property="og:site_name" content="Mapa učení">
+<meta property="og:image" content="${SITE_URL}/assets/favicon.svg">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: o.title,
+    description: o.desc,
+    url: canonical,
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Mapa učení",
+      url: SITE_URL + "/",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: SITE_URL + "/hledat/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  })}</script>
 <link rel="icon" type="image/svg+xml" href="${R}assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -691,7 +712,7 @@ function coverageDashboard(R) {
   const all = coverageStats(regular);
   const subjectRows = Object.keys(SUBJ)
     .filter(p => p !== "mil" && regular.some(s => s.p === p))
-    .map(p => coverageRow(SUBJ[p].n, coverageStats(regular.filter(s => s.p === p)), R, `predmety/#${p}`))
+    .map(p => coverageRow(SUBJ[p].n, coverageStats(regular.filter(s => s.p === p)), R, subjectUrl(p)))
     .join("");
   const gradeRows = Array.from({ length: 9 }, (_, i) => i + 1)
     .map(r => coverageRow(`${r}. ročník`, coverageStats(regular.filter(s => s.r === r)), R, `rocnik/${r}/`))
@@ -740,6 +761,45 @@ function gradePrintOverview(r, list, groups, R) {
   </section>`;
 }
 
+function gradeGuide(r, list, R) {
+  const regular = list.filter(s => s.p !== "mil");
+  const anchors = regular
+    .filter(s => s.quality)
+    .slice(0, 3);
+  const prev = r === 1
+    ? "začíná školní režim, samostatnost a první pravidelné učení"
+    : "přibývá samostatnosti a delších úkolů oproti minulému ročníku";
+  const surprise = r <= 3
+    ? "nejvíc rozhoduje pravidelný krátký trénink, ne dlouhé dohánění o víkendu"
+    : r <= 5
+      ? "učivo se rychleji propojuje mezi předměty a dítě už musí vysvětlit postup"
+      : "větší část práce stojí na organizaci, čtení zadání a průběžné přípravě";
+  const watch = r === 5 || r === 9
+    ? "pokud se objevuje dlouhodobý stres z přijímaček nebo opakovaná ztráta bodů ve stejném typu úloh"
+    : "pokud se stejný problém vrací ve více předmětech nebo dítě přestává zvládat běžný režim";
+  return `<section class="grade-guide">
+    <div class="sec-head"><h2>Co je letos důležité</h2><a class="more" href="${R}plan/">Můj plán →</a></div>
+    <div class="guide-phases">
+      <div><b>Hlavní změna</b><span>${esc(prev)}.</span></div>
+      <div><b>Co rodiče často překvapí</b><span>${esc(surprise)}.</span></div>
+      <div><b>Kdy zbystřit</b><span>${esc(watch)}.</span></div>
+    </div>
+    <p><b>Drží ročník:</b> ${anchors.map(s => `<a href="${R}${skillUrl(s)}">${esc(s.t)}</a>`).join(" · ")}</p>
+  </section>`;
+}
+
+function controlQuestions(s) {
+  const q = s.quality;
+  if (!q) return "";
+  const questions = [
+    q.childQuestion,
+    `Umí dítě říct, co by byla typická chyba u tématu „${s.t}“?`,
+    `Zvládne doma jeden krátký příklad nebo aktivitu bez dlouhého přemlouvání?`
+  ];
+  return `<p class="blockt">Rychlá kontrola porozumění</p>
+    <div class="check-questions">${questions.map((question, i) => `<label><input type="checkbox"> <span>${i + 1}. ${esc(question)}</span></label>`).join("")}</div>`;
+}
+
 /* ---------- stránky ---------- */
 /* Domů */
 (function home() {
@@ -765,6 +825,7 @@ function gradePrintOverview(r, list, groups, R) {
       <a class="card" href="pomoc/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Řeším konkrétní problém</h3><p>Rozcestník pro čtení, tempo, matematiku, pravopis, školu a životní situace.</p></a>
       <a class="card" href="cermat/"><span class="tag" style="background:var(--red)">Cermat</span><h3>Připravujeme přijímačky</h3><p>Okruhy, rozbor testu nanečisto, dashboard přípravy a tiskový plán.</p></a>
       <a class="card" href="rvp/"><span class="tag" style="background:var(--green)">RVP</span><h3>Potřebuji pravidla a rámec</h3><p>Pokrytí RVP, školní zákon, slovníček zkratek a vysvětlení ŠVP.</p></a>
+      <a class="card" href="plan/"><span class="tag" style="background:var(--blue)">Plán</span><h3>Chci plán na tento týden</h3><p>Tisknutelný přehled podle témat a Cermat okruhů uložených v tomto prohlížeči.</p></a>
     </div>
   </section>
   <section class="section" id="rocniky">
@@ -799,6 +860,7 @@ for (let r = 1; r <= 9; r++) {
   </div>
   ${cermatGradePanel(r, R)}
   ${situationGradePanel(r, R)}
+  ${gradeGuide(r, list, R)}
   ${gradePrintOverview(r, list.filter(s => s.p !== "mil"), groups.filter(p => p !== "mil"), R)}
   ${groups.map(p => {
     const items = list.filter(s => s.p === p);
@@ -868,6 +930,7 @@ SKILLS.forEach(s => {
     ${s.doma ? `<p class="blockt">Jak pomoci doma</p>
     <ul class="doma">${s.doma.map(j => `<li>${j}</li>`).join("")}</ul>` : ""}
     ${qualityDetail}
+    ${controlQuestions(s)}
     <p class="blockt">Co přijde dál</p>
     <div class="next">${s.dal}${nx ? ` <a href="${R}${skillUrl(nx)}">${nx.t} →</a>` : ""}</div>
     <div class="rvpbox">${prereq.length ? `<b>Na co navazuje:</b> ${prereq.map(x => `<a href="${R}${skillUrl(x)}">${x.t}</a>`).join(" · ")}<br><br>` : ""}<b>Kde to najdete v RVP:</b> ${rvpDetail}</div>
@@ -897,7 +960,7 @@ SKILLS.forEach(s => {
     const items = SKILLS.filter(s => s.p === p).sort((a, b) => a.r - b.r);
     if (!items.length) return "";
     return `<div class="subj" id="${esc(p)}">
-      <div class="subj-head"><span class="swatch" style="background:${SUBJ[p].c}"></span><h2>${SUBJ[p].n}</h2><span class="cnt">${items[0].r}.–${items[items.length - 1].r}. ročník</span></div>
+      <div class="subj-head"><span class="swatch" style="background:${SUBJ[p].c}"></span><h2>${SUBJ[p].n}</h2><span class="cnt">${items[0].r}.–${items[items.length - 1].r}. ročník</span><a class="more" href="${R}${p === "mil" ? "milniky/" : subjectUrl(p)}">Detail →</a></div>
       ${subjectGuide(p, items, R)}
       <div class="cards">${items.map(s => skillCard(s, R)).join("")}</div>
     </div>`;
@@ -909,6 +972,51 @@ SKILLS.forEach(s => {
     desc: "Všechny předměty 1.–9. ročníku ZŠ podle RVP ZV — od češtiny a matematiky po výchovy a svět práce. Témata seřazená tak, jak na sebe navazují.",
     body
   }));
+
+  Object.keys(SUBJ).filter(p => p !== "mil").forEach(p => {
+    const pageR = "../../";
+    const items = SKILLS.filter(s => s.p === p).sort((a, b) => a.r - b.r);
+    if (!items.length) return;
+    const stats = coverageStats(items);
+    const cermatItems = items.filter(s => CERMAT_BY_SKILL.has(s.id));
+    const linkedIds = new Set(items.map(s => s.id));
+    const paths = PPATHS.filter(path => path.skillIds.some(id => linkedIds.has(id)));
+    const situations = SITUATIONS.filter(situation => situation.skillIds.some(id => linkedIds.has(id)));
+    const essential = items.filter(s => s.quality).slice(0, 6);
+    const byGrade = Array.from(new Set(items.map(s => s.r))).map(r => {
+      const gradeItems = items.filter(s => s.r === r);
+      return `<section class="subj">
+        <div class="subj-head"><span class="swatch" style="background:${SUBJ[p].c}"></span><h2>${r}. ročník</h2><span class="cnt">${gradeItems.length} ${topicWord(gradeItems.length)}</span></div>
+        <div class="cards">${gradeItems.map(s => skillCard(s, pageR)).join("")}</div>
+      </section>`;
+    }).join("");
+    const body = `
+    <div class="crumbs"><a href="${pageR}">Mapa učení</a> › <a href="${pageR}predmety/">Předměty</a> › ${esc(SUBJ[p].n)}</div>
+    <div class="page-title"><h1>${esc(SUBJ[p].n)}</h1>
+    <p class="lead">Průvodce předmětem napříč ročníky: co se typicky láme, která témata drží další učení a kde se předmět potkává s rodičovskými problémy nebo Cermatem.</p></div>
+    <div class="metrics">
+      <div><b>${stats.total}</b><span>témat</span></div>
+      <div><b>${stats.rvp}</b><span>RVP vazeb</span></div>
+      <div><b>${stats.quality}</b><span>rodičovských vodítek</span></div>
+      <div><b>${cermatItems.length}</b><span>Cermat témat</span></div>
+    </div>
+    ${subjectGuide(p, items, pageR)}
+    <section class="section">
+      <div class="sec-head"><h2>Nejdůležitější témata</h2></div>
+      <div class="cards">${essential.map(s => skillCard(s, pageR)).join("")}</div>
+    </section>
+    ${paths.length ? `<section class="section"><div class="sec-head"><h2>Rodičovské cesty</h2></div><div class="cards">${paths.map(path => `<a class="card" href="${pageR}${parentPathUrl(path)}"><span class="tag" style="background:var(--green)">Cesta</span><h3>${esc(path.title)}</h3><p>${esc(path.lead)}</p></a>`).join("")}</div></section>` : ""}
+    ${situations.length ? `<section class="section"><div class="sec-head"><h2>Životní situace</h2></div><div class="cards">${situations.slice(0, 4).map(situation => situationCard(situation, pageR)).join("")}</div></section>` : ""}
+    ${cermatItems.length ? `<section class="section"><div class="sec-head"><h2>Vazba na Cermat</h2><span class="cnt">${cermatItems.length} ${topicWord(cermatItems.length)}</span></div><div class="cards">${cermatItems.map(s => skillCard(s, pageR)).join("")}</div></section>` : ""}
+    ${byGrade}
+    <div class="pager"><a href="${pageR}predmety/">← Všechny předměty</a><a href="${pageR}audit/">Pokrytí a audit →</a></div>`;
+    write(`${subjectUrl(p)}index.html`, layout({
+      path: subjectUrl(p), nav: "predmety",
+      title: `${SUBJ[p].n} na základní škole | Mapa učení`,
+      desc: cut(`${SUBJ[p].n}: průvodce tématy podle ročníků, rodičovská vodítka, RVP vazby a návaznosti.`),
+      body
+    }));
+  });
 })();
 
 /* Milníky a zkoušky */
@@ -1724,6 +1832,47 @@ SKILLS.forEach(s => {
   }));
 })();
 
+/* Můj plán */
+(function planPage() {
+  const R = "../";
+  const planItems = SKILLS.filter(s => s.p !== "mil").map(s => ({
+    id: s.id,
+    title: s.t,
+    url: skillUrl(s),
+    subject: SUBJ[s.p].n,
+    color: SUBJ[s.p].c,
+    grade: s.r,
+    question: s.quality?.childQuestion || "",
+    home: s.quality?.homeActivity || ""
+  }));
+  const cermatGroups = CERMAT.exams.flatMap(exam => exam.subjects.flatMap(subject => subject.groups.map(group => ({
+    key: `${exam.id}:${subject.id}:${group.id}`,
+    title: `${exam.label} · ${subject.shortTitle} · ${group.title}`,
+    url: cermatSubjectUrl(exam, subject) + `#${group.id}`,
+    skillIds: group.skillIds
+  }))));
+  const body = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Můj plán</div>
+  <div class="page-title"><h1>Můj plán na tento týden</h1>
+  <p class="lead">Tisknutelný přehled podle témat označených v tomto prohlížeči a Cermat okruhů označených jako Problém nebo Trénuju.</p></div>
+  <div class="infobox"><b>Soukromí:</b> stránka čte jen lokální stav v prohlížeči. Nic se neposílá na server a není potřeba účet.</div>
+  <section class="weekly-plan" data-weekly-plan>
+    <div class="sec-head"><h2>Doporučené kroky</h2><button class="printbtn" type="button" data-print>Vytisknout plán</button></div>
+    <div data-plan-summary class="noresults">Načítám lokální stav…</div>
+    <div data-plan-output></div>
+  </section>`;
+  const extraScript = `<script>
+window.MAPA_PLAN_ITEMS=${JSON.stringify(planItems)};
+window.MAPA_CERMAT_GROUPS=${JSON.stringify(cermatGroups)};
+</script>`;
+  write("plan/index.html", layout({
+    path: "plan/", nav: "pomoc",
+    title: "Můj plán na tento týden | Mapa učení",
+    desc: "Tisknutelný rodičovský plán podle lokálně označených témat a Cermat okruhů.",
+    body, extraScript
+  }));
+})();
+
 /* Hledat (klientské vyhledávání) */
 (function hledat() {
   const R = "../";
@@ -1827,6 +1976,22 @@ SKILLS.forEach(s => {
     lead: field.lead,
     txt: norm([field.title, field.shortTitle, field.lead, field.stage1, field.stage2, ...(field.benefits || []), ...(field.quality || []), field.watchOut].join(" "))
   }));
+  const subjectSearchItems = Object.keys(SUBJ).filter(p => p !== "mil").map(p => {
+    const items = SKILLS.filter(s => s.p === p);
+    return {
+      id: `subject-${p}`,
+      type: "subject",
+      url: subjectUrl(p),
+      title: SUBJ[p].n,
+      tag: "Předmět",
+      color: SUBJ[p].c,
+      meta: `${items.length} ${topicWord(items.length)}`,
+      p,
+      cermat: [],
+      lead: `Průvodce předmětem podle ročníků, návazností a rodičovských vodítek.`,
+      txt: norm([SUBJ[p].n, ...items.map(s => `${s.t} ${s.co}`)].join(" "))
+    };
+  });
   const pageSearchItems = [
     {
       id: "pomoc",
@@ -1838,6 +2003,17 @@ SKILLS.forEach(s => {
       meta: "rozcestník",
       lead: "Když dítě nestíhá, rodičovské cesty a praktické školní situace.",
       txt: norm("pomoc pro rodiče dítě nestíhá rodičovské cesty situace odklad zápis poradna škola")
+    },
+    {
+      id: "plan",
+      type: "help",
+      url: "plan/",
+      title: "Můj plán na tento týden",
+      tag: "Pomoc",
+      color: "var(--blue)",
+      meta: "tiskový plán",
+      lead: "Tisknutelný rodičovský plán podle lokálně označených témat a Cermat okruhů.",
+      txt: norm("můj plán týden tisk rodičovský plán checklist zvládnuto trénuju problém")
     },
     {
       id: "kdyz-dite-nestiha",
@@ -1900,6 +2076,7 @@ SKILLS.forEach(s => {
     .concat(situationSearchItems)
     .concat(cermatSearchItems)
     .concat(supplementarySearchItems)
+    .concat(subjectSearchItems)
     .concat(pageSearchItems);
   const searchData = `window.SEARCH=${JSON.stringify({ items: index, syn: SYN })};`;
   fs.mkdirSync(path.join(OUT, "assets"), { recursive: true });
@@ -2035,7 +2212,9 @@ const cermatUrls = ["cermat/"]
 const supplementaryUrls = ["doplnujici-obory/"].concat(SUPP.fields.map(supplementaryUrl));
 const parentPathUrls = ["rodicovske-cesty/"].concat(PPATHS.map(parentPathUrl));
 const situationUrls = ["situace/"].concat(SITUATIONS.map(situationUrl));
-const urls = ["", "predmety/", "pomoc/", "milniky/", "kdyz-dite-nestiha/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/", "audit/"]
+const subjectUrls = Object.keys(SUBJ).filter(p => p !== "mil").map(subjectUrl);
+const urls = ["", "predmety/", "pomoc/", "plan/", "milniky/", "kdyz-dite-nestiha/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/", "audit/"]
+  .concat(subjectUrls)
   .concat(supplementaryUrls)
   .concat(parentPathUrls)
   .concat(situationUrls)
@@ -2047,6 +2226,8 @@ fs.writeFileSync(path.join(OUT, "sitemap.xml"),
   urls.map(u => `  <url><loc>${SITE_URL}/${u}</loc></url>`).join("\n") + `\n</urlset>\n`, "utf8");
 fs.writeFileSync(path.join(OUT, "robots.txt"),
   `User-agent: *\nAllow: /\nDisallow: /hledat/\nSitemap: ${SITE_URL}/sitemap.xml\n`, "utf8");
+fs.writeFileSync(path.join(OUT, "llms.txt"),
+  `# Mapa učení\n\nMapa učení je český statický web pro rodiče dětí na základní škole. Vysvětluje témata 1.–9. ročníku, RVP vazby, Cermat přípravu, rodičovské cesty, životní situace a zákonný rámec.\n\nDůležité vstupy:\n- ${SITE_URL}/\n- ${SITE_URL}/predmety/\n- ${SITE_URL}/pomoc/\n- ${SITE_URL}/cermat/\n- ${SITE_URL}/rvp/\n- ${SITE_URL}/audit/\n\nObsah je orientační a nenahrazuje konzultaci s učitelem, školou ani poradenským zařízením.\n`, "utf8");
 
-console.log(`Hotovo: ${urls.length + 2} stránek → ${OUT}`);
+console.log(`Hotovo: ${urls.length + 3} stránek → ${OUT}`);
 console.log(`Sitemap a canonical používají: ${SITE_URL}  (změňte přes SITE_URL=... node build.js)`);

@@ -115,6 +115,41 @@
     b.addEventListener("click",function(){window.print();});
   });
 
+  document.querySelectorAll("[data-weekly-plan]").forEach(function(root){
+    var done=doneSet();
+    var statuses=cermatStatus();
+    var items=(window.MAPA_PLAN_ITEMS||[]);
+    var groups=(window.MAPA_CERMAT_GROUPS||[]);
+    var notDone=items.filter(function(item){return !done.has(item.id);});
+    var priorityIds=[];
+    groups.forEach(function(group){
+      var state=statuses[group.key];
+      if(state==="problem"||state==="practice"){
+        group.skillIds.forEach(function(id){if(priorityIds.indexOf(id)===-1)priorityIds.push(id);});
+      }
+    });
+    var priority=priorityIds.map(function(id){return items.find(function(item){return item.id===id&&!done.has(id);});}).filter(Boolean).slice(0,8);
+    var fallback=notDone.slice(0,8);
+    var chosen=(priority.length?priority:fallback).slice(0,8);
+    var summary=root.querySelector("[data-plan-summary]");
+    var out=root.querySelector("[data-plan-output]");
+    if(summary)summary.innerHTML=done.size
+      ? "Zvládnuto je "+done.size+" témat. Plán vybírá hlavně otevřené nebo problémové oblasti."
+      : "Zatím nemáte odškrtnutá témata. Plán ukazuje první vhodné otevřené kroky.";
+    if(!out)return;
+    if(!chosen.length){
+      out.innerHTML='<div class="noresults">Všechna témata jsou v tomto prohlížeči označená jako zvládnutá.</div>';
+      return;
+    }
+    out.innerHTML='<div class="plan-output">'+chosen.map(function(item){
+      return '<article class="plan-item"><span class="tag" style="background:'+item.color+'">'+item.subject+' · '+item.grade+'. ročník</span>'
+        +'<h3><a href="../'+item.url+'">'+item.title+'</a></h3>'
+        +(item.question?'<p><b>Otázka:</b> '+item.question.replace(/&/g,"&amp;").replace(/</g,"&lt;")+'</p>':"")
+        +(item.home?'<p><b>Doma:</b> '+item.home.replace(/&/g,"&amp;").replace(/</g,"&lt;")+'</p>':"")
+        +'<label><input type="checkbox"> Hotovo tento týden</label></article>';
+    }).join("")+'</div>';
+  });
+
   function selectedReviewTargets(root){
     var subject=root.querySelector('[name="subject"]').value;
     var links=[];

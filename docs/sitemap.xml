@@ -3,6 +3,7 @@
   <url><loc>https://www.mapa-uceni.cz/</loc></url>
   <url><loc>https://www.mapa-uceni.cz/predmety/</loc></url>
   <url><loc>https://www.mapa-uceni.cz/pomoc/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/plan/</loc></url>
   <url><loc>https://www.mapa-uceni.cz/milniky/</loc></url>
   <url><loc>https://www.mapa-uceni.cz/kdyz-dite-nestiha/</loc></url>
   <url><loc>https://www.mapa-uceni.cz/kalendar/</loc></url>
@@ -11,6 +12,25 @@
   <url><loc>https://www.mapa-uceni.cz/slovnicek/</loc></url>
   <url><loc>https://www.mapa-uceni.cz/o-mape/</loc></url>
   <url><loc>https://www.mapa-uceni.cz/audit/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/cesky-jazyk-a-literatura/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/matematika/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/anglicky-jazyk/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/dalsi-cizi-jazyk/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/prvouka-clovek-a-jeho-svet/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/prirodoveda/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/vlastiveda/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/informatika/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/fyzika/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/chemie/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/prirodopis/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/zemepis/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/dejepis/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/vychova-k-obcanstvi/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/vychova-ke-zdravi/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/hudebni-vychova/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/vytvarna-vychova/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/telesna-vychova/</loc></url>
+  <url><loc>https://www.mapa-uceni.cz/predmety/clovek-a-svet-prace/</loc></url>
   <url><loc>https://www.mapa-uceni.cz/doplnujici-obory/</loc></url>
   <url><loc>https://www.mapa-uceni.cz/doplnujici-obory/dramaticka-vychova/</loc></url>
   <url><loc>https://www.mapa-uceni.cz/doplnujici-obory/eticka-vychova/</loc></url>
