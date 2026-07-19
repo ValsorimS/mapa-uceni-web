@@ -921,6 +921,7 @@ SKILLS.forEach(s => {
     .filter(x => x.count);
   const topicWord = n => n === 1 ? "téma" : (n > 1 && n < 5) ? "témata" : "témat";
   const topicVerb = n => (n > 1 && n < 5) ? "nemají" : "nemá";
+  const supplementaryByCode = Object.fromEntries(SUPP.fields.map((field, i) => [`5.10.${i + 1}`, field]));
   const skillLinks = ids => ids.length
     ? ids.map(id => {
       const s = byId(id);
@@ -928,6 +929,14 @@ SKILLS.forEach(s => {
     }).filter(Boolean).join(" · ")
     : '<span class="muted">Zatím bez přiřazeného tématu</span>';
   const fieldStatus = field => {
+    const supplementaryField = supplementaryByCode[field.code];
+    if (supplementaryField) {
+      const skills = supplementaryField.relatedSkillIds.length;
+      return `<div class="rvp-field">
+        <div><b>${esc(field.name)}</b><span>${esc(field.code)} · ${skills} navázaných ${topicWord(skills)}</span></div>
+        <a class="status ok" href="${R}${supplementaryUrl(supplementaryField)}">volitelný obor</a>
+      </div>`;
+    }
     const fieldOut = outcomes.filter(o => o.fieldId === field.id);
     const fieldMapped = fieldOut.filter(o => (o.skillIds || []).length);
     const skills = (field.skillSubjectKeys || []).reduce((n, p) => n + (subjectCounts[p] || 0), 0);
@@ -956,6 +965,12 @@ SKILLS.forEach(s => {
         <div class="outcomes">${fieldOut.map(outcomeCard).join("")}</div>
       </section>`;
     }).join("");
+  const supplementaryFields = SUPP.fields.map(field => `<a class="rvp-supp-field" href="${R}${supplementaryUrl(field)}">
+    <span class="tag" style="background:${field.color}">${esc(field.shortTitle)}</span>
+    <b>${esc(field.title)}</b>
+    <p>${esc(field.lead)}</p>
+    <em>${field.relatedSkillIds.length} navázaných témat</em>
+  </a>`).join("");
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Pokrytí RVP</div>
   <div class="page-title"><h1>Pokrytí RVP</h1>
@@ -973,6 +988,11 @@ SKILLS.forEach(s => {
       <h3>${esc(area.name)}</h3>
       ${area.fields.map(fieldStatus).join("")}
     </div>`).join("")}
+  </section>
+  <section class="section">
+    <div class="sec-head"><h2>Doplňující vzdělávací obory</h2><a class="more" href="${R}doplnujici-obory/">Přehled →</a></div>
+    <div class="infobox"><b>Proč jsou zvlášť:</b> RVP je uvádí jako volitelné rozšíření, které škola může zařadit do ŠVP. Proto je nemícháme do povinného počítadla pokrytí očekávaných výstupů, ale ukazujeme je jako samostatnou vrstvu navázanou na běžná témata.</div>
+    <div class="rvp-supp-grid">${supplementaryFields}</div>
   </section>
   <section class="section">
     <div class="sec-head"><h2>Importované výstupy</h2><span class="cnt">Klikněte na čísla u oborů výše pro skok na sekci</span></div>

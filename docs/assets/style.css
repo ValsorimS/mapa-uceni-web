@@ -472,6 +472,15 @@ ul.jak li::before{
 .rvp-field .status.ok{color:var(--green);background:var(--green-soft)}
 .rvp-field .status.ok:hover{outline:2px solid #BDD8C9}
 .rvp-field .status.wait{color:var(--muted);background:var(--paper);border:1px solid var(--line)}
+.rvp-supp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.rvp-supp-field{
+  display:block;text-decoration:none;color:var(--ink);background:var(--card);
+  border:1.5px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px 16px
+}
+.rvp-supp-field:hover{border-color:var(--ink)}
+.rvp-supp-field b{display:block;font-family:"Bitter",serif;font-size:1rem;margin-top:8px}
+.rvp-supp-field p{color:var(--muted);font-size:.9rem;margin-top:5px}
+.rvp-supp-field em{display:block;color:var(--green);font-style:normal;font-weight:800;font-size:.82rem;margin-top:8px}
 .rvp-outcome-field{scroll-margin-top:90px;margin-bottom:28px}
 .rvp-outcome-field h3{font-size:1.18rem;margin-bottom:12px}
 .outcomes{display:grid;gap:12px}
