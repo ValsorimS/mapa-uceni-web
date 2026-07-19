@@ -289,7 +289,13 @@
     ],
     "rvpRefs": [
       "HV-3-1-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zpívá příliš nahlas nebo napjatě a hlas se rychle unaví.",
+      "childQuestion": "Zpívá se ti pohodlně, nebo tlačíš hlas silou?",
+      "homeActivity": "Zpívejte krátkou píseň potichu a volně, s nádechem před frází a bez překřikování.",
+      "teacherSignal": "Dítě má při zpěvu bolest, chrapot nebo dlouhodobě odmítá hlasový projev."
+    }
   },
   {
     "id": "hv2-rytmus-nastroje",
@@ -312,7 +318,13 @@
     "rvpRefs": [
       "HV-3-1-02",
       "HV-3-1-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě hraje rytmus podle textu básničky, ale neudrží pravidelný puls.",
+      "childQuestion": "Kde slyšíš stejný krok rytmu?",
+      "homeActivity": "Tleskejte říkadlo nejdřív pravidelným pulsem a potom rytmem slov.",
+      "teacherSignal": "Dítě dlouhodobě neudrží jednoduchý rytmus ani s oporou pohybu."
+    }
   },
   {
     "id": "hv3-pohyb-poslech",
@@ -336,7 +348,13 @@
       "HV-3-1-04",
       "HV-3-1-05",
       "HV-3-1-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě při poslechu čeká správnou odpověď a nevšímá si nálady, tempa a změn v hudbě.",
+      "childQuestion": "Co se v hudbě změnilo: rychlost, síla, nástroj nebo nálada?",
+      "homeActivity": "Pusťte krátkou skladbu a nechte dítě pohybem ukázat ticho, hlasitost, rychlost a zastavení.",
+      "teacherSignal": "Dítě neumí reagovat na základní změny v hudbě nebo se pohybové aktivitě výrazně vyhýbá."
+    }
   },
   {
     "id": "hv4-zpev-noty",
@@ -359,7 +377,13 @@
     "rvpRefs": [
       "HV-5-1-01",
       "HV-5-1-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere noty jako teorii oddělenou od zpěvu a nespojí značku se zvukem.",
+      "childQuestion": "Která nota nebo značka ti říká, co má hlas udělat?",
+      "homeActivity": "U krátké písně sledujte prstem směr melodie a označte místa, kde hlas stoupá nebo klesá.",
+      "teacherSignal": "Dítě se neorientuje ani v jednoduchém notovém zápisu probíraném ve škole."
+    }
   },
   {
     "id": "hv5-doprovod-improvizace",
@@ -382,7 +406,13 @@
     "rvpRefs": [
       "HV-5-1-03",
       "HV-5-1-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě improvizaci chápe jako hraní čehokoli a neposlouchá ostatní.",
+      "childQuestion": "Jak tvůj doprovod pomáhá písni nebo skupině?",
+      "homeActivity": "K písni zkuste dva jednoduché doprovody: pravidelný puls a krátký opakovaný motiv.",
+      "teacherSignal": "Dítě nedokáže udržet jednoduchý doprovod nebo ruší společný hudební projev."
+    }
   },
   {
     "id": "hv5-poslech-forma-pohyb",
@@ -406,7 +436,13 @@
       "HV-5-1-04",
       "HV-5-1-06",
       "HV-5-1-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě popíše, jestli se mu hudba líbí, ale nevšímá si opakování a stavby skladby.",
+      "childQuestion": "Která část se v hudbě vrátila?",
+      "homeActivity": "Při poslechu kreslete značky pro části A a B a sledujte, kdy se opakují.",
+      "teacherSignal": "Dítě nerozpozná základní opakování nebo kontrast v jednoduché skladbě."
+    }
   },
   {
     "id": "hv6-hudebni-projev",
@@ -430,7 +466,13 @@
       "HV-9-1-01",
       "HV-9-1-02",
       "HV-9-1-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se na 2. stupni stydí a raději se hudebnímu projevu úplně vyhne.",
+      "childQuestion": "Jakou roli ve společném projevu zvládneš bezpečně?",
+      "homeActivity": "Nabídněte dítěti volbu role: zpěv, rytmus, poslechový komentář nebo technická pomoc.",
+      "teacherSignal": "Dítě se hudební výchově dlouhodobě vyhýbá kvůli studu, strachu nebo konfliktům ve třídě."
+    }
   },
   {
     "id": "hv7-poslech-zanry-dejiny",
@@ -454,7 +496,13 @@
       "HV-9-1-05",
       "HV-9-1-06",
       "HV-9-1-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí názvy žánrů nazpaměť a nespojí je se zvukem a dobou.",
+      "childQuestion": "Podle čeho poznáš žánr: rytmus, nástroje, hlas nebo účel hudby?",
+      "homeActivity": "Porovnejte dvě krátké ukázky různých žánrů a napište tři slyšitelné rozdíly.",
+      "teacherSignal": "Dítě neumí při poslechu zachytit ani základní znaky stylu nebo žánru."
+    }
   },
   {
     "id": "vv1-prvky-experiment",
@@ -477,7 +525,13 @@
     "rvpRefs": [
       "VV-3-1-01",
       "VV-3-1-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě chce nakreslit správný obrázek a bojí se zkoušet čáry, tvary a barvy.",
+      "childQuestion": "Co se stane, když použiješ jinou čáru nebo barvu?",
+      "homeActivity": "Dejte dítěti malý papír na zkoušení stop: tužka, pastelka, štětec, tlak a směr.",
+      "teacherSignal": "Dítě se výtvarné práci trvale vyhýbá kvůli strachu, že výsledek nebude správný."
+    }
   },
   {
     "id": "vv2-smysly-vyjadreni",
@@ -499,7 +553,13 @@
     ],
     "rvpRefs": [
       "VV-3-1-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě kreslí jen předmět a nevšímá si prožitku, vůně, zvuku nebo dotyku.",
+      "childQuestion": "Jaký pocit nebo smyslový zážitek chceš ukázat?",
+      "homeActivity": "Vyberte jeden zážitek a zkuste ho vyjádřit jen barvami a tvary, bez nutnosti kreslit přesně.",
+      "teacherSignal": "Dítě neumí vůbec propojit zážitek s vlastním výtvarným vyjádřením."
+    }
   },
   {
     "id": "vv3-interpretace-komunikace",
@@ -522,7 +582,13 @@
     "rvpRefs": [
       "VV-3-1-04",
       "VV-3-1-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě řekne jen líbí/nelíbí a neumí popsat, co obraz sděluje.",
+      "childQuestion": "Co na obrázku tě vede k téhle myšlence?",
+      "homeActivity": "U plakátu nebo ilustrace pojmenujte postavy, barvy, náladu a jednu zprávu pro diváka.",
+      "teacherSignal": "Dítě nerozumí jednoduchému obrazovému sdělení ani s otázkami."
+    }
   },
   {
     "id": "vv4-prvky-kompozice",
@@ -545,7 +611,13 @@
     "rvpRefs": [
       "VV-5-1-01",
       "VV-5-1-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě umisťuje prvky náhodně a nehlídá, kam se divák podívá jako první.",
+      "childQuestion": "Co je na obrázku nejdůležitější a jak to poznám?",
+      "homeActivity": "Před kresbou si udělejte malý náčrt, kde bude hlavní objekt, pozadí a volné místo.",
+      "teacherSignal": "Dítě opakovaně nedokáže uspořádat obraz tak, aby bylo jasné hlavní sdělení."
+    }
   },
   {
     "id": "vv5-smysly-prostor-techniky",
@@ -568,7 +640,13 @@
     "rvpRefs": [
       "VV-5-1-03",
       "VV-5-1-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zůstane u jedné známé techniky a bojí se kombinovat materiály nebo prostor.",
+      "childQuestion": "Co se změní, když použiješ jiný materiál nebo uděláš práci prostorovou?",
+      "homeActivity": "Zkuste malý objekt z papíru, provázku a nalezeného materiálu a popište, co která část vyjadřuje.",
+      "teacherSignal": "Dítě odmítá nové techniky nebo se při práci s materiálem opakovaně ztrácí."
+    }
   },
   {
     "id": "vv5-interpretace-obsah",
@@ -591,7 +669,13 @@
     "rvpRefs": [
       "VV-5-1-05",
       "VV-5-1-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě kopíruje inspiraci bez vlastního nápadu nebo neumí říct, čím se nechalo inspirovat.",
+      "childQuestion": "Co sis z předlohy vzal a co je v práci tvoje vlastní?",
+      "homeActivity": "Vyberte jednu reprodukci a vytvořte vlastní variantu se změněnou barvou, postavou nebo náladou.",
+      "teacherSignal": "Dítě nedokáže rozlišit kopii, inspiraci a vlastní řešení ani po ukázce."
+    }
   },
   {
     "id": "vv7-vizualni-prostredky",
@@ -615,7 +699,13 @@
       "VV-9-1-01",
       "VV-9-1-02",
       "VV-9-1-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě chce kreslit realisticky a přehlíží, že sdělení může nést barva, kontrast, znak nebo zkratka.",
+      "childQuestion": "Který prostředek nejvíc pomáhá tomu, co chceš říct?",
+      "homeActivity": "Navrhněte jednoduchý plakát s omezením na dvě barvy, jeden symbol a krátký text.",
+      "teacherSignal": "Dítě neumí zvolit výtvarný prostředek k vlastnímu sdělení nebo práci neumí obhájit."
+    }
   },
   {
     "id": "vv8-digitalni-media-interpretace",
@@ -639,7 +729,13 @@
       "VV-9-1-05",
       "VV-9-1-06",
       "VV-9-1-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere digitální obraz jako hotovou pravdu a nevšímá si úprav, výběru záběru a záměru autora.",
+      "childQuestion": "Co autor vybral, upravil nebo vynechal?",
+      "homeActivity": "Porovnejte dvě fotografie stejné věci a pojmenujte, jak úhel, ořez a barva mění dojem.",
+      "teacherSignal": "Dítě nerozpoznává základní manipulaci obrazem nebo rizika sdílení vizuálního obsahu."
+    }
   },
   {
     "id": "vz6-vztahy-komunita",
@@ -694,7 +790,13 @@
       "VZ-9-1-05",
       "VZ-9-1-06",
       "VZ-9-1-09"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě chápe zdraví jako nebýt nemocný a nevidí spánek, pohyb, vztahy a odpovědnost.",
+      "childQuestion": "Co dnes tvoje tělo nebo hlava potřebuje, aby fungovalo líp?",
+      "homeActivity": "Vyberte jeden týdenní návyk ke sledování: spánek, pití, pohyb nebo odpočinek.",
+      "teacherSignal": "Dítě dlouhodobě zanedbává základní režim nebo má potíže, které ovlivňují školu a pohodu."
+    }
   },
   {
     "id": "vz7-vyziva",
@@ -716,7 +818,13 @@
     ],
     "rvpRefs": [
       "VZ-9-1-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě hodnotí jídlo jako dobré nebo špatné a neřeší množství, pravidelnost a souvislost se zdravím.",
+      "childQuestion": "Co ti jídlo dodá a jak dlouho tě udrží v energii?",
+      "homeActivity": "Sestavte jeden den jídel podle pravidla pestrost, pravidelnost, voda a rozumná porce.",
+      "teacherSignal": "Dítě má výrazné potíže s jídlem, energií, tělesným obrazem nebo zdravotními doporučeními."
+    }
   },
   {
     "id": "vz7-nemoci-prevence",
@@ -768,7 +876,13 @@
       "VZ-9-1-09",
       "VZ-9-1-11",
       "VZ-9-1-12"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě získává informace z vrstevníků nebo internetu a bojí se ptát na hranice, souhlas a zdraví.",
+      "childQuestion": "Co znamená bezpečný a respektující vztah?",
+      "homeActivity": "Domluvte bezpečný způsob otázek: lístek, zpráva nebo čas, kdy se dá mluvit bez výsměchu.",
+      "teacherSignal": "Dítě má obavy, rizikové chování nebo informace, které mohou ohrozit zdraví či bezpečí."
+    }
   },
   {
     "id": "vz8-stres-dusevni-hygiena",
@@ -819,7 +933,13 @@
     "rvpRefs": [
       "VZ-9-1-13",
       "VZ-9-1-14"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě vidí riziko jen u extrémních případů a nevnímá manipulaci, tlak skupiny a postupné ztrácení kontroly.",
+      "childQuestion": "Kdo z té situace něco získává a co můžeš ztratit ty?",
+      "homeActivity": "Projděte modelovou nabídku alkoholu, vapingu, sázky nebo manipulativní zprávy a nacvičte odmítnutí.",
+      "teacherSignal": "Dítě opakovaně podléhá tlaku, tají rizikové chování nebo se mění jeho vztahy a režim."
+    }
   },
   {
     "id": "vz9-bezpeci-prvni-pomoc",
@@ -876,7 +996,13 @@
       "TV-3-1-05",
       "ZTV-3-1-01",
       "ZTV-3-1-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě chce vyhrát hru a přitom zapomíná na bezpečný pohyb a domluvená pravidla.",
+      "childQuestion": "Co uděláš, aby hra byla bezpečná i pro ostatní?",
+      "homeActivity": "Zahrajte krátkou pohybovou hru a po ní pojmenujte jedno pravidlo bezpečí a jedno pravidlo spolupráce.",
+      "teacherSignal": "Dítě se pohybu dlouhodobě vyhýbá nebo má opakované potíže s bezpečným zapojením do her."
+    }
   },
   {
     "id": "tv3-plavani",
@@ -899,7 +1025,13 @@
     "rvpRefs": [
       "TV-5-1-11",
       "TV-5-1-12"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě přecení své síly ve vodě nebo se naopak bojí udělat první bezpečný krok.",
+      "childQuestion": "Co uděláš, když si ve vodě nejsi jistý?",
+      "homeActivity": "Při návštěvě bazénu si předem řekněte pravidla: kde smí být, koho volat, kdy odpočívat.",
+      "teacherSignal": "Dítě má výrazný strach z vody nebo nerespektuje bezpečnostní pravidla u vody."
+    }
   },
   {
     "id": "tv4-rezim-zdatnost",
@@ -926,7 +1058,13 @@
       "TV-5-1-05",
       "TV-5-1-09",
       "TV-5-1-10"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě vnímá výkon jako jednorázové porovnání s ostatními, ne jako vlastní postupné zlepšování.",
+      "childQuestion": "V čem ses zlepšil proti minule?",
+      "homeActivity": "Vyberte jednu jednoduchou aktivitu a sledujte týden vlastní pokrok bez srovnávání se spolužáky.",
+      "teacherSignal": "Dítě se pohybu trvale vyhýbá, rychle se přetěžuje nebo má nápadné potíže se zdatností."
+    }
   },
   {
     "id": "tv4-fair-play",
@@ -950,7 +1088,13 @@
       "TV-5-1-06",
       "TV-5-1-07",
       "TV-5-1-08"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere pravidla jako překážku vítězství a ne jako podmínku férové hry.",
+      "childQuestion": "Bylo by to fér, kdyby to samé udělal soupeř?",
+      "homeActivity": "Po hře si řekněte jednu situaci, kdy někdo dodržel pravidlo i ve svůj neprospěch.",
+      "teacherSignal": "Dítě opakovaně nezvládá respektovat pravidla, spoluhráče nebo rozhodnutí učitele."
+    }
   },
   {
     "id": "tv4-zdravotni-cviceni",
@@ -979,7 +1123,13 @@
       "ZTV-9-1-01",
       "ZTV-9-1-02",
       "ZTV-9-1-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě cvičí rychle a silou, místo aby hlídalo držení těla a správný rozsah pohybu.",
+      "childQuestion": "Kde cítíš tah nebo uvolnění a kde už bolest?",
+      "homeActivity": "Vyzkoušejte krátkou sestavu pro záda nebo protažení a dělejte ji pomalu s dýcháním.",
+      "teacherSignal": "Dítě má bolest, výrazné držení těla nebo omezení pohybu, které se opakovaně vrací."
+    }
   },
   {
     "id": "tv6-zdatnost-bezpecnost",
@@ -1005,7 +1155,13 @@
       "TV-9-1-03",
       "TV-9-1-04",
       "TV-9-1-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě trénuje nárazově a nepočítá s rozcvičením, odpočinkem a postupným zatížením.",
+      "childQuestion": "Co je dnes rozumný krok, aby ses zlepšil a nepřetížil?",
+      "homeActivity": "Sestavte týdenní pohybový plán se dvěma lehkými aktivitami a jedním dnem odpočinku.",
+      "teacherSignal": "Dítě se při sportu často zraňuje, přetěžuje nebo dlouhodobě odmítá veškerý pohyb."
+    }
   },
   {
     "id": "tv6-sport",
@@ -1028,7 +1184,13 @@
     "rvpRefs": [
       "TV-9-2-01",
       "TV-9-2-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí techniku jen jako výkon, ale nevnímá bezpečnost a pravidla disciplíny.",
+      "childQuestion": "Jaké pravidlo chrání tebe nebo ostatní při téhle aktivitě?",
+      "homeActivity": "U jedné disciplíny si projděte základní postoj, bezpečný prostor a jednu technickou radu.",
+      "teacherSignal": "Dítě se opakovaně nezapojuje kvůli strachu, bolesti nebo nepochopení základních pravidel."
+    }
   },
   {
     "id": "tv7-tymove-hry-organizace",
@@ -1056,7 +1218,13 @@
       "TV-9-3-05",
       "TV-9-3-06",
       "TV-9-3-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě hraje samo na sebe a nevnímá taktiku, komunikaci a role v týmu.",
+      "childQuestion": "Jak můžeš pomoct týmu, i když právě nemáš míč?",
+      "homeActivity": "Při sledování zápasu nebo hře pojmenujte tři role: kdo brání, kdo tvoří, kdo zakončuje.",
+      "teacherSignal": "Dítě má dlouhodobě konflikty v týmových hrách nebo nerozumí spolupráci a pravidlům."
+    }
   },
   {
     "id": "tv7-lyzak",
@@ -1078,7 +1246,13 @@
     "rvpRefs": [
       "TV-9-1-05",
       "TV-9-2-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se soustředí na odvahu a podcení pravidla svahu, vybavení a vlastní hranice.",
+      "childQuestion": "Co uděláš, když se na svahu necítíš bezpečně?",
+      "homeActivity": "Před kurzem projděte vybavení, vrstvení oblečení, pití, pravidla vleku a signál pro pomoc.",
+      "teacherSignal": "Dítě má silný strach z kurzu, nerespektuje bezpečnost nebo má zdravotní omezení k řešení se školou."
+    }
   },
   {
     "id": "csp1-materialy-navod",
@@ -1101,7 +1275,13 @@
     "rvpRefs": [
       "ČSP-3-1-01",
       "ČSP-3-1-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se soustředí jen na výsledek výrobku a přeskočí návod nebo bezpečné zacházení s pomůckami.",
+      "childQuestion": "Jaký je první krok a co potřebuješ připravit?",
+      "homeActivity": "Vyrobte malou věc podle tříkrokového návodu a po každém kroku zkontrolujte, jestli sedí s předlohou.",
+      "teacherSignal": "Dítě opakovaně pracuje nebezpečně s pomůckami nebo vůbec nedokáže postupovat podle jednoduchého návodu."
+    }
   },
   {
     "id": "csp2-stavebnice",
@@ -1123,7 +1303,13 @@
     ],
     "rvpRefs": [
       "ČSP-3-2-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě skládá díly náhodně a neověřuje stabilitu modelu.",
+      "childQuestion": "Co musí model udržet a která část ho drží pohromadě?",
+      "homeActivity": "Postavte jednoduchý most nebo věž a zkuste předem odhadnout, kde bude nejslabší místo.",
+      "teacherSignal": "Dítě nedokáže sestavit jednoduchý model podle obrázku ani s podporou."
+    }
   },
   {
     "id": "csp2-pestovani-rostlin",
@@ -1146,7 +1332,13 @@
     "rvpRefs": [
       "ČSP-3-3-01",
       "ČSP-3-3-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zalévá rostlinu mechanicky a nevšímá si světla, půdy a změn v čase.",
+      "childQuestion": "Co rostlina potřebuje a podle čeho poznáš, že jí něco chybí?",
+      "homeActivity": "Pečujte o jednu rostlinu a jednou týdně si poznamenejte změnu listů, půdy nebo růstu.",
+      "teacherSignal": "Dítě neumí bezpečně a pravidelně pečovat o rostlinu ani pozorovat základní změny."
+    }
   },
   {
     "id": "csp3-stolovani",
@@ -1169,7 +1361,13 @@
     "rvpRefs": [
       "ČSP-3-4-01",
       "ČSP-3-4-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě chápe stolování jako zákaz špatného chování, ne jako ohleduplnost k ostatním.",
+      "childQuestion": "Co uděláš, aby se u stolu cítili dobře i ostatní?",
+      "homeActivity": "Nechte dítě jednou připravit prostírání pro rodinu a potom společně zhodnoťte, co fungovalo.",
+      "teacherSignal": "Dítě má dlouhodobě potíže s hygienou, bezpečností nebo základní ohleduplností u jídla."
+    }
   },
   {
     "id": "csp4-vyrobky-tradice",
@@ -1192,7 +1390,13 @@
     "rvpRefs": [
       "ČSP-5-1-01",
       "ČSP-5-1-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě napodobí výrobek, ale neví, proč se postup nebo motiv používá.",
+      "childQuestion": "K čemu výrobek slouží a s jakou tradicí může souviset?",
+      "homeActivity": "Vyberte jednu rodinnou nebo místní tradici a vytvořte jednoduchý výrobek s vysvětlením významu.",
+      "teacherSignal": "Dítě nezvládá dokončit přiměřený výrobek podle postupu nebo odmítá práci kvůli opakovanému neúspěchu."
+    }
   },
   {
     "id": "csp4-pomucky-bezpecnost",
@@ -1215,7 +1419,13 @@
     "rvpRefs": [
       "ČSP-5-1-03",
       "ČSP-5-1-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere bezpečnost jako formální pravidlo a začne pracovat dřív, než má připravené místo.",
+      "childQuestion": "Co by mohlo být při práci nebezpečné a jak tomu zabráníš?",
+      "homeActivity": "Před drobnou prací udělejte kontrolu: místo, pomůcky, ostré části, úklid.",
+      "teacherSignal": "Dítě opakovaně nedodržuje bezpečnostní pokyny nebo ohrožuje sebe či ostatní."
+    }
   },
   {
     "id": "csp4-stavebnice-navrhy",
@@ -1239,7 +1449,13 @@
       "ČSP-5-2-01",
       "ČSP-5-2-02",
       "ČSP-5-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě skládá model bez čtení náčrtu a pak neumí najít chybu.",
+      "childQuestion": "Která část náčrtu odpovídá tomu, co právě stavíš?",
+      "homeActivity": "Podle jednoduchého plánku sestavte model a po dokončení najděte tři shody s náčrtem.",
+      "teacherSignal": "Dítě se dlouhodobě neorientuje v jednoduchém plánku nebo náčrtu."
+    }
   },
   {
     "id": "csp5-pestitelske-pokusy",
@@ -1264,7 +1480,13 @@
       "ČSP-5-3-02",
       "ČSP-5-3-03",
       "ČSP-5-3-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě mění víc podmínek najednou a pak neví, co ovlivnilo výsledek pokusu.",
+      "childQuestion": "Co v pokusu měníš a co necháváš stejné?",
+      "homeActivity": "Zasaďte dvě semena a změňte jen jednu podmínku, například světlo nebo vodu.",
+      "teacherSignal": "Dítě nerozlišuje pozorování, odhad a závěr ani v jednoduchém pěstitelském pokusu."
+    }
   },
   {
     "id": "csp5-kuchyne-pokrmy",
@@ -1289,7 +1511,13 @@
       "ČSP-5-4-02",
       "ČSP-5-4-03",
       "ČSP-5-4-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě řeší recept jako vaření od oka a podcení hygienu, množství nebo pořadí kroků.",
+      "childQuestion": "Co musíš udělat před tím, než začneš krájet nebo míchat?",
+      "homeActivity": "Připravte jednoduchou pomazánku podle receptu a nechte dítě hlídat suroviny a pořadí.",
+      "teacherSignal": "Dítě opakovaně nedodržuje hygienu nebo bezpečnost v kuchyni."
+    }
   },
   {
     "id": "csp6-technicke-materialy",
@@ -1315,7 +1543,13 @@
       "ČSP-9-1-03",
       "ČSP-9-1-04",
       "ČSP-9-1-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě volí nářadí podle dostupnosti, ne podle materiálu a požadovaného výsledku.",
+      "childQuestion": "Proč se pro tenhle materiál hodí právě tento nástroj?",
+      "homeActivity": "Porovnejte dřevo, plast a kov na běžných předmětech a řekněte, čím se liší při opracování.",
+      "teacherSignal": "Dítě pracuje s nástroji nebezpečně nebo nerozumí základnímu pracovnímu postupu."
+    }
   },
   {
     "id": "csp6-design-konstruovani",
@@ -1340,7 +1574,13 @@
       "ČSP-9-2-02",
       "ČSP-9-2-03",
       "ČSP-9-2-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se zamiluje do prvního nápadu a neověří, jestli model plní zadání.",
+      "childQuestion": "Jak poznáš, že řešení opravdu funguje?",
+      "homeActivity": "Navrhněte jednoduchý stojánek, postavte prototyp a po testu napište jednu úpravu.",
+      "teacherSignal": "Dítě neumí přijmout testování jako součást práce a opakovaně končí u nefunkčního modelu."
+    }
   },
   {
     "id": "csp7-pestitelstvi-chovatelstvi",
@@ -1366,7 +1606,13 @@
       "ČSP-9-3-03",
       "ČSP-9-3-04",
       "ČSP-9-3-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere péči o rostliny nebo zvířata jako jednorázový úkol, ne jako pravidelnou odpovědnost.",
+      "childQuestion": "Co živý organismus potřebuje dnes a co bude potřebovat zítra?",
+      "homeActivity": "Sestavte týdenní plán péče o rostlinu nebo domácí zvíře včetně bezpečných pravidel.",
+      "teacherSignal": "Dítě nerespektuje bezpečný kontakt se zvířaty nebo nezvládá pravidelnou péči."
+    }
   },
   {
     "id": "csp7-domacnost-udrzba",
@@ -1391,7 +1637,13 @@
       "ČSP-9-4-02",
       "ČSP-9-4-03",
       "ČSP-9-4-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zná spotřebiče, ale neřeší náklady, bezpečnost a údržbu.",
+      "childQuestion": "Co stojí peníze, energii nebo čas v běžném provozu domácnosti?",
+      "homeActivity": "Vyberte jeden spotřebič a projděte bezpečné použití, spotřebu a jednoduchou údržbu.",
+      "teacherSignal": "Dítě opakovaně zachází se spotřebiči rizikově nebo nerozumí základům rozpočtu."
+    }
   },
   {
     "id": "csp8-priprava-pokrmu",
@@ -1416,7 +1668,13 @@
       "ČSP-9-5-02",
       "ČSP-9-5-03",
       "ČSP-9-5-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se soustředí na chuť a vzhled, ale vynechá plánování, hygienu a bezpečné tepelné zpracování.",
+      "childQuestion": "Co musí být čisté, oddělené nebo tepelně hotové?",
+      "homeActivity": "Uvařte jednoduché jídlo podle plánu: nákup, příprava, vaření, úklid, krátké zhodnocení.",
+      "teacherSignal": "Dítě nedodržuje hygienická a bezpečnostní pravidla při přípravě jídla."
+    }
   },
   {
     "id": "csp8-laboratorni-technika",
@@ -1442,7 +1700,13 @@
       "ČSP-9-6-03",
       "ČSP-9-6-04",
       "ČSP-9-6-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zapisuje jen výsledek měření a vynechá postup, jednotky a podmínky.",
+      "childQuestion": "Jakou jednotku měříš a jak by někdo jiný pokus zopakoval?",
+      "homeActivity": "Změřte doma jednoduchou veličinu třikrát a zapište postup, hodnoty a krátký závěr.",
+      "teacherSignal": "Dítě neumí bezpečně měřit nebo vést jednoduchý protokol ani podle vzoru."
+    }
   },
   {
     "id": "csp8-digitalni-technologie",
@@ -1468,7 +1732,13 @@
       "ČSP-9-7-03",
       "ČSP-9-7-04",
       "ČSP-9-7-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě propojuje zařízení pokusem-omylem a nehlídá bezpečnost, napájení ani data.",
+      "childQuestion": "Jaké zařízení s čím komunikuje a kde může vzniknout riziko?",
+      "homeActivity": "Nakreslete domácí digitální zapojení: router, telefon, počítač, tiskárna, a označte bezpečná pravidla.",
+      "teacherSignal": "Dítě opakovaně riskuje při zapojování zařízení nebo nerozumí základní digitální bezpečnosti."
+    }
   },
   {
     "id": "csp9-povolani",
@@ -1494,7 +1764,13 @@
       "ČSP-9-8-02",
       "ČSP-9-8-03",
       "ČSP-9-8-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě vybírá povolání podle prestiže nebo dojmu a neporovnává schopnosti, hodnoty a cestu vzdělávání.",
+      "childQuestion": "Co by tě na té práci bavilo i po několika měsících?",
+      "homeActivity": "Vyberte dvě povolání a porovnejte činnosti, potřebné dovednosti, školu a běžný pracovní den.",
+      "teacherSignal": "Dítě je výrazně ztracené ve volbě další cesty nebo se rozhoduje pod tlakem bez informací."
+    }
   },
   {
     "id": "cj2-cteni",
@@ -3568,7 +3844,13 @@
       "F-9-1-02",
       "F-9-1-03",
       "F-9-1-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zapíše číslo bez jednotky a neřeší přesnost ani vhodné měřidlo.",
+      "childQuestion": "Co přesně měříš a v jaké jednotce?",
+      "homeActivity": "Změřte délku, hmotnost nebo čas třikrát a porovnejte, proč se výsledky mohou lišit.",
+      "teacherSignal": "Dítě neumí zvolit měřidlo, jednotku nebo zapsat jednoduché měření."
+    }
   },
   {
     "id": "fy7-pohyb",
@@ -3591,7 +3873,13 @@
     "rvpRefs": [
       "F-9-2-01",
       "F-9-2-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě počítá rychlost podle vzorce, ale neví, co znamená dráha za čas.",
+      "childQuestion": "Jak daleko se těleso dostane za jednu jednotku času?",
+      "homeActivity": "Porovnejte chůzi a jízdu na kole: změřte čas na stejnou vzdálenost a vysvětlete rozdíl.",
+      "teacherSignal": "Dítě nerozumí vztahu dráhy, času a rychlosti ani v běžných situacích."
+    }
   },
   {
     "id": "fy7-sily",
@@ -3613,7 +3901,13 @@
     ],
     "rvpRefs": [
       "F-9-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě kreslí sílu jako vlastnost předmětu a ne jako působení jednoho tělesa na druhé.",
+      "childQuestion": "Kdo na koho působí a jakým směrem?",
+      "homeActivity": "U tlačení židle nebo tažení tašky šipkou označte směr síly a co se změní v pohybu.",
+      "teacherSignal": "Dítě neumí určit základní síly nebo jejich směr ani v jednoduchém příkladu."
+    }
   },
   {
     "id": "fy7-tekutiny",
@@ -3635,7 +3929,13 @@
     ],
     "rvpRefs": [
       "F-9-3-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere tlak jako totéž co sílu a nevnímá plochu, hloubku a prostředí.",
+      "childQuestion": "Na jakou plochu síla působí a mění se tlak s hloubkou?",
+      "homeActivity": "Zkuste s houbičkou nebo sáčkem vody ukázat, jak se tlak projevuje různými směry.",
+      "teacherSignal": "Dítě nerozumí základnímu tlaku v kapalinách a plynech ani na praktických situacích."
+    }
   },
   {
     "id": "fy8-energie",
@@ -3658,7 +3958,13 @@
     "rvpRefs": [
       "F-9-4-01",
       "F-9-4-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě používá slova práce, výkon a energie zaměnitelně a nehlídá jednotky.",
+      "childQuestion": "Co se mění: poloha, pohyb, teplota nebo čas potřebný k práci?",
+      "homeActivity": "Porovnejte dvě činnosti doma: stejná práce pomalu a rychle, a pojmenujte výkon.",
+      "teacherSignal": "Dítě neumí rozlišit práci, výkon, energii a teplo v základních příkladech."
+    }
   },
   {
     "id": "fy8-zvuk",
@@ -3681,7 +3987,13 @@
     "rvpRefs": [
       "F-9-5-01",
       "F-9-5-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě vnímá zvuk jen jako hlasitost a nevšímá si zdroje, šíření a ochrany sluchu.",
+      "childQuestion": "Co se chvěje a kudy se zvuk šíří?",
+      "homeActivity": "Vyzkoušejte gumičku, sklenici nebo krabici jako zdroj zvuku a porovnejte hlasitost a výšku.",
+      "teacherSignal": "Dítě nerozumí základnímu vzniku zvuku nebo podceňuje riziko hluku."
+    }
   },
   {
     "id": "fy9-elektrina",
@@ -3706,7 +4018,13 @@
       "F-9-6-02",
       "F-9-6-03",
       "F-9-6-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě spojuje obvod náhodně a neví, kdy je obvod uzavřený a bezpečný.",
+      "childQuestion": "Kudy teče proud a kde je obvod přerušený?",
+      "homeActivity": "Nakreslete jednoduchý obvod s baterií, spínačem a žárovkou, pak popište cestu proudu.",
+      "teacherSignal": "Dítě pracuje s elektrickými zařízeními rizikově nebo nerozumí základnímu uzavřenému obvodu."
+    }
   },
   {
     "id": "fy9-svetlo-vesmir",
@@ -3729,7 +4047,13 @@
       "F-9-6-05",
       "F-9-6-06",
       "F-9-7-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě plete odraz, lom, stín a obraz a vysvětluje je jedním slovem světlo.",
+      "childQuestion": "Co se se světlem děje: odráží se, láme se, nebo ho něco zastiňuje?",
+      "homeActivity": "S baterkou a zrcátkem ukažte odraz, stín a změnu směru světla na jednoduchém pokusu.",
+      "teacherSignal": "Dítě má trvalé nejasnosti v základní optice nebo astronomických souvislostech."
+    }
   },
   {
     "id": "z6-zeme",
@@ -3755,7 +4079,13 @@
       "Z-9-7-01",
       "Z-9-7-02",
       "Z-9-7-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě čte mapu jako obrázek a přehlíží měřítko, legendu a souřadnice.",
+      "childQuestion": "Jak ti legenda nebo měřítko pomůže najít odpověď?",
+      "homeActivity": "Najděte na mapě trasu výletu a určete směr, vzdálenost a tři značky v legendě.",
+      "teacherSignal": "Dítě se neumí orientovat v jednoduché mapě ani s pomocí legendy."
+    }
   },
   {
     "id": "z6-prirodni-obraz",
@@ -3779,7 +4109,13 @@
       "Z-9-2-01",
       "Z-9-2-02",
       "Z-9-2-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí pohoří, řeky a podnebí odděleně a nevidí, jak tvoří podmínky života.",
+      "childQuestion": "Jak poloha nebo podnebí ovlivňuje život lidí v krajině?",
+      "homeActivity": "Vyberte jedno místo na Zemi a spojte jeho polohu, teplotu, vodu a způsob života.",
+      "teacherSignal": "Dítě nerozumí základním přírodním složkám Země a jejich vztahům."
+    }
   },
   {
     "id": "z7-svetadily",
@@ -3803,7 +4139,13 @@
       "Z-9-3-01",
       "Z-9-3-02",
       "Z-9-3-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zaměňuje světadíl, stát a region a pamatuje si jen názvy.",
+      "childQuestion": "Mluvíš o světadílu, státu, nebo oblasti?",
+      "homeActivity": "U jednoho světadílu najděte tři rozdílné regiony a porovnejte přírodu i život lidí.",
+      "teacherSignal": "Dítě se dlouhodobě neorientuje ve světadílech, oceánech a základních regionech."
+    }
   },
   {
     "id": "z8-evropa",
@@ -3826,7 +4168,13 @@
     "rvpRefs": [
       "Z-9-3-02",
       "Z-9-3-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zná evropské státy izolovaně a nevnímá regiony, historické vazby a současné rozdíly.",
+      "childQuestion": "Co mají země v tomto regionu společné?",
+      "homeActivity": "Vyberte jeden evropský region a porovnejte polohu, hospodářství a kulturní vazby.",
+      "teacherSignal": "Dítě neumí zařadit evropské státy do základních regionů a souvislostí."
+    }
   },
   {
     "id": "z8-obyvatelstvo-sidla",
@@ -3849,7 +4197,13 @@
     "rvpRefs": [
       "Z-9-4-01",
       "Z-9-4-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere město jen jako velké sídlo a nevšímá si služeb, dopravy, práce a problémů.",
+      "childQuestion": "Proč lidé žijí právě tady a co jim to přináší?",
+      "homeActivity": "Porovnejte obec a město podle dopravy, služeb, práce, bydlení a zeleně.",
+      "teacherSignal": "Dítě nerozumí základním rozdílům mezi typy sídel a příčinám urbanizace."
+    }
   },
   {
     "id": "z8-hospodarstvi-politika",
@@ -3875,7 +4229,13 @@
       "Z-9-4-05",
       "Z-9-4-06",
       "Z-9-6-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí pojmy jako zdroje a geopolitika bez konkrétní vazby na každodenní život.",
+      "childQuestion": "Odkud pochází věc, kterou používáš, a jaká cesta za ní je?",
+      "homeActivity": "Vyberte běžný výrobek a sledujte surovinu, výrobu, dopravu a stát nebo region původu.",
+      "teacherSignal": "Dítě neumí propojit zdroje, hospodářství a politické souvislosti ani na jednoduchém příkladu."
+    }
   },
   {
     "id": "z8-krajina-zivotni-prostredi",
@@ -3900,7 +4260,13 @@
       "Z-9-5-02",
       "Z-9-5-03",
       "Z-9-7-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě říká obecné ekologické věty a nepracuje s konkrétní krajinou a jejími konflikty.",
+      "childQuestion": "Kdo krajinu využívá a co tím získává nebo ztrácí?",
+      "homeActivity": "U místa v okolí pojmenujte funkce krajiny: bydlení, doprava, voda, příroda, rekreace.",
+      "teacherSignal": "Dítě nerozumí základním střetům mezi využíváním krajiny a ochranou prostředí."
+    }
   },
   {
     "id": "z9-cr",
@@ -3925,7 +4291,13 @@
       "Z-9-6-03",
       "Z-9-6-04",
       "Z-9-6-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zná kraje jako seznam, ale neumí propojit svůj region s dopravou, prací, přírodou a historií.",
+      "childQuestion": "Čím je náš region typický a co ho spojuje s ostatními částmi ČR?",
+      "homeActivity": "Vytvořte krátkou vizitku kraje: poloha, město, přírodní znak, průmysl nebo památka.",
+      "teacherSignal": "Dítě se neorientuje v krajích ČR ani ve vlastním místním regionu."
+    }
   },
   {
     "id": "d6-pravek",
@@ -3955,7 +4327,13 @@
       "D-9-3-02",
       "D-9-3-03",
       "D-9-3-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si pravěk a starověk představuje jako sled obrázků a nevidí změny způsobu života lidí.",
+      "childQuestion": "Co lidem v té době pomáhalo přežít a co se změnilo proti dřívějšku?",
+      "homeActivity": "Porovnejte lovce, zemědělce a obyvatele starověkého města podle práce, bydlení a pravidel.",
+      "teacherSignal": "Dítě se neorientuje v základní časové posloupnosti pravěku a starověku."
+    }
   },
   {
     "id": "inf6-data-modelovani",
@@ -4009,7 +4387,13 @@
     "rvpRefs": [
       "P-9-1-01",
       "P-9-8-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si buňku představuje jako obrázek s popisky a ne jako základ živého organismu.",
+      "childQuestion": "Co musí buňka umět, aby organismus mohl žít?",
+      "homeActivity": "Nakreslete buňku jednoduše a ke každé části napište jednu funkci místo dlouhého popisu.",
+      "teacherSignal": "Dítě se učí názvy nazpaměť, ale neumí říct základní projevy života."
+    }
   },
   {
     "id": "prir6-mikrosvet-houby",
@@ -4032,7 +4416,13 @@
     "rvpRefs": [
       "P-9-1-04",
       "P-9-2-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě hází viry, bakterie a houby do jedné skupiny a nerozlišuje užitek, riziko a prevenci.",
+      "childQuestion": "Které mikroorganismy mohou pomáhat a které mohou škodit?",
+      "homeActivity": "U tří běžných situací řekněte, jestli jde o hygienu, kvašení, nemoc nebo rozklad.",
+      "teacherSignal": "Dítě nerozumí základní hygieně nebo má velké nejasnosti v prevenci nemocí."
+    }
   },
   {
     "id": "prir7-rostliny",
@@ -4056,7 +4446,13 @@
       "P-9-3-01",
       "P-9-3-02",
       "P-9-3-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě poznává rostliny jen podle květu a nevšímá si stavby, listů, stanoviště a fotosyntézy.",
+      "childQuestion": "Co rostlina přijímá a co díky tomu vytváří?",
+      "homeActivity": "Na jedné rostlině najděte kořen, stonek, list a řekněte, k čemu slouží.",
+      "teacherSignal": "Dítě neumí popsat základní části rostliny ani princip výživy rostlin."
+    }
   },
   {
     "id": "prir7-obratlovci",
@@ -4081,7 +4477,13 @@
       "P-9-4-02",
       "P-9-4-03",
       "P-9-4-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě třídí živočichy podle dojmu, ne podle znaků stavby těla a způsobu života.",
+      "childQuestion": "Podle kterých znaků patří živočich do téhle skupiny?",
+      "homeActivity": "Vyberte tři živočichy a porovnejte pokryv těla, dýchání, pohyb a prostředí.",
+      "teacherSignal": "Dítě dlouhodobě nerozlišuje základní skupiny obratlovců a jejich znaky."
+    }
   },
   {
     "id": "prir8-clovek",
@@ -4103,7 +4505,13 @@
     ],
     "rvpRefs": [
       "P-9-5-01"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí orgánové soustavy odděleně a nevidí, že spolupracují v jednom těle.",
+      "childQuestion": "Které soustavy spolupracují při běhu, jídle nebo dýchání?",
+      "homeActivity": "U běžné činnosti, třeba sportu, popište práci svalů, dýchání, srdce a nervové soustavy.",
+      "teacherSignal": "Dítě nerozumí základní funkci orgánových soustav nebo má zmatek v péči o zdraví."
+    }
   },
   {
     "id": "prir8-vyvoj-zdravi",
@@ -4127,7 +4535,13 @@
       "P-9-5-02",
       "P-9-5-03",
       "P-9-5-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě vnímá rozmnožování a vývoj jen jako biologii, ne jako téma respektu, hranic a zdraví.",
+      "childQuestion": "Co znamená respektovat své tělo a hranice druhého člověka?",
+      "homeActivity": "Mluvte věcně a krátce o změnách v dospívání a nechte dítě položit anonymně jednu otázku.",
+      "teacherSignal": "Dítě má výrazné obavy, dezinformace nebo rizikové chování v oblasti dospívání a vztahů."
+    }
   },
   {
     "id": "prir8-ekologie",
@@ -4152,7 +4566,13 @@
       "P-9-7-02",
       "P-9-7-03",
       "P-9-7-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě mluví o ekologii obecně, ale neumí propojit konkrétní zásah s dopadem na ekosystém.",
+      "childQuestion": "Kdo nebo co se změní, když člověk zasáhne do prostředí?",
+      "homeActivity": "Vyberte jednu lokální změnu v krajině a pojmenujte dopad na vodu, půdu, rostliny a lidi.",
+      "teacherSignal": "Dítě nerozumí základním vztahům v ekosystému ani vlivu člověka na prostředí."
+    }
   },
   {
     "id": "prir9-geologie",
@@ -4176,7 +4596,13 @@
       "P-9-6-01",
       "P-9-6-02",
       "P-9-6-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere horniny jako názvy k zapamatování a nevnímá děje, které krajinu mění v čase.",
+      "childQuestion": "Jaký děj mohl tuhle horninu nebo tvar krajiny vytvořit?",
+      "homeActivity": "Na procházce najděte kámen nebo svah a zkuste určit, co na něm ukazuje voda, zvětrávání nebo člověk.",
+      "teacherSignal": "Dítě se ztrácí v základním rozlišení hornin, půdy, počasí a geologických dějů."
+    }
   },
   {
     "id": "prir9-genetika",
@@ -4199,7 +4625,13 @@
     "rvpRefs": [
       "P-9-1-02",
       "P-9-1-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si dědičnost představuje jako jednoduché kopírování vlastností a čeká jisté výsledky.",
+      "childQuestion": "Co může být zděděné a co ovlivňuje prostředí?",
+      "homeActivity": "Na neosobních příkladech, třeba barva květů, ukažte znak, variantu a možnost kombinace.",
+      "teacherSignal": "Dítě má zásadní nejasnosti v dědičnosti nebo téma vyvolává silné obavy a mýty."
+    }
   },
   {
     "id": "inf6-programovani",
@@ -4316,7 +4748,13 @@
     "rvpRefs": [
       "VO-9-1-01",
       "VO-9-1-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě vnímá obec a stát jako vzdálené instituce a nevidí, kde se ho pravidla týkají osobně.",
+      "childQuestion": "Kdo rozhoduje o věci, kterou potkáváš každý den?",
+      "homeActivity": "Najděte jeden problém v obci a zjistěte, kdo ho může řešit: škola, obec, stát nebo rodina.",
+      "teacherSignal": "Dítě nerozumí základním rolím školy, obce a státu ani v běžných situacích."
+    }
   },
   {
     "id": "ov6-clovek-osobnost",
@@ -4788,7 +5226,13 @@
       "D-9-4-02",
       "D-9-4-03",
       "D-9-4-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si pamatuje panovníky a bitvy bez vazby na společnost, víru, práci a moc.",
+      "childQuestion": "Kdo měl v té době moc a jak to ovlivňovalo obyčejné lidi?",
+      "homeActivity": "Nakreslete jednoduchou pyramidu středověké společnosti a ke každé skupině napište jednu povinnost.",
+      "teacherSignal": "Dítě nerozumí základům středověké společnosti a českých dějin tohoto období."
+    }
   },
   {
     "id": "d7-rany-novovek",
@@ -4815,7 +5259,13 @@
       "D-9-5-04",
       "D-9-5-05",
       "D-9-5-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere objevy, reformaci a renesanci jako izolované pojmy bez společné změny myšlení a světa.",
+      "childQuestion": "Co nového lidé začali zkoumat, zpochybňovat nebo objevovat?",
+      "homeActivity": "U jedné události napište příčinu, změnu a důsledek pro Evropu nebo svět.",
+      "teacherSignal": "Dítě neumí propojit renesanci, reformaci a objevy s proměnou společnosti."
+    }
   },
   {
     "id": "cj8-rozbory",
@@ -5104,7 +5554,13 @@
     "rvpRefs": [
       "CH-9-1-01",
       "CH-9-1-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě vnímá chemii jako míchání látek a podceňuje symboly, ochranu a přesný postup.",
+      "childQuestion": "Jaké riziko látka má a jak se při práci chráníš?",
+      "homeActivity": "Projděte doma bezpečnostní symboly na čisticích prostředcích a řekněte, co znamenají.",
+      "teacherSignal": "Dítě nerespektuje bezpečnostní pravidla při práci s látkami nebo nerozumí varovným symbolům."
+    }
   },
   {
     "id": "ch8-smesi",
@@ -5129,7 +5585,13 @@
       "CH-9-2-02",
       "CH-9-2-03",
       "CH-9-2-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě si plete směs, roztok a čistou látku a neví, co lze oddělit fyzikálně.",
+      "childQuestion": "Je látka rozpuštěná, smíchaná, nebo je sama o sobě čistá?",
+      "homeActivity": "Rozlište doma sůl ve vodě, písek ve vodě a čistou vodu a navrhněte oddělení.",
+      "teacherSignal": "Dítě nerozlišuje směsi a roztoky ani v běžných bezpečných příkladech."
+    }
   },
   {
     "id": "ch8-castice-prvky",
@@ -5152,7 +5614,13 @@
     "rvpRefs": [
       "CH-9-3-01",
       "CH-9-3-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere atomy a molekuly jako malé kuličky bez vztahu ke značkám prvků a látkám.",
+      "childQuestion": "Z jakých částic nebo prvků je látka složená?",
+      "homeActivity": "Na vodě, kyslíku nebo soli ukažte rozdíl mezi prvkem, molekulou a sloučeninou pomocí modelu.",
+      "teacherSignal": "Dítě se ztrácí v rozdílu mezi atomem, molekulou, prvkem a sloučeninou."
+    }
   },
   {
     "id": "ch8-reakce",
@@ -5175,7 +5643,13 @@
     "rvpRefs": [
       "CH-9-4-01",
       "CH-9-4-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě vyčísluje rovnice mechanicky a nevnímá, že atomy se zachovávají.",
+      "childQuestion": "Je na obou stranách stejný počet atomů každého prvku?",
+      "homeActivity": "U jednoduché rovnice barevně označte prvky a spočítejte atomy před a po reakci.",
+      "teacherSignal": "Dítě nerozumí zachování atomů a neumí vyčíslit ani velmi jednoduchou rovnici."
+    }
   },
   {
     "id": "ch9-anorganika-ph",
@@ -5198,7 +5672,13 @@
     "rvpRefs": [
       "CH-9-5-01",
       "CH-9-5-02"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě bere pH jako číslo bez vazby na kyselé, zásadité a bezpečné zacházení.",
+      "childQuestion": "Je roztok kyselý, zásaditý nebo neutrální a jak to poznáš?",
+      "homeActivity": "Porovnejte bezpečné domácí příklady podle pH indikátoru nebo popisu a mluvte o ochraně.",
+      "teacherSignal": "Dítě podceňuje bezpečnost kyselin a zásad nebo nerozumí základní škále pH."
+    }
   },
   {
     "id": "ch9-organika-paliva",
@@ -5223,7 +5703,13 @@
       "CH-9-6-02",
       "CH-9-6-03",
       "CH-9-6-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí organické látky jako seznam názvů a nevidí zdroje, energii a dopady používání.",
+      "childQuestion": "K čemu se látka používá a jaký má přínos i riziko?",
+      "homeActivity": "U benzínu, plastu nebo cukru pojmenujte původ, využití a jeden environmentální dopad.",
+      "teacherSignal": "Dítě nerozumí vztahu mezi palivy, organickými látkami a běžným životem."
+    }
   },
   {
     "id": "ch9-chemie-spolecnost",
@@ -5247,7 +5733,13 @@
       "CH-9-7-01",
       "CH-9-7-02",
       "CH-9-7-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě hodnotí chemii jen jako škodlivou nebo užitečnou, bez rozlišování dávky, účelu a regulace.",
+      "childQuestion": "Jaký problém chemie řeší a jaké riziko musí hlídat?",
+      "homeActivity": "Vyberte jeden výrobek, třeba lék, hnojivo nebo plast, a sepište přínos, riziko a pravidlo bezpečí.",
+      "teacherSignal": "Dítě má výrazně černobílé nebo nebezpečné představy o chemických látkách."
+    }
   },
   {
     "id": "d8-novovek",
@@ -5272,7 +5764,13 @@
       "D-9-6-02",
       "D-9-6-03",
       "D-9-6-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí revoluce a 19. století jako data a nevidí průmysl, národy, občanská práva a každodennost.",
+      "childQuestion": "Jak se změnila práce, města nebo práva lidí?",
+      "homeActivity": "Porovnejte život před a po industrializaci ve třech oblastech: práce, bydlení, doprava.",
+      "teacherSignal": "Dítě se ztrácí v hlavních změnách novověku a 19. století."
+    }
   },
   {
     "id": "ov7-media-tolerance",
@@ -5297,7 +5795,13 @@
       "VO-9-1-04",
       "VO-9-1-05",
       "VO-9-1-06"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zaměňuje názor za útok a v médiích snadno přebírá silná tvrzení bez ověření.",
+      "childQuestion": "Je to informace, názor, nebo snaha někoho ovlivnit?",
+      "homeActivity": "U jednoho příspěvku označte fakt, názor a otázku, kterou by bylo potřeba ověřit.",
+      "teacherSignal": "Dítě opakovaně šíří neověřené informace nebo má potíže respektovat odlišnost."
+    }
   },
   {
     "id": "ov8-stat",
@@ -5323,7 +5827,13 @@
       "VO-9-4-03",
       "VO-9-4-04",
       "VO-9-4-05"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě se učí pojmy demokracie a práva abstraktně a nevidí jejich dopad na běžný život.",
+      "childQuestion": "Které právo nebo pravidlo chrání člověka v téhle situaci?",
+      "homeActivity": "U školní nebo veřejné situace pojmenujte, kdo má právo, povinnost a možnost obrany.",
+      "teacherSignal": "Dítě nerozumí základním principům práv, povinností a demokratického rozhodování."
+    }
   },
   {
     "id": "ov8-finance-trh",
@@ -5351,7 +5861,13 @@
       "VO-9-3-05",
       "VO-9-3-06",
       "VO-9-3-07"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě řeší peníze jako okamžitý nákup a nevidí rozpočet, rezervu a riziko půjčky.",
+      "childQuestion": "Je to potřeba, přání, nebo závazek do budoucna?",
+      "homeActivity": "Sestavte jednoduchý měsíční rozpočet kapesného: příjem, nutné výdaje, spoření, rezerva.",
+      "teacherSignal": "Dítě opakovaně nerozumí základnímu rozpočtu, dluhu nebo riziku finančních nabídek."
+    }
   },
   {
     "id": "ov8-pravo-spotrebitel",
@@ -5379,7 +5895,13 @@
       "VO-9-4-09",
       "VO-9-4-10",
       "VO-9-4-11"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě podepíše nebo odsouhlasí věc bez čtení podmínek a neví, kdy má právo se bránit.",
+      "childQuestion": "K čemu se člověk smlouvou zavazuje?",
+      "homeActivity": "Projděte jednoduchou reklamaci nebo nákup online: doklad, lhůta, podmínky, kontakt.",
+      "teacherSignal": "Dítě nerozumí základní odpovědnosti při smlouvách nebo spotřebitelským právům."
+    }
   },
   {
     "id": "cj9-pravopis",
@@ -5618,7 +6140,13 @@
       "D-9-8-02",
       "D-9-8-03",
       "D-9-8-04"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě zná silné události 20. století, ale nerozlišuje příčiny, propagandu, totalitu a osobní odpovědnost.",
+      "childQuestion": "Jak poznáš, že moc omezuje svobodu lidí?",
+      "homeActivity": "U jedné události vytvořte osu: příčina, průběh, dopad na běžného člověka, paměť dnes.",
+      "teacherSignal": "Dítě má zásadní zmatek ve válkách, totalitách nebo roce 1989 a neumí je zasadit do časové osy."
+    }
   },
   {
     "id": "ov9-svet",
@@ -5641,7 +6169,13 @@
       "VO-9-5-01",
       "VO-9-5-02",
       "VO-9-5-03"
-    ]
+    ],
+    "quality": {
+      "typicalMistake": "Dítě sleduje politiku jako souboj názorů a nevšímá si institucí, voleb a pravidel rozhodování.",
+      "childQuestion": "Kdo v téhle věci rozhoduje a podle jakých pravidel?",
+      "homeActivity": "Vyberte aktuální veřejné téma a rozdělte fakta, postoje aktérů a instituci, která rozhoduje.",
+      "teacherSignal": "Dítě nerozumí základnímu smyslu voleb, EU nebo globálních vazeb ani na konkrétních příkladech."
+    }
   },
   {
     "id": "mil9-prijimacky",
