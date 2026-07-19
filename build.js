@@ -858,6 +858,70 @@ function analyticsPanel() {
   </section>`;
 }
 
+const OFFICIAL_SOURCES = {
+  rvp: {
+    title: "RVP ZV",
+    url: "https://www.edu.cz/rvp-ramcove-vzdelavaci-programy/",
+    text: "Rámcové vzdělávací programy a oficiální informace k RVP."
+  },
+  edu: {
+    title: "MŠMT",
+    url: "https://www.msmt.gov.cz/vzdelavani/zakladni-vzdelavani",
+    text: "Základní vzdělávání, školní dokumenty a metodické informace."
+  },
+  law: {
+    title: "Školský zákon",
+    url: "https://www.zakonyprolidi.cz/cs/2004-561",
+    text: "Zákon č. 561/2004 Sb. ve veřejně dostupném znění."
+  },
+  cermat: {
+    title: "Cermat",
+    url: "https://prijimacky.cermat.cz/",
+    text: "Jednotná přijímací zkouška, testová zadání a organizační informace."
+  },
+  dipsy: {
+    title: "DiPSy",
+    url: "https://www.prihlaskynastredni.cz/",
+    text: "Oficiální informace k přihláškám na střední školy."
+  },
+  podpurna: {
+    title: "Podpůrná opatření",
+    url: "https://www.edu.cz/poradenstvi-a-prevence/",
+    text: "Školní poradenství, prevence a orientace v podpoře žáků."
+  }
+};
+
+function sourceCards(keys) {
+  return keys.map(key => {
+    const source = OFFICIAL_SOURCES[key];
+    return `<a class="source-card" href="${esc(source.url)}" rel="noopener">
+      <b>${esc(source.title)}</b>
+      <p>${esc(source.text)}</p>
+      <span>Otevřít zdroj →</span>
+    </a>`;
+  }).join("");
+}
+
+function sourceSection(keys, title = "Oficiální zdroje") {
+  return `<section class="section source-section">
+    <div class="sec-head"><h2>${esc(title)}</h2></div>
+    <div class="source-grid">${sourceCards(keys)}</div>
+  </section>`;
+}
+
+function lastChanges(R) {
+  const changes = [
+    ["Technické QA", "Čisté GitHub Pages URL, release check, vizuální Playwright QA a PWA/offline vrstva."],
+    ["Obsahové pokrytí", "206/206 běžných témat má rodičovská vodítka a strukturální audit je čistý."],
+    ["RVP a Cermat", "RVP vazby, doplňující obory, milníky a Cermat tracker jsou vedené jako oddělené vrstvy."],
+    ["Pomoc rodičům", "Pomoc, situace, rodičovské cesty, plán a rozbor testu jsou dohledatelné z rozšířeného hledání."]
+  ];
+  return `<section class="section changelog">
+    <div class="sec-head"><h2>Co je nové</h2><a class="more" href="${R}audit/">Audit →</a></div>
+    <div class="cards">${changes.map(([title, text]) => `<div class="gl"><b>${esc(title)}</b><p>${esc(text)}</p></div>`).join("")}</div>
+  </section>`;
+}
+
 function subjectGuide(p, items, R) {
   const phases = [
     ["1.–3. ročník", items.filter(s => s.r <= 3), "základy, jistota v pojmech a první samostatné postupy"],
@@ -960,7 +1024,8 @@ function controlQuestions(s) {
   </section>
   <section class="section">
     <div class="sec-head"><h2>Co říká zákon</h2><a class="more" href="zakony/">Vše o pravidlech →</a></div>
-    <div class="infobox"><b>Rychlá orientace:</b> povinná školní docházka trvá 9 let a začíná v 6 letech (školský zákon č. 561/2004 Sb.). Co se učí, rámcově určuje RVP ZV; konkrétní podobu dává každé škole její ŠVP. Přijímačky na střední i víceletá gymnázia zajišťuje jednotná zkouška Cermatu, přihlášky běží elektronicky přes DiPSy.</div>
+  <div class="infobox"><b>Rychlá orientace:</b> povinná školní docházka trvá 9 let a začíná v 6 letech. Učivo rámcově určuje RVP ZV, konkrétní pořadí škola ve svém ŠVP. Přijímačky organizuje Cermat a přihlášky běží přes DiPSy.</div>
+  <div class="source-grid">${sourceCards(["rvp", "law", "cermat", "dipsy"])}</div>
   </section>`;
   write("index.html", layout({
     path: "", nav: "home",
@@ -1288,6 +1353,7 @@ SKILLS.forEach(s => {
   <div class="page-title"><h1>Cermat a Mapa učení</h1>
   <p class="lead">Přijímačky nejsou samostatný předmět. Tady je vidět, která témata z matematiky a češtiny se v jednotné přijímací zkoušce typicky potkávají a jak je trénovat bez náhodného listování testy.</p></div>
   <div class="infobox"><b>Princip:</b> zadání a klíče patří na oficiální web Cermatu. Mapa učení ukazuje dovednosti za úlohami, typické pasti a odkazy zpět na učivo.</div>
+  ${sourceSection(["cermat", "dipsy", "law"])}
   ${CERMAT.exams.map(exam => `<section class="section">
     <div class="sec-head"><h2>${esc(exam.title)}</h2><a class="more" href="${R}${cermatExamUrl(exam)}">Přehled →</a></div>
     <p class="lead small-lead">${esc(exam.desc)}</p>
@@ -1310,7 +1376,8 @@ SKILLS.forEach(s => {
     ${cermatReviewHTML(exam, examR)}
     ${cermatPrintPlanHTML(exam)}
     <div class="cards">${exam.subjects.map(subject => cardSubject(exam, subject, examR)).join("")}</div>
-    <div class="infobox"><b>Jak používat:</b> nejdřív najděte okruh, kde dítě ztrácí body, pak otevřete navázaná témata. Celý test nanečisto má smysl hlavně tehdy, když po něm následuje rozbor chyb.</div>`;
+    <div class="infobox"><b>Jak používat:</b> nejdřív najděte okruh, kde dítě ztrácí body, pak otevřete navázaná témata. Celý test nanečisto má smysl hlavně tehdy, když po něm následuje rozbor chyb.</div>
+    ${sourceSection(["cermat", "dipsy"], "Zdroje k přijímačkám")}`;
     write(`${cermatExamUrl(exam)}index.html`, layout({
       path: cermatExamUrl(exam), nav: "cermat",
       title: `${exam.title} podle témat | Mapa učení`,
@@ -1377,7 +1444,8 @@ SKILLS.forEach(s => {
         <div class="sec-head"><h2>Jak trénovat</h2></div>
         <div class="practice-list">${subject.training.map(t => `<div>${esc(t)}</div>`).join("")}</div>
       </section>
-      <div class="infobox"><b>Právně čistě:</b> konkrétní testy, záznamové archy a klíče jsou na webu Cermatu. Tady mapujeme dovednosti a strategii, ne kopie testových úloh.</div>`;
+      <div class="infobox"><b>Právně čistě:</b> konkrétní testy, záznamové archy a klíče jsou na webu Cermatu. Tady mapujeme dovednosti a strategii, ne kopie testových úloh.</div>
+      ${sourceSection(["cermat"], "Oficiální testová zadání")}`;
       write(`${cermatSubjectUrl(exam, subject)}index.html`, layout({
         path: cermatSubjectUrl(exam, subject), nav: "cermat",
         title: `${subject.title} k přijímačkám Cermat · ${exam.label} | Mapa učení`,
@@ -1478,7 +1546,7 @@ SKILLS.forEach(s => {
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Pomoc</div>
   <div class="page-title"><h1>Pomoc pro rodiče</h1>
-  <p class="lead">Vyberte problém a dostaňte se rovnou k praktickému kroku: doma, ve škole nebo v poradně.</p></div>
+  <p class="lead">Vyberte problém. Stránka vás pošle k dalšímu kroku doma, ve škole nebo v poradně.</p></div>
   <section class="section help-chooser">
     <div class="sec-head"><h2>Co právě řešíte?</h2></div>
     <div class="infobox"><b>Bez ukládání:</b> výběr se nikam neposílá ani neukládá. Jen na této stránce ukáže vhodný další krok.</div>
@@ -1533,8 +1601,9 @@ SKILLS.forEach(s => {
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Přechody a životní situace</div>
   <div class="page-title"><h1>Přechody a životní situace</h1>
-  <p class="lead">Školní situace, které rodiče řeší napříč ročníky. Nejsou to běžná témata učiva, ale pomáhají rozhodnout, co hlídat, na co se ptát školy a kam dál v mapě.</p></div>
-  <div class="cards">${SITUATIONS.map(situation => situationCard(situation, R)).join("")}</div>`;
+  <p class="lead">Zápis, odklad, změna školy, přechody a domácí vzdělávání. Praktické kroky a otázky pro školu na jednom místě.</p></div>
+  <div class="cards">${SITUATIONS.map(situation => situationCard(situation, R)).join("")}</div>
+  ${sourceSection(["law", "edu", "podpurna"])}`;
   write("situace/index.html", layout({
     path: "situace/", nav: "pomoc",
     title: "Přechody a životní situace ve škole | Mapa učení",
@@ -1570,6 +1639,7 @@ SKILLS.forEach(s => {
       <div class="cards">${situation.schoolQuestions.map(item => `<div class="gl"><p>${esc(item)}</p></div>`).join("")}</div>
     </section>
     <div class="infobox"><b>Na co si dát pozor:</b> ${esc(situation.watchOut)}</div>
+    ${sourceSection(["law", "edu", "podpurna"], "Zdroje k pravidlům a podpoře")}
     <section class="section">
       <div class="sec-head"><h2>Navázaná témata</h2></div>
       <div class="cards">${linkedSkills.map(s => skillCard(s, pageR)).join("")}</div>
@@ -1675,7 +1745,7 @@ SKILLS.forEach(s => {
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Když dítě nestíhá</div>
   <div class="page-title"><h1>Když dítě nestíhá</h1>
-  <p class="lead">Praktický postup pro rodiče, když se dítě začne ztrácet v učivu, tempu, domácích úkolech nebo školním tlaku.</p></div>
+  <p class="lead">Krátký postup pro rodiče: zjistit příčinu, snížit tlak a včas zapojit školu nebo poradnu.</p></div>
   <div class="infobox"><b>Nejdřív klid:</b> jedno horší období neznamená selhání dítěte ani školy. Smyslem je zjistit, co přesně se děje, zmenšit tlak a včas zapojit správnou pomoc.</div>
   <section class="section">
     <div class="sec-head"><h2>První postup</h2></div>
@@ -1699,6 +1769,7 @@ SKILLS.forEach(s => {
       <div class="gl"><b>Podpůrná opatření</b><p>Mohou znamenat úpravu metod, hodnocení, pomůcky, asistenta, organizaci výuky nebo další podporu podle doporučení.</p></div>
     </div>
   </section>
+  ${sourceSection(["podpurna", "edu", "law"], "Zdroje k podpoře dítěte")}
   <section class="section">
     <div class="sec-head"><h2>Podle problému</h2></div>
     <div class="cards">${topicCards}</div>
@@ -1749,7 +1820,8 @@ SKILLS.forEach(s => {
   <div class="page-title"><h1>Zákony a pravidla srozumitelně</h1>
   <p class="lead">Nejdůležitější pravidla českého základního školství pro rodiče — bez paragrafového žargonu, ale s odkazem na paragraf, kdybyste ho potřebovali.</p></div>
   ${LAWS.map(l => `<div class="law"><h3>${l.t}</h3><p>${l.p}</p><span class="ref">${l.ref}</span></div>`).join("")}
-  <div class="infobox"><b>Pozor:</b> tato stránka je zjednodušený průvodce, ne právní poradna. Aktuální a závazné znění najdete ve Sbírce zákonů (zakonyprolidi.cz) a na webu MŠMT (msmt.gov.cz); k přijímačkám na prihlaskynastredni.cz.</div>`;
+  <div class="infobox"><b>Pozor:</b> tato stránka je zjednodušený průvodce, ne právní poradna. Před rozhodnutím vždy ověřte aktuální znění pravidel u školy nebo v oficiálních zdrojích.</div>
+  ${sourceSection(["law", "edu", "dipsy", "cermat"])}`;
   write("zakony/index.html", layout({
     path: "zakony/", nav: "zakony",
     title: "Školský zákon pro rodiče srozumitelně | Mapa učení",
@@ -1835,6 +1907,15 @@ SKILLS.forEach(s => {
   </div>
   <div class="infobox"><b>Jak to číst:</b> RVP stanovuje výstupy pro období a stupně, nikoli pevné ročníky. Pokrytí proto ukazuje vazbu témat na RVP výstupy; ročníkové zařazení zůstává orientační. <a href="${R}milniky/">${outOfRvpSkills.length} milníky a zkoušky</a> vedeme mimo RVP mapování, protože popisují školní události, ne očekávané výstupy.</div>
   <section class="section">
+    <div class="sec-head"><h2>Jak jsme RVP srovnali</h2></div>
+    <div class="cards">
+      <div class="gl"><b>Výstupy</b><p>Importované očekávané výstupy jsou vedené jako samostatná data a témata na ně odkazují přes rvpRefs.</p></div>
+      <div class="gl"><b>Ročníky</b><p>Ročník je rodičovská orientace. Závazné je období a konkrétní ŠVP školy.</p></div>
+      <div class="gl"><b>Mimo RVP</b><p>Milníky, přijímačky a praktické situace nemícháme do povinného počítadla očekávaných výstupů.</p></div>
+    </div>
+  </section>
+  ${sourceSection(["rvp", "edu"])}
+  <section class="section">
     <div class="sec-head"><h2>Oblasti a obory</h2></div>
     ${RVP.areas.map(area => `<div class="rvp-area">
       <h3>${esc(area.name)}</h3>
@@ -1893,6 +1974,14 @@ SKILLS.forEach(s => {
     <div><b>${PARENT_PATH_QUALITY.findings.length}</b><span>cest bez kvalitativních vodítek</span></div>
   </div>
   <div class="infobox"><b>Jak to číst:</b> skóre není známka kvality učiva ani dítěte. Je to pracovní filtr, který hlídá, jestli web má u témat dost konkrétní vysvětlení, domácí pomoc, návaznost a rodičovská vodítka.</div>
+  <section class="section">
+    <div class="sec-head"><h2>Zdrojová kontrola</h2></div>
+    <div class="cards">
+      <div class="gl"><b>RVP</b><p>Výstupy jsou vedené odděleně v datech a stránky je zobrazují jako orientační vazby, ne jako pevné ročníkové termíny.</p></div>
+      <div class="gl"><b>Cermat</b><p>Přijímačková část odkazuje na oficiální testová zadání a mapuje dovednosti, ne kopie úloh.</p></div>
+      <div class="gl"><b>Pravidla</b><p>Právní a poradenské stránky ukazují zdroje a připomínají, že závazná je škola a aktuální oficiální znění.</p></div>
+    </div>
+  </section>
   ${uxScenarioAudit(R)}
   ${coverageDashboard(R)}
   ${analyticsPanel()}
@@ -1948,9 +2037,7 @@ SKILLS.forEach(s => {
     <p class="blockt">Z čeho vychází</p>
     <p style="max-width:680px">Vychází z RVP ZV, školského zákona, veřejných informací Cermatu a běžné praxe českých škol. Ročníky jsou orientační: konkrétní pořadí určuje školní vzdělávací program každé školy.</p>
     <div class="source-grid">
-      <div><b>RVP ZV</b><p>Rámec očekávaných výstupů. Mapa ho převádí do rodičovsky čitelných témat.</p><a href="${R}rvp/">Pokrytí RVP →</a></div>
-      <div><b>Cermat</b><p>Přijímačkové okruhy jsou navázané na běžná témata matematiky a češtiny.</p><a href="${R}cermat/">Cermat část →</a></div>
-      <div><b>Školský zákon</b><p>Pravidla zápisu, docházky, podpory a přijímacího řízení jsou vedená jako orientační průvodce.</p><a href="${R}zakony/">Zákony a pravidla →</a></div>
+      ${sourceCards(["rvp", "cermat", "law", "dipsy", "podpurna"])}
       <div><b>ŠVP školy</b><p>Škola může témata řadit jinak. Mapa proto neříká pevné termíny, ale návaznosti.</p><a href="${R}slovnicek/">Slovníček →</a></div>
     </div>
     <p class="blockt">Co mapa není</p>
@@ -1961,7 +2048,8 @@ SKILLS.forEach(s => {
     <p style="max-width:680px">Web je statický a funguje bez účtu. Odškrtávání témat, Cermat stav, plán, rozbory testů a lokální signály používání zůstávají jen v prohlížeči. Neodesílají se na server.</p>
     <p class="blockt">Aktualizace</p>
     <p style="max-width:680px">Při větších změnách RVP, Cermatu nebo školských pravidel je potřeba data znovu projít. Stránka <a href="${R}audit/">Audit obsahu</a> ukazuje stav pokrytí a místa, která vyžadují redakční kontrolu.</p>
-  </div></article>`;
+  </div></article>
+  ${lastChanges(R)}`;
   write("o-mape/index.html", layout({
     path: "o-mape/", nav: "o-mape",
     title: "O mapě | Mapa učení",

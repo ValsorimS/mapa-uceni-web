@@ -355,12 +355,13 @@ ul.jak li::before{
   border:1px solid #BDD8C9;border-radius:999px;padding:3px 9px;font-size:.78rem;font-weight:800
 }
 .analytics-grid,.source-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:12px 0}
-.source-grid div{
+.source-grid div,.source-card{
   background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:12px
 }
+.source-card{text-decoration:none;color:inherit}
 .source-grid b{font-family:"Bitter",serif;font-size:.94rem}
 .source-grid p{font-size:.88rem;color:var(--muted);margin-top:5px;line-height:1.45}
-.source-grid a{display:inline-block;margin-top:7px;font-weight:800;font-size:.86rem;text-decoration:none}
+.source-grid a,.source-card span{display:inline-block;margin-top:7px;font-weight:800;font-size:.86rem;text-decoration:none;color:var(--blue)}
 .analytics-clear{margin-top:6px;margin-left:0}
 .weekly-plan{padding:18px 0}
 .plan-output{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:16px}

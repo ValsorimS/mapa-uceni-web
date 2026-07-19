@@ -102,11 +102,27 @@ function checkRootMirror() {
   console.log("Root mirror checks ok");
 }
 
+function checkSourceAndTrustBlocks() {
+  const required = [
+    ["rvp/index.html", "Oficiální zdroje"],
+    ["cermat/index.html", "Oficiální zdroje"],
+    ["zakony/index.html", "Oficiální zdroje"],
+    ["situace/index.html", "Oficiální zdroje"],
+    ["kdyz-dite-nestiha/index.html", "Zdroje k podpoře dítěte"],
+    ["o-mape/index.html", "Co je nové"],
+    ["audit/index.html", "Zdrojová kontrola"]
+  ];
+  const findings = required.filter(([rel, needle]) => !read(path.join(DOCS, rel)).includes(needle));
+  if (findings.length) fail(`Missing trust/source blocks:\n${findings.map(([rel, needle]) => `${rel}: ${needle}`).join("\n")}`);
+  else console.log("Trust/source blocks ok");
+}
+
 const files = walk(DOCS, file => file.endsWith(".html"));
 checkLinks(files);
 checkA11yAndSeo(files);
 checkPwa();
 checkRootMirror();
+checkSourceAndTrustBlocks();
 
 if (process.exitCode) process.exit(process.exitCode);
 console.log("Release check ok");
