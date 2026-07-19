@@ -547,7 +547,25 @@ function rulerHTML(R) {
   <p class="ruler-note">Věk je orientační — každé dítě má vlastní tempo a školy řadí učivo podle svého ŠVP.</p>`;
 }
 
-const DATALIST = `<datalist id="topics">${SKILLS.map(s => `<option value="${esc(s.t)}">`).join("")}</datalist>`;
+const DATALIST_OPTIONS = Array.from(new Set([
+  ...SKILLS.map(s => s.t),
+  ...PPATHS.map(path => path.title),
+  ...SITUATIONS.map(situation => situation.title),
+  ...CERMAT.exams.flatMap(exam => [
+    exam.title,
+    ...exam.subjects.map(subject => `${exam.label} ${subject.shortTitle}`)
+  ]),
+  ...SUPP.fields.map(field => field.title),
+  "Když dítě nestíhá",
+  "Pomoc pro rodiče",
+  "Rodičovské cesty",
+  "Přechody a životní situace",
+  "Milníky a zkoušky",
+  "Zákony a pravidla",
+  "RVP",
+  "Slovníček"
+]));
+const DATALIST = `<datalist id="topics">${DATALIST_OPTIONS.map(value => `<option value="${esc(value)}">`).join("")}</datalist>`;
 
 function rvpOutcomeLink(id, R) {
   const o = RVP_OUT[id];
@@ -1472,13 +1490,180 @@ SKILLS.forEach(s => {
 /* Hledat (klientské vyhledávání) */
 (function hledat() {
   const R = "../";
-  const index = SKILLS.map(s => ({
-    slug: s.slug, t: s.t, r: s.r, age: GRADES[s.r].age,
-    pn: SUBJ[s.p].n, c: SUBJ[s.p].c, id: s.id,
-    p: s.p, cermat: (CERMAT_BADGES_BY_SKILL.get(s.id) || []).map(exam => exam.id),
-    lead: s.co.slice(0, s.co.indexOf(".") + 1),
-    txt: norm(s.t + " " + s.co + " " + s.jak.join(" ") + " " + (s.doma || []).join(" ") + " " + SUBJ[s.p].n)
+  const skillSearchItems = SKILLS.map(s => {
+    const isMilestone = s.p === "mil";
+    return {
+      id: s.id,
+      type: isMilestone ? "milnik" : "tema",
+      url: skillUrl(s),
+      title: s.t,
+      tag: isMilestone ? "Milník" : SUBJ[s.p].n,
+      color: SUBJ[s.p].c,
+      meta: `${s.r}. ročník · ${GRADES[s.r].age}`,
+      p: s.p,
+      cermat: (CERMAT_BADGES_BY_SKILL.get(s.id) || []).map(exam => exam.id),
+      lead: s.co.slice(0, s.co.indexOf(".") + 1),
+      txt: norm(s.t + " " + s.co + " " + s.jak.join(" ") + " " + (s.doma || []).join(" ") + " " + s.dal + " " + SUBJ[s.p].n)
+    };
+  });
+  const parentPathSearchItems = PPATHS.map(path => {
+    const linked = path.skillIds.map(byId).filter(Boolean).map(s => s.t).join(" ");
+    return {
+      id: `path-${path.id}`,
+      type: "path",
+      url: parentPathUrl(path),
+      title: path.title,
+      tag: "Rodičovská cesta",
+      color: "var(--green)",
+      meta: `${path.skillIds.length} navázaných témat`,
+      p: "",
+      cermat: [],
+      lead: path.lead,
+      txt: norm([path.title, path.lead, ...(path.signs || []), ...(path.firstSteps || []), path.typicalMistake, path.childQuestion, path.homeActivity, path.teacherSignal, linked].join(" "))
+    };
+  });
+  const situationSearchItems = SITUATIONS.map(situation => {
+    const linked = situation.skillIds.map(byId).filter(Boolean).map(s => s.t).join(" ");
+    return {
+      id: `situation-${situation.id}`,
+      type: "situace",
+      url: situationUrl(situation),
+      title: situation.title,
+      tag: "Situace",
+      color: "var(--blue)",
+      meta: `${situation.skillIds.length} navázaných témat`,
+      p: "",
+      cermat: [],
+      lead: situation.lead,
+      txt: norm([situation.title, situation.lead, ...(situation.whatMatters || []), ...(situation.homeSteps || []), ...(situation.schoolQuestions || []), situation.watchOut, linked].join(" "))
+    };
+  });
+  const cermatSearchItems = [{
+    id: "cermat",
+    type: "cermat",
+    url: "cermat/",
+    title: "Cermat příprava",
+    tag: "Cermat",
+    color: "var(--green)",
+    meta: "5. a 9. třída",
+    p: "",
+    cermat: ["5", "9"],
+    lead: "Přijímačková příprava navázaná na témata matematiky a češtiny.",
+    txt: norm("cermat přijímačky přijímací zkoušky testy matematika čeština pátá devátá")
+  }]
+    .concat(CERMAT.exams.map(exam => ({
+      id: `cermat-${exam.id}`,
+      type: "cermat",
+      url: cermatExamUrl(exam),
+      title: exam.title,
+      tag: "Cermat",
+      color: "var(--green)",
+      meta: exam.label,
+      p: "",
+      cermat: [exam.id],
+      lead: exam.desc,
+      txt: norm([exam.title, exam.label, exam.desc, ...exam.subjects.map(subject => subject.title + " " + subject.lead)].join(" "))
+    })))
+    .concat(CERMAT.exams.flatMap(exam => exam.subjects.map(subject => ({
+      id: `cermat-${exam.id}-${subject.id}`,
+      type: "cermat",
+      url: cermatSubjectUrl(exam, subject),
+      title: `${exam.label}: ${subject.title}`,
+      tag: "Cermat",
+      color: "var(--green)",
+      meta: `${subject.duration} · ${subject.points}`,
+      p: subject.subjectKey,
+      cermat: [exam.id],
+      lead: subject.lead,
+      txt: norm([exam.title, exam.label, subject.title, subject.shortTitle, subject.lead, ...subject.groups.map(group => group.title + " " + group.why + " " + group.watchOut)].join(" "))
+    }))));
+  const supplementarySearchItems = SUPP.fields.map(field => ({
+    id: `supp-${field.id}`,
+    type: "supplementary",
+    url: supplementaryUrl(field),
+    title: field.title,
+    tag: "Doplňující obor",
+    color: "var(--red)",
+    meta: `${field.relatedSkillIds.length} navázaných témat`,
+    p: "",
+    cermat: [],
+    lead: field.lead,
+    txt: norm([field.title, field.shortTitle, field.lead, field.stage1, field.stage2, ...(field.benefits || []), ...(field.quality || []), field.watchOut].join(" "))
   }));
+  const pageSearchItems = [
+    {
+      id: "pomoc",
+      type: "help",
+      url: "pomoc/",
+      title: "Pomoc pro rodiče",
+      tag: "Pomoc",
+      color: "var(--green)",
+      meta: "rozcestník",
+      lead: "Když dítě nestíhá, rodičovské cesty a praktické školní situace.",
+      txt: norm("pomoc pro rodiče dítě nestíhá rodičovské cesty situace odklad zápis poradna škola")
+    },
+    {
+      id: "kdyz-dite-nestiha",
+      type: "help",
+      url: "kdyz-dite-nestiha/",
+      title: "Když dítě nestíhá",
+      tag: "Pomoc",
+      color: "var(--green)",
+      meta: "průvodce",
+      lead: "Jak zmapovat problém, zmenšit tlak a domluvit podporu doma, se školou nebo poradnou.",
+      txt: norm("když dítě nestíhá škola učitel ppp spc plpp ivp podpůrná opatření stres čtení psaní matematika")
+    },
+    {
+      id: "milniky",
+      type: "milnik",
+      url: "milniky/",
+      title: "Milníky a zkoušky",
+      tag: "Milník",
+      color: SUBJ.mil.c,
+      meta: "rozcestník",
+      lead: "Přijímačky, dokončení základního vzdělání a další školní události pohromadě.",
+      txt: norm("milníky zkoušky přijímačky gympl střední škola dokončení základního vzdělání")
+    },
+    {
+      id: "rvp",
+      type: "rules",
+      url: "rvp/",
+      title: "RVP",
+      tag: "RVP / pravidla",
+      color: "var(--green)",
+      meta: "pokrytí výstupů",
+      lead: "Mapování témat na očekávané výstupy RVP ZV.",
+      txt: norm("rvp rámcový vzdělávací program očekávané výstupy školní vzdělávací program švp mapování")
+    },
+    {
+      id: "zakony",
+      type: "rules",
+      url: "zakony/",
+      title: "Zákony a pravidla",
+      tag: "RVP / pravidla",
+      color: "var(--blue)",
+      meta: "orientace",
+      lead: "Povinná školní docházka, zápisy, přijímačky, podpůrná opatření a školní pravidla.",
+      txt: norm("zákony pravidla školský zákon povinná školní docházka zápis odklad přijímačky podpůrná opatření")
+    },
+    {
+      id: "slovnicek",
+      type: "rules",
+      url: "slovnicek/",
+      title: "Slovníček pojmů a zkratek",
+      tag: "RVP / pravidla",
+      color: "var(--red)",
+      meta: "zkratky",
+      lead: "ŠVP, IVP, PPP, DiPSy a další školní zkratky přeložené do lidštiny.",
+      txt: norm(["slovníček zkratky pojmy", ...GLOSS.map(g => g.z + " " + g.v)].join(" "))
+    }
+  ].map(item => ({ ...item, p: "", cermat: [] }));
+  const index = skillSearchItems
+    .concat(parentPathSearchItems)
+    .concat(situationSearchItems)
+    .concat(cermatSearchItems)
+    .concat(supplementarySearchItems)
+    .concat(pageSearchItems);
   const searchData = `window.SEARCH=${JSON.stringify({ items: index, syn: SYN })};`;
   fs.mkdirSync(path.join(OUT, "assets"), { recursive: true });
   fs.writeFileSync(path.join(OUT, "assets", "search-data.js"), searchData, "utf8");
@@ -1497,6 +1682,11 @@ SKILLS.forEach(s => {
     <a data-filter="cermat9" href="?cermat=9">Cermat 9</a>
     <a data-filter="m" href="?predmet=m">Matematika</a>
     <a data-filter="cj" href="?predmet=cj">Čeština</a>
+    <a data-filter="help" href="?typ=help">Pomoc</a>
+    <a data-filter="situace" href="?typ=situace">Situace</a>
+    <a data-filter="path" href="?typ=path">Rodičovské cesty</a>
+    <a data-filter="milnik" href="?typ=milnik">Milníky</a>
+    <a data-filter="rules" href="?typ=rules">RVP/pravidla</a>
   </div>
   <div id="sresults"></div>`;
   const extraScript = `<script src="${R}assets/search-data.js"></script>
@@ -1508,43 +1698,65 @@ SKILLS.forEach(s => {
   var q=(new URLSearchParams(location.search).get("q")||"").trim();
   var cermat=(new URLSearchParams(location.search).get("cermat")||"").trim();
   var predmet=(new URLSearchParams(location.search).get("predmet")||"").trim();
+  var typ=(new URLSearchParams(location.search).get("typ")||"").trim();
   document.getElementById("q").value=q;
   var form=document.querySelector('form[role="search"]');
   if(form&&cermat)form.insertAdjacentHTML("beforeend",'<input type="hidden" name="cermat" value="'+esc(cermat)+'">');
   if(form&&predmet)form.insertAdjacentHTML("beforeend",'<input type="hidden" name="predmet" value="'+esc(predmet)+'">');
+  if(form&&typ)form.insertAdjacentHTML("beforeend",'<input type="hidden" name="typ" value="'+esc(typ)+'">');
   var out=document.getElementById("sresults"),count=document.getElementById("scount"),title=document.getElementById("stitle");
-  var active=document.querySelector('[data-filter="'+(cermat==="5"?"cermat5":cermat==="9"?"cermat9":predmet||"all")+'"]');
+  var active=document.querySelector('[data-filter="'+(cermat==="5"?"cermat5":cermat==="9"?"cermat9":predmet||typ||"all")+'"]');
   if(active)active.classList.add("active");
   var params=[];
   if(cermat)params.push("cermat="+encodeURIComponent(cermat));
   if(predmet)params.push("predmet="+encodeURIComponent(predmet));
+  if(typ)params.push("typ="+encodeURIComponent(typ));
   if(params.length){
     document.querySelectorAll(".search-filters a").forEach(function(a){
       var href=a.getAttribute("href");
       a.setAttribute("href",href+(href.indexOf("?")>-1?"&":"?")+"q="+encodeURIComponent(q));
     });
   }
-  if(!q&&!cermat&&!predmet){count.textContent="Zadejte, co se vaše dítě právě učí — třeba „zlomky“ nebo „gympl“.";return;}
-  var label=cermat?("Cermat "+cermat):(predmet==="m"?"Matematika":predmet==="cj"?"Čeština":"Výsledky");
+  if(!q&&!cermat&&!predmet&&!typ){count.textContent="Zadejte učivo nebo situaci — třeba „zlomky“, „odklad“, „nestíhá“ nebo „gympl“.";return;}
+  var typeLabels={help:"Pomoc",situace:"Situace",path:"Rodičovské cesty",milnik:"Milníky",rules:"RVP/pravidla"};
+  var label=cermat?("Cermat "+cermat):(predmet==="m"?"Matematika":predmet==="cj"?"Čeština":(typeLabels[typ]||"Výsledky"));
   title.textContent=q?("Výsledky pro \\u201E"+q+"\\u201C"):(label);
   document.title=(q?("Hledání: "+q):label)+" | Mapa učení";
   var nq=norm(q),cands=[nq];
+  var tokens=nq.split(/\\s+/).filter(function(t){return t.length>1;});
   Object.keys(SEARCH.syn).forEach(function(k){if(nq.indexOf(k)>-1)cands.push(norm(SEARCH.syn[k]));});
   var res=SEARCH.items.filter(function(it){
-    var textOk=!q||cands.some(function(c){return c&&it.txt.indexOf(c)>-1;});
+    var textOk=!q||cands.some(function(c){return c&&it.txt.indexOf(c)>-1;})||tokens.every(function(t){return it.txt.indexOf(t)>-1;});
     var cermatOk=!cermat||it.cermat.indexOf(cermat)>-1;
     var predmetOk=!predmet||it.p===predmet;
-    return textOk&&cermatOk&&predmetOk;
+    var typeOk=!typ||it.type===typ;
+    return textOk&&cermatOk&&predmetOk&&typeOk;
+  }).sort(function(a,b){
+    if(!q)return 0;
+    var at=norm(a.title),bt=norm(b.title);
+    var score=function(it,title){
+      var sc=0;
+      if(title===nq)sc+=100;
+      if(title.indexOf(nq)>-1)sc+=60;
+      tokens.forEach(function(t){
+        if(title.indexOf(t)>-1)sc+=10;
+        if(it.txt.indexOf(t)>-1)sc+=1;
+      });
+      if(it.type!=="tema")sc+=3;
+      return sc;
+    };
+    return score(b,bt)-score(a,at);
   });
-  count.textContent=res.length?("Nalezeno "+res.length+" "+(res.length===1?"téma":res.length<5?"témata":"témat")+"."):"";
+  count.textContent=res.length?("Nalezeno "+res.length+" "+(res.length===1?"výsledek":res.length<5?"výsledky":"výsledků")+"."):"";
   if(!res.length){out.innerHTML='<div class="noresults">Nic jsme nenašli. Zkuste jiné slovo (např. „zlomky“, „shoda“, „násobilka“) — nebo projděte ročníky přes <a href="../">přehled</a>.</div>';return;}
   out.innerHTML='<div class="cards">'+res.map(function(s){
     var badges=s.cermat.length?'<span class="cermat-badges"><span>Cermat '+esc(s.cermat.join("+"))+'</span></span>':"";
-    return '<a class="card" data-skill-id="'+s.id+'" href="../dovednost/'+s.slug+'/">'
-      +'<span class="tag" style="background:'+s.c+'">'+esc(s.pn)+'</span>'
-      +'<h3>'+esc(s.t)+'</h3><p>'+esc(s.lead)+'</p>'
+    var skillAttr=s.type==="tema"||s.type==="milnik"?' data-skill-id="'+s.id+'"':"";
+    return '<a class="card"'+skillAttr+' href="../'+s.url+'">'
+      +'<span class="tag" style="background:'+s.color+'">'+esc(s.tag)+'</span>'
+      +'<h3>'+esc(s.title)+'</h3><p>'+esc(s.lead)+'</p>'
       +badges
-      +'<span class="meta">'+s.r+'. ročník · '+s.age+'</span></a>';
+      +'<span class="meta">'+esc(s.meta)+'</span></a>';
   }).join("")+'</div>';
 })();
 </script>`;
