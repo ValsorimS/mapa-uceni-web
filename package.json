@@ -6,10 +6,15 @@
   "scripts": {
     "build": "node build.js",
     "check": "npm run validate:rvp && node build.js",
+    "check:release": "npm run check && node scripts/release-check.js",
+    "check:visual": "npx playwright test scripts/visual-qa.spec.js",
     "validate:rvp": "node scripts/validate-rvp.js",
     "serve": "python3 -m http.server 8080 -d docs"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
   }
 }

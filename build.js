@@ -8,7 +8,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const SITE_URL = (process.env.SITE_URL || "https://www.mapa-uceni.cz").replace(/\/+$/, "");
+const SITE_URL = (process.env.SITE_URL || "https://valsorims.github.io/mapa-uceni-web").replace(/\/+$/, "");
 const OUT = path.join(__dirname, "docs");
 
 /* ---------- data ---------- */
@@ -89,11 +89,45 @@ function write(rel, html) {
 }
 
 /* ---------- layout ---------- */
+const BREADCRUMB_LABELS = {
+  "predmety": "Předměty",
+  "doplnujici-obory": "Doplňující obory",
+  "cermat": "Cermat",
+  "milniky": "Milníky",
+  "pomoc": "Pomoc",
+  "plan": "Můj plán",
+  "kdyz-dite-nestiha": "Když dítě nestíhá",
+  "situace": "Situace",
+  "rodicovske-cesty": "Rodičovské cesty",
+  "kalendar": "Kalendář",
+  "zakony": "Zákony a pravidla",
+  "rvp": "RVP",
+  "slovnicek": "Slovníček",
+  "o-mape": "O mapě",
+  "audit": "Audit",
+  "rocnik": "Ročníky",
+  "dovednost": "Dovednosti",
+  "hledat": "Hledání"
+};
+
+function breadcrumbName(segment, index, parts, title) {
+  if (parts[index - 1] === "rocnik") return `${segment}. ročník`;
+  if (index === parts.length - 1) return title.replace(/\s+[|—].*$/, "");
+  return BREADCRUMB_LABELS[segment] || segment.replace(/-/g, " ");
+}
+
 function layout(o) {
   // o: {path ("" | "rocnik/3/" ...), title, desc, nav, body, extraHead, extraScript}
   const depth = o.path === "" ? 0 : o.path.split("/").filter(Boolean).length;
   const R = "../".repeat(depth); // relativní prefix ke kořeni
   const canonical = SITE_URL + "/" + o.path;
+  const breadcrumbItems = [{ "@type": "ListItem", position: 1, name: "Mapa učení", item: SITE_URL + "/" }]
+    .concat(o.path.split("/").filter(Boolean).map((part, index, parts) => ({
+      "@type": "ListItem",
+      position: index + 2,
+      name: breadcrumbName(part, index, parts, o.title),
+      item: SITE_URL + "/" + parts.slice(0, index + 1).join("/") + "/"
+    })));
   const navLink = (href, key, label) =>
     `<a href="${R}${href}"${o.nav === key ? ' class="active"' : ""}>${label}</a>`;
   return `<!DOCTYPE html>
@@ -109,7 +143,7 @@ function layout(o) {
 <meta property="og:type" content="website">
 <meta property="og:url" content="${canonical}">
 <meta property="og:site_name" content="Mapa učení">
-<meta property="og:image" content="${SITE_URL}/assets/favicon.svg">
+<meta property="og:image" content="${SITE_URL}/assets/og.svg">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#22304A">
 <link rel="manifest" href="${R}manifest.webmanifest">
@@ -129,6 +163,11 @@ function layout(o) {
         "query-input": "required name=search_term_string"
       }
     }
+  })}</script>
+<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: breadcrumbItems
   })}</script>
 <link rel="icon" type="image/svg+xml" href="${R}assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -2286,7 +2325,7 @@ window.MAPA_CERMAT_GROUPS=${JSON.stringify(cermatGroups)};
 write("404.html", layout({
   path: "", nav: "home",
   title: "Stránka nenalezena | Mapa učení",
-  desc: "Stránka nenalezena.",
+  desc: "Stránka na Mapě učení nebyla nalezena. Zkuste hledání, přehled ročníků nebo rodičovské rozcestníky.",
   body: `
   <section class="hero">
     <h1>Tady nic není <span class="hand" style="font-size:1.6em">(prázdná stránka sešitu)</span></h1>
@@ -2301,7 +2340,7 @@ write("404.html", layout({
 
 /* ---------- assets, sitemap, robots ---------- */
 fs.mkdirSync(path.join(OUT, "assets"), { recursive: true });
-["style.css", "app.js", "favicon.svg"].forEach(f =>
+["style.css", "app.js", "favicon.svg", "og.svg"].forEach(f =>
   fs.copyFileSync(path.join(__dirname, "assets", f), path.join(OUT, "assets", f)));
 fs.writeFileSync(path.join(OUT, ".nojekyll"), "", "utf8");
 
@@ -2356,5 +2395,26 @@ fs.writeFileSync(path.join(OUT, "sw.js"),
 fs.writeFileSync(path.join(OUT, "llms.txt"),
   `# Mapa učení\n\nMapa učení je český statický web pro rodiče dětí na základní škole. Vysvětluje témata 1.–9. ročníku, RVP vazby, Cermat přípravu, rodičovské cesty, životní situace a zákonný rámec.\n\nDůležité vstupy:\n- ${SITE_URL}/\n- ${SITE_URL}/predmety/\n- ${SITE_URL}/pomoc/\n- ${SITE_URL}/cermat/\n- ${SITE_URL}/rvp/\n- ${SITE_URL}/audit/\n\nObsah je orientační a nenahrazuje konzultaci s učitelem, školou ani poradenským zařízením.\n`, "utf8");
 
+function mirrorDocsToRoot() {
+  const copy = dir => {
+    fs.readdirSync(dir, { withFileTypes: true }).forEach(entry => {
+      const src = path.join(dir, entry.name);
+      const rel = path.relative(OUT, src);
+      const dest = path.join(__dirname, rel);
+      if (entry.isDirectory()) {
+        fs.mkdirSync(dest, { recursive: true });
+        copy(src);
+      } else {
+        fs.mkdirSync(path.dirname(dest), { recursive: true });
+        fs.copyFileSync(src, dest);
+      }
+    });
+  };
+  copy(OUT);
+}
+
+mirrorDocsToRoot();
+
 console.log(`Hotovo: ${urls.length + 3} stránek → ${OUT}`);
+console.log("Výstup je zrcadlený i do kořene repozitáře pro GitHub Pages branch-root režim.");
 console.log(`Sitemap a canonical používají: ${SITE_URL}  (změňte přes SITE_URL=... node build.js)`);

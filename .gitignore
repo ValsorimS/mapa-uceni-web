@@ -1,2 +1,5 @@
 node_modules/
 .rvp-work/
+.qa/
+playwright-report/
+test-results/
