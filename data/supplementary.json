@@ -1,0 +1,124 @@
+{
+ "intro": "Doplňující vzdělávací obory nejsou povinné předměty ve všech školách. RVP je nabízí jako rozšíření, které škola může zařadit do svého ŠVP podle zaměření, personálních možností a potřeb dětí.",
+ "fields": [
+  {
+   "id": "dramaticka-vychova",
+   "title": "Dramatická výchova",
+   "shortTitle": "Dramatika",
+   "color": "#8B3A62",
+   "lead": "Dramatická výchova rozvíjí mluvený projev, spolupráci, představivost a schopnost porozumět situaci z pohledu jiné postavy.",
+   "stage1": "Na 1. stupni jde hlavně o hru v roli, vyprávění, jednoduchou improvizaci, práci s hlasem a bezpečné vystupování před ostatními.",
+   "stage2": "Na 2. stupni přibývá vědomá práce s konfliktem, charakterem postavy, scénou, interpretací textu a reflexí vlastního projevu.",
+   "benefits": [
+    "dítě se učí mluvit srozumitelně a reagovat na druhé",
+    "lépe chápe text, postavy, motivaci a děj",
+    "získává jistotu při prezentaci, diskusi a skupinové práci"
+   ],
+   "quality": [
+    "výuka je bezpečná a nikdo není zesměšňovaný",
+    "nejde jen o nacvičení besídky, ale o proces, spolupráci a reflexi",
+    "děti dostávají prostor mluvit, tvořit, zkoušet a pojmenovat, co fungovalo"
+   ],
+   "watchOut": "Pozor, pokud se dramatická výchova zúží jen na veřejné vystoupení pro rodiče. Hodnota je hlavně v průběžné práci se situací, rolí a komunikací.",
+   "relatedSkillIds": [
+    "cj1-komunikace",
+    "cj2-vypraveni",
+    "cj3-literatura",
+    "cj4-dialog-media",
+    "cj7-mluveny-projev",
+    "cj8-literatura-interpretace",
+    "cj8-sloh-text"
+   ]
+  },
+  {
+   "id": "eticka-vychova",
+   "title": "Etická výchova",
+   "shortTitle": "Etika",
+   "color": "#2F6B4F",
+   "lead": "Etická výchova pomáhá dětem rozumět sobě, druhým lidem, vztahům, hodnotám a odpovědnému rozhodování v běžných situacích.",
+   "stage1": "Na 1. stupni stojí hlavně na pravidlech soužití, empatii, pomoci druhým, práci s emocemi a férovém jednání.",
+   "stage2": "Na 2. stupni se víc řeší osobní odpovědnost, vztahy, morální dilemata, mediální vlivy, respekt a občanský rozměr rozhodování.",
+   "benefits": [
+    "dítě umí lépe pojmenovat emoce, potřeby a hranice",
+    "snáz řeší konflikty a chápe dopad svého jednání",
+    "propojuje školní pravidla s reálným životem"
+   ],
+   "quality": [
+    "výuka pracuje s konkrétními situacemi, ne jen s poučkami",
+    "děti se učí argumentovat a poslouchat jiné pohledy",
+    "učitel drží bezpečné prostředí a nesklouzává k moralizování"
+   ],
+   "watchOut": "Etická výchova nemá být kázání. Dobrá výuka nechává děti přemýšlet, zkoušet postoje a hledat důsledky rozhodnutí.",
+   "relatedSkillIds": [
+    "vz6-vztahy-komunita",
+    "ov6-obec",
+    "ov6-clovek-osobnost",
+    "ov7-media-tolerance",
+    "vz8-stres-dusevni-hygiena",
+    "vz8-rizika-zavislosti",
+    "ov8-stat",
+    "ov9-svet"
+   ]
+  },
+  {
+   "id": "filmova-audiovizualni-vychova",
+   "title": "Filmová/audiovizuální výchova",
+   "shortTitle": "Film a audiovize",
+   "color": "#475569",
+   "lead": "Filmová a audiovizuální výchova učí děti číst obraz, zvuk, střih a mediální sdělení, ale také samy tvořit jednoduchý audiovizuální obsah.",
+   "stage1": "Na 1. stupni jde o pozorování obrazu, krátké příběhy, práci s fotografií, jednoduché záběry a rozlišování reality a záměru tvůrce.",
+   "stage2": "Na 2. stupni přibývá filmový jazyk, střih, kompozice, reklama, žánr, interpretace, autorská tvorba a kritické čtení médií.",
+   "benefits": [
+    "dítě lépe rozumí obrazům, videím, reklamě a sociálním sítím",
+    "propojuje výtvarnou výchovu, češtinu, informatiku a mediální gramotnost",
+    "učí se tvořit sdělení zodpovědně a s ohledem na publikum"
+   ],
+   "quality": [
+    "děti nejen sledují filmy, ale mluví o tom, jak jsou udělané",
+    "tvorba má jasný záměr, adresáta a reflexi",
+    "řeší se autorství, souhlas, bezpečí a manipulace obrazem"
+   ],
+   "watchOut": "Nestačí pustit film jako odměnu. Smysl má práce s obrazem, zvukem, střihem, sdělením a tím, jak média ovlivňují porozumění světu.",
+   "relatedSkillIds": [
+    "vv3-interpretace-komunikace",
+    "vv4-prvky-kompozice",
+    "vv7-vizualni-prostredky",
+    "vv8-digitalni-media-interpretace",
+    "cj6-media-fakta",
+    "cj4-dialog-media",
+    "inf5-digitalni-bezpeci",
+    "inf8-digitalni-technologie"
+   ]
+  },
+  {
+   "id": "tanecni-pohybova-vychova",
+   "title": "Taneční a pohybová výchova",
+   "shortTitle": "Tanec a pohyb",
+   "color": "#3A7CA5",
+   "lead": "Taneční a pohybová výchova rozvíjí vnímání těla, rytmu, prostoru, spolupráce a pohybového vyjádření.",
+   "stage1": "Na 1. stupni se pracuje s rytmem, pohybovou hrou, orientací v prostoru, jednoduchou tvorbou a radostí z pohybu.",
+   "stage2": "Na 2. stupni přibývá vědomá práce s tělem, výrazem, kompozicí, skupinovou choreografií, kulturou pohybu a reflexí.",
+   "benefits": [
+    "dítě lépe vnímá tělo, rytmus, koordinaci a prostor",
+    "učí se spolupracovat beze slov a respektovat tempo ostatních",
+    "propojuje tělesnou, hudební a osobnostní výchovu"
+   ],
+   "quality": [
+    "výuka není soutěž krásy ani výkonu, ale práce s pohybem a výrazem",
+    "děti tvoří, zkoušejí, reagují na hudbu a prostor",
+    "učitel drží bezpečí, přiměřenost a respekt k různým tělesným možnostem"
+   ],
+   "watchOut": "Pozor na výuku postavenou jen na nacvičení sestavy. Důležitá je cesta: rytmus, tělo, prostor, spolupráce a vlastní vyjádření.",
+   "relatedSkillIds": [
+    "tv1-pohyb",
+    "hv2-rytmus-nastroje",
+    "hv3-pohyb-poslech",
+    "hv5-poslech-forma-pohyb",
+    "tv4-rezim-zdatnost",
+    "tv4-zdravotni-cviceni",
+    "tv6-zdatnost-bezpecnost",
+    "vz6-zdravi"
+   ]
+  }
+ ]
+}

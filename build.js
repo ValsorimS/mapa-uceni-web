@@ -23,6 +23,7 @@ const SYN = J("synonyms.json");
 const POPULAR = J("popular.json");
 const RVP = J("rvp.json");
 const CERMAT = J("cermat.json");
+const SUPP = J("supplementary.json");
 
 /* ---------- pomocné ---------- */
 const norm = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -48,6 +49,7 @@ SKILLS.forEach(s => {
 const skillUrl = s => "dovednost/" + s.slug + "/";
 const cermatExamUrl = exam => `cermat/${exam.slug}/`;
 const cermatSubjectUrl = (exam, subject) => `${cermatExamUrl(exam)}${subject.id}/`;
+const supplementaryUrl = field => `doplnujici-obory/${field.id}/`;
 
 const CERMAT_BY_SKILL = new Map();
 CERMAT.exams.forEach(exam => exam.subjects.forEach(subject => subject.groups.forEach(group => {
@@ -63,6 +65,11 @@ CERMAT_BY_SKILL.forEach((refs, skillId) => {
     .sort((a, b) => Number(a.id) - Number(b.id));
   CERMAT_BADGES_BY_SKILL.set(skillId, exams);
 });
+const SUPP_BY_SKILL = new Map();
+SUPP.fields.forEach(field => field.relatedSkillIds.forEach(skillId => {
+  if (!SUPP_BY_SKILL.has(skillId)) SUPP_BY_SKILL.set(skillId, []);
+  SUPP_BY_SKILL.get(skillId).push(field);
+}));
 
 const cut = (s, n = 155) => {
   s = s.replace(/\s+/g, " ").trim();
@@ -112,6 +119,7 @@ ${o.extraHead || ""}
     <nav>
       ${navLink("", "home", "Ročníky")}
       ${navLink("predmety/", "predmety", "Předměty")}
+      ${navLink("doplnujici-obory/", "doplnujici", "Doplňující")}
       ${navLink("cermat/", "cermat", "Cermat")}
       ${navLink("kalendar/", "kalendar", "Kalendář")}
       ${navLink("zakony/", "zakony", "Zákony a pravidla")}
@@ -623,6 +631,7 @@ SKILLS.forEach(s => {
   const nx = s.dalId ? byId(s.dalId) : null;
   const refs = (s.rvpRefs || []).filter(id => RVP_OUT[id]);
   const cermatRefs = CERMAT_BY_SKILL.get(s.id) || [];
+  const supplementaryRefs = SUPP_BY_SKILL.get(s.id) || [];
   const rvpDetail = refs.length
     ? `<div class="rvp-links">${refs.map(id => rvpOutcomeLink(id, R)).join("")}</div>
        <p class="rvp-note">Mapování je orientační: RVP stanovuje výstupy pro období, konkrétní ročník určuje škola ve svém ŠVP.</p>`
@@ -631,6 +640,11 @@ SKILLS.forEach(s => {
     ? `<div class="cermatbox"><b>Vazba na Cermat:</b>
       <div class="cermat-links">${cermatRefs.map(ref => `<a href="${R}${cermatSubjectUrl(ref.exam, ref.subject)}#${esc(ref.group.id)}"><span>${esc(ref.exam.label)} · ${esc(ref.subject.shortTitle)}</span><b>${esc(ref.group.title)}</b></a>`).join("")}</div>
       <p>Vazba ukazuje, kde se téma typicky vrací v jednotné přijímací zkoušce. Konkrétní zadání se rok od roku mění.</p></div>`
+    : "";
+  const supplementaryDetail = supplementaryRefs.length
+    ? `<div class="suppbox"><b>Vazba na doplňující obory:</b>
+      <div class="supp-links">${supplementaryRefs.map(field => `<a href="${R}${supplementaryUrl(field)}"><span>${esc(field.shortTitle)}</span><b>${esc(field.title)}</b></a>`).join("")}</div>
+      <p>Tyto obory nejsou povinné ve všech školách. Škola je může zařadit do svého ŠVP jako rozšíření běžného učiva.</p></div>`
     : "";
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › <a href="${R}rocnik/${s.r}/">${s.r}. ročník</a> › ${su.n}</div>
@@ -651,6 +665,7 @@ SKILLS.forEach(s => {
     <div class="next">${s.dal}${nx ? ` <a href="${R}${skillUrl(nx)}">${nx.t} →</a>` : ""}</div>
     <div class="rvpbox">${prereq.length ? `<b>Na co navazuje:</b> ${prereq.map(x => `<a href="${R}${skillUrl(x)}">${x.t}</a>`).join(" · ")}<br><br>` : ""}<b>Kde to najdete v RVP:</b> ${rvpDetail}</div>
     ${cermatDetail}
+    ${supplementaryDetail}
   </div></article>
   <div class="pager">
     <a href="${R}rocnik/${s.r}/">← Zpět na ${s.r}. ročník</a>
@@ -686,6 +701,63 @@ SKILLS.forEach(s => {
     desc: "Všechny předměty 1.–9. ročníku ZŠ podle RVP ZV — od češtiny a matematiky po výchovy a svět práce. Témata seřazená tak, jak na sebe navazují.",
     body
   }));
+})();
+
+/* Doplňující vzdělávací obory */
+(function doplnujiciObory() {
+  const R = "../";
+  const fieldCard = field => `<a class="card supp-card" href="${R}${supplementaryUrl(field)}">
+    <span class="tag" style="background:${field.color}">${esc(field.shortTitle)}</span>
+    <h3>${esc(field.title)}</h3>
+    <p>${esc(field.lead)}</p>
+    <span class="meta">${field.relatedSkillIds.length} navázaných témat</span>
+  </a>`;
+  const body = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Doplňující vzdělávací obory</div>
+  <div class="page-title"><h1>Doplňující vzdělávací obory</h1>
+  <p class="lead">${esc(SUPP.intro)}</p></div>
+  <div class="infobox"><b>Jak to číst:</b> nejde o další povinný seznam předmětů. Doplňující obory ukazují, jak může škola rozšířit výuku a propojit běžná témata s komunikací, etikou, filmem, pohybem nebo tvorbou.</div>
+  <div class="cards">${SUPP.fields.map(fieldCard).join("")}</div>`;
+  write("doplnujici-obory/index.html", layout({
+    path: "doplnujici-obory/", nav: "doplnujici",
+    title: "Doplňující vzdělávací obory podle RVP | Mapa učení",
+    desc: "Dramatická, etická, filmová/audiovizuální a taneční/pohybová výchova: co znamenají, jak je školy zařazují a s čím souvisejí.",
+    body
+  }));
+
+  SUPP.fields.forEach(field => {
+    const fieldR = "../../";
+    const related = field.relatedSkillIds.map(byId).filter(Boolean);
+    const subjects = Array.from(new Set(related.map(s => s.p)));
+    const body = `
+    <div class="crumbs"><a href="${fieldR}">Mapa učení</a> › <a href="${fieldR}doplnujici-obory/">Doplňující obory</a> › ${esc(field.title)}</div>
+    <div class="page-title">
+      <span class="pill p1">${subjects.map(p => esc(SUBJ[p].n)).join(" · ")}</span>
+      <h1>${esc(field.title)}</h1>
+      <p class="lead">${esc(field.lead)}</p>
+    </div>
+    <article class="supp-detail">
+      <div class="supp-stages">
+        <div><b>1. stupeň</b><p>${esc(field.stage1)}</p></div>
+        <div><b>2. stupeň</b><p>${esc(field.stage2)}</p></div>
+      </div>
+      <div class="supp-columns">
+        <section><h2>K čemu je to dobré</h2><ul>${field.benefits.map(x => `<li>${esc(x)}</li>`).join("")}</ul></section>
+        <section><h2>Jak poznat kvalitní výuku</h2><ul>${field.quality.map(x => `<li>${esc(x)}</li>`).join("")}</ul></section>
+      </div>
+      <div class="infobox"><b>Na co si dát pozor:</b> ${esc(field.watchOut)}</div>
+    </article>
+    <section class="section">
+      <div class="sec-head"><h2>Navázaná běžná témata</h2><span class="cnt">${related.length} témat</span></div>
+      <div class="cards">${related.map(s => skillCard(s, fieldR)).join("")}</div>
+    </section>`;
+    write(`${supplementaryUrl(field)}index.html`, layout({
+      path: supplementaryUrl(field), nav: "doplnujici",
+      title: `${field.title} | Doplňující obory | Mapa učení`,
+      desc: cut(field.lead),
+      body
+    }));
+  });
 })();
 
 /* Cermat */
@@ -1070,7 +1142,9 @@ fs.writeFileSync(path.join(OUT, ".nojekyll"), "", "utf8");
 const cermatUrls = ["cermat/"]
   .concat(CERMAT.exams.map(cermatExamUrl))
   .concat(CERMAT.exams.flatMap(exam => exam.subjects.map(subject => cermatSubjectUrl(exam, subject))));
+const supplementaryUrls = ["doplnujici-obory/"].concat(SUPP.fields.map(supplementaryUrl));
 const urls = ["", "predmety/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/"]
+  .concat(supplementaryUrls)
   .concat(cermatUrls)
   .concat(Array.from({ length: 9 }, (_, i) => `rocnik/${i + 1}/`))
   .concat(SKILLS.map(skillUrl));

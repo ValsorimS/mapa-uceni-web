@@ -430,6 +430,34 @@ ul.jak li::before{
 .cermat-links span{display:block;color:var(--muted);font-size:.78rem}
 .cermat-links b{display:block;font-family:"Bitter",serif;color:var(--red);font-size:.92rem}
 
+/* ---------- supplementary fields ---------- */
+.supp-card p{min-height:5.5em}
+.supp-detail{
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:18px;margin:18px 0
+}
+.supp-stages,.supp-columns{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:14px}
+.supp-stages>div,.supp-columns section{
+  background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:14px
+}
+.supp-stages b,.supp-columns h2{font-family:"Bitter",serif;font-size:1.02rem}
+.supp-stages p{color:var(--muted);font-size:.94rem;margin-top:5px}
+.supp-columns ul{margin:8px 0 0 20px;color:var(--muted);font-size:.94rem}
+.suppbox{
+  margin-top:18px;max-width:640px;background:var(--green-soft);border:1.5px dashed var(--green);
+  border-radius:10px;padding:14px 16px;font-size:.9rem
+}
+.suppbox>b{display:block;margin-bottom:8px}
+.suppbox p{color:var(--muted);font-size:.86rem;margin-top:8px}
+.supp-links{display:grid;gap:8px}
+.supp-links a{
+  display:block;text-decoration:none;color:var(--ink);background:var(--card);
+  border:1.5px solid #BDD8C9;border-radius:8px;padding:9px 11px
+}
+.supp-links a:hover{border-color:var(--green)}
+.supp-links span{display:block;color:var(--muted);font-size:.78rem}
+.supp-links b{display:block;font-family:"Bitter",serif;color:var(--green);font-size:.92rem}
+
 /* ---------- RVP coverage ---------- */
 .metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0 8px}
 .metrics div{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px}
@@ -521,6 +549,7 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .dashboard-subjects{grid-template-columns:1fr}
   .print-weeks,.print-subjects{grid-template-columns:1fr}
   .review-grid{grid-template-columns:1fr}
+  .supp-stages,.supp-columns{grid-template-columns:1fr}
   .cermat-grid{grid-template-columns:1fr}
   .cermat-advice{grid-template-columns:1fr}
   .plan-steps{grid-template-columns:1fr}
