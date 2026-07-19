@@ -914,9 +914,12 @@ SKILLS.forEach(s => {
   const R = "../";
   const outcomes = RVP.outcomes || [];
   const mappedOutcomes = outcomes.filter(o => (o.skillIds || []).length);
-  const mappedSkillIds = new Set(SKILLS.filter(s => (s.rvpRefs || []).length).map(s => s.id));
+  const rvpMappableSkills = SKILLS.filter(s => s.p !== "mil");
+  const outOfRvpSkills = SKILLS.filter(s => s.p === "mil");
+  const mappedSkillIds = new Set(rvpMappableSkills.filter(s => (s.rvpRefs || []).length).map(s => s.id));
   const subjectCounts = Object.fromEntries(Object.keys(SUBJ).map(p => [p, SKILLS.filter(s => s.p === p).length]));
   const unmappedBySubject = Object.keys(SUBJ)
+    .filter(p => p !== "mil")
     .map(p => ({ key: p, name: SUBJ[p].n, count: SKILLS.filter(s => s.p === p && !(s.rvpRefs || []).length).length }))
     .filter(x => x.count);
   const topicWord = n => n === 1 ? "téma" : (n > 1 && n < 5) ? "témata" : "témat";
@@ -979,9 +982,9 @@ SKILLS.forEach(s => {
     <div><b>${outcomes.length}</b><span>importovaných výstupů RVP</span></div>
     <div><b>${mappedOutcomes.length}</b><span>výstupů s tématem</span></div>
     <div><b>${mappedSkillIds.size}</b><span>témat s rvpRefs</span></div>
-    <div><b>${SKILLS.length - mappedSkillIds.size}</b><span>${topicWord(SKILLS.length - mappedSkillIds.size)} čeká na mapování</span></div>
+    <div><b>${rvpMappableSkills.length - mappedSkillIds.size}</b><span>${topicWord(rvpMappableSkills.length - mappedSkillIds.size)} čeká na mapování</span></div>
   </div>
-  <div class="infobox"><b>Jak to číst:</b> RVP stanovuje výstupy pro období a stupně, nikoli pevné ročníky. Pokrytí proto ukazuje vazbu témat na RVP výstupy; ročníkové zařazení zůstává orientační.</div>
+  <div class="infobox"><b>Jak to číst:</b> RVP stanovuje výstupy pro období a stupně, nikoli pevné ročníky. Pokrytí proto ukazuje vazbu témat na RVP výstupy; ročníkové zařazení zůstává orientační. ${outOfRvpSkills.length} milníky a zkoušky vedeme mimo RVP mapování, protože popisují školní události, ne očekávané výstupy.</div>
   <section class="section">
     <div class="sec-head"><h2>Oblasti a obory</h2></div>
     ${RVP.areas.map(area => `<div class="rvp-area">
@@ -1000,7 +1003,7 @@ SKILLS.forEach(s => {
   </section>
   <section class="section">
     <div class="sec-head"><h2>Témata bez mapování</h2></div>
-    <div class="cards">${unmappedBySubject.map(s => `<div class="gl"><b>${esc(s.name)}</b><p>${s.count} ${topicWord(s.count)} zatím ${topicVerb(s.count)} strojové RVP vazby.</p></div>`).join("")}</div>
+    ${unmappedBySubject.length ? `<div class="cards">${unmappedBySubject.map(s => `<div class="gl"><b>${esc(s.name)}</b><p>${s.count} ${topicWord(s.count)} zatím ${topicVerb(s.count)} strojové RVP vazby.</p></div>`).join("")}</div>` : `<div class="noresults">Všechna běžná témata určená k RVP mapování už mají přiřazené RVP vazby.</div>`}
   </section>`;
   write("rvp/index.html", layout({
     path: "rvp/", nav: "rvp",
