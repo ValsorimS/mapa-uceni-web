@@ -79,6 +79,7 @@ const cut = (s, n = 155) => {
   s = s.replace(/\s+/g, " ").trim();
   return s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…";
 };
+const topicWord = n => n === 1 ? "téma" : (n > 1 && n < 5) ? "témata" : "témat";
 
 function write(rel, html) {
   const f = path.join(OUT, rel);
@@ -659,6 +660,86 @@ function situationGradePanel(grade, R) {
   </section>`;
 }
 
+function coverageStats(items) {
+  return {
+    total: items.length,
+    rvp: items.filter(s => (s.rvpRefs || []).length).length,
+    quality: items.filter(s => s.quality).length,
+    next: items.filter(s => s.dalId).length,
+    cermat: items.filter(s => CERMAT_BY_SKILL.has(s.id)).length
+  };
+}
+
+function percent(part, total) {
+  return total ? Math.round(part / total * 100) : 0;
+}
+
+function coverageRow(label, stats, R, href = "") {
+  const link = href ? `<a href="${R}${href}">${esc(label)}</a>` : esc(label);
+  return `<tr>
+    <th>${link}</th>
+    <td>${stats.total}</td>
+    <td>${stats.rvp}/${stats.total}</td>
+    <td>${stats.quality}/${stats.total}</td>
+    <td>${stats.next}/${stats.total}</td>
+    <td>${stats.cermat}</td>
+  </tr>`;
+}
+
+function coverageDashboard(R) {
+  const regular = SKILLS.filter(s => s.p !== "mil");
+  const all = coverageStats(regular);
+  const subjectRows = Object.keys(SUBJ)
+    .filter(p => p !== "mil" && regular.some(s => s.p === p))
+    .map(p => coverageRow(SUBJ[p].n, coverageStats(regular.filter(s => s.p === p)), R, `predmety/#${p}`))
+    .join("");
+  const gradeRows = Array.from({ length: 9 }, (_, i) => i + 1)
+    .map(r => coverageRow(`${r}. ročník`, coverageStats(regular.filter(s => s.r === r)), R, `rocnik/${r}/`))
+    .join("");
+  return `<section class="section coverage-dashboard">
+    <div class="sec-head"><h2>Přehled pokrytí</h2><span class="cnt">${all.quality}/${all.total} témat má rodičovská vodítka</span></div>
+    <div class="coverage-summary">
+      <div><b>${all.total}</b><span>běžných témat</span></div>
+      <div><b>${percent(all.rvp, all.total)} %</b><span>má RVP vazbu</span></div>
+      <div><b>${percent(all.quality, all.total)} %</b><span>má rodičovská vodítka</span></div>
+      <div><b>${percent(all.next, all.total)} %</b><span>má další krok</span></div>
+    </div>
+    <div class="coverage-tables">
+      <article><h3>Podle předmětu</h3><table><thead><tr><th>Předmět</th><th>Témata</th><th>RVP</th><th>Vodítka</th><th>Další krok</th><th>Cermat</th></tr></thead><tbody>${subjectRows}</tbody></table></article>
+      <article><h3>Podle ročníku</h3><table><thead><tr><th>Ročník</th><th>Témata</th><th>RVP</th><th>Vodítka</th><th>Další krok</th><th>Cermat</th></tr></thead><tbody>${gradeRows}</tbody></table></article>
+    </div>
+  </section>`;
+}
+
+function subjectGuide(p, items, R) {
+  const phases = [
+    ["1.–3. ročník", items.filter(s => s.r <= 3), "základy, jistota v pojmech a první samostatné postupy"],
+    ["4.–5. ročník", items.filter(s => s.r >= 4 && s.r <= 5), "upevnění základů, delší úkoly a přechod k větší samostatnosti"],
+    ["6.–9. ročník", items.filter(s => s.r >= 6), "abstraktnější učivo, souvislosti, argumentace a příprava na další školu"]
+  ].filter(([, list]) => list.length);
+  const linkedIds = new Set(items.map(s => s.id));
+  const paths = PPATHS.filter(path => path.skillIds.some(id => linkedIds.has(id))).slice(0, 3);
+  return `<div class="subject-guide">
+    <div class="guide-phases">${phases.map(([title, list, text]) => `<div><b>${title}</b><span>${list.length} ${topicWord(list.length)} · ${text}</span></div>`).join("")}</div>
+    ${paths.length ? `<p><b>Rodičovské cesty:</b> ${paths.map(path => `<a href="${R}${parentPathUrl(path)}">${esc(path.title)}</a>`).join(" · ")}</p>` : `<p><b>Rodičovský signál:</b> sledujte, jestli dítě umí vysvětlit postup vlastními slovy, ne jen zopakovat definici.</p>`}
+  </div>`;
+}
+
+function gradePrintOverview(r, list, groups, R) {
+  const rows = groups.map(p => {
+    const items = list.filter(s => s.p === p);
+    return `<div class="print-subject">
+      <h3>${esc(SUBJ[p].n)}</h3>
+      <ul>${items.map(s => `<li><label><input type="checkbox"> ${esc(s.t)}</label></li>`).join("")}</ul>
+    </div>`;
+  }).join("");
+  return `<section class="grade-print-plan">
+    <div class="sec-head"><h2>Tiskový ročníkový přehled</h2><span class="cnt">${list.length} témat</span><button class="printbtn" type="button" data-print>Vytisknout přehled</button></div>
+    <p class="small-lead">Praktický kontrolní list pro rodiče. Nejde o hodnocení dítěte, jen o orientaci, co v ročníku typicky řešit.</p>
+    <div class="grade-print-grid">${rows}</div>
+  </section>`;
+}
+
 /* ---------- stránky ---------- */
 /* Domů */
 (function home() {
@@ -678,13 +759,15 @@ function situationGradePanel(grade, R) {
     ${rulerHTML(R)}
   </section>
   <section class="section" style="padding-bottom:0">
+    <div class="sec-head"><h2>Čím chcete začít?</h2></div>
     <div class="cards">
-      <a class="card" href="pomoc/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Rodičovská pomoc</h3><p>Když dítě nestíhá, rodičovské cesty podle problému a praktické životní situace ve škole.</p></a>
-      <a class="card" href="kalendar/"><span class="tag" style="background:var(--blue)">Termíny</span><h3>Kalendář školního roku</h3><p>Přihlášky, zápisy, přijímačky a opravné zkoušky měsíc po měsíci.</p></a>
-      <a class="card" href="slovnicek/"><span class="tag" style="background:var(--red)">Zkratky</span><h3>Slovníček pojmů</h3><p>ŠVP, IVP, PPP, DiPSy… co znamenají zkratky ze třídních schůzek.</p></a>
+      <a class="card" href="#rocniky"><span class="tag" style="background:var(--blue)">Ročník</span><h3>Chci přehled učiva</h3><p>Vyberte ročník a projděte, co se v něm obvykle řeší napříč předměty.</p></a>
+      <a class="card" href="pomoc/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Řeším konkrétní problém</h3><p>Rozcestník pro čtení, tempo, matematiku, pravopis, školu a životní situace.</p></a>
+      <a class="card" href="cermat/"><span class="tag" style="background:var(--red)">Cermat</span><h3>Připravujeme přijímačky</h3><p>Okruhy, rozbor testu nanečisto, dashboard přípravy a tiskový plán.</p></a>
+      <a class="card" href="rvp/"><span class="tag" style="background:var(--green)">RVP</span><h3>Potřebuji pravidla a rámec</h3><p>Pokrytí RVP, školní zákon, slovníček zkratek a vysvětlení ŠVP.</p></a>
     </div>
   </section>
-  <section class="section">
+  <section class="section" id="rocniky">
     <div class="sec-head"><h2>Namátkou z mapy</h2><a class="more" href="predmety/">Všechny předměty →</a></div>
     <div class="cards">${featured.map(s => skillCard(s, R)).join("")}</div>
   </section>
@@ -716,6 +799,7 @@ for (let r = 1; r <= 9; r++) {
   </div>
   ${cermatGradePanel(r, R)}
   ${situationGradePanel(r, R)}
+  ${gradePrintOverview(r, list.filter(s => s.p !== "mil"), groups.filter(p => p !== "mil"), R)}
   ${groups.map(p => {
     const items = list.filter(s => s.p === p);
     return `<div class="subj">
@@ -808,12 +892,13 @@ SKILLS.forEach(s => {
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Předměty</div>
   <div class="page-title"><h1>Předměty napříč ročníky</h1>
-  <p class="lead">Sledujte, jak jedno téma roste rok za rokem — od prvních písmen k větným rozborům, od počítání do dvaceti k soustavám rovnic.</p></div>
+  <p class="lead">Každý předmět má vlastní rytmus. Tady je vidět, co se typicky láme na začátku školy, na konci 1. stupně a na 2. stupni.</p></div>
   ${Object.keys(SUBJ).map(p => {
     const items = SKILLS.filter(s => s.p === p).sort((a, b) => a.r - b.r);
     if (!items.length) return "";
-    return `<div class="subj">
+    return `<div class="subj" id="${esc(p)}">
       <div class="subj-head"><span class="swatch" style="background:${SUBJ[p].c}"></span><h2>${SUBJ[p].n}</h2><span class="cnt">${items[0].r}.–${items[items.length - 1].r}. ročník</span></div>
+      ${subjectGuide(p, items, R)}
       <div class="cards">${items.map(s => skillCard(s, R)).join("")}</div>
     </div>`;
   }).join("")}
@@ -1564,7 +1649,7 @@ SKILLS.forEach(s => {
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Audit obsahu</div>
   <div class="page-title"><h1>Audit obsahu</h1>
-  <p class="lead">Automatický seznam témat a rodičovských cest, které stojí za ruční doplnění. Audit hlídá krátké texty, domácí tipy, návaznosti a nově i kvalitativní vodítka pro rodiče.</p></div>
+  <p class="lead">Pracovní přehled kvality webu: strukturální audit, rodičovská vodítka a pokrytí podle předmětu i ročníku.</p></div>
   <div class="metrics">
     <div><b>${CONTENT_AUDIT.total}</b><span>běžných témat v auditu</span></div>
     <div><b>${CONTENT_AUDIT.candidates.length}</b><span>kandidátů k doplnění</span></div>
@@ -1573,7 +1658,8 @@ SKILLS.forEach(s => {
     <div><b>${SKILL_QUALITY_AUDIT.complete}</b><span>témat s rodičovskými vodítky</span></div>
     <div><b>${PARENT_PATH_QUALITY.findings.length}</b><span>cest bez kvalitativních vodítek</span></div>
   </div>
-  <div class="infobox"><b>Jak to číst:</b> skóre není známka kvality učiva. Je to pracovní filtr, který pomáhá najít témata, kde by rodičům nejvíc pomohlo doplnit konkrétnější texty, domácí otázky nebo další krok.</div>
+  <div class="infobox"><b>Jak to číst:</b> skóre není známka kvality učiva ani dítěte. Je to pracovní filtr, který hlídá, jestli web má u témat dost konkrétní vysvětlení, domácí pomoc, návaznost a rodičovská vodítka.</div>
+  ${coverageDashboard(R)}
   ${section("Vysoká priorita", byPriority("vysoká"))}
   ${section("Střední priorita", byPriority("střední"))}
   ${section("Nízká priorita", byPriority("nízká"))}
@@ -1588,7 +1674,7 @@ SKILLS.forEach(s => {
   </section>
   <section class="section">
     <div class="sec-head"><h2>Další postup</h2></div>
-    <div class="infobox"><b>Doporučení:</b> strukturální audit je teď čistý. Další zlepšení má smysl dělat obsahově: rozšiřovat rodičovské cesty, doplňovat další životní situace a postupně přidávat kvalitativní vodítka i k běžným tématům.</div>
+    <div class="infobox"><b>Doporučení:</b> strukturální i kvalitativní pokrytí běžných témat je teď čisté. Další zlepšení má smysl dělat redakčně: kratší texty na hlavních rozcestnících, lepší průvodce předměty a nové praktické situace podle dotazů rodičů.</div>
   </section>`;
   write("audit/index.html", layout({
     path: "audit/", nav: "o-mape",
@@ -1622,13 +1708,13 @@ SKILLS.forEach(s => {
   <div class="page-title"><h1>O mapě</h1></div>
   <article class="notebook"><div class="inner">
     <p class="blockt">Proč tahle mapa existuje</p>
-    <p style="max-width:640px">Rodič se od dítěte dozví, že „berou vzory“, a nemá jak rychle zjistit, co to obnáší, jestli je to v pořádku na daný věk a k čemu to vede. Mapa učení každé téma vysvětluje lidsky: co znamená, jak poznáte zvládnutí, jak pomoci doma a co následuje.</p>
+    <p style="max-width:640px">Rodič často slyší jen „bereme vzory“ nebo „máme zlomky“. Mapa učení rychle ukáže, co téma znamená, jak poznat zvládnutí, co zkusit doma a kdy se ozvat škole.</p>
     <p class="blockt">Z čeho vychází</p>
-    <p style="max-width:640px">Obsah je postaven na Rámcovém vzdělávacím programu pro základní vzdělávání (RVP ZV), který vydává MŠMT, a na běžné praxi českých škol. Protože si každá škola tvoří vlastní ŠVP, zařazení tématu do ročníku berte jako obvyklé, ne závazné.</p>
+    <p style="max-width:640px">Vychází z RVP ZV a běžné praxe českých škol. Ročníky jsou orientační: konkrétní pořadí určuje školní vzdělávací program každé školy.</p>
     <p class="blockt">Co mapa není</p>
-    <p style="max-width:640px">Není to diagnostický nástroj ani měřítko, podle kterého dítě „zaostává“. Věkové údaje jsou typické, ne termíny. Když si nejste jistí, první adresa je vždy třídní učitel — zná vaše dítě, my ne.</p>
+    <p style="max-width:640px">Není to diagnostika ani důkaz, že dítě zaostává. Když se problém opakuje, první praktický krok je mluvit s učitelem.</p>
     <p class="blockt">Jak hlídáme kvalitu</p>
-    <p style="max-width:640px">Součástí webu je i <a href="${R}audit/">audit obsahu</a>, který automaticky hledá témata s krátkým textem, slabší domácí pomocí nebo chybějící návazností. Je to pracovní seznam pro další doplňování, ne hodnocení dítěte ani školy.</p>
+    <p style="max-width:640px"><a href="${R}audit/">Audit obsahu</a> hlídá RVP vazby, návaznosti, domácí pomoc a rodičovská vodítka. Slouží k údržbě webu, ne k hodnocení dítěte nebo školy.</p>
   </div></article>`;
   write("o-mape/index.html", layout({
     path: "o-mape/", nav: "o-mape",

@@ -157,6 +157,14 @@ a.card:hover{transform:translateY(-2px);border-color:var(--ink)}
 .subj-head .swatch{width:14px;height:20px;border-radius:3px 3px 2px 2px;flex:none;border:1px solid rgba(0,0,0,.15)}
 .subj-head h2{font-size:1.2rem;font-weight:800}
 .subj-head .cnt{font-size:.85rem;color:var(--muted)}
+.subject-guide{
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  padding:14px 16px;margin:0 0 14px;box-shadow:var(--shadow)
+}
+.guide-phases{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:10px}
+.guide-phases div{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:10px}
+.guide-phases b{display:block;font-family:"Bitter",serif;font-size:.9rem;margin-bottom:3px}
+.guide-phases span,.subject-guide p{display:block;color:var(--muted);font-size:.9rem;line-height:1.4}
 .grade-cermat{
   display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:center;
   background:var(--card);border:1.5px solid var(--line);border-left:5px solid var(--red);
@@ -298,6 +306,33 @@ ul.jak li::before{
 .print-subjects ul{list-style:none;margin-top:6px}
 .print-subjects li{font-size:.88rem;color:var(--muted);padding:3px 0}
 .print-subjects input{margin-right:6px}
+.grade-print-plan{
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:18px;margin:20px 0
+}
+.grade-print-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.print-subject{background:var(--paper);border:1.5px solid var(--line);border-radius:8px;padding:14px}
+.print-subject h3{font-size:1rem;margin-bottom:6px}
+.print-subject ul{list-style:none}
+.print-subject li{font-size:.88rem;color:var(--muted);padding:3px 0}
+.print-subject input{margin-right:6px}
+.coverage-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+.coverage-summary div{
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  padding:14px;box-shadow:var(--shadow)
+}
+.coverage-summary b{display:block;font-family:"Bitter",serif;font-size:1.45rem;color:var(--blue)}
+.coverage-summary span{display:block;color:var(--muted);font-size:.86rem}
+.coverage-tables{display:grid;grid-template-columns:1fr;gap:18px}
+.coverage-tables article{
+  background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:16px;overflow:auto
+}
+.coverage-tables h3{font-size:1rem;margin-bottom:10px}
+.coverage-tables table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:620px}
+.coverage-tables th,.coverage-tables td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left}
+.coverage-tables th{font-weight:800;color:var(--ink)}
+.coverage-tables td{color:var(--muted)}
 .test-review{
   background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);
   box-shadow:var(--shadow);padding:18px;margin:18px 0 22px
@@ -582,6 +617,8 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .qualitybox{grid-template-columns:1fr}
   .plan-steps{grid-template-columns:1fr}
   .grade-cermat{grid-template-columns:1fr}
+  .grade-print-grid{grid-template-columns:1fr}
+  .coverage-summary{grid-template-columns:repeat(2,1fr)}
   nav{margin-left:0}
 }
 
@@ -599,7 +636,7 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
 @media print{
   @page{margin:12mm}
   body{background:#fff;color:#000;font-size:12pt;line-height:1.35}
-  header,footer,.hsearch,.cermat-actions,.cermat-toc,.cards,.pager,.printbtn,.diagnostic-links,.plan-links,.mini-cards,.review-actions,.history-item button{display:none!important}
+  header,footer,.hsearch,.cermat-actions,.cermat-toc,.cards,.pager,.printbtn,.diagnostic-links,.plan-links,.mini-cards,.review-actions,.history-item button,.coverage-dashboard,.subject-guide{display:none!important}
   .wrap{max-width:none;padding:0}
   main.wrap{padding:0}
   a{color:#000;text-decoration:none}
@@ -607,11 +644,11 @@ footer{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
   .page-title{padding:0 0 8px}
   .page-title h1{font-size:22pt}
   .page-title .lead{font-size:11pt;color:#333;max-width:none}
-  .section,.cermat-dashboard,.print-plan,.test-review{padding:8px 0;margin:0 0 10px;border:none;box-shadow:none;background:#fff}
+  .section,.cermat-dashboard,.print-plan,.test-review,.grade-print-plan{padding:8px 0;margin:0 0 10px;border:none;box-shadow:none;background:#fff}
   .sec-head{margin-bottom:6px}
   .sec-head h2{font-size:15pt}
-  .dashboard-subjects,.print-weeks{grid-template-columns:1fr;gap:8px}
-  .dashboard-subject,.print-week,.cermat-group,.diagnostic-card,.plan-step,.history-item{
+  .dashboard-subjects,.print-weeks,.grade-print-grid{grid-template-columns:1fr;gap:8px}
+  .dashboard-subject,.print-week,.print-subject,.cermat-group,.diagnostic-card,.plan-step,.history-item{
     break-inside:avoid;border:1px solid #999;box-shadow:none;background:#fff;padding:10px;margin:0 0 8px
   }
   .dashboard-groups a{border:1px solid #ccc;background:#fff;padding:5px 7px}
