@@ -176,7 +176,7 @@ function cermatGradePanel(r, R) {
   </section>`;
 }
 
-function cermatDashboardHTML(exam, R) {
+function cermatDashboardHTML(exam, R, showPrint = true) {
   const subjectCards = exam.subjects.map(subject => {
     const skillIds = Array.from(new Set(subject.groups.flatMap(group => group.skillIds)));
     const groups = subject.groups.map(group => `<a data-dashboard-group
@@ -201,8 +201,45 @@ function cermatDashboardHTML(exam, R) {
     </article>`;
   }).join("");
   return `<section class="cermat-dashboard" data-cermat-dashboard>
-    <div class="sec-head"><h2>Stav přípravy</h2><span class="cnt">Souhrn podle uložených okruhů</span></div>
+    <div class="sec-head"><h2>Stav přípravy</h2><span class="cnt">Souhrn podle uložených okruhů</span>${showPrint ? '<button class="printbtn" type="button" data-print>Vytisknout plán</button>' : ""}</div>
     <div class="dashboard-subjects">${subjectCards}</div>
+  </section>`;
+}
+
+function cermatPrintPlanHTML(exam) {
+  const phases = [
+    {
+      title: "1. týden: jisté body",
+      desc: "Krátké denní bloky na témata, kde se dají rychle získat body a snížit nervozita.",
+      pick: subject => subject.groups.slice(0, 2)
+    },
+    {
+      title: "2. týden: časté pasti",
+      desc: "Rozebrat okruhy, kde nejčastěji vznikají opakované chyby nebo ztráta času.",
+      pick: subject => subject.groups.slice(2, 4)
+    },
+    {
+      title: "3. týden: celý test na čas",
+      desc: "Vyzkoušet test nanečisto a chyby hned roztřídit podle příčiny.",
+      pick: subject => subject.groups.slice(0, 1).concat(subject.groups.slice(-1))
+    },
+    {
+      title: "4. týden: doladění problémů",
+      desc: "Vrátit se hlavně k okruhům označeným jako Problém nebo Trénuju.",
+      pick: subject => subject.groups.slice(1, 3)
+    }
+  ];
+  const rows = phases.map(phase => `<article class="print-week">
+    <h3>${esc(phase.title)}</h3>
+    <p>${esc(phase.desc)}</p>
+    <div class="print-subjects">${exam.subjects.map(subject => `<div>
+      <b>${esc(subject.shortTitle)}</b>
+      <ul>${phase.pick(subject).map(group => `<li><label><input type="checkbox"> ${esc(group.title)}</label></li>`).join("")}</ul>
+    </div>`).join("")}</div>
+  </article>`).join("");
+  return `<section class="print-plan">
+    <div class="sec-head"><h2>Tiskový plán na 4 týdny</h2><span class="cnt">Zaškrtněte po rozboru chyb</span></div>
+    <div class="print-weeks">${rows}</div>
   </section>`;
 }
 
@@ -605,7 +642,7 @@ SKILLS.forEach(s => {
   ${CERMAT.exams.map(exam => `<section class="section">
     <div class="sec-head"><h2>${esc(exam.title)}</h2><a class="more" href="${R}${cermatExamUrl(exam)}">Přehled →</a></div>
     <p class="lead small-lead">${esc(exam.desc)}</p>
-    ${cermatDashboardHTML(exam, R)}
+    ${cermatDashboardHTML(exam, R, false)}
     <div class="cards">${exam.subjects.map(subject => cardSubject(exam, subject, R)).join("")}</div>
   </section>`).join("")}`;
   write("cermat/index.html", layout({
@@ -621,6 +658,7 @@ SKILLS.forEach(s => {
     <div class="crumbs"><a href="${examR}">Mapa učení</a> › <a href="${examR}cermat/">Cermat</a> › ${esc(exam.label)}</div>
     <div class="page-title"><h1>${esc(exam.title)}</h1><p class="lead">${esc(exam.desc)}</p></div>
     ${cermatDashboardHTML(exam, examR)}
+    ${cermatPrintPlanHTML(exam)}
     <div class="cards">${exam.subjects.map(subject => cardSubject(exam, subject, examR)).join("")}</div>
     <div class="infobox"><b>Jak používat:</b> nejdřív najděte okruh, kde dítě ztrácí body, pak otevřete navázaná témata. Celý test nanečisto má smysl hlavně tehdy, když po něm následuje rozbor chyb.</div>`;
     write(`${cermatExamUrl(exam)}index.html`, layout({
