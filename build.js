@@ -56,6 +56,13 @@ CERMAT.exams.forEach(exam => exam.subjects.forEach(subject => subject.groups.for
     CERMAT_BY_SKILL.get(skillId).push({ exam, subject, group });
   });
 })));
+const CERMAT_EXAM_BY_GRADE = Object.fromEntries(CERMAT.exams.map(exam => [Number(exam.id), exam]));
+const CERMAT_BADGES_BY_SKILL = new Map();
+CERMAT_BY_SKILL.forEach((refs, skillId) => {
+  const exams = Array.from(new Map(refs.map(ref => [ref.exam.id, ref.exam])).values())
+    .sort((a, b) => Number(a.id) - Number(b.id));
+  CERMAT_BADGES_BY_SKILL.set(skillId, exams);
+});
 
 const cut = (s, n = 155) => {
   s = s.replace(/\s+/g, " ").trim();
@@ -136,12 +143,37 @@ ${o.extraScript || ""}
 /* ---------- komponenty ---------- */
 function skillCard(s, R) {
   const su = SUBJ[s.p];
+  const cermatBadges = CERMAT_BADGES_BY_SKILL.get(s.id) || [];
+  const cermatLabel = cermatBadges.length > 1
+    ? `Cermat ${cermatBadges.map(exam => esc(exam.id)).join("+")}`
+    : cermatBadges.map(exam => `Cermat ${esc(exam.id)}`).join("");
   return `<a class="card" data-skill-id="${s.id}" href="${R}${skillUrl(s)}">
     <span class="tag" style="background:${su.c}">${su.n}</span>
     <h3>${s.t}</h3>
     <p>${s.co.slice(0, s.co.indexOf(".") + 1)}</p>
+    ${cermatLabel ? `<span class="cermat-badges"><span>${cermatLabel}</span></span>` : ""}
     <span class="meta">${s.r}. ročník · ${GRADES[s.r].age}</span>
   </a>`;
+}
+
+function cermatGradePanel(r, R) {
+  const exam = CERMAT_EXAM_BY_GRADE[r];
+  if (!exam) return "";
+  const subjects = exam.subjects.map(subject => {
+    const skillCount = new Set(subject.groups.flatMap(group => group.skillIds)).size;
+    return `<a href="${R}${cermatSubjectUrl(exam, subject)}">
+      <span>${esc(subject.shortTitle)}</span>
+      <b>${skillCount} navázaných témat</b>
+    </a>`;
+  }).join("");
+  return `<section class="grade-cermat">
+    <div>
+      <span class="pill ${r === 5 ? "p1" : "p2"}">Cermat ${esc(exam.label)}</span>
+      <h2>Připravujete se na přijímačky?</h2>
+      <p>${esc(exam.desc)}</p>
+    </div>
+    <div class="grade-cermat-links">${subjects}</div>
+  </section>`;
 }
 
 function rulerHTML(R) {
@@ -219,6 +251,7 @@ for (let r = 1; r <= 9; r++) {
     <p class="lead">${g.intro}</p>
     <div class="progress" data-ids="${list.map(s => s.id).join(",")}"><div class="bar"><i style="width:0%"></i></div><div class="lab">Zvládnuto <b>0</b> z ${list.length} témat — odškrtávejte v detailu tématu.</div></div>
   </div>
+  ${cermatGradePanel(r, R)}
   ${groups.map(p => {
     const items = list.filter(s => s.p === p);
     return `<div class="subj">
@@ -565,6 +598,7 @@ SKILLS.forEach(s => {
   const index = SKILLS.map(s => ({
     slug: s.slug, t: s.t, r: s.r, age: GRADES[s.r].age,
     pn: SUBJ[s.p].n, c: SUBJ[s.p].c, id: s.id,
+    p: s.p, cermat: (CERMAT_BADGES_BY_SKILL.get(s.id) || []).map(exam => exam.id),
     lead: s.co.slice(0, s.co.indexOf(".") + 1),
     txt: norm(s.t + " " + s.co + " " + s.jak.join(" ") + " " + (s.doma || []).join(" ") + " " + SUBJ[s.p].n)
   }));
@@ -580,6 +614,13 @@ SKILLS.forEach(s => {
     <button class="sbtn" type="submit" aria-label="Hledat">→</button>
     ${DATALIST}
   </form>
+  <div class="search-filters" aria-label="Filtr hledání">
+    <a data-filter="all" href="./">Všechno</a>
+    <a data-filter="cermat5" href="?cermat=5">Cermat 5</a>
+    <a data-filter="cermat9" href="?cermat=9">Cermat 9</a>
+    <a data-filter="m" href="?predmet=m">Matematika</a>
+    <a data-filter="cj" href="?predmet=cj">Čeština</a>
+  </div>
   <div id="sresults"></div>`;
   const extraScript = `<script src="${R}assets/search-data.js"></script>
 <script>
@@ -588,20 +629,44 @@ SKILLS.forEach(s => {
   var norm=function(s){return s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();};
   var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");};
   var q=(new URLSearchParams(location.search).get("q")||"").trim();
+  var cermat=(new URLSearchParams(location.search).get("cermat")||"").trim();
+  var predmet=(new URLSearchParams(location.search).get("predmet")||"").trim();
   document.getElementById("q").value=q;
+  var form=document.querySelector('form[role="search"]');
+  if(form&&cermat)form.insertAdjacentHTML("beforeend",'<input type="hidden" name="cermat" value="'+esc(cermat)+'">');
+  if(form&&predmet)form.insertAdjacentHTML("beforeend",'<input type="hidden" name="predmet" value="'+esc(predmet)+'">');
   var out=document.getElementById("sresults"),count=document.getElementById("scount"),title=document.getElementById("stitle");
-  if(!q){count.textContent="Zadejte, co se vaše dítě právě učí — třeba „zlomky“ nebo „gympl“.";return;}
-  title.textContent="Výsledky pro \\u201E"+q+"\\u201C";
-  document.title="Hledání: "+q+" | Mapa učení";
+  var active=document.querySelector('[data-filter="'+(cermat==="5"?"cermat5":cermat==="9"?"cermat9":predmet||"all")+'"]');
+  if(active)active.classList.add("active");
+  var params=[];
+  if(cermat)params.push("cermat="+encodeURIComponent(cermat));
+  if(predmet)params.push("predmet="+encodeURIComponent(predmet));
+  if(params.length){
+    document.querySelectorAll(".search-filters a").forEach(function(a){
+      var href=a.getAttribute("href");
+      a.setAttribute("href",href+(href.indexOf("?")>-1?"&":"?")+"q="+encodeURIComponent(q));
+    });
+  }
+  if(!q&&!cermat&&!predmet){count.textContent="Zadejte, co se vaše dítě právě učí — třeba „zlomky“ nebo „gympl“.";return;}
+  var label=cermat?("Cermat "+cermat):(predmet==="m"?"Matematika":predmet==="cj"?"Čeština":"Výsledky");
+  title.textContent=q?("Výsledky pro \\u201E"+q+"\\u201C"):(label);
+  document.title=(q?("Hledání: "+q):label)+" | Mapa učení";
   var nq=norm(q),cands=[nq];
   Object.keys(SEARCH.syn).forEach(function(k){if(nq.indexOf(k)>-1)cands.push(norm(SEARCH.syn[k]));});
-  var res=SEARCH.items.filter(function(it){return cands.some(function(c){return c&&it.txt.indexOf(c)>-1;});});
+  var res=SEARCH.items.filter(function(it){
+    var textOk=!q||cands.some(function(c){return c&&it.txt.indexOf(c)>-1;});
+    var cermatOk=!cermat||it.cermat.indexOf(cermat)>-1;
+    var predmetOk=!predmet||it.p===predmet;
+    return textOk&&cermatOk&&predmetOk;
+  });
   count.textContent=res.length?("Nalezeno "+res.length+" "+(res.length===1?"téma":res.length<5?"témata":"témat")+"."):"";
   if(!res.length){out.innerHTML='<div class="noresults">Nic jsme nenašli. Zkuste jiné slovo (např. „zlomky“, „shoda“, „násobilka“) — nebo projděte ročníky přes <a href="../">přehled</a>.</div>';return;}
   out.innerHTML='<div class="cards">'+res.map(function(s){
+    var badges=s.cermat.length?'<span class="cermat-badges"><span>Cermat '+esc(s.cermat.join("+"))+'</span></span>':"";
     return '<a class="card" data-skill-id="'+s.id+'" href="../dovednost/'+s.slug+'/">'
       +'<span class="tag" style="background:'+s.c+'">'+esc(s.pn)+'</span>'
       +'<h3>'+esc(s.t)+'</h3><p>'+esc(s.lead)+'</p>'
+      +badges
       +'<span class="meta">'+s.r+'. ročník · '+s.age+'</span></a>';
   }).join("")+'</div>';
 })();
