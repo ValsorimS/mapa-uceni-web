@@ -24,6 +24,7 @@ const POPULAR = J("popular.json");
 const RVP = J("rvp.json");
 const CERMAT = J("cermat.json");
 const SUPP = J("supplementary.json");
+const PPATHS = J("parent_paths.json");
 
 /* ---------- pomocné ---------- */
 const norm = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -50,6 +51,7 @@ const skillUrl = s => "dovednost/" + s.slug + "/";
 const cermatExamUrl = exam => `cermat/${exam.slug}/`;
 const cermatSubjectUrl = (exam, subject) => `${cermatExamUrl(exam)}${subject.id}/`;
 const supplementaryUrl = field => `doplnujici-obory/${field.id}/`;
+const parentPathUrl = parentPath => `rodicovske-cesty/${parentPath.id}/`;
 
 const CERMAT_BY_SKILL = new Map();
 CERMAT.exams.forEach(exam => exam.subjects.forEach(subject => subject.groups.forEach(group => {
@@ -585,6 +587,22 @@ function contentAudit(skills) {
 
 const CONTENT_AUDIT = contentAudit(SKILLS);
 
+function parentPathQuality(paths) {
+  const required = [
+    ["typicalMistake", "typická chyba"],
+    ["childQuestion", "otázka pro dítě"],
+    ["homeActivity", "domácí aktivita"],
+    ["teacherSignal", "signál pro učitele"]
+  ];
+  const findings = paths.map(path => {
+    const missing = required.filter(([key]) => !String(path[key] || "").trim()).map(([, label]) => label);
+    return { path, missing };
+  }).filter(item => item.missing.length);
+  return { total: paths.length, findings };
+}
+
+const PARENT_PATH_QUALITY = parentPathQuality(PPATHS);
+
 /* ---------- stránky ---------- */
 /* Domů */
 (function home() {
@@ -976,6 +994,65 @@ SKILLS.forEach(s => {
   });
 })();
 
+/* Rodičovské cesty */
+(function rodicovskeCesty() {
+  const R = "../";
+  const pathCard = path => `<a class="card" href="${R}${parentPathUrl(path)}">
+    <span class="tag" style="background:var(--green)">Cesta</span>
+    <h3>${esc(path.title)}</h3>
+    <p>${esc(path.lead)}</p>
+    <span class="meta">${path.skillIds.length} navázaných témat</span>
+  </a>`;
+  const body = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Rodičovské cesty</div>
+  <div class="page-title"><h1>Rodičovské cesty</h1>
+  <p class="lead">Praktické rozcestníky podle problému, ne podle předmětu. Každá cesta ukazuje signály, první domácí kroky, otázku pro dítě, typickou chybu dospělých a témata, která s problémem souvisejí.</p></div>
+  <div class="cards">${PPATHS.map(pathCard).join("")}</div>`;
+  write("rodicovske-cesty/index.html", layout({
+    path: "rodicovske-cesty/", nav: "pomoc",
+    title: "Rodičovské cesty podle problému | Mapa učení",
+    desc: "Praktické cesty pro rodiče: dítě špatně čte, bojí se matematiky, nestíhá tempo, má potíže s pravopisem nebo nechce do školy.",
+    body
+  }));
+
+  PPATHS.forEach(path => {
+    const pageR = "../../";
+    const linkedSkills = path.skillIds.map(byId).filter(Boolean);
+    const body = `
+    <div class="crumbs"><a href="${pageR}">Mapa učení</a> › <a href="${pageR}rodicovske-cesty/">Rodičovské cesty</a> › ${esc(path.title)}</div>
+    <div class="page-title"><h1>${esc(path.title)}</h1>
+    <p class="lead">${esc(path.lead)}</p></div>
+    <section class="section">
+      <div class="sec-head"><h2>Jak to poznat</h2></div>
+      <div class="cards">${path.signs.map(sign => `<div class="gl"><p>${esc(sign)}</p></div>`).join("")}</div>
+    </section>
+    <section class="section">
+      <div class="sec-head"><h2>První kroky doma</h2></div>
+      <div class="cards">${path.firstSteps.map(step => `<div class="gl"><p>${esc(step)}</p></div>`).join("")}</div>
+    </section>
+    <section class="section">
+      <div class="sec-head"><h2>Kvalitativní vodítka</h2></div>
+      <div class="cards">
+        <div class="gl"><b>Typická chyba</b><p>${esc(path.typicalMistake)}</p></div>
+        <div class="gl"><b>Otázka pro dítě</b><p>${esc(path.childQuestion)}</p></div>
+        <div class="gl"><b>Domácí aktivita</b><p>${esc(path.homeActivity)}</p></div>
+        <div class="gl"><b>Signál pro učitele</b><p>${esc(path.teacherSignal)}</p></div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="sec-head"><h2>Související témata</h2></div>
+      <div class="cards">${linkedSkills.map(s => skillCard(s, pageR)).join("")}</div>
+    </section>
+    <div class="pager"><a href="${pageR}rodicovske-cesty/">← Všechny rodičovské cesty</a><a href="${pageR}kdyz-dite-nestiha/">Když dítě nestíhá →</a></div>`;
+    write(`${parentPathUrl(path)}index.html`, layout({
+      path: parentPathUrl(path), nav: "pomoc",
+      title: `${path.title} | Rodičovské cesty | Mapa učení`,
+      desc: cut(path.lead),
+      body
+    }));
+  });
+})();
+
 /* Když dítě nestíhá */
 (function kdyzDiteNestiha() {
   const R = "../";
@@ -1031,6 +1108,10 @@ SKILLS.forEach(s => {
   <section class="section">
     <div class="sec-head"><h2>Podle problému</h2></div>
     <div class="cards">${topicCards}</div>
+  </section>
+  <section class="section">
+    <div class="sec-head"><h2>Rodičovské cesty</h2><a class="more" href="${R}rodicovske-cesty/">Všechny cesty →</a></div>
+    <div class="cards">${PPATHS.slice(0, 3).map(path => `<a class="card" href="${R}${parentPathUrl(path)}"><span class="tag" style="background:var(--green)">Cesta</span><h3>${esc(path.title)}</h3><p>${esc(path.lead)}</p></a>`).join("")}</div>
   </section>
   <section class="section">
     <div class="sec-head"><h2>Související stránky</h2></div>
@@ -1207,20 +1288,25 @@ SKILLS.forEach(s => {
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Audit obsahu</div>
   <div class="page-title"><h1>Audit obsahu</h1>
-  <p class="lead">Automatický seznam témat, která stojí za ruční doplnění. Audit hledá krátké texty, málo domácích tipů, slabé body zvládnutí a chybějící návaznost.</p></div>
+  <p class="lead">Automatický seznam témat a rodičovských cest, které stojí za ruční doplnění. Audit hlídá krátké texty, domácí tipy, návaznosti a nově i kvalitativní vodítka pro rodiče.</p></div>
   <div class="metrics">
     <div><b>${CONTENT_AUDIT.total}</b><span>běžných témat v auditu</span></div>
     <div><b>${CONTENT_AUDIT.candidates.length}</b><span>kandidátů k doplnění</span></div>
     <div><b>${CONTENT_AUDIT.high}</b><span>vysoká priorita</span></div>
     <div><b>${CONTENT_AUDIT.medium}</b><span>střední priorita</span></div>
+    <div><b>${PARENT_PATH_QUALITY.findings.length}</b><span>cest bez kvalitativních vodítek</span></div>
   </div>
   <div class="infobox"><b>Jak to číst:</b> skóre není známka kvality učiva. Je to pracovní filtr, který pomáhá najít témata, kde by rodičům nejvíc pomohlo doplnit konkrétnější texty, domácí otázky nebo další krok.</div>
   ${section("Vysoká priorita", byPriority("vysoká"))}
   ${section("Střední priorita", byPriority("střední"))}
   ${section("Nízká priorita", byPriority("nízká"))}
   <section class="section">
+    <div class="sec-head"><h2>Kvalitativní audit rodičovských cest</h2><span class="cnt">${PARENT_PATH_QUALITY.total} cest</span></div>
+    ${PARENT_PATH_QUALITY.findings.length ? `<div class="cards">${PARENT_PATH_QUALITY.findings.map(item => `<div class="gl"><b><a href="${R}${parentPathUrl(item.path)}">${esc(item.path.title)}</a></b><p>Chybí: ${item.missing.map(esc).join(", ")}</p></div>`).join("")}</div>` : `<div class="noresults">Všechny rodičovské cesty mají typickou chybu, otázku pro dítě, domácí aktivitu i signál pro učitele.</div>`}
+  </section>
+  <section class="section">
     <div class="sec-head"><h2>Další postup</h2></div>
-    <div class="infobox"><b>Doporučení:</b> nejdřív projít vysokou prioritu a u každého tématu doplnit konkrétní „co zkusit doma“, typickou chybu, otázku pro dítě a jasnější návaznost. Pak má smysl pustit se do střední priority po předmětech.</div>
+    <div class="infobox"><b>Doporučení:</b> strukturální audit je teď čistý. Další zlepšení má smysl dělat obsahově: rozšiřovat rodičovské cesty, doplňovat další životní situace a postupně přidávat kvalitativní vodítka i k běžným tématům.</div>
   </section>`;
   write("audit/index.html", layout({
     path: "audit/", nav: "o-mape",
@@ -1385,8 +1471,10 @@ const cermatUrls = ["cermat/"]
   .concat(CERMAT.exams.map(cermatExamUrl))
   .concat(CERMAT.exams.flatMap(exam => exam.subjects.map(subject => cermatSubjectUrl(exam, subject))));
 const supplementaryUrls = ["doplnujici-obory/"].concat(SUPP.fields.map(supplementaryUrl));
+const parentPathUrls = ["rodicovske-cesty/"].concat(PPATHS.map(parentPathUrl));
 const urls = ["", "predmety/", "milniky/", "kdyz-dite-nestiha/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/", "audit/"]
   .concat(supplementaryUrls)
+  .concat(parentPathUrls)
   .concat(cermatUrls)
   .concat(Array.from({ length: 9 }, (_, i) => `rocnik/${i + 1}/`))
   .concat(SKILLS.map(skillUrl));

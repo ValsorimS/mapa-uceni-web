@@ -1,0 +1,154 @@
+[
+ {
+  "id": "spatne-cte",
+  "title": "Dítě špatně čte",
+  "lead": "Pomoc pro situace, kdy čtení bere příliš energie, dítě ztrácí smysl textu nebo se čtení doma mění v boj.",
+  "signs": [
+   "Čte pomalu, hádá slova nebo se často vrací na začátek věty.",
+   "Po přečtení neumí říct, o čem text byl.",
+   "Vyhýbá se čtení nahlas nebo je po krátkém čtení vyčerpané."
+  ],
+  "firstSteps": [
+   "Zkraťte čtení na 5 až 10 minut denně a sledujte spíš pravidelnost než délku.",
+   "Střídejte se po větách nebo odstavcích, aby dítě neztratilo obsah.",
+   "Po každém krátkém úseku se ptejte na jednu věc: kdo, kde, co se stalo."
+  ],
+  "skillIds": [
+   "cj1-slabiky",
+   "cj2-cteni",
+   "cj4-informace",
+   "cj7-cteni-info"
+  ],
+  "typicalMistake": "Rodič tlačí na rychlost čtení, ale dítě ještě nemá jisté dekódování nebo porozumění.",
+  "childQuestion": "Řekni mi jednou větou, co se v tom odstavci stalo.",
+  "homeActivity": "Čtěte krátký text ve dvojici: jednu větu rodič, jednu dítě, potom společně shrňte děj.",
+  "teacherSignal": "Dítě čte výrazně pomaleji než třída, nerozumí zadání v testech nebo čtení dlouhodobě zasahuje i jiné předměty."
+ },
+ {
+  "id": "neumi-se-ucit",
+  "title": "Dítě se neumí učit",
+  "lead": "Cesta pro děti, které tráví nad učením hodně času, ale neumí vybrat podstatné, opakovat aktivně nebo si práci rozdělit.",
+  "signs": [
+   "Sedí nad sešitem dlouho, ale neumí říct, co přesně se učí.",
+   "Před testem jen čte zápisky dokola a výsledek tomu neodpovídá.",
+   "Zapomíná pomůcky, termíny nebo neví, čím začít."
+  ],
+  "firstSteps": [
+   "Každé učení začněte otázkou: co máš po 15 minutách umět říct nebo udělat?",
+   "Místo podtrhávání použijte aktivní vybavení: zavřít sešit a odpovědět vlastními slovy.",
+   "Rozdělte přípravu na malé bloky: dnes pojmy, zítra příklady, potom krátké opakování."
+  ],
+  "skillIds": [
+   "cj4-informace",
+   "m5-logicke-ulohy",
+   "z6-zeme",
+   "inf6-data-modely"
+  ],
+  "typicalMistake": "Dítě si plete čas strávený nad učením se skutečným vybavením a použitím znalosti.",
+  "childQuestion": "Co si z toho budeš chtít pamatovat zítra bez sešitu?",
+  "homeActivity": "Po krátkém učení nechte dítě vytvořit tři otázky, které by mohly být v testu.",
+  "teacherSignal": "Dítě má opakovaně slabé výsledky i přes dlouhou domácí přípravu nebo neví, jak se připravit na konkrétní typ testu."
+ },
+ {
+  "id": "boji-se-matematiky",
+  "title": "Dítě se bojí matematiky",
+  "lead": "Cesta pro situace, kdy matematika vyvolává odpor, pláč nebo rezignaci dřív, než dítě začne skutečně počítat.",
+  "signs": [
+   "Říká „já na matiku nejsem“ ještě před prvním příkladem.",
+   "Chybu bere jako důkaz, že je celé téma ztracené.",
+   "Umí postup v klidu, ale v testu zpanikaří nebo ztratí čas."
+  ],
+  "firstSteps": [
+   "Začněte příkladem, který dítě zvládne, aby se obnovil pocit kontroly.",
+   "Chybu rozebírejte podle kroku, ne podle výsledku: kde přesně se to rozjelo?",
+   "Střídejte školní příklady s praktickou situací: peníze, recept, mapa, měření."
+  ],
+  "skillIds": [
+   "m2-nasobilka",
+   "m5-logicke-ulohy",
+   "m7-zlomky",
+   "m7-procenta",
+   "m8-rovnice"
+  ],
+  "typicalMistake": "Rodič přidává další příklady, když dítě potřebuje nejdřív najít jeden konkrétní rozbitý krok.",
+  "childQuestion": "Který krok umíš jistě a kde přesně si přestáváš být jistý?",
+  "homeActivity": "Vezměte jeden špatný příklad a barevně označte poslední správný krok a první krok, kde vznikla chyba.",
+  "teacherSignal": "Dítě má výraznou úzkost z matematiky, zamrzá u testů nebo se stejný typ chyby opakuje napříč tématy."
+ },
+ {
+  "id": "nestiha-tempo",
+  "title": "Dítě nestíhá tempo",
+  "lead": "Cesta pro děti, které látku často chápou, ale nedokončují práci, testy, zápisy nebo domácí přípravu v běžném čase.",
+  "signs": [
+   "Doma učivo chápe, ale ve škole nestihne test nebo zápis.",
+   "Zasekne se na prvním úkolu a nezbude čas na zbytek.",
+   "Domácí úkoly se protahují do večera a dítě už jen přežívá."
+  ],
+  "firstSteps": [
+   "Zjistěte, jestli zdržuje čtení zadání, samotný postup, psaní, kontrola nebo nejistota.",
+   "Učte dítě označit úlohy, které umí hned, a vrátit se k těžším později.",
+   "Doma měřte krátké bloky bez tlaku: kolik zvládne v klidu za 10 minut?"
+  ],
+  "skillIds": [
+   "cj1-psani",
+   "cj4-informace",
+   "m5-logicke-ulohy",
+   "vz8-stres-dusevni-hygiena"
+  ],
+  "typicalMistake": "Dospělí řeší jen pomalost, ale nepoznají, ve které části práce se čas ztrácí.",
+  "childQuestion": "Kde ti nejvíc utíká čas: čtení, psaní, počítání, nebo rozhodování, co udělat dál?",
+  "homeActivity": "Dejte jeden krátký úkol na čas a potom společně pojmenujte, co čas zpomalilo.",
+  "teacherSignal": "Dítě pravidelně nedokončuje práci, i když látce rozumí, nebo se kvůli tempu zhoršuje jeho hodnocení."
+ },
+ {
+  "id": "potize-s-pravopisem",
+  "title": "Dítě má potíže s pravopisem",
+  "lead": "Cesta pro opakované chyby v diktátech, doplňovačkách nebo vlastním psaní, kdy dítě pravidlo často zná, ale nepoužije ho v textu.",
+  "signs": [
+   "V izolovaném cvičení pravidlo zvládne, ale v diktátu chybuje.",
+   "Chyby jsou stále stejného typu: i/y, shoda, koncovky, čárky.",
+   "Při psaní se soustředí na obsah a pravopis se rozpadne."
+  ],
+  "firstSteps": [
+   "Netrenujte všechno najednou; vyberte jeden typ chyby na týden.",
+   "Po psaní dejte kontrolu podle checklistu: nejdřív i/y, potom koncovky, potom čárky.",
+   "Chtějte krátké zdůvodnění nahlas, ne jen opravené písmeno."
+  ],
+  "skillIds": [
+   "cj3-vyjmenovana",
+   "cj4-vzory",
+   "cj5-shoda",
+   "cj7-vedlejsi",
+   "cj9-pravopis"
+  ],
+  "typicalMistake": "Dítě opravuje pravopis náhodně podle dojmu, místo aby použilo jedno konkrétní pravidlo.",
+  "childQuestion": "Jaké pravidlo rozhoduje právě o tomhle písmeni nebo čárce?",
+  "homeActivity": "Vyberte pět vět a kontrolujte jen jeden typ chyby; ostatní chyby tentokrát neřešte.",
+  "teacherSignal": "Stejný typ chyby se drží i po cíleném procvičení nebo pravopis výrazně zhoršuje známky ve všech písemných pracích."
+ },
+ {
+  "id": "nechce-do-skoly",
+  "title": "Dítě nechce chodit do školy",
+  "lead": "Cesta pro situace, kdy odpor ke škole nejspíš není lenost, ale signál stresu, vztahového problému, přetížení nebo strachu ze selhání.",
+  "signs": [
+   "Ráno bolí břicho, hlava nebo se opakují záchvaty pláče.",
+   "Dítě nechce mluvit o škole nebo prudce reaguje na běžné otázky.",
+   "Zhoršil se spánek, nálada, chuť k jídlu nebo vztahy s vrstevníky."
+  ],
+  "firstSteps": [
+   "Nepátrejte výslechem. Začněte klidnou větou: vidím, že je škola teď těžká, pojďme zjistit proč.",
+   "Oddělte učivo, vztahy, učitele, šikanu, únavu a strach z hodnocení.",
+   "Pokud je podezření na šikanu nebo sebepoškozování, řešte školu a odbornou pomoc bez odkladu."
+  ],
+  "skillIds": [
+   "vz6-vztahy-komunita",
+   "vz8-stres-dusevni-hygiena",
+   "vz8-rizika-zavislosti",
+   "ov7-media-tolerance"
+  ],
+  "typicalMistake": "Dospělí to rychle označí za lenost a přehlédnou strach, konflikt, přetížení nebo vztahový problém.",
+  "childQuestion": "Kdyby šla jedna věc ve škole zítra změnit, která by ti nejvíc pomohla?",
+  "homeActivity": "Nakreslete jednoduchou mapu školy: místa a situace, kde je dítě v klidu, nejisté nebo ve stresu.",
+  "teacherSignal": "Dítě se škole vyhýbá opakovaně, mění se jeho chování, mluví o strachu, izolaci, šikaně nebo ztrátě smyslu."
+ }
+]
