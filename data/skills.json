@@ -134,7 +134,7 @@
    "Porovná dvě čísla a zapíše to znaménkem.",
    "Ukáže číslo na číselné ose."
   ],
-  "dal": "Počítání a orientace v číslech do 100.",
+  "dal": "Na číselnou řadu navazuje počítání a orientace v číslech do 100 ve 2. ročníku.",
   "dalId": "m2-do100",
   "rvp": "RVP ZV · Matematika a její aplikace · 1. období.",
   "doma": [
@@ -157,7 +157,7 @@
    "Roztřídí předměty podle tvaru a velikosti.",
    "Splní pokyn typu „polož pastelku vlevo od sešitu“."
   ],
-  "dal": "Rýsování úsečky podle pravítka ve 2. ročníku.",
+  "dal": "Na první tvary navazuje rýsování úsečky podle pravítka a přesnější geometrické označování ve 2. ročníku.",
   "dalId": "m2-usecka",
   "rvp": "RVP ZV · Matematika a její aplikace · 1. období (geometrie v rovině a v prostoru).",
   "doma": [
@@ -226,7 +226,7 @@
    "Drží základní melodii a ví, kdy začít a skončit.",
    "Při zpěvu zřetelně vyslovuje a dýchá po kratších frázích."
   ],
-  "dal": "Rytmus, melodizace říkadel a jednoduché nástroje.",
+  "dal": "Na zpěv a hlas navazuje rytmus, melodizace říkadel a jednoduché nástroje ve 2. ročníku.",
   "dalId": "hv2-rytmus-nastroje",
   "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 1. období.",
   "doma": [
@@ -248,7 +248,7 @@
    "Doprovodí píseň jednoduchým pravidelným rytmem.",
    "Pozná, kdy má hrát potichu, nahlas, rychleji nebo pomaleji."
   ],
-  "dal": "Pohybové vyjádření hudby a první poslechové rozlišování.",
+  "dal": "Na rytmus a nástroje navazuje pohybové vyjádření hudby a první poslechové rozlišování skladeb.",
   "dalId": "hv3-pohyb-poslech",
   "rvp": "RVP ZV · Umění a kultura — Hudební výchova · 1. období.",
   "doma": [
@@ -621,7 +621,7 @@
    "Posoudí chování z hlediska odpovědnosti za vlastní zdraví i zdraví druhých.",
    "Vyjádří vlastní názor k otázkám zdraví a umí o něm diskutovat."
   ],
-  "dal": "Výživa, stravovací návyky a prevence civilizačních nemocí.",
+  "dal": "Na obecné zdraví navazuje výživa, stravovací návyky a prevence civilizačních nemocí v běžném režimu.",
   "dalId": "vz7-vyziva",
   "rvp": "RVP ZV · Výchova ke zdraví · Hodnota a podpora zdraví.",
   "doma": [
@@ -647,7 +647,7 @@
    "Popíše základní složky stravy a pitný režim.",
    "Uplatní v rámci možností zdravé stravovací návyky."
   ],
-  "dal": "Nemoci, prevence, zdravotní problém a vyhledání pomoci.",
+  "dal": "Na výživu navazují nemoci, prevence, zdravotní problém a rozhodnutí, kdy vyhledat pomoc.",
   "dalId": "vz7-nemoci-prevence",
   "rvp": "RVP ZV · Výchova ke zdraví · Zdravý způsob života a péče o zdraví.",
   "doma": [
@@ -691,7 +691,7 @@
    "Chová se kultivovaně k opačnému pohlaví i k lidem s odlišnou zkušeností.",
    "Chápe význam odpovědného sexuálního chování a hranic."
   ],
-  "dal": "Stres, regenerace, relaxační techniky a duševní hygiena.",
+  "dal": "Na dospívání a vztahy navazuje stres, regenerace, relaxační techniky a duševní hygiena.",
   "dalId": "vz8-stres-dusevni-hygiena",
   "rvp": "RVP ZV · Výchova ke zdraví · Změny v životě člověka.",
   "doma": [
@@ -737,7 +737,7 @@
    "Rozpozná manipulativní vliv vrstevníků, médií nebo sekt.",
    "Použije model odmítnutí a ví, kde hledat odbornou pomoc."
   ],
-  "dal": "Bezpečí, doprava, první pomoc a mimořádné události.",
+  "dal": "Na rizikové chování navazuje bezpečí, doprava, první pomoc a reakce při mimořádných událostech.",
   "dalId": "vz9-bezpeci-prvni-pomoc",
   "rvp": "RVP ZV · Výchova ke zdraví · Rizika ohrožující zdraví.",
   "doma": [
@@ -1754,7 +1754,7 @@
    "Určí u podstatného jména rod, číslo a pád ve větě.",
    "Skloňuje slovo podle zadaného pádu."
   ],
-  "dal": "Vzory podstatných jmen ve 4. ročníku.",
+  "dal": "Na rod, číslo a pád navazují vzory podstatných jmen ve 4. ročníku.",
   "dalId": "cj4-vzory",
   "rvp": "RVP ZV · Jazyk a jazyková komunikace · 1.–2. období (tvarosloví).",
   "doma": [
@@ -1823,7 +1823,7 @@
    "Dělí v oboru násobilky včetně zbytku (23 : 4 = 5, zbytek 3).",
    "Používá násobilku v odhadech a slovních úlohách."
   ],
-  "dal": "Písemné násobení a dělení ve 4. ročníku.",
+  "dal": "Na malou násobilku navazuje písemné násobení a dělení větších čísel ve 4. ročníku.",
   "dalId": "m4-deleni",
   "rvp": "RVP ZV · Matematika a její aplikace · 1. období: užívá spoje násobilek zpaměti.",
   "doma": [
@@ -2061,7 +2061,7 @@
    "Pozná podmět nevyjádřený („Půjdeme domů.“ — my).",
    "Vytvoří větu k zadané dvojici podmět + přísudek."
   ],
-  "dal": "Shoda přísudku s podmětem v 5. ročníku.",
+  "dal": "Na podmět a přísudek navazuje shoda přísudku s podmětem v 5. ročníku.",
   "dalId": "cj5-shoda",
   "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. období (skladba).",
   "doma": [
@@ -2580,7 +2580,7 @@
    "Sečte zlomky se stejným jmenovatelem s oporou modelu.",
    "Převádí mezi zlomkem a desetinným číslem u jednoduchých případů (½ = 0,5)."
   ],
-  "dal": "Zlomky naplno (všechny operace) v 7. ročníku.",
+  "dal": "Na první práci se zlomky navazují zlomky naplno, tedy všechny operace, v 7. ročníku.",
   "dalId": "m7-zlomky",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. období: porovná, sčítá a odčítá zlomky se stejným jmenovatelem v jednoduchých případech.",
   "doma": [
@@ -2809,7 +2809,7 @@
    "Vysvětlí zásady zdravého jídelníčku a pohybu.",
    "Ví, jak přivolat pomoc a co říct na lince 155/112."
   ],
-  "dal": "Podrobná biologie člověka v 8. ročníku přírodopisu.",
+  "dal": "Na první přehled lidského těla navazuje podrobná biologie člověka v 8. ročníku přírodopisu.",
   "dalId": "pri5-bezpeci-zdravi",
   "rvp": "RVP ZV · Člověk a jeho svět · 2. období (člověk a jeho zdraví).",
   "doma": [
@@ -2860,7 +2860,7 @@
    "Vysvětlí, co se stalo 28. října 1918 a 17. listopadu 1989.",
    "Pozná významné osobnosti (Masaryk, Havel) a řekne, čím byli důležití."
   ],
-  "dal": "Systematický dějepis od pravěku v 6. ročníku.",
+  "dal": "Na vlastivědný přehled českých dějin navazuje systematický dějepis od pravěku v 6. ročníku.",
   "dalId": "d6-pravek",
   "rvp": "RVP ZV · Člověk a jeho svět · 2. období (lidé a čas).",
   "doma": [
@@ -2971,7 +2971,7 @@
    "Správně posouvá desetinnou čárku při násobení 10, 100, 1000.",
    "Řeší slovní úlohy s cenami a měřením."
   ],
-  "dal": "Zlomky a racionální čísla v 7. ročníku.",
+  "dal": "Na desetinná čísla navazují zlomky a racionální čísla v 7. ročníku.",
   "dalId": "m7-cela",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná).",
   "doma": [
@@ -2995,7 +2995,7 @@
    "Rozloží číslo na součin prvočísel.",
    "Najde NSD a NSN dvou čísel a použije je v úloze."
   ],
-  "dal": "Krácení a rozšiřování zlomků v 7. ročníku.",
+  "dal": "Na dělitelnost navazuje krácení a rozšiřování zlomků v 7. ročníku.",
   "dalId": "m7-zlomky",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň: modeluje a řeší situace s využitím dělitelnosti v oboru přirozených čísel.",
   "doma": [
@@ -3015,14 +3015,14 @@
   "jak": [
    "Změří úhel úhloměrem s přesností na stupně a narýsuje úhel dané velikosti.",
    "Rozliší druhy úhlů od pohledu.",
-   "Dopočítá třetí úhel trojúhelníku."
+   "Dopočítá třetí úhel trojúhelníku ze součtu úhlů."
   ],
   "dal": "Konstrukce trojúhelníků a čtyřúhelníků v 7. ročníku, Pythagorova věta v 8.",
   "dalId": "m6-soumernost",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (geometrie v rovině a v prostoru).",
   "doma": [
    "Kolik stupňů svírají ručičky v půl třetí? Změřte.",
-   "Hledejte doma pravé úhly."
+   "Hledejte doma pravé úhly na nábytku, dveřích a dlažbě."
   ],
   "rvpRefs": [
    "M-9-3-03",
@@ -3276,7 +3276,7 @@
    "Rozliší složky přírodní sféry a základní tvary povrchu.",
    "Porovná vnitřní a vnější procesy a jejich dopad na krajinu a společnost."
   ],
-  "dal": "Regiony světa: světadíly, oceány a makroregiony.",
+  "dal": "Na přírodní obraz Země navazují regiony světa: světadíly, oceány a makroregiony.",
   "dalId": "z7-svetadily",
   "rvp": "RVP ZV · Zeměpis · Přírodní obraz Země.",
   "doma": [
@@ -3324,7 +3324,7 @@
    "Porovná evropské regiony podle přírodních a společenských znaků.",
    "Vysvětlí, co je EU a jak členství souvisí s Českou republikou."
   ],
-  "dal": "Obyvatelstvo, sídla a světové hospodářství.",
+  "dal": "Na Evropu navazuje obyvatelstvo, sídla a světové hospodářství v širších souvislostech.",
   "dalId": "z8-obyvatelstvo-sidla",
   "rvp": "RVP ZV · Zeměpis · Regiony světa.",
   "doma": [
@@ -3446,7 +3446,7 @@
    "Popíše, jak změnilo život zemědělství.",
    "Uvede, co si Evropa vzala z antického Řecka a Říma."
   ],
-  "dal": "Středověk v 7. ročníku.",
+  "dal": "Na pravěk a starověk navazuje středověk v 7. ročníku dějepisu.",
   "dalId": "d7-stredovek",
   "rvp": "RVP ZV · Člověk a společnost — Dějepis · 2. stupeň.",
   "doma": [
@@ -3524,7 +3524,7 @@
    "Vysvětlí, proč se infekce šíří a proč pomáhá hygiena.",
    "Rozpozná běžné jedlé a jedovaté houby s plodnicemi podle atlasu."
   ],
-  "dal": "Rostliny: stavba těla, fyziologie, skupiny a určování.",
+  "dal": "Na mikroorganismy a houby navazují rostliny: stavba těla, fyziologie, skupiny a určování.",
   "dalId": "prir7-rostliny",
   "rvp": "RVP ZV · Přírodopis · Viry, bakterie a biologie hub.",
   "doma": [
@@ -3547,7 +3547,7 @@
    "Vysvětlí princip fotosyntézy a význam pěstování rostlin.",
    "Rozliší základní skupiny rostlin a určí vybrané zástupce."
   ],
-  "dal": "Živočichové: stavba, skupiny, chování a význam.",
+  "dal": "Na rostliny navazují živočichové: stavba, skupiny, chování a význam v ekosystémech.",
   "dalId": "prir7-obratlovci",
   "rvp": "RVP ZV · Přírodopis · Biologie rostlin.",
   "doma": [
@@ -3571,7 +3571,7 @@
    "Zařadí vybrané živočichy do hlavních skupin.",
    "Vysvětlí přizpůsobení prostředí a bezpečné chování při kontaktu se živočichy."
   ],
-  "dal": "Biologie člověka a orgánové soustavy.",
+  "dal": "Na živočichy navazuje biologie člověka a podrobnější práce s orgánovými soustavami.",
   "dalId": "prir8-clovek",
   "rvp": "RVP ZV · Přírodopis · Biologie živočichů.",
   "doma": [
@@ -3596,7 +3596,7 @@
    "Vysvětlí, jak spolu soustavy spolupracují.",
    "Použije biologické poznatky k rozumné péči o tělo."
   ],
-  "dal": "Vývoj člověka, rozmnožování, nemoci, prevence a zdraví.",
+  "dal": "Na orgánové soustavy navazuje vývoj člověka, rozmnožování, nemoci, prevence a zdraví.",
   "dalId": "prir8-vyvoj-zdravi",
   "rvp": "RVP ZV · Přírodopis · Biologie člověka.",
   "doma": [
@@ -3790,7 +3790,7 @@
    "Popíše, co dělá obecní úřad a kdo obec vede.",
    "Uvede příklad pravidla, které by ve škole změnil — a jak by to prosadil demokraticky."
   ],
-  "dal": "Stát, právo a hospodaření v 8.–9. ročníku.",
+  "dal": "Na školu, obec a stát navazuje stát, právo a hospodaření v 8.–9. ročníku.",
   "dalId": "ov6-clovek-osobnost",
   "rvp": "RVP ZV · Člověk a společnost — Výchova k občanství · 2. stupeň.",
   "doma": [
@@ -3910,7 +3910,7 @@
    "Sečte a odečte zlomky s různými jmenovateli.",
    "Vynásobí a vydělí zlomky a vysvětlí, proč se při dělení „obrací“."
   ],
-  "dal": "Racionální čísla (zlomky se znaménky) a poměr.",
+  "dal": "Na zlomky navazují racionální čísla, tedy zlomky se znaménky, a poměr.",
   "dalId": "m7-pomer",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (číslo a proměnná).",
   "doma": [
@@ -3958,7 +3958,7 @@
    "Rozliší přímou a nepřímou úměrnost („víc dělníků = kratší čas“ je nepřímá).",
    "Vyřeší úlohu trojčlenkou včetně zápisu šipek."
   ],
-  "dal": "Procenta a později funkce.",
+  "dal": "Na poměr a úměrnost navazují procenta a později funkce v 9. ročníku.",
   "dalId": "m7-procenta",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň (závislosti, vztahy a práce s daty).",
   "doma": [
@@ -4005,7 +4005,7 @@
    "Mluví o rodině, kamarádech, škole, volném čase a známých tématech.",
    "Jednoduše vypráví příběh nebo událost a popíše osoby, místa a věci."
   ],
-  "dal": "Mluvení doplňuje čtení jednodušších autentických textů.",
+  "dal": "Na minulý čas a vyprávění navazuje čtení jednodušších autentických textů a práce s informací.",
   "dalId": "aj8-cteni",
   "rvp": "RVP ZV · Cizí jazyk · 2. stupeň · Mluvení.",
   "doma": [
@@ -4075,7 +4075,7 @@
    "Pozná známá slova a jednoduché věty z probíraných témat.",
    "Z krátkého poslechu zachytí základní informaci, hlavně s vizuální oporou."
   ],
-  "dal": "Na poslech navazuje první jednoduchá konverzace.",
+  "dal": "Na první poslech navazuje jednoduchá konverzace s pozdravy, otázkami a běžnými reakcemi.",
   "dalId": "ncj7-mluveni",
   "rvp": "RVP ZV · Další cizí jazyk · 2. stupeň · Poslech s porozuměním.",
   "doma": [
@@ -4222,7 +4222,7 @@
    "Určí významový poměr mezi hlavními větami.",
    "Bezpečně píše čárky i v souvětí s vloženou vedlejší větou."
   ],
-  "dal": "Opakování a přijímačková čeština v 9. ročníku.",
+  "dal": "Na větné rozbory navazuje opakování a přijímačková čeština v 9. ročníku.",
   "dalId": "cj9-pravopis",
   "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. stupeň (skladba).",
   "doma": [
@@ -4362,7 +4362,7 @@
    "Zjednoduší výraz sloučením členů a roznásobením závorky.",
    "Vytkne společný činitel a použije základní vzorce."
   ],
-  "dal": "Lineární rovnice — výrazy v akci.",
+  "dal": "Na výrazy s proměnnou navazují lineární rovnice, tedy výrazy použité při řešení neznámé.",
   "dalId": "m8-rovnice",
   "rvp": "RVP ZV · Matematika a její aplikace · 2. stupeň: matematizuje jednoduché reálné situace s využitím proměnných.",
   "doma": [
@@ -4434,7 +4434,7 @@
    "Pozná výstražné piktogramy a vysvětlí základní H-věty a P-věty lidsky.",
    "Pracuje bezpečně s dostupnými látkami a posoudí riziko čisticích prostředků, kyselin nebo hořlavin."
   ],
-  "dal": "Směsi, roztoky, voda, vzduch a oddělování složek.",
+  "dal": "Na bezpečnost a vlastnosti látek navazují směsi, roztoky, voda, vzduch a oddělování složek.",
   "dalId": "ch8-smesi",
   "rvp": "RVP ZV · Chemie · Pozorování, pokus a bezpečnost práce.",
   "doma": [
@@ -4482,7 +4482,7 @@
    "Najde prvek v periodické tabulce a přečte jeho značku a protonové číslo.",
    "Rozpozná vybrané kovy a nekovy a odvodí některé jejich vlastnosti."
   ],
-  "dal": "Chemické reakce, rovnice a zákon zachování hmotnosti.",
+  "dal": "Na částicové složení navazují chemické reakce, rovnice a zákon zachování hmotnosti.",
   "dalId": "ch8-reakce",
   "rvp": "RVP ZV · Chemie · Částicové složení látek a chemické prvky.",
   "doma": [
@@ -4505,7 +4505,7 @@
    "Zapíše jednoduchou reakci rovnicí a ví, že hmota se neztrácí.",
    "Vysvětlí, proč teplota, rozdrcení látky nebo katalyzátor mění průběh reakce."
   ],
-  "dal": "Oxidy, kyseliny, hydroxidy, soli, pH a neutralizace.",
+  "dal": "Na chemické reakce navazují oxidy, kyseliny, hydroxidy, soli, pH a neutralizace.",
   "dalId": "ch9-anorganika-ph",
   "rvp": "RVP ZV · Chemie · Chemické reakce.",
   "doma": [
@@ -4600,7 +4600,7 @@
    "Popíše, jak průmyslová revoluce proměnila každodenní život.",
    "Uvede hlavní postavy národního obrození a jejich přínos."
   ],
-  "dal": "20. století v 9. ročníku.",
+  "dal": "Na novověk a 19. století navazuje 20. století v 9. ročníku dějepisu.",
   "dalId": "d9-20stoleti",
   "rvp": "RVP ZV · Člověk a společnost — Dějepis · 2. stupeň (novověk, modernizace společnosti).",
   "doma": [
@@ -4732,7 +4732,7 @@
    "Pracuje s texty: najde hlavní myšlenku, rozliší fakta od názorů.",
    "Zvládá časový limit — nezasekne se na jedné úloze."
   ],
-  "dal": "Jednotná přijímací zkouška — viz milník níže.",
+  "dal": "Na velké opakování navazuje jednotná přijímací zkouška, která je popsaná v milníku níže.",
   "dalId": "mil9-prijimacky",
   "rvp": "RVP ZV · Jazyk a jazyková komunikace · 2. stupeň. Specifikace testů JPZ zveřejňuje Cermat (cermat.cz).",
   "doma": [
