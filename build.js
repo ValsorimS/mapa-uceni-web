@@ -121,6 +121,7 @@ ${o.extraHead || ""}
       ${navLink("predmety/", "predmety", "Předměty")}
       ${navLink("doplnujici-obory/", "doplnujici", "Doplňující")}
       ${navLink("cermat/", "cermat", "Cermat")}
+      ${navLink("milniky/", "milniky", "Milníky")}
       ${navLink("kalendar/", "kalendar", "Kalendář")}
       ${navLink("zakony/", "zakony", "Zákony a pravidla")}
       ${navLink("rvp/", "rvp", "RVP")}
@@ -703,6 +704,70 @@ SKILLS.forEach(s => {
   }));
 })();
 
+/* Milníky a zkoušky */
+(function milniky() {
+  const R = "../";
+  const milestones = SKILLS.filter(s => s.p === "mil").sort((a, b) => a.r - b.r || a.t.localeCompare(b.t, "cs"));
+  const milestonesByGrade = [5, 9].map(r => {
+    const items = milestones.filter(s => s.r === r);
+    if (!items.length) return "";
+    return `<section class="subj">
+      <div class="subj-head"><span class="swatch" style="background:${SUBJ.mil.c}"></span><h2>${r}. ročník</h2><span class="cnt">${items.length} ${items.length === 1 ? "milník" : items.length < 5 ? "milníky" : "milníků"}</span></div>
+      <div class="cards">${items.map(s => skillCard(s, R)).join("")}</div>
+    </section>`;
+  }).join("");
+  const related = [
+    {
+      href: "cermat/",
+      tag: "Cermat",
+      color: "var(--green)",
+      title: "Přijímačková příprava",
+      text: "Mapování testových okruhů na matematiku a češtinu pro 5. i 9. třídu."
+    },
+    {
+      href: "kalendar/",
+      tag: "Termíny",
+      color: "var(--blue)",
+      title: "Kalendář školního roku",
+      text: "Zápisy, přihlášky, termíny přijímaček a důležité lhůty v čase."
+    },
+    {
+      href: "zakony/",
+      tag: "Pravidla",
+      color: "var(--red)",
+      title: "Zákony a pravidla",
+      text: "Povinná školní docházka, přijímací řízení, zápisy a podpůrná opatření."
+    },
+    {
+      href: "rvp/",
+      tag: "RVP",
+      color: SUBJ.mil.c,
+      title: "Proč nejsou v RVP výstupech",
+      text: "Milníky popisují školní události, ne očekávané výsledky učení."
+    }
+  ].map(item => `<a class="card" href="${R}${item.href}">
+    <span class="tag" style="background:${item.color}">${esc(item.tag)}</span>
+    <h3>${esc(item.title)}</h3>
+    <p>${esc(item.text)}</p>
+  </a>`).join("");
+  const body = `
+  <div class="crumbs"><a href="${R}">Mapa učení</a> › Milníky a zkoušky</div>
+  <div class="page-title"><h1>Milníky a zkoušky</h1>
+  <p class="lead">Přijímačky, dokončení základního vzdělání a podobné přechody jsou školní události. Nejsou to očekávané výstupy RVP, ale rodič je potřebuje vidět pohromadě.</p></div>
+  <div class="infobox"><b>Jak to číst:</b> milník říká, co se ve škole nebo v přijímacím řízení děje a na co navazuje. Samotné dovednosti jsou pořád v běžných předmětech, Cermat část ukazuje přijímačkové okruhy a RVP stránka hlídá mapování výstupů.</div>
+  ${milestonesByGrade}
+  <section class="section">
+    <div class="sec-head"><h2>Související rozcestníky</h2></div>
+    <div class="cards">${related}</div>
+  </section>`;
+  write("milniky/index.html", layout({
+    path: "milniky/", nav: "milniky",
+    title: "Milníky a zkoušky na základní škole | Mapa učení",
+    desc: "Přijímačky na víceletá gymnázia, přijímačky na střední školy a dokončení základního vzdělání jako samostatný rozcestník mimo RVP výstupy.",
+    body
+  }));
+})();
+
 /* Doplňující vzdělávací obory */
 (function doplnujiciObory() {
   const R = "../";
@@ -984,7 +1049,7 @@ SKILLS.forEach(s => {
     <div><b>${mappedSkillIds.size}</b><span>témat s rvpRefs</span></div>
     <div><b>${rvpMappableSkills.length - mappedSkillIds.size}</b><span>${topicWord(rvpMappableSkills.length - mappedSkillIds.size)} čeká na mapování</span></div>
   </div>
-  <div class="infobox"><b>Jak to číst:</b> RVP stanovuje výstupy pro období a stupně, nikoli pevné ročníky. Pokrytí proto ukazuje vazbu témat na RVP výstupy; ročníkové zařazení zůstává orientační. ${outOfRvpSkills.length} milníky a zkoušky vedeme mimo RVP mapování, protože popisují školní události, ne očekávané výstupy.</div>
+  <div class="infobox"><b>Jak to číst:</b> RVP stanovuje výstupy pro období a stupně, nikoli pevné ročníky. Pokrytí proto ukazuje vazbu témat na RVP výstupy; ročníkové zařazení zůstává orientační. <a href="${R}milniky/">${outOfRvpSkills.length} milníky a zkoušky</a> vedeme mimo RVP mapování, protože popisují školní události, ne očekávané výstupy.</div>
   <section class="section">
     <div class="sec-head"><h2>Oblasti a obory</h2></div>
     ${RVP.areas.map(area => `<div class="rvp-area">
@@ -1166,7 +1231,7 @@ const cermatUrls = ["cermat/"]
   .concat(CERMAT.exams.map(cermatExamUrl))
   .concat(CERMAT.exams.flatMap(exam => exam.subjects.map(subject => cermatSubjectUrl(exam, subject))));
 const supplementaryUrls = ["doplnujici-obory/"].concat(SUPP.fields.map(supplementaryUrl));
-const urls = ["", "predmety/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/"]
+const urls = ["", "predmety/", "milniky/", "kalendar/", "zakony/", "rvp/", "slovnicek/", "o-mape/"]
   .concat(supplementaryUrls)
   .concat(cermatUrls)
   .concat(Array.from({ length: 9 }, (_, i) => `rocnik/${i + 1}/`))
