@@ -111,6 +111,8 @@ function layout(o) {
 <meta property="og:site_name" content="Mapa učení">
 <meta property="og:image" content="${SITE_URL}/assets/favicon.svg">
 <meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#22304A">
+<link rel="manifest" href="${R}manifest.webmanifest">
 <script type="application/ld+json">${JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -663,6 +665,65 @@ function parentPathQuality(paths) {
 
 const PARENT_PATH_QUALITY = parentPathQuality(PPATHS);
 
+const UX_SCENARIOS = [
+  {
+    title: "4. třída a matematika drhne",
+    start: "Úvod → ročník nebo hledání",
+    target: "4. ročník, matematická témata, plán týdne",
+    path: ["Vybrat 4. ročník", "Najít matematiku", "Otevřít téma a rodičovská vodítka", "Případně přidat do plánu"],
+    links: ["rocnik/4/", "predmety/matematika/", "plan/"],
+    status: "průchod do 3 kliků"
+  },
+  {
+    title: "Rodič řeší odklad",
+    start: "Pomoc → Co právě řešíte?",
+    target: "Zápis, odklad, PPP a školní otázky",
+    path: ["Otevřít Pomoc", "Zvolit zápis/odklad", "Pokračovat na detail situace"],
+    links: ["pomoc/", "situace/odklad-skolni-dochazky/", "situace/zapis-do-1-tridy/"],
+    status: "průchod do 2 kliků"
+  },
+  {
+    title: "Dítě se bojí přijímaček",
+    start: "Úvod → Cermat",
+    target: "Cermat dashboard, rozbor testu, tiskový plán",
+    path: ["Otevřít Cermat", "Vybrat 5. nebo 9. třídu", "Zapsat rozbor testu a tisknout plán"],
+    links: ["cermat/", "cermat/5-trida/", "cermat/9-trida/"],
+    status: "průchod do 2 kliků"
+  },
+  {
+    title: "Dítě špatně čte",
+    start: "Pomoc nebo hledání",
+    target: "Rodičovská cesta, čtenářská témata, signál pro učitele",
+    path: ["Zvolit špatně čte", "Otevřít rodičovskou cestu", "Přejít na čtení s porozuměním"],
+    links: ["rodicovske-cesty/spatne-cte/", "dovednost/plynule-cteni-s-porozumenim/"],
+    status: "průchod do 2 kliků"
+  },
+  {
+    title: "Rodič hledá povinné učivo",
+    start: "Úvod → RVP",
+    target: "RVP pokrytí, ŠVP vysvětlení, zdroje",
+    path: ["Otevřít RVP", "Zkontrolovat oblast/obor", "Přejít na navázaná témata"],
+    links: ["rvp/", "o-mape/"],
+    status: "průchod do 2 kliků"
+  },
+  {
+    title: "Přechod na 2. stupeň",
+    start: "Pomoc → Situace",
+    target: "Adaptace, organizace, ročníky 5–6",
+    path: ["Otevřít Pomoc", "Zvolit přechod na 2. stupeň", "Projít navázaná témata"],
+    links: ["situace/prechod-1-2-stupen/", "rocnik/6/"],
+    status: "průchod do 2 kliků"
+  },
+  {
+    title: "Rodič chce rychle pokračovat doma",
+    start: "Úvod → Můj plán",
+    target: "Tisknutelný plán podle lokálního stavu",
+    path: ["Otevřít plán", "Zkontrolovat doporučené kroky", "Vytisknout"],
+    links: ["plan/"],
+    status: "průchod jedním vstupem"
+  }
+];
+
 function situationCard(situation, R) {
   return `<a class="card" href="${R}${situationUrl(situation)}">
     <span class="tag" style="background:var(--blue)">Situace</span>
@@ -729,6 +790,32 @@ function coverageDashboard(R) {
       <article><h3>Podle předmětu</h3><table><thead><tr><th>Předmět</th><th>Témata</th><th>RVP</th><th>Vodítka</th><th>Další krok</th><th>Cermat</th></tr></thead><tbody>${subjectRows}</tbody></table></article>
       <article><h3>Podle ročníku</h3><table><thead><tr><th>Ročník</th><th>Témata</th><th>RVP</th><th>Vodítka</th><th>Další krok</th><th>Cermat</th></tr></thead><tbody>${gradeRows}</tbody></table></article>
     </div>
+  </section>`;
+}
+
+function uxScenarioAudit(R) {
+  return `<section class="section ux-audit">
+    <div class="sec-head"><h2>Scénářový UX audit</h2><span class="cnt">${UX_SCENARIOS.length} rodičovských průchodů</span></div>
+    <div class="infobox"><b>Co hlídá:</b> jestli se běžný rodič dostane od problému ke správnému rozcestníku, tématu nebo plánu bez dlouhého hledání. Není to náhrada testování s lidmi, ale rychlá kontrola navigace po každém větším řezu.</div>
+    <div class="ux-scenarios">${UX_SCENARIOS.map(item => `<article class="ux-scenario">
+      <div><span class="tag" style="background:var(--blue)">UX</span><h3>${esc(item.title)}</h3><p><b>Start:</b> ${esc(item.start)}</p><p><b>Cíl:</b> ${esc(item.target)}</p></div>
+      <ol>${item.path.map(step => `<li>${esc(step)}</li>`).join("")}</ol>
+      <div class="scenario-links">${item.links.map(href => `<a href="${R}${href}">${esc(href)}</a>`).join("")}</div>
+      <span class="scenario-status">${esc(item.status)}</span>
+    </article>`).join("")}</div>
+  </section>`;
+}
+
+function analyticsPanel() {
+  return `<section class="section analytics-panel" data-analytics-panel>
+    <div class="sec-head"><h2>Lokální signály používání</h2><span class="cnt">jen tento prohlížeč</span></div>
+    <div class="infobox"><b>Soukromí:</b> tahle měření zůstávají v localStorage a nikam se neposílají. Pomáhají při ručním ladění: co se hledá, kam se kliká a které vstupy rodič používá.</div>
+    <div class="analytics-grid">
+      <div class="gl"><b>Hledání</b><p data-analytics-searches>Načítám…</p></div>
+      <div class="gl"><b>Kliky</b><p data-analytics-clicks>Načítám…</p></div>
+      <div class="gl"><b>Interakce</b><p data-analytics-events>Načítám…</p></div>
+    </div>
+    <button class="printbtn analytics-clear" type="button" data-analytics-clear>Vymazat lokální měření</button>
   </section>`;
 }
 
@@ -808,8 +895,8 @@ function controlQuestions(s) {
   const body = `
   <section class="hero">
     <span class="eyebrow">Zdarma · bez účtu · bez reklam</span>
-    <h1>České základní vzdělávání, <span class="u">zmapované</span></h1>
-    <p class="sub">Vyhledejte cokoli, co se vaše dítě právě učí — co to znamená, jak poznáte, že to zvládá, a co přijde dál. Od prvních písmen po přijímačky.</p>
+    <h1>Mapa učiva a pomoci pro rodiče školáků</h1>
+    <p class="sub">Najděte ročník, téma nebo problém. Každá stránka říká, co se dítě učí, jak poznat porozumění, co zkusit doma a kdy mluvit se školou.</p>
     <form class="searchbox" action="hledat/" method="get" role="search">
       <input type="search" name="q" list="topics" placeholder="Zkuste: vyjmenovaná slova, zlomky, Pythagorova věta…" aria-label="Hledat učivo">
       <button class="sbtn" type="submit" aria-label="Hledat">→</button>
@@ -822,9 +909,9 @@ function controlQuestions(s) {
     <div class="sec-head"><h2>Čím chcete začít?</h2></div>
     <div class="cards">
       <a class="card" href="#rocniky"><span class="tag" style="background:var(--blue)">Ročník</span><h3>Chci přehled učiva</h3><p>Vyberte ročník a projděte, co se v něm obvykle řeší napříč předměty.</p></a>
-      <a class="card" href="pomoc/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Řeším konkrétní problém</h3><p>Rozcestník pro čtení, tempo, matematiku, pravopis, školu a životní situace.</p></a>
-      <a class="card" href="cermat/"><span class="tag" style="background:var(--red)">Cermat</span><h3>Připravujeme přijímačky</h3><p>Okruhy, rozbor testu nanečisto, dashboard přípravy a tiskový plán.</p></a>
-      <a class="card" href="rvp/"><span class="tag" style="background:var(--green)">RVP</span><h3>Potřebuji pravidla a rámec</h3><p>Pokrytí RVP, školní zákon, slovníček zkratek a vysvětlení ŠVP.</p></a>
+      <a class="card" href="pomoc/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Řeším konkrétní problém</h3><p>Čtení, tempo, matematika, pravopis, škola, odklad i další situace.</p></a>
+      <a class="card" href="cermat/"><span class="tag" style="background:var(--red)">Cermat</span><h3>Připravujeme přijímačky</h3><p>Okruhy, rozbor testu, stav přípravy a tiskový plán.</p></a>
+      <a class="card" href="rvp/"><span class="tag" style="background:var(--green)">RVP</span><h3>Potřebuji pravidla a rámec</h3><p>RVP, školní zákon, ŠVP, slovníček a zdroje.</p></a>
       <a class="card" href="plan/"><span class="tag" style="background:var(--blue)">Plán</span><h3>Chci plán na tento týden</h3><p>Tisknutelný přehled podle témat a Cermat okruhů uložených v tomto prohlížeči.</p></a>
     </div>
   </section>
@@ -1352,7 +1439,7 @@ SKILLS.forEach(s => {
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Pomoc</div>
   <div class="page-title"><h1>Pomoc pro rodiče</h1>
-  <p class="lead">Praktické rozcestníky mimo osnovu: když dítě nestíhá, když se opakuje konkrétní problém nebo když rodina řeší důležitý školní přechod.</p></div>
+  <p class="lead">Vyberte problém a dostaňte se rovnou k praktickému kroku: doma, ve škole nebo v poradně.</p></div>
   <section class="section help-chooser">
     <div class="sec-head"><h2>Co právě řešíte?</h2></div>
     <div class="infobox"><b>Bez ukládání:</b> výběr se nikam neposílá ani neukládá. Jen na této stránce ukáže vhodný další krok.</div>
@@ -1360,7 +1447,7 @@ SKILLS.forEach(s => {
     <div class="chooser-result" id="help-result" hidden></div>
   </section>
   <div class="cards">
-    <a class="card" href="${R}kdyz-dite-nestiha/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Když dítě nestíhá</h3><p>Jak zmapovat problém, zmenšit tlak a domluvit podporu doma, se školou nebo poradnou.</p></a>
+    <a class="card" href="${R}kdyz-dite-nestiha/"><span class="tag" style="background:var(--green)">Pomoc</span><h3>Když dítě nestíhá</h3><p>Postup, jak zjistit příčinu, zmenšit tlak a zapojit školu.</p></a>
     <a class="card" href="${R}rodicovske-cesty/"><span class="tag" style="background:var(--green)">Cesty</span><h3>Rodičovské cesty</h3><p>Rozcestníky podle problému: čtení, učení, matematika, tempo, pravopis nebo odpor ke škole.</p></a>
     <a class="card" href="${R}situace/"><span class="tag" style="background:var(--blue)">Situace</span><h3>Přechody a životní situace</h3><p>Zápis, odklad, změna školy, přechod na druhý stupeň, SŠ a domácí vzdělávání.</p></a>
   </div>
@@ -1700,7 +1787,7 @@ SKILLS.forEach(s => {
   const body = `
   <div class="crumbs"><a href="${R}">Mapa učení</a> › Pokrytí RVP</div>
   <div class="page-title"><h1>Pokrytí RVP</h1>
-  <p class="lead">Strojově kontrolované mapování témat na očekávané výstupy RVP ZV. U importovaných oborů je vidět pokrytí výstupů, navázaná témata i mezery, které ještě čekají na doplnění.</p></div>
+  <p class="lead">Přehled, která témata mapy navazují na očekávané výstupy RVP ZV. Ročníky jsou orientační, protože konkrétní pořadí určuje ŠVP školy.</p></div>
   <div class="metrics">
     <div><b>${outcomes.length}</b><span>importovaných výstupů RVP</span></div>
     <div><b>${mappedOutcomes.length}</b><span>výstupů s tématem</span></div>
@@ -1767,7 +1854,9 @@ SKILLS.forEach(s => {
     <div><b>${PARENT_PATH_QUALITY.findings.length}</b><span>cest bez kvalitativních vodítek</span></div>
   </div>
   <div class="infobox"><b>Jak to číst:</b> skóre není známka kvality učiva ani dítěte. Je to pracovní filtr, který hlídá, jestli web má u témat dost konkrétní vysvětlení, domácí pomoc, návaznost a rodičovská vodítka.</div>
+  ${uxScenarioAudit(R)}
   ${coverageDashboard(R)}
+  ${analyticsPanel()}
   ${section("Vysoká priorita", byPriority("vysoká"))}
   ${section("Střední priorita", byPriority("střední"))}
   ${section("Nízká priorita", byPriority("nízká"))}
@@ -1816,13 +1905,23 @@ SKILLS.forEach(s => {
   <div class="page-title"><h1>O mapě</h1></div>
   <article class="notebook"><div class="inner">
     <p class="blockt">Proč tahle mapa existuje</p>
-    <p style="max-width:640px">Rodič často slyší jen „bereme vzory“ nebo „máme zlomky“. Mapa učení rychle ukáže, co téma znamená, jak poznat zvládnutí, co zkusit doma a kdy se ozvat škole.</p>
+    <p style="max-width:680px">Rodič často slyší jen „bereme vzory“ nebo „máme zlomky“. Mapa učení ukáže, co téma znamená, jak poznat porozumění, co zkusit doma a kdy se ozvat škole.</p>
     <p class="blockt">Z čeho vychází</p>
-    <p style="max-width:640px">Vychází z RVP ZV a běžné praxe českých škol. Ročníky jsou orientační: konkrétní pořadí určuje školní vzdělávací program každé školy.</p>
+    <p style="max-width:680px">Vychází z RVP ZV, školského zákona, veřejných informací Cermatu a běžné praxe českých škol. Ročníky jsou orientační: konkrétní pořadí určuje školní vzdělávací program každé školy.</p>
+    <div class="source-grid">
+      <div><b>RVP ZV</b><p>Rámec očekávaných výstupů. Mapa ho převádí do rodičovsky čitelných témat.</p><a href="${R}rvp/">Pokrytí RVP →</a></div>
+      <div><b>Cermat</b><p>Přijímačkové okruhy jsou navázané na běžná témata matematiky a češtiny.</p><a href="${R}cermat/">Cermat část →</a></div>
+      <div><b>Školský zákon</b><p>Pravidla zápisu, docházky, podpory a přijímacího řízení jsou vedená jako orientační průvodce.</p><a href="${R}zakony/">Zákony a pravidla →</a></div>
+      <div><b>ŠVP školy</b><p>Škola může témata řadit jinak. Mapa proto neříká pevné termíny, ale návaznosti.</p><a href="${R}slovnicek/">Slovníček →</a></div>
+    </div>
     <p class="blockt">Co mapa není</p>
-    <p style="max-width:640px">Není to diagnostika ani důkaz, že dítě zaostává. Když se problém opakuje, první praktický krok je mluvit s učitelem.</p>
+    <p style="max-width:680px">Není to oficiální zdroj MŠMT, diagnostika ani důkaz, že dítě zaostává. Nenahrazuje učitele, školu, PPP/SPC ani právní poradenství. Když se problém opakuje, první praktický krok je mluvit s učitelem.</p>
     <p class="blockt">Jak hlídáme kvalitu</p>
-    <p style="max-width:640px"><a href="${R}audit/">Audit obsahu</a> hlídá RVP vazby, návaznosti, domácí pomoc a rodičovská vodítka. Slouží k údržbě webu, ne k hodnocení dítěte nebo školy.</p>
+    <p style="max-width:680px"><a href="${R}audit/">Audit obsahu</a> hlídá RVP vazby, návaznosti, domácí pomoc, rodičovská vodítka a scénářové průchody. Slouží k údržbě webu, ne k hodnocení dítěte nebo školy.</p>
+    <p class="blockt">Soukromí</p>
+    <p style="max-width:680px">Web je statický a funguje bez účtu. Odškrtávání témat, Cermat stav, plán, rozbory testů a lokální signály používání zůstávají jen v prohlížeči. Neodesílají se na server.</p>
+    <p class="blockt">Aktualizace</p>
+    <p style="max-width:680px">Při větších změnách RVP, Cermatu nebo školských pravidel je potřeba data znovu projít. Stránka <a href="${R}audit/">Audit obsahu</a> ukazuje stav pokrytí a místa, která vyžadují redakční kontrolu.</p>
   </div></article>`;
   write("o-mape/index.html", layout({
     path: "o-mape/", nav: "o-mape",
@@ -2226,6 +2325,33 @@ fs.writeFileSync(path.join(OUT, "sitemap.xml"),
   urls.map(u => `  <url><loc>${SITE_URL}/${u}</loc></url>`).join("\n") + `\n</urlset>\n`, "utf8");
 fs.writeFileSync(path.join(OUT, "robots.txt"),
   `User-agent: *\nAllow: /\nDisallow: /hledat/\nSitemap: ${SITE_URL}/sitemap.xml\n`, "utf8");
+fs.writeFileSync(path.join(OUT, "manifest.webmanifest"), JSON.stringify({
+  name: "Mapa učení",
+  short_name: "Mapa učení",
+  description: "Průvodce českým základním vzděláváním pro rodiče.",
+  start_url: "/",
+  scope: "/",
+  display: "standalone",
+  background_color: "#FCFCF8",
+  theme_color: "#22304A",
+  lang: "cs",
+  icons: [
+    { src: "/assets/favicon.svg", sizes: "64x64 192x192 512x512", type: "image/svg+xml", purpose: "any" },
+    { src: "/assets/favicon.svg", sizes: "64x64 192x192 512x512", type: "image/svg+xml", purpose: "maskable" }
+  ],
+  shortcuts: [
+    { name: "Pomoc", url: "/pomoc/", description: "Rodičovské rozcestníky a situace." },
+    { name: "Můj plán", url: "/plan/", description: "Tisknutelný týdenní plán." },
+    { name: "Cermat", url: "/cermat/", description: "Přijímačková příprava." }
+  ]
+}, null, 2) + "\n", "utf8");
+fs.writeFileSync(path.join(OUT, "sw.js"),
+  `"use strict";\n` +
+  `const CACHE="mapa-uceni-pwa-v1";\n` +
+  `const CORE=${JSON.stringify(["/","/index.html","/pomoc/","/hledat/","/plan/","/cermat/","/rvp/","/o-mape/","/audit/","/assets/style.css","/assets/app.js","/assets/search-data.js","/assets/favicon.svg","/manifest.webmanifest"])};\n` +
+  `self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting()));});\n` +
+  `self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});\n` +
+  `self.addEventListener("fetch",event=>{if(event.request.method!=="GET")return;const url=new URL(event.request.url);if(url.origin!==location.origin)return;event.respondWith(fetch(event.request).then(response=>{const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));return response;}).catch(()=>caches.match(event.request).then(found=>found||caches.match("/"))));});\n`, "utf8");
 fs.writeFileSync(path.join(OUT, "llms.txt"),
   `# Mapa učení\n\nMapa učení je český statický web pro rodiče dětí na základní škole. Vysvětluje témata 1.–9. ročníku, RVP vazby, Cermat přípravu, rodičovské cesty, životní situace a zákonný rámec.\n\nDůležité vstupy:\n- ${SITE_URL}/\n- ${SITE_URL}/predmety/\n- ${SITE_URL}/pomoc/\n- ${SITE_URL}/cermat/\n- ${SITE_URL}/rvp/\n- ${SITE_URL}/audit/\n\nObsah je orientační a nenahrazuje konzultaci s učitelem, školou ani poradenským zařízením.\n`, "utf8");
 

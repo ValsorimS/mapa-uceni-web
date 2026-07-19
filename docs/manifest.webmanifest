@@ -1,0 +1,42 @@
+{
+  "name": "Mapa učení",
+  "short_name": "Mapa učení",
+  "description": "Průvodce českým základním vzděláváním pro rodiče.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FCFCF8",
+  "theme_color": "#22304A",
+  "lang": "cs",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "64x64 192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "64x64 192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pomoc",
+      "url": "/pomoc/",
+      "description": "Rodičovské rozcestníky a situace."
+    },
+    {
+      "name": "Můj plán",
+      "url": "/plan/",
+      "description": "Tisknutelný týdenní plán."
+    },
+    {
+      "name": "Cermat",
+      "url": "/cermat/",
+      "description": "Přijímačková příprava."
+    }
+  ]
+}

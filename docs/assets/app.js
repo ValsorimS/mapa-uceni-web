@@ -10,11 +10,67 @@
   function saveCermatStatus(s){store.set("mapa-cermat-status",JSON.stringify(s));}
   function testLog(){try{return JSON.parse(store.get("mapa-cermat-tests")||"[]")||[];}catch(e){return [];}}
   function saveTestLog(s){store.set("mapa-cermat-tests",JSON.stringify(s.slice(-30)));}
+  function analytics(){
+    try{
+      var a=JSON.parse(store.get("mapa-local-analytics")||"{\"events\":[],\"searches\":{},\"clicks\":{}}")||{};
+      a.events=a.events||[];a.searches=a.searches||{};a.clicks=a.clicks||{};
+      return a;
+    }catch(e){return {events:[],searches:{},clicks:{}};}
+  }
+  function saveAnalytics(a){store.set("mapa-local-analytics",JSON.stringify(a));}
+  function track(kind,label){
+    var a=analytics();
+    label=String(label||"").slice(0,120);
+    if(!label)return;
+    if(kind==="search")a.searches[label]=(a.searches[label]||0)+1;
+    else if(kind==="click")a.clicks[label]=(a.clicks[label]||0)+1;
+    a.events.push({t:Date.now(),kind:kind,label:label,path:location.pathname});
+    a.events=a.events.slice(-120);
+    saveAnalytics(a);
+    paintAnalyticsPanel();
+  }
+  function topList(obj){
+    return Object.keys(obj||{}).sort(function(a,b){return obj[b]-obj[a]||a.localeCompare(b,"cs");}).slice(0,5)
+      .map(function(k){return k+" ("+obj[k]+")";}).join(", ")||"Zatím nic.";
+  }
+  function paintAnalyticsPanel(){
+    var root=document.querySelector("[data-analytics-panel]");
+    if(!root)return;
+    var a=analytics();
+    var searches=root.querySelector("[data-analytics-searches]");
+    var clicks=root.querySelector("[data-analytics-clicks]");
+    var events=root.querySelector("[data-analytics-events]");
+    if(searches)searches.textContent=topList(a.searches);
+    if(clicks)clicks.textContent=topList(a.clicks);
+    if(events)events.textContent=(a.events||[]).length+" posledních lokálních událostí.";
+  }
   var stateLabel={done:"Umím",practice:"Trénuju",problem:"Problém"};
   var causeLabel={
     zadani:"zadání",pocitani:"počítání",jednotky:"jednotky/graf",postup:"postup",
     text:"text",pravopis:"pravopis",mluvnice:"mluvnice",skladba:"skladba",cas:"čas"
   };
+
+  document.querySelectorAll('form[role="search"]').forEach(function(form){
+    form.addEventListener("submit",function(){
+      var q=form.querySelector('input[type="search"],input[name="q"]');
+      if(q&&q.value.trim())track("search",q.value.trim());
+    });
+  });
+  document.addEventListener("click",function(e){
+    var link=e.target&&e.target.closest&&e.target.closest("a[href]");
+    if(link){
+      var href=link.getAttribute("href")||"";
+      if(href&&href.charAt(0)!=="#")track("click",href);
+    }
+    var choice=e.target&&e.target.closest&&e.target.closest("[data-choice]");
+    if(choice)track("choice",choice.getAttribute("data-choice"));
+  });
+  document.querySelectorAll("[data-analytics-clear]").forEach(function(btn){
+    btn.addEventListener("click",function(){
+      saveAnalytics({events:[],searches:{},clicks:{}});
+      paintAnalyticsPanel();
+    });
+  });
 
   /* Tlačítko na detailu tématu */
   var btn=document.querySelector(".donebtn[data-skill-id]");
@@ -29,6 +85,7 @@
     btn.addEventListener("click",function(){
       var d=doneSet(),id=btn.getAttribute("data-skill-id");
       d.has(id)?d.delete(id):d.add(id);
+      track("skill-state",id);
       save(d);paint();refresh();
     });
   }
@@ -106,13 +163,14 @@
       b.addEventListener("click",function(){
         var all=cermatStatus(),state=b.getAttribute("data-state");
         all[key]===state?delete all[key]:all[key]=state;
+        track("cermat-state",key+":"+state);
         saveCermatStatus(all);paint();refresh();
       });
     });
     paint();
   });
   document.querySelectorAll("[data-print]").forEach(function(b){
-    b.addEventListener("click",function(){window.print();});
+    b.addEventListener("click",function(){track("print",location.pathname);window.print();});
   });
 
   document.querySelectorAll("[data-weekly-plan]").forEach(function(root){
@@ -218,6 +276,7 @@
         note:form.querySelector('[name="note"]').value.trim()
       };
       var log=testLog();log.push(entry);saveTestLog(log);
+      track("test-review",entry.exam+":"+entry.subject);
       var statuses=cermatStatus();
       selectedReviewTargets(root).forEach(function(t){
         var parts=t.split(":");
@@ -231,5 +290,14 @@
     });
     paintReview(root);
   });
+  if("serviceWorker" in navigator){
+    window.addEventListener("load",function(){
+      var root=document.querySelector('link[rel="manifest"]');
+      var href=root?root.getAttribute("href"):"";
+      var sw=href.replace(/manifest\\.webmanifest$/,"sw.js")||"/sw.js";
+      navigator.serviceWorker.register(sw).catch(function(){});
+    });
+  }
+  paintAnalyticsPanel();
   refresh();
 })();

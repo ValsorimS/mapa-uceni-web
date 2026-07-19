@@ -13,6 +13,8 @@
 <meta property="og:site_name" content="Mapa učení">
 <meta property="og:image" content="https://www.mapa-uceni.cz/assets/favicon.svg">
 <meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#22304A">
+<link rel="manifest" href="../manifest.webmanifest">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Audit obsahu | Mapa učení","description":"Automatický audit slabších témat na Mapě učení: krátké texty, chybějící domácí tipy a návaznosti.","url":"https://www.mapa-uceni.cz/audit/","isPartOf":{"@type":"WebSite","name":"Mapa učení","url":"https://www.mapa-uceni.cz/","potentialAction":{"@type":"SearchAction","target":"https://www.mapa-uceni.cz/hledat/?q={search_term_string}","query-input":"required name=search_term_string"}}}</script>
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,6 +63,46 @@
     <div><b>0</b><span>cest bez kvalitativních vodítek</span></div>
   </div>
   <div class="infobox"><b>Jak to číst:</b> skóre není známka kvality učiva ani dítěte. Je to pracovní filtr, který hlídá, jestli web má u témat dost konkrétní vysvětlení, domácí pomoc, návaznost a rodičovská vodítka.</div>
+  <section class="section ux-audit">
+    <div class="sec-head"><h2>Scénářový UX audit</h2><span class="cnt">7 rodičovských průchodů</span></div>
+    <div class="infobox"><b>Co hlídá:</b> jestli se běžný rodič dostane od problému ke správnému rozcestníku, tématu nebo plánu bez dlouhého hledání. Není to náhrada testování s lidmi, ale rychlá kontrola navigace po každém větším řezu.</div>
+    <div class="ux-scenarios"><article class="ux-scenario">
+      <div><span class="tag" style="background:var(--blue)">UX</span><h3>4. třída a matematika drhne</h3><p><b>Start:</b> Úvod → ročník nebo hledání</p><p><b>Cíl:</b> 4. ročník, matematická témata, plán týdne</p></div>
+      <ol><li>Vybrat 4. ročník</li><li>Najít matematiku</li><li>Otevřít téma a rodičovská vodítka</li><li>Případně přidat do plánu</li></ol>
+      <div class="scenario-links"><a href="../rocnik/4/">rocnik/4/</a><a href="../predmety/matematika/">predmety/matematika/</a><a href="../plan/">plan/</a></div>
+      <span class="scenario-status">průchod do 3 kliků</span>
+    </article><article class="ux-scenario">
+      <div><span class="tag" style="background:var(--blue)">UX</span><h3>Rodič řeší odklad</h3><p><b>Start:</b> Pomoc → Co právě řešíte?</p><p><b>Cíl:</b> Zápis, odklad, PPP a školní otázky</p></div>
+      <ol><li>Otevřít Pomoc</li><li>Zvolit zápis/odklad</li><li>Pokračovat na detail situace</li></ol>
+      <div class="scenario-links"><a href="../pomoc/">pomoc/</a><a href="../situace/odklad-skolni-dochazky/">situace/odklad-skolni-dochazky/</a><a href="../situace/zapis-do-1-tridy/">situace/zapis-do-1-tridy/</a></div>
+      <span class="scenario-status">průchod do 2 kliků</span>
+    </article><article class="ux-scenario">
+      <div><span class="tag" style="background:var(--blue)">UX</span><h3>Dítě se bojí přijímaček</h3><p><b>Start:</b> Úvod → Cermat</p><p><b>Cíl:</b> Cermat dashboard, rozbor testu, tiskový plán</p></div>
+      <ol><li>Otevřít Cermat</li><li>Vybrat 5. nebo 9. třídu</li><li>Zapsat rozbor testu a tisknout plán</li></ol>
+      <div class="scenario-links"><a href="../cermat/">cermat/</a><a href="../cermat/5-trida/">cermat/5-trida/</a><a href="../cermat/9-trida/">cermat/9-trida/</a></div>
+      <span class="scenario-status">průchod do 2 kliků</span>
+    </article><article class="ux-scenario">
+      <div><span class="tag" style="background:var(--blue)">UX</span><h3>Dítě špatně čte</h3><p><b>Start:</b> Pomoc nebo hledání</p><p><b>Cíl:</b> Rodičovská cesta, čtenářská témata, signál pro učitele</p></div>
+      <ol><li>Zvolit špatně čte</li><li>Otevřít rodičovskou cestu</li><li>Přejít na čtení s porozuměním</li></ol>
+      <div class="scenario-links"><a href="../rodicovske-cesty/spatne-cte/">rodicovske-cesty/spatne-cte/</a><a href="../dovednost/plynule-cteni-s-porozumenim/">dovednost/plynule-cteni-s-porozumenim/</a></div>
+      <span class="scenario-status">průchod do 2 kliků</span>
+    </article><article class="ux-scenario">
+      <div><span class="tag" style="background:var(--blue)">UX</span><h3>Rodič hledá povinné učivo</h3><p><b>Start:</b> Úvod → RVP</p><p><b>Cíl:</b> RVP pokrytí, ŠVP vysvětlení, zdroje</p></div>
+      <ol><li>Otevřít RVP</li><li>Zkontrolovat oblast/obor</li><li>Přejít na navázaná témata</li></ol>
+      <div class="scenario-links"><a href="../rvp/">rvp/</a><a href="../o-mape/">o-mape/</a></div>
+      <span class="scenario-status">průchod do 2 kliků</span>
+    </article><article class="ux-scenario">
+      <div><span class="tag" style="background:var(--blue)">UX</span><h3>Přechod na 2. stupeň</h3><p><b>Start:</b> Pomoc → Situace</p><p><b>Cíl:</b> Adaptace, organizace, ročníky 5–6</p></div>
+      <ol><li>Otevřít Pomoc</li><li>Zvolit přechod na 2. stupeň</li><li>Projít navázaná témata</li></ol>
+      <div class="scenario-links"><a href="../situace/prechod-1-2-stupen/">situace/prechod-1-2-stupen/</a><a href="../rocnik/6/">rocnik/6/</a></div>
+      <span class="scenario-status">průchod do 2 kliků</span>
+    </article><article class="ux-scenario">
+      <div><span class="tag" style="background:var(--blue)">UX</span><h3>Rodič chce rychle pokračovat doma</h3><p><b>Start:</b> Úvod → Můj plán</p><p><b>Cíl:</b> Tisknutelný plán podle lokálního stavu</p></div>
+      <ol><li>Otevřít plán</li><li>Zkontrolovat doporučené kroky</li><li>Vytisknout</li></ol>
+      <div class="scenario-links"><a href="../plan/">plan/</a></div>
+      <span class="scenario-status">průchod jedním vstupem</span>
+    </article></div>
+  </section>
   <section class="section coverage-dashboard">
     <div class="sec-head"><h2>Přehled pokrytí</h2><span class="cnt">206/206 témat má rodičovská vodítka</span></div>
     <div class="coverage-summary">
@@ -269,6 +311,16 @@
     <td>7</td>
   </tr></tbody></table></article>
     </div>
+  </section>
+  <section class="section analytics-panel" data-analytics-panel>
+    <div class="sec-head"><h2>Lokální signály používání</h2><span class="cnt">jen tento prohlížeč</span></div>
+    <div class="infobox"><b>Soukromí:</b> tahle měření zůstávají v localStorage a nikam se neposílají. Pomáhají při ručním ladění: co se hledá, kam se kliká a které vstupy rodič používá.</div>
+    <div class="analytics-grid">
+      <div class="gl"><b>Hledání</b><p data-analytics-searches>Načítám…</p></div>
+      <div class="gl"><b>Kliky</b><p data-analytics-clicks>Načítám…</p></div>
+      <div class="gl"><b>Interakce</b><p data-analytics-events>Načítám…</p></div>
+    </div>
+    <button class="printbtn analytics-clear" type="button" data-analytics-clear>Vymazat lokální měření</button>
   </section>
   <section class="section">
     <div class="sec-head"><h2>Vysoká priorita</h2><span class="cnt">0 témat</span></div>
